@@ -1,0 +1,14 @@
+{
+  "name": "concursero-angular",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -n api,web -c blue,magenta \"npm --prefix server run dev\" \"npm --prefix client start\"",
+    "test": "npm --prefix server test && npm --prefix client test -- --watch=false",
+    "build": "npm --prefix client run build",
+    "sync-assets": "node scripts/sync-assets.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}

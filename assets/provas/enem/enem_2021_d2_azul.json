@@ -1,0 +1,4111 @@
+{
+  "exam_metadata": {
+    "exam_id": "enem_2021_d2_azul",
+    "exam_name": "ENEM 2021 - 2º Dia (Caderno 7 - Azul)",
+    "institution": "INEP",
+    "year": 2021,
+    "day": 2,
+    "booklet_color": "Azul"
+  },
+  "questions": [
+    {
+      "id": "enem_2021_d2_azul_q91",
+      "question_number": 91,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No cultivo por hidroponia, são utilizadas soluções nutritivas contendo macronutrientes e micronutrientes essenciais. Além dos nutrientes, o pH é um parâmetro de extrema importância, uma vez que ele afeta a preparação da solução nutritiva e a absorção dos nutrientes pelas plantas. Para o cultivo de alface, valores de pH entre 5,5 e 6,5 são ideais para o seu desenvolvimento As correções de pH são feitas pela adição de compostos ácidos ou básicos, mas não devem introduzir elementos nocivos às plantas Na tabela, são apresentados alguns dados da composição da solução nutritiva de referência para esse cultivo Também é apresentada a composição de uma solução preparada por um produtor de cultivo hidropônico.\nConcentração, mmol/L Composição Solução nutritiva Espécies químicas de referência preparada (5,5 < pH < 6,5) (pH = 4,3)",
+          "source": "N (NH+) 1,0 0,8 4 P (HPO_) 1,0 1,0 2 4 Macronutrientes K+ 6,0 3,5 Ca2+ 4,0 3,0 SO2_ 2,0 1,0 4 Fe2+ 90 ã 10_3 70 X 10_3 Micronutrientes Cl_ - 4,5 ã 10_3 LENZI, E ; FAVERO, L O B ; LUCHESE, E B Introdução à química da água: ciência, vida e sobrevivência. Rio de Janeiro: LTC, 2012 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Para correção do pH da solução nutritiva preparada, esse produtor pode empregar uma solução de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ácido fosfórico, H PO . 3 4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "sulfato de cálcio, CaSO . 4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "óxido de alumínio, Al O . 2 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "cloreto de ferro(II), FeCl . 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "hidróxido de potássio, KOH.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q92",
+      "question_number": 92,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2021_cd7_q92.png"
+      ],
+      "statement": "O sino dos ventos é composto por várias barras metálicas de mesmo material e espessura, mas de comprimentos diferentes, conforme a fi gura Comprimento 1 Comprimento 2 2 CN - 2° dia l Caderno 7 Considere f e v , respectivamente, como a frequência 1 1 fundamental e a velocidade de propagação do som emitido pela barra de menor comprimento, e f e v são essas 2 2 mesmas grandezas para o som emitido pela barra de maior comprimento.\nAs relações entre as frequências fundamentais e entre as velocidades de propagação são, respectivamente,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "f (cid:2) f e v (cid:2) v . 1 2 1 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "f (cid:2) f e v (cid:3) v . 1 2 1 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "f (cid:2) f e v (cid:4) v . 1 2 1 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "f (cid:4) f e v (cid:3) v . 1 2 1 2",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "f (cid:4) f e v (cid:4) v . 1 2 1 2",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q93",
+      "question_number": 93,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2021_cd7_q93-1.png",
+        "assets/images/enem_2021_cd7_q93-2.png",
+        "assets/images/enem_2021_cd7_q93-3.png",
+        "assets/images/enem_2021_cd7_q93-4.png",
+        "assets/images/enem_2021_cd7_q93-5.png",
+        "assets/images/enem_2021_cd7_q93-6.png",
+        "assets/images/enem_2021_cd7_q93-7.png"
+      ],
+      "statement": "O polvo mimético apresenta padrões cromáticos e comportamentos muito curiosos. Frequentemente, muda a orientação de seus tentáculos, assemelhando-se a alguns animais. As imagens 1, 3 e 5 apresentam polvos mimetizando, respectivamente, um peixe-linguado (2), um peixe-leão (4) e uma serpente-marinha (6) 1 2 4 3 5 6 NORMAN, M D ; FINN, J ; TREGENZA, T Dynamic mimicry in an Indo-Malayan octopus In: Proceedings of the Royal Society B: Biological Sciences, n 268, out 2001 Disponível em: www.researchgate.net. Acesso em: 15 mar. 2014 (adaptado). Do ponto de vista evolutivo, a capacidade apresentada se estabeleceu porque os polvos",
+      "options": [
+        {
+          "letter": "A",
+          "text": "originaram-se do mesmo ancestral que esses animais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "passaram por mutações similares a esses organismos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "observaram esses animais em seus nichos ecológicos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "resultaram de convergência adaptativa com essas espécies.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "sobreviveram às pressões seletivas com esses comportamentos.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q94",
+      "question_number": 94,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A figura foi extraída de um antigo jogo para computadores, chamado Bang! Bang!\nP (cid:2) 10 m A 35 m υ 0 θ 120 m B No jogo, dois competidores controlam os canhões A e B, disparando balas alternadamente com o objetivo de atingir o canhão do adversário; para isso, atribuem valores estimados para o módulo da velocidade inicial de disparo ((cid:3) ) e para o ângulo de disparo ((cid:5)). (cid:4)\nEm determinado momento de uma partida, o competidor B deve disparar; ele sabe que a bala disparada anteriormente, (cid:5)(cid:6)(cid:3) 53(cid:7), passou tangenciando o ponto P.",
+          "source": "No jogo, (cid:2) é igual a 10 m/s2. Considere sen 53(cid:7) (cid:3) 0,8, cos 53(cid:7) (cid:3) 0,6 e desprezível a ação de forças dissipativas Disponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Com base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, o menor valor de (cid:3) que permitiria ao disparo efetuado (cid:4) pelo canhão B atingir o canhão A?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "30 m/s.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "35 m/s.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "40 m/s.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "45 m/s.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "50 m/s.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q95",
+      "question_number": 95,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Os pesticidas organoclorados foram amplamente empregados na agricultura, contudo, em razão das suas elevadas toxicidades e persistências no meio ambiente, eles foram banidos Considere a aplicação de 500 g de um pesticida organoclorado em uma cultura e que, em certas condições, o tempo de meia-vida do pesticida no solo seja de 5 anos.\nA massa do pesticida no decorrer de 35 anos será mais próxima de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3,9 g.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "31,2 g.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "62,5 g.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "125,0 g.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "250,0 g.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q96",
+      "question_number": 96,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A sequência de nucleotídeos do RNA mensageiro presentes em um gene de um fungo, constituída de sete códons, está escrita a seguir. 1 2 3 4 5 6 7 AUG UUU GUU CAA UGU AGU UAG Pesquisadores submeteram a sequência a mutações independentes Sabe-se que os códons UAG e UAA são terminais, ou seja, indicam a interrupção da tradução Qual mutação produzirá a menor proteína?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deleção de G no códon 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Substituição de C por U no códon 4",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Substituição de G por C no códon 6",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Substituição de A por G no códon 7",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Deleção dos dois primeiros nucleotídeos no códon 5",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q97",
+      "question_number": 97,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A simples atitude de não jogar direto no lixo ou no ralo da pia o óleo de cozinha usado pode contribuir para a redução da poluição ambiental Mas o que fazer com o óleo vegetal que não será mais usado? Não existe um modelo ideal de descarte, mas uma alternativa simples tem sido reaproveitá-lo para fazer sabão Para isso, são necessários, além do próprio óleo, água e soda cáustica.",
+          "source": "LOBO, I Sabão feito com óleo de cozinha. Disponível em: http://pga.pgr.mpf.gov.br. Acesso em: 29 fev. 2012 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Com base no texto, a reação química que permite o reaproveitamento do óleo vegetal é denominada",
+      "options": [
+        {
+          "letter": "A",
+          "text": "redução",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "epoxidação",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "substituição",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "esterificação",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "saponificação",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q98",
+      "question_number": 98,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Durante o desenvolvimento embrionário humano ocorre uma comunicação entre os átrios direito e esquerdo através do forame oval (ou forame de Botal)\nEssa comunicação não causa prejuízos à circulação do bebê em formação, exceto se ela perdurar após o nascimento.\nOs prejuízos no período embrionário são evitados porque a circulação fetal se assemelha à dos(as)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "aves, porque a pequena circulação e a grande circulação estão presentes",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "répteis, porque a mistura de sangue é minimizada por um metabolismo lento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "crocodilianos, porque a separação dos ventrículos impede a mistura sanguínea.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "peixes, porque a circulação é simples, ocorrendo uma passagem única pelo coração",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "anfíbios, porque pressões diferenciais isolam temporalmente o sangue venoso do arterial.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q99",
+      "question_number": 99,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Na cidade de São Paulo, as ilhas de calor são responsáveis pela alteração da direção do fluxo da brisa marítima que deveria atingir a região de mananciais Mas, ao cruzar a ilha de calor, a brisa marítima agora encontra um fluxo de ar vertical, que transfere para ela energia térmica absorvida das superfícies quentes da cidade, deslocando-a para altas altitudes Dessa maneira, há condensação e chuvas fortes no centro da cidade, em vez de na região de mananciais A imagem apresenta os três subsistemas que trocam energia nesse fenômeno.\nSol Brisa marítima Ilha de calor No processo de fortes chuvas no centro da cidade de São Paulo, há dois mecanismos dominantes de transferência de calor: entre o Sol e a ilha de calor, e entre a ilha de calor e a brisa marítima.\nVIVEIROS, M Ilhas de calor afastam chuvas de represas.",
+          "source": "Disponível em: www2.feis.unesp.br. Acesso em: 3 dez. 2019 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Esses mecanismos são, respectivamente,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "irradiação e convecção",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "irradiação e irradiação",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "condução e irradiação",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "convecção e irradiação",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "convecção e convecção",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q100",
+      "question_number": 100,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No seu estudo sobre a queda dos corpos, Aristóteles afirmava que se abandonarmos corpos leves e pesados de uma mesma altura, o mais pesado chegaria mais rápido ao solo. Essa ideia está apoiada em algo que é difícil de refutar, a observação direta da realidade baseada no senso comum.\nApós uma aula de física, dois colegas estavam discutindo sobre a queda dos corpos, e um tentava convencer o outro de que tinha razão: \nColega A: “O corpo mais pesado cai mais rápido que um menos pesado, quando largado de uma mesma altura.\nEu provo, largando uma pedra e uma rolha. A pedra chega antes. Pronto! Tá provado!”.",
+          "source": "Colega B: ‘Eu não acho! Peguei uma folha de papel esticado e deixei cair. Quando amassei, ela caiu mais rápido. Como isso é possível? Se era a mesma folha de papel, deveria cair do mesmo jeito. Tem que ter outra explicação!’ HÜLSENDEGER, M Uma análise das concepções dos alunos sobre a queda dos corpos Caderno Brasileiro de Ensino de Física, n. 3, dez. 2004 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O aspecto físico comum que explica a diferença de comportamento dos corpos em queda nessa discussão é o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "peso dos corpos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "resistência do ar.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "massa dos corpos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "densidade dos corpos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "aceleração da gravidade",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q101",
+      "question_number": 101,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A obtenção de etanol utilizando a cana-de-açúcar envolve a fermentação dos monossacarídeos formadores da sacarose contida no melaço. Um desses formadores é a glicose (C H O ), cuja fermentação produz cerca de 6 12 6 50 g de etanol a partir de 100 g de glicose, conforme a equação química descrita Fermentação alcoólica C H O 2 CH CH OH + 2 CO 6 12 6 3 2 2 Em uma condição específica de fermentação, obtém-se 80% de conversão em etanol que, após sua purificação, apresenta densidade igual a 0,80 g/mL O melaço utilizado apresentou 50 kg de monossacarídeos na forma de glicose.\nO volume de etanol, em litro, obtido nesse processo é mais próximo de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "16.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "20.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "25.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "64.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "100.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q102",
+      "question_number": 102,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "É possível ligar aparelhos elétricos de baixa corrente utilizando materiais comuns de laboratório no lugar das tradicionais pilhas. A ilustração apresenta uma montagem que faz funcionar um cronômetro digital.\n\nUtilizando a representação de projetos elétricos, o circuito equivalente a esse sistema é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q102-A.png",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q102-B.png",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q102-C.png",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q102-D.png",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q102-E.png",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q103",
+      "question_number": 103,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um técnico analisou um lote de analgésicos que supostamente estava fora das especificações A composição prevista era 100 mg de ácido acetilsalicílico por comprimido (princípio ativo, cuja estrutura está apresentada na figura), além do amido e da celulose (componentes inertes). O técnico realizou os seguintes testes: 1) obtenção da massa do comprimido; 2) medição da densidade do comprimido; 3) verificação do pH com papel indicador; 4) determinação da temperatura de fusão do comprimido; 5) titulação com solução aquosa de NaOH Após a realização dos testes, o lote do medicamento foi reprovado porque a quantidade de ácido acetilsalicílico por comprimido foi de apenas 40% da esperada O OH O O Ácido acetilsalicílico O teste que permitiu reprovar o lote de analgésicos foi o de número",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q104",
+      "question_number": 104,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O rompimento da barragem de rejeitos de mineração no município mineiro de Mariana e o derramamento de produtos tóxicos nas águas do Rio Doce, ocorridos em 2015, ainda têm consequências para os organismos que habitam o Parque Nacional Marinho de Abrolhos, localizado a mais de 1 000 quilômetros de distância. Esse desastre ambiental afetou o fitoplâncton, as esponjas, as algas macroscópicas, os peixes herbívoros e os golfinhos FRAINER, G ; SICILIANO, S ; TAVARES, D C Franciscana calls for help: [ ] International Whaling Commission, Conference Paper, jun. 2016 (adaptado). Concentrações mais elevadas dos compostos citados são encontradas em",
+      "options": [
+        {
+          "letter": "A",
+          "text": "esponjas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "golfinhos",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "fitoplâncton",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "peixes herbívoros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "algas macroscópicas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q105",
+      "question_number": 105,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q106",
+      "question_number": 106,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A icterícia, popularmente conhecida por amarelão, é uma patologia frequente em recém-nascidos Um bebê com icterícia não consegue metabolizar e excretar de forma efi ciente a bilirrubina Com isso, o acúmulo dessa substância deixa-o com a pele amarelada A fototerapia é um tratamento da icterícia neonatal, que consiste na irradiação de luz no bebê. Na presença de luz, a bilirrubina é convertida no seu isômero lumirrubina que, por ser mais solúvel em água, é excretada pela bile ou pela urina. A imagem ilustra o que ocorre nesse tratamento.",
+          "source": "MOREIRA, M et al O recém-nascido de alto risco: teoria e prática do cuidar [on-line] Rio de Janeiro: Fiocruz, 2004 (adaptado) Radiação 400 a 500 nm Lumirrubina Bilirrubina HOOC COOH HOOC COOH H H H H O N N N N O O N N N N O H H H H H H H Forma isomérica (cid:8) Não é suficientemente Excreção excretada pelo recém-nascido Bile, urina Hiperbilirrubinemia WANG, J et al Challenges of phototherapy for neonatal hyperbilirubinemia (Review) Experimental and Therapeutic Medicine, n. 21, 2021 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2021_cd7_q106-1.png",
+        "assets/images/enem_2021_cd7_q106-2.png",
+        "assets/images/enem_2021_cd7_q106-3.png",
+        "assets/images/enem_2021_cd7_q106-4.png",
+        "assets/images/enem_2021_cd7_q106-5.png",
+        "assets/images/enem_2021_cd7_q106-6.png"
+      ],
+      "statement": "Na fototerapia, a luz provoca a conversão da bilirrubina no seu isômero",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ótico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "funcional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "de cadeia.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "de posição",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "geométrico.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q107",
+      "question_number": 107,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Analisando a fi cha técnica de um automóvel popular, verifi cam-se algumas características em relação ao seu desempenho. Considerando o mesmo automóvel em duas versões, uma delas funcionando a álcool e outra, a gasolina, tem-se os dados apresentados no quadro, em relação ao desempenho de cada motor Parâmetro Motor a gasolina Motor a álcool Aceleração de 0 a 100 km/h em 13,4 s de 0 a 100 km/h em 12,9 s Velocidade máxima 165 km/h 163 km/h Considerando desprezível a resistência do ar, qual versão apresenta a maior potência?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Como a versão a gasolina consegue a maior aceleração, esta é a que desenvolve a maior potência",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Como a versão a gasolina atinge o maior valor de energia cinética, esta é a que desenvolve a maior potência",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Como a versão a álcool apresenta a maior taxa de variação de energia cinética, esta é a que desenvolve a maior potência.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Como ambas as versões apresentam a mesma variação de velocidade no cálculo da aceleração, a potência desenvolvida é a mesma.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Como a versão a gasolina fi ca com o motor trabalhando por mais tempo para atingir os 100 km/h, esta é a que desenvolve a maior potência.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q108",
+      "question_number": 108,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "No cordel intitulado Senhor dos Anéis, de autoria de Gonçalo Ferreira da Silva, lê-se a sextilha:",
+          "source": "A distância em relação Ao nosso planeta amado Pouco menos que a do Sol Ele está distanciado E menos denso que a água Quando no normal estado MEDEIROS, A ; AGRA, J T M , A astronomia na literatura de cordel, Física na Escola, n. 1, abr. 2010 (fragmento)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "",
+          "source": "Distâncias médias dos planetas ao Sol e suas densidades médias Distância média Densidade Planetas ao Sol (u.a.) relativa média *Mercúrio 0,39 5,6 *Vênus 0,72 5,2 *Terra 1,0 5,5 *Marte 1,5 4,0 **Ceres 2,8 2,1 *Júpiter 5,2 1,3 *Saturno 9,6 0,7 *Urano 19 1,2 *Netuno 30 1,7 **Plutão 40 2,0 **Éris 68 2,5 u a = 149 600 000 km, é a unidade astronômica, *Planeta clássico, **Planeta-anão Características dos planetas. Disponível em: www.astronoo.com. Acesso em: 8 nov. 2019 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considerando os versos da sextilha e as informações da tabela, a qual planeta o cordel faz referência?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mercúrio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Júpiter.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Urano.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Saturno.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Netuno.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q109",
+      "question_number": 109,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Cientistas da Universidade de New South Wales, na Austrália, demonstraram em 2012 que a Lei de Ohm é válida mesmo para fios finíssimos, cuja área da seção reta compreende alguns poucos átomos A tabela apresenta as áreas e comprimentos de alguns dos fios construídos (respectivamente com as mesmas unidades de medida). Considere que a resistividade mantém-se constante para todas as geometrias (uma aproximação confirmada pelo estudo)",
+          "source": "Resistência Área Comprimento elétrica Fio 1 9 312 R1 Fio 2 4 47 R2 Fio 3 2 54 R3 Fio 4 1 106 R4 WEBER, S B et al Ohm’s Law Survives to the Atomic Scale Science, n. 335, jan. 2012 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "As resistências elétricas dos fios, em ordem crescente, são",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R1 (cid:2) R2 (cid:2) R3 (cid:2) R4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "R2 (cid:2) R1 (cid:2) R3 (cid:2) R4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "R2 (cid:2) R3 (cid:2) R1 (cid:2) R4.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "R4 (cid:2) R1 (cid:2) R3 (cid:2) R2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "R4 (cid:2) R3 (cid:2) R2 (cid:2) R1.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q110",
+      "question_number": 110,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Organismos autótrofos e heterótrofos realizam processos complementares que associam os ciclos do carbono e do oxigênio O carbono fixado pela energia luminosa ou a partir de compostos inorgânicos é eventualmente degradado pelos organismos, resultando em fontes de carbono como metano ou gás carbônico.\nAinda, outros compostos orgânicos são catabolizados pelos seres, com menor rendimento energético, produzindo compostos secundários (subprodutos) que podem funcionar como combustíveis ambientais.\nO processo metabólico associado à expressão combustíveis ambientais é a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fotossíntese.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "fermentação",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "quimiossíntese.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "respiração aeróbica",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "fosforilação oxidativa",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q111",
+      "question_number": 111,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma escola iniciou o processo educativo para implantação da coleta seletiva e destino de materiais recicláveis Para atingir seus objetivos, a instituição planejou: 1) s ensibilizar a comunidade escolar, desenvolvendo atividades em sala e extraclasse de maneira contínua; 2) capacitar o pessoal responsável pela limpeza da escola quanto aos novos procedimentos adotados com a coleta seletiva; e 3) d istribuir coletores de materiais recicláveis específicos nas salas, pátio e outros ambientes para acondicionamento dos resíduos.\nPara completar a ação proposta no ambiente escolar, o que falta ser inserido no planejamento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar campanhas educativas de sensibilização em bairros vizinhos para fortalecer a coleta seletiva.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Firmar parceria com a prefeitura ou cooperativa de catadores para recolhimento dos materiais recicláveis e destinação apropriada",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Organizar visitas ao lixão ou aterro local para identificar aspectos importantes sobre a disposição final do lixo",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Divulgar na rádio local, no jornal impresso e nas redes sociais que a escola está realizando a coleta seletiva.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Colocar recipientes coletores de lixo reciclável fora da escola para entrega voluntária pela população",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q112",
+      "question_number": 112,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Os búfalos são animais considerados rústicos pelos criadores e, por isso, são deixados no campo sem controle reprodutivo Por causa desse tipo de criação, a consanguinidade é favorecida, proporcionando o aparecimento de enfermidades, como o albinismo, defeitos cardíacos, entre outros. Separar os animais de forma adequada minimizaria a ocorrência desses problemas.",
+          "source": "DAMÉ, M C F ; RIET-CORREA, F ; SCHILD, A L Pesq. Vet. Bras., n 7, 2013 (adaptado)"
+        }
+      ],
+      "image_url": null,
+      "statement": "Qual procedimento biotecnológico prévio é recomendado nessa situação?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transgenia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Terapia gênica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Vacina de DNA.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Clonagem terapêutica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Mapeamento genético.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q113",
+      "question_number": 113,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O ciclo do cobre é um experimento didático em que o cobre metálico é utilizado como reagente de partida.\nApós uma sequência de reações (I, II, III, IV e V), o cobre retorna ao seu estado inicial ao final do ciclo HNO NaOH Cu 3 Cu(NO ) Cu(OH)\nI 3 2 II 2 Zn, HCl H SO Δ CuSO 2 4 CuO V 4 IV III A reação de redução do cobre ocorre na etapa",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q114",
+      "question_number": 114,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um dos exames clínicos mais tradicionais para medir a capacidade reflexa dos indivíduos é o exame do reflexo patelar Esse exame consiste na estimulação da patela, um pequeno osso localizado na parte anterior da articulação do joelho, com um pequeno martelo A resposta reflexa ao estímulo é caracterizada pelo levantamento da perna em que o estímulo foi aplicado.\nQual região específica do sistema nervoso coordena essa resposta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ponte.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Medula.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Cerebelo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Hipotálamo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Neuro-hipófise",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q115",
+      "question_number": 115,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Na montagem de uma cozinha para um restaurante, a escolha do material correto para as panelas é importante, pois a panela que conduz mais calor é capaz de cozinhar os alimentos mais rapidamente e, com isso, há economia de gás A taxa de condução do calor depende da condutividade k do material, de sua área A, da diferença de temperatura (cid:9)T e da espessura d do material, sendo (cid:6)Q (cid:6)T dada pela relação (cid:7)kA . Em panelas com dois (cid:6)t d (cid:6)Q (cid:6)T materiais, a taxa de condução é dada por (cid:7)A , (cid:6)t d 1 (cid:8) d 2 k k 1 2 em que d e d são as espessuras dos dois materiais, 1 2 e k e k são as condutividades de cada material 1 2 Os materiais mais comuns no mercado para panelas são o alumínio (k (cid:3) 20 W/m K), o ferro (k (cid:3) 8 W/m K) e o aço (k (cid:3) 5 W/m K) combinado com o cobre (k (cid:3) 40 W/m K).\nCompara-se uma panela de ferro, uma de alumínio 1 1 e uma composta de da espessura em cobre e da 2 2 espessura em aço, todas com a mesma espessura total e com a mesma área de fundo.\nA ordem crescente da mais econômica para a menos econômica é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cobre-aço, alumínio e ferro",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "alumínio, cobre-aço e ferro",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "cobre-aço, ferro e alumínio",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "alumínio, ferro e cobre-aço",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ferro, alumínio e cobre-aço",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q116",
+      "question_number": 116,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "As águas subterrâneas têm sido contaminadas pelo uso de pesticidas na agricultura. Entre as várias substâncias usualmente encontradas, algumas são apresentadas na figura A distinção dessas substâncias pode ser feita por meio de uma análise química qualitativa, ou seja, determinando sua presença mediante a adição de um reagente específico O hidróxido de sódio é capaz de identificar a presença de um desses pesticidas pela reação ácido-base de Brönsted-Lowry OH OH H N H - CI CI CI N N O N + N N CI O O CICI CI N CI CI I II III O O I Si S F O I O IV V O teste positivo será observado com o pesticida",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q117",
+      "question_number": 117,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Com o aumento da população de suínos no Brasil, torna-se necessária a adoção de métodos para reduzir o potencial poluidor dos resíduos dessa agroindústria, uma vez que, comparativamente ao esgoto doméstico, os dejetos suínos são 200 vezes mais poluentes Sendo assim, a utilização desses resíduos como matéria-prima na obtenção de combustíveis é uma alternativa que permite diversificar a matriz energética nacional, ao mesmo tempo em que parte dos recursos hídricos do país são preservados BECK, A M Resíduos suínos como alternativa energética sustentável XXVII Encontro Nacional de Engenharia de Produção Anais ENEGEP, Foz do Iguaçu, 2007 (adaptado) O biocombustível a que se refere o texto é o",
+      "options": [
+        {
+          "letter": "A",
+          "text": "etanol.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "biogás.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "butano.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "metanol.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "biodiesel.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q118",
+      "question_number": 118,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A curcumina, uma das substâncias que confere a cor alaranjada ao açafrão, pode auxiliar no combate à dengue quando adicionada à água de criadouros do mosquito transmissor Essa substância acumula-se no intestino do inseto após ser ingerida com a água do criadouro e, quando ativada pela luz, induz a produção de espécies reativas de oxigênio que danificam de forma fatal o tecido do tubo digestório TOLEDO, K. Corante extraído do açafrão pode ser útil no combate à dengue. Disponível em: http://agencia.fapesp.br. Acesso em: 25 abr. 2015 (adaptado). A forma de combate relatada tem como atividade o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "morte do indivíduo adulto.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "redução da eclosão dos ovos",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "comprometimento da metamorfose.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "impedimento do desenvolvimento da larva.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "repelência da forma transmissora da doença.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q119",
+      "question_number": 119,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Com o objetivo de identificar a melhor espécie produtora de madeira para construção (com resistência mecânica e à degradação), foram analisadas as estruturas anatômicas de cinco espécies, conforme o quadro Tecido analisado Xilema Espécie Periderme/Esclerênquima Floema/Esclerênquima Alburno Cerne 1 (cid:10) / (cid:10) (cid:10) / (cid:11) (cid:10) (cid:10)(cid:10)(cid:10) 2 (cid:10) / (cid:11) (cid:10) / (cid:11) (cid:10)(cid:10)(cid:10) (cid:11) 3 (cid:10)(cid:10) / (cid:11) (cid:10)(cid:10)(cid:10) / (cid:10) (cid:10) (cid:11) 4 (cid:10)(cid:10)(cid:10) / (cid:10) (cid:10)(cid:10)(cid:10) / (cid:11) (cid:10) (cid:11) 5 (cid:10)(cid:10)(cid:10) / (cid:10) (cid:10)(cid:10)(cid:10) / (cid:10) (cid:10)(cid:10) (cid:10)\nLegenda: ( (cid:11)) ausente, ((cid:10)) presente em pequena quantidade, ((cid:10)(cid:10)) presente em média quantidade, ((cid:10)(cid:10)(cid:10)) presente em grande quantidade.\nQual espécie corresponde ao objetivo proposto?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q120",
+      "question_number": 120,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No outono, as folhas das árvores mudam de cor, de verde para tons de amarelo, castanho, laranja e vermelho.\nA cor verde das folhas deve-se ao pigmento clorofila Nas plantas de folhas caducas, a produção de clorofila diminui e o tom verde desvanece, permitindo assim que outros pigmentos, como o caroteno, de coloração amarelo-alaranjado, e a antocianina, de tons avermelhados, passem a dominar a tonalidade das folhas A coloração observada se dá em função da interação desses pigmentos com a radiação solar Conforme apresentado no espectro de absorção, as moléculas de clorofila absorvem a radiação solar nas regiões do azul e do vermelho, assim a luz refletida pelas folhas tem falta desses dois tons e as vemos na cor verde Já as antocianinas absorvem a luz desde o azul até o verde Nesse caso, a luz refletida pelas folhas que contêm antocianinas aparece conforme as cores complementares, ou seja, vermelho-alaranjado Espectro de absorção na região do visível Cores complementares 750 400 Vermelho Violeta 630 430 Laranja Azul 590 480 Amarelo Verde 560 λ (nm) oãçrosbA Clorofila Antocianina 300 400 500 600 700 Comprimento de onda (nm)",
+          "source": "Disponível em: https://vidauniversoydemas wordpress com Acesso em: 6 dez 2017 (adaptado)"
+        }
+      ],
+      "image_url": null,
+      "statement": "Em qual faixa do espectro visível os carotenos absorvem majoritariamente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Entre o violeta e o azul.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Entre o azul e o verde.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Entre o verde e o amarelo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Entre o amarelo e o laranja.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Entre o laranja e o vermelho.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q121",
+      "question_number": 121,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Entre 2014 e 2016, as regiões central e oeste da África sofreram uma grave epidemia de febre hemorrágica causada pelo vírus ebola, que se manifesta em até 21 dias após a infecção e cuja taxa de letalidade (enfermos que vão a óbito) pode chegar a 90% Em regiões de clima tropical e subtropical, um outro vírus também pode causar febre hemorrágica: o vírus da dengue, que, embora tenha período de incubação menor (até 10 dias), apresenta taxa de letalidade abaixo de 1% Disponível em: www who int Acesso em: 1 fev 2017 (adaptado) Segundo as informações do texto e aplicando princípios de evolução biológica às relações do tipo patógeno-hospedeiro, qual dos dois vírus infecta seres humanos há mais tempo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ebola, pois o maior período de incubação refl ete duração mais longa do processo de coevolução patógeno-hospedeiro",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Dengue, pois o menor período de incubação refl ete duração mais longa do processo de coevolução patógeno-hospedeiro",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ebola, cuja alta letalidade indica maior efi ciência do vírus em parasitar seus hospedeiros, estabelecida ao longo de sua evolução",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Ebola, cujos surtos epidêmicos concentram-se no continente africano, reconhecido como berço da origem evolutiva dos seres humanos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Dengue, cuja baixa letalidade indica maior efi ciência do vírus em parasitar seus hospedeiros, estabelecida ao longo da coevolução patógeno-hospedeiro",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q122",
+      "question_number": 122,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A imagem apresenta as etapas do funcionamento de uma estação individual para tratamento do esgoto residencial Como funciona a estação individual 6 Cisternas Aqui, como etapa 1 final, o sistema será tratado Caixa de com cloro. gordura 4 Retém os detritos Caixa de inspeção da pia e cozinha, Facilita a distribuição dos efluentes. liberando água quase isenta de gordura. 2 Caixa de 3 passagem Tanque séptico 5 Filtro biológico Aqui o esgoto deve ficar em Recebe o que vem dos banheiros Aqui colônias de repouso por um período e lavanderia, reunindo todo o esgoto bactérias consomem relativamente maior que residencial. a matéria orgânica. nas outras etapas.",
+          "source": "TAVARES, K. Estações de tratamento de esgoto individuais permitem a reutilização da água. Disponível em: https://extra.globo.com. Acesso em: 18 nov. 2014 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2021_cd7_q122-1.png",
+        "assets/images/enem_2021_cd7_q122-2.png",
+        "assets/images/enem_2021_cd7_q122-3.png",
+        "assets/images/enem_2021_cd7_q122-4.png",
+        "assets/images/enem_2021_cd7_q122-5.png",
+        "assets/images/enem_2021_cd7_q122-6.png",
+        "assets/images/enem_2021_cd7_q122-7.png",
+        "assets/images/enem_2021_cd7_q122-8.png",
+        "assets/images/enem_2021_cd7_q122-9.png",
+        "assets/images/enem_2021_cd7_q122-10.png",
+        "assets/images/enem_2021_cd7_q122-11.png",
+        "assets/images/enem_2021_cd7_q122-12.png",
+        "assets/images/enem_2021_cd7_q122-13.png",
+        "assets/images/enem_2021_cd7_q122-14.png",
+        "assets/images/enem_2021_cd7_q122-15.png",
+        "assets/images/enem_2021_cd7_q122-16.png",
+        "assets/images/enem_2021_cd7_q122-17.png",
+        "assets/images/enem_2021_cd7_q122-18.png",
+        "assets/images/enem_2021_cd7_q122-19.png",
+        "assets/images/enem_2021_cd7_q122-20.png",
+        "assets/images/enem_2021_cd7_q122-21.png",
+        "assets/images/enem_2021_cd7_q122-22.png",
+        "assets/images/enem_2021_cd7_q122-23.png",
+        "assets/images/enem_2021_cd7_q122-24.png",
+        "assets/images/enem_2021_cd7_q122-25.png",
+        "assets/images/enem_2021_cd7_q122-26.png",
+        "assets/images/enem_2021_cd7_q122-27.png",
+        "assets/images/enem_2021_cd7_q122-28.png",
+        "assets/images/enem_2021_cd7_q122-29.png",
+        "assets/images/enem_2021_cd7_q122-30.png",
+        "assets/images/enem_2021_cd7_q122-31.png",
+        "assets/images/enem_2021_cd7_q122-32.png",
+        "assets/images/enem_2021_cd7_q122-33.png",
+        "assets/images/enem_2021_cd7_q122-34.png",
+        "assets/images/enem_2021_cd7_q122-35.png"
+      ],
+      "statement": "Em qual etapa decanta-se o lodo a ser separado do esgoto residencial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "6",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q123",
+      "question_number": 123,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O plantio por estaquia é um método de propagação de plantas no qual partes de um espécime são colocadas no solo para produzir novas gerações Na fl oricultura, é comum utilizar o caule das roseiras para estaquia, pois a propagação da planta é positiva em razão da aplicação de auxinas na porção inferior do caule A utilização de auxinas no método de estaquia das roseiras contribui para",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fl oração da planta",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "produção de gemas laterais",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "formação de folhas maiores",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "formação de raízes adventícias",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "produção de compostos energéticos",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q124",
+      "question_number": 124,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O emprego de células de combustível a hidrogênio pode ser uma tecnologia adequada ao transporte automotivo.\nO quadro apresenta características de cinco tecnologias mais proeminentes de células de combustível.\nTipo de célula de Temperatura Eletrólito Semirreações nos eletrodos combustível operacional (°C)\nH + 2 OH_→ 2 H O + 2 e_ 2 2 AFC 90 - 100 Hidróxido de potássio aquoso _1_ O + H O + 2 e_ → 2 OH_ 2 2 2 H + CO 2_→ H O + CO +2 e_ Carbonatos de lítio, sódio 2 3 2 2 MSFC 600 - 1000 e/ou potássio fundidos _1_ O + CO + 2 e_ → CO 2_ 2 2 2 3 Ácido PEM 60 - 100 poliperfl uorossulfônico sólido H →2 H+ + 2 e_ 2 PAFC 175 - 200 Ácido fosfórico líquido _1_ O + 2 H+ + 2 e_ → H O 2 2 2 SOFC 600 - 1000 Óxido de zircônio(IV) sólido Testes operacionais com esses tipos de células têm indicado que as melhores alternativas para veículos são as que operam em baixos níveis de energia térmica, são formadas por membranas de eletrólitos poliméricos e ocorrem em meio ácido.",
+          "source": "THOMAS, S; ZALBOWITZ, M Full cells:green power Los Alamos National Laboratory Los Alamos, NM, 1999 (adaptado)"
+        }
+      ],
+      "image_url": null,
+      "statement": "A tecnologia testada mais adequada para o emprego em veículos automotivos é a célula de combustível",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AFC.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "MSFC.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "PEM.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "PAFC.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "SOFC.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q125",
+      "question_number": 125,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Considere a tirinha, na situação em que a temperatura do ambiente é inferior à temperatura corporal dos personagens É MESMO. MAS O QUE ME INCOMODA VOCÊ NÃO NÃO ENTÃO, SALTA TÁ QUENTE MESMO É A UMIDADE. GOSTA DE MESMO. CORRENDO.\nHOJE, NÉ? UMIDADE?\nWATTERSON, B Disponível em: https://novaescola org br Acesso em: 11 ago 2014 O incômodo mencionado pelo personagem da tirinha deve-se ao fato de que, em dias úmidos,",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2021_cd7_q125.png"
+      ],
+      "statement": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a temperatura do vapor-d’água presente no ar é alta",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o suor apresenta maior difi culdade para evaporar do corpo",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "a taxa de absorção de radiação pelo corpo torna-se maior",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o ar torna-se mau condutor e difi culta o processo de liberação de calor",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o vapor-d’água presente no ar condensa-se ao entrar em contato com a pele",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q126",
+      "question_number": 126,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um garoto precisa montar um circuito que acenda três lâmpadas de cores diferentes, uma de cada vez. Ele dispõe das lâmpadas, de fios, uma bateria e dois interruptores, como ilustrado, junto com seu símbolo de três pontos. Quando esse interruptor fecha AB, abre BC e vice-versa.\n\nO garoto fez cinco circuitos elétricos usando os dois interruptores, mas apenas um satisfaz a sua necessidade. Esse circuito é representado por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q126-A.png",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q126-B.png",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q126-C.png",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q126-D.png",
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q126-E.png",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q127",
+      "question_number": 127,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Estudo aponta que a extinção de preguiças-gigantes, cuja base da dieta eram frutos e sementes, provocou impactos consideráveis na vegetação do Pantanal brasileiro A flora, embora não tenha desaparecido, tornou-se menos abundante que no passado, além de ocupar áreas mais restritas.",
+          "source": "BICUDO, F Jardineiros da pesada Ecologia Pesquisa Fapesp, ed. 231, maio 2015 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O evento descrito com a flora ocorreu em razão da redução",
+      "options": [
+        {
+          "letter": "A",
+          "text": "da produção de flores",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "do tamanho das plantas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "de fatores de disseminação das sementes",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "da quantidade de sementes por fruto.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "dos hábitats disponíveis para as plantas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q128",
+      "question_number": 128,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Carros elétricos estão cada vez mais baratos, no entanto, os órgãos governamentais e a indústria se preocupam com o tempo de recarga das baterias, que é muito mais lento quando comparado ao tempo gasto para encher o tanque de combustível. Portanto, os usuários de transporte individual precisam se conscientizar dos ganhos ambientais dessa mudança e planejar com antecedência seus percursos, pensando em pausas necessárias para recargas.\nApós realizar um percurso de 110 km, um motorista pretende recarregar as baterias de seu carro elétrico, que tem um desempenho médio de 5,0 km/kWh, usando um carregador ideal que opera a uma tensão de 220 V e é percorrido por uma corrente de 20 A.\nQuantas horas são necessárias para recarregar a energia utilizada nesse percurso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,005",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0,125",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2,5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "5,0",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "8,0",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q129",
+      "question_number": 129,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Nas angiospermas, além da fertilização da oosfera, existe uma segunda fertilização que resulta num tecido triploide.\nEssa segunda fertilização foi importante evolutivamente, pois viabilizou a formação de um tecido de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "nutrição para o fruto",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "reserva para o embrião",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "revestimento para a semente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "proteção para o megagametófito",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "vascularização para a planta jovem",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q130",
+      "question_number": 130,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes Em geral, essas substâncias são ésteres, como as apresentadas no quadro.\nNome Fórmula Aroma Benzoato de C H CO CH Kiwi metila 6 5 2 3 Acetato de CH CO (CH ) CH(CH ) Banana isoamila 3 2 2 2 3 2 Acetato de CH CO CH C H Pêssego benzila 3 2 2 6 5 Propanoato de CH CH CO CH CH(CH ) Rum isobutila 3 2 2 2 3 2 Antranilato de C H NH CO CH Uva metila 6 4 2 2 3 O aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kiwi.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "banana.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "pêssego.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "rum.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "uva.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q131",
+      "question_number": 131,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O eletrocardiograma é um exame cardíaco que mede a intensidade dos sinais elétricos advindos do coração A imagem apresenta o resultado típico obtido em um paciente saudável e a intensidade do sinal (V ) em (cid:2)(cid:3)(cid:4) função do tempo 0,2 tempo (s) )Vm( V CE De acordo com o eletrocardiograma apresentado, qual foi o número de batimentos cardíacos por minuto desse paciente durante o exame?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "30",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "60",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "100",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "120",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "180",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q132",
+      "question_number": 132,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A deficiência de lipase ácida lisossômica é uma doença hereditária associada a um gene do cromossomo 10.\nOs pais dos pacientes podem não saber que são portadores dos genes da doença até o nascimento do primeiro filho afetado Quando ambos os progenitores são portadores, existe uma chance, em quatro, de que seu bebê possa nascer com essa doença.",
+          "source": "ANDERSON, R A et al In: Situ Localization of the Genetic Locus Encoding the Lysosomal Acid Lipase/Cholesteryl Esterase (LIPA) Deficient in Wolman Disease to Chromosome 10q23 2-q23 3 Genomics, n. 1, jan. 1993 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Essa é uma doença hereditária de caráter",
+      "options": [
+        {
+          "letter": "A",
+          "text": "recessivo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "dominante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "codominante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "poligênico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "polialélico.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q133",
+      "question_number": 133,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O quadro lista alguns dispositivos eletrônicos que estão presentes no dia a dia, bem como a faixa de força eletromotriz necessária ao seu funcionamento.\nFaixa de força Dispositivo eletrônico eletromotriz (V)\nI Relógio de parede 1,2 a 1,5 II Celular 3,5 a 3,8 III Câmera digital 7,5 a 7,8 Carrinho de controle IV 10,5 a 10,9 remoto V Notebook/Laptop 19,5 a 20,0 Considere que uma bateria é construída pela associação em série de três pilhas de lítio-iodo, nas condições-padrão, conforme as semiequações de redução apresentadas I (cid:10) 2 e(cid:11) (cid:12) 2 I (cid:11) E (cid:7) (cid:3) (cid:10)(cid:6)0,54 V 2 Li (cid:10) (cid:10) e(cid:11) (cid:12) Li E (cid:7)(cid:7) (cid:3) (cid:11)(cid:6)3,05 V Essa bateria é adequada para o funcionamento de qual dispositivo eletrônico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "V",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q134",
+      "question_number": 134,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O alcoolômetro Gay Lussac é um instrumento destinado a medir o teor de álcool, em porcentagem de volume (v/v), de soluções de água e álcool na faixa de 0 °GL a 100 °GL, com divisões de 0,1 °GL A concepção do alcoolômetro se baseia no princípio de flutuabilidade de Arquimedes, semelhante ao funcionamento de um densímetro. A escala do instrumento é aferida a 20 °C, sendo necessária a correção da medida, caso a temperatura da solução não esteja na temperatura de aferição É apresentada parte da tabela de correção de um alcoolômetro, com a temperatura Tabela de correção do alcoolômetro com temperatura 20 °C Leitura da temperatura (°C) °GL 20 21 22 23 24 25 35 35,0 34,6 34,2 33,8 33,4 33,0 36 36,0 35,6 35,2 34,8 34,4 34,0 Manual alcoolômetro Gay Lussac. Disponível em: www.incoterm.com.br. Acesso em: 4 dez. 2018 (adaptado). É necessária a correção da medida do instrumento, pois um aumento na temperatura promove o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "aumento da dissociação da água",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "aumento da densidade da água e do álcool.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "mudança do volume dos materiais por dilatação",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "aumento da concentração de álcool durante a medida",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "alteração das propriedades químicas da mistura álcool e água.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q135",
+      "question_number": 135,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O Prêmio Nobel de Química de 2000 deveu-se à descoberta e ao desenvolvimento de polímeros condutores. Esses materiais têm ampla aplicação em novos dispositivos eletroluminescentes (LEDs), células fotovoltaicas etc. Uma propriedade-chave de um polímero condutor é a presença de ligações duplas conjugadas ao longo da cadeia principal do polímero.",
+          "source": "ROCHA FILHO, R. C. Polímeros condutores: descoberta e aplicações. Química Nova na Escola, n. 12, 2000 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2021_cd7_q135-opts.png"
+      ],
+      "statement": "Um exemplo desse polímero é representado pela estrutura",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q136",
+      "question_number": 136,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um segmento de reta está dividido em duas partes na proporção áurea quando o todo está para uma das partes na mesma razão em que essa parte está para a outra. Essa constante de proporcionalidade é comumente representada pela letra grega Φ, e seu valor é dado pela solução positiva da equação Φ2 = Φ + 1 Assim como a potência Φ2, as potências superiores de Φ podem ser expressas da forma aΦ + b, em que a e b são inteiros positivos, como apresentado no quadro.\nΦ2 Φ3 Φ4 Φ5 Φ6 Φ7 Φ + 1 2Φ + 1 3Φ + 2 5Φ + 3 8Φ + 5 … A potência Φ7, escrita na forma aΦ + b (a e b são inteiros positivos), é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5Φ + 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "7Φ + 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "9Φ + 6",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "11Φ + 7",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "13Φ + 8",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q137",
+      "question_number": 137,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O Atomium, representado na imagem, é um dos principais pontos turísticos de Bruxelas. Ele foi construído em 1958 para a primeira grande exposição mundial depois da Segunda Guerra Mundial, a Feira Mundial de Bruxelas.\n\nTrata-se de uma estrutura metálica construída no formato de um cubo. Essa estrutura está apoiada por um dos vértices sobre uma base paralela ao plano do solo, e a diagonal do cubo, contendo esse vértice, é ortogonal ao plano da base. Centradas nos vértices desse cubo, foram construídas oito esferas metálicas, e uma outra esfera foi construída centrada no ponto de interseção das diagonais do cubo. As oito esferas sobre os vértices são interligadas segundo suas arestas, e a esfera central se conecta a elas pelas diagonais do cubo.\n\nTodas essas interligações são feitas por tubos cilíndricos que possuem escadas em seu interior, permitindo o deslocamento de pessoas pela parte interna da estrutura. Na diagonal ortogonal à base, o deslocamento é feito por um elevador, que permite o deslocamento entre as esferas da base e a esfera do ponto mais alto, passando pela esfera central.\n\nConsidere um visitante que se deslocou pelo interior do Atomium sempre em linha reta e seguindo o menor trajeto entre dois vértices, passando por todas as arestas e todas as diagonais do cubo.",
+          "source": "Disponível em: http://trupedatrip.com. Acesso em: 25 out. 2019."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2021_cd7_q137.png",
+        "assets/images/enem_2021_cd7_q137-opts.png"
+      ],
+      "statement": "A projeção ortogonal sobre o plano do solo do trajeto percorrido por esse visitante é representada por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q138",
+      "question_number": 138,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A Copa do Brasil teve, até a edição de 2018, 15 times diferentes como campeões da competição, conforme apresentado na imagem Suponha que, como homenagem aos times campeões, a Confederação Brasileira de Futebol (CBF) pretenda colocar um painel na sua sede Esse painel teria 6 linhas e, em cada uma delas, 5 placas, referentes a cada edição da competição, com o nome do time vencedor, o brasão e o ano do título O painel deve ser fabricado de modo que a primeira linha só tenha clubes gaúchos (Internacional, Grêmio e Juventude); a segunda, apenas times cariocas (Flamengo, Vasco e Fluminense); a terceira, somente times mineiros (Cruzeiro e Atlético Mineiro); a quarta, exclusivamente clubes paulistas (Corinthians, Palmeiras, Santos, Paulista FC, Santo André), e as duas últimas sem nenhuma restrição __________ __________ __________ __________ __________ Cruzeiro Grêmio Corinthians Flamengo Palmeiras (Minas Gerais) (Rio Grande do Sul) (São Paulo) (Rio de Janeiro) (São Paulo) 06 Títulos 05 Títulos 03 Títulos 03 Títulos 03 Títulos _ ___________ ________________ ___________ __________ ___________ Internacional Criciúma Vasco da Gama Atlético Mineiro Santos (Rio Grande do Sul) (Santa Catarina) (Rio de Janeiro) (Minas Gerais) (São Paulo) 01 Título 01 Título 01 Título 01 Título 01 Título __________ __________ ___________ ___________ ___________ Fluminense Sport Paulista FC Santo André Juventude (Rio de Janeiro) (Pernambuco) (São Paulo) (São Paulo) (Rio Grande do Sul) 01 Título 01 Título 01 Título 01 Título 01 Título Disponível em: http://campeoesdofutebol.com.br. Acesso em: 1 nov. 2018 (adaptado). Qual expressão determina a quantidade de painéis diferentes que a CBF poderá montar? 7! 5! 7! 9!",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10! 5! 3! 6! 3! 3!",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "7! 5! 7! 9! 10!",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "30! 7! 7! 9!",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "5! 5! 5! 2! 5! 4! 9! 7! 9!",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5! 10! 3! 2! 4!",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "enem_2021_d2_azul_q139",
+      "question_number": 139,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma rede de hamburgueria tem três franquias em cidades distintas. Visando incluir um novo tipo de lanche no cardápio, o gerente de marketing da rede sugeriu que fossem colocados à venda cinco novos tipos de lanche, em edições especiais. Os lanches foram oferecidos pelo mesmo período de tempo em todos os franqueados.\nO tipo que apresentasse a maior média por franquia seria incluído definitivamente no cardápio Terminado o período de experiência, a gerência recebeu um relatório descrevendo as quantidades vendidas, em unidade, de cada um dos cinco tipos de lanche nas três franquias.\nLanche Lanche Lanche Lanche Lanche I II III IV V Franquia I 415 395 425 430 435 Franquia II 415 445 370 370 425 Franquia III 415 390 425 433 420 Com base nessas informações, a gerência decidiu incluir no cardápio o lanche de tipo",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q140",
+      "question_number": 140,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma grande rede de supermercados adota um sistema de avaliação dos faturamentos de suas filiais, considerando a média de faturamento mensal em milhão A matriz da rede paga uma comissão para os representantes dos supermercados que atingirem uma média de faturamento mensal (M), conforme apresentado no quadro.\nComissão Média de faturamento mensal (M)\nI 1 ≤ M < 2 II 2 ≤ M < 4 III 4 ≤ M < 5 IV 5 ≤ M < 6 V M ≥ 6 Um supermercado da rede obteve os faturamentos num dado ano, conforme apresentado no quadro.\nFaturamento mensal Quantidade de meses (em milhão de real) 3,5 3 2,5 2 5 2 3 4 7,5 Nas condições apresentadas, os representantes desse supermercado avaliam que receberão, no ano seguinte, a comissão de tipo",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q141",
+      "question_number": 141,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Aplicativos que gerenciam serviços de hospedagem têm ganhado espaço no Brasil e no mundo por oferecer opções diferenciadas em termos de localização e valores de hospedagem. Em um desses aplicativos, o preço P a ser pago pela hospedagem é calculado considerando um preço por diária d, acrescido de uma taxa fixa de limpeza L e de uma taxa de serviço. Essa taxa de serviço é um valor percentual s calculado sobre o valor pago pelo total das diárias.\nNessa situação, o preço a ser pago ao aplicativo para uma hospedagem de n diárias pode ser obtido pela expressão",
+      "options": [
+        {
+          "letter": "A",
+          "text": "P = d(cid:13)n + L + d(cid:13)n(cid:13)s",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "P = d(cid:13)n + L + d(cid:13)s",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "P = d + L + s",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "P = d(cid:13)n(cid:13)s + L",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "P = d(cid:13)n + L + s",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q142",
+      "question_number": 142,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O organizador de uma competição de lançamento de dardos pretende tornar o campeonato mais competitivo.\nPelas regras atuais da competição, numa rodada, o jogador lança 3 dardos e pontua caso acerte pelo menos um deles no alvo. O organizador considera que, em 1 média, os jogadores têm, em cada lançamento, de 2 probabilidade de acertar um dardo no alvo.\nA fim de tornar o jogo mais atrativo, planeja modificar as regras de modo que a probabilidade de um jogador 9 pontuar em uma rodada seja igual ou superior a . Para 10 isso, decide aumentar a quantidade de dardos a serem lançados em cada rodada.\nCom base nos valores considerados pelo organizador da competição, a quantidade mínima de dardos que devem ser disponibilizados em uma rodada para tornar o jogo mais atrativo é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "4.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "6.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "9.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "10.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q143",
+      "question_number": 143,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O gráfico apresenta o nível de ocupação dos cinco reservatórios de água que abasteciam uma cidade em 2 de fevereiro de 2015.",
+          "source": null
+        }
+      ],
+      "image_url": null,
+      "statement": "Nível dos reservatórios em 2 fev. 2015 100 90 80 70 60 50 40 30 20 10 0 I II III IV V Reservatório )%( oãçapuco ed levíN Capacidade (bilhão de litros) 105 100 20 80 40 Nessa data, o reservatório com o maior volume de água era o",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q144",
+      "question_number": 144,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma pessoa realizou uma pesquisa com alguns alunos de uma escola, coletando suas idades, e organizou esses dados no gráfico aicnêrroco ed aicnêuqerF 12 9 6 9 18 27 Idade (ano)\nQual é a média das idades, em ano, desses alunos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "12",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "18",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "19",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "27",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q145",
+      "question_number": 145,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Em um estudo realizado pelo IBGE em quatro estados e no Distrito Federal, com mais de 5 mil pessoas com 10 anos ou mais, observou-se que a leitura ocupa, em média, apenas seis minutos do dia de cada pessoa.\nNa faixa de idade de 10 a 24 anos, a média diária é de três minutos. No entanto, no grupo de idades entre 24 e 60 anos, o tempo médio diário dedicado à leitura é de 5 minutos. Entre os mais velhos, com 60 anos ou mais, a média é de 12 minutos.\nA quantidade de pessoas entrevistadas de cada faixa de idade seguiu a distribuição percentual descrita no quadro.",
+          "source": "Faixa etária Percentual de entrevistados De 10 a 24 anos x Entre 24 e 60 anos y A partir de 60 anos x Disponível em: www.oglobo.globo.com. Acesso em: 16 ago. 2013 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os valores de x e y do quadro são, respectivamente, iguais a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10 e 80.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "10 e 90.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "20 e 60.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "20 e 80.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "25 e 50.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q146",
+      "question_number": 146,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um zootecnista pretende testar se uma nova ração para coelhos é mais eficiente do que a que ele vem utilizando atualmente A ração atual proporciona uma massa média de 10 kg por coelho, com um desvio padrão de 1 kg, alimentado com essa ração durante um período de três meses.\nO zootecnista selecionou uma amostra de coelhos e os alimentou com a nova ração pelo mesmo período de tempo Ao final, anotou a massa de cada coelho, obtendo um desvio padrão de 1,5 kg para a distribuição das massas dos coelhos dessa amostra.\nPara avaliar a eficiência dessa ração, ele utilizará o coeficiente de variação (CV) que é uma medida de dispersão definida por CV (cid:3) s , em que s representa o x desvio padrão e x, a média das massas dos coelhos que foram alimentados com uma determinada ração O zootecnista substituirá a ração que vinha utilizando pela nova, caso o coeficiente de variação da distribuição das massas dos coelhos que foram alimentados com a nova ração for menor do que o coeficiente de variação da distribuição das massas dos coelhos que foram alimentados com a ração atual A substituição da ração ocorrerá se a média da distribuição das massas dos coelhos da amostra, em quilograma, for superior a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5,0.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "9,5.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "10,0.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "10,5.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "15,0.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q147",
+      "question_number": 147,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A Cifra de César é um exemplo de um método de codificação de mensagens usado por Júlio César para se comunicar com seus generais.\nNo método, cada letra era trocada por uma letra que aparecia no alfabeto um número fixo de casas adiante (ou atrás) de forma cíclica. A seguir temos um exemplo em que cada letra é substituída pela que vem três posições à frente.\nOriginal A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (cid:2)(cid:3)(cid:4)(cid:5)(cid:6)(cid:7)(cid:8)(cid:9)(cid:4)(cid:3) D E F G H I J K L M N O P Q R S T U V W X Y Z A B C Para quebrar um código como esse, a análise de frequências das letras de um texto é uma ferramenta importante.\nUma análise do texto do romance O guarani, de José de Alencar, que é composto por 491 631 letras, gerou o seguinte gráfico de frequências: 70 000 60 000 50 000 40 000 30 000 20 000 10 000 0 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z aicnêuqerF Disponível em: www dominiopublico gov br Acesso em: 7 fev 2015 Após codificar esse texto com a regra do exemplo fornecido, faz-se nova análise de frequência no texto codificado As quatro letras mais frequentes, em ordem decrescente de frequência, do texto codificado são",
+          "source": null
+        }
+      ],
+      "image_url": null,
+      "statement": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A, E, O e S.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "D, E, F e G",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "D, H, R e V.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "R, L, B e X",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "X, B, L e P",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q148",
+      "question_number": 148,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O quadro apresenta o número de terremotos de magnitude maior ou igual a 7, na escala Richter, ocorridos em nosso planeta nos anos de 2000 a 2011.",
+          "source": "Ano 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 Terremotos 15 16 13 15 16 11 11 18 12 17 24 20 Disponível em: https://earthquake usgs gov/earthquakes/browse/m7-world php Acesso em: 13 ago 2012 (adaptado)"
+        }
+      ],
+      "image_url": null,
+      "statement": "Um pesquisador acredita que a mediana representa bem o número anual típico de terremotos em um período.\nSegundo esse pesquisador, o número anual típico de terremotos de magnitude maior ou igual a 7 é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "11.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "15.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "15,5.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "15,7",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "17,5",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q149",
+      "question_number": 149,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A receita R de uma empresa ao final de um mês é o dinheiro captado com a venda de mercadorias ou com a prestação de serviços nesse mês, e a despesa D é todo o dinheiro utilizado para pagamento de salários, contas de água e luz, impostos, entre outros. O lucro mensal obtido ao final do mês é a diferença entre a receita e a despesa registradas no mês O gráfico apresenta as receitas e despesas, em milhão de real, de uma empresa ao final dos cinco primeiros meses de um dado ano.\nReceitas e despesas 28 25 20 15 10 5 0 Mês janeiro fevereiro março abril maio Receita Despesa A previsão para os próximos meses é que o lucro mensal não seja inferior ao maior lucro obtido até o mês de maio Nessas condições, o lucro mensal para os próximos meses deve ser maior ou igual ao do mês de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "janeiro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "fevereiro.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "março.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "abril.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "maio.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q150",
+      "question_number": 150,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A depressão caracteriza-se por um desequilíbrio na química cerebral Os neurônios de um deprimido não respondem bem aos estímulos dos neurotransmissores.",
+          "source": "Os remédios que combatem a depressão têm o objetivo de restabelecer a química cerebral. Com o aumento gradativo de casos de depressão, a venda desses medicamentos está em crescente evolução, conforme ilustra o gráfico 600 o ) 519,2 ã h 500 465 mil 370 m 400 e 294 ( a s 300 236 d n e 200 v e d 100 e m 0 u ol 2005 2006 2007 2008 2009 V Ano Veja, 10 fev. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "No período de 2005 a 2009, o aumento percentual no volume de vendas foi de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "45,4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "54,5.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "120.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "220.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "283,2.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q151",
+      "question_number": 151,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados.\nO gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por ]300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1 300] A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais.\nNo entanto, o casal achou que essa última informação não era compatível com o gráfico obtido Distribuição dos preços 0 2 ei s1 5 v ó m e i o d 1 0 er m ú N 5 0 300 400 500 600 700 800 9001 0001 1001 200 1 300 Preço (em mil reais)\nCom base no gráfico obtido, o menor preço, p (em mil reais), para o qual pelo menos 50% dos apartamentos apresenta preço inferior a p é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "600.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "700",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "800.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "900.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1 000.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q152",
+      "question_number": 152,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Para a comunicação entre dois navios é utilizado um sistema de codificação com base em valores numéricos Para isso, são consideradas as operações triângulo Δ e estrela , definidas sobre o conjunto dos * números reais por xΔy = x2 + xy _ y2 e x y = xy + x. * O navio que deseja enviar uma mensagem deve fornecer um valor de entrada b, que irá gerar um valor de saída, a ser enviado ao navio receptor, dado pela soma das duas maiores soluções da equação (aΔb) (bΔa) = 0. Cada valor possível de entrada e saída * representa uma mensagem diferente já conhecida pelos dois navios.\nUm navio deseja enviar ao outro a mensagem ‘ATENÇÃO!’ Para isso, deve utilizar o valor de entrada b = 1.\nDessa forma, o valor recebido pelo navio receptor será",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1 (cid:9)1(cid:8) 5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2 (cid:10)(cid:8) 5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q153",
+      "question_number": 153,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2021_cd7_q153.png"
+      ],
+      "statement": "Um parque temático brasileiro construiu uma réplica em miniatura do castelo de Liechtenstein. O castelo original, representado na imagem, está situado na Alemanha e foi reconstruído entre os anos de 1840 e 1842, após duas destruições causadas por guerras. \nO castelo possui uma ponte de 38,4 m de comprimento e 1,68 m de largura O artesão que trabalhou para o parque produziu a réplica do castelo, em escala. Nessa obra, as medidas do comprimento e da largura da ponte eram, respectivamente, 160 cm e 7 cm A escala utilizada para fazer a réplica é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 : 576",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1 : 240",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1 : 24",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "1 : 4,2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1 : 2,4",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q154",
+      "question_number": 154,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A demografia médica é o estudo da população de médicos no Brasil nos aspectos quantitativo e qualitativo, sendo um dos seus objetivos fazer projeções sobre a necessidade da formação de novos médicos Um desses estudos gerou um conjunto de dados que aborda a evolução do número de médicos e da população brasileira por várias décadas. O quadro apresenta parte desses dados.\nAno Médicos População brasileira (em milhar) 1990 219 000 147 000 2000 292 000 170 000 2010 365 000 191 000 Segundo uma projeção estatística, a variação do número de médicos e o da população brasileira de 2010 para 2020 será a média entre a variação de 1990 para 2000 e a de 2000 para 2010. Com o resultado dessa projeção, determina-se o número de médicos por mil habitantes no ano de 2020.",
+          "source": "Disponível em: www.cremesp.org.br. Acesso em: 24 jun. 2015 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O número, com duas casas na parte decimal, mais próximo do número de médicos por mil habitantes no ano de 2020 seria de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,17",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0,49.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1,71",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2,06.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "3,32.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q155",
+      "question_number": 155,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um atleta produz sua própria refeição com custo fixo de R$ 10,00 Ela é composta por 400 g de frango, 600 g de batata-doce e uma hortaliça Atualmente, os preços dos produtos para essa refeição são:\nFrango (kg) Batata-doce (kg) Hortaliças (unidade)\nRefeição R$ 12,50 R$ 5,00 R$ 2,00 Em relação a esses preços, haverá um aumento de 50% no preço do quilograma de batata-doce, e os outros preços não serão alterados O atleta deseja manter o custo da refeição, a quantidade de batata-doce e a hortaliça Portanto, terá que reduzir a quantidade de frango.\nQual deve ser a redução percentual da quantidade de frango para que o atleta alcance seu objetivo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "12,5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "28,0",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "30,0",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "50,0",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "70,0",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q156",
+      "question_number": 156,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma mola é solta da posição distendida conforme a figura A figura à direita representa o gráfico da posição P (em cm) da massa m em função do tempo t (em segundo) em um sistema de coordenadas cartesianas. Esse movimento periódico é descrito por uma expressão do tipo P(t) = (cid:14)(cid:6)A cos ( (cid:15) t) ou P(t) = (cid:14)(cid:6)A sen ( (cid:15) t), em que A > 0 é a amplitude de deslocamento 2 (cid:15) (cid:15) máximo e é a frequência, que se relaciona com o período T pela fórmula .\nT Considere a ausência de quaisquer forças dissipativas.\nGráfico P 3 2 Posição 1 de equilíbrio 0 (cid:16) (cid:16) 3(cid:16) 2(cid:16) 5(cid:16) 3(cid:16) m t (cid:11)1 2 2 2 Mola distendida (cid:11)2 m (cid:11)3 A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(cid:11)3 cos (2t)",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "(cid:11)3 sen (2t)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3 cos (2t)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "(cid:11)6 cos (2t)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "6 sen (2t)",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q157",
+      "question_number": 157,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma construtora, pretendendo investir na construção de imóveis em uma metrópole com cinco grandes regiões, fez uma pesquisa sobre a quantidade de famílias que mudaram de uma região para outra, de modo a determinar qual região foi o destino do maior fluxo de famílias, sem levar em consideração o número de famílias que deixaram a região Os valores da pesquisa estão dispostos em uma matriz A (cid:3)(cid:6)(cid:17)a (cid:18), i, j (cid:11){1, 2, 3, 4, 5}, ij em que o elemento a ij corresponde ao total de famílias (em dezena) que se mudaram da região i para a região j durante um certo período, e o elemento a ii é considerado nulo, uma vez que somente são consideradas mudanças entre regiões distintas. A seguir, está apresentada a matriz com os dados da pesquisa. (cid:19)0 4 2 2 5(cid:22) (cid:21) (cid:24) (cid:21)0 0 6 2 3(cid:24)\nA(cid:3)(cid:21) 2 2 0 3 0 (cid:24) (cid:21) (cid:24) (cid:21) 1 0 2 0 4 (cid:24) (cid:21) (cid:24) (cid:20) 1 2 0 4 0 (cid:23)\nQual região foi selecionada para o investimento da construtora?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q158",
+      "question_number": 158,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Para realizar um voo entre duas cidades que distam 2 000 km uma da outra, uma companhia aérea utilizava um modelo de aeronave A, capaz de transportar até 200 passageiros. Quando uma dessas aeronaves está lotada de passageiros, o consumo de combustível é de 0,02 litro por quilômetro e por passageiro. Essa companhia resolveu trocar o modelo de aeronave A pelo modelo de aeronave B, que é capaz de transportar 10% de passageiros a mais do que o modelo A, mas consumindo 10% menos combustível por quilômetro e por passageiro.\nA quantidade de combustível consumida pelo modelo de aeronave B, em relação à do modelo de aeronave A, em um voo lotado entre as duas cidades, é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10% menor",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1% menor.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "igual.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1% maior.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "11% maior",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q159",
+      "question_number": 159,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em uma corrida automobilística, os carros podem fazer paradas nos boxes para efetuar trocas de pneus. Nessas trocas, o trabalho é feito por um grupo de três pessoas em cada pneu. Considere que os grupos iniciam o trabalho no mesmo instante, trabalham à mesma velocidade e cada grupo trabalha em um único pneu. Com os quatro grupos completos, são necessários 4 segundos para que a troca seja efetuada O tempo gasto por um grupo para trocar um pneu é inversamente proporcional ao número de pessoas trabalhando nele. Em uma dessas paradas, um dos trabalhadores passou mal, não pôde participar da troca e nem foi substituído, de forma que um dos quatro grupos de troca ficou reduzido Nessa parada específica, com um dos grupos reduzido, qual foi o tempo gasto, em segundo, para trocar os quatro pneus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6,0",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "5,7",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5,0",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4,5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4,4",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q160",
+      "question_number": 160,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um nutricionista verificou, na dieta diária do seu cliente, a falta de 800 mg do mineral A, de 1 000 mg do mineral B e de 1 200 mg do mineral C Por isso, recomendou a compra de suplementos alimentares que forneçam os minerais faltantes e informou que não haveria problema se consumisse mais desses minerais do que o recomendado.\nO cliente encontrou cinco suplementos, vendidos em sachês unitários, cujos preços e as quantidades dos minerais estão apresentados a seguir:\nO Suplemento I: contém 50 mg do mineral A, 100 mg do mineral B e 200 mg do mineral C e custa R$ 2,00;\nO Suplemento II: contém 800 mg do mineral A, 250 mg do mineral B e 200 mg do mineral C e custa R$ 3,00;\nO Suplemento III: contém 250 mg do mineral A, 1 000 mg do mineral B e 300 mg do mineral C e custa R$ 5,00;\nO Suplemento IV: contém 600 mg do mineral A, 500 mg do mineral B e 1 000 mg do mineral C e custa R$ 6,00;\nO Suplemento V: contém 400 mg do mineral A, 800 mg do mineral B e 1 200 mg do mineral C e custa R$ 8,00 O cliente decidiu comprar sachês de um único suplemento no qual gastasse menos dinheiro e ainda suprisse a falta de minerais indicada pelo nutricionista, mesmo que consumisse alguns deles além de sua necessidade.\nNessas condições, o cliente deverá comprar sachês do suplemento",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "V.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q161",
+      "question_number": 161,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O administrador de um teatro percebeu que, com o ingresso do evento a R$ 20,00, um show conseguia atrair 200 pessoas e que, a cada R$ 1,00 de redução no preço do ingresso, o número de pessoas aumentava em 40. Ele sabe que os donos do teatro só admitem trabalhar com valores inteiros para os ingressos, pela dificuldade de disponibilizar troco, e pretende convencê-los a diminuir o preço do ingresso. Assim, apresentará um gráfico da arrecadação em função do valor do desconto no preço atual do ingresso.\n\nO gráfico que mais se assemelha ao que deve ser elaborado pelo administrador é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q161-A.png",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q161-B.png",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q161-C.png",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q161-D.png",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": "assets/images/enem_2021_cd7_q161-E.png",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q162",
+      "question_number": 162,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O quadro representa a relação entre o preço de um pro Preço do produto (R)\nR (cid:25) 5 000 5 000 (cid:2) R (cid:25) 10 000 10 000 (cid:2) R (cid:25) 15 000 5 O gráfico que melhor representa essa relação é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I 2 000 500 R 0 5 000 10 000 15 000",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "I 1 000 500 R 0 5 000 10 000 15 000",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "I 1 000 500 R 0 5 000 10 000 15 oduto (R) e seu respectivo imposto devido (I).\nImposto devido (I) isento 10% de (R (cid:11) 5 000) 500 (cid:10) 30% de (R (cid:11) 10 000)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "I 2 000 500 R 0 5 000 10 000 15 000",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "I 1 000 500 R 0 5 000 10 000 15 000",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q163",
+      "question_number": 163,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A relação de Newton-Laplace estabelece que o módulo volumétrico de um fluido é diretamente proporcional ao quadrado da velocidade do som (em metro por segundo) no fluido e à sua densidade (em quilograma por metro cúbico), com uma constante de proporcionalidade adimensional.\nNessa relação, a unidade de medida adequada para o módulo volumétrico é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kg(cid:13)m_2(cid:13)s_1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "kg(cid:13)m_1(cid:13)s_2",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "kg(cid:13)m_5(cid:13)s2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "kg_1(cid:13)m1(cid:13)s2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "kg_1(cid:13)m5(cid:13)s_2",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q164",
+      "question_number": 164,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg.\nEm duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens:\nViagem Camisetas Calças Sapatos I 12 4 3 II 18 3 2 Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.\nQual a quantidade máxima de camisetas que essa pessoa poderá levar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "22",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "24",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "26",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "33",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "39",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q165",
+      "question_number": 165,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 20 km percorridos.\nO valor do desempenho médio do automóvel com o novo motor, em quilômetro por litro, expresso com uma casa decimal, é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "15,9.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "16,1.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "16,4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "17,4.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "18,0.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q166",
+      "question_number": 166,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O projeto de um contêiner, em forma de paralelepípedo reto retangular, previa a pintura dos dois lados (interno e externo) de cada uma das quatro paredes com tinta acrílica e a pintura do piso interno com tinta epóxi. O construtor havia pedido, a cinco fornecedores diferentes, orçamentos das tintas necessárias, mas, antes de iniciar a obra, resolveu mudar o projeto original, alterando o comprimento e a largura para o dobro do originalmente previsto, mantendo inalterada a altura. Ao pedir novos orçamentos aos fornecedores, para as novas dimensões, cada um deu uma resposta diferente sobre as novas quantidades de tinta necessárias.\nEm relação ao previsto para o projeto original, as novas quantidades de tinta necessárias informadas pelos fornecedores foram as seguintes:\nO Fornecedor I: ‘O dobro, tanto para as paredes quanto para o piso.”\nO Fornecedor II: ‘O dobro para as paredes e quatro vezes para o piso.”\nO Fornecedor III: ‘Quatro vezes, tanto para as paredes quanto para o piso.”\nO Fornecedor IV: ‘Quatro vezes para as paredes e o dobro para o piso.”\nO Fornecedor V: “Oito vezes para as paredes e quatro vezes para o piso.”\nAnalisando as informações dos fornecedores, o construtor providenciará a quantidade adequada de material. Considere a porta de acesso do contêiner como parte de uma das paredes.\nQual dos fornecedores prestou as informações adequadas, devendo ser o escolhido pelo construtor para a aquisição do material?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "III",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "IV",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "V",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2021_d2_azul_q167",
+      "question_number": 167,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um povoado com 100 habitantes está passando por uma situação de seca prolongada e os responsáveis pela administração pública local decidem contratar a construção de um reservatório Ele deverá ter a forma de um cilindro circular reto, cuja base tenha 5 metros de diâmetro interno, e atender à demanda de água da população por um período de exatamente sete dias consecutivos. No oitavo dia, o reservatório vazio é completamente reabastecido por carros-pipa Considere que o consumo médio diário por habitante (cid:16) é de 120 litros de água Use 3 como aproximação para .\nNas condições apresentadas, o reservatório deverá ser construído com uma altura interna mínima, em metro, igual a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1,12.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "3,10.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "4,35.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4,48.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "5,60.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q168",
+      "question_number": 168,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Num octaedro regular, duas faces são consideradas opostas quando não têm nem arestas, nem vértices em comum Na figura, observa-se um octaedro regular e uma de suas planificações, na qual há uma face colorida na cor cinza escuro e outras quatro faces numeradas. 1 3 2 4 Qual(is) face(s) ficará(ão) oposta(s) à face de cor cinza escuro, quando o octaedro for reconstruído a partir da planificação dada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1, 2, 3 e 4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1 e 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q169",
+      "question_number": 169,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O instrumento de percussão conhecido como triângulo é composto por uma barra fina de aço, dobrada em um formato que se assemelha a um triângulo, com uma abertura e uma haste, conforme ilustra a Figura 1. h = 8 cm Figura 1 Figura 2 Uma empresa de brindes promocionais contrata uma fundição para a produção de miniaturas de instrumentos desse tipo A fundição produz, inicialmente, peças com o formato de um triângulo equilátero de altura h, conforme ilustra a Figura 2. Após esse processo, cada peça é aquecida, deformando os cantos, e cortada em um dos vértices, dando origem à miniatura Assuma que não ocorram perdas de material no processo de produção, de forma que o comprimento da barra utilizada seja igual ao perímetro do triângulo equilátero representado na Figura 2.\nConsidere 1,7 como valor aproximado para 3.\nNessas condições, o valor que mais se aproxima da medida do comprimento da barra, em centímetro, é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9,07",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "13,60.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "20,40.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "27,18.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "36,24.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q170",
+      "question_number": 170,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma pessoa comprou uma caneca para tomar sopa, conforme ilustração D h d Sabe-se que 1 cm3 = 1 mL e que o topo da caneca é uma circunferência de diâmetro (D) medindo 10 cm, e a base é um círculo de diâmetro (d) medindo 8 cm.\nAlém disso, sabe-se que a altura (h) dessa caneca mede 12 cm (distância entre o centro das circunferências do topo e da base). (cid:16)\nUtilize 3 como aproximação para .\nQual é a capacidade volumétrica, em mililitro, dessa caneca?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "216",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "408",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "732",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "2 196",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2 928",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q171",
+      "question_number": 171,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O dono de uma loja pretende usar cartões imantados para a divulgação de sua loja A empresa que fornecerá o serviço lhe informa que o custo de fabricação do cartão é de R$ 0,01 por centímetro quadrado e que disponibiliza modelos tendo como faces úteis para impressão:\nO um triângulo equilátero de lado 12 cm;\nO um quadrado de lado 8 cm;\nO um retângulo de lados 11 cm e 8 cm;\nO um hexágono regular de lado 6 cm;\nO um círculo de diâmetro 10 cm.\nO dono da loja está disposto a pagar, no máximo, R$ 0,80 por cartão Ele escolherá, dentro desse limite de preço, o modelo que tiver maior área de impressão (cid:16)\nUse 3 como aproximação para (cid:6)e use 1,7 como aproximação para 3.\nNessas condições, o modelo que deverá ser escolhido tem como face útil para impressão um",
+      "options": [
+        {
+          "letter": "A",
+          "text": "triângulo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "quadrado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "retângulo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "hexágono.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "círculo.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2021_d2_azul_q172",
+      "question_number": 172,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um ciclista amador de 61 anos de idade utilizou um monitor cardíaco para medir suas frequências cardíacas em quatro diferentes tipos de trechos do percurso. Os resultados das frequências cardíacas máximas alcançadas nesses trechos foram:\nFrequências cardíacas Trechos do percurso máximas (bpm)\nLeve no plano 90 Forte no plano 120 Subida moderada 130 Subida forte 140 Sabe-se que a faixa aeróbica ideal para o ganho de condicionamento físico é entre 65% e 85% da frequência cardíaca máxima (Fc máx.), que, por sua vez, é determinada pela fórmula:\nFc máx. = 220 _ idade, em que a idade é dada em ano e Fc máx. é dada em bpm (batimento por minuto).\nOs trechos do percurso nos quais esse ciclista se mantém dentro de sua faixa aeróbica ideal, para o ganho de condicionamento físico, são",
+      "options": [
+        {
+          "letter": "A",
+          "text": "leve no plano, forte no plano, subida moderada e subida forte.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "leve no plano, forte no plano e subida moderada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "forte no plano, subida moderada e subida forte.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "forte no plano e subida moderada.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "leve no plano e subida forte.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q173",
+      "question_number": 173,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um lava-rápido oferece dois tipos de lavagem de veículos: lavagem simples, ao preço de R$ 20,00, e lavagem completa, ao preço de R$ 35,00 Para cobrir as despesas com produtos e funcionários, e não ter prejuízos, o lava-rápido deve ter uma receita diária de, pelo menos, R$ 300,00 Para não ter prejuízo, o menor número de lavagens diárias que o lava-rápido deve efetuar é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "8.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "9.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "15.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "20.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q174",
+      "question_number": 174,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Após consulta médica, um paciente deve seguir um tratamento composto por três medicamentos: X, Y e Z O paciente, para adquirir os três medicamentos, faz um orçamento em três farmácias diferentes, conforme o quadro.\nX Y Z Farmácia 1 R$ 45,00 R$ 40,00 R$ 50,00 Farmácia 2 R$ 50,00 R$ 50,00 R$ 40,00 Farmácia 3 R$ 65,00 R$ 45,00 R$ 35,00 Dessas farmácias, algumas oferecem descontos:\nO na compra dos medicamentos X e Y na Farmácia 2, recebe-se um desconto de 20% em ambos os produtos, independentemente da compra do medicamento Z, e não há desconto para o medicamento Z;\nO na compra dos 3 medicamentos na Farmácia 3, recebe-se 20% de desconto no valor total da compra.\nO paciente deseja efetuar a compra de modo a minimizar sua despesa com os medicamentos.\nDe acordo com as informações fornecidas, o paciente deve comprar os medicamentos da seguinte forma:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X, Y e Z na Farmácia 1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "X e Y na Farmácia 1, e Z na Farmácia 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "X e Y na Farmácia 2, e Z na Farmácia 3",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "X na Farmácia 2, e Y e Z na Farmácia 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "X, Y e Z na Farmácia 3",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q175",
+      "question_number": 175,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Muitos brinquedos que frequentemente são encontrados em praças e parques públicos apresentam formatos de figuras geométricas bidimensionais e tridimensionais. Uma empresa foi contratada para desenvolver uma nova forma de brinquedo. A proposta apresentada pela empresa foi de uma estrutura formada apenas por hastes metálicas, conectadas umas às outras, como apresentado na figura As hastes de mesma tonalidade e espessura são congruentes Com base na proposta apresentada, quantas figuras geométricas planas de cada tipo são formadas pela união das hastes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "12 trapézios isósceles e 12 quadrados.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "24 trapézios isósceles e 12 quadrados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "12 paralelogramos e 12 quadrados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "8 trapézios isósceles e 12 quadrados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "12 trapézios escalenos e 12 retângulos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q176",
+      "question_number": 176,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O sistema de numeração romano ainda é utilizado na indicação de capítulos e volumes de livros, na designação de séculos e, em ordem cronológica, de papas e reis de mesmo nome São utilizadas sete letras do alfabeto:\nQuatro fundamentais: I (vale 1); X (vale 10); C (vale 100) e M (vale 1 000).\nTrês secundárias: V (vale 5); L (vale 50) e D (vale 500).\nAs regras para escrever números romanos são: 1 Não existe símbolo correspondente ao zero; 2. Os símbolos fundamentais podem ser repetidos até três vezes e seus valores são adicionados Exemplo: XXX (cid:3) 30; 3. Uma letra posta à esquerda de outra de maior valor indica subtração dos respectivos valores Exemplo: IX (cid:3) 10 (cid:11) 1 (cid:3) 9; 4. Uma letra posta à direita de outra de maior valor indica adição dos respectivos valores Exemplo: XI (cid:3) 10 (cid:10) 1 (cid:3) 11.\nEm uma cidade europeia há uma placa indicando o ano de sua fundação: MCDLXIX Quantos anos de fundação essa cidade comemorará em 2050?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "379",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "381",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "579",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "581",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "601",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q177",
+      "question_number": 177,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma das bases mais utilizadas para representar um número é a base decimal. Entretanto, os computadores trabalham com números na base binária. Nessa base, qualquer número natural é representado usando apenas os algarismos 0 e 1. Por exemplo, as representações dos números 9 e 12, na base binária, são 1001 e 1100, respectivamente A operação de adição, na base binária, segue um algoritmo similar ao utilizado na base decimal, como detalhado no quadro: a b a (cid:10) b 0 0 0 0 1 1 1 0 1 1 1 10 Por exemplo, na base binária, a soma dos números 10 e 10 é 100, como apresentado: 10 (cid:10) _ 1_0__ 100 Considerando as informações do texto, o resultado da adição 9 (cid:10) 12 será representado, na base binária, por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "101.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1101.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1111.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "10101.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "11001.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2021_d2_azul_q178",
+      "question_number": 178,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma unidade de medida comum usada para expressar áreas de terrenos de grandes dimensões é o hectare, que equivale a 10 000 m2. Um fazendeiro decide fazer um loteamento utilizando 3 hectares de sua fazenda, dos quais 0,9 hectare será usado para a construção de ruas e calçadas e o restante será dividido em terrenos com área de 300 m2 cada um. Os 20 primeiros terrenos vendidos terão preços promocionais de R$ 20 000,00 cada, e os demais, R$ 30 000,00 cada Nas condições estabelecidas, o valor total, em real, obtido pelo fazendeiro com a venda de todos os terrenos será igual a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "700 000.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1 600 000.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1 900 000.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "2 200 000.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2 800 000.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2021_d2_azul_q179",
+      "question_number": 179,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma pessoa produzirá uma fantasia utilizando como materiais: 2 tipos de tecidos diferentes e 5 tipos distintos de pedras ornamentais. Essa pessoa tem à sua disposição 6 tecidos diferentes e 15 pedras ornamentais distintas.\nA quantidade de fantasias com materiais diferentes que podem ser produzidas é representada pela expressão",
+      "options": [
+        {
+          "letter": "A",
+          "text": "_ 6_!_ (cid:13) _ 1_5_!_ 4!2! 10!5!",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "_ 6_!_ (cid:10) _ 1_5_!_ 4!2! 10!5!",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "6__ ! (cid:10) _1_5_! 2! 5!",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "6__ ! (cid:13) _1_5_! 2! 5! _2_1_!_",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "7!14!",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2021_d2_azul_q180",
+      "question_number": 180,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Os diretores de uma escola precisam construir um laboratório para uso dos alunos. Há duas possibilidades: (i) um laboratório do tipo A, com capacidade para 100 usuários, a um custo de 180 mil reais e gastos de 60 mil reais por ano para manutenção; (ii) um laboratório do tipo B, com capacidade para 80 usuários, a um custo de 120 mil reais e gastos com manutenção de 16 mil reais por ano Considera-se que, em qualquer caso, o laboratório implantado será utilizado na totalidade de sua capacidade.\nA economia da escola, na utilização de um laboratório tipo B, em vez de um laboratório tipo A, num período de 4 anos, por usuário, será de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1,31 mil reais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1,90 mil reais.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "2,30 mil reais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2,36 mil reais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2,95 mil reais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

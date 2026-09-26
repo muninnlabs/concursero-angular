@@ -1,0 +1,2659 @@
+{
+  "exam_metadata": {
+    "exam_id": "oab_2024_42_tipo1",
+    "exam_name": "42 O EXAME DE ORDEM UNIFICADO prova tipo 1",
+    "institution": "OAB",
+    "year": 2024,
+    "day": 1,
+    "booklet_color": "tipo 1"
+  },
+  "questions": [
+    {
+      "id": "oab_2024_42_tipo1_q1",
+      "question_number": 1,
+      "subject": "Direito Ético-Profissional (Estatuto da OAB)",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Determinada operação de combate à corrupção conduzida pela\nPolícia Federal reuniu elementos indicativos de autoria e\nmaterialidade da prática de crime por parte de Cláudio, advogado\nregularmente inscrito na Ordem dos Advogados do Brasil.\nCom base nesses elementos, a Justiça Federal expediu mandado\nde busca e apreensão, específico e pormenorizado, o qual foi\ncumprido, na presença de representante da OAB, no endereço\nresidencial de Cláudio, o qual também lhe servia como local de\ntrabalho. Foram apreendidos e periciados um notebook e dois\naparelhos de telefone celular, todos contendo informações sobre\ndiversos processos de clientes patrocinados por Cláudio.\nA respeito da validade jurídica da diligência realizada e da\nutilização das informações encontradas nas mídias apreendidas,\nassinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A medida cautelar decretada é inválida, uma vez que o\nEstatuto da Advocacia assegura a inviolabilidade absoluta do\nescritório ou local de trabalho do advogado, e, portanto, as\ninformações encontradas sobre os clientes de Cláudio não\npodem ser utilizadas.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A medida cautelar decretada é válida, porque não foi cumprida\nno escritório de Cláudio, mas na sua residência, porém as\ninformações encontradas sobre os clientes de Cláudio estão\nprotegidas de modo insuperável pelo Estatuto da Advocacia e,\nportanto, não podem ser utilizadas.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A medida cautelar decretada é inválida, tendo em vista a\ninviolabilidade do escritório ou local de trabalho do advogado,\nmas as informações encontradas sobre os clientes de Cláudio\npodem ser utilizadas, caso esses clientes também figurem\nformalmente como investigados.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A medida cautelar decretada é válida, e as informações\nencontradas sobre os clientes de Cláudio poderão ser\nutilizadas se esses clientes forem formalmente investigados\ncomo partícipes ou coautores pela prática do mesmo crime\nque deu causa à decretação da medida.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q2",
+      "question_number": 2,
+      "subject": "Direito Ético-Profissional (Estatuto da OAB)",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O advogado Antônio Carlos ajuizou, em favor de sua cliente Celina,\nlide manifestamente temerária em face de João. A esse respeito, à\nluz do Estatuto da Advocacia e da OAB, assinale a afirmativa\ncorreta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A responsabilidade de Antônio Carlos e Celina será solidária,\nindependentemente do intuito de lesar João, parte contrária.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Não há responsabilidade solidária entre Celina e Antônio\nCarlos se comprovado que não estavam coligados nos seus\nintuitos.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Celina poderá ser responsabilizada se comprovada a violação\ndo dever de cuidado, ao constar como parte autora no\nprocesso, ainda que não esteja coligada com seu advogado.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Caso comprovado que Celina não sabia do conteúdo temerário\nda lide, Antônio Carlos não poderá ser civilmente responsável\nde forma isolada, porque a responsabilização do advogado\nexige participação dolosa de Celina.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q3",
+      "question_number": 3,
+      "subject": "Direito Ético-Profissional (Estatuto da OAB)",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Roberto Silva, advogado e sócio fundador da sociedade de\nadvogados Silva e Souza Advogados Associados, foi eleito para o\ncargo de Prefeito do Município Ômega. Embora feliz e motivado\ncom o mandato que lhe foi confiado pela população, Roberto Silva\nnão gostaria de se retirar da sociedade de advogados por ele\nfundada.\nConsiderando o Estatuto da Advocacia e da OAB, assinale a\nafirmativa que descreve corretamente a situação societária e a\neventual atuação de Roberto Silva como advogado após assumir o\ncargo de Prefeito de Ômega:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "É impositiva a exclusão de Roberto Silva da sociedade de\nadvogados Silva e Souza Advogados Associados, dada a\nincompatibilidade do cargo de Prefeito Municipal com a\nadvocacia.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O exercício do mandato de Prefeito de Ômega impede apenas\nque Roberto Silva advogue contra a Fazenda Pública que o\nremunera, no caso o Município Ômega, não havendo óbice\npara que continue integrando a sociedade de advogados e\natuando em causas diversas.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O exercício do mandato de Prefeito de Ômega é incompatível\ncom a advocacia, mas, por si só, não excluirá Roberto Silva da\nsociedade de advogados Silva e Souza Advogados Associados,\na qual poderá continuar explorando o nome e a imagem do seu\nfundador em benefício da sociedade.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Embora incompatível com a advocacia, o exercício do cargo de\nPrefeito de Ômega, por si só, não excluirá Roberto Silva da\nsociedade de advogados Silva e Souza Advogados Associados.\nContudo, deve o fato ser averbado no registro da sociedade,\nbem como observada a incompatibilidade temporária.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q4",
+      "question_number": 4,
+      "subject": "Direito Ético-Profissional (Estatuto da OAB)",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A advogada Nina exerce função na diretoria do Conselho Federal\nda OAB. Em virtude exclusivamente das funções desempenhadas\nna OAB, Nina toma conhecimento de certos fatos envolvendo seus\ncolegas advogados João e Maria.\nNina acaba de receber uma intimação para depor como\ntestemunha em audiência de instrução e julgamento, referente a\numa ação indenizatória, de cunho meramente patrimonial, sem\nenvolver grave ameaça ao direito à vida e à honra, ajuizada por\nMaria em face de João, cujo objeto tem relação com mencionados\nfatos de que tomou conhecimento no exercício da citada função\nno Conselho Federal da OAB\nConsiderando a situação hipotética, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nina não deve depor sobre os fatos que soube, diante do sigilo\nprofissional.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Nina não poderá alegar sigilo profissional em razão da\nnatureza das funções exercidas no Conselho Federal da OAB.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Nina deverá relatar os fatos sobre os quais tomou\nconhecimento, pois se trata de ação indenizatória, de cunho\nmeramente patrimonial.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Nina tem o dever legal de permanecer em silêncio sobre os\nfatos indagados, salvo em circunstâncias excepcionais, tais\ncomo a defesa judicial de familiares e amigos íntimos.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q5",
+      "question_number": 5,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Roberto Gil, professor de Direito Administrativo da Universidade\nFederal do Estado Alfa, é casado com Maria Amélia, servidora do\nMinistério da Saúde há 35 anos. Maria Amélia contou a seu esposo\nque várias colegas do Ministério da Saúde estão ajuizando ações\ncontra a União, em que postulam o recebimento de gratificações\nde atividade de combate e controle de endemias, e indagou a\nRoberto Gil se poderia assumir o patrocínio dessas causas como\nadvogado.\nCom base no caso narrado, sobre as incompatibilidades e\nimpedimentos ao exercício da advocacia, assinale a afirmativa\ncorreta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O exercício da advocacia é incompatível com a de professor de\nUniversidade Federal, não sendo possível a Roberto que atue\nno patrocínio de qualquer causa como advogado no Poder\nJudiciário.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Roberto Gil não poderá assumir o patrocínio dessas causas,\nporque, sendo servidor da administração federal indireta, está\nimpedido de exercer a advocacia contra a União, diante da\nvinculação existente entre a Universidade Federal e a União.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Roberto Gil poderá assumir o patrocínio da causa apenas de\nsua esposa, pois, apesar de existir a regra de impedimento de\nexercício da advocacia contra a União por servidores da\nadministração indireta federal, os membros da família estão\nincluídos no conceito de causa própria, o que autoriza a\natuação em defesa de entes queridos.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Embora, em regra, os servidores da administração indireta\nestejam impedidos de exercer advocacia contra a Fazenda\nPública que os remunera ou à qual seja vinculada a entidade\nempregadora, Roberto Gil poderá assumir o patrocínio de\ncausas contra a União, pois os docentes de cursos jurídicos não\nestão sujeitos a essa vedação.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q6",
+      "question_number": 6,
+      "subject": "Direito Ético-Profissional (Estatuto da OAB)",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "José Fabiano, advogado recém-inscrito na OAB, com dois anos e\nseis meses de exercício da profissão, decidiu se candidatar para o\ncargo de Conselheiro Seccional da Ordem.\nDurante o procedimento de verificação da regularidade de sua\ncandidatura, observou-se que ele havia sido condenado pela\nprática da infração disciplinar de abandonar a causa sem justo\nmotivo ou antes de decorridos dez dias da comunicação da\nrenúncia, tendo-lhe sido imposta sanção de censura, sem que\ntenha ocorrido, até o momento da eleição, sua reabilitação.\nCom base nessa situação hipotética e considerando as eleições da\nOAB, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "José Fabiano somente poderá participar da eleição caso não\nhaja outros candidatos dispostos a concorrer para o cargo,\nhipótese na qual as condições de elegibilidade são\nflexibilizadas para que a posição não fique vaga.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "José Fabiano não poderá participar da eleição corrente,\nporque ainda não completou o prazo de três anos de efetivo\nexercício profissional da advocacia e por ter sido apenado com\nsanção disciplinar, sem que tenha sucedido reabilitação.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "José Fabiano poderá participar da eleição e concorrer ao cargo\nde Conselheiro Seccional da OAB, porque exerce a profissão de\nadvogado há mais de um ano e foi condenado por infração\ndisciplinar leve, para a qual está prevista apenas a pena de\ncensura.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "José Fabiano não poderá participar da eleição corrente e de\nfuturas, porque, uma vez apenado com sanção disciplinar, o\nadvogado não mais poderá recuperar sua condição de\nelegibilidade, estando impedido, indefinidamente, de se\ncandidatar a cargos na OAB.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q7",
+      "question_number": 7,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A sociedade empresária Alfa contratou o advogado João Carlos\npara propor ação de repetição de indébito tributário contra a\nFazenda Nacional. Foi outorgado mandato específico para a\nreferida demanda e celebrado o respectivo contrato de\nhonorários.\nNo decorrer da prestação dos serviços, devido ao grande\nconhecimento de João Carlos em outras áreas do direito, bem\ncomo à sua pronta disponibilidade, os responsáveis pela Alfa\npassaram a consultá-lo informalmente sobre diversos assuntos da\nempresa, inclusive adotando medidas e tomando decisões a partir\ndas orientações verbais prestadas. Seis meses após o início dessas\nconsultas, a empresa Alfa e João Carlos formalizaram outro\ncontrato de honorários advocatícios, com efeitos prospectivos,\ndesta feita para a prestação da atividade consultiva em curso.\nAcerca da atuação profissional de João Carlos durante o período\nanterior à formalização do contrato de honorários, assinale a\nafirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Não há como reconhecer as atividades prestadas por João\nCarlos no período anterior à formalização do contrato de\nhonorários, pois a atuação do advogado, salvo em situações\nurgentes, exige a prova do mandato.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A outorga de mandato para as atividades de consultoria\njurídica é prescindível, porém a falta de formalização dos\nserviços prestados, por meio de contrato de honorários, torna\no período anterior insuscetível de reconhecimento.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "As atividades prestadas por João Carlos no período podem ser\nreconhecidas, uma vez que a consultoria jurídica independe de\noutorga de mandato ou formalização por contrato de\nhonorários, sendo desinfluente o modo pelo qual foram\nprestados os serviços.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "O não reconhecimento das atividades prestadas por João\nCarlos no período anterior à formalização do contrato de\nhonorários decorre do fato de que a atuação se deu de forma\nverbal, de tal modo que, se a atuação tivesse se dado por\nescrito, as atividades prestadas poderiam ser reconhecidas.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q8",
+      "question_number": 8,
+      "subject": "Direito Ético-Profissional (Estatuto da OAB)",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Rita, advogada regularmente inscrita na OAB, compareceu ao\nDetran para providenciar a transferência de um veículo que\nacabara de adquirir.\nInstada a apresentar seu documento de identificação civil, Rita\napresentou sua carteira da OAB, a qual não foi aceita pelo\nfuncionário da repartição, que afirmou ser imprescindível a\napresentação da Carteira de identidade (Registro Geral) ou da\nCarteira Nacional de Habilitação (CNH).\nCom base no enunciado, a recusa do documento emitido pela OAB\nfoi",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ilegítima, uma vez que o documento emitido pela OAB\nconstitui prova de identidade civil para todos os fins legais.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "correta, pois, à míngua de previsão legal, não poderia o\nfuncionário do Detran admitir a carteira da OAB como\ndocumento de identificação civil.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "inválida, pois, embora não haja expressa previsão legal, a\ncarteira da OAB tem sido admitida como documento válido de\nidentificação civil pela prática consuetudinária.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "inadequada, porém não ilegal, uma vez que os documentos de\nidentidade profissional do advogado estão previstos somente\nno Regulamento Geral da Advocacia, não sendo exigível que o\nfuncionário do Detran conheça as normas internas da OAB.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q9",
+      "question_number": 9,
+      "subject": "Filosofia do Direito",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Pois, segundo entendo, no limite do cognoscível é que se\navista, a custo, a ideia do Bem; e, uma vez avistada,\ncompreende-se que ela é para todos a causa de quanto há\nde justo e belo... (Platão)",
+          "source": "Em seu livro A República, Platão conta a famosa Alegoria da"
+        }
+      ],
+      "image_url": null,
+      "statement": "Caverna, ensinando a não confundir aparência (imperfeita) com\nessência (perfeita).\nNesse sentido, é correto afirmar que, para Platão, a Justiça\ncorresponde",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a uma prática que decorre dos atos justos praticados por\nhomens justos.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ao contrato social que assegura os direitos e as liberdades\nindividuais.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ao processo histórico de luta contra a exploração e a conquista\nda emancipação.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "a uma concepção ideal a ser conhecida e compreendida pela\nrazão.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q10",
+      "question_number": 10,
+      "subject": "Filosofia do Direito",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O governo é o exercício do poder supremo do Estado. Este\npoder só poderia estar ou nas mãos de um só, ou da\nminoria, ou da maioria das pessoas. Quando o monarca, a\nminoria ou a maioria não buscam, uns ou outros, senão a\nfelicidade geral, o governo é necessariamente justo.\n(Aristóteles)\nNo livro A Política, Aristóteles fala do que ele considera as formas\nadequadas ou justas de governo de um, de poucos e de muitos.\nSão elas, respectivamente, monarquia, aristocracia e república.\nPorém, ele afirma que cada uma dessas formas de governo pode\ndegenerar, respectivamente, para uma forma injusta.\nSeriam elas:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tirania, que busca apenas a utilidade do monarca; oligarquia,\nque busca apenas a utilidade dos ricos; e democracia, que\nbusca apenas a utilidade dos pobres.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Imperialismo, que busca apenas o que é bom para o império;\naporofobia, que busca apenas o que é bom para os ricos; e\ntimocracia, que busca apenas o que é bom para os pobres.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Cleptocracia, que admite os desvios de quem governa;\nparlamentarismo, que enfraquece o poder do governante; e\nagorafobia, que enfraquece o poder dos cidadãos.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Misticismo, que cria um fetiche em torno do governante;\nelitismo, em que apenas um pequeno grupo governa de fato;\ne assembleísmo, que dificulta o processo de decisão política.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q11",
+      "question_number": 11,
+      "subject": "Direito Constitucional",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "No processo legislativo afeto ao projeto de Lei Complementar nº\nXXX e à proposta de Emenda Constitucional nº YYY, o Congresso\nNacional aprovou a redação final de ambas.\nComo divulgado pela imprensa, auxiliares do Presidente da\nRepública entendiam que, tanto o projeto de Lei Complementar\nquanto a proposta de Emenda Constitucional melhor atenderiam\naos seus objetivos se fossem suprimidos alguns dispositivos de\nambos. Com essa convicção, sugeriram que o Presidente da\nRepública usasse do seu poder de veto, a fim de adequar os\nreferidos textos àquilo que entendiam ser melhor para os\ninteresses do país.\nSobre o poder de veto do Poder Executivo, segundo o sistema\njurídico constitucional brasileiro, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A Constituição da República não concede o poder de veto ao\nChefe do Poder Executivo, por ser um instituto jurídico que\ndesequilibraria a divisão de poderes.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O Presidente da República pode vetar parte do projeto de Lei\nComplementar nº XXX, mas não têm poderes para fazer o\nmesmo em relação à proposta de Emenda Constitucional nº\nYYY.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "O poder de veto do Presidente da República se restringe às leis\nordinárias, logo, não poderá vetar dispositivos do projeto de\nLei Complementar nº XXX e da proposta de Emenda\nConstitucional nº YYY.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Os dispositivos pertencentes ao projeto de Lei Complementar\nnº XXX e à proposta de Emenda Constitucional nº YYY podem\nser vetados, conforme as competências concedidas àquele que\ndetém a Chefia do Poder Executivo.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q12",
+      "question_number": 12,
+      "subject": "Direito Constitucional",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O Conselho Nacional de Justiça (CNJ) recebeu expediente\nrelacionado à atuação de João, Juiz de Direito do Estado Delta. De\nacordo com a narrativa, em sede cautelar, no âmbito de processo\npenal, João proferiu decisão judicial que violou a ordem\nconstitucional, pois teria condenado uma pessoa sem que ela e seu\nadvogado tivessem participado da colheita da prova. A referida\nmanifestação solicitava, então, que o ato judicial praticado pelo\nmagistrado fosse devidamente revisto pelo CNJ.\nÀ luz dessa narrativa, segundo a Constituição da República,\nassinale a opção que indica, corretamente, o entendimento a ser\nadotado pelo CNJ em relação à almejada revisão do ato judicial\npraticado.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O CNJ é parte da estrutura do Poder Judiciário, mas não está\nconstitucionalmente autorizado a rever ou desconstituir a\ndecisão judicial em tela.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "A matéria deve ser analisada pelo CNJ que, por ser órgão do\nPoder Judiciário, terá plenos poderes para desconstituir a\ndecisão judicial em tela.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O CNJ, por ser órgão de controle externo diretamente\nvinculado ao Ministério da Justiça, não poderá exercer\ncontrole da atividade jurisdicional.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O CNJ não faz parte da estrutura do Poder Judiciário e, apesar\ndos seus poderes jurisdicionais atípicos, não está autorizado a\ndesconstituir a decisão judicial.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q13",
+      "question_number": 13,
+      "subject": "Direito Constitucional",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Algumas lideranças partidárias do Congresso Nacional têm\nconsiderado inadequadas as políticas públicas adotadas por\ndiversos Estados, as quais, para essas lideranças, não se\ncompatibilizavam com as iniciativas adotadas pela União. Por esta\nrazão, informaram que pretendem propor uma emenda à\nConstituição da República, segundo a qual qualquer deliberação\nlegislativa estadual pode vir a ser anulada pelo Congresso\nNacional, enquanto qualquer ato emanado por governadores\npode vir a ser revisto pelo Presidente da República.\nSobre a hipótese, segundo a ordem jurídica vigente no Brasil,\nassinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O Congresso Nacional, investido na função de poder\nconstituinte reformador, pode estabelecer essa alteração, por\nse tratar de proposição de emenda à Constituição.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Os Estados-membros, por serem dotados de autonomia,\npodem ampliar seus poderes, inclusive o direito de secessão,\nmas não poderiam ter seus atuais poderes restringidos.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O sistema constitucional prevê a subordinação dos poderes\ndos Estados-membros aos poderes da União, o que torna\ndesnecessária a emenda para atingir os objetivos pretendidos.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Uma emenda constitucional com esse teor atacaria\nfrontalmente o princípio federativo e, por violar cláusula\npétrea, seria considerada incompatível com a Constituição da\nRepública.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q14",
+      "question_number": 14,
+      "subject": "Direito Constitucional",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O governador do Estado Alfa determinou, de forma deliberada,\nque Alfa deixasse de realizar os depósitos para pagamento de\ndívida fundada que possui com a União.\nAlertado sobre possíveis consequências jurídico-políticas passíveis\nde recaírem sobre o Estado Alfa, após dois anos de suspensão dos\npagamentos, decidiu consultar o Procurador-Geral do Estado\nsobre a repercussão que tal situação poderia causar.\nSobre a hipótese apresentada, segundo o sistema jurídico-\nconstitucional brasileiro, assinale a opção que apresenta,\ncorretamente, o parecer do Procurador-Geral do Estado.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O Presidente da República poderá decretar a intervenção\nfederal no Estado Alfa, sendo necessária a apreciação a\nposteriori do Congresso Nacional.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "O Estado Alfa, em razão de sua condição de ente autônomo da\nRepública Federativa do Brasil, não se sujeita à intervenção por\nparte da União.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O Presidente da República somente poderá decretar\nintervenção federal no Estado Alfa após decisão judicial por\nparte do Supremo Tribunal Federal.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O Presidente da República poderá decretar intervenção\nfederal no Estado Alfa, a ser executada pelo Congresso\nNacional, diretamente ou por meio da autoridade que indicar.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q15",
+      "question_number": 15,
+      "subject": "Direito Constitucional",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O Presidente da Assembleia Legislativa do Estado Alfa, almejando\nque fosse respeitada a igualdade jurídica entre parlamentares\nestaduais e federais e considerando a autonomia dos distintos\nentes federativos, tencionava levar à votação do plenário da Casa\nLegislativa o projeto de lei que fixa o subsídio dos Deputados\nEstaduais em valor idêntico ao dos Deputados Federais.\nCom esse objetivo, consultou você, como procurador(a) jurídico(a)\nda Assembleia Legislativa, a respeito da compatibilidade do\nprojeto de lei com a Constituição da República.\nCom base na situação descrita e no sistema jurídico-constitucional\nbrasileiro de 1988, assinale a opção que apresenta, corretamente,\nsua resposta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A CRFB/88 estabelece que deve haver igualdade jurídica de\ntratamento entre os parlamentares, sendo assim, o projeto de\nlei atende aos ditames constitucionais ao igualar o subsídio dos\nDeputados Estaduais ao dos Deputados Federais.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O Presidente da Assembleia Legislativa do Estado Alfa pode\nlevar à votação o projeto de lei, entretanto, por se tratar de\nmatéria constitucional, subsídios de parlamentares, há a\nnecessidade de que o projeto seja aprovado por três quintos\ndos votos em dois turnos de votação.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A CRFB/88 estabelece a paridade de subsídios entre\nDeputados Estaduais e Senadores, pois os últimos são os\nrepresentantes dos Estados-membros no Congresso Nacional,\nhavendo, portanto, necessidade de se alterar o projeto de lei.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O projeto de lei não está em harmonia com a CRFB/88, pois o\nsubsídio dos Deputados Estaduais está limitado ao máximo de\n75% do subsídio estabelecido para os Deputados Federais.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q16",
+      "question_number": 16,
+      "subject": "Direito Constitucional",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Renato Carlos, renomado pianista, foi convidado para se\napresentar em um grande evento musical internacional sediado no\nBrasil. Ao tentar se inscrever no evento, foi informado de que era\nobrigatório estar inscrito em uma ordem dos músicos para poder\nse apresentar publicamente no país.\nSurpreendido com a informação, procurou você, como\nadvogado(a), e solicitou que fosse analisada a compatibilidade da\nexigência com o sistema jurídico-constitucional brasileiro.\nEm relação à exigência, assinale a opção que indica, corretamente,\na orientação dada.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "É válida, pois se harmoniza com o poder regulamentar das\nentidades de classe, regra a ser observada no exercício\nprofissional no Brasil.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Viola a ordem constitucional, pois a liberdade profissional é\num direito com alto grau de amplitude, sendo vedado ao\nlegislador estabelecer condições para o seu exercício.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Está de acordo com a Constituição da República, pois visa zelar\npelo regular exercício da profissão de músico no país,\ngarantindo maior qualidade no desempenho profissional.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Encontra-se em desacordo com a Constituição da República,\npois, além de não proteger interesse público relevante, viola o\nprincípio da liberdade de expressão artística.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q17",
+      "question_number": 17,
+      "subject": "Direitos Humanos",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Você está participando de um debate na OAB de sua cidade sobre\ndireitos humanos de comunidades tradicionais, quando é\nquestionado sobre a identificação e o reconhecimento dos\nremanescentes das comunidades quilombolas.\nAssinale a opção que apresenta, corretamente, sua resposta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Os grupos étnico-raciais, segundo critérios de autoatribuição,\ncom trajetória histórica própria, dotados de relações\nterritoriais específicas, com presunção de ancestralidade\nnegra relacionada à resistência e à opressão histórica sofrida.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Todo e qualquer cidadão ou cidadã que esteja privado do seu\ndireito à moradia em função de grave violação de direitos\nhumanos e que seja descendente de imigrantes que se\nestabeleceram no Brasil com ou sem autorização de\npermanência dada pelo Estado brasileiro.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A população afrodescendente brasileira, que vive processos de\nprivação de direitos e, por isso, busca tanto os meios próprios\nde subsistência quanto a reparação pelos preconceitos e pela\ndiscriminação que sofreu e que resultaram em restrições de\nacesso à terra e à moradia.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Os povos originais, aos quais são reconhecidos a organização\nsocial, os costumes, as línguas, as crenças e as tradições, bem\ncomo os direitos originários sobre as terras que\ntradicionalmente ocuparam, competindo à União demarcá-las,\nproteger e fazer respeitar todos os seus bens.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q18",
+      "question_number": 18,
+      "subject": "Direitos Humanos",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um cidadão venezuelano, que ingressou de forma irregular no\npaís, com o propósito de regularizar sua situação no Brasil, procura\nvocê, como advogado(a), para ter sua assistência jurídica.\nNesse contexto, com base nos direitos dos refugiados e migrantes,\nassinale a opção que apresenta, corretamente, sua orientação.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O reconhecimento da condição de refugiado não impedirá o\nprosseguimento do processo administrativo eventualmente já\ninstaurado para a apuração do seu ingresso irregular no país.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "De acordo com a legislação brasileira, o cidadão em questão\nterá sua condição de refugiado reconhecida se demonstrar\nque foi obrigado a deixar seu país de nacionalidade em razão\nde grave e generalizada violação de Direitos Humanos.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Se a sua vinda para o Brasil não tiver sido motivada pelo risco\nde responder penalmente, no âmbito do Estado de origem,\npelo cometimento de crime de natureza política, ele deverá\nsolicitar a concessão de asilo político, ao invés do refúgio.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "De acordo com a legislação brasileira, se for solicitado o\nreconhecimento da sua condição de refugiado, o indivíduo\nsomente terá proteção jurídica após a devida instrução e o\ndevido encerramento do procedimento para a obtenção de\nrefúgio no Comitê Nacional para os Refugiados - Conare. Antes\ndisso, poderá ser expulso ou deportado, como decorrência da\nsua entrada irregular no país.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q19",
+      "question_number": 19,
+      "subject": "Direito Eleitoral",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O Partido Político Alfa tomou conhecimento de que Joana,\ncandidata ao cargo de Deputada Estadual, estava veiculando\npropaganda eleitoral paga, na imprensa escrita, durante a sua\ncampanha eleitoral.\nComo o desempenho de Joana nas pesquisas eleitorais aumentou\nconsideravelmente, o Partido Político o consultou, na condição de\nadvogado, em relação à licitude dessa conduta.\nSobre a veiculação da propaganda realizada por Joana, assinale a\nopção que indica, corretamente, sua resposta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "É admitida até o dia da eleição, desde que observados os\nbalizamentos legais.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "É permitida, até a antevéspera da eleição, observados os\nbalizamentos legais.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "É vedada, logo, Alfa pode ajuizar representação eleitoral\nalmejando a aplicação de multa.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Deve ser considerada ilícita se não tiver sido celebrado ajuste\ncoletivo, pelos partidos políticos, autorizando-a, o que será\napurado em investigação judicial eleitoral.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q20",
+      "question_number": 20,
+      "subject": "Direitos Humanos",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Pedro, com 40 anos de idade, por razões ideológicas, decidiu não\nmais votar nas eleições para o provimento de cargos dos Poderes\nExecutivo e Legislativo dos distintos níveis da Federação.\nApós repetir esse procedimento em três eleições consecutivas,\ncompareceu ao cartório eleitoral e solicitou uma certidão de\nquitação eleitoral para que pudesse requerer a emissão do seu\npassaporte. Para sua surpresa, foi informado que sua inscrição fora\ncancelada, o que, ao seu ver, o impediria de obter o passaporte.\nIrresignado com a situação descrita, Pedro consultou você, como\nadvogado(a), a respeito da juridicidade desse procedimento.\nAssinale a opção que apresenta a informação correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A obtenção do passaporte instrumentaliza o direito de ir e vir,\no que não é influenciado pelo exercício do direito de voto.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O exercício da objeção de consciência, como a realizada por\nele, é amparado pela legislação eleitoral, sendo uma forma de\nexercício dos direitos políticos, logo o cancelamento foi ilícito.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A inscrição eleitoral instrumentaliza o direito de votar, que não\npode ser obstado pela prática de ilícitos eleitorais, o que\nconfiguraria sanção política, logo não poderia ter sido\ncancelada.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O cancelamento é correto, caso ele não tenha pagado a multa\nou apresentado justificativa no prazo previsto na legislação, a\ncontar da última eleição a que deveria ter comparecido.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q21",
+      "question_number": 21,
+      "subject": "Direitos Humanos",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Você atua, como advogado(a), em um caso em que seu cliente,\nLuka, croata, de 65 anos de idade e 6 anos de residência fixa no\nBrasil, sem família no país, foi condenado, com sentença transitada\nem julgado, pela prática do crime de estupro no Brasil.\nCom base no que dispõe a Lei de Migração (Lei nº 13.445/2017), a\ncondenação ensejará a expulsão de Luka do Brasil,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sem a possibilidade de impedimento de reingresso.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "conjugada com o impedimento de reingresso por prazo\ndeterminado.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "conjugada com o impedimento de reingresso por prazo\nindeterminado.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "com a possibilidade de reingresso, por ser pessoa com mais de\n60 anos de idade e residente no país.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q22",
+      "question_number": 22,
+      "subject": "Direito Tributário",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "No Brasil, quanto às formas de ingresso no país, é aplicada a\npolítica de visto por reciprocidade, de acordo com a nacionalidade\ndo estrangeiro.\nO tipo de visto, previsto na Lei de Migração, depende do objetivo\nda viagem do solicitante ao Brasil. A Lei de Migração (Lei nº\n13.445/2017) ajustou o tratamento do estrangeiro no Brasil aos\npreceitos constitucionais.\nSobre as formas de ingresso no país, segundo a legislação\npertinente, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O visto é o documento que dá a seu titular o direito adquirido\nde ingresso em território nacional.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ao solicitante que pretenda ingressar ou permanecer em\nterritório nacional poderá ser concedido visto de visita,\ntemporário, diplomático e oficial. A Lei de Migração não prevê\no visto de cortesia.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "É causa de recusa absoluta de visto, sem possibilidade de\nentrevista individual e necessidade de ato fundamentado,\nquando a razão da viagem não seja condizente com o visto ou\ncom o motivo alegado para a isenção de visto.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O visto temporário para pesquisa, ensino ou extensão\nacadêmica poderá ser concedido ao imigrante com ou sem\nvínculo empregatício com a instituição de pesquisa ou de\nensino brasileira, sendo exigida, na hipótese de vínculo, a\ncomprovação de formação compatível.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q23",
+      "question_number": 23,
+      "subject": "Direito Financeiro",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O Prefeito e a Câmara de Vereadores de Alfa, município com cem\nmil habitantes, situado no interior do Estado Beta, pretendem\nmodernizar a administração pública municipal. Assim, iniciaram\num programa de ampliação da transparência da gestão fiscal, que\nprevê a implantação de mecanismos previstos na Constituição\nFederal de 1988 e na Lei de Responsabilidade Fiscal, objetivando\ndar maior efetividade ao princípio da transparência fiscal.\nSobre a hipótese formulada, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "As contas apresentadas pelo Prefeito devem ficar disponíveis,\ndurante todo o exercício, apenas no órgão técnico responsável\npela sua elaboração, para consulta e apreciação pelos cidadãos\ne instituições da sociedade.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A realização de audiências públicas durante os processos de\nelaboração e discussão dos planos, da lei de diretrizes\norçamentárias e dos orçamentos não pode ser aplicada ao\nMunicípio Alfa, mas tão somente às esferas estadual ou\nfederal.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O Município Alfa está obrigado a disponibilizar em meio\neletrônico de amplo acesso público suas informações e seus\ndados contábeis, orçamentários e fiscais de acordo com uma\nperiodicidade, um formato e um sistema estabelecidos pelo\nórgão central de contabilidade da União.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "A prestação de contas do Prefeito deve ter ampla divulgação,\nmas o respectivo parecer prévio do Tribunal de Contas do\nEstado Beta sobre tais contas é apenas enviado à Câmara de\nVereadores para que estas possam ser julgadas, não podendo\nser veiculado em meios eletrônicos de acesso público.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q24",
+      "question_number": 24,
+      "subject": "Direito Financeiro",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em certo período de apuração, a despesa total de pessoal da União\nalcançou o patamar de 60% da receita corrente líquida (RCL), de\nacordo com os critérios de cálculo estabelecidos na Lei\nComplementar nº 101/2000 (Lei de Responsabilidade Fiscal – LRF).\nSobre o patamar alcançado, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Viola o limite válido para a esfera federal estabelecido na LRF,\nque é expressamente previsto em 45% da RCL.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Viola o limite válido para a esfera federal estabelecido na LRF,\nque é expressamente previsto em 50% da RCL.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Situa-se abaixo do limite válido para a esfera federal\nestabelecido na LRF, que está expressamente\nprevisto em 70% da RCL.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Mantém-se dentro do limite válido para a esfera federal\nestabelecido na LRF, uma vez que configura o limite previsto\nnaquela norma jurídica.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q25",
+      "question_number": 25,
+      "subject": "Direito Processual Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "José foi citado, em janeiro de 2022, em uma ação de execução\nfiscal movida pela Fazenda Nacional para cobrança de Imposto\nsobre a Renda de Pessoa Física (IRPF), cujo débito tributário foi por\nele próprio apurado na sua Declaração de Ajuste Anual entregue à\nSecretaria da Receita Federal do Brasil, em março de 2017\n(referente ao ano base de 2016).\nSem nada fazer, em março daquele ano, foi intimado da penhora\nde sua conta bancária. Três meses após a intimação da penhora,\nJosé finalmente encontrou a guia DARF do IRPF integralmente\npaga dentro do prazo, no exato valor apurado como devido\nnaquela declaração de ajuste anual. José, então, o(a) procura para,\ncomo advogado(a), adotar a medida processual cabível nos autos\ndaquela ação de cobrança considerada indevida.\nDiante desse cenário, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "José deverá oferecer embargos à execução, oportunidade em\nque poderá alegar a quitação da dívida tributária.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Por ser matéria de ordem pública, será possível alegar apenas\na prescrição daquela ação de execução fiscal, que teria\nocorrido em dezembro de 2021.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "José poderá apresentar uma exceção de pré-executividade,\ndemonstrando documentalmente, por meio da guia DARF, que\no imposto havia sido pago tempestivamente.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Caberá a José recorrer da decisão que determinou a penhora\nde sua conta bancária por meio de agravo de instrumento, sob\nfundamento de quitação da dívida tributária.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q26",
+      "question_number": 26,
+      "subject": "Direito Tributário",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "João, pessoa com deficiência física, com base na Lei nº XXX do\nEstado Alfa que isenta as pessoas com tal deficiência do\npagamento do Imposto sobre Propriedade de Veículo Automotor\n(IPVA), requereu à Secretaria da Fazenda do Estado Alfa a extensão\nda aplicação da norma isentiva para a Taxa Anual de Licenciamento\nVeicular do seu automóvel. Ele usou como argumento o fato de\nque aquela isenção visa resguardar o mínimo existencial e a\ncapacidade contributiva das pessoas com deficiência. Entretanto,\no pedido foi indeferido administrativamente. Irresignado,\nconsultou você, como advogado(a), sobre a conduta a ser adotada.\nDiante desse cenário, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "João, somente após realizar o depósito prévio em dinheiro,\nterá seu recurso admitido e poderá recorrer para a segunda\ninstância administrativa.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Tal taxa, como espécie de tributo contraprestacional, não pode\nser objeto de isenção, sob pena de prejudicar a realização dos\nserviços específicos e divisíveis que ela financia.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A legislação tributária que outorga isenção deve ser\ninterpretada literalmente, não sendo extensível a isenção\nprevista em lei para o IPVA à Taxa Anual de Licenciamento\nVeicular não prevista na referida lei.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "João poderá ajuizar ação declaratória de inexistência de\nrelação jurídico-tributária, uma vez que as isenções podem ser\ninterpretadas extensivamente e sua condição de pessoa com\ndeficiência é comprovável por laudo médico e perícia judicial.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q27",
+      "question_number": 27,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A sociedade empresária ABC Ltda. teve um auto de infração\nlavrado contra si pelo Fisco federal, em junho de 2021, lançando\nde ofício valores de tributo federal não declarados, nem pagos,\nreferentes a fatos geradores ocorridos em junho de 2017.\nA sociedade empresária impugnou o auto dentro do prazo,\napontando a existência de vício formal, o que foi reconhecido pelo\nFisco federal, que anulou tal lançamento em junho de 2022.\nDiante desse cenário e à luz do texto expresso do Código Tributário\nNacional, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O Fisco poderá efetuar novo lançamento, contando-se o prazo\ndecadencial de 5 anos da data em que se tornou definitiva a\ndecisão que anulou, por vício formal, o lançamento\nanteriormente efetuado.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "O Fisco poderá efetuar novo lançamento, contando-se o prazo\ndecadencial de 5 anos a partir de 1º/1/2023, primeiro dia do\nexercício seguinte àquele em que o novo lançamento poderia\nter sido efetuado.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O Fisco não poderá efetuar novo lançamento, pois o prazo\ndecadencial de 5 anos se consumou em 1º/1/2023, 5 anos\napós o primeiro dia do exercício seguinte àquele em que o\nlançamento original poderia ter sido efetuado.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O Fisco não poderá efetuar novo lançamento, pois o prazo\ndecadencial de 5 anos se consumou em junho de 2022, 5 anos\napós a ocorrência dos fatos geradores objetos do lançamento\noriginal que foi anulado.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q28",
+      "question_number": 28,
+      "subject": "Direito Tributário",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Certa carga foi abandonada no Porto de Santos (SP) pela sociedade\nempresária Importação 100% Ltda. Em razão disso, passado o\nprazo previsto e obedecidas as formalidades da legislação\ntributária, foi aplicada pela Secretaria Especial da Receita Federal\ndo Brasil (SERFB) a pena de perdimento de mercadoria importada\npor abandono. José, participando de leilão da SERFB, logra êxito\nem arrematar a carga abandonada.\nSobre a arrematação de mercadorias abandonadas em leilão\npromovido pela SERFB, à luz do Código Tributário Nacional,\nassinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "José é considerado contribuinte do Imposto de Importação em\nrelação às mercadorias abandonadas que arrematou.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "José será considerado responsável tributário pelo Imposto de\nImportação devido, juntamente com a Importação 100% Ltda.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A base de cálculo do Imposto de Importação em leilão\npromovido pela SERFB será o valor de mercado que tais bens\nalcançariam.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "José, por ser pessoa física, não poderia arrematar bens\noriundos da aplicação de pena de perdimento de mercadoria\nimportada por abandono.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q29",
+      "question_number": 29,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma lei municipal do Município Alfa concedia isenção do IPTU a\ndeterminado segmento econômico. Contudo, em razão de\ndificuldades financeiras municipais, tal isenção foi revogada por\nnova lei, publicada em 20/2/2024, que estabelecia a produção de\nseus efeitos a partir de 1º/6/2024.\nA sociedade empresária ABC Ltda., que deixaria de ser beneficiada,\nquestionou você, como advogado(a), para saber se tal lei\nrevogadora não feriria as garantias tributárias constitucionais\ndesse segmento.\nDiante desse cenário, assinale a opção que apresenta,\ncorretamente, sua orientação.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Seria necessária a alteração na Lei Orgânica do Município para\nrevogar a isenção que favorecia a sociedade ABC Ltda.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Por configurar cláusula pétrea, a isenção que favorecia a\nsociedade ABC Ltda. não poderia ser revogada, nem mesmo\npor emenda constitucional.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A isenção que favorecia a sociedade ABC Ltda. poderia ser\nrevogada, mas os efeitos da lei revogadora somente poderiam\nser produzidos a partir de 1º/1/2025.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "A isenção que favorecia a sociedade ABC Ltda. não poderia ser\nrevogada por mera lei municipal, mas apenas por Emenda\nConstitucional, por ser prevista como garantia tributária\nconstitucional.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q30",
+      "question_number": 30,
+      "subject": "Direito Administrativo",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O Município Alfa editou lei, aplicável após sua entrada em vigor,\nsem caráter retroativo, devidamente regulamentada por decreto,\ndispondo sobre o número máximo de pavimentos em edificações\nsituadas em determinadas ruas à beira-mar, em bairros da cidade\nespecificados. Cuida-se, pois, de restrição geral, que atinge um\nnúmero indeterminado de particulares proprietários de imóveis,\nnos termos indicados pelas normas municipais.\nGustavo, em decorrência da aludida determinação ter afetado sua\npropriedade, procurou você, como advogado(a), para ser\ninformado sobre a modalidade de intervenção praticada pelo\nEstado.\nAssinale a opção que indica, corretamente, sua resposta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trata-se de servidão administrativa, embasada no regular\nemprego do poder hierárquico, diante da supremacia do\ninteresse público sobre o privado.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Trata-se de limitação administrativa, embasada no regular\nemprego do poder de polícia, haja vista que visa condicionar o\nexercício do direito de propriedade ao cumprimento de sua\nfunção social.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Trata-se de requisição administrativa, embasada no regular\nemprego do poder disciplinar, haja vista que visa disciplinar e\ncompatibilizar o direito de propriedade ao cumprimento de\nsua função social.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Trata-se de desapropriação indireta, embasada no emprego\ndo poder regulamentar, haja vista que reduziu parcialmente o\ndireito de propriedade, diante da supremacia do interesse\npúblico sobre o privado.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q31",
+      "question_number": 31,
+      "subject": "Direito Administrativo",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "João Silva, servidor público federal estável, ao assumir cargo\nefetivo com atribuições atinentes ao controle interno da\nAdministração, constatou que, nos últimos dez anos, foram\nproferidos numerosos atos administrativos que ensejaram efeitos\nfavoráveis a destinatários de boa-fé. Esses atos continham vícios\nde legalidade, sendo certo que, em muitos deles, o vício era de\nforma.\nVocê foi contratado(a) como advogado(a) de Pedro, particular que\nfigura como interessado em um determinado processo\nadministrativo analisado por João Silva.\nÀ luz do disposto na Lei nº 9.784/99, assinale a opção que,\ncorretamente, materializa a essência da consultoria jurídica que\nvocê, como advogado(a), apresentou a seu cliente Pedro.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A eventual anulação dos atos administrativos viciados não\nprecisa de motivação diante dos vícios verificados.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Os atos administrativos viciados podem ser revogados, desde\nque respeitados os direitos adquiridos dos respectivos\nbeneficiários.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Os vícios de forma, caso se evidencie que não irão acarretar\nlesão ao interesse público nem prejuízo a terceiros, são\npassíveis de convalidação.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Nos processos analisados por João Silva, os atos\nadministrativos viciados poderão ser invalidados a qualquer\ntempo, pois não há prazo para o exercício do direito da\nAdministração de anulá-los.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q32",
+      "question_number": 32,
+      "subject": "Direito Administrativo",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em decorrência de uma denúncia anônima, as autoridades\ncompetentes da União promoveram investigação e verificaram\nque Wagner, servidor público federal estável, cometeu infração\ndisciplinar que também é capitulada como crime contra a\nAdministração Pública. Em razão disso, de forma motivada, foi\ninstaurado o respectivo processo administrativo disciplinar que,\napós exceder o prazo para a sua conclusão, sem prejuízo para a\ndefesa, resultou na sua demissão.\nWagner não se conforma com a mencionada penalidade, pois\nacredita na existência de vícios que fulminam o aludido processo\nadministrativo disciplinar. Ainda, os fatos ocorreram seis anos\nantes da sua instauração, razão pela qual Wagner procurou você,\ncomo advogado(a).\nVocê apurou que a Administração tomou conhecimento dos fatos\ntrês anos antes da instauração do processo administrativo\ndisciplinar e que o respectivo crime estaria sujeito ao prazo\nprescricional de oito anos na esfera penal.\nSobre a penalidade aplicada, assinale a opção que apresenta a\norientação correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Os prazos de prescrição da lei penal devem ser aplicados às\ninfrações disciplinares capituladas como crime.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "O excesso de prazo para a conclusão do processo\nadministrativo disciplinar, por si só, enseja a nulidade da\npenalidade, mesmo que não tenha havido prejuízo para a\ndefesa.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A penalidade aplicada é nula, na medida em que o processo\nadministrativo disciplinar não poderia ser instaurado após a\ninvestigação levada a efeito em razão de denúncia anônima.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O exercício da pretensão disciplinar está fulminado pela\nprescrição, pois transcorreram mais de cinco anos entre a\nocorrência do fato e a instauração do respectivo processo\nadministrativo disciplinar.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q33",
+      "question_number": 33,
+      "subject": "Direito Administrativo",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Diante da divulgação de uma notícia veiculando a intenção do\nMunicípio Beta em formalizar uma concessão administrativa para\na realização de certo serviço indivisível, que envolve a realização\nde obras de infraestrutura para sua materialização, os\nrepresentantes da sociedade empresária Astuciosa ficaram\nentusiasmados em participar da respectiva licitação.\nEm razão disso, procuraram você, como advogada(o), para\nesclarecer as peculiaridades da respectiva avença.\nSobre o contrato, assinale a opção que apresenta, corretamente,\na orientação jurídica prestada.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Não pode ter prazo de vigência inferior a cinco anos, nem\nsuperior a trinta e cinco anos, incluindo eventual prorrogação.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Envolve a contraprestação pecuniária do parceiro público ao\nparceiro privado, adicionalmente à tarifa cobrada dos\nusuários.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Independe da criação de sociedade de propósito específico\nantes de sua celebração, para fins de implantação e gestão do\nobjeto da parceria.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Não pode prever a repartição de riscos entre as partes,\nespecialmente em relação a caso fortuito, força maior, fato do\npríncipe e álea econômica extraordinária.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q34",
+      "question_number": 34,
+      "subject": "Direito Administrativo",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Após o devido procedimento licitatório, foi formalizado com a\nsociedade empresária Esperta determinado contrato de prestação\nde serviços contínuos com dedicação exclusiva de mão de obra,\nsendo certo que, no curso do contrato, a contratada, ou seja, a\nsociedade Esperta, inadimpliu com diversos encargos\nprevidenciários e trabalhistas, decorrentes da aludida avença.\nEm razão disso, a Administração contratante consultou a\nrespectiva assessoria jurídica para dirimir as dúvidas atinentes à\nresponsabilização do Poder Público e/ou as condutas que\npoderiam ser adotadas na situação descrita, à luz do disposto na\nLei nº 14.133/2021.\nAssinale a opção que apresenta a informação correta a ser\nprestada pela assessoria jurídica.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Somente a Administração Pública será objetivamente\nresponsável pelos encargos trabalhistas e previdenciários\nresultantes da mencionada inexecução do contrato.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Com relação aos encargos previdenciários, a responsabilização\nda Administração é subsidiária, desde que comprovada a falha\nna fiscalização do cumprimento das obrigações do contratado.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A fiscalização por parte da Administração contratante exime o\ncontratado de responsabilidade, tanto com relação aos\nencargos trabalhistas quanto no que concerne aos\nprevidenciários.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A Administração contratante, mediante disposição em edital\nou em contrato, poderá, em caso de inadimplemento, efetuar\ndiretamente o pagamento das verbas trabalhistas, que serão\ndeduzidas do pagamento devido ao contratado.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q35",
+      "question_number": 35,
+      "subject": "Direito Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Bruno pretende realizar supressão de vegetação nativa em Área\nde Preservação Permanente no interior de sua propriedade, a fim\nde viabilizar a implantação de trilhas para o desenvolvimento do\necoturismo.\nCom objetivo de verificar a legalidade de seu projeto, Bruno\nconsultou você, como advogado(a). Você informou a seu cliente\nque, de acordo com o Código Florestal, a intervenção ou a\nsupressão de vegetação nativa em Área de Preservação\nPermanente ocorrerá nas hipóteses previstas naquela Lei.\nAssim, sobre a implantação de trilhas para o desenvolvimento do\necoturismo, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Encaixa-se na hipótese de interesse social, razão pela qual é\nviável a supressão vegetal.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Não se amolda a qualquer das hipóteses, razão pela qual é\ninviável a supressão vegetal.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Enquadra-se na hipótese de baixo impacto ambiental, razão\npela qual é viável a supressão vegetal.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Não se compatilibiliza com qualquer das hipóteses, mas é\nviável a supressão vegetal, mediante pagamento de prévia\ncompensação ambiental.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q36",
+      "question_number": 36,
+      "subject": "Direito Ambiental",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A palavra piracema vem do tupi e significa saída de peixes. Trata-\nse de um fenômeno que ocorre com diversas espécies de peixes e\nconstitui importante estratégia reprodutiva para garantir que o\npeixe complete seu ciclo de vida, dando continuidade à sua\nespécie.\nApesar de estar ciente da importância de respeitar o período em\nque a legislação veda a pesca, Carlos, de forma livre e consciente,\nestava pescando, no período em que a pesca ainda estava\nproibida. Por isso, foi abordado por fiscais do meio ambiente, que\nencontraram em seu barco várias caixas de peixes já mortos.\nApós o aludido fato, Carlos procurou você, como advogado(a),\npara tirar dúvidas acerca das penalidades que poderiam a ele ser\naplicadas e os eventuais reflexos delas decorrentes.\nSobre a conduta praticada por Carlos, à luz da Lei nº 9.605/1998,\nassinale a opção que apresenta, corretamente, a orientação dada.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Caracteriza crime ambiental punível com pena de detenção,\nsendo incabível, contudo, a transação penal, em decorrência\nda penalidade prevista para o delito.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Caracteriza tanto crime ambiental quanto infração\nadministrativa, mas não pode ensejar a apreensão dos\nprodutos e instrumentos utilizados na prática do ilícito.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Caracteriza apenas infração administrativa, viabilizando a\nimediata apreensão dos peixes, sendo a ele aplicáveis sanções\nrestritivas de direitos na esfera extrapenal.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Caracteriza somente infração administrativa, passível da\naplicação de multa e da apreensão dos peixes e dos\ninstrumentos, petrechos e equipamentos de qualquer\nnatureza utilizados na infração.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q37",
+      "question_number": 37,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Miguel Tavares vendeu um imóvel para Margarida Pinto localizado\nna comarca de Caxias do Sul, RS. Ficou avençado que a imissão da\nposse ocorreria na celebração da escritura pública, e o pagamento\nseria feito em 48 prestações.\nApós o pagamento de 38 prestações, a compradora, em virtude de\ndesemprego, passou a não ter condições financeiras para a\nquitação das prestações, fato que foi imediatamente comunicado\nao vendedor. Diante da inadimplência, Miguel contratou uma\nsociedade empresária, conferindo expressamente amplos poderes\npara a cobrança.\nA sociedade empresária entrou em contato com a compradora\ndezenas de vezes por dia cobrando a dívida. O teor do contato era\na cobrança, tendo sido emitidas centenas de recados e mensagens\npor cerca de 45 dias, em horários diferentes, inclusive, pela\nmadrugada. Além disso, a sociedade empresária publicou dezenas\nde comunicados em redes sociais com alcance na região de Caxias\ndo Sul, informando a todos a inadimplência da compradora, que\nera marcada em todas as publicações.\nDiante da situação hipotética narrada, com base no ordenamento\njurídico brasileiro, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A atitude da sociedade empresária é válida, visto que age em\nnome da vendedora, no exercício regular de seu direito.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Por ser terceira interposta, a conduta da sociedade\nempresária é considerada ato lícito, não conduzindo à\nresponsabilidade civil.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O eventual ato ilícito cometido pela sociedade empresária só\natinge a vendedora se for demonstrado o dolo omissivo de sua\nconduta.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A conduta da sociedade empresária, que age em nome da\nvendedora, excede manifestamente os limites impostos pelo\nseu fim econômico ou social, pela boa-fé ou pelos bons\ncostumes, caracterizando ato ilícito.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q38",
+      "question_number": 38,
+      "subject": "Direito Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Mariana e Manuela celebraram contrato escrito de locação de\nimóvel urbano para fim residencial, pelo prazo de 30 meses.\nDecorrido o prazo previsto no contrato, Manuela, locatária,\npermaneceu no imóvel, e Mariana, locadora, periodicamente\nrecebe e dá quitação dos aluguéis recebidos.\nSobre a situação de Mariana, passados três meses do prazo fixado\nno contrato, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Está sujeita ao direito potestativo de renovação de Manuela,\nque poderá renovar por mais 30 meses o contrato.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Tem a possibilidade de exercer denúncia vazia, garantindo à\nManuela, pelo menos, o prazo de 30 dias para a desocupação\ndo imóvel.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Não tem a faculdade de exercer denúncia vazia pois, em razão\ndo prazo contratado inicialmente, somente caberá denúncia\ncheia.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Deverá renegociar as cláusulas contratuais com Manuela, e\nestabelecer um novo prazo, por não haver presunção de\nprorrogação contratual para o caso.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q39",
+      "question_number": 39,
+      "subject": "Direito Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Priscila e Lucas tiveram filhos muito cedo. Com 20 anos, Priscila\nteve Hugo, com Pedro. Com 19 anos, Lucas teve Vitória, com\nLarissa.\nPriscila e Lucas começaram a namorar quando seus filhos ainda\neram bebês e se casaram tempos depois. Após vinte anos de\ncasamento, sempre morando com os filhos, decidiram se divorciar.\nDurante todo esse tempo, Priscila cuidou de Vitória como se fosse\nmãe dela, contribuindo, inclusive, com as despesas da menina.\nLucas, por sua vez, nunca teve paciência com as crianças e não\ndesenvolveu com Hugo um relacionamento próximo, apesar de\nviverem na mesma casa. Os gastos específicos do menino sempre\nforam custeados por Priscila e por Pedro.\nSobre os fatos narrados, segundo o ordenamento jurídico\nbrasileiro, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Por terem Priscila e Lucas criado as crianças, como um casal,\nsob o mesmo teto, fica automaticamente configurada a\nmultiparentalidade.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Por ter sempre morado com Lucas, Hugo pode buscar o\nreconhecimento do vínculo de parentalidade socioafetiva com\nele, o que extinguiria o vínculo jurídico entre Hugo e Pedro.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Por ter Priscila criado Vitória como se fossem mãe e filha, é\npossível o reconhecimento do vínculo de parentalidade\nsocioafetiva, com o consentimento de Vitória e sem prejuízo,\nnecessariamente, do vínculo de Vitória com Larissa.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Por ser conhecida a mãe biológica de Vitória, não é possível a\nconfiguração de parentalidade socioafetiva com Priscila, assim\ncomo, por ser conhecido o pai biológico de Hugo, não é\npossível a configuração de parentalidade socioafetiva com\nLucas.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q40",
+      "question_number": 40,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Ivan, André e Caio celebraram negócio jurídico pelo qual se\nobrigaram a entregar um veículo da marca M a Bruna. Na data\navençada para o cumprimento da obrigação, Ivan deu à Bruna um\ncarro da marca M de sua propriedade.\nSobre a situação hipotética apresentada, assinale a afirmativa\ncorreta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bruna pode exigir de André e de Caio as suas respectivas cotas-\npartes na dívida.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ivan pode cobrar de André e de Caio, em dinheiro, as\nrespectivas cotas-partes no débito.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "André e Caio permanecem coobrigados perante Bruna pela\nparte que lhes cabe na dívida.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Tanto André como Caio permanecem responsáveis pela\nentrega de um carro, agora perante Ivan.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q41",
+      "question_number": 41,
+      "subject": "Direito Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Maria, idosa de 75 anos, mãe de três filhos, decidiu contratar você,\ncomo advogado(a), para estruturar seu planejamento sucessório.\nA intenção de Maria era a de realizar a transferência antecipada\nda propriedade de um de seus imóveis (cujo valor representa 40%\nde seu patrimônio) para seu filho mais velho. No entanto, ela\npretendia reservar para si o direito de permanecer no bem para\nusá-lo e explorá-lo economicamente, até a sua morte.\nEm razão disso, você propôs que ela fizesse uma doação com\nreserva de usufruto, por escritura pública, com cláusula que\ncolocava o bem na parte disponível de seu patrimônio, seguida de\num registro no Cartório de Registro de Imóveis, o que foi feito por\nMaria. Poucos anos depois, Maria faleceu.\nDiante da situação jurídica posta, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A doação deve ser declarada nula, porque caracteriza-se como\ninoficiosa.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O herdeiro donatário é obrigado, em colação, a conferir o valor\nda doação para igualar as legítimas.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Os três filhos de Maria herdam, via sucessão legítima, o seu\ndireito de usufruto sobre o bem imóvel.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O usufruto é extinto, consolidando-se a propriedade plena ao\ndonatário com o cancelamento do registro.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q42",
+      "question_number": 42,
+      "subject": "Direito Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Brás Cubas procurou você, como advogado(a), relatando ser\npossuidor e proprietário do imóvel situado à Rua Machado de Assis,\nnº XX, Centro, no Município Alpha, há mais de 50 anos, preservando,\ndesde as suas origens até o presente, as mesmas características, sem\nque houvesse por parte da vizinhança qualquer reclamação ou\ndenúncia, sobretudo no que tange à disposição das janelas, já que\nse encontram dentro dos limites legais.\nSegundo relato de Brás, sua vizinha, Virgília, no último mês, iniciou\nobra de expansão de sua casa, com abertura de uma janela no\nlimite divisório com seu terreno e uma chaminé no telhado.\nEm consonância com o Código Civil brasileiro, assinale a opção que\napresenta, corretamente, sua orientação sobre o caso\napresentado.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "As janelas cuja visão não incida sobre a linha divisória, bem\ncomo as perpendiculares, não poderão ser abertas a menos de\num metro e meio.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A conduta de Virgília é válida e eficaz, porque não existe norma\nlegal que impeça a abertura de janelas ou a construção de\nmuro na linha divisória de imóveis.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O proprietário pode, no lapso de ano e dia após a conclusão da\nobra, exigir que se desfaça janela que fora construída em\ndesacordo com a legislação vigente.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "A construção da chaminé deve ser impedida devido à função\nsocial da propriedade, positivada no Código Civil brasileiro e\ntutelada pelo direito dos confinantes.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q43",
+      "question_number": 43,
+      "subject": "Direito da Criança e do Adolescente (ECA)",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "João, 14 anos, criou um perfil online para realizar apostas em sites\nde jogos de futebol, realizando-as sozinho e sem qualquer\nrestrição.\nSobre a possibilidade de responsabilização do site, assinale a\nafirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Não há ilícito por parte do site, pois a maioridade não é exigida\npara sua atividade.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O site deve ser responsabilizado, pois cometeu infração\nadministrativa prevista no Estatuto da Criança e Adolescente.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O site não deve ser responsabilizado, pois não é exigível o\ncontrole além da autodeclaração de maioridade, demandada\nem seu acesso.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A atividade de aposta desenvolvida no site não se identifica,\npara fins de reprovação normativa, com a restrição de acesso\nimposta a crianças e adolescentes às casas de apostas, de\nmodo que não há infração por parte do site.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "oab_2024_42_tipo1_q44",
+      "question_number": 44,
+      "subject": "Direito da Criança e do Adolescente (ECA)",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Roberta, 35 anos, descobriu que estava grávida e ficou muito\npreocupada, já que possui parcos recursos financeiros e acredita\nque não será uma boa mãe. Essa angústia desencadeou graves\nproblemas que precisam ser tratados por meio de sessões com\npsicólogo(a).\nDiante da falta de recursos financeiros para custear o profissional,\nRoberta lhe procura para obter orientação jurídica.\nDe acordo com o Estatuto da Criança e do Adolescente (ECA),\nassinale a orientação correta para o caso.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Roberta não possui direito a assistência psicológica, por\ninexistir previsão legal.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O ECA garante o direito de assistência psicológica apenas no\nperíodo pós-natal, caso se verifique que o estado puerperal\npode prejudicar o desenvolvimento da criança.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Roberta tem direito a assistência psicológica durante a\ngestação, no período pré e pós-natal, inclusive como forma de\nprevenir ou minorar as consequências do estado puerperal,\nsendo essa incumbência do poder público.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "De acordo com o ECA, o poder público deve proporcionar\nassistência psicológica a Roberta enquanto estiver gestante.\nNo período pós-natal, como a criança estará fora de qualquer\nrisco, o poder público não terá a obrigação de prestar\nassistência psicológica.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q45",
+      "question_number": 45,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A sociedade empresária Óleo Essencial de Barreto Ltda. fabrica, há\ncinquenta anos, o produto que originou o nome empresarial,\ncriado pelo fundador da indústria e amplamente utilizado pelo\npúblico como item pessoal para várias utilidades, sobretudo como\npós-banho.\nRecentemente, ao concluir uma pesquisa científica, um químico da\nfábrica levou ao conhecimento da diretoria o fato de que o uso do\nproduto Óleo Essencial de Barreto pode causar queimaduras\ngraves em um certo grupo de pessoas, caso seja associado a um\nnovo tipo de protetor solar, cujo uso vem crescendo no país.\nSobre o caso narrado, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cabe à Óleo Essencial de Barreto Ltda. cessar, imediatamente,\na fabricação do produto.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Deve a autoridade administrativa, de ofício, proibir,\nimediatamente, a fabricação do produto.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Cabe à Óleo Essencial de Barreto Ltda. comunicar,\nimediatamente, o risco descoberto às autoridades\ncompetentes e aos consumidores.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Por se tratar de um produto disponibilizado no mercado há\nmais de cinquenta anos, a Óleo Essencial de Barreto Ltda. não\nprecisa tomar qualquer providência quanto ao risco\ndescoberto.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q46",
+      "question_number": 46,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A sociedade empresária XYZ Fábrica e Comercialização Digital S.A.,\npor meio do site de um representante empresarial autônomo,\nvende os bens informáticos que fabrica.\nGláucia, estudante universitária, em 23 de junho de 2024, realizou\na compra na internet de um desktop e dois monitores. Os produtos\nseriam destinados aos seus estudos e ao estágio na modalidade\nhome office, que começaria em 1º de julho. Até a presente data os\nprodutos não chegaram. A sociedade empresária informou que\nnão os possui em estoque, e a fábrica encontra-se com carência de\nmatéria-prima.\nSobre a hipótese apresentada, com base no Código de Defesa do\nConsumidor, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gláucia deve esperar 30 dias além do prazo inicial para, então,\nexigir a substituição ou a devolução do valor pago.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Gláucia pode desistir da compra e solicitar a devolução integral\ndo valor pago, uma vez que o produto não foi entregue dentro\ndo prazo.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Gláucia deve esperar até que a fábrica normalize o\nfornecimento de matéria-prima, uma vez que a falta de\ninsumos é uma causa legítima para o atraso.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Diante da situação e da ausência de matéria-prima, a\nsociedade empresária XYZ Fábrica e Comercialização Digital\nS.A. não responde solidariamente pelos atos do representante\nautônomo.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q47",
+      "question_number": 47,
+      "subject": "Direito Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O Código Civil, ao tratar da caracterização do empresário, afasta\ndesse instituto as pessoas naturais que exercem profissão\nintelectual, de natureza científica, literária ou artística. Todavia, o\nCódigo Civil admitiu a possibilidade de essas pessoas virem a ser\nreputadas empresárias e, como tal, sujeitarem-se à inscrição na\nJunta Comercial.\nAssinale a opção que apresenta a condição para que isso ocorra.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O exercício da profissão intelectual deve congregar emprego\nhabitual de mão de obra e insumos.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A pessoa natural deve exercer atividade econômica com o\nconcurso de auxiliares ou colaboradores.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O exercício da profissão, de natureza científica, literária ou\nartística, deve constituir elemento de empresa.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "A pessoa natural deve optar pelo Simples Nacional e ser\nenquadrada como Microempreendedor Individual.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q48",
+      "question_number": 48,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "F. Beltrão, G. Carneiro e S. Moreira decidiram constituir uma\nsociedade do tipo simples de prazo indeterminado, que entrou em\natividade na data da assinatura do contrato, levado a registro na\nsemana seguinte, no Registro Civil de Pessoas Jurídicas.\nAssinale a opção que indica a hipótese de dissolução de pleno\ndireito dessa sociedade.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A deliberação dos sócios, por maioria absoluta do capital.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "O esgotamento da exploração do objeto social ou verificada a\nsua inexequibilidade.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O falecimento de qualquer dos sócios, independentemente de\noptarem pela dissolução.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A existência de apenas um sócio, não reconstituída a\npluralidade em até 180 (cento e oitenta) dias.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q49",
+      "question_number": 49,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Maura Chalé, sócia administradora da sociedade Produtora de\nLaticínios Santana do Manhuaçu Ltda., procura você, como\nadvogado(a), informando que a sociedade é titular da marca de\nproduto Chalé e deseja saber quais os direitos assegurados por lei\nao titular de marca de produto.\nSobre a hipótese narrada, com base na legislação, assinale a\nafirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A sociedade pode licenciar o uso da marca de produto Chalé e\nzelar pela sua integridade material ou reputação.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "A sociedade pode impedir que empresários utilizem sinais\ndistintivos que lhes são próprios, juntamente com a marca, na\nsua promoção e comercialização.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A sociedade pode proibir que fabricantes de acessórios\nutilizem a marca para indicar a destinação do produto, ainda\nque obedecidas as práticas leais de concorrência.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A sociedade pode vetar a citação da marca em discurso, obra\ncientífica ou literária, com ou sem conotação comercial,\nindependentemente de prejuízo ao caráter distintivo.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q50",
+      "question_number": 50,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A sociedade empresária Drogaria Ponto dos Volantes Ltda.\nrequereu recuperação judicial e teve deferido o processamento,\nsendo que ambos os eventos ocorreram no ano de 2021. Nos\nexercícios sociais de 2021, 2022 e 2023, a sociedade não distribuiu\nlucros aos sócios, embora eles tivessem sido auferidos em 2022 e\n2023.\nO sócio minoritário Lucas Sobrado consulta você, como\nadvogado(a), para saber sobre a legalidade da ausência de\ndistribuição de lucros nos referidos exercícios sociais, informando\nque o plano de recuperação judicial foi aprovado em dezembro de\n2022 e a concessão ocorreu em janeiro de 2023, mas o processo\nainda não foi encerrado.\nAssinale a opção que apresenta, corretamente, seu parecer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "É vedada a distribuição de lucros pela sociedade aos sócios\nenquanto não for encerrada a recuperação judicial, de modo\nque não há ilegalidade por parte dela.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A sociedade não poderia ter deixado de distribuir lucros nos\nexercícios sociais de 2022 e 2023, pois os lucros devem ser\npagos aos sócios por ser direito essencial deles.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "É vedada a distribuição de lucros pela sociedade aos sócios\nenquanto não for realizado o pagamento aos credores sujeitos\nà recuperação judicial, de modo que não há ilegalidade por\nparte dela.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A sociedade empresarial, até a aprovação do plano de\nrecuperação judicial, estava impedida de distribuir lucros aos\nsócios, mas não há justificativa para o não pagamento no\nexercício de 2023.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q51",
+      "question_number": 51,
+      "subject": "Direito Processual Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Ana Carolina procurou você, como advogado(a), para elaborar sua\ndefesa em demanda pelo procedimento comum movida por\nEduardo perante Vara Cível com o objetivo de obter indenização\nem virtude de suposto inadimplemento de Ana Carolina, qual seja,\nter entregado uma quantidade de soja menor do que a que fora\nacordada contratualmente.\nNessa reunião, Ana Carolina relatou que a indenização não era\ndevida, porque ela havia entregado a quantidade de soja prevista\nno contrato. Ana Carolina relatou ainda que, na realidade, Eduardo\nnão tinha realizado o pagamento integral previsto em contrato.\nSobre a demanda movida por Eduardo visando ao pagamento da\nquantia que lhe é devida, assinale a opção que apresenta a medida\ncabível que você, na condição de advogado(a) de Ana Carolina,\nindicou.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ana Carolina terá que ajuizar uma nova demanda autônoma\nvisando ao pagamento da quantia devida por Eduardo.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ana Carolina poderá apresentar reconvenção para cobrar a\nquantia que lhe é devida por Eduardo, sendo que essa medida\ndeverá ser formulada na contestação.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Ana Carolina poderá apresentar reconvenção para cobrar a\nquantia que lhe é devida por Eduardo, sendo que essa medida\ndeverá ser formulada em petição apartada da contestação.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Ana Carolina poderá formular pedido contraposto para cobrar\na quantia que lhe é devida por Eduardo, sendo que essa\nmedida deverá ser formulada em petição apartada da\ncontestação.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q52",
+      "question_number": 52,
+      "subject": "Direito Processual Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Neusa ajuizou ação condenatória em face de Marcelo. Em sua\ncausa de pedir, a autora sustentou que o réu, conduzindo seu\nveículo de forma imprudente, avançou um sinal vermelho e colidiu\ncontra o carro de Neusa, causando-lhe danos morais e materiais.\nDiante da necessidade de produção de prova oral, consistente em\ndepoimento pessoal e prova testemunhal, o Juiz designou\naudiência de instrução e julgamento.\nAs partes tempestivamente apresentaram suas testemunhas, que\nestavam nos respectivos veículos no momento da colisão. Neusa\nindicou Gabriel, seu filho de 17 anos. Por sua vez, Marcelo indicou\nJoão, seu amigo íntimo, e Regina, sua prima.\nSobre o caso acima, segundo o ordenamento jurídico brasileiro,\nassinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gabriel é incapaz de depor, por ser menor de 18 anos.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "João e Regina são testemunhas suspeitas, diante da amizade\níntima e da relação de parentesco com Marcelo,\nrespectivamente.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Regina poderá depor como testemunha, não havendo\nimpedimento referente à relação de parentesco que possui\ncom Marcelo.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "O juiz poderá admitir o depoimento de João, ainda que amigo\níntimo de Marcelo, caso em que será indispensável a prestação\ndo compromisso de dizer a verdade.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q53",
+      "question_number": 53,
+      "subject": "Direito Processual Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Gabriela adquiriu um pacote de viagens com a sociedade\nempresária VoaMais, mas não conseguiu embarcar pois, na última\nhora, houve o cancelamento de seu bilhete aéreo. Em\nconsequência, Gabriela ajuizou ação indenizatória por danos\nmorais e materiais em face de VoaMais. Foi proferida sentença de\nprocedência do pedido, com a concessão da tutela provisória na\nsentença, condenando a ré ao pagamento de R$ 30.000,00 (trinta\nmil reais).\nInconformada, a ré interpôs recurso de apelação. Gabriela, então,\nprocurou você, na qualidade de advogado(a), com o objetivo de\nreceber imediatamente o valor previsto na condenação,\nindependentemente do julgamento da apelação interposta pela\nré.\nAssinale a opção que apresenta, corretamente, sua orientação\nsobre o tema.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ela não poderá iniciar o cumprimento da sentença antes do\njulgamento da apelação interposta, uma vez que o crédito não\né de natureza alimentar, tampouco restou demonstrada\nsituação de necessidade.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Ela poderá iniciar o cumprimento da sentença, na modalidade\ndefinitiva, tendo em vista que a tutela provisória foi concedida\nna sentença.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ela poderá iniciar o cumprimento da sentença, na modalidade\nprovisória, que correrá por sua iniciativa e responsabilidade,\nsendo certo que, no caso de reforma da sentença, o\ncumprimento fica sem efeito, liquidando-se eventuais\nprejuízos exclusivamente em ação autônoma.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Ela poderá iniciar o cumprimento da sentença, na modalidade\nprovisória, mas o levantamento de depósito em dinheiro\ndependerá, em regra, de caução idônea prestada nos próprios\nautos.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q54",
+      "question_number": 54,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "João propôs ação indenizatória em face da sociedade empresária\nCampo Bom, em causa própria. Foi proferida sentença\ncondenando a ré quanto ao principal e, considerando sua\nsucumbência mínima, ao pagamento integral de honorários\nadvocatícios de sucumbência.\nSobre os honorários advocatícios arbitrados no caso, assinale a\nafirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Os honorários não são devidos nos casos em que o advogado\natue em causa própria.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Se um litigante sucumbir em parte mínima do pedido, o outro\nresponderá, por inteiro, pelos honorários.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Como arbitrados os honorários na sentença, não serão devidos\nnovos honorários advocatícios no cumprimento de sentença.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Os honorários podem ser arbitrados por equidade, apesar de\no valor da condenação ser líquido, por se tratar de ação\nindenizatória.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q55",
+      "question_number": 55,
+      "subject": "Direito Processual Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Joana formulou requerimento de cumprimento de sentença em\nface de Regina. No curso de tal fase do processo, Joana obteve a\npenhora de um automóvel de propriedade de Regina, cujo valor\nde mercado é R$ 10.000,00 (dez mil reais) superior ao do\nmontante exequendo, sendo nomeada depositária do bem.\nNo atual momento processual, Joana deseja se tornar proprietária\ndo automóvel de Regina. Por essa razão, requereu a adjudicação\ndo bem ao juízo.\nNesse caso, segundo o ordenamento jurídico brasileiro, assinale a\nafirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Assinado o auto de adjudicação pelo juiz, deverá ser expedida\na carta de adjudicação e o mandado de imissão na posse.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O pedido não poderá ser acolhido, diante da natureza residual\nda adjudicação em relação à alienação do bem, que é medida\nexpropriatória preferencial.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Desde que depositada a eventual diferença entre o valor do\ndébito e o da avaliação do automóvel, que ficará à disposição\nde Regina, Joana poderá se tornar proprietária do automóvel.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Como a alienação é a única forma de expropriação de bens\nadmitida pelo Código de Processo Civil, caberá a Joana tentar\na arrematação do bem em leilão eletrônico, tendo direito de\npreferência.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q56",
+      "question_number": 56,
+      "subject": "Direito Processual Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em uma tarde de domingo, voltando do shopping com seu\nnamorado, Marisa se distraiu e colidiu contra a traseira do\nautomóvel de Leandro. Assustada com a reação de Leandro, que\nsaiu do carro aos gritos, Marisa foge.\nLeandro anotou a placa do carro e ajuizou uma ação indenizatória\npor danos materiais em face de Marisa, em razão dos prejuízos\ncausados a seu automóvel. Considerando que Marisa contratou o\nseguro do veículo, denunciou a seguradora à lide.\nAcerca de tais fatos, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Marisa deve pedir a citação da seguradora até a decisão\nsaneadora.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Se a empresa seguradora contestar o pedido de Leandro, o\nprocesso prosseguirá tendo, na ação principal, em\nlitisconsórcio, Marisa e a seguradora.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Sendo julgado procedente o pedido de indenização por danos\nmateriais, Leandro deve pedir o cumprimento de sentença\nsomente contra Marisa.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Sendo julgado procedente o pedido de indenização por danos\nmateriais, mesmo apresentando contestação quanto ao\nmérito, a seguradora não será condenada em honorários de\nsucumbência.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q57",
+      "question_number": 57,
+      "subject": "Direito Processual Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Maria, brasileira e residente no Brasil, resolveu viajar para o\nexterior e lá praticar o delito de embriaguez ao volante, que,\nembora típico no Brasil, no país onde seria praticado não é\ntipificado. Ao retornar ao Brasil, os fatos foram noticiados às\nautoridades competentes.\nCom base na hipótese apresentada, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maria está sujeita à extraterritorialidade da lei penal brasileira\nem razão da sua nacionalidade, podendo responder pelo ilícito\npraticado.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Maria não poderá responder pelo fato, tendo em vista a\ninaplicabilidade da lei brasileira a fatos ocorridos fora dos\nlimites territoriais do país.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Maria não poderá responder pelo fato, tendo em vista que é\nnecessário que a incriminação da conduta se verifique no local\ndo fato e no Brasil, simultaneamente.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Maria está sujeita à extraterritorialidade da lei penal brasileira,\nem razão de a lei em vigor no Estado de sua residência\ndeterminar o regime jurídico que lhe é aplicável.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q58",
+      "question_number": 58,
+      "subject": "Direito Processual Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Ana Paula é repórter esportiva de uma emissora de televisão. Ao\nparticipar de uma reportagem ao vivo na mídia televisiva, um\ntorcedor presente ao estádio, com intenção de satisfazer sua\nprópria lascívia, a abraça à força, beijando-a no rosto. Ana Paula\nsente-se afrontada em sua liberdade sexual.\nEm razão do fato, ela procura você, como advogado(a), para saber\ncomo proceder.\nAssinale a afirmativa que apresenta corretamente sua orientação.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O fato constitui importunação sexual e se processa mediante\nação penal pública incondicionada.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "O ato deve ser identificado como delito de injúria real e se\nprocessa mediante ação penal privada.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O episódio equivale a estupro e se processa mediante ação\npenal pública condicionada à representação da ofendida.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O caso tipifica posse sexual mediante fraude ou outro meio\nque dificulte ou impossibilite a livre manifestação de vontade\nda vítima e se processa mediante queixa.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q59",
+      "question_number": 59,
+      "subject": "Direito Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Caio, muito atuante nas redes sociais, compartilhou vídeos e fotos\npornográficos em um grupo de amigos. O material compartilhado\ncontinha imagens que teriam sido extraídas, ilegalmente, de\ncomputadores pessoais por terceiros, já tendo sido inclusive\nobjeto de registros policiais por parte das vítimas. Uma das\npessoas para as quais as imagens foram compartilhadas procura a\npolícia e relata a atitude de Caio.\nO Delegado indiciou Caio pela prática do crime descrito no Art.\n218-C do CP, o qual prevê a figura penal do compartilhamento não\nautorizado de cena de sexo ou pornografia. Caio, surpreendido\ncom a acusação, afirmou não ter conhecimento de que o fato por\nele praticado seria criminoso.\nA tese defensiva correta, a partir da afirmação de Caio, é a\nocorrência do erro",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sobre a pessoa.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "de tipo permissivo.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "de proibição direto.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "de proibição indireto.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q60",
+      "question_number": 60,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Alfredo, motorista da sociedade empresária Guardião Ltda.,\npessoa jurídica de direito privado que presta serviços de\nsegurança, é subordinado ao gerente Marcos.\nNo dia 10/3/2023, Marcos ordenou que Alfredo fizesse a escolta\nde um cliente. No trajeto de volta, Alfredo foi parado em uma blitz,\nocasião em foi constatado que o veículo funcional que conduzia\nera proveniente de roubo. A despeito de não ter ciência do crime\nantecedente, até mesmo por não ser o responsável pelas compras\nda empregadora, Alfredo foi preso em flagrante por suposta\nprática do crime de receptação dolosa.\nDiante do exposto, assinale a opção que apresenta, corretamente,\na tese de mérito que pode ser invocada em defesa de Alfredo.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A de exclusão da ilicitude, por exercício regular do direito.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A de exclusão da ilicitude, por estrito cumprimento do dever\nlegal.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A de exclusão da tipicidade, por ausência de elemento\nsubjetivo do tipo.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "A de exclusão da culpabilidade por inexigibilidade de conduta\ndiversa, consistente na obediência hierárquica.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q61",
+      "question_number": 61,
+      "subject": "Direito Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Filisteu, empresário, contratou Mateus para matar seu\nconcorrente, Lucas, mediante pagamento antecipado de R$\n50.000,00 (cinquenta mil reais).\nPortando arma de fogo municiada, Mateus se pôs em campana,\nlevando consigo seu amigo, Antônio, que nada sabia sobre os\nfatos. Quando Lucas saiu de casa com seu filho no colo, Mateus\nnão teve coragem de cumprir o acordado e abandonou o local sem\nque Lucas o avistasse.\nDiante dessa situação hipotética, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Filisteu não praticou fato penalmente típico.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Filisteu e Mateus praticaram o crime de associação criminosa.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Filisteu deve responder por tentativa de homicídio em\ncoautoria.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Filisteu deve responder por tentativa de homicídio, tendo a\npena atenuada em razão do arrependimento posterior de\nMateus.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q62",
+      "question_number": 62,
+      "subject": "Direito Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Joelerson, foragido, com longa lista de antecedentes criminais, foi\ncondenado ao cumprimento de uma pena privativa de liberdade\nde 24 anos de reclusão, mínima prevista para o delito que cometeu\n(extorsão mediante sequestro seguida de morte – Art. 159, § 3º,\ndo Código Penal).\nNo dia seguinte ao trânsito em julgado da condenação, entrou em\nvigor a Lei A, que reduziu a pena mínima para o delito referido,\nfixando-a em 20 (vinte) anos de reclusão. Após intensa reação\nmidiática, a Lei B revogou a Lei A, restabelecendo o patamar\nsancionatório mínimo anteriormente previsto.\nNo dia seguinte à entrada em vigor da Lei B, Joelerson foi\ncapturado e iniciou o cumprimento da pena.\nDiante dessa situação hipotética, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Joelerson somente faria jus à redução da pena se a execução da\ncondenação fosse iniciada antes da entrada em vigor da Lei A.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Joelerson somente faria jus à redução da pena se a execução da\ncondenação fosse iniciada antes da entrada em vigor da Lei B.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Joelerson faz jus à redução da pena, independentemente do\ntrânsito em julgado da sentença condenatória e da entrada em\nvigor da Lei B.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Joelerson não faz jus à redução da pena, pois ambas as leis\ncitadas entraram em vigor após o trânsito em julgado da\nsentença condenatória.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q63",
+      "question_number": 63,
+      "subject": "Direito Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Antônio e Rogério praticaram, em comunhão de ações e desígnios,\num ilícito penal, e ambos foram condenados.\nAntônio e o Ministério Público interpuseram tempestivos\nrecursos, ao passo que Rogério perdeu o prazo de recurso, porém\nconstatou que havia prescrição da pretensão punitiva na\nmodalidade retroativa, o que foi sustentado por sua defesa em\ncontrarrazões recursais.\nNesse caso, considerando os efeitos dos recursos, assinale a\nafirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O efeito devolutivo do recurso permite que o Juiz reconsidere\na decisão recorrida.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O efeito translativo do recurso permite a Rogério arguir a\nprescrição em suas contrarrazões.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "O efeito substitutivo do recurso permite que o Tribunal\nconheça toda a matéria impugnada.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O efeito extensivo do recurso permite que Rogério aproveite\nqualquer decisão favorável a Antônio.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q64",
+      "question_number": 64,
+      "subject": "Direito Processual Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em um inquérito policial, o Juiz decretou, de ofício, a prisão\npreventiva de Débora, sem que esta possuísse qualquer\nantecedente criminal, apontando como fundamento para a prisão\na gravidade em abstrato do crime de homicídio culposo.\nCerto de que não houve a decretação anterior de medida cautelar\ndiversa da prisão, assinale a opção que apresenta, corretamente,\na alegação que você, como advogado(a) de Débora, deve\napresentar.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O magistrado não pode decretar prisão preventiva de ofício,\nbem como não é cabível a decretação de prisão preventiva em\ndelitos culposos.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "O magistrado pode, de ofício, decretrar prisão preventiva, e a\ngravidade em abstrato do crime é fundamento legítimo para a\ndecretação de preventiva.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O magistrado pode decretar prisão preventiva de ofício no\ninquérito e no processo, mas a gravidade em abstrato de um\ncrime não é motivo legítimo para a decretação de preventiva.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O magistrado não pode decretar prisão preventiva de ofício,\nmas a gravidade em abstrato de um crime é um motivo\nlegítimo para a decretação da prisão preventiva mesmo\nquando o suspeito for primário.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q65",
+      "question_number": 65,
+      "subject": "Direito Processual Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Amanda impetra habeas corpus em favor de Telma, que foi presa\npreventivamente por decisão do Juiz de Primeiro Grau, sendo\nacusada da prática de crime hediondo. O habeas corpus foi\nimpetrado com o argumento de excesso de prazo. O Tribunal\nconcedeu a ordem de habeas corpus de ofício, fundamentado na\nincompetência do juiz que decretou a prisão.\nSobre a hipótese narrada, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O Tribunal equivocou-se, uma vez que a incompetência do\njulgador não é fundamento para a concessão de habeas\ncorpus.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O Tribunal agiu de modo correto, uma vez que é possível a\nconcessão de habeas corpus de ofício sempre que houver\nconstrangimento ilegal.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "O Tribunal agiu de modo correto, pois a incompetência do\nJuízo é o único fundamento que admite a concessão da ordem\nde habeas corpus de ofício.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O Tribunal equivocou-se, pois fica vinculado aos argumentos\napontados pelo impetrante do habeas corpus, sendo\ninadmissível a concessão de habeas corpus de ofício.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q66",
+      "question_number": 66,
+      "subject": "Direito Processual Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Daniel foi denunciado pela prática do crime de instigação ao\nsuicídio. Após a fase de instrução, o Juiz pronunciou o réu,\nafirmando ser Daniel totalmente culpado da prática do crime e que\nqualquer jurado teria a obrigação moral de reconhecer provada a\nmaterialidade e a autoria.\nNessa hipótese, de acordo com nosso ordenamento jurídico, você,\ncomo advogado(a) de Daniel, afirma que a decisão de pronúncia é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ilegal, uma vez que houve excesso de linguagem.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "legal, porque observa o livre convencimento motivado do\njulgador.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ilegal, uma vez que a pronúncia deveria ter sido decidida pelo\nTribunal do Júri.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "legal, porque a restrição legal de excesso de linguagem aplica-\nse apenas para o crime de homicídio.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q67",
+      "question_number": 67,
+      "subject": "Direito Processual Penal",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Policiais ingressaram no imóvel pertencente a Paulo, às 4 horas da\nmanhã, em regular perseguição iniciada logo após a prática de um\nhomicídio, a fim de prender Júnior (filho de Paulo) em flagrante\ndelito.\nAo ingressar no imóvel, os policiais capturaram Júnior e, em busca\npessoal, localizaram o telefone celular do custodiado no bolso da\ncalça. Além de prender Júnior em flagrante, a autoridade policial\ndeterminou o encaminhamento do telefone apreendido à perícia\ntécnica, a fim de descobrir seu conteúdo. O laudo pericial indicou\nque nele havia conversas que confirmavam a pertinência de Júnior\nem associação criminosa. Assim, foi instaurado inquérito policial\ncontra Júnior, para apurar o delito de associação criminosa.\nNesse caso, assinale a opção que indica corretamente, a alegação\nque você, como advogado(a) de Júnior, deve apresentar.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A prisão em flagrante foi válida, porém esta não autoriza a\napreensão do aparelho telefônico do flagranteado, o qual\nsomente poderia ser apreendido por ordem judicial prévia e\nexpressa.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "O ingresso em domicílio para prisão em flagrante não pode\nocorrer no período noturno, havendo nulidade de todos os\natos subsequentes ao ingresso dos policiais no domicílio de\nPaulo, invalidando, inclusive, a prisão em flagrante.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O ingresso no interior da residência de terceiros depende de\nexpedição de mandado de busca, havendo nulidade de todos\nos atos subsequentes ao ingresso dos policiais no domicílio de\nPaulo, invalidando, inclusive, a prisão em flagrante.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A prisão em flagrante foi válida, entretanto, a autoridade\npolicial não poderia determinar a quebra de sigilo de dados\ndos telefones apreendidos, havendo nulidade da prova colhida\na partir da perícia do aparelho e de todos os atos\nsubsequentes.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q68",
+      "question_number": 68,
+      "subject": "Direito Empresarial",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Anderson, motorista da sociedade empresária X, dirigindo o\nveículo da sociedade empresária fora do horário comercial e acima\nda velocidade permitida, atropelou Lucas. Lucas ficou internado\npelo período de dois meses. Anderson foi condenado com trânsito\nem julgado, no âmbito criminal. Lucas propõe ação civil ex delicto\nde execução contra a sociedade empresária X.\nSobre essa ação civil ex delicto, você, na qualidade de advogado(a)\nda sociedade empresária X, afirmou, corretamente, que ela é parte",
+      "options": [
+        {
+          "letter": "A",
+          "text": "legítima uma vez que é responsável civil.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "legítima para figurar como ré, ainda que Anderson fosse\nabsolvido criminalmente.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ilegítima para ação civil ex delicto de execução, uma vez que\nnão teve oportunidade de participar da ação penal originária.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "ilegítima para ação civil ex delicto, seja de conhecimento ou de\nexecução, que somente pode ser proposta contra o autor do\ncrime.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q69",
+      "question_number": 69,
+      "subject": "Direito Previdenciário",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Jorge, segurado obrigatório do Regime Geral de Previdência Social\n(RGPS), reside com sua mãe, Francisca, e sua filha, Helena, que é\nestudante e tem 19 anos. O emprego de Jorge é a principal fonte\nde renda da família e o único sustento da casa.\nAcontece que Jorge foi acometido de uma doença e veio a falecer.\nPor isso, as duas dependentes de Jorge ingressam com um pedido\nde pensão por morte no INSS.\nSobre a hipótese apresentada, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Somente Helena faz jus à pensão por morte.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Helena faz jus à pensão por morte, sendo necessária a\ncomprovação de dependência econômica.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Helena e Francisca fazem jus à pensão por morte,\nindependentemente da comprovação de dependência\neconômica.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Somente Francisca faz jus à pensão por morte, sendo\nnecessária a comprovação de dependência econômica.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q70",
+      "question_number": 70,
+      "subject": "Direito Previdenciário",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Antônio recebe aposentadoria por incapacidade permanente e,\npor necessitar da assistência permanente de outra pessoa, seu\nbenefício foi acrescido de 25%.\nEm relação a esse acréscimo, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Será incorporado ao valor da pensão, com a morte do\naposentado.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Deverá ser recalculado, quando o benefício que lhe deu\norigem for reajustado.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Não será devido, quando o valor da aposentadoria atingir o\nlimite máximo legal.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "É devido ao segurado que recebe auxílio por incapacidade\ntemporária e necessita da assistência permanente de outra\npessoa.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q71",
+      "question_number": 71,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Geraldo trabalha desde 2022 para uma sociedade empresária,\natua na região metropolitana do Estado e recebe um salário fixo\nde R$ 4.000,00, sem qualquer desconto, exceto o imposto sobre a\nrenda e o INSS. Além disso, desfruta de um pacote de benefícios\nque inclui auxílio-alimentação em forma de ticket, habitação num\nluxuoso apartamento, plano de saúde e auxílio-educação\n(compreendendo os valores relativos à matrícula, à mensalidade,\nà anuidade, aos livros e ao material didático).\nGeraldo consultou você, como advogado(a), para saber quais\nbenefícios devem ter seu valor integrado à sua remuneração.\nSobre a questão levantada por Geraldo, de acordo com os dados\ndo enunciado e com o texto da CLT, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apenas a educação integrará a remuneração.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Apenas o valor do plano de saúde não integrará a\nremuneração.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Apenas habitação, fornecida pelo trabalho, integrará a\nremuneração.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Alimentação, habitação, plano de saúde e auxílio-educação\nintegrarão a remuneração.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q72",
+      "question_number": 72,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Os irmãos Décio e Beatriz são empresários. Décio explora a\natividade pesqueira, enquanto Beatriz tem duas lojas de calçados.\nEm 2023, a sociedade empresária de Décio teve uma reclamação\ntrabalhista ajuizada por um operador de produção que inseriu, na\npetição inicial, a sociedade empresária de Beatriz, advogando\nexistir grupo econômico, apenas em razão do parentesco entre\nDécio e Beatriz.\nConsiderando esses fatos e o que dispõe a CLT, assinale a\nafirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O autor está correto, pois existe vínculo familiar entre Décio e\nBeatriz.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Para se caracterizar grupo econômico somente é necessário\nhaver identidade de sócios.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Não há grupo econômico porque não há direção, controle ou\nadministração de uma empresa sobre outra.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "O grupo econômico pode ser reconhecido pelo parentesco,\nmas apenas na fase executória da reclamação.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q73",
+      "question_number": 73,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em 2023, Denilson ajuizou reclamação trabalhista contra um\nsupermercado alegando que lá trabalhou de 2004 a 2008 sem ter\na CTPS assinada.\nNa reclamação, ele requereu a declaração do vínculo empregatício\nnaquele período para fins de anotação na carteira profissional,\npois precisaria desse interregno para conseguir sua aposentadoria\nno INSS.\nEm defesa, a sociedade empresária alegou prescrição, pois a ação\nfoi ajuizada após o biênio constitucional.\nConsiderando esses fatos e o que dispõe a CLT, assinale a\nafirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A sociedade empresária está equivocada, pois o prazo é de 30\nanos, tal qual sucede com o FGTS.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A prescrição se consolidou e poderia ser conhecida de ofício\npelo Juiz, mesmo não havendo defesa.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A sociedade empresária está correta, havendo prescrição\nporque a ação foi ajuizada mais de 2 anos após a ruptura.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A sociedade empresária está incorreta, pois as ações que têm\npor objeto anotações para fins de prova junto à Previdência\nSocial são imprescritíveis.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q74",
+      "question_number": 74,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Leopoldo foi contratado, em 2020, por uma sociedade empresária\nde terceirização, como auxiliar de limpeza. Ele cumpre jornada em\nregime de tempo parcial de 22 horas semanais, conforme previsto\ne autorizado na norma coletiva da sua categoria. Após um ano de\ntrabalho sem faltas injustificadas, é chegado o momento de\nLeopoldo fruir férias.\nSobre a solicitação de Leopoldo, considerando o que dispõe a CLT,\nassinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Por ser empregado em regime de tempo parcial, ele não terá\ndireito a férias remuneradas.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Tal qual os demais empregados, ele terá direito a 30 dias de\nférias com adicional de 1/3.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Ele somente terá direito a férias se isso estiver expressamente\nprevisto na convenção coletiva de sua categoria.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Por cumprir apenas a metade da jornada dos demais\nempregados, ele terá direito a 15 dias de férias com adicional\nde 1/3.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q75",
+      "question_number": 75,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em sede de acordo coletivo, firmado em janeiro de 2024 e com\nvigência de dois anos, entre uma sociedade empresária e o\nsindicato da categoria profissional, constou cláusula\ndeterminando que o tempo de deslocamento dos empregados do\nportão até o interior da sociedade empresária, onde se situa o\nrelógio de ponto, seria computado na jornada de trabalho.\nIsso porque o deslocamento é feito em transporte fornecido pela\nsociedade empresária e dura cerca de 20 minutos. Sobre a jornada,\nnão consta mais nada na norma coletiva.\nA sociedade empresária, por liberalidade, mantém salas de\nrecreação, biblioteca e uma capela. A utilização desses espaços\nantes e após o trabalho e durante os intervalos é facultada aos\nempregados.\nEm razão do ajuizamento de uma ação trabalhista por um ex-\nempregado, a sociedade empresária indagou a você, como\nadvogado(a), se todos esses períodos, seja o de deslocamento,\nseja o tempo despendido nos espaços mencionados, deveriam\nintegrar a jornada de trabalho.\nAcerca do tema, com base na CLT, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Todos os períodos não se computam na jornada de trabalho\ndos empregados.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Apenas o tempo de utilização da capela deve ser computado\nna jornada, pois o Estado é laico.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Apenas o período de deslocamento deve integrar a jornada\npor força da norma coletiva. Os demais períodos não são\nconsiderados tempo à disposição.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "O período de deslocamento assim como o período de\nutilização da biblioteca, voltado para o estudo, devem ser\ncomputados na jornada. Os demais períodos não são\ncomputados na jornada.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q76",
+      "question_number": 76,
+      "subject": "Direito Processual do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em sede de reclamação trabalhista você advoga para a parte\nautora. Dos três pedidos formulados, você sagrou-se vitorioso em\ndois, horas extras e equiparação salarial, sucumbindo apenas no\npedido de integração da habitação. Atendendo a um desejo de seu\ncliente, optou-se por não recorrer, tendo o prazo recursal\ntranscorrido integralmente. A ré, por sua vez e no seu prazo,\napresentou recurso pertinente e, agora, o processo encontra-se\ncom prazo para você contrarrazoar o recurso da ré. Ocorre que seu\ncliente mudou de opinião, já que o processo irá se alongar por\nconta do recurso da ré. Diante disso, indagou-lhe se caberia\nalguma medida processual para que fosse reexaminada a questão\nrelativa à integração da habitação.\nCom base no enunciado e no entendimento consolidado do TST,\nassinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Caberá recurso adesivo.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Caberá recurso ordinário.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Caberá agravo de instrumento.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Não há medida a ser adotada, transitando em julgado a\ndecisão do pedido de integração da habitação.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q77",
+      "question_number": 77,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em uma reclamação trabalhista requerendo a responsabilidade\ncivil do empregador em razão de uma alegada doença profissional,\no Juiz deferiu a realização de perícia, sendo que ambas as partes\nquesitaram e indicaram assistentes técnicos. No laudo, foi\ndetectado que realmente houve a doença ocupacional. Com base\nnele, o Juiz julgou procedente o pedido.\nSobre os honorários do perito e dos assistentes, considerando o\nentendimento consolidado do TST, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A empresa deverá arcar com os honorários do perito e do\nassistente técnico do autor.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A Justiça arcará com os honorários do perito, e cada parte será\nresponsável pelos honorários do seu assistente técnico.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Cada parte arcará com metade do valor dos honorários do\nperito e integralmente com os honorários de seu assistente\ntécnico.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "O réu será condenado a pagar os honorários do perito, porque\nsucumbiu no objeto da prova, e arcará com os honorários do\nassistente técnico por ele indicado.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q78",
+      "question_number": 78,
+      "subject": "Direito do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Foi protocolizada petição de homologação de acordo extrajudicial\nà 200ª Vara do Trabalho de Florianópolis.\nAs partes envolvidas são Luísa, empregada doméstica, e José\nPedro, seu ex-empregador. O valor apresentado para o acordo é\nde R$ 27.000,00 (vinte e sete mil reais), pagos em duas parcelas\niguais e sucessivas, sendo mantidas as anotações na CTPS de Luísa.\nEmpregada e empregador estão representados pelo mesmo\nadvogado.\nSobre esses fatos, segundo os termos da CLT, assinale a afirmativa\ncorreta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Não é possível a homologação, porque as partes não podem\nser representadas pelo mesmo advogado.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Na homologação de acordo extrajudicial, os empregados\nprecisam ser assistidos pelo advogado do seu sindicato de\nclasse.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Contanto que ambas as partes ratifiquem perante o Juiz o\ndesejo de realizar a transação, o acordo deve ser homologado\npelo Magistrado.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Tratando-se de um procedimento especial de jurisdição\nvoluntária, o Juiz não pode negar a homologação de acordo\nalegando vício formal.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q79",
+      "question_number": 79,
+      "subject": "Direito Processual Civil",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em 2024, o Juiz proferiu sentença ilíquida em reclamação\ntrabalhista, na qual você advoga para o autor, que foi julgada\nprocedente. O feito havia sido ajuizado no final do ano de 2022.\nO Juízo elaborou e tornou líquida a conta, tendo aberto um prazo\npara as partes se manifestarem. A parte ré silenciou-se e você\napresentou sua impugnação, que não foi acolhida pelo Juiz. Ato\ncontínuo, houve decisão homologatória da sentença de\nliquidação. As partes foram intimadas. A ré garantiu o juízo e\napresentou embargos à execução. Você apresentou impugnação\nde credor e contraminuta aos embargos à execução apresentados\npela ré.\nDiante desta circunstância, assinale a afirmativa correta.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Você deverá sustentar em contraminuta aos embargos à\nexecução que a ré apenas poderia questionar a sentença de\nliquidação por meio dos embargos à penhora.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Tendo em vista que sua impugnação à conta do juízo foi\nrejeitada, a matéria atinente à sua impugnação de credor deve\nser diversa, não podendo ser renovada a discussão da\nimpugnação à conta de liquidação.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Na sua contraminuta, assim como na impugnação de credor,\ncaberá apenas discutir a matéria relativa às razões pelas quais\nos valores apurados estariam incorretos, não havendo o que\nse arguir acerca da não impugnação da ré à conta de\nliquidação, por ser facultativa.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Está preclusa a arguição de matérias que impugnam os\ncálculos homologados em sede de embargos à execução da ré,\numa vez que a parte não apresentou impugnação aos cálculos\nno momento oportuno, cabendo ao advogado do autor\nformular essa alegação na contraminuta aos embargos da ré.",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "oab_2024_42_tipo1_q80",
+      "question_number": 80,
+      "subject": "Direito Processual do Trabalho",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "As irmãs Alessandra, Antônia, Alba e Aline foram dispensadas de\nseus empregos em 2024, e cada qual contratou uma advogada de\nsua confiança para ajuizar reclamação trabalhista visando postular\nhoras extras.\nAlessandra tem 58 anos de idade; Antônia, 65 anos de idade; Alba,\n50 anos de idade; e Aline, 61 anos de idade.\nConsiderando a norma de regência, assinale a opção que indica\no(s) processo(s) que terá(ão) prioridade na tramitação.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "O de Antônia, somente.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Os de Antônia e Aline, somente.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Os de Alessandra e Aline, somente.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Os das quatro irmãs, em condições iguais.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

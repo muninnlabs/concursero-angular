@@ -26,3 +26,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Question images (~245 MB) are synced from the Flutter repo, not committed:
+#   npm run sync-assets -- <path-to-flutter-repo>
+/assets/images/
+
+# API data (SQLite) and secrets
+server/data/
+server/.env

@@ -1,0 +1,111 @@
+<a routerLink="/app" class="back"><app-icon name="arrow-left" [size]="16" /> Voltar ao início</a>
+
+<header class="head">
+  <div>
+    <h1>{{ config().title }}</h1>
+    <p>{{ category() }}@if (materia()) { · {{ materia() }} }</p>
+  </div>
+  @if (!results()) {
+    <span class="clock" [class.clock--over]="remaining() === 0"><app-icon name="timer" [size]="16" /> {{ clock() }}</span>
+  } @else {
+    <span class="score">{{ score() }}/{{ results()!.length }} acertos</span>
+  }
+</header>
+
+@if (questions.isLoading()) {
+  <p class="card state">Carregando questões…</p>
+} @else if (questions.error()) {
+  <p class="card state">Não foi possível carregar as questões. <button class="link" type="button" (click)="questions.reload()">Tentar de novo</button></p>
+} @else if (total() === 0) {
+  <p class="card state">Nenhuma questão disponível para este filtro ainda.</p>
+} @else if (current(); as question) {
+  <nav class="dots" aria-label="Questões">
+    @for (q of questions.value(); track q.id; let i = $index) {
+      <button
+        type="button"
+        class="dot"
+        [class.dot--current]="i === index()"
+        [class.dot--answered]="selected()[q.id]"
+        [class.dot--correct]="resultFor().get(q.id)?.isCorrect === true"
+        [class.dot--wrong]="resultFor().get(q.id)?.isCorrect === false"
+        (click)="index.set(i)"
+        [attr.aria-label]="'Questão ' + (i + 1)"
+      >
+        {{ i + 1 }}
+      </button>
+    }
+  </nav>
+
+  <article class="card question">
+    <p class="question__meta">
+      Questão {{ question.question_number }} · {{ question.subject }}
+      <span class="question__exam">{{ question.examId }}</span>
+    </p>
+
+    @for (context of question.context_texts; track $index) {
+      <div class="context">
+        @if (context.title) {
+          <strong>{{ context.title }}</strong>
+        }
+        @if (context.content) {
+          <p>{{ dewrap(context.content) }}</p>
+        }
+        @if (assetUrl(context.image_url); as src) {
+          <img [src]="src" alt="" loading="lazy" />
+        }
+        @if (context.source) {
+          <small>{{ context.source }}</small>
+        }
+      </div>
+    }
+
+    @if (assetUrl(question.image_url); as src) {
+      <img class="question__image" [src]="src" alt="" loading="lazy" />
+    }
+
+    <p class="question__statement">{{ dewrap(question.statement) }}</p>
+
+    <div class="options" role="radiogroup">
+      @for (option of question.options; track option.letter) {
+        @let state = optionState(question.id, option.letter);
+        <button
+          type="button"
+          role="radio"
+          class="option"
+          [class.option--selected]="state === 'selected'"
+          [class.option--correct]="state === 'correct'"
+          [class.option--wrong]="state === 'wrong'"
+          [attr.aria-checked]="state === 'selected'"
+          [disabled]="!!results()"
+          (click)="choose(question.id, option.letter)"
+        >
+          <span class="option__letter">{{ option.letter }}</span>
+          <span class="option__text">
+            {{ dewrap(option.text) }}
+            @if (assetUrl(option.image_url); as src) {
+              <img [src]="src" alt="Alternativa {{ option.letter }}" loading="lazy" />
+            }
+          </span>
+        </button>
+      }
+    </div>
+  </article>
+
+  @if (error(); as message) {
+    <p class="error" role="alert">{{ message }}</p>
+  }
+
+  <footer class="actions">
+    <button class="btn btn--outline" type="button" [disabled]="index() === 0" (click)="go(-1)">Anterior</button>
+    @if (index() < total() - 1) {
+      <button class="btn btn--outline" type="button" (click)="go(1)">Próxima</button>
+    }
+    @if (!results()) {
+      <button class="btn btn--primary" type="button" [disabled]="answeredCount() === 0 || submitting()" (click)="submit()">
+        {{ submitting() ? 'Enviando…' : 'Finalizar (' + answeredCount() + '/' + total() + ')' }}
+      </button>
+    } @else {
+      <a class="btn btn--primary" routerLink="/app">Voltar ao painel</a>
+    }
+  </footer>
+}

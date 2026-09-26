@@ -1,0 +1,162 @@
+// Design tokens taken from the mocks in /mocks.
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-soft: #eef2ff;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --text-subtle: #94a3b8;
+  --border: #e2e8f0;
+  --surface: #ffffff;
+  --background: #f8fafc;
+  --dark: #0f172a;
+  --success: #059669;
+  --success-soft: #ecfdf5;
+  --warning: #d97706;
+  --warning-soft: #fffbeb;
+  --danger: #e11d48;
+  --danger-soft: #fff1f2;
+  --yellow: #facc15;
+  --radius: 16px;
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.04), 0 1px 3px rgb(15 23 42 / 0.06);
+  --shadow-md: 0 10px 30px -12px rgb(15 23 42 / 0.18);
+
+  color-scheme: light;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color: var(--text);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--primary);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid rgb(79 70 229 / 0.45);
+  outline-offset: 2px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    transform 0.15s;
+
+  &:active {
+    transform: translateY(1px);
+  }
+  &:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+}
+
+.btn--primary {
+  color: #fff;
+  background: var(--primary);
+  box-shadow: 0 6px 16px -6px rgb(79 70 229 / 0.6);
+  &:hover:not(:disabled) {
+    background: var(--primary-hover);
+  }
+}
+
+.btn--dark {
+  color: #fff;
+  background: var(--dark);
+  &:hover:not(:disabled) {
+    background: #1e293b;
+  }
+}
+
+.btn--yellow {
+  color: var(--text);
+  background: var(--yellow);
+  &:hover:not(:disabled) {
+    background: #eab308;
+  }
+}
+
+.btn--outline {
+  color: var(--text);
+  background: var(--surface);
+  border-color: var(--border);
+  &:hover:not(:disabled) {
+    border-color: #cbd5e1;
+  }
+}
+
+.btn--ghost {
+  color: var(--text);
+  background: transparent;
+  &:hover:not(:disabled) {
+    background: rgb(15 23 42 / 0.04);
+  }
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.icon-badge {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

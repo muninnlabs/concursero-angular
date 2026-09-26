@@ -1,0 +1,117 @@
+import { HttpErrorResponse } from '@angular/common/http';
+import { ChangeDetectionStrategy, Component, DestroyRef, computed, inject, input, signal } from '@angular/core';
+import { rxResource } from '@angular/core/rxjs-interop';
+import { RouterLink } from '@angular/router';
+import { ApiService, assetUrl } from '../../core/api.service';
+import type { GradedAnswer } from '../../core/models';
+import { Icon } from '../../shared/icon';
+
+const MODES = {
+  relampago: { title: 'Questão Relâmpago', count: 1, seconds: 30 },
+  mini: { title: 'Mini Simulado', count: 10, seconds: 12 * 60 },
+} as const;
+
+type Mode = keyof typeof MODES;
+
+/** The exam JSON keeps the PDF's line wraps; join them back into paragraphs. */
+export function dewrap(text: string | null | undefined): string {
+  return (text ?? '').replace(/([^\n])\n(?!\n)/g, '$1 ').trim();
+}
+
+@Component({
+  selector: 'app-practice-page',
+  imports: [RouterLink, Icon],
+  templateUrl: './practice.page.html',
+  styleUrl: './practice.page.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class PracticePage {
+  private readonly api = inject(ApiService);
+
+  // Query params (?modo=mini&categoria=OAB&materia=...), bound by the router.
+  readonly modo = input<string>();
+  readonly categoria = input<string>();
+  readonly materia = input<string>();
+
+  protected readonly mode = computed<Mode>(() => (this.modo() === 'relampago' ? 'relampago' : 'mini'));
+  protected readonly config = computed(() => MODES[this.mode()]);
+  protected readonly category = computed(() => this.categoria() || 'ENEM');
+
+  protected readonly questions = rxResource({
+    params: () => ({ category: this.category(), count: this.config().count, subject: this.materia() || undefined }),
+    stream: ({ params }) => this.api.practiceQuestions(params),
+  });
+
+  protected readonly index = signal(0);
+  protected readonly selected = signal<Record<string, string>>({});
+  protected readonly results = signal<GradedAnswer[] | null>(null);
+  protected readonly submitting = signal(false);
+  protected readonly error = signal<string | null>(null);
+
+  protected readonly current = computed(() => this.questions.value()?.[this.index()]);
+  protected readonly total = computed(() => this.questions.value()?.length ?? 0);
+  protected readonly answeredCount = computed(() => Object.keys(this.selected()).length);
+  protected readonly score = computed(() => this.results()?.filter((r) => r.isCorrect).length ?? 0);
+  protected readonly resultFor = computed(() => new Map(this.results()?.map((r) => [r.questionId, r])));
+
+  // Countdown: informative only for now (nothing happens at zero besides the colour).
+  private readonly startedAt = Date.now();
+  private readonly now = signal(Date.now());
+  protected readonly remaining = computed(() =>
+    Math.max(0, this.config().seconds - Math.floor((this.now() - this.startedAt) / 1000)),
+  );
+  protected readonly clock = computed(() => {
+    const s = this.remaining();
+    return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
+  });
+
+  protected readonly dewrap = dewrap;
+  protected readonly assetUrl = assetUrl;
+
+  constructor() {
+    const timer = setInterval(() => {
+      if (!this.results()) this.now.set(Date.now());
+    }, 1000);
+    inject(DestroyRef).onDestroy(() => clearInterval(timer));
+  }
+
+  protected choose(questionId: string, letter: string) {
+    if (this.results()) return;
+    this.selected.update((current) => ({ ...current, [questionId]: letter }));
+  }
+
+  protected go(delta: number) {
+    this.index.update((i) => Math.min(Math.max(i + delta, 0), this.total() - 1));
+  }
+
+  protected submit() {
+    const answers = Object.entries(this.selected()).map(([questionId, selected]) => ({ questionId, selected }));
+    if (answers.length === 0) return;
+
+    this.submitting.set(true);
+    this.error.set(null);
+    const simulado = this.mode() === 'mini' ? { title: `${this.config().title} — ${this.category()}` } : undefined;
+
+    this.api.submitAnswers(answers, simulado).subscribe({
+      next: ({ results }) => {
+        this.results.set(results);
+        this.submitting.set(false);
+        this.index.set(0);
+      },
+      error: (err: unknown) => {
+        this.submitting.set(false);
+        this.error.set((err instanceof HttpErrorResponse && err.error?.error) || 'Não foi possível enviar suas respostas.');
+      },
+    });
+  }
+
+  protected optionState(questionId: string, letter: string): 'correct' | 'wrong' | 'selected' | null {
+    const result = this.resultFor().get(questionId);
+    if (result) {
+      if (letter === result.correctAnswer) return 'correct';
+      if (letter === result.selected) return 'wrong';
+      return null;
+    }
+    return this.selected()[questionId] === letter ? 'selected' : null;
+  }
+}

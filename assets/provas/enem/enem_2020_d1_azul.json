@@ -1,0 +1,4592 @@
+{
+  "exam_metadata": {
+    "exam_id": "enem_2020_d1_azul",
+    "exam_name": "ENEM 2020 - 1º Dia (Caderno 1 - Azul)",
+    "institution": "INEP",
+    "year": 2020,
+    "day": 1,
+    "booklet_color": "Azul"
+  },
+  "questions": [
+    {
+      "id": "enem_2020_d1_azul_q1",
+      "question_number": 1,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Pablo Pueblo Regresa un hombre en silencio De su trabajo cansado Su paso no lleva prisa Su sombra nunca lo alcanza Lo espera el barrio de siempre Con el farol en la esquina Con la basura allá en frente Y el ruido de la cantina Pablo Pueblo llega hasta el zaguán oscuro Y vuelve a ver las paredes Con las viejas papeletas Que prometían futuros en lides politiqueras Y en su cara se dibuja la decepción de la espera.",
+          "source": "BLADES, R. Disponível em: http://rubenblades.com. Acesso em: 26 jun. 2012 (fragmento)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q1.png"
+      ],
+      "statement": "Rubén Blades é um compositor panamenho de canções socialmente engajadas. O título Pablo Pueblo, associado ao conteúdo da letra da canção, revela uma crítica social ao",
+      "options": [
+        {
+          "letter": "A",
+          "text": "contrapor a individualidade de um sujeito a uma estrutura social marcada pela decepção na atuação política.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "demonstrar que o problema sofrido pelo indivíduo atinge toda a comunidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "relativizar a importância que se dá ao sofrimento individual em uma estrutura social baseada na exploração.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "descrever a vida de um sujeito que nunca resolve suas inquietações e, por isso, mantém-se silencioso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "usar um apelido jocoso para designar a atuação de um indivíduo em seu próprio bairro.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q2",
+      "question_number": 2,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Los propietarios de la libertad Las palabras cumplen ciclos; las actitudes también. Sin embargo, cuando las palabras designan actitudes, los ciclos se vuelven más complejos. Cuando el hoy tan denostado Sartre puso la palabra compromiso sobre el tapete y hasta Mac Leish publicó un libro sobre la responsabilidad de los intelectuales, estas dos palabras, compromiso y responsabilidad, designaban actitudes que, sin ser gemelas, eran bastante afines. Salvo contadas excepciones, los intelectuales de entonces las hicieron suyas y, equivocados o no, dijeron sin eufemismos por qué empeño se la jugaban.\nLos intelectuales latinoamericanos también comprendieron dónde estaba esta vez el enemigo. Sólo entonces empezó la mala prensa. Los grandes pontífices de la propaganda subrayaron una y otra vez la palabra libertad y denostaron el compromiso. Libertad no era librarse de Batista o de Somoza, sino mantener la prensa libre. Libertad es la emocionada comprobación de que la gran prensa norteamericana es capaz de descubrir que Lumumba o Allende fueron liquidados por la CIA, sin poner el acento en que eso no sirve para resucitarlos. ¿Y compromiso? Es la actitud que adoptan ciertos intelectuales, cuya carga ideológica perjudica notoriamente su arte. Después de todo, ¿cómo se atreven a frecuentar las provincias del espíritu, si es público y notorio que tales ámbitos son patrimonio exclusivo de los propietarios de la libertad?",
+          "source": "BENEDETTI, M. Perplejidades de fin de siglo. Buenos Aires: Sudamericana, 1993 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q2.png"
+      ],
+      "statement": "Transformar palavras em atitudes tem sido um dos grandes dilemas dos intelectuais. Ao ponderar sobre essa temática, o autor, um dos grandes críticos e literatos latino-americanos da atualidade, leva o leitor a perceber que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o compromisso político afasta o artista da criação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "os costumes sociais governam a linguagem e as atitudes das pessoas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o compromisso ideológico de alguns intelectuais está refletido em suas obras.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "a complexidade relacionada ao conceito de liberdade impede o compromisso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "os intelectuais latino-americanos têm um posicionamento acrítico perante o poder.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q3",
+      "question_number": 3,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "La violencia como bella arte Pues bien, ‘Relatos Salvajes’, de Damián Szifrón, es sobre todo un brillante esfuerzo por poner rostro, por fotografiar, a la parte de la violencia que tanto cuesta ver en el cine. De repente, el director argentino coloca al espectador ante el espectáculo, digamos putrefacto, de una sociedad enferma de su propia indolencia, anestesiada por su ira, incapaz de entender el origen de la insatisfacción que la habita. ¿Cómo se quedan?\nSí, estamos delante de la una película vocacionalmente violenta, obligadamente salvaje, pero, y sobre todo, deslumbrante en su claridad.\nMás allá del esplendor sabio de una producción perfecta, lo que más duele, lo que más divierte, lo que más conmueve es la sensación de reconocimiento. Cada uno de los damnificados, pese a su acento marcadamente argentino, somos nosotros. O, mejor, cada insulto proferido, y no siempre entendido, es nuestro, en algún momento ha salido de nuestra boca. O saldrá.\nLa violencia no es sólo eso que tanto desagrada a los profesionales del buen gusto, a los programadores de ópera o a los filósofos de la nada; la violencia, la realmente insoportable, es también una cuestión de actitud, un simple gesto. Y esa violencia está por todas partes, está dentro. Y Szifrón acierta a retratarla tan fielmente que no queda otra cosa que romper a reír. Aunque sólo sea de simple desesperación. Brillante, magistral incluso.",
+          "source": "MARTÍNEZ, L. Disponível em: www.elmundo.es. Acesso em: 13 abr. 2015 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Nessa resenha crítica acerca do filme Relatos Salvajes, o autor evidencia o",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cômico como fuga da sociedade diante de situações violentas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "estado de apatia da sociedade perante a violência rotineira do mundo atual.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "empecilho para o espectador vivenciar a violência bruta na realidade e na ficção.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "sotaque reforçado dos personagens a fim de marcar o espaço do cinema argentino.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "autorreconhecimento diante dos diversos tipos de comportamento humano frente à violência.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q4",
+      "question_number": 4,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Oye, Pito, ésta es: la vida bruta de un boy mis tierras eran nuevo méxico, colorado, california, arizona, tejas, y muchos otros senderos, aún cuando la luz existía sonrientemente en las palabras de mis antepasados... era entonces hombre, maduro y sencillo como los cerros y los peñascos, y mi cultura era el atole, el chaquehue, y los buenos días; mi idioma cantaba versículos por los cañones de tierra roja y tierra amarilla...\nHoy sí, hoy ya no soy mejicano ni hispano ni tampoco americano, pero soy — y bien lo siento ser — una sombra del pasado y un esfuerzo hacia el futuro...",
+          "source": "SÁNCHEZ, R. Disponível em: www.materialdelectura.unam.mx. Acesso em: 4 dez. 2017."
+        }
+      ],
+      "image_url": null,
+      "statement": "Ao abordar a expropriação de territórios mexicanos pelos Estados Unidos, o eu lírico do poema revela um(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rejeição da língua utilizada por seus antepassados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "desejo de pertencimento ao espaço estadunidense.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "certeza de manutenção de suas tradições.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "reivindicação de um mundo unificado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "sentimento de conflito de identidades.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q5",
+      "question_number": 5,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Poco después apareció en casa de Elisenda Morales, arrastrando su cansancio y las contrariedades de un largo día que había dejado su ánimo en ruinas. A pesar de todo, supo resistirlo, y cuando ella le ofreció una copa de mistela, abandonó su asiento para ir hasta la tienda en busca de algo más estimulante.\nAllí, en el corredor de la casa, en taburetes separados, recibieron los primeros cálidos soplos de la noche. Con su habitual entereza, Elisenda entró a conectar la luz de la sala, sofocando parte de su reflejo, mientras comentaba que así estarían mejor. Al menos, pensó el tío Camarillo, no había sacado la lámpara como otras veces, ni le había entregado alguno de sus álbumes, y parecía en cambio decidida a mantener en ascuas al vecindario. Aquélla fue la primera vez que en mucho tiempo dejaron de lado el tema de las rentas, para entrar con pies de plomo en el espinoso terreno de las confidencias.",
+          "source": "SÁNCHEZ, H. El héroe de la família. Bogotá: Tercer Mundo, 1988."
+        }
+      ],
+      "image_url": null,
+      "statement": "No texto, no qual é narrada a visita à casa de uma personagem, a expressão “entrar con pies de plomo” é utilizada para se referir ao(à)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "determinação para conduzir discussões pessoais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "insensibilidade para lidar com temas do passado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "discrição para administrar questões financeiras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "disposição para resolver problemas familiares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "cuidado para tratar de assuntos íntimos.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q6",
+      "question_number": 6,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Vou-me embora p’ra Pasárgada foi o poema de mais longa gestação em toda a minha obra. Vi pela primeira vez esse nome Pasárgada quando tinha os meus dezesseis anos e foi num autor grego. [...] Esse nome de Pasárgada, que significa “campo dos persas” ou “tesouro dos persas”, suscitou na minha imaginação uma paisagem fabulosa, um país de delícias, como o de L’invitation au Voyage, de Baudelaire. Mais de vinte anos depois, quando eu morava só na minha casa da Rua do Curvelo, num momento de fundo desânimo, da mais aguda sensação de tudo o que eu não tinha feito em minha vida por motivo da doença, saltou-me de súbito do subconsciente este grito estapafúrdio:\n“Vou-me embora p’ra Pasárgada!” Senti na redondilha a primeira célula de um poema, e tentei realizá-lo, mas fracassei. Alguns anos depois, em idênticas circunstâncias de desalento e tédio, me ocorreu o mesmo desabafo de evasão da “vida besta”. Desta vez o poema saiu sem esforço como se já estivesse pronto dentro de mim. Gosto desse poema porque vejo nele, em escorço, toda a minha vida; [...] Não sou arquiteto, como meu pai desejava, não fiz nenhuma casa, mas reconstruí e “não de uma forma imperfeita neste mundo de aparências”, uma cidade ilustre, que hoje não é mais a Pasárgada de Ciro, e sim a “minha” Pasárgada.",
+          "source": "BANDEIRA, M. Itinerário de Pasárgada. Rio de Janeiro: Nova Fronteira; Brasília: INL, 1984."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os processos de interação comunicativa preveem a presença ativa de múltiplos elementos da comunicação, entre os quais se destacam as funções da linguagem.\nNesse fragmento, a função da linguagem predominante é a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "emotiva, porque o poeta expõe os sentimentos de angústia que o levaram à criação poética.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "referencial, porque o texto informa sobre a origem do nome empregado em um famoso poema de Bandeira.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "metalinguística, porque o poeta tece comentários sobre a gênese e o processo de escrita de um de seus poemas.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "poética, porque o texto aborda os elementos estéticos de um dos poemas mais conhecidos de Bandeira.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apelativa, porque o poeta tenta convencer os leitores sobre sua dificuldade de compor um poema.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q7",
+      "question_number": 7,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q7.png"
+      ],
+      "statement": "Disponível em: www.globofilmes.globo.com. Acesso em: 13 dez. 2017 (adaptado). A frase, título do filme, reproduz uma variedade linguística recorrente na fala de muitos brasileiros.\nEssa estrutura caracteriza-se pelo(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "uso de uma marcação temporal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "imprecisão do referente de pessoa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "organização interrogativa da frase.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "utilização de um verbo de ação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apagamento de uma preposição.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q8",
+      "question_number": 8,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Slam do Corpo é um encontro pensado para surdos e ouvintes, existente desde 2014, em São Paulo. Uma iniciativa pioneira do grupo Corposinalizante, criado em 2008. (Antes de seguirmos, vale a explicação: o termo slam vem do inglês e significa — numa nova acepção para o verbo geralmente utilizado para dizer “bater com força” — a “poesia falada nos ritmos das palavras e da cidade”). Nos saraus, o primeiro objetivo foi o de botar os poemas em Libras na roda, colocar os surdos para circular e entender esse encontro entre a poesia e a língua de sinais, compreender o encontro dessas duas línguas.\nPoemas de autoria própria, três minutos, um microfone.\nSem figurino, nem adereços, nem acompanhamento musical. O que vale é modular a voz e o corpo, um trabalho artesanal de tornar a palavra “visível”, numa arena cujo objetivo maior é o de emocionar a plateia, tirar o público da passividade, seja pelo humor, horror, caos, doçura e outras tantas sensações.",
+          "source": "NOVELLI, G. Poesia incorporada. Revista Continente, n. 189, set. 2016 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Na prática artística mencionada no texto, o corpo assume papel de destaque ao articular diferentes linguagens com o intuito de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "imprimir ritmo e visibilidade à expressão poética.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "redefinir o espaço de circulação da poesia urbana.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "estimular produções autorais de usuários de Libras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "traduzir expressões verbais para a língua de sinais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "proporcionar performances estéticas de pessoas surdas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q9",
+      "question_number": 9,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "É possível afirmar que muitas expressões idiomáticas transmitidas pela cultura regional possuem autores anônimos, no entanto, algumas delas surgiram em consequência de contextos históricos bem curiosos.\n“Aquele é um cabra da peste” é um bom exemplo dessas construções.\nPara compreender essa expressão tão repetida no Nordeste brasileiro, faz-se necessário voltar o olhar para o século 16. “Cabra” remete à forma com que os navegadores portugueses chamavam os índios. Já “peste” estaria ligada à questão da superação e resistência, ou mesmo uma associação com o diabo. Assim, com o passar dos anos, passou-se a utilizar tal expressão para denominar qualquer indivíduo que se mostre corajoso, ou mesmo insolente, já que a expressão pode ter caráter positivo ou negativo. Aliás, quem já não ficou de “nhe-nhe-nhém” por aí? O termo, que normalmente tem significado de conversa interminável, monótona ou resmungo, tem origem no tupi-guarani e “nhém” significa “falar”.",
+          "source": "Disponível em: http://leiturasdahistoria.uol.com.br. Acesso em: 13 dez. 2017."
+        }
+      ],
+      "image_url": null,
+      "statement": "A leitura do texto permite ao leitor entrar em contato com",
+      "options": [
+        {
+          "letter": "A",
+          "text": "registros do inventário do português brasileiro.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "justificativas da variedade linguística do país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "influências da fala do nordestino no uso da língua.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "explorações do falar de um grupo social específico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "representações da mudança linguística do português.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q10",
+      "question_number": 10,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O ouro do século 21 Cério, gadolínio, lutécio, promécio e érbio; sumário, térbio e disprósio; hólmio, túlio e itérbio. Essa lista de nomes esquisitos e pouco conhecidos pode parecer a escalação de um time de futebol, que ainda teria no banco de reservas lantânio, neodímio, praseodímio, európio, escândio e ítrio.\nMas esses 17 metais, chamados de terras-raras, fazem parte da vida de quase todos os humanos do planeta.\nChamados por muitos de “ouro do século 21”, “elementos do futuro” ou “vitaminas da indústria”, eles estão nos materiais usados na fabricação de lâmpadas, telas de computadores, tablets e celulares, motores de carros elétricos, baterias e até turbinas eólicas. Apesar de tantas aplicações, o Brasil, dono da segunda maior reserva do mundo desses metais, parou de extraí-los e usá-los em 2002. Agora, volta a pensar em retomar sua exploração.",
+          "source": "SILVEIRA, E. Disponível em: www.revistaplaneta.com.br. Acesso em: 6 dez. 2017 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "As aspas sinalizam expressões metafóricas empregadas intencionalmente pelo autor do texto para",
+      "options": [
+        {
+          "letter": "A",
+          "text": "imprimir um tom irônico à reportagem.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "incorporar citações de especialistas à reportagem.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "atribuir maior valor aos metais, objeto da reportagem.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "esclarecer termos científicos empregados na reportagem.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "marcar a apropriação de termos de outra ciência pela reportagem.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q11",
+      "question_number": 11,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Na sua imaginação perturbada sentia a natureza toda agitando-se para sufocá-la. Aumentavam as sombras. No céu, nuvens colossais e túmidas rolavam para o abismo do horizonte... Na várzea, ao clarão indeciso do crepúsculo, os seres tomavam ares de monstros... As montanhas, subindo ameaçadoras da terra, perfilavam-se tenebrosas...\nOs caminhos, espreguiçando-se sobre os campos, animavam-se quais serpentes infinitas... As árvores soltas choravam ao vento, como carpideiras fantásticas da natureza morta... Os aflitivos pássaros noturnos gemiam agouros com pios fúnebres. Maria quis fugir, mas os membros cansados não acudiam aos ímpetos do medo e deixavam-na prostrada em uma angústia desesperada.",
+          "source": "ARANHA, J. P. G. Canaã. São Paulo: Ática, 1997."
+        }
+      ],
+      "image_url": null,
+      "statement": "No trecho, o narrador mobiliza recursos de linguagem que geram uma expressividade centrada na percepção da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "relação entre a natureza opressiva e o desejo de libertação da personagem.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "confluência entre o estado emocional da personagem e a configuração da paisagem.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "prevalência do mundo natural em relação à fragilidade humana.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "depreciação do sentido da vida diante da consciência da morte iminente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "instabilidade psicológica da personagem face à realidade hostil.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q12",
+      "question_number": 12,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "É pau, é pedra, é o fim do caminho É um resto de toco, é um pouco sozinho É um caco de vidro, é a vida, é o sol É a noite, é a morte, é o laço, é o anzol É peroba-do-campo, é o nó da madeira Caingá, candeia, é o matita-pereira TOM JOBIM. Águas de março. O Tom de Jobim e o tal de João Bosco (disco de bolso).",
+          "source": "Salvador: Zen Produtora, 1972 (fragmento)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "A inspiração súbita e certeira do compositor serve ainda de exemplo do lema antigo: nada vem do nada.\nPara ninguém, nem mesmo para Tom Jobim. Duas fontes são razoavelmente conhecidas. A primeira é o poema O caçador de esmeraldas, do mestre parnasiano Olavo Bilac: “Foi em março, ao findar da chuva, quase à entrada/ do outono, quando a terra em sede requeimada/ bebera longamente as águas da estação [...]”. E a outra é um ponto de macumba, gravado com sucesso por J. B. Carvalho, do Conjunto Tupi: “É pau, é pedra, é seixo miúdo, roda a baiana por cima de tudo”.\nCombinar Olavo Bilac e macumba já seria bom; mas o que se vê em Águas de março vai muito além: tudo se transforma numa outra coisa e numa outra música, que recompõem o mundo para nós.",
+          "source": "NESTROVSKI, A. O samba mais bonito do mundo. In: Três canções de Tom Jobim. São Paulo: Cosac Naify, 2004."
+        }
+      ],
+      "image_url": null,
+      "statement": "Ao situar a composição no panorama cultural brasileiro, o Texto II destaca o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "diálogo que a letra da canção estabelece com diferentes tradições da cultura nacional.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "singularidade com que o compositor converte referências eruditas em populares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "caráter inovador com que o compositor concebe o processo de criação artística.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "relativização que a letra da canção promove na concepção tradicional de originalidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "resgate que a letra da canção promove de obras pouco conhecidas pelo público no país.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q13",
+      "question_number": 13,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Deu vontade de jogar, mas não sabe como reunir os amigos...\nMuitas vezes é difícil encontrar grupos para bater uma bola. Em função disso, estão sendo disponibilizados aplicativos que reúnem times e reservam espaços para os adeptos da paixão nacional. Num exemplo dessas iniciativas, é possível organizar uma partida de futebol, se inscrever para participar de um jogo, alugar campos e quadras, convidar jogadores. O aplicativo tem dois tipos de usuários: um que o usa como ferramenta de gestão do grupo, convidando amigos para jogar, vendo quem confirmou e avaliando os jogos. Outro usuário é o que busca partidas perto de onde ele está, caso de pessoas que estão de passagem numa cidade.",
+          "source": "BENEDICTO, M.; MARLI, M. Bola na rede. Retratos: a revista do IBGE, n. 2, 2017 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A inter-relação entre tecnologia e sociedade tem estimulado a criação de aplicativos. Nesse texto, isso é percebido pelo desenvolvimento de aplicativos para",
+      "options": [
+        {
+          "letter": "A",
+          "text": "organização de eventos de competições esportivas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "agendamento de viagens para eventos de esporte amador.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "mapeamento dos interesses dos praticantes acerca dos esportes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "identificação da escassez de espaços para a vivência dos esportes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "formação de grupos em comunidades virtuais para a prática esportiva.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q14",
+      "question_number": 14,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "HIRST, D. Mother and Child. Bezerro dividido em duas partes: 1029 x 1689 x 625mm, 1993 (detalhe). Vidro, aço pintado, silicone, acrílico, monofilamento, aço inoxidável, bezerro e solução de formaldeído.",
+          "source": null
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "O grupo Jovens Artistas Britânicos (YABs), que surgiu no final da década de 1980, possui obras diversificadas que incluem fotografias, instalações, pinturas e carcaças desmembradas. O trabalho desses artistas chamou a atenção no final do período da recessão, por utilizar materiais incomuns, como esterco de elefantes, sangue e legumes, o que expressava os detritos da vida e uma atmosfera de niilismo, temperada por um humor mordaz.",
+          "source": "Disponível em: http://damienhirst.com. Acesso em: 15 jul. 2015. FARTHING, S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q14.png"
+      ],
+      "statement": "A provocação desse grupo gera um debate em torno da obra de arte pelo(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "frutífero arsenal de materiais e formas que se relacionam com os objetos construídos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "economia e problemas financeiros gerados pela recessão que tiveram grande impacto no mercado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "influência desse grupo junto aos estilos pós-modernos que surgiram nos anos 1990.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "interesse em produtos indesejáveis que revela uma consciência sustentável no mercado.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q15",
+      "question_number": 15,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O suor para estar em competições nacionais e internacionais de alto nível é o mesmo para homens e mulheres, mas não raramente as remunerações são menores para elas. Se no tênis, um dos esportes mais equânimes em termos de gênero, todos os principais torneios oferecem prêmios idênticos nas disputas femininas e masculinas, no futebol a desigualdade atinge seu ápice. Neymar e Marta são dois expoentes dessa paixão nacional. Ela já foi eleita cinco vezes a melhor jogadora do mundo pela Fifa. Ele conquistou o terceiro lugar na última votação para melhor do mundo. Mas é na conta bancária que a diferença entre os dois se sobressai.",
+          "source": "Disponível em: http://apublica.org. Acesso em: 9 ago. 2017 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q15.png"
+      ],
+      "statement": "O esporte é uma manifestação cultural na qual se estabelecem relações sociais. Considerando o texto, o futebol é uma modalidade que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "apresenta proximidades com o tênis, no que tange às relações de gênero entre homens e mulheres.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "se caracteriza por uma identidade masculina no Brasil, conferindo maior remuneração aos jogadores.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "traz remunerações, aos jogadores e jogadoras, proporcionais aos seus esforços no treinamento esportivo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "resulta em melhor eficiência para as mulheres e, consequentemente, em remuneração mais alta às jogadoras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "possui jogadores e jogadoras com a mesma visibilidade, apesar de haver expoentes femininas de destaque, como Marta.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q16",
+      "question_number": 16,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Fomos falar com o tal encarregado, depois com um engenheiro, depois com um supervisor que mandou chamar um engenheiro da nossa companhia. Esses homens são da sua companhia, engenheiro, ele falou, estão pedindo a conta. A companhia está empenhada nessa ponte, gente, falou o engenheiro, vocês não podem sair assim sem mais nem menos. Tinha uma serra circular cortando uns caibros ali perto, então só dava pra falar quando a serra parava, e aquilo foi dando nos nervos.\nFalei que a gente tinha o direito de sair quando a gente quisesse, e pronto. Nisso encostou um sujeito de paletó mas sem gravata, o engenheiro continuou falando e a serra cortando. Quando ele parou de falar, 50 Volts aproveitou uma parada da serra e falou que a gente não era bicho pra trabalhar daquele jeito; daí o supervisor falou que, se era falta de mulher, eles davam um jeito. O engenheiro falou que tinha mais de vinte companhias trabalhando na ponte, a maioria com prejuízo, porque era mais uma questão de honra, a gente tinha de acabar a ponte, a nossa companhia nunca ia esquecer nosso trabalho ali naquela ponte, um orgulho nacional.",
+          "source": "PELLEGRINI, D. A maior ponte do mundo. In: Melhores contos. São Paulo: Global, 2005."
+        }
+      ],
+      "image_url": null,
+      "statement": "As reivindicações dos operários, quanto às condições aviltantes de trabalho a que são submetidos, recebem algumas tentativas de neutralização dos representantes do empregador, das quais a mais forte é o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sequência de atribuição de responsabilidades e de poder decisório a terceiros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "solicitação em nome dos prejuízos e compromissos para entrega da obra.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "intimidação pela discreta presença de um agente de segurança na cena.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "promessa de imediato atendimento da carência sexual dos operários.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apelo pela identificação com a empresa extensiva ao amor patriótico.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q17",
+      "question_number": 17,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Uma das mais contundentes críticas ao discurso da aptidão física relacionada à saúde está no caráter eminentemente individual de suas propostas, o que serve para obscurecer outros determinantes da saúde.\nOu seja, costuma-se apresentar o indivíduo como o problema e a mudança do estilo de vida como a solução.\nArgumenta-se ainda que o movimento da aptidão física relacionada à saúde considera a existência de uma cultura homogênea na qual todos seriam livres para escolher seus estilos de vida, o que não condiz com a realidade. O fato é que vivemos numa sociedade dividida em classes sociais, na qual nem todas as pessoas têm condições econômicas para adotar um estilo de vida ativo e saudável. Há desigualdades estruturais com raízes políticas, econômicas e sociais que dificultam a adoção desses estilos de vida.",
+          "source": "FERREIRA, M. S. Aptidão física e saúde na educação física escolar: ampliando o enfoque. RBCE, n. 2, jan. 2001 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Com base no texto, a relação entre saúde e estilos de vida",
+      "options": [
+        {
+          "letter": "A",
+          "text": "constrói a ideia de que a mudança individual de hábitos promove a saúde.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "considera a homogeneidade da escolha de hábitos saudáveis pelos indivíduos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "reforça a necessidade de solucionar os problemas de saúde da sociedade com a prática de exercícios.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "problematiza a organização social e seu impacto na mudança de hábitos dos indivíduos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "reproduz a noção de que a melhoria da aptidão física pela prática de exercícios promove a saúde.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q18",
+      "question_number": 18,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Retrato de homem A paisagem estrita ao apuro do muro feito vértebra a vértebra e escuro.\nA geração dos pelos sobre a casca e os rostos em seus diques de sombra repostos.\nOs poços com seu lodo de ira e de tensão: entre cimento e fronte — um vão.\nAs setas se atiram às margens de ninguém, ilesas a si mesmas retêm.\nCompassos de evasão entre falange e rua sondando a solitude nua.\nE na armadura de coisa salobra, um só segredo: a polpa toda é fruição de medo.",
+          "source": "ARAÚJO, L. C. Cantochão. Belo Horizonte: Imprensa Publicações — Governo do Estado de Minas Gerais, 1967."
+        }
+      ],
+      "image_url": null,
+      "statement": "No poema, a descrição lírica do objeto representado é orientada por um olhar que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "desvela sentimentos de vazio e angústia sob a aparente austeridade.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "expressa desilusão ante a possibilidade de superação do sofrimento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "contrapõe a fragilidade emocional ao uso desmedido da força física.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "associa a incomunicabilidade emocional às determinações culturais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "privilegia imagens relacionadas à exposição do dinamismo urbano.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q19",
+      "question_number": 19,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Senhor Juiz O instrumento do “crime” que se arrola Nesse processo de contravenção Não é faca, revólver ou pistola, Simplesmente, doutor, é um violão.\nSerá crime, afinal, será pecado, Será delito de tão vis horrores, Perambular na rua um desgraçado Derramando nas praças suas dores?\nMande, pois, libertá-lo da agonia (a consciência assim nos insinua)\nNão sufoque o cantar que vem da rua, Que vem da noite para saudar o dia.\nÉ o apelo que aqui lhe dirigimos, Na certeza do seu acolhimento Juntada desta aos autos nós pedimos E pedimos, enfim, deferimento.",
+          "source": "Disponível em: www.migalhas.com.br. Acesso em: 23 set. 2020 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Essa petição de habeas corpus, ao transgredir o rigor da linguagem jurídica,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "permite que a narrativa seja objetiva e repleta de sentidos denotativos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "mostra que o cordel explora termos próprios da esfera do direito.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "demonstra que o jogo de linguagem proposto atenua a gravidade do delito.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "exemplifica como o texto em forma de cordel compromete a solicitação pretendida.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "esclarece que os termos “crime” e “processo de contravenção” são sinônimos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q20",
+      "question_number": 20,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Por que a indústria do empreendedorismo de palco irá destruir você Se, antigamente, os livros, enormes e com suas setecentas páginas, cuspiam fórmulas, equações e cálculos que te ensinavam a lidar com o fluxo de caixa da sua empresa, hoje eles dizem: “Você irá chegar lá!\nAcredite, você irá vencer!”.\nMindset, empoderamento, millennials, networking, coworking, deal, business, deadline, salesman com perfil hunter… tudo isso faz parte do seu vocabulário.\nO pacote de livros é sempre idêntico e as experiências são passadas da mesma forma: você está a um único centímetro da vitória. Não pare!",
+          "source": "Se desistir agora, será para sempre. Tome, leia a estratégia do oceano azul. Faça mais uma mentoria, participe de mais uma sessão de coaching. O problema é que o seu mindset não está ajustado. Você precisa ser mais proativo. Vamos fazer mais um powermind ? Eu consigo um precinho bacana para você… CARVALHO, Í. C. Disponível em: https://medium.com. Acesso em: 17 ago. 2017 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "De acordo com o texto, é possível identificar o “empreendedor de palco” por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "livros por ele indicados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "suas habilidades em língua inglesa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "experiências por ele compartilhadas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "padrões de linguagem por ele utilizados.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "preços acessíveis de seus treinamentos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q21",
+      "question_number": 21,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Sou o coração do folclore nordestino Eu sou Mateus e Bastião do Boi-bumbá Sou o boneco de Mestre Vitalino Dançando uma ciranda em Itamaracá Eu sou um verso de Carlos Pena Filho Num frevo de Capiba Ao som da Orquestra Armorial Sou Capibaribe Num livro de João Cabral Sou mamulengo de São Bento do Una Vindo no baque solto de maracatu Eu sou um auto de Ariano Suassuna No meio da Feira de Caruaru Sou Frei Caneca do Pastoril do Faceta Levando a flor da lira Pra Nova Jerusalém Sou Luiz Gonzaga E sou do mangue também Eu sou mameluco, sou de Casa Forte Sou de Pernambuco, sou o Leão do Norte LENINE; PINHEIRO, P.C. Leão do Norte. In: LENINE; SUZANO, M. Olho de peixe.",
+          "source": "São Paulo: Velas, 1993 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O fragmento faz parte da canção brasileira contemporânea e celebra a cultura popular nordestina. Nele, o artista exalta as diferentes manifestações culturais pela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "valorização do teatro, música, artesanato, literatura, dança, personagens históricos e artistas populares, compondo um tecido diversificado e enriquecedor da cultura popular como patrimônio regional e nacional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "identificação dos lugares pernambucanos, manifestações culturais, como o bumba meu boi, as cirandas, os bonecos mamulengos e heróis locais, fazendo com que essa canção se apresente como uma referência à cultura popular nordestina.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "exaltação das raízes populares, como a poesia, a literatura de cordel e o frevo, misturadas ao erudito, como a Orquestra Armorial, compondo um rico tecido cultural, que transforma o popular em erudito.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "caracterização das festas populares como identidade cultural localizada e como representantes de uma cultura que reflete valores históricos e sociais próprios da população local.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apresentação do Pastoril do Faceta, do maracatu, do bumba meu boi e dos autos como representação da musicalidade e do teatro popular religioso, bastante comum ao folclore brasileiro.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q22",
+      "question_number": 22,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q22.png"
+      ],
+      "statement": "Disponível em: www.facebook.com/ministeriodoesporte. Acesso em: 7 dez. 2017. Esse anúncio publicitário propõe soluções para um problema social recorrente, ao",
+      "options": [
+        {
+          "letter": "A",
+          "text": "promover ações de conscientização para reduzir a violência de gênero em eventos esportivos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "estimular o compartilhamento de políticas públicas sobre a igualdade de gênero no esporte.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "divulgar para a população as novas regras complementares para as torcidas de futebol.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "informar ao público masculino as consequências de condutas ofensivas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "regulamentar normas de boa convivência nos estádios.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q23",
+      "question_number": 23,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Eu tenho empresas e sou digno do visto para ir a Nova York. O dinheiro que chove em Nova York é para pessoas com poder de compra. Pessoas que tenham um visto do consulado americano. O dinheiro que chove em Nova York também é para os nova-iorquinos. São milhares de dólares. [...] Estou indo para Nova York, onde está chovendo dinheiro. Sou um grande administrador.\nSim, está chovendo dinheiro em Nova York. Deu no rádio.\nVejo que há pedestres invadindo a via onde trafega o meu carro vermelho, importado da Alemanha. Vejo que há carros nacionais trafegando pela via onde trafega o meu carro vermelho, importado da Alemanha. Ao chegar em Nova York, tomarei providências.",
+          "source": "SANT’ANNA, A. O importado vermelho de Noé. In: MORICONI, I. (Org.). Os cem melhores contos. Rio de Janeiro: Objetiva, 2001."
+        }
+      ],
+      "image_url": null,
+      "statement": "As repetições e as frases curtas constituem procedimentos linguísticos importantes para a compreensão da temática do texto, pois",
+      "options": [
+        {
+          "letter": "A",
+          "text": "expressam a futilidade do discurso de poder e de distinção do narrador.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "disfarçam a falta de densidade das angústias existenciais narradas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ironizam a valorização da cultura norte-americana pelos brasileiros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "explicitam a ganância financeira do capitalismo contemporâneo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "criticam os estereótipos sociais das visões de mundo elitistas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q24",
+      "question_number": 24,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "DECRETO N. 28 314, DE 28 DE SETEMBRO DE 2007 Demite o Gerúndio do Distrito Federal e dá outras providências.\nO GOVERNADOR DO DISTRITO FEDERAL, no uso das atribuições que lhe confere o artigo 100, incisos VII e XXVI, da Lei Orgânica do Distrito Federal, DECRETA:\nArt. 1° Fica demitido o Gerúndio de todos os órgãos do Governo do Distrito Federal.\nArt. 2° Fica proibido, a partir desta data, o uso do gerúndio para desculpa de INEFICIÊNCIA.\nArt. 3° Este Decreto entra em vigor na data de sua publicação.\nArt. 4º Revogam-se as disposições em contrário.",
+          "source": "Brasília, 28 de setembro de 2007. 119º da República e 48º de Brasília Disponível em: www.dodf.gov.br. Acesso em: 11 dez. 2017."
+        }
+      ],
+      "image_url": null,
+      "statement": "Esse decreto pauta-se na ideia de que o uso do gerúndio, como “desculpa de ineficiência”, indica",
+      "options": [
+        {
+          "letter": "A",
+          "text": "conclusão de uma ação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "realização de um evento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "repetição de uma prática.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "continuidade de um processo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "transferência de responsabilidade.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q25",
+      "question_number": 25,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "KOSUTH, J. One and Three Chairs. Museu Reina Sofia, Espanha, 1965.",
+          "source": "Disponível em: www.museoreinasofia.es. Acesso em: 4 jun. 2018 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q25.png"
+      ],
+      "statement": "A obra de Joseph Kosuth data de 1965 e se constitui por uma fotografia de cadeira, uma cadeira exposta e um quadro com o verbete “Cadeira”. Trata-se de um exemplo de arte conceitual que revela o paradoxo entre verdade e imitação, já que a arte",
+      "options": [
+        {
+          "letter": "A",
+          "text": "não é a realidade, mas uma representação dela.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "fundamenta-se na repetição, construindo variações.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "não se define, pois depende da interpretação do fruidor.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "resiste ao tempo, beneficiada por múltiplas formas de registro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "redesenha a verdade, aproximando-se das definições lexicais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q26",
+      "question_number": 26,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q26.png"
+      ],
+      "statement": "Disponível em: www.iotforall.com. Acesso em: 22 jun. 2018. A realidade virtual é uma tecnologia de informação que, conforme sugere a imagem, tem como uma de suas principais funções",
+      "options": [
+        {
+          "letter": "A",
+          "text": "promover a manipulação eficiente de conhecimentos e informações de difícil compreensão no mundo físico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "conduzir escolhas profissionais da área de ciência da computação, oferecendo um leque de opções de atuação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "transferir conhecimento da inteligência artificial para as áreas tradicionais, como as das ciências exatas e naturais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "levar o ser humano a experimentar mentalmente outras realidades, para as quais é transportado sem sair de seu próprio lugar.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "delimitar tecnologias exclusivas de jogos virtuais, a fim de oferecer maior emoção ao jogador por meio de outras realidades.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q27",
+      "question_number": 27,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Caminhando contra o vento, Sem lenço e sem documento No sol de quase dezembro Eu vou O sol se reparte em crimes Espaçonaves, guerrilhas Em cardinales bonitas Eu vou Em caras de presidentes Em grandes beijos de amor Em dentes, pernas, bandeiras Bombas e Brigitte Bardot O sol nas bancas de revista Me enche de alegria e preguiça Quem lê tanta notícia Eu vou VELOSO, C. Alegria, alegria. In: Caetano Veloso.",
+          "source": "São Paulo: Phillips, 1967 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "É comum coexistirem sequências tipológicas em um mesmo gênero textual. Nesse fragmento, os tipos textuais que se destacam na organização temática são",
+      "options": [
+        {
+          "letter": "A",
+          "text": "descritivo e argumentativo, pois o enunciador detalha cada lugar por onde passa, argumentando contra a violência urbana.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "dissertativo e argumentativo, pois o enunciador apresenta seu ponto de vista sobre as notícias relativas à cidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "expositivo e injuntivo, pois o enunciador fala de seus estados físicos e psicológicos e interage com a mulher amada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "narrativo e descritivo, pois o enunciador conta sobre suas andanças pelas ruas da cidade ao mesmo tempo que a descreve.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "narrativo e injuntivo, pois o enunciador ensina o interlocutor como andar pelas ruas da cidade contando sobre sua própria experiência.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q28",
+      "question_number": 28,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Leandro Aparecido Ferreira, o MC Fioti, compôs em 2017 a música Bum bum tam tam, que gerou, em nove meses, 480 milhões de visualizações no YouTube. É o funk brasileiro mais ouvido na história do site.\nA partir de uma gravação da flauta que achou na internet, MC Fioti fez tudo sozinho: compôs, cantou e produziu em uma noite só. “Comecei a pesquisar alguns tipos de flauta, coisas antigas. E nisso eu achei a ‘flautinha do Sebastian Bach’”, conta. A descoberta foi por acaso:\nFioti não sabia quem era o músico alemão e não sabe tocar o instrumento.\nA “flauta envolvente” da música é um trecho da Partita em Lá menor, escrita pelo alemão Johann Sebastian Bach por volta de 1723.",
+          "source": "Disponível em: https://g1.globo.com. Acesso em: 6 jun. 2018 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A incorporação de um trecho da obra para flauta solo de Johann Sebastian Bach na música de MC Fioti demonstra a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "influência permanente da cultura eurocêntrica nas produções musicais brasileiras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "homenagem aos referenciais estéticos que deram origem às produções da música popular.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "necessidade de divulgar a música de concerto nos meios populares nas periferias das grandes cidades.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "utilização desintencional de uma música excessivamente distante da realidade cultural dos jovens brasileiros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "inter-relação de elementos culturais vindos de realidades distintas na construção de uma nova proposta musical.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q29",
+      "question_number": 29,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Seu delegado Eu sou viúvo e tenho um filho homem Arrumei uma viúva e fui me casar A minha sogra era muito teimosa Com o meu filho foi se matrimoniar Desse matrimônio nasceu um garoto Desde esse dia que eu ando é louco Esse garoto é filho do meu filho E o filho da minha sogra é irmão da minha mulher Ele é meu neto e eu sou cunhado dele A minha nora é minha sogra Meu filho meu sogro é Nessa confusão já nem sei quem sou Acaba esse garoto sendo meu avô.\nTRIO FORROZÃO. Agitando a rapaziada.",
+          "source": "Rio de Janeiro: Natasha Records, 2009."
+        }
+      ],
+      "image_url": null,
+      "statement": "Nessa letra da canção, a suposição do último verso sinaliza a intenção do autor de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ironizar as relações familiares modernas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "reforçar o humor da situação representada.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "expressar perplexidade em relação ao parente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "atribuir à criança a causa da dúvida existencial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "questionar os lugares predeterminados da família.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q30",
+      "question_number": 30,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q30.png"
+      ],
+      "statement": "Disponível em: www.bhaz.com.br. Acesso em: 14 jun. 2018. Essa campanha de conscientização sobre o assédio sofrido pelas mulheres nas ruas constrói-se pela combinação da linguagem verbal e não verbal. A imagem da mulher com o nariz e a boca cobertos por um lenço é a representação não verbal do(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "silêncio imposto às mulheres, que não podem denunciar o assédio sofrido.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "metáfora de que as mulheres precisam defender-se do assédio masculino.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "constrangimento pelo qual passam as mulheres e sua tentativa de esconderem-se.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "necessidade que as mulheres têm de passarem despercebidas para evitar o assédio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "incapacidade de as mulheres protegerem-se da agressão verbal dos assediadores.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q31",
+      "question_number": 31,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Mulher tem coração clinicamente partido após morte de cachorro Como explica o The New England Journal of Medicine, a paciente, chamada Joanie Simpson, tinha sinais de infarto, como dores no peito e pressão alta, e apresentava problemas nas artérias coronárias. Ao fazerem um ecocardiograma, os médicos encontraram o problema: cardiomiopatia de Takotsubo, conhecida como síndrome do coração partido.\nEssa condição médica tipicamente acontece com mulheres em fase pós-menstrual e pode ser precedida por um evento muito estressante ou emotivo. Nesses casos, o coração apresenta um movimento discinético transitório da parede anterior do ventrículo esquerdo, com acentuação da cinética da base ventricular, de acordo com um artigo médico brasileiro que relata um caso semelhante. Simpson foi encaminhada para casa após dois dias e passou a tomar medicamentos regulares.\nAo Washington Post, ela contou que estava quase inconsolável após a perda do seu animal de estimação, um cão da raça yorkshire terrier. Recuperada após cerca de um ano, ela diz que não abrirá mão de ter um animal de estimação porque aprecia a companhia e o amor que os cachorros dão aos humanos. O caso aconteceu em Houston, nos Estados Unidos.",
+          "source": "Disponível em: https://exame.abril.com.br. Acesso em: 1 dez. 2017."
+        }
+      ],
+      "image_url": null,
+      "statement": "Pelas características do texto lido, que trata das consequências da perda de um animal de estimação, considera-se que ele se enquadra no gênero",
+      "options": [
+        {
+          "letter": "A",
+          "text": "conto, pois exibe a história de vida de Joanie Simpson.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "depoimento, pois expõe o sofrimento da dona do animal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "reportagem, pois discute cientificamente a cardiomiopatia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "relato, pois narra um fato estressante vivido pela paciente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "notícia, pois divulga fatos sobre a síndrome do coração partido.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q32",
+      "question_number": 32,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Chiquito tinha quase trinta quando conheceu Mariana num baile de casamento na Forquilha, onde moravam uns parentes dele. Por lá foi ficando, remanchando. Fez mal à moça, como costumavam dizer, tiveram de casar às pressas. Morou uns tempos com o sogro, descombinaram.\nFoi só conta de colher o milho e vender. Mudou pra casa do velho Chico Lourenço [seu pai]. Fumaça própria só viu subir um par de anos depois, quando o pai repartiu as terras. De tão parecidos, pai e filho nunca combinaram direito. Cada qual mais topetudo, muitas vezes dona Aparecida ouvia o marido reclamar da natureza forte do filho. Ela escutava com paciência e respondia dum jeito sempre igual:\n— “Quem herda, não rouba”.\nVinha um brilho nos olhos, o velho se acalmava.",
+          "source": "ROMANO, O. Casos de Minas. Rio de Janeiro: Paz e Terra, 1982."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os ditados populares são frases de sabedoria criadas pelo povo, utilizadas em várias situações da vida. Nesse texto, a personagem emprega um ditado popular com a intenção de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "criticar a natureza forte do filho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "justificar o gênio difícil de Chiquito.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "legitimar o direito do filho à herança.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "conter o ânimo violento de Chico Lourenço.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "condenar a agressividade do marido contra o filho.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q33",
+      "question_number": 33,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "Poesia em cartaz O caminho habitual para o trabalho, aquele em que a gente já nem repara direito, pode ficar mais belo com um poema. O projeto #UmLambePorDia nasceu desta intenção: trazer mais cor e alegria para a cidade por meio de cartazes coloridos ao estilo lambe-lambe. Quem teve a ideia foi o escritor Leonardo Beltrão, em Belo Horizonte.\n“Em meio a olhares cada vez mais viciados, acabamos nos esquecendo da beleza envolvida em cada esquina e no próprio poder transformador da palavra”. Assim, a cada dia um cartaz é colocado por aí, para nos lembrar de reparar na cidade, na vida que corre ao redor e também em nós mesmos.",
+          "source": null
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "",
+          "source": "Disponível em: www.vidasimples.uol.com.br. Acesso em: 6 dez. 2017 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q33.png"
+      ],
+      "statement": "Considerando-se a função que os cartazes colados em postes normalmente exercem nas ruas das cidades grandes, esse texto evidencia a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "disseminação da arte poética em um veículo não convencional.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "manutenção da expectativa das pessoas ao andarem pelas ruas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "necessidade de exposição de poemas pequenos em diferentes suportes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "característica corriqueira do suporte lambe-lambe, muito comum nas ruas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "exposição da beleza escondida das esquinas da cidade de Belo Horizonte.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q34",
+      "question_number": 34,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A vida às vezes é como um jogo brincado na rua: estamos no último minuto de uma brincadeira bem quente e não sabemos que a qualquer momento pode chegar um mais velho a avisar que a brincadeira já acabou e está na hora de jantar. A vida afinal acontece muito de repente — nunca ninguém nos avisou que aquele era mesmo o último Carnaval da Vitória. O Carnaval também chegava sempre de repente. Nós, as crianças, vivíamos num tempo fora do tempo, sem nunca sabermos dos calendários de verdade. [...] O “dia da véspera do Carnaval”, como dizia a avó Nhé, era dia de confusão com roupas e pinturas a serem preparadas, sonhadas e inventadas. Mas quando acontecia era um dia rápido, porque os dias mágicos passam depressa deixando marcas fundas na nossa memória, que alguns chamam também de coração.",
+          "source": "ONDJAKI. Os da minha rua. Rio de Janeiro: Língua Geral, 2007."
+        }
+      ],
+      "image_url": null,
+      "statement": "As significações afetivas engendradas no fragmento pressupõem o reconhecimento da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "perspectiva infantil assumida pela voz narrativa.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "suspensão da linearidade temporal da narração.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "tentativa de materializar lembranças da infância.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "incidência da memória sobre as imagens narradas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "alternância entre impressões subjetivas e relatos factuais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q35",
+      "question_number": 35,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Em 2000 tivemos a primeira experiência do futebol feminino em um jogo de videogame, o Mia Hamm Soccer. Doze anos depois, uma petição on-line pedia que a EA Sports incluísse o futebol feminino no Fifa 13.\nContudo, só em 2015, com uma nova petição on-line, que arrecadou milhares de assinaturas, tivemos o futebol feminino incluído no Fifa 16. Vendo um nicho de mercado inexplorado, a EA Sports produziu o jogo com 12 seleções femininas e o apresentou como inovação. A empresa sabe que mais de 40% dos praticantes de futebol nos EUA são meninas. Para elas, ver o futebol feminino representado em um jogo de videogame é extremamente importante.\nTer o futebol feminino no Fifa 16 é um grande passo para a sua popularização na luta pela igualdade de gênero, num contexto machista, sexista, misógino e homofóbico.",
+          "source": "Disponível em: www.ludopedio.com.br. Acesso em: 5 jun. 2018 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os jogos eletrônicos presentes na cultura juvenil podem desempenhar uma relevante função na abordagem do futebol ao",
+      "options": [
+        {
+          "letter": "A",
+          "text": "disseminarem uma modalidade, promovendo a igualdade de gênero.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "superarem jogos malsucedidos no mercado, lançados anteriormente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "inovarem a modalidade com novas ofertas de jogos ao mercado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "explorarem nichos de mercado antes ignorados, produzindo mais lucro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "reforçarem estereótipos de gênero masculino ou feminino nos esportes.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q36",
+      "question_number": 36,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "LUTA: prática corporal imprevisível, caracterizada por determinado estado de contato proposital, que possibilita a duas ou mais pessoas se enfrentarem numa constante troca de ações ofensivas e/ou defensivas, regida por regras, com o objetivo mútuo sobre um alvo móvel personifi cado no oponente.",
+          "source": "GOMES, M. S. P. et al. Ensino das lutas: dos princípios condicionais aos grupos situacionais. Movimento, n. 2, abr.-jun. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "De acordo com o texto, podemos identifi car uma abordagem das lutas nas aulas de educação física quando o professor realiza uma proposta envolvendo",
+      "options": [
+        {
+          "letter": "A",
+          "text": "contato corporal intenso entre o aluno e seu oponente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "contenda entre os alunos que se agridem fi sicamente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "confronto corporal em que os vencedores são previamente identifi cados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "combate corporal intencional com ações regulamentadas entre os oponentes.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "confl ito resolvido pelos alunos por meio de regras previamente estabelecidas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q37",
+      "question_number": 37,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O conceito de saúde formulado na histórica VIII Conferência Nacional de Saúde, no ano de 1986, fi cou conhecido como um “conceito ampliado” de saúde, conforme ilustrado na fi gura. Esse conceito foi fruto de intensa mobilização em diversos países da América Latina nas décadas de 1970 e 1980, como resposta à crise dos sistemas públicos de saúde.\nC o n d a i g ç P a õ r r l í e E i o c m s d d o e u u l S a n c ç d o a t ã e e o ç c o t A s d ã r i a m o o e b b a e i l e h n c o te R o E D n E S ô S C m O ES o TIL C e n O i s c D I d h d e A E i x e a e V ç I o r S I I õ s D e t d r e A d e a , a E i D s d f t b C a O á e C d a S t r , o u i l O e IN o h r D M e l s o v IV t s Í i D U u d UO S N a r I a T Á i R D s IA e S s e e m A p Á r m e e g g s H u d o b S g s a a e e i o b o e e r t s i c n v o t a a i i t a ç ú a ç i o i ã d s s o s e G e r a is BATISTELLA, C. Abordagens contemporâneas do conceito de saúde.",
+          "source": "Disponível em: www.dihs.ensp.fi ocruz.br. Acesso em: 23 set. 2020."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q37.png"
+      ],
+      "statement": "Com base no conceito apresentado no texto, a saúde é consequência direta do(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "adoção de um estilo de vida ativo por parte dos indivíduos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "disponibilidade de emprego no mercado de trabalho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "condição habitacional presente nas cidades.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "acesso ao sistema educacional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "forma de organização social.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q38",
+      "question_number": 38,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Relatos de viagem: nas curvas da Nacional 222, em Portugal Em abril deste ano, fomos a Portugal para uma viagem de um mês que esperávamos há um ano. Pois no dia 4 de maio, chegávamos ao Aeroporto Francisco Sá Carneiro, no Porto. Que linda a “antiga, muy nobre, sempre leal e invicta” cidade do Porto! “Encantei-me”, diriam eles... pelas belas paisagens, construções históricas com lindas fachadas, parques e praças muito bem cuidados.\nOs tripeiros, sinônimo de portuenses, têm orgulho de sua cidade, apelidada de Invicta — nunca foi invadida. E valorizam tudo o que há de bom ali, como “a melhor estrada para se dirigir do mundo”, a Nacional 222.\nPois na manhã do 25 de abril, dia da Revolução dos Cravos, resolvemos conhecer a tal maravilha.\nA cada 10 km tínhamos que encostar: corríamos, dançávamos, tomávamos chocolate quente, sopa, tudo que fosse quentinho. E lá íamos para mais uma etapa.\nUma aventura deliciosa. Depois de três horas — mais ou menos o dobro do tempo necessário, não fossem as paradas para aquecimento —, chegamos a casa!\nCongelados, mas maravilhados e invictos!",
+          "source": "Disponível em: https://oglobo.globo.com. Acesso em: 6 dez. 2017 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Nesse texto, busca-se seduzir o leitor por meio da exploração de uma voz externa sobre a identidade histórica do povo português. O trecho que evidencia esse procedimento argumentativo é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "“Que linda a ‘antiga, muy nobre, sempre leal e invicta’ cidade do Porto!”.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "“‘Encantei-me’, diriam eles... pelas belas paisagens, construções históricas com lindas fachadas [...]”.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "“Os tripeiros, sinônimo de portuenses, têm orgulho de sua cidade [...]”.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "“E valorizam tudo o que há de bom ali, como ‘a melhor estrada para se dirigir do mundo’ [...]”.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "“Pois na manhã do 25 de abril, dia da Revolução dos Cravos, resolvemos conhecer a tal maravilha”.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q39",
+      "question_number": 39,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Hino à Bandeira Em teu seio formoso retratas Este céu de puríssimo azul, A verdura sem par destas matas, E o esplendor do Cruzeiro do Sul.\nContemplando o teu vulto sagrado, Compreendemos o nosso dever, E o Brasil por seus filhos amado, Poderoso e feliz há de ser!\nSobre a imensa Nação Brasileira, Nos momentos de festa ou de dor, Paira sempre sagrada bandeira Pavilhão da justiça e do amor!",
+          "source": "BILAC, O.; BRAGA, F. Disponível em: www2.planalto.gov.br. Acesso em: 10 dez. 2017 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "No Hino à Bandeira, a descrição é um recurso utilizado para exaltar o símbolo nacional na medida em que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "remete a um momento futuro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "promove a união dos cidadãos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "valoriza os seus elementos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "emprega termos religiosos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "recorre à sua história.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q40",
+      "question_number": 40,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "— O senhor pensa que eu tenho alguma fábrica de dinheiro? (O diretor diz essas coisas a ele, mas olha para todos como quem quer dar uma explicação a todos.\nTodas as caras sorriem.) Quando seu filho esteve doente, eu o ajudei como pude. Não me peça mais nada. Não me encarregue de pagar as suas contas: já tenho as minhas, e é o que me basta... (Risos.)\nO diretor tem o rosto escanhoado, a camisa limpa. A palavra possui um tom educado, de pessoa que convive com gente inteligente, causeuse. O rosto do Dr. Rist resplandece, vermelho e glabro. Um que outro tem os olhos no chão, a atitude discreta.\nNaziazeno espera que ele lhe dê as costas, vá reatar a palestra interrompida, aquelas observações sobre a questão social, comunismo e integralismo.",
+          "source": "MACHADO, D. Os ratos. São Paulo: Círculo do Livro, s/d."
+        }
+      ],
+      "image_url": null,
+      "statement": "A ficção modernista explorou tipos humanos em situação de conflito social. No fragmento do romancista gaúcho, esse conflito revela a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sujeição moral amplificada pela pobreza.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "crise econômica em expansão nas cidades.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "falta de diálogo entre patrões e empregados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "perspicácia marcada pela formação intelectual.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "tensão política gerada pelas ideologias vigentes.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q41",
+      "question_number": 41,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Policarpo Quaresma, cidadão brasileiro, funcionário público, certo de que a língua portuguesa é emprestada ao Brasil; certo também de que, por esse fato, o falar e o escrever em geral, sobretudo no campo das letras, se veem na humilhante contingência de sofrer continuamente censuras ásperas dos proprietários da língua; sabendo, além, que, dentro do nosso país, os autores e os escritores, com especialidade os gramáticos, não se entendem no tocante à correção gramatical, vendo-se, diariamente, surgir azedas polêmicas entre os mais profundos estudiosos do nosso idioma — usando do direito que lhe confere a Constituição, vem pedir que o Congresso Nacional decrete o tupi-guarani como língua oficial e nacional do povo brasileiro.",
+          "source": "BARRETO, L. Triste fim de Policarpo Quaresma. Disponível em: www.dominiopublico.gov.br. Acesso em: 26 jun. 2012."
+        }
+      ],
+      "image_url": null,
+      "statement": "Nessa petição da pitoresca personagem do romance de Lima Barreto, o uso da norma-padrão justifica-se pela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "situação social de enunciação representada.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "divergência teórica entre gramáticos e literatos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "pouca representatividade das línguas indígenas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "atitude irônica diante da língua dos colonizadores.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "tentativa de solicitação do documento demandado.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q42",
+      "question_number": 42,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Atualmente os jovens estão imersos numa sociedade permeada pela tecnologia. Nesse contexto, os jogos digitais são artefatos muito empregados. Videogames ativos ou exergames foram introduzidos como forma de permitir que o corpo controlasse tais jogos. Como resultado, passaram a ser vistos como uma ferramenta auxiliar na adoção de um estilo de vida menos sedentário, com efeitos positivos sobre a saúde. Tem-se defendido que os exergames podem contribuir para a prática regular de atividade física moderada, bem como promover a interação entre jogadores, reduzindo o sentimento de isolamento social. Por outro lado, argumenta-se que os exergames não podem substituir a experiência real das práticas corporais, pois não motivam a longo prazo a prática permanente de atividades físicas.",
+          "source": "FINCO, M. D.; REATEGUI, E. B.; ZARO, M. A. Laboratório de exergames: um espaço complementar para as aulas de educação física. Movimento, n. 3, 2015 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Pela sua interatividade, os exergames apresentam-se como possibilidade para estimular o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "exercitação física, promovendo a saúde.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "vivência de exercícios físicos sistemáticos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "envolvimento com atividades físicas ao longo da vida.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "jogo por meio de comandos fornecidos pelo videogame.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "disputa entre jogadores, contribuindo para o individualismo.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q43",
+      "question_number": 43,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Quando quis agilizar o processo de seleção de novos alunos, a tradicional faculdade britânica de medicina St. George usou um software para definir quem deveria ser entrevistado. Ao reproduzir a forma como os funcionários faziam essa escolha, o programa eliminou, de cara, 60 de 2 000 candidatos. Só por causa do sexo ou da origem racial, numa dedução baseada em sobrenome e local de nascimento. Um estudo sobre o caso foi publicado em 1988, mas, 25 anos depois, outra pesquisa apontou que esse tipo de discriminação segue firme. O exemplo recente envolve o buscador do Google: ao digitar nomes comuns entre negros dos EUA, a chance de os anúncios automáticos oferecerem checagem de antecedentes criminais pode aumentar 25%. E pode piorar com a pergunta “detido?” logo após a palavra procurada.",
+          "source": "Disponível em: https://tab.uol.com.br. Acesso em: 11 ago. 2017 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O texto permite o desnudamento da sociedade ao relacionar as tecnologias de informação e comunicação com o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "agilidade dos softwares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "passar dos anos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "linguagem.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "preconceito.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "educação.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q44",
+      "question_number": 44,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q44.png"
+      ],
+      "statement": "Disponível em: www.acontecendoaqui.com.br. Acesso em: 15 jun. 2018. Nessa campanha publicitária, a imagem da família e o texto verbal unem-se para reforçar a ideia de que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a família que adota é mais feliz.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a adoção tardia é muito positiva.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "as famílias preferem adotar bebês.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "a adoção de adolescentes é mais simples.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "os filhos adotivos são companheiros dos pais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q45",
+      "question_number": 45,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Viajo Curitiba das conferências positivistas, elas são onze em Curitiba, há treze no mundo inteiro; do tocador de realejo que não roda a manivela desde que o macaquinho morreu; dos bravos soldados do fogo que passam chispando no carro vermelho atrás do incêndio que ninguém não viu, esta Curitiba e a do cachorro-quente com chope duplo no Buraco do Tatu eu viajo.\nCuritiba, aquela do Burro Brabo, um cidadão misterioso morreu nos braços da Rosicler, quem foi? quem não foi? foi o reizinho do Sião; da Ponte Preta da estação, a única ponte da cidade, sem rio por baixo, esta Curitiba viajo.\nCuritiba sem pinheiro ou céu azul, pelo que vosmecê é — província, cárcere, lar —, esta Curitiba, e não a outra para inglês ver, com amor eu viajo, viajo, viajo.",
+          "source": "TREVISAN, D. Em busca de Curitiba perdida. Rio de Janeiro: Record, 1992."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q45-1.png",
+        "assets/images/enem_2020_cd1_q45-2.png",
+        "assets/images/enem_2020_cd1_q45-3.png",
+        "assets/images/enem_2020_cd1_q45-4.png",
+        "assets/images/enem_2020_cd1_q45-5.png",
+        "assets/images/enem_2020_cd1_q45-6.png",
+        "assets/images/enem_2020_cd1_q45-7.png",
+        "assets/images/enem_2020_cd1_q45-8.png",
+        "assets/images/enem_2020_cd1_q45-9.png",
+        "assets/images/enem_2020_cd1_q45-10.png",
+        "assets/images/enem_2020_cd1_q45-11.png",
+        "assets/images/enem_2020_cd1_q45-12.png",
+        "assets/images/enem_2020_cd1_q45-13.png",
+        "assets/images/enem_2020_cd1_q45-14.png",
+        "assets/images/enem_2020_cd1_q45-15.png",
+        "assets/images/enem_2020_cd1_q45-16.png",
+        "assets/images/enem_2020_cd1_q45-17.png",
+        "assets/images/enem_2020_cd1_q45-18.png",
+        "assets/images/enem_2020_cd1_q45-19.png",
+        "assets/images/enem_2020_cd1_q45-20.png",
+        "assets/images/enem_2020_cd1_q45-21.png",
+        "assets/images/enem_2020_cd1_q45-22.png",
+        "assets/images/enem_2020_cd1_q45-23.png",
+        "assets/images/enem_2020_cd1_q45-24.png",
+        "assets/images/enem_2020_cd1_q45-25.png",
+        "assets/images/enem_2020_cd1_q45-26.png",
+        "assets/images/enem_2020_cd1_q45-27.png",
+        "assets/images/enem_2020_cd1_q45-28.png",
+        "assets/images/enem_2020_cd1_q45-29.png",
+        "assets/images/enem_2020_cd1_q45-30.png",
+        "assets/images/enem_2020_cd1_q45-31.png",
+        "assets/images/enem_2020_cd1_q45-32.png",
+        "assets/images/enem_2020_cd1_q45-33.png",
+        "assets/images/enem_2020_cd1_q45-34.png",
+        "assets/images/enem_2020_cd1_q45-35.png",
+        "assets/images/enem_2020_cd1_q45-36.png",
+        "assets/images/enem_2020_cd1_q45-37.png",
+        "assets/images/enem_2020_cd1_q45-38.png",
+        "assets/images/enem_2020_cd1_q45-39.png",
+        "assets/images/enem_2020_cd1_q45-40.png",
+        "assets/images/enem_2020_cd1_q45-41.png",
+        "assets/images/enem_2020_cd1_q45-42.png",
+        "assets/images/enem_2020_cd1_q45-43.png",
+        "assets/images/enem_2020_cd1_q45-44.png",
+        "assets/images/enem_2020_cd1_q45-45.png",
+        "assets/images/enem_2020_cd1_q45-46.png",
+        "assets/images/enem_2020_cd1_q45-47.png",
+        "assets/images/enem_2020_cd1_q45-48.png",
+        "assets/images/enem_2020_cd1_q45-49.png",
+        "assets/images/enem_2020_cd1_q45-50.png",
+        "assets/images/enem_2020_cd1_q45-51.png",
+        "assets/images/enem_2020_cd1_q45-52.png"
+      ],
+      "statement": "A tematização de Curitiba é frequente na obra de Dalton Trevisan. No fragmento, a relação do narrador com o espaço urbano é caracterizada por um olhar",
+      "options": [
+        {
+          "letter": "A",
+          "text": "destituído de afetividade, que ironiza os costumes e as tradições da sociedade curitibana.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "marcado pela negatividade, que busca desconstruir perspectivas habituais de representação da cidade.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "carregado de melancolia, que constata a falta de identidade cultural diante dos impactos da urbanização.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "embevecido pela simplicidade do cenário, indiferente à descrição de elementos de reconhecido valor histórico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "distanciado dos elementos narrados, que recorre ao ponto de vista do viajante como expressão de estranhamento.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q46",
+      "question_number": 46,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Embora inegáveis os benefícios que ambas as economias têm auferido do intercâmbio comercial, o Brasil tem reiterado seu objetivo de desenvolver com a China uma relação comercial menos assimétrica. Os números revelam com clareza a assimetria. As exportações brasileiras de produtos básicos, especialmente soja, minério de ferro e petróleo, compõem, dependendo do ano, algo entre 75% e 80% da pauta, ao passo que as importações brasileiras consistem, aproximadamente, em 95% de produtos industrializados chineses, que vão desde os mais variados bens de consumo até máquinas e equipamentos de alto valor.\nLEÃO, V. C. Prefácio. In: CINTRA, M. A. M.; SILVA FILHO, E. B.; PINTO, E. C. (Org.).\nChina em transformação: dimensões econômicas e geopolíticas do desenvolvimento.",
+          "source": "Rio de Janeiro: Ipea, 2015."
+        }
+      ],
+      "image_url": null,
+      "statement": "Uma ação estatal de longo prazo capaz de reduzir a assimetria na balança comercial brasileira, conforme exposto no texto, é o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "expansão do setor extrativista.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "incremento da atividade agrícola.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "diversificação da matriz energética.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "fortalecimento da pesquisa científica.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "monitoramento do fluxo alfandegário.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q47",
+      "question_number": 47,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "As estatísticas mais recentes do Brasil rural revelam um paradoxo que interessa a toda sociedade: o emprego de natureza agrícola definha em praticamente todo o país, mas a população residente no campo voltou a crescer; ou pelo menos parou de cair. Esses sinais trocados sugerem que a dinâmica agrícola, embora fundamental, já não determina sozinha os rumos da demografia no campo.\nEsse novo cenário é explicado em parte pelo incremento do emprego não agrícola no campo. Ao mesmo tempo, aumentou a massa de desempregados, inativos e aposentados que mantêm residência rural.",
+          "source": "SILVA, J. G. Velhos e novos mitos do rural brasileiro. Estudos Avançados, n. 43, dez. 2001."
+        }
+      ],
+      "image_url": null,
+      "statement": "Sobre o espaço brasileiro, o texto apresenta argumentos que refletem a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "heterogeneidade do modo de vida agrário.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "redução do fluxo populacional nas cidades.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "correlação entre força de trabalho e migração sazonal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "indissociabilidade entre local de moradia e acesso à renda.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "desregulamentação das propriedades nas zonas de fronteira.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q48",
+      "question_number": 48,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Nas últimas décadas, uma acentuada feminização no mundo do trabalho vem ocorrendo. Se a participação masculina pouco cresceu no período pós-1970, a intensificação da inserção das mulheres foi o traço marcante. Entretanto, essa presença feminina se dá mais no espaço dos empregos precários, onde a exploração, em grande medida, se encontra mais acentuada.\nNOGUEIRA, C. M. As trabalhadoras do telemarketing: uma nova divisão sexual do trabalho?\nIn: ANTUNES, R. et al. Infoproletários: degradação real do trabalho virtual.",
+          "source": "São Paulo: Boitempo, 2009."
+        }
+      ],
+      "image_url": null,
+      "statement": "A transformação descrita no texto tem sido insuficiente para o estabelecimento de uma condição de igualdade de oportunidade em virtude da(s)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "estagnação de direitos adquiridos e do anacronismo da legislação vigente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "manutenção do status quo gerencial e dos padrões de socialização familiar.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "desestruturação da herança patriarcal e das mudanças do perfil ocupacional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "disputas na composição sindical e da presença na esfera político-partidária.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "exigências de aperfeiçoamento profissional e de habilidades na competência diretiva.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q49",
+      "question_number": 49,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A propriedade compreende, em seu conteúdo e alcance, além do tradicional direito de uso, gozo e disposição por parte de seu titular, a obrigatoriedade do atendimento de sua função social, cuja definição é inseparável do requisito obrigatório do uso racional da propriedade e dos recursos ambientais que lhe são integrantes. O proprietário, como membro integrante da comunidade, se sujeita a obrigações crescentes que, ultrapassando os limites do direito de vizinhança, no âmbito do direito privado, abrangem o campo dos direitos da coletividade, visando o bem-estar geral, no âmbito do direito público.",
+          "source": "JELINEK, R. O princípio da função social da propriedade e sua repercussão sobre o sistema do Código Civil. Disponível em: www.mp.rs.gov.br. Acesso em: 20 fev. 2013."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os movimentos em prol da reforma agrária, que atuam com base no conceito de direito à propriedade apresentado no texto, propõem-se a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "reverter o processo de privatização fundiária.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ressaltar a inviabilidade da produção latifundiária.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "defender a desapropriação dos espaços improdutivos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "impedir a produção exportadora nas terras agricultáveis.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "coibir o funcionamento de empresas agroindustriais no campo.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q50",
+      "question_number": 50,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A expansão das cidades e a formação das aglomerações urbanas no Brasil foram marcadas pela produção industrial e pela consolidação das metrópoles como locais de seu desenvolvimento. Na segunda metade do século XX, as metrópoles brasileiras estenderam-se por áreas de ocupação contínua, configurando densas regiões urbanizadas.",
+          "source": "MOURA, R. Arranjos urbano-regionais no Brasil: especificidades e reprodução de padrões. Disponível em: www.ub.edu. Acesso em: 11 fev. 2015."
+        }
+      ],
+      "image_url": null,
+      "statement": "O resultado do processo geográfico descrito foi o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "valorização da escala local.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "crescimento das áreas periféricas.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "densificação do transporte ferroviário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "predomínio do planejamento estadual.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "inibição de consórcios intermunicipais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q51",
+      "question_number": 51,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Zona de pastoreio e cultura do algodão e cereais do agreste (1963)",
+          "source": "PASTOREIO - - - - - - - - - - - - - - -PLANTIO E LIMPA - - - - - - - - - -CRESCIMENTO- - - - - - - - - - -CONVENÇÕES COLHEITA DE FEIJÃO - - - - - - - -COLHEITA DE MILHO VERDE - - -COLHEITA DE MILHO SECO - - -COLHEITA DE ALGODÃO - - - - - -ANDRADE, M. C. A terra e o homem no Nordeste. São Paulo: Brasiliense, 1963."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q51.png"
+      ],
+      "statement": "A dinâmica produtiva apresentada na imagem tem como estratégia central a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "separação pelo tipo de solo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "exportação da colheita sazonal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "priorização da tecnologia moderna.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "adequação pelo tempo da natureza.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "intensificação da atividade pecuária.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q52",
+      "question_number": 52,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Dois grandes eventos históricos tornaram possível um caso como o de Menocchio: a invenção da imprensa e a Reforma. A imprensa lhe permitiu confrontar os livros com a tradição oral em que havia crescido e lhe forneceu as palavras para organizar o amontoado de ideias e fantasias que nele conviviam. A Reforma lhe deu audácia para comunicar o que pensava ao padre do vilarejo, conterrâneos, inquisidores — mesmo não tendo conseguido dizer tudo diante do papa, dos cardeais e dos príncipes, como queria.",
+          "source": "GINZBURG, C. O queijo e os vermes: o cotidiano e as ideias de um moleiro perseguido pela Inquisição. São Paulo: Cia. das Letras, 2006."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os acontecimentos históricos citados ajudaram esse indivíduo, no século XVI, a repensar a visão católica do mundo ao possibilitarem a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "consulta pública das bibliotecas reais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "sofisticação barroca do ritual litúrgico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "aceitação popular da educação secular.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "interpretação autônoma dos textos bíblicos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "correção doutrinária das heresias medievais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q53",
+      "question_number": 53,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "“Devo estar chegando perto do centro da Terra. Deixe ver: deve ter sido mais de seis mil quilômetros, por aí...” (como se vê, Alice tinha aprendido uma porção de coisas desse tipo na escola, e embora essa não fosse uma oportunidade lá muito boa de demonstrar conhecimentos, já que não havia ninguém por perto para escutá-la, em todo caso era bom praticar um pouco) “... sim, deve ser mais ou menos essa a distância... mas então qual seria a latitude ou longitude em que estou?” (Alice não tinha a menor ideia do que fosse latitude ou longitude, mas achou que eram palavras muito imponentes).",
+          "source": "CARROLL, L. Aventuras de Alice: no País das Maravilhas, Através do espelho e outros textos. São Paulo: Summus, 1980."
+        }
+      ],
+      "image_url": null,
+      "statement": "O texto descreve uma confusão da personagem em relação",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ao tipo de projeção cartográfica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "aos contornos dos fusos horários.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "à localização do norte magnético.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "aos referenciais de posição relativa.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "às distorções das formas continentais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q54",
+      "question_number": 54,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A arte pré-histórica africana foi incontestavelmente um veículo de mensagens pedagógicas e sociais. Os San, que constituem hoje o povo mais próximo da realidade das representações rupestres, afirmam que seus antepassados lhes explicaram sua visão do mundo a partir desse gigantesco livro de imagens que são as galerias.\nA educação dos povos que desconhecem a escrita está baseada sobretudo na imagem e no som, no audiovisual.\nKI-ZERBO, J. A arte pré-histórica africana. In: KI-ZERBO, J. (Org.)\nHistória geral da África, I: metodologia e pré-história da África.",
+          "source": "Brasília: Unesco, 2010."
+        }
+      ],
+      "image_url": null,
+      "statement": "De acordo com o texto, a arte mencionada é importante para os povos que a cultivam por colaborar para o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "transmissão dos saberes acumulados.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "expansão da propriedade individual.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ruptura da disciplina hierárquica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "surgimento dos laços familiares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "rejeição de práticas exógenas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q55",
+      "question_number": 55,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Será que as coisas lhe pareceriam diferentes se, de fato, todas elas existissem apenas na sua mente — se tudo o que você julgasse ser o mundo externo real fosse apenas um sonho ou alucinação gigante, de que você jamais fosse despertar? Se assim fosse, então é claro que você nunca poderia despertar, como faz quando sonha, pois significaria que não há mundo “real” no qual despertar. Logo, não seria exatamente igual a um sonho ou alucinação normal.",
+          "source": "NAGEL, T. Uma breve introdução à filosofia. São Paulo: Martins Fontes, 2011."
+        }
+      ],
+      "image_url": null,
+      "statement": "O texto confere visibilidade a uma doutrina filosófica contemporânea conhecida como:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Personalismo, que vincula a realidade circundante aos domínios do pessoal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Falsificacionismo, que estabelece ciclos de problemas para refutar uma conjectura.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Falibilismo, que rejeita mecanismos mentais para sustentar uma crença inequívoca.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Idealismo, que nega a existência de objetos independentemente do trabalho cognoscente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Solipsismo, que reconhece limitações cognitivas para compreender uma experiência compartilhada.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q56",
+      "question_number": 56,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A demanda mundial para a produção de alimentos aumenta progressivamente a taxas muito altas.\nAtualmente, na maioria dos países, continentes e regiões, a água consumida na agricultura é de cerca de 70% da disponibilidade total.",
+          "source": "TUNDISI, J. G. Recursos hídricos no futuro: problemas e soluções. Estudos Avançados, n. 63, 2008 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Para que haja a redução da pressão sobre o recurso natural mencionado, a expansão da agricultura demanda melhorias no(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fertilização química do solo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "escoamento hídrico do terreno.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "manutenção de poços artesianos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "eficiência das técnicas de irrigação.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "velocidade das máquinas colheitadeiras.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q57",
+      "question_number": 57,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No caso do Departamento de Defesa dos Estados Unidos, a ênfase está posta no traçado de uma estratégia geral de desarticulação, não só dos inimigos reais como dos potenciais, inserida na concepção preventiva que supõe que a mínima dissidência é um sinal de perigo e de guerra futura. Deve-se ter capacidade para responder a uma guerra convencional tanto quanto para enfrentar um inimigo difuso, atentando simultaneamente para todas as áreas geográficas do planeta. Trata-se, sem dúvida, da estratégia com pretensões mais abrangentes que se desenvolveu até agora.",
+          "source": "CECEÑA, A. E. Hegemonias e emancipações no século XXI. Buenos Aires: Clacso, 2005 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Tomando o texto como parâmetro, qual tendência contemporânea impulsiona a formulação de estratégias mais abrangentes por parte do Estado americano?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Erradicação dos conflitos em territórios.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Propagação de organizações em redes.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Eliminação das diferenças regionais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Ampliação de modelo democrático.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Projeção da diplomacia mundial.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q58",
+      "question_number": 58,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O planejamento deixou de controlar o crescimento urbano e passou a encorajá-lo por todos os meios possíveis e imagináveis. Cidades, a nova mensagem soou em alto e bom som, eram máquinas de produzir riquezas; o primeiro e principal objetivo do planejamento devia ser o de azeitar a máquina.",
+          "source": "HALL, P. Cidades do amanhã: uma história intelectual do planejamento e do projeto urbanos no século XX. São Paulo: Perspectiva, 2016 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O modelo de planejamento urbano problematizado no texto é marcado pelo(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "primazia da gestão popular.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "uso de práticas sustentáveis.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "construção do bem-estar social.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "soberania do poder governamental.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ampliação da participação empresarial.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q59",
+      "question_number": 59,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Escudos antigos ou maciços cristalinos são blocos imensos de rochas antigas. Estes escudos são constituídos por rochas cristalinas (magmático-plutônicas), formadas em eras pré-cambrianas, ou por rochas metamórficas (material sedimentar) do Paleozoico. São resistentes, estáveis, porém bastante desgastadas. Correspondem a 36% da área territorial e dividem-se em duas grandes porções: o Escudo das Guianas (norte da Planície Amazônica) e o Escudo Brasileiro (porção centro-oriental brasileira).",
+          "source": "Disponível em: http://ambientes.ambientebrasil.com.br. Acesso em: 25 jun. 2015."
+        }
+      ],
+      "image_url": null,
+      "statement": "As estruturas geológicas indicadas no texto são importantes economicamente para o Brasil por concentrarem",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fontes de águas termais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "afloramentos de sal-gema.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "jazidas de minerais metálicos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "depósitos de calcário agrícola.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "reservas de combustível fóssil.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q60",
+      "question_number": 60,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Em A morte de Ivan Ilitch, Tolstoi descreve com detalhes repulsivos o terror de encarar a morte iminente. Ilitch adoece depois de um pequeno acidente e logo compreende que se encaminha para o fim de modo impossível de parar. “Nas profundezas de seu coração, ele sabia estar morrendo, mas em vez de se acostumar com a ideia, simplesmente não o fazia e não conseguia compreendê-la”.",
+          "source": "KAZEZ, J. O peso das coisas: filosofia para o bem-viver. Rio de Janeiro: Tinta Negra, 2004."
+        }
+      ],
+      "image_url": null,
+      "statement": "O texto descreve a experiência do personagem de Tolstoi diante de um aspecto incontornável de nossas vidas.\nEsse aspecto foi um tema central na tradição filosófica",
+      "options": [
+        {
+          "letter": "A",
+          "text": "marxista, no contexto do materialismo histórico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "logicista, no propósito de entendimento dos fatos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "utilitarista, no sentido da racionalidade das ações.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "pós-modernista, na discussão da fluidez das relações.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "existencialista, na questão do reconhecimento de si.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q61",
+      "question_number": 61,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A Divisão Internacional do Trabalho significa que alguns países se especializam em ganhar e outros, em perder. Nossa comarca no mundo, que hoje chamamos América Latina, foi precoce: especializou-se em perder desde os remotos tempos em que os europeus do Renascimento se aventuraram pelos mares e lhe cravaram os dentes na garganta. Passaram-se os séculos e a América Latina aprimorou suas funções.",
+          "source": "GALEANO, E. As veias abertas da América Latina. São Paulo: Paz e Terra, 1978."
+        }
+      ],
+      "image_url": null,
+      "statement": "Escrito na década de 1970, o texto considera a participação da América Latina na Divisão Internacional do Trabalho marcada pela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "produção inovadora de padrões de tecnologia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "superação paulatina do caráter agroexportador.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "apropriação imperialista dos recursos territoriais.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "valorização econômica dos saberes tradicionais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "dependência externa do suprimento de alimentos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q62",
+      "question_number": 62,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Sexto rei sumério (governante entre os séculos XVIII e XVII a.C.) e nascido em Babel, “Khammu-rabi” (pronúncia em babilônio) foi fundador do I Império Babilônico (correspondente ao atual Iraque), unificando amplamente o mundo mesopotâmico, unindo os semitas e os sumérios e levando a Babilônia ao máximo esplendor. O nome de Hamurabi permanece indissociavelmente ligado ao código jurídico tido como o mais remoto já descoberto: o Código de Hamurabi. O legislador babilônico consolidou a tradição jurídica, harmonizou os costumes e estendeu o direito e a lei a todos os súditos.",
+          "source": "Disponível em: www.direitoshumanos.usp.br. Acesso em: 12 fev. 2013 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Nesse contexto de organização da vida social, as leis contidas no Código citado tinham o sentido de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "assegurar garantias individuais aos cidadãos livres.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "tipificar regras referentes aos atos dignos de punição.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "conceder benefícios de indulto aos prisioneiros de guerra.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "promover distribuição de terras aos desempregados urbanos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "conferir prerrogativas políticas aos descendentes de estrangeiros.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q63",
+      "question_number": 63,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Desde o mundo antigo e sua filosofia, que o trabalho tem sido compreendido como expressão de vida e degradação, criação e infelicidade, atividade vital e escravidão, felicidade social e servidão. Trabalho e fadiga. Na Modernidade, sob o comando do mundo da mercadoria e do dinheiro, a prevalência do negócio (negar o ócio) veio sepultar o império do repouso, da folga e da preguiça, criando uma ética positiva do trabalho.",
+          "source": "ANTUNES, R. O século XX e a era da degradação do trabalho. In: SILVA, J. P. (Org.). Por uma sociologia do século XX. São Paulo: Annablume, 2007 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O processo de ressignificação do trabalho nas sociedades modernas teve início a partir do surgimento de uma nova mentalidade, influenciada pela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "reforma higienista, que combateu o caráter excessivo e insalubre do trabalho fabril.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Reforma Protestante, que expressou a importância das atividades laborais no mundo secularizado.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "força do sindicalismo, que emergiu no esteio do anarquismo reivindicando direitos trabalhistas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "participação das mulheres em movimentos sociais, defendendo o direito ao trabalho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "visão do catolicismo, que, desde a Idade Média, defendia a dignidade do trabalho e do lucro.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q64",
+      "question_number": 64,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "É difícil imaginar que nos anos 1990, num país com setores da população na pobreza absoluta e sem uma rede de benefícios sociais em que se apoiar, um governo possa abandonar o papel de promotor de programas de geração de emprego, de assistência social, de desenvolvimento da infraestrutura e de promoção de regiões excluídas, na expectativa de que o mercado venha algum dia a dar uma resposta adequada a tudo isso.",
+          "source": "SORJ, B. A nova sociedade brasileira. Rio de Janeiro: Jorge Zahar, 2000 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Nesse contexto, a criticada postura dos governos frente à situação social do país coincidiu com a priorização de que medidas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Expansão dos investimentos nas empresas públicas e nos bancos estatais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Democratização do crédito habitacional e da aquisição de moradias populares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Enxugamento da carga fiscal individual e da contribuição tributária empresarial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Reformulação do acesso ao ensino superior e do financiamento científico nacional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Reforma das políticas macroeconômicas e dos mecanismos de controle inflacionário.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q65",
+      "question_number": 65,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos territórios. Como há uma elevação da formação de fluxos, materiais e imateriais, a crescente articulação com as escalas que vão do local ao global terminam por pressionar o Estado a agir visando uma instalação no território de fixos diversos, bem como de uma regulação específica.",
+          "source": "LIMA, R. C.; PENNA, N. A. A logística de transportes do agronegócio em Mato Grosso (Brasil). Confins, n. 26, fev. 2016."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q65.png"
+      ],
+      "statement": "O mapa e o texto se complementam indicando que a expansão das rodovias se deu como resposta ao(à)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "alteração da matriz econômica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "substituição do modal hidroviário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "retração do contingente demográfico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "projeção do escoamento produtivo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "estagnação de lavouras policultoras.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q66",
+      "question_number": 66,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Um dos resquícios franceses na dança são os comandos proferidos pelo marcador da quadrilha. Seu papel é anunciar os próximos passos da coreografia. O abrasileiramento de termos franceses deu origem, por exemplo, ao saruê (soirée — reunião social noturna, ordem para todos se juntarem no centro do salão), anarriê (en arrière — para trás) e anavã (en avant — para frente).",
+          "source": "Disponível em: www.ebc.com.br. Acesso em: 6 jul. 2015."
+        }
+      ],
+      "image_url": null,
+      "statement": "A característica apresentada dessa manifestação popular resulta do seguinte processo socio-histórico:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Massificação da arte erudita.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Rejeição de hábitos elitistas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Laicização dos rituais religiosos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Restauração dos costumes antigos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Apropriação de práticas estrangeiras.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q67",
+      "question_number": 67,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q67-1.png",
+        "assets/images/enem_2020_cd1_q67-2.png"
+      ],
+      "statement": "Vale da Grande Fenda Vulcões Disponível em: https://noticias.uol.com.br. Acesso em: 13 jun. 2018 (adaptado). Os aspectos físicos apresentados originam-se da atuação da força natural de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "colisão de placas tectônicas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "rifteamento da crosta terrestre.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "subducção da plataforma oceânica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "formação de cadeias montanhosas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "metamorfi smo de bordas continentais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q68",
+      "question_number": 68,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A reabilitação da biografi a histórica integrou as aquisições da história social e cultural, oferecendo aos diferentes atores históricos uma importância diferenciada, distinta, individual. Mas não se tratava mais de fazer, simplesmente, a história dos grandes nomes, em formato hagiográfi co — quase uma vida de santo —, sem problemas, nem máculas. Mas de examinar os atores (ou o ator) célebres ou não, como testemunhas, como refl exos, como reveladores de uma época.",
+          "source": "DEL PRIORE, M. Biografi a: quando o indivíduo encontra a história. Topoi, n. 19, jul.-dez. 2009."
+        }
+      ],
+      "image_url": null,
+      "statement": "De acordo com o texto, novos estudos têm valorizado a história do indivíduo por se constituir como possibilidade de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "adesão ao método positivista.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "expressão do papel das elites.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "resgate das narrativas heroicas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "acesso ao cotidiano das comunidades.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "interpretação das manifestações do divino.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q69",
+      "question_number": 69,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A sociedade como um sistema justo de cooperação social consiste em uma das ideias familiares fundamentais, que dá estrutura e organização à justiça como equidade. A cooperação social guia-se por regras e procedimentos publicamente reconhecidos e aceitos por aqueles que cooperam como sendo apropriados para regular a sua conduta. Diz-se que a cooperação é justa porque seus termos são tais que todos os participantes podem razoavelmente aceitar, desde que todos os demais também o aceitem.\nFERES JR., J.; POGREBINSCHI, T. Teoria política contemporânea: uma introdução.",
+          "source": "Rio de Janeiro: Elsevier, 2010."
+        }
+      ],
+      "image_url": null,
+      "statement": "No contexto do pensamento político, a ideia apresentada mostra-se consoante o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ideal republicano de governo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "corrente tripartite dos poderes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "posicionamento crítico do socialismo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "legitimidade do absolutismo monárquico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "entendimento do contratualismo moderno.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q70",
+      "question_number": 70,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Com efeito, até a destruição de Cartago, o povo e o Senado romano governavam a República em harmonia e sem paixão, e não havia entre os cidadãos luta por glória ou dominação; o medo do inimigo mantinha a cidade no cumprimento do dever. Mas, assim que o medo desapareceu dos espíritos, introduziram-se os males pelos quais a prosperidade tem predileção, isto é, a libertinagem e o orgulho.",
+          "source": "SALÚSTIO. A conjuração de Catilina/A guerra de Jugurta. Petrópolis: Vozes, 1990 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O acontecimento histórico mencionado no texto de Salústio, datado de I a.C., manteve correspondência com o processo de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "demarcação de terras públicas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "imposição da escravidão por dívidas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "restrição da cidadania por parentesco.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "restauração de instituições ancestrais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "expansão das fronteiras extrapeninsulares.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q71",
+      "question_number": 71,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O cântico da terra Eu sou a terra, eu sou a vida.\nA ti, ó lavrador, tudo quanto é meu.\nTeu arado, tua foice, teu machado.\nO berço pequenino de teu filho.\nO algodão de tua veste e o pão de tua casa.\nE um dia bem distante a mim tu voltarás.\nE no canteiro materno de meu seio tranquilo dormirás.\nPlantemos a roça.\nLavremos a gleba.",
+          "source": "CORALINA, C. Textos e contextos: poemas dos becos de Goiás e estórias mais. São Paulo: Global, 1997 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "No contexto das distintas formas de apropriação da terra, o poema de Cora Coralina valoriza a relação entre",
+      "options": [
+        {
+          "letter": "A",
+          "text": "grileiros e controle territorial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "meeiros e divisão do trabalho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "camponeses e uso da natureza.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "indígenas e manejo agroecológico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "latifundiários e fertilização do solo.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q72",
+      "question_number": 72,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Montaigne deu o nome para um novo gênero literário; foi dos primeiros a instituir na literatura moderna um espaço privado, o espaço do “eu”, do texto íntimo. Ele cria um novo processo de escrita filosófica, no qual hesitações, autocríticas, correções entram no próprio texto.",
+          "source": "COELHO, M. Montaigne. São Paulo: Publifolha, 2001 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O novo gênero de escrita aludido no texto é o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "confissão, que relata experiências de transformação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ensaio, que expõe concepções subjetivas de um tema.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "carta, que comunica informações para um conhecido.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "meditação, que propõe preparações para o conhecimento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "diálogo, que discute assuntos com diferentes interlocutores.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q73",
+      "question_number": 73,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Declaração de Salamanca – 1994 Acreditamos e proclamamos que: toda criança tem direito fundamental à educação e deve ser dada a oportunidade de atingir e manter o nível adequado de aprendizagem; toda criança possui características, interesses, habilidades e necessidades de aprendizagem que são únicas; sistemas educacionais deveriam ser designados e programas educacionais deveriam ser implementados no sentido de se levar em conta a vasta diversidade de tais características e necessidades.",
+          "source": "Disponível em: http://portal.mec.gov.br. Acesso em: 4 out. 2015."
+        }
+      ],
+      "image_url": null,
+      "statement": "Como signatário da Declaração citada, o Brasil comprometeu-se com a elaboração de políticas públicas educacionais que contemplem a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "criação de privilégios.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "contenção dos gastos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "pluralidade dos sujeitos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "padronização do currículo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "valorização da meritocracia.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q74",
+      "question_number": 74,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "Os meus pensamentos são todos sensações.\nPenso com os olhos e com os ouvidos E com as mãos e os pés E com o nariz e a boca.",
+          "source": "PESSOA, F. O guardador de rebanhos – IX. In: GALHOZ, M. A. (Org.). Obras poéticas. Rio de Janeiro: Nova Aguilar, 1999 (fragmento)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Tudo aquilo que sei do mundo, mesmo por ciência, eu o sei a partir de uma visão minha ou de uma experiência do mundo sem a qual os símbolos da ciência não poderiam dizer nada.\nMERLEAU-PONTY, M. Fenomenologia da percepção. São Paulo:",
+          "source": "Martins Fontes, 1999 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os textos mostram-se alinhados a um entendimento acerca da ideia de conhecimento, numa perspectiva que ampara a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "anterioridade da razão no domínio cognitivo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "confirmação da existência de saberes inatos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "valorização do corpo na apreensão da realidade.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "verificabilidade de proposições no campo da lógica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "possibilidade de contemplação de verdades atemporais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q75",
+      "question_number": 75,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Afirmar que a cartografia da época moderna integrou o processo de invenção da América por parte dos europeus significa que os conhecimentos dos ameríndios sobre o território foram ignorados pela cartografia europeia ou que eles foram privados de sua representação territorial e da autoridade que seus conhecimentos tinham sobre o espaço.",
+          "source": "OLIVEIRA, T. K. Desconstruindo mapas, revelando espacializações: reflexões sobre o uso da cartografia em estudos sobre o Brasil colonial. Revista Brasileira de História, n. 68, 2014 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Na análise contida no texto, a representação cartográfica da América foi marcada por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "asserção da cultura dos nativos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "avanço dos estudos do ambiente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "afirmação das formas de dominação.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "exatidão da demarcação das regiões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "aprimoramento do conceito de fronteira.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q76",
+      "question_number": 76,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A principal característica da situação social dos anglo-americanos é seu caráter eminentemente democrático. Afirmei anteriormente que reinava uma igualdade muito grande entre os emigrantes que foram se estabelecer na Nova Inglaterra. Para isso contribuiu a influência das leis de sucessão. Estabelecidas de uma maneira, as leis de sucessão reúnem, concentram e agrupam em um só a propriedade e o poder. Estabelecidas por outros princípios, produzem o oposto: dividem, partilham e disseminam os bens e o poder.",
+          "source": "TOCQUEVILLE, A. A democracia na América. Belo Horizonte: Itatiaia; São Paulo: Edusp, 1977 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O texto tematiza o papel desempenhado por uma norma na criação de um ambiente propício ao(à)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "emprego do trabalho escravo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "consolidação dos valores burgueses.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "banimento das dissidências religiosas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "contenção da identificação nacionalista.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "hierarquização dos agentes econômicos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q77",
+      "question_number": 77,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Vemos que toda cidade é uma espécie de comunidade, e toda comunidade se forma com vistas a algum bem, pois todas as ações de todos os homens são praticadas com vistas ao que lhe parece um bem; se todas as comunidades visam algum bem, é evidente que a mais importante de todas elas e que inclui todas as outras tem mais que todas este objetivo e visa ao mais importante de todos os bens.",
+          "source": "ARISTÓTELES. Política. Brasília: UnB,1988."
+        }
+      ],
+      "image_url": null,
+      "statement": "No fragmento, Aristóteles promove uma reflexão que associa dois elementos essenciais à discussão sobre a vida em comunidade, a saber:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ética e política, pois conduzem à eudaimonia.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Retórica e linguagem, pois cuidam dos discursos na ágora.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Metafísica e ontologia, pois tratam da filosofia primeira.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Democracia e sociedade, pois se referem a relações sociais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Geração e corrupção, pois abarcam o campo da physis.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q78",
+      "question_number": 78,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O toyotismo, a partir dos anos 1970, teve grande impacto no mundo ocidental, quando se mostrou para os países avançados como uma opção possível para a superação de uma crise de acumulação.",
+          "source": "ANTUNES, R. Os sentidos do trabalho: ensaio sobre a afirmação e a negação do trabalho. São Paulo: Boitempo, 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A característica organizacional do modelo em questão, requerida no contexto de crise, foi o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "expansão dos grandes estoques.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "incremento da fabricação em massa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "adequação da produção à demanda.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "aumento da mecanização do trabalho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "centralização das etapas de planejamento.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q79",
+      "question_number": 79,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O fenômeno histórico conhecido como “tráfico de coolies” esteve associado diretamente ao período que vai do final da década de 1840 até o ano de 1874, quando milhares de chineses foram encaminhados principalmente para Cuba e Peru e muitos abusos no recrutamento de mão de obra foram identificados. O tráfico de coolies ou, em outros termos, o transporte por meios coativos de mão de obra de um lugar para outro, foi comparado ao tráfico africano de escravos por muitos periodistas e analistas do século XIX.",
+          "source": "SANTOS, M. A. Migrações e trabalho sob contrato no século XIX. História, n. 12, 2017."
+        }
+      ],
+      "image_url": null,
+      "statement": "A comparação mencionada no texto foi possível em razão da seguinte característica:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oferta de contrato formal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Origem étnica dos grupos de trabalhadores.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Conhecimento das tarefas desenvolvidas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Controle opressivo das vidas dos indivíduos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Investimento requerido dos empregadores.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q80",
+      "question_number": 80,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Os seringueiros amazônicos eram invisíveis no cenário nacional nos anos 1970. Começaram a se articular como um movimento agrário no início dos anos 1980, e na década seguinte conseguiram reconhecimento nacional, obtendo a implantação das primeiras reservas extrativas após o assassinato de Chico Mendes. Assim, em vinte anos, os camponeses da floresta passaram da invisibilidade à posição de paradigma de desenvolvimento sustentável com participação popular.",
+          "source": "ALMEIDA, M. W. B. Direitos à floresta e ambientalismo: seringueiros e suas lutas. Revista Brasileira de Ciências Sociais, n. 55, 2004."
+        }
+      ],
+      "image_url": null,
+      "statement": "De acordo com o texto, a visibilidade dos seringueiros amazônicos foi estabelecida pela relação entre",
+      "options": [
+        {
+          "letter": "A",
+          "text": "crescimento econômico e migração de trabalhadores.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "produção de borracha e escassez de recursos naturais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "reivindicação de terra e preservação de mata nativa.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "incentivo governamental e conservação de territórios.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "modernização de plantio e comércio de látex.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q81",
+      "question_number": 81,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Porque todos confessamos não se poder viver sem alguns escravos, que busquem a lenha e a água, e façam cada dia o pão que se come, e outros serviços que não são possíveis poderem-se fazer pelos Irmãos Jesuítas, máxime sendo tão poucos, que seria necessário deixar as confissões e tudo mais. Parece-me que a Companhia de Jesus deve ter e adquirir escravos, justamente, por meios que as Constituições permitem, quando puder para nossos colégios e casas de meninos.",
+          "source": "LEITE, S. História da Companhia de Jesus no Brasil. Rio de Janeiro: Civilização Brasileira, 1938 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O texto explicita premissas da expansão ultramarina portuguesa ao buscar justificar a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "propagação do ideário cristão.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "valorização do trabalho braçal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "adoção do cativeiro na Colônia.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "adesão ao ascetismo contemplativo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "alfabetização dos indígenas nas Missões.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q82",
+      "question_number": 82,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "As cidades de Puebla, no México, e Legazpi, nas Filipinas, não têm quase nada em comum. Estão muito longe uma da outra e são habitadas por povos muito diferentes. O que as une é um trágico detalhe de sua geografia. Elas foram erguidas na vizinhança de alguns dos vulcões mais perigosos do mundo: o mexicano Popocatepétl e o filipino Mayon. Seus habitantes precisam estar prontos para correr a qualquer hora. Eles fazem parte dos 550 milhões de indivíduos que moram em zonas de risco vulcânico no mundo. Ao contrário do que seria sensato, continuam ali, indiferentes ao perigo que os espreita.",
+          "source": "ANGELO, C. Disponível em: http://super.abril.com.br. Acesso em: 24 out. 2015 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A característica física que justifica a fixação do homem nos locais apresentados no texto é a ocorrência de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "solo fértil.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "encosta íngreme.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "vegetação diversificada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "drenagem eficiente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "clima ameno.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2020_d1_azul_q83",
+      "question_number": 83,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Ao abrigo do teto, sua jornada de fé começava na sala de jantar. Na pequena célula cristã, dividia-se a refeição e durante elas os crentes conversavam, rezavam e liam cartas de correligionários residentes em locais diferentes do Império Romano (século II da Era Cristã).\nEsse ambiente garantia peculiar apoio emocional às experiências intensamente individuais que abrigava.",
+          "source": "SENNET, R. Carne e pedra. Rio de Janeiro: Record, 2008."
+        }
+      ],
+      "image_url": null,
+      "statement": "Um motivo que explica a ambientação da prática descrita no texto encontra-se no(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "regra judaica, que pregava a superioridade espiritual dos cultos das sinagogas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "moralismo da legislação, que dificultava as reuniões abertas da juventude livre.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "adesão do patriciado, que subvertia o conceito original dos valores estrangeiros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "decisão política, que censurava as manifestações públicas da doutrina dissidente.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "violência senhorial, que impunha a desestruturação forçada das famílias escravas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q84",
+      "question_number": 84,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A colisão entre uma placa continental e uma oceânica provocará a subducção desta última sob a placa continental, que, a exemplo dos arcos e ilhas, produzirá um arco magmático na borda do continente, composto por rochas vulcânicas acompanhado de deformações e metamorfismo tanto de rochas preexistentes como de parte das rochas formadas no processo.",
+          "source": "TEIXEIRA, W. et al. (Org.). Decifrando a Terra. São Paulo: Oficina de Textos, 2000."
+        }
+      ],
+      "image_url": null,
+      "statement": "Qual feição fisiográfica é gerada pelo processo tectônico apresentado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Planícies abissais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Planaltos cristalinos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Depressões absolutas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Bacias sedimentares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Dobramentos modernos.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q85",
+      "question_number": 85,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O movimento sedicioso ocorrido na capitania de Pernambuco, no ano 1817, foi analisado de formas diferentes por dois meios de comunicação daquela época. O Correio Braziliense apontou para o fato de ser “a comoção no Brasil motivada por um descontentamento geral, e não por maquinações de alguns indivíduos”. Já a Gazeta do Rio de Janeiro considerou o movimento como um “pontual desvio de norma, apenas uma ‘mancha’ nas ‘páginas da História Portuguesa’, tão distinta pelos testemunhos de amor e respeito que os vassalos desta nação consagram ao seu soberano”.",
+          "source": "JANCSÓ, I.; PIMENTA, J. P. Peças de um mosaico. In: MOTA, C. G. (Org.). Viagem Incompleta: a experiência brasileira (1500-2000). São Paulo: Senac, 2000 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os fragmentos das matérias jornalísticas sobre o acontecimento, embora com percepções diversas, relacionam-se a um aspecto do processo de independência da colônia luso-americana expresso em dissensões entre",
+      "options": [
+        {
+          "letter": "A",
+          "text": "quadros dirigentes em torno da abolição da ordem escravocrata.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "grupos regionais acerca da configuração político--territorial.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "intelectuais laicos acerca da revogação do domínio eclesiástico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "homens livres em torno da extensão do direito de voto.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "elites locais acerca da ordenação do monopólio fundiário.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2020_d1_azul_q86",
+      "question_number": 86,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Declaração de Direitos do Homem e do Cidadão – 1789 Os representantes do povo francês, tendo em vista que a ignorância, o esquecimento ou o desprezo dos direitos do homem são as únicas causas dos males públicos e da corrupção dos governos, resolveram declarar solenemente os direitos naturais, inalienáveis e sagrados do homem, a fim de que esta declaração, sempre presente em todos os membros do corpo social, lhes lembre permanentemente seus direitos e seus deveres; a fim de que as reivindicações dos cidadãos, fundadas em princípios simples e incontestáveis, se dirijam sempre à conservação da Constituição e à felicidade geral.",
+          "source": "Disponível em: www.direitoshumanosusp.br. Acesso em: 7 jun. 2018 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Esse documento, elaborado no contexto da Revolução Francesa, reflete uma profunda mudança social ao estabelecer a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manutenção das terras comunais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "supressão do poder constituinte.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "falência da sociedade burguesa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "paridade do tratamento jurídico.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "abolição dos partidos políticos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q87",
+      "question_number": 87,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Na Grécia, o conceito de povo abrange tão somente aqueles indivíduos considerados cidadãos.\nAssim é possível perceber que o conceito de povo era muito restritivo. Mesmo tendo isso em conta, a forma democrática vivenciada e experimentada pelos gregos atenienses nos séculos IV e V a.C. pode ser caracterizada, fundamentalmente, como direta.",
+          "source": "MANDUCO, A. Ciência política. São Paulo: Saraiva, 2011."
+        }
+      ],
+      "image_url": null,
+      "statement": "Naquele contexto, a emergência do sistema de governo mencionado no excerto promoveu o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "competição para a escolha de representantes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "campanha pela revitalização das oligarquias.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "estabelecimento de mandatos temporários.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "declínio da sociedade civil organizada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "participação no exercício do poder.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2020_d1_azul_q88",
+      "question_number": 88,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "Rio Tietê, São Paulo (SP). Foto: Delfim Martins/Pulsar.",
+          "source": null
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "O Rio Tietê está morto. Ao menos uma parte dele: 137 quilômetros, para ser mais preciso. Uma pesquisa da Fundação SOS Mata Atlântica mostra que, em 2016, o trecho do rio com qualidade de água classificada como ruim ou péssima começa em Itaquaquecetuba, passa por toda a Região Metropolitana de São Paulo e chega até Cabreúva, já no interior de São Paulo. Nesse trecho, a água não tem oxigênio suficiente para abrigar vida.",
+          "source": "Disponível em: http://epoca.globo.com. Acesso em: 7 dez. 2017 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2020_cd1_q88.png"
+      ],
+      "statement": "Considerando a análise dos textos, a condição atual desse rio tem como origem a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "valorização do sítio urbano.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "extinção da vegetação nativa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "recepção de densa carga de dejetos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "captação desordenada do regime pluvial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "expansão do uso de defensivos químicos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2020_d1_azul_q89",
+      "question_number": 89,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Adão, ainda que supuséssemos que suas faculdades racionais fossem inteiramente perfeitas desde o início, não poderia ter inferido da fluidez e transparência da água que ela o sufocaria, nem da luminosidade e calor do fogo que este poderia consumi-lo. Nenhum objeto jamais revela, pelas qualidades que aparecem aos sentidos, nem as causas que o produziram, nem os efeitos que dele provirão; e tampouco nossa razão é capaz de extrair, sem auxílio da experiência, qualquer conclusão referente à existência efetiva de coisas ou questões de fato.",
+          "source": "HUME, D. Uma investigação sobre o entendimento humano. São Paulo: Unesp, 2003."
+        }
+      ],
+      "image_url": null,
+      "statement": "Segundo o autor, qual é a origem do conhecimento humano?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A potência inata da mente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "A revelação da inspiração divina.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "O estudo das tradições filosóficas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "A vivência dos fenômenos do mundo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "O desenvolvimento do raciocínio abstrato.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2020_d1_azul_q90",
+      "question_number": 90,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "O aumento de casos suspeitos de febre amarela em Minas pode estar relacionado à tragédia de Mariana, em 2015, segundo a bióloga da Fiocruz Márcia Chame.",
+          "source": "A hipótese tem como ponto de partida a localização das cidades mineiras que identificaram até o momento casos de pacientes com sintomas da doença. Grande parte está na região próxima do Rio Doce, afetado pelo rompimento da Barragem de Fundão, em novembro de 2015. FORMENTI, L. Para bióloga, surto de febre amarela pode ter relação com tragédia de Mariana. O Estado de São Paulo, 14 jan. 2017."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Por outro lado, Servio Ribeiro considera remota a possibilidade de influência da tragédia de Mariana (MG) neste surto de febre amarela em Minas Gerais. “A febre amarela é uma doença de interior de floresta. O mosquito que a transmite põe ovos em cavidades de árvores e em bromélias. É um mosquito da estrutura da floresta. Ele não se relaciona muito com grandes corpos-d’água e com rios. As cidades afetadas pela doença estão em uma região onde os rejeitos não chegaram com força para derrubar a floresta”, diz o biólogo.",
+          "source": "RODRIGUES, L. Especialistas investigam relação entre febre amarela e degradação ambiental. Agência Brasil, 25 jan. 2017."
+        }
+      ],
+      "image_url": null,
+      "statement": "Sobre a tragédia de Mariana, os textos apresentam divergência quanto ao(à)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "poluição dos rios locais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "identificação da área afetada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "destruição da vegetação nativa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "aparecimento de enfermidade endêmica.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "surgimento de comunidades desabrigadas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    }
+  ]
+}

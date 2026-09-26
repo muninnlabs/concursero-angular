@@ -1,0 +1,4332 @@
+{
+  "exam_metadata": {
+    "exam_id": "enem_2014_d1_azul",
+    "exam_name": "ENEM 2014 - 1º Dia (Caderno 1 - Azul)",
+    "institution": "INEP",
+    "year": 2014,
+    "day": 1,
+    "booklet_color": "Azul"
+  },
+  "questions": [
+    {
+      "id": "enem_2014_d1_azul_q1",
+      "question_number": 1,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q1.png"
+      ],
+      "statement": "Fon-Fon!, ano IV, n. 36, 3 set. 1910. Disponível em: objdigital.bn.br. Acesso em: 4 abr. 2014. A charge, datada de 1910, ao retratar a implantação da rede telefônica no Brasil, indica que esta",
+      "options": [
+        {
+          "letter": "A",
+          "text": "permitiria aos índios se apropriarem da telefonia móvel.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ampliaria o contato entre a diversidade de povos indígenas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "faria a comunicação sem ruídos entre grupos sociais distintos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "restringiria a sua área de atendimento aos estados do norte do país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "possibilitaria a integração das diferentes regiões do território nacional.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q2",
+      "question_number": 2,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Sou uma pobre e velha mulher, Muito ignorante, que nem sabe ler.\nMostraram-me na igreja da minha terra Um Paraíso com harpas pintado E o Inferno onde fervem almas danadas, Um enche-me de júbilo, o outro me aterra.",
+          "source": "VILLON, F. In: GOMBRICH, E. História da arte. Lisboa: LTC, 1999."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os versos do poeta francês François Villon fazem referência às imagens presentes nos templos católicos medievais.\nNesse contexto, as imagens eram usadas com o objetivo de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "refinar o gosto dos cristãos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "incorporar ideais heréticos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "educar os fiéis através do olhar.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "divulgar a genialidade dos artistas católicos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "valorizar esteticamente os templos religiosos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q3",
+      "question_number": 3,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Os dois principais rios que alimentavam o Mar de Aral, Amurdarya e Sydarya, mantiveram o nível e o volume do mar por muitos séculos. Entretanto, o projeto de estabelecer e expandir a produção de algodão irrigado aumentou a dependência de várias repúblicas da Ásia Central da irrigação e monocultura. O aumento da demanda resultou no desvio crescente de água para a irrigação, acarretando redução drástica do volume de tributários do Mar de Aral. Foi criado na Ásia Central um novo deserto, com mais de 5 milhões de hectares, como resultado da redução em volume.",
+          "source": "TUNDISI, J. G. Água no século XXI: enfrentando a escassez. São Carlos: Rima, 2003."
+        }
+      ],
+      "image_url": null,
+      "statement": "A intensa interferência humana na região descrita provocou o surgimento de uma área desértica em decorrência da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "erosão.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "salinização.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "laterização.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "compactação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "sedimentação.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q4",
+      "question_number": 4,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "É o caráter radical do que se procura que exige a radicalização do próprio processo de busca. Se todo o espaço for ocupado pela dúvida, qualquer certeza que aparecer a partir daí terá sido de alguma forma gerada pela própria dúvida, e não será seguramente nenhuma daquelas que foram anteriormente varridas por essa mesma dúvida.",
+          "source": "SILVA, F. L. Descartes: a metafísica da modernidade. São Paulo: Moderna, 2001 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Apesar de questionar os conceitos da tradição, a dúvida radical da filosofia cartesiana tem caráter positivo por contribuir para o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dissolução do saber científico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "recuperação dos antigos juízos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "exaltação do pensamento clássico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "surgimento do conhecimento inabalável.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "fortalecimento dos preconceitos religiosos. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q5",
+      "question_number": 5,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q5.png"
+      ],
+      "statement": "NEVES, E. Engraxate. Disponível em: www.grafar.blogspot.com. Acesso em: 15 fev. 2013. Considerando-se a dinâmica entre tecnologia e organização do trabalho, a representação contida no cartum é caracterizada pelo pessimismo em relação à",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ideia de progresso.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "concentração do capital.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "noção de sustentabilidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "organização dos sindicatos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "obsolescência dos equipamentos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q6",
+      "question_number": 6,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Ao deflagrar-se a crise mundial de 1929, a situação da economia cafeeira se apresentava como se segue.\nA produção, que se encontrava em altos níveis, teria que seguir crescendo, pois os produtores haviam continuado a expandir as plantações até aquele momento. Com efeito, a produção máxima seria alcançada em 1933, ou seja, no ponto mais baixo da depressão, como reflexo das grandes plantações de 1927-1928. Entretanto, era totalmente impossível obter crédito no exterior para financiar a retenção de novos estoques, pois o mercado internacional de capitais se encontrava em profunda depressão, e o crédito do governo desaparecera com a evaporação das reservas.",
+          "source": "FURTADO, C. Formação econômica do Brasil. São Paulo: Cia. Editora Nacional, 1997 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Uma resposta do Estado brasileiro à conjuntura econômica mencionada foi o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "atração de empresas estrangeiras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "reformulação do sistema fundiário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "incremento da mão de obra imigrante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "desenvolvimento de política industrial.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "financiamento de pequenos agricultores.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q7",
+      "question_number": 7,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Mas plantar pra dividir Não faço mais isso, não.\nEu sou um pobre caboclo, Ganho a vida na enxada.\nO que eu colho é dividido Com quem não planta nada.\nSe assim continuar vou deixar o meu sertão, mesmo os olhos cheios d’água e com dor no coração.\nVou pro Rio carregar massas pros pedreiros em construção.\nDeus até está ajudando: está chovendo no sertão!\nMas plantar pra dividir, Não faço mais isso, não.",
+          "source": "VALE, J.; AQUINO, J. B. Sina de caboclo. São Paulo: Polygram, 1994 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "No trecho da canção, composta na década de 1960, retrata-se a insatisfação do trabalhador rural com",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a distribuição desigual da produção.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "os financiamentos feitos ao produtor rural.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a ausência de escolas técnicas no campo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "os empecilhos advindos das secas prolongadas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a precariedade de insumos no trabalho do campo.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q8",
+      "question_number": 8,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O cidadão norte-americano desperta num leito construído segundo padrão originário do Oriente Próximo, mas modificado na Europa Setentrional antes de ser transmitido à América. Sai debaixo de cobertas feitas de algodão cuja planta se tornou doméstica na Índia.\nNo restaurante, toda uma série de elementos tomada de empréstimo o espera. O prato é feito de uma espécie de cerâmica inventada na China. A faca é de aço, liga feita pela primeira vez na Índia do Sul; o garfo é inventado na Itália medieval; a colher vem de um original romano.\nLê notícias do dia impressas em caracteres inventados pelos antigos semitas, em material inventado na China e por um processo inventado na Alemanha.",
+          "source": "LINTON, R. O homem: uma introdução à antropologia. São Paulo: Martins, 1959 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A situação descrita é um exemplo de como os costumes resultam da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "assimilação de valores de povos exóticos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "experimentação de hábitos sociais variados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "recuperação de heranças da Antiguidade Clássica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "fusão de elementos de tradições culturais diferentes.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "valorização de comportamento de grupos privilegiados. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q9",
+      "question_number": 9,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "",
+          "source": "Disponível em: http://twistedsifter.com. Acesso em: 5 nov. 2013 (adaptado)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "A Índia deu um passo alto no setor de teleatendimento para países mais desenvolvidos, como os Estados Unidos e as nações europeias. Atualmente mais de 245 mil indianos realizam ligações para todas as partes do mundo a fim de oferecer cartões de créditos ou telefones celulares ou cobrar contas em atraso.",
+          "source": "Disponível em: www.conectacallcenter.com.br. Acesso em: 12 nov. 2013 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q9.png"
+      ],
+      "statement": "Ao relacionar os textos, a explicação para o processo de territorialização descrito está no(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "aceitação das diferenças culturais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "adequação da posição geográfica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "incremento do ensino superior.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "qualidade da rede logística.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "custo da mão de obra local.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q10",
+      "question_number": 10,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O jovem espanhol Daniel se sente perdido.\nSeu diploma de desenhista industrial e seu alto conhecimento de inglês devem ajudá-lo a tomar um rumo. Mas a taxa de desemprego, que supera 52% entre os que têm menos de 25 anos, o desnorteia.\nEle está convencido de que seu futuro profissional não está na Espanha, como o de, pelo menos, 120 mil conterrâneos que emigraram nos últimos dois anos.\nO irmão dele, que é engenheiro-agrônomo, conseguiu emprego no Chile. Atualmente, Daniel participa de uma “oficina de procura de emprego” em países como Brasil, Alemanha e China. A oficina é oferecida por uma universidade espanhola.",
+          "source": "GUILAYN, P. Na Espanha, universidade ensina a emigrar. O Globo, 17 fev. 2013 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A situação ilustra uma crise econômica que implica",
+      "options": [
+        {
+          "letter": "A",
+          "text": "valorização do trabalho fabril.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "expansão dos recursos tecnológicos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "exportação de mão de obra qualificada.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "diversificação dos mercados produtivos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "intensificação dos intercâmbios estudantis.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q11",
+      "question_number": 11,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Compreende-se assim o alcance de uma reivindicação que surge desde o nascimento da cidade na Grécia antiga: a redação das leis. Ao escrevê-las, não se faz mais que assegurar-lhes permanência e fixidez.\nAs leis tornam-se bem comum, regra geral, suscetível de ser aplicada a todos da mesma maneira.",
+          "source": "VERNANT, J. P. As origens do pensamento grego. Rio de Janeiro: Bertrand Brasil, 1992 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Para o autor, a reivindicação atendida na Grécia antiga, ainda vigente no mundo contemporâneo, buscava garantir o seguinte princípio:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Isonomia — igualdade de tratamento aos cidadãos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Transparência — acesso às informações governamentais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Tripartição — separação entre os poderes políticos estatais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Equiparação — igualdade de gênero na participação política.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Elegibilidade — permissão para candidatura aos cargos públicos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q12",
+      "question_number": 12,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Panayiotis Zavos “quebrou” o último tabu da clonagem humana — transferiu embriões para o útero de mulheres, que os gerariam. Esse procedimento é crime em inúmeros países. Aparentemente, o médico possuía um laboratório secreto, no qual fazia seus experimentos. “Não tenho nenhuma dúvida de que uma criança clonada irá aparecer em breve. Posso não ser eu o médico que irá criá-la, mas vai acontecer”, declarou Zavos. “Se nos esforçarmos, podemos ter um bebê clonado daqui a um ano, ou dois, mas não sei se é o caso. Não sofremos pressão para entregar um bebê clonado ao mundo. Sofremos pressão para entregar um bebê clonado saudável ao mundo.”",
+          "source": "CONNOR, S. Disponível em: www.independent.co.uk. Acesso em: 14 ago. 2012 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A clonagem humana é um importante assunto de reflexão no campo da bioética que, entre outras questões, dedica-se a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "refletir sobre as relações entre o conhecimento da vida e os valores éticos do homem.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "legitimar o predomínio da espécie humana sobre as demais espécies animais no planeta.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "relativizar, no caso da clonagem humana, o uso dos valores de certo e errado, de bem e mal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "legalizar, pelo uso das técnicas de clonagem, os processos de reprodução humana e animal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "fundamentar técnica e economicamente as pesquisas sobre células-tronco para uso em seres humanos. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q13",
+      "question_number": 13,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Quando é meio-dia nos Estados Unidos, o Sol, todo mundo sabe, está se deitando na França. Bastaria ir à França num minuto para assistir ao pôr do sol.",
+          "source": "SAINT-EXUPÉRY, A. O Pequeno Príncipe. Rio de Janeiro: Agir, 1996."
+        }
+      ],
+      "image_url": null,
+      "statement": "A diferença espacial citada é causada por qual característica física da Terra?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Achatamento de suas regiões polares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Movimento em torno de seu próprio eixo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Arredondamento de sua forma geométrica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Variação periódica de sua distância do Sol.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Inclinação em relação ao seu plano de órbita.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q14",
+      "question_number": 14,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Uma norma só deve pretender validez quando todos os que possam ser concernidos por ela cheguem (ou possam chegar), enquanto participantes de um discurso prático, a um acordo quanto à validade dessa norma.",
+          "source": "HABERMAS, J. Consciência moral e agir comunicativo. Rio de Janeiro: Tempo Brasileiro, 1989."
+        }
+      ],
+      "image_url": null,
+      "statement": "Segundo Habermas, a validez de uma norma deve ser estabelecida pelo(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "liberdade humana, que consagra a vontade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "razão comunicativa, que requer um consenso.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "conhecimento filosófico, que expressa a verdade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "técnica científica, que aumenta o poder do homem.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "poder político, que se concentra no sistema partidário.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q15",
+      "question_number": 15,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O índio era o único elemento então disponível para ajudar o colonizador como agricultor, pescador, guia, conhecedor da natureza tropical e, para tudo isso, deveria ser tratado como gente, ter reconhecidas sua inocência e alma na medida do possível. A discussão religiosa e jurídica em torno dos limites da liberdade dos índios se confundiu com uma disputa entre jesuítas e colonos. Os padres se apresentavam como defensores da liberdade, enfrentando a cobiça desenfreada dos colonos.",
+          "source": "CALDEIRA, J. A nação mercantilista. São Paulo: Editora 34, 1999 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Entre os séculos XVI e XVIII, os jesuítas buscaram a conversão dos indígenas ao catolicismo. Essa aproximação dos jesuítas em relação ao mundo indígena foi mediada pela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "demarcação do território indígena.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "manutenção da organização familiar.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "valorização dos líderes religiosos indígenas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "preservação do costume das moradias coletivas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "comunicação pela língua geral baseada no tupi.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q16",
+      "question_number": 16,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q16-1.png",
+        "assets/images/enem_2014_cd1_q16-2.png",
+        "assets/images/enem_2014_cd1_q16-3.png",
+        "assets/images/enem_2014_cd1_q16-4.png",
+        "assets/images/enem_2014_cd1_q16-5.png"
+      ],
+      "statement": "Queijo de Minas vira patri O modo artesanal da fabricação do queijo em Minas G cultural imaterial brasileiro pelo Conselho Consultivo do Ins O veredicto foi dado em reunião do conselho realizada no M do Iphan e do conselho ressaltou que a técnica de fabrica ser mineiro”.\nEntre os bens que compõem o patrimônio nacional, o representado em:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mosteiro de São Bento (RJ)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Tiradentes esquartejado (1893), de Pedro Américo",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ofício das paneleiras de Goiabeiras (ES) 2014 imônio cultural brasileiro Gerais foi registrado nesta quinta-feira (15) como patrimônio stituto do Patrimônio Histórico e Artístico Nacional (Iphan).\nMuseu de Artes e Ofícios, em Belo Horizonte. O presidente ação artesanal do queijo está “inserida na cultura do que é Folha de S. Paulo, 15 maio 2008. que pertence à mesma categoria citada no texto está",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Conjunto arquitetônico e urbanístico da cidade de Ouro Preto (MG)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Sítio arqueológico e paisagístico da Ilha do Campeche (SC)",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q17",
+      "question_number": 17,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q17.png"
+      ],
+      "statement": "PAIVA, M. Disponível em: www.redes.unb.br. Acesso em: 25 maio 2014. A discussão levantada na charge, publicada logo após a promulgação da Constituição de 1988, faz referência ao seguinte conjunto de direitos:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Civis, como o direito à vida, à liberdade de expressão e à propriedade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sociais, como direito à educação, ao trabalho e à proteção à maternidade e à infância.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Difusos, como direito à paz, ao desenvolvimento sustentável e ao meio ambiente saudável.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Coletivos, como direito à organização sindical, à participação partidária e à expressão religiosa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Políticos, como o direito de votar e ser votado, à soberania popular e à participação democrática.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q18",
+      "question_number": 18,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Todo homem de bom juízo, depois que tiver realizado sua viagem, reconhecerá que é um milagre manifesto ter podido escapar de todos os perigos que se apresentam em sua peregrinação; tanto mais que há tantos outros acidentes que diariamente podem aí ocorrer que seria coisa pavorosa àqueles que aí navegam querer pô-los todos diante dos olhos quando querem empreender suas viagens.",
+          "source": "J. P. T. Histoire de plusieurs voyages aventureux. 1600. In: DELUMEAU, J. História do medo no Ocidente: 1300-1800. São Paulo: Cia. das Letras, 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Esse relato, associado ao imaginário das viagens marítimas da época moderna, expressa um sentimento de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "gosto pela aventura.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "fascínio pelo fantástico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "temor do desconhecido.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "interesse pela natureza.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "purgação dos pecados. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q19",
+      "question_number": 19,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "Olhamos o homem alheio às atividades públicas não como alguém que cuida apenas de seus próprios interesses, mas como um inútil; nós, cidadãos atenienses, decidimos as questões públicas por nós mesmos na crença de que não é o debate que é empecilho à ação, e sim o fato de não se estar esclarecido pelo debate antes de chegar a hora da ação.",
+          "source": "TUCÍDIDES. História da Guerra do Peloponeso. Brasília: UnB, 1987 (adaptado)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Um cidadão integral pode ser definido por nada mais nada menos que pelo direito de administrar justiça e exercer funções públicas; algumas destas, todavia, são limitadas quanto ao tempo de exercício, de tal modo que não podem de forma alguma ser exercidas duas vezes pela mesma pessoa, ou somente podem sê-lo depois de certos intervalos de tempo prefixados.",
+          "source": "ARISTÓTELES. Política. Brasília: UnB, 1985."
+        }
+      ],
+      "image_url": null,
+      "statement": "Comparando os textos I e II, tanto para Tucídides (no século V a.C.) quanto para Aristóteles (no século IV a.C.), a cidadania era definida pelo(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "prestígio social.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "acúmulo de riqueza.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "participação política.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "local de nascimento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "grupo de parentesco.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q20",
+      "question_number": 20,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Antes de o sol começar a esquentar as terras da faixa ao sul do Saara conhecida como Sahel, duas dezenas de mulheres da aldeia de Widou, no norte do Senegal, regam a horta cujas frutas e verduras alimentam a população local. É um pequeno terreno que, visto do céu, forma uma mancha verde — um dos primeiros pedaços da “Grande Muralha Verde”, barreira vegetal que se estenderá por 7 000 km do Senegal ao Djibuti, e é parte de um plano conjunto de vinte países africanos.",
+          "source": "GIORGI, J. Muralha verde. Folha de S. Paulo, 20 maio 2013 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O projeto ambiental descrito proporciona a seguinte consequência regional imediata:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Facilita as trocas comerciais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Soluciona os conflitos fundiários.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Restringe a diversidade biológica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Fomenta a atividade de pastoreio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Evita a expansão da desertificação.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q21",
+      "question_number": 21,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Estatuto da Frente Negra Brasileira (FNB)\nArt. 1º - Fica fundada nesta cidade de São Paulo, para se irradiar por todo o Brasil, a Frente Negra Brasileira, união política e social da Gente Negra Nacional, para a afirmação dos direitos históricos da mesma, em virtude da sua atividade material e moral no passado e para reivindicação de seus direitos sociais e políticos, atuais, na Comunhão Brasileira.",
+          "source": "Diário Oficial do Estado de São Paulo, 4 nov. 1931."
+        }
+      ],
+      "image_url": null,
+      "statement": "Quando foi fechada pela ditadura do Estado Novo, em 1937, a FNB caracterizava-se como uma organização",
+      "options": [
+        {
+          "letter": "A",
+          "text": "política, engajada na luta por direitos sociais para a população negra no Brasil.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "beneficente, dedicada ao auxílio dos negros pobres brasileiros depois da abolição.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "paramilitar, voltada para o alistamento de negros na luta contra as oligarquias regionais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "democrático-liberal, envolvida na Revolução Constitucionalista conduzida a partir de São Paulo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "internacionalista, ligada à exaltação da identidade das populações africanas em situação de diáspora.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q22",
+      "question_number": 22,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No século XIX, o preço mais alto dos terrenos situados no centro das cidades é causa da especialização dos bairros e de sua diferenciação social. Muitas pessoas, que não têm meios de pagar os altos aluguéis dos bairros elegantes, são progressivamente rejeitadas para a periferia, como os subúrbios e os bairros mais afastados.",
+          "source": "RÉMOND, R. O século XIX. São Paulo: Cultrix, 1989 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Uma consequência geográfica do processo socioespacial descrito no texto é a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "criação de condomínios fechados de moradia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "decadência das áreas centrais de comércio popular.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "aceleração do processo conhecido como cercamento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "ampliação do tempo de deslocamento diário da população.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "contenção da ocupação de espaços sem infraestrutura satisfatória.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q23",
+      "question_number": 23,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Três décadas — de 1884 a 1914 — separam o século XIX — que terminou com a corrida dos países europeus para a África e com o surgimento dos movimentos de unificação nacional na Europa — do século XX, que começou com a Primeira Guerra Mundial. É o período do Imperialismo, da quietude estagnante na Europa e dos acontecimentos empolgantes na Ásia e na África.\nARENDT, H. As origens do totalitarismo. São Paulo: Cia. das Letras, 2012. 2014 O processo histórico citado contribuiu para a eclosão da Primeira Grande Guerra na medida em que",
+          "source": null
+        }
+      ],
+      "image_url": null,
+      "statement": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "difundiu as teorias socialistas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "acirrou as disputas territoriais.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "superou as crises econômicas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "multiplicou os conflitos religiosos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "conteve os sentimentos xenófobos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q24",
+      "question_number": 24,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Alguns dos desejos são naturais e necessários; outros, naturais e não necessários; outros, nem naturais nem necessários, mas nascidos de vã opinião.\nOs desejos que não nos trazem dor se não satisfeitos não são necessários, mas o seu impulso pode ser facilmente desfeito, quando é difícil obter sua satisfação ou parecem geradores de dano.\nEPICURO DE SAMOS. Doutrinas principais. In: SANSON, V. F. Textos de filosofia.",
+          "source": "Rio de Janeiro: Eduff, 1974."
+        }
+      ],
+      "image_url": null,
+      "statement": "No fragmento da obra filosófica de Epicuro, o homem tem como fim",
+      "options": [
+        {
+          "letter": "A",
+          "text": "alcançar o prazer moderado e a felicidade.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "valorizar os deveres e as obrigações sociais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "aceitar o sofrimento e o rigorismo da vida com resignação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "refletir sobre os valores e as normas dadas pela divindade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "defender a indiferença e a impossibilidade de se atingir o saber.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q25",
+      "question_number": 25,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q25.png"
+      ],
+      "statement": "SANZIO, R. Detalhe do afresco A Escola de Atenas. Disponível em: http://fil.cfh.ufsc.br. Acesso em: 20 mar. 2013. No centro da imagem, o filósofo Platão é retratado apontando para o alto. Esse gesto significa que o conhecimento se encontra em uma instância na qual o homem descobre a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "suspensão do juízo como reveladora da verdade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "realidade inteligível por meio do método dialético.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "salvação da condição mortal pelo poder de Deus.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "essência das coisas sensíveis no intelecto divino.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ordem intrínseca ao mundo por meio da sensibilidade. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q26",
+      "question_number": 26,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Região Metropolitana de Belo Horizonte Confins Ribeirão Vespasiano das Santa Luzia Neves Contagem Belo Horizonte Sabará Betim Ibirité Nova Lima Saldo do deslocamento Fluxo de pessoas –75 275 a –31 400 15 000 a 31 400 –31 399 a 0 31 401 a 58 300 0 a 19 168 58 301 a 103 200 Itabirito 19 169 a 293 119 limite de município Nota: O saldo considera apenas as pessoas que se deslocavam para o trabalho e retornavam aos seus municípios diariamente.",
+          "source": "BRASIL. IBGE. Atlas do censo demográfico 2010 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q26.png"
+      ],
+      "statement": "O fluxo migratório representado está associado ao processo de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fuga de áreas degradadas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "inversão da hierarquia urbana.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "busca por amenidades ambientais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "conurbação entre municípios contíguos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "desconcentração dos investimentos produtivos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q27",
+      "question_number": 27,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A urbanização brasileira, no início da segunda metade do século XX, promoveu uma radical alteração nas cidades.\nRuas foram alargadas, túneis e viadutos foram construídos. O bonde foi a primeira vítima fatal. O destino do sistema ferroviário não foi muito diferente. O transporte coletivo saiu definitivamente dos trilhos.",
+          "source": "JANOT, L. F. A caminho de Guaratiba. Disponível em: www.iab.org.br. Acesso em: 9 jan. 2014 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A relação entre transportes e urbanização é explicada, no texto, pela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "retirada dos investimentos estatais aplicados em transporte de massa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "demanda por transporte individual ocasionada pela expansão da mancha urbana.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "presença hegemônica do transporte alternativo localizado nas periferias das cidades.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "aglomeração do espaço urbano metropolitano impedindo a construção do transporte metroviário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "predominância do transporte rodoviário associado à penetração das multinacionais automobilísticas.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q28",
+      "question_number": 28,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A Comissão Nacional da Verdade (CNV) reuniu representantes de comissões estaduais e de várias instituições para apresentar um balanço dos trabalhos feitos e assinar termos de cooperação com quatro organizações. O coordenador da CNV estima que, até o momento, a comissão examinou, “por baixo”, cerca de 30 milhões de páginas de documentos e fez centenas de entrevistas.",
+          "source": "Disponível em: www.jb.com.br. Acesso em: 2 mar. 2013 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A notícia descreve uma iniciativa do Estado que resultou da ação de diversos movimentos sociais no Brasil diante de eventos ocorridos entre 1964 e 1988. O objetivo dessa iniciativa é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "anular a anistia concedida aos chefes militares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "rever as condenações judiciais aos presos políticos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "perdoar os crimes atribuídos aos militantes esquerdistas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "comprovar o apoio da sociedade aos golpistas anticomunistas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "esclarecer as circunstâncias de violações aos direitos humanos. 2014",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q29",
+      "question_number": 29,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A filosofia encontra-se escrita neste grande livro que continuamente se abre perante nossos olhos (isto é, o universo), que não se pode compreender antes de entender a língua e conhecer os caracteres com os quais está escrito. Ele está escrito em língua matemática, os caracteres são triângulos, circunferências e outras figuras geométricas, sem cujos meios é impossível entender humanamente as palavras; sem eles, vagamos perdidos dentro de um obscuro labirinto.",
+          "source": "GALILEI, G. O ensaiador. Os pensadores. São Paulo: Abril Cultural, 1978."
+        }
+      ],
+      "image_url": null,
+      "statement": "No contexto da Revolução Científica do século XVII, assumir a posição de Galileu significava defender a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "continuidade do vínculo entre ciência e fé dominante na Idade Média.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "necessidade de o estudo linguístico ser acompanhado",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "oposição da nova física quantitativa aos pressupostos da filosofia escolástica.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "importância da independência da investigação científica pretendida pela Igreja.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "inadequação da matemática para elaborar uma explicação racional da natureza.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q30",
+      "question_number": 30,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Parecer CNE/CP nº 3/2004, que instituiu as Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana.\nProcura-se oferecer uma resposta, entre outras, na área da educação, à demanda da população afrodescendente, no sentido de políticas de ações afirmativas. Propõe a divulgação e a produção de conhecimentos, a formação de atitudes, posturas que eduquem cidadãos orgulhosos de seu pertencimento étnico-racial — descendentes de africanos, povos indígenas, descendentes de europeus, de asiáticos — para interagirem na construção de uma nação democrática, em que todos igualmente tenham seus direitos garantidos.",
+          "source": "BRASIL. Conselho Nacional de Educação. Disponível em: www.semesp.org.br. Acesso em: 21 nov. 2013 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A orientação adotada por esse parecer fundamenta uma política pública e associa o princípio da inclusão social a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "práticas de valorização identitária.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "medidas de compensação econômica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "dispositivos de liberdade de expressão.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "estratégias de qualificação profissional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "instrumentos de modernização jurídica.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q31",
+      "question_number": 31,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A Praça da Concórdia, antiga Praça Luís XV, é a maior praça pública de Paris. Inaugurada em 1763, tinha em seu centro uma estátua do rei. Situada ao longo do Sena, ela é a intersecção de dois eixos monumentais. Bem nesse cruzamento está o Obelisco de Luxor, decorado com hieróglifos que contam os reinados dos faraós Ramsés II e Ramsés III. Em 1829, foi oferecido pelo vice-rei do Egito ao povo francês e, em 1836, instalado na praça diante de mais de 200 mil espectadores e da família real.",
+          "source": "NOBLAT, R. Disponível em: www.oglobo.com. Acesso em: 12 dez. 2012."
+        }
+      ],
+      "image_url": null,
+      "statement": "A constituição do espaço público da Praça da Concórdia ao longo dos anos manifesta o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "lugar da memória na história nacional.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "caráter espontâneo das festas populares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "lembrança da antiguidade da cultura local.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "triunfo da nação sobre os países africanos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "declínio do regime de monarquia absolutista. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q32",
+      "question_number": 32,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Em 1879, cerca de cinco mil pessoas reuniram-se para solicitar a D. Pedro II a revogação de uma taxa de 20 réis, um vintém, sobre o transporte urbano.\nO vintém era a moeda de menor valor da época. A polícia não permitiu que a multidão se aproximasse do palácio. Ao grito de “Fora o vintém!”, os manifestantes espancaram condutores, esfaquearam mulas, viraram bondes e arrancaram trilhos. Um oficial ordenou fogo contra a multidão. As estatísticas de mortos e feridos são imprecisas. Muitos interesses se fundiram nessa revolta, de grandes e de políticos, de gente miúda e de simples cidadãos. Desmoralizado, o ministério caiu. Uma grande explosão social, detonada por um pobre vintém.",
+          "source": "Disponível em: www.revistadehistoria.com.br. Acesso em: 4 abr. 2014 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A leitura do trecho indica que a coibição violenta das manifestações representou uma tentativa de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "capturar os ativistas radicais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "proteger o patrimônio privado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "salvaguardar o espaço público.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "conservar o exercício do poder.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "sustentar o regime democrático.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q33",
+      "question_number": 33,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Existe uma cultura política que domina o sistema e é fundamental para entender o conservadorismo brasileiro. Há um argumento, partilhado pela direita e pela esquerda, de que a sociedade brasileira é conservadora.\nIsso legitimou o conservadorismo do sistema político: existiriam limites para transformar o país, porque a sociedade é conservadora, não aceita mudanças bruscas.\nIsso justifica o caráter vagaroso da redemocratização e da redistribuição da renda. Mas não é assim. A sociedade é muito mais avançada que o sistema político. Ele se mantém porque consegue convencer a sociedade de que é a expressão dela, de seu conservadorismo.",
+          "source": "NOBRE, M. Dois ismos que não rimam. Disponível em: www.unicamp.br. Acesso em: 28 mar. 2014 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A característica do sistema político brasileiro, ressaltada no texto, obtém sua legitimidade da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dispersão regional do poder econômico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "polarização acentuada da disputa partidária.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "orientação radical dos movimentos populares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "condução eficiente das ações administrativas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "sustentação ideológica das desigualdades existentes.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q34",
+      "question_number": 34,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q34.png"
+      ],
+      "statement": "Disponível em: www.banktrack.org. Acesso em: 7 maio 2013 (adaptado). A imagem indica pontos com ativo uso de tecnologia, correspondentes a que processo de intervenção no espaço?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Expansão das áreas agricultáveis, com uso intensivo de maquinário e insumos agrícolas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Recuperação de águas eutrofizadas em decorrência da contaminação por esgoto doméstico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Ampliação da capacidade de geração de energia, com alteração do ecossistema local.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Impermeabilização do solo pela construção civil nas áreas de expansão urbana.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Criação recente de grandes parques industriais de mediano potencial poluidor.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q35",
+      "question_number": 35,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A convecção na Região Amazônica é um importante mecanismo da atmosfera tropical e sua variação, em termos de intensidade e posição, tem um papel importante na determinação do tempo e do clima dessa região. A nebulosidade e o regime de precipitação determinam o clima amazônico.",
+          "source": "FISCH, G.; MARENGO, J. A.; NOBRE, C. A. Uma revisão geral sobre o clima da Amazônia. Acta Amazônica, v. 28, n. 2, 1998 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O mecanismo climático regional descrito está associado à característica do espaço físico de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "resfriamento da umidade da superfície.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "variação da amplitude de temperatura.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "dispersão dos ventos contra-alísios.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "existência de barreiras de relevo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "convergência de fluxos de ar. 2014",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q36",
+      "question_number": 36,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q36.png"
+      ],
+      "statement": "Disponível em: www.telescopionaescola.pro.br. Acesso em: 3 abr. 2014 (adaptado). A partir da análise da imagem, o aparecimento da Dorsal Mesoatlântica está associada ao(à)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "separação da Pangeia a partir do período Permiano.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "deslocamento de fraturas no período Triássico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "afastamento da Europa no período Jurássico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "formação do Atlântico Sul no período Cretáceo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "constituição de orogêneses no período Quaternário. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q37",
+      "question_number": 37,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q37.png"
+      ],
+      "statement": "Disponível em: www.ipea.gov.br. Acesso em: 2 ago. 2013. Na imagem, é ressaltado, em tom mais escuro, um grupo de países que na atualidade possuem características político-econômicas comuns, no sentido de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "adotarem o liberalismo político na dinâmica dos seus setores públicos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "constituírem modelos de ações decisórias vinculadas à social-democracia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "instituírem fóruns de discussão sobre intercâmbio multilateral de economias emergentes.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "promoverem a integração representativa dos diversos povos integrantes de seus territórios.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apresentarem uma frente de desalinhamento político aos polos dominantes do sistema-mundo.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q38",
+      "question_number": 38,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q38.png"
+      ],
+      "statement": "Disponível em: http://sys2.sbgf.org.br. Acesso em: 13 maio 2013 (adaptado). A preservação da sustentabilidade do recurso natural exposto pressupõe",
+      "options": [
+        {
+          "letter": "A",
+          "text": "impedir a perfuração de poços.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "coibir o uso pelo setor residencial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "substituir as leis ambientais vigentes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "reduzir o contingente populacional na área.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "introduzir a gestão participativa entre os municípios.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q39",
+      "question_number": 39,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O problema central a ser resolvido pelo Novo Regime era a organização de outro pacto de poder que pudesse substituir o arranjo imperial com grau suficiente de estabilidade. O próprio presidente Campos Sales resumiu claramente seu objetivo: “É de lá, dos estados, que se governa a República, por cima das multidões que tumultuam agitadas nas ruas da capital da União.\nA política dos estados é a política nacional”.",
+          "source": "CARVALHO, J. M. Os Bestializados: o Rio de Janeiro e a República que não foi. São Paulo: Companhia das Letras, 1987 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Nessa citação, o presidente do Brasil no período expressa uma estratégia política no sentido de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "governar com a adesão popular.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "atrair o apoio das oligarquias regionais.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "conferir maior autonomia às prefeituras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "democratizar o poder do governo central.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ampliar a influência da capital no cenário nacional.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q40",
+      "question_number": 40,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A Estrada de Ferro Noroeste do Brasil, que começa a ser construída apenas em 1905, foi criada, ao contrário das outras grandes ferrovias paulistas, para ser uma ferrovia de penetração, buscando novas áreas para a agricultura e povoamento. Até 1890, o café era quem ditava o traçado das ferrovias, que eram vistas apenas como auxiliadoras da produção cafeeira.",
+          "source": "CARVALHO, D. F. Café, ferrovias e crescimento populacional: o florescimento da região noroeste paulista. Disponível em: www.historica.arquivoestado.sp.gov.br. Acesso em: 2 ago. 2012."
+        }
+      ],
+      "image_url": null,
+      "statement": "Essa nova orientação dada à expansão ferroviária, durante a Primeira República, tinha como objetivo a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "articulação de polos produtores para exportação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "criação de infraestrutura para atividade industrial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "integração de pequenas propriedades policultoras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "valorização de regiões de baixa densidade demográfica.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "promoção de fluxos migratórios do campo para a cidade. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q41",
+      "question_number": 41,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Em 1961, o presidente De Gaulle apelou com êxito aos recrutas franceses contra o golpe militar dos seus comandados, porque os soldados podiam ouvi-lo em rádios portáteis. Na década de 1970, os discursos do aiatolá Khomeini, líder exilado da futura Revolução Iraniana, eram gravados em fita magnética e prontamente levados para o Irã, copiados e difundidos.",
+          "source": "HOBSBAWM, E. Era dos extremos: o breve século XX (1914-1991). São Paulo: Cia. das Letras, 1995."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os exemplos mencionados no texto evidenciam um uso dos meios de comunicação identificado na",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manipulação da vontade popular.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "promoção da mobilização política.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "insubordinação das tropas militares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "implantação de governos autoritários.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "valorização dos socialmente desfavorecidos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q42",
+      "question_number": 42,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "O presidente do jornal de maior circulação do país destacava também os avanços econômicos obtidos naqueles vinte anos, mas, ao justificar sua adesão aos militares em 1964, deixava clara sua crença de que a intervenção fora imprescindível para a manutenção da democracia.",
+          "source": "Disponível em: http://oglobo.globo.com. Acesso em: 1 set. 2013 (adaptado)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Nada pode ser colocado em compensação à perda das liberdades individuais. Não existe nada de bom quando se aceita uma solução autoritária.",
+          "source": "FICO, C. A educação e o golpe de 1964. Disponível em: www.brasilrecente.com. Acesso em: 4 abr. 2014 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Embora enfatizem a defesa da democracia, as visões do movimento político-militar de 1964 divergem ao focarem, respectivamente:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Razões de Estado — Soberania popular.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "Ordenação da Nação — Prerrogativas religiosas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Imposição das Forças Armadas — Deveres sociais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Normatização do Poder Judiciário — Regras morais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Contestação do sistema de governo — Tradições culturais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q43",
+      "question_number": 43,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A transferência da corte trouxe para a América portuguesa a família real e o governo da Metrópole. Trouxe também, e sobretudo, boa parte do aparato administrativo português. Personalidades diversas e funcionários régios continuaram embarcando para o Brasil atrás da corte, dos seus empregos e dos seus parentes após o ano de 1808.",
+          "source": "NOVAIS, F. A.; ALENCASTRO, L. F. (Org.). História da vida privada no Brasil. São Paulo: Cia. das Letras, 1997."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os fatos apresentados se relacionam ao processo de independência da América portuguesa por terem",
+      "options": [
+        {
+          "letter": "A",
+          "text": "incentivado o clamor popular por liberdade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "enfraquecido o pacto de dominação metropolitana.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "motivado as revoltas escravas contra a elite colonial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "obtido o apoio do grupo constitucionalista português.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "provocado os movimentos separatistas das províncias.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q44",
+      "question_number": 44,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Respeitar a diversidade de circunstâncias entre as pequenas sociedades locais que constituem uma mesma nacionalidade, tal deve ser a regra suprema das leis internas de cada Estado. As leis municipais seriam as cartas de cada povoação doadas pela assembleia provincial, alargadas conforme o seu desenvolvimento, alteradas segundo os conselhos da experiência. Então, administrar-se-ia de perto, governar-se-ia de longe, alvo a que jamais se atingirá de outra sorte.",
+          "source": "BASTOS, T. A província (1870). São Paulo: Cia. Editora Nacional, 1937 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O discurso do autor, no período do Segundo Reinado no Brasil, tinha como meta a implantação do",
+      "options": [
+        {
+          "letter": "A",
+          "text": "regime monárquico representativo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "sistema educacional democrático.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "modelo territorial federalista.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "padrão político autoritário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "poder oligárquico regional. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q45",
+      "question_number": 45,
+      "subject": "Ciências Humanas e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "De volta do Paraguai",
+          "content": "Cheio de glória, coberto de louros, depois de ter derramado seu sangue em defesa da pátria e libertado um povo da escravidão, o voluntário volta ao seu país natal para ver sua mãe amarrada a um tronco horrível de realidade!...",
+          "source": "AGOSTINI. A vida fluminense, ano 3, n. 128, 11 jun. 1870. In: LEMOS, R. (Org.). Uma história do Brasil através da caricatura (1840-2001). Rio de Janeiro: Letras & Expressões, 2001 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q45.png"
+      ],
+      "statement": "Na charge, identifica-se uma contradição no retorno de parte dos “Voluntários da Pátria” que lutaram na Guerra do Paraguai (1864-1870), evidenciada na",
+      "options": [
+        {
+          "letter": "A",
+          "text": "negação da cidadania aos familiares cativos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "concessão de alforrias aos militares escravos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "perseguição dos escravistas aos soldados negros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "punição dos feitores aos recrutados compulsoriamente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "suspensão das indenizações aos proprietários prejudicados.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q46",
+      "question_number": 46,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Christiaan Huygens, em 1656, criou o relógio de pêndulo. Nesse dispositivo, a pontualidade baseia-se na regularidade das pequenas oscilações do pêndulo. Para manter a precisão desse relógio, diversos problemas foram contornados. Por exemplo, a haste passou por ajustes até que, no início do século XX, houve uma inovação, que foi sua fabricação usando uma liga metálica que se comporta regularmente em um largo intervalo de temperaturas.",
+          "source": "YODER, J. G. Unrolling Time: Christiaan Huygens and the mathematization of nature. Cambridge: Cambridge University Press, 2004 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Desprezando a presença de forças dissipativas e considerando a aceleração da gravidade constante, para que esse tipo de relógio realize corretamente a contagem do tempo, é necessário que o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "comprimento da haste seja mantido constante.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "massa do corpo suspenso pela haste seja pequena.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "material da haste possua alta condutividade térmica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "amplitude da oscilação seja constante a qualquer temperatura.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "energia potencial gravitacional do corpo suspenso se mantenha constante.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q47",
+      "question_number": 47,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Na década de 1940, na Região Centro-Oeste, produtores rurais, cujos bois, porcos, aves e cabras estavam morrendo por uma peste desconhecida, fizeram uma promessa, que consistiu em não comer carne e derivados até que a peste fosse debelada. Assim, durante três meses, arroz, feijão, verduras e legumes formaram o prato principal desses produtores.",
+          "source": "O Hoje, 15 out. 2011 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Para suprir o déficit nutricional a que os produtores rurais se submeteram durante o período da promessa, foi importante eles terem consumido alimentos ricos em",
+      "options": [
+        {
+          "letter": "A",
+          "text": "vitaminas A e E.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "frutose e sacarose.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "aminoácidos naturais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "aminoácidos essenciais.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "ácidos graxos saturados. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q48",
+      "question_number": 48,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A liberação dos gases clorofluorcarbonos (CFCs) na atmosfera pode provocar depleção de ozônio (O ) na 3 estratosfera. O ozônio estratosférico é responsável por absorver parte da radiação ultravioleta emitida pelo Sol, a qual é nociva aos seres vivos. Esse processo, na camada de ozônio, é ilustrado simplificadamente na figura.\nLegenda C F + CI O hν + Quimicamente, a destruição do ozônio na atmosfera por gases CFCs é decorrência da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "clivagem da molécula de ozônio pelos CFCs para produzir espécies radicalares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "produção de oxigênio molecular a partir de ozônio, catalisada por átomos de cloro.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "oxidação do monóxido de cloro por átomos de oxigênio para produzir átomos de cloro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "reação direta entre os CFCs e o ozônio para produzir oxigênio molecular e monóxido de cloro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "reação de substituição de um dos átomos de oxigênio na molécula de ozônio por átomos de cloro.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q49",
+      "question_number": 49,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O potencial brasileiro para transformar lixo em energia permanece subutilizado — apenas pequena parte dos resíduos brasileiros é utilizada para gerar energia.\nContudo, bons exemplos são os aterros sanitários, que utilizam a principal fonte de energia ali produzida.\nAlguns aterros vendem créditos de carbono com base no Mecanismo de Desenvolvimento Limpo (MDL), do Protocolo de Kyoto.\nEssa fonte de energia subutilizada, citada no texto, é o",
+      "options": [
+        {
+          "letter": "A",
+          "text": "etanol, obtido a partir da decomposição da matéria orgânica por bactérias.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "gás natural, formado pela ação de fungos decompositores da matéria orgânica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "óleo de xisto, obtido pela decomposição da matéria orgânica pelas bactérias anaeróbias.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "gás metano, obtido pela atividade de bactérias anaeróbias na decomposição da matéria orgânica.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "gás liquefeito de petróleo, obtido pela decomposição de vegetais presentes nos restos de comida.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q50",
+      "question_number": 50,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "É comum aos fotógrafos tirar fotos coloridas em ambientes iluminados por lâmpadas fluorescentes, que contêm uma forte composição de luz verde.\nA consequência desse fato na fotografia é que todos os objetos claros, principalmente os brancos, aparecerão esverdeados. Para equilibrar as cores, deve-se usar um filtro adequado para diminuir a intensidade da luz verde que chega aos sensores da câmera fotográfica.\nNa escolha desse filtro, utiliza-se o conhecimento da composição das cores-luz primárias: vermelho, verde e azul; e das cores-luz secundárias: amarelo = vermelho + verde, ciano = verde + azul e magenta = vermelho + azul.",
+          "source": "Disponível em: http://nautilus.fis.uc.pt. Acesso em: 20 maio 2014 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Na situação descrita, qual deve ser o filtro utilizado para que a fotografia apresente as cores naturais dos objetos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ciano.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Verde.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Amarelo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Magenta.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Vermelho.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q51",
+      "question_number": 51,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Para impedir a contaminação microbiana do suprimento de água, deve-se eliminar as emissões de efluentes e, quando necessário, tratá-lo com desinfetante.\nO ácido hipocloroso (HClO), produzido pela reação entre cloro e água, é um dos compostos mais empregados como desinfetante. Contudo, ele não atua somente como oxidante, mas também como um ativo agente de cloração.\nA presença de matéria orgânica dissolvida no suprimento de água clorada pode levar à formação de clorofórmio (CHCl ) e outras espécies orgânicas cloradas tóxicas. 3 SPIRO, T. G.; STIGLIANI, W. M. Química ambiental.",
+          "source": "São Paulo: Pearson, 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Visando eliminar da água o clorofórmio e outras moléculas orgânicas, o tratamento adequado é a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "filtração, com o uso de filtros de carvão ativo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "fluoretação, pela adição de fluoreto de sódio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "coagulação, pela adição de sulfato de alumínio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "correção do pH, pela adição de carbonato de sódio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "floculação, em tanques de concreto com a água em movimento. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q52",
+      "question_number": 52,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A talidomida é um sedativo leve e foi muito utilizado no tratamento de náuseas, comuns no início da gravidez.\nQuando foi lançada, era considerada segura para o uso de grávidas, sendo administrada como uma mistura racêmica composta pelos seus dois enantiômeros (R e S). Entretanto, não se sabia, na época, que o enantiômero S leva à malformação congênita, afetando principalmente o desenvolvimento normal dos braços e pernas do bebê.",
+          "source": "COELHO, F. A. S. Fármacos e quiralidade. Cadernos Temáticos de Química Nova na Escola, São Paulo, n. 3, maio 2001 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Essa malformação congênita ocorre porque esses enantiômeros",
+      "options": [
+        {
+          "letter": "A",
+          "text": "reagem entre si.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "não podem ser separados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "não estão presentes em partes iguais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "interagem de maneira distinta com o organismo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "são estruturas com diferentes grupos funcionais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q53",
+      "question_number": 53,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Embora seja um conceito fundamental para a biologia, o termo “evolução” pode adquirir significados diferentes no senso comum. A ideia de que a espécie humana é o ápice do processo evolutivo é amplamente difundida, mas não é compartilhada por muitos cientistas.\nPara esses cientistas, a compreensão do processo citado baseia-se na ideia de que os seres vivos, ao longo do tempo, passam por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "modificação de características.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "incremento no tamanho corporal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "complexificação de seus sistemas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "melhoria de processos e estruturas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "especialização para uma determinada finalidade.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q54",
+      "question_number": 54,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O biodiesel não é classificado como uma substância pura, mas como uma mistura de ésteres derivados dos ácidos graxos presentes em sua matéria-prima. As propriedades do biodiesel variam com a composição do óleo vegetal ou gordura animal que lhe deu origem, por exemplo, o teor de ésteres saturados é responsável pela maior estabilidade do biodiesel frente à oxidação, o que resulta em aumento da vida útil do biocombustível. O quadro ilustra o teor médio de ácidos graxos de algumas fontes oleaginosas.\nTeor médio do ácido graxo (% em massa)\nFonte Mirístico Palmítico Esteárico Oleico Linoleico Linolênico oleaginosa (C14:0) (C16:0) (C18:0) (C18:1) (C18:2) (C18:3)",
+          "source": "Milho < 0,1 11,7 1,9 25,2 60,6 0,5 Palma 1,0 42,8 4,5 40,5 10,1 0,2 Canola < 0,2 3,5 0,9 64,4 22,3 8,2 Algodão 0,7 20,1 2,6 19,2 55,2 0,6 Amendoim < 0,6 11,4 2,4 48,3 32,0 0,9 MA, F.; HANNA, M. A. Biodiesel Production: a review. Bioresource Technology, Londres, v. 70, n. 1, jan. 1999 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Qual das fontes oleaginosas apresentadas produziria um biodiesel de maior resistência à oxidação?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Milho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Palma.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Canola.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Algodão.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Amendoim.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q55",
+      "question_number": 55,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma pessoa, lendo o manual de uma ducha que acabou de adquirir para a sua casa, observa o gráfico, que relaciona a vazão na ducha com a pressão, medida em metros de coluna de água (mca). )nim/L( oãzaV 14 12 10 8 6 4 2 0 1 2 3 4 5 6 7 8 9 Pressão Estática (mca)\nNessa casa residem quatro pessoas. Cada uma delas toma um banho por dia, com duração média de 8 minutos, permanecendo o registro aberto com vazão máxima durante esse tempo. A ducha é instalada em um ponto seis metros abaixo do nível da lâmina de água, que se mantém constante dentro do reservatório.\nAo final de 30 dias, esses banhos consumirão um volume de água, em litros, igual a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "69 120.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "17 280.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "11 520.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "8 640.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2 880. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q56",
+      "question_number": 56,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Diesel é uma mistura de hidrocarbonetos que também apresenta enxofre em sua composição. Esse enxofre é um componente indesejável, pois o trióxido de enxofre gerado é um dos grandes causadores da chuva ácida.\nNos anos 1980, não havia regulamentação e era utilizado óleo diesel com 13 000 ppm de enxofre. Em 2009, o diesel passou a ter 1 800 ppm de enxofre (S1800) e, em seguida, foi inserido no mercado o diesel S500 (500 ppm).\nEm 2012, foi difundido o diesel S50, com 50 ppm de enxofre em sua composição. Atualmente, é produzido um diesel com teores de enxofre ainda menores.",
+          "source": "Os impactos da má qualidade do óleo diesel brasileiro. Disponível em: www.cnt.org.br. Acesso em: 20 dez. 2012 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A substituição do diesel usado nos anos 1980 por aquele difundido em 2012 permitiu uma redução percentual de emissão de SO de 3",
+      "options": [
+        {
+          "letter": "A",
+          "text": "86,2%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "96,2%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "97,2%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "99,6%.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "99,9%.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q57",
+      "question_number": 57,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um sistema de iluminação foi construído com um circuito de três lâmpadas iguais conectadas a um gerador (G) de tensão constante. Esse gerador possui uma chave que pode ser ligada nas posições A ou B. 1 2 X X 3 X A + G B – Considerando o funcionamento do circuito dado, a lâmpada 1 brilhará mais quando a chave estiver na posição",
+      "options": [
+        {
+          "letter": "A",
+          "text": "B, pois a corrente será maior nesse caso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "B, pois a potência total será maior nesse caso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "A, pois a resistência equivalente será menor nesse caso.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "B, pois o gerador fornecerá uma maior tensão nesse caso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "A, pois a potência dissipada pelo gerador será menor nesse caso. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q58",
+      "question_number": 58,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A capacidade de limpeza e a eficiência de um sabão dependem de sua propriedade de formar micelas estáveis, que arrastam com facilidade as moléculas impregnadas no material a ser limpo. Tais micelas têm em sua estrutura partes capazes de interagir com substâncias polares, como a água, e partes que podem interagir com substâncias apolares, como as gorduras e os óleos.",
+          "source": "SANTOS, W. L. P.; MÓL, G. S. (Coords.). Química e sociedade. São Paulo: Nova Geração, 2005 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A substância capaz de formar as estruturas mencionadas é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "C H . 18 36",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "C H COONa. 17 33",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "CH CH COONa. 3 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "CH CH CH COOH. 3 2 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "CH CH CH CH OCH CH CH CH . 3 2 2 2 2 2 2 3",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q59",
+      "question_number": 59,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A revelação das chapas de raios X gera uma solução que contém íons prata na forma de Ag(S O ) 3−. Para evitar 2 3 2 a descarga desse metal no ambiente, a recuperação de prata metálica pode ser feita tratando eletroquimicamente essa solução com uma espécie adequada. O quadro apresenta semirreações de redução de alguns íons metálicos.\nSemirreação de redução E0 (V)",
+          "source": "Ag(S O ) 3− (aq) + e− Ag (s) + 2 S O 2− (aq) +0,02 2 3 2 2 3 Cu2+ (aq) + 2 e− Cu (s) +0,34 Pt2+ (aq) + 2 e− Pt (s) +1,20 Al3+ (aq) + 3 e− Al (s) −1,66 Sn2+ (aq) + 2 e− Sn (s) −0,14 Zn2+ (aq) + 2 e− Zn (s) −0,76 BENDASSOLLI, J. A. et al. Procedimentos para a recuperação de Ag de resíduos líquidos e sólidos. Química Nova, v. 26, n. 4, 2003 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Das espécies apresentadas, a adequada para essa recuperação é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cu (s).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Pt (s).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Al3+ (aq).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Sn (s).",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Zn2+ (aq). 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q60",
+      "question_number": 60,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Existem bactérias que inibem o crescimento de um fungo causador de doenças no tomateiro, por consumirem o ferro disponível no meio. As bactérias também fazem fixação de nitrogênio, disponibilizam cálcio e produzem auxinas, substâncias que estimulam diretamente o crescimento do tomateiro.",
+          "source": "PELZER, G. Q. et al. Mecanismos de controle da murcha-de-esclerócio e promoção de crescimento em tomateiro mediados por rizobactérias. Tropical Plant Pathology, v. 36, n. 2, mar.-abr. 2011 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Qual dos processos biológicos mencionados indica uma relação ecológica de competição?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fixação de nitrogênio para o tomateiro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Disponibilização de cálcio para o tomateiro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Diminuição da quantidade de ferro disponível para o fungo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Liberação de substâncias que inibem o crescimento do fungo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Liberação de auxinas que estimulam o crescimento do tomateiro.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q61",
+      "question_number": 61,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma região de Cerrado possui lençol freático profundo, estação seca bem marcada, grande insolação e recorrência de incêndios naturais. Cinco espécies de árvores nativas, com as características apresentadas no quadro, foram avaliadas quanto ao seu potencial para uso em projetos de reflorestamento nessa região.\nCaracterística Árvore 1 Árvore 2 Árvore 3 Árvore 4 Árvore 5 Coberta por Coberta por Coberta por Superfície foliar Coberta por cera Coberta por cera tricomas espinhos espinhos Profundidade das Baixa Alta Baixa Baixa Alta raízes Qual é a árvore adequada para o reflorestamento dessa região?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q62",
+      "question_number": 62,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um sistema de pistão contendo um gás é mostrado na figura. Sobre a extremidade superior do êmbolo, que pode movimentar-se livremente sem atrito, encontra-se um objeto. Através de uma chapa de aquecimento é possível fornecer calor ao gás e, com auxílio de um manômetro, medir sua pressão. A partir de diferentes valores de calor fornecido, considerando o sistema como hermético, o objeto elevou-se em valores Δh, como mostrado no gráfico.\nForam estudadas, separadamente, quantidades equimolares de dois diferentes gases, denominados M e V.\nObjeto ∆h M ∆h V Manômetro Calor fornecido Chapa de aquecimento A diferença no comportamento dos gases no experimento decorre do fato de o gás M, em relação ao V, apresentar",
+      "options": [
+        {
+          "letter": "A",
+          "text": "maior pressão de vapor.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "menor massa molecular.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "maior compressibilidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "menor energia de ativação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "menor capacidade calorífica.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q63",
+      "question_number": 63,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A aplicação excessiva de fertilizantes nitrogenados na agricultura pode acarretar alterações no solo e na água pelo acúmulo de compostos nitrogenados, principalmente a forma mais oxidada, favorecendo a proliferação de algas e plantas aquáticas e alterando o ciclo do nitrogênio, representado no esquema. A espécie nitrogenada mais oxidada tem sua quantidade controlada por ação de microrganismos que promovem a reação de redução dessa espécie, no processo denominado desnitrificação.\nN I 2 V NH 3 NO – 3 II IV III NH + NO – 4 2 O processo citado está representado na etapa",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "II.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "III.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "IV.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "V. 2014",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q64",
+      "question_number": 64,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q65",
+      "question_number": 65,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q65-opts.png"
+      ],
+      "statement": "A forma das moléculas, como representadas no papel, nem sempre é planar. Em um determinado fármaco, a molécula contendo um grupo não planar é biologicamente ativa, enquanto moléculas contendo substituintes planares são inativas.\n\nO grupo responsável pela bioatividade desse fármaco é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q66",
+      "question_number": 66,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A elevação da temperatura das águas de rios, lagos e mares diminui a solubilidade do oxigênio, pondo em risco as diversas formas de vida aquática que dependem desse gás. Se essa elevação de temperatura acontece por meios artificiais, dizemos que existe poluição térmica.\nAs usinas nucleares, pela própria natureza do processo de geração de energia, podem causar esse tipo de poluição.\nQue parte do ciclo de geração de energia das usinas nucleares está associada a esse tipo de poluição?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fissão do material radioativo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Condensação do vapor-d’água no final do processo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Conversão de energia das turbinas pelos geradores.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Aquecimento da água líquida para gerar vapor-d’água.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Lançamento do vapor-d’água sobre as pás das turbinas. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q67",
+      "question_number": 67,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Para entender os movimentos dos corpos, Galileu discutiu o movimento de uma esfera de metal em dois planos inclinados sem atritos e com a possibilidade de se alterarem os ângulos de inclinação, conforme mostra a figura. Na descrição do experimento, quando a esfera de metal é abandonada para descer um plano inclinado de um determinado nível, ela sempre atinge, no plano ascendente, no máximo, um nível igual àquele em que foi abandonada.",
+          "source": "Nível de abandono da esfera Ângulo do plano de Ângulo do plano de subida descida Galileu e o plano inclinado. Disponível em: www.fisica.ufpb.br. Acesso em: 21 ago. 2012 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Se o ângulo de inclinação do plano de subida for reduzido a zero, a esfera",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manterá sua velocidade constante, pois o impulso resultante sobre ela será nulo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "manterá sua velocidade constante, pois o impulso da descida continuará a empurrá-la.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "diminuirá gradativamente a sua velocidade, pois não haverá mais impulso para empurrá-la.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "diminuirá gradativamente a sua velocidade, pois o impulso resultante será contrário ao seu movimento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "aumentará gradativamente a sua velocidade, pois não haverá nenhum impulso contrário ao seu movimento.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q68",
+      "question_number": 68,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma proposta de dispositivo capaz de indicar a qualidade da gasolina vendida em postos e, consequentemente, evitar fraudes, poderia utilizar o conceito de refração luminosa. Nesse sentido, a gasolina não adulterada, na temperatura ambiente, apresenta razão entre os senos dos raios incidente e refratado igual a 1,4. Desse modo, fazendo incidir o feixe de luz proveniente do ar com um ângulo fixo e maior que zero, qualquer modificação no ângulo do feixe refratado indicará adulteração no combustível.\nEm uma fiscalização rotineira, o teste apresentou o valor de 1,9. Qual foi o comportamento do raio refratado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mudou de sentido.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Sofreu reflexão total.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Atingiu o valor do ângulo limite.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Direcionou-se para a superfície de separação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Aproximou-se da normal à superfície de separação.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q69",
+      "question_number": 69,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Em um laboratório de genética experimental, observou-se que determinada bactéria continha um gene que conferia resistência a pragas específicas de plantas.\nEm vista disso, os pesquisadores procederam de acordo com a figura.\n2 - Isolamento do DNA bacteriano\n1 - Bactéria\n3 - Clonagem do DNA\n4 - Extração do gene de interesse\n5 - Fabricação do gene\n6 - Inserção do gene nas",
+          "source": "7 - Planta células do tecido da planta Disponível em: http://ciencia.hsw.uol.com.br. Acesso em: 22 nov. 2013 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Do ponto de vista biotecnológico, como a planta representada na figura é classificada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clone.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Híbrida.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Mutante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Adaptada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Transgênica. 2014",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q70",
+      "question_number": 70,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Visando minimizar impactos ambientais, a legislação brasileira determina que resíduos químicos lançados diretamente no corpo receptor tenham pH entre 5,0 e 9,0.\nUm resíduo líquido aquoso gerado em um processo industrial tem concentração de íons hidroxila igual a 1,0 × 10−10 mol/L. Para atender a legislação, um químico separou as seguintes substâncias, disponibilizadas no almoxarifado da empresa: CH COOH, Na SO , CH OH, 3 2 4 3 K CO e NH Cl. 2 3 4 Para que o resíduo possa ser lançado diretamente no corpo receptor, qual substância poderia ser empregada no ajuste do pH?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CH COOH 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Na SO 2 4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "CH OH 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "K CO 2 3",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "NH Cl",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q71",
+      "question_number": 71,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Parte do gás carbônico da atmosfera é absorvida pela água do mar. O esquema representa reações que ocorrem naturalmente, em equilíbrio, no sistema ambiental marinho. O excesso de dióxido de carbono na atmosfera pode afetar os recifes de corais. 1 Menos Mais Dióxido de carbono atmosférico ácido ácido CO 2 2 3 Dióxido de carbono Ácido dissolvido Água carbônico Íons hidrogênio CO 2 + H 2 O H 2 CO 3 H+ Íons bicarbonato HCO 3 – Íons carbonato CO2– 3 Conchas deformadas Disponível em: http://news.bbc.co.uk. Acesso em: 20 maio 2014 (adaptado). O resultado desse processo nos corais é o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "seu branqueamento, levando à sua morte e extinção.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "excesso de fixação de cálcio, provocando calcificação indesejável.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "menor incorporação de carbono, afetando seu metabolismo energético.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "estímulo da atividade enzimática, evitando a descalcificação dos esqueletos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "dano à estrutura dos esqueletos calcários, diminuindo o tamanho das populações. 2014",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q72",
+      "question_number": 72,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O funcionamento dos geradores de usinas elétricas baseia-se no fenômeno da indução eletromagnética, descoberto por Michael Faraday no século XIX. Pode-se observar esse fenômeno ao se movimentar um ímã e uma espira em sentidos opostos com módulo da velocidade igual a v, induzindo uma corrente elétrica de intensidade i, como ilustrado na figura. v v B S N A i A fim de se obter uma corrente com o mesmo sentido da apresentada na figura, utilizando os mesmos materiais, outra possibilidade é mover a espira para a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "esquerda e o ímã para a direita com polaridade invertida.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "direita e o ímã para a esquerda com polaridade invertida.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "esquerda e o ímã para a esquerda com mesma polaridade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "direita e manter o ímã em repouso com polaridade invertida.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "esquerda e manter o ímã em repouso com mesma polaridade.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q73",
+      "question_number": 73,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Segundo a teoria evolutiva mais aceita hoje, as mitocôndrias, organelas celulares responsáveis pela produção de ATP em células eucariotas, assim como os cloroplastos, teriam sido originados de procariontes ancestrais que foram incorporados por células mais complexas.\nUma característica da mitocôndria que sustenta essa teoria é a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "capacidade de produzir moléculas de ATP.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "presença de parede celular semelhante à de procariontes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "presença de membranas envolvendo e separando a matriz mitocondrial do citoplasma.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "capacidade de autoduplicação dada por DNA circular próprio semelhante ao bacteriano.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "presença de um sistema enzimático eficiente às reações químicas do metabolismo aeróbio.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q74",
+      "question_number": 74,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "No heredograma, os símbolos preenchidos representam pessoas portadoras de um tipo raro de doença genética. Os homens são representados pelos quadrados e as mulheres, pelos círculos.\nQual é o padrão de herança observado para essa doença?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dominante autossômico, pois a doença aparece em ambos os sexos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Recessivo ligado ao sexo, pois não ocorre a transmissão do pai para os filhos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Recessivo ligado ao Y, pois a doença é transmitida dos pais heterozigotos para os filhos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Dominante ligado ao sexo, pois todas as filhas de homens afetados também apresentam a doença.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "Codominante autossômico, pois a doença é herdada pelos filhos de ambos os sexos, tanto do pai quanto da mãe.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q75",
+      "question_number": 75,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um pesquisador percebe que o rótulo de um dos vidros em que guarda um concentrado de enzimas digestivas está ilegível. Ele não sabe qual enzima o vidro contém, mas desconfia de que seja uma protease gástrica, que age no estômago digerindo proteínas. Sabendo que a digestão no estômago é ácida e no intestino é básica, ele monta cinco tubos de ensaio com alimentos diferentes, adiciona o concentrado de enzimas em soluções com pH determinado e aguarda para ver se a enzima age em algum deles.\nO tubo de ensaio em que a enzima deve agir para indicar que a hipótese do pesquisador está correta é aquele que contém",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cubo de batata em solução com pH = 9.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "pedaço de carne em solução com pH = 5.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "clara de ovo cozida em solução com pH = 9.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "porção de macarrão em solução com pH = 5.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "bolinha de manteiga em solução com pH = 9. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q76",
+      "question_number": 76,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Alguns sistemas de segurança incluem detectores de movimento. Nesses sensores, existe uma substância que se polariza na presença de radiação eletromagnética de certa região de frequência, gerando uma tensão que pode ser amplificada e empregada para efeito de controle.\nQuando uma pessoa se aproxima do sistema, a radiação emitida por seu corpo é detectada por esse tipo de sensor.",
+          "source": "WENDLING, M. Sensores. Disponível em: www2.feg.unesp.br. Acesso em: 7 maio 2014 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A radiação captada por esse detector encontra-se na região de frequência",
+      "options": [
+        {
+          "letter": "A",
+          "text": "da luz visível.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "do ultravioleta.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "do infravermelho.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "das micro-ondas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "das ondas longas de rádio.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q77",
+      "question_number": 77,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O estudo de compostos orgânicos permite aos analistas definir propriedades físicas e químicas responsáveis pelas características de cada substância descoberta. Um laboratório investiga moléculas quirais cuja cadeia carbônica seja insaturada, heterogênea e ramificada.\nA fórmula que se enquadra nas características da molécula investigada é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CH –(CH) –CH(OH)–CO–NH–CH . 3 2 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "CH –(CH) –CH(CH )–CO–NH–CH . 3 2 3 3",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "CH –(CH) –CH(CH )–CO–NH . 3 2 3 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "CH –CH –CH(CH )–CO–NH–CH . 3 2 3 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "C H –CH –CO–NH–CH . 6 5 2 3",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q78",
+      "question_number": 78,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Com o objetivo de substituir as sacolas de polietileno, alguns supermercados têm utilizado um novo tipo de plástico ecológico, que apresenta em sua composição amido de milho e uma resina polimérica termoplástica, obtida a partir de uma fonte petroquímica.",
+          "source": "ERENO, D. Plásticos de vegetais. Pesquisa Fapesp, n. 179, jan. 2011 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Nesses plásticos, a fragmentação da resina polimérica é facilitada porque os carboidratos presentes",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dissolvem-se na água.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "absorvem água com facilidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "caramelizam por aquecimento e quebram.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "são digeridos por organismos decompositores.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "decompõem-se espontaneamente em contato com água e gás carbônico.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q79",
+      "question_number": 79,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em um hospital havia cinco lotes de bolsas de sangue, rotulados com os códigos I, II, III, IV e V. Cada lote continha apenas um tipo sanguíneo não identificado.\nUma funcionária do hospital resolveu fazer a identificação utilizando dois tipos de soro, anti-A e anti-B. Os resultados obtidos estão descritos no quadro.\nCódigo Volume de Soro anti-A Soro anti-B dos lotes sangue (L)\nI 22 Não aglutinou Aglutinou II 25 Aglutinou Não aglutinou III 30 Aglutinou Aglutinou IV 15 Não aglutinou Não aglutinou V 33 Não aglutinou Aglutinou Quantos litros de sangue eram do grupo sanguíneo do tipo A?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "15",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "25",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "30",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "33",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "55",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q80",
+      "question_number": 80,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O principal processo industrial utilizado na produção de fenol é a oxidação do cumeno (isopropilbenzeno).\nA equação mostra que esse processo envolve a formação do hidroperóxido de cumila, que em seguida é decomposto em fenol e acetona, ambos usados na indústria química como precursores de moléculas mais complexas. Após o processo de síntese, esses dois insumos devem ser separados para comercialização individual.\nOOH OH O + O Catalisador H 2 O / H 2 SO 4 + 2 Cumeno Hidroperóxido Fenol Acetona de cumila Considerando as características físico-químicas dos dois insumos formados, o método utilizado para a separação da mistura, em escala industrial, é a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "filtração.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ventilação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "decantação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "evaporação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "destilação fracionada. 2014",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q81",
+      "question_number": 81,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Os parasitoides (misto de parasitas e predadores) são insetos diminutos que têm hábitos muito peculiares: suas larvas podem se desenvolver dentro do corpo de outros organismos, como mostra a figura. A forma adulta se alimenta de pólen e açúcares. Em geral, cada parasitoide ataca hospedeiros de determinada espécie e, por isso, esses organismos vêm sendo amplamente usados para o controle biológico de pragas agrícolas.",
+          "source": "SANTO, M. M. E.; FARIA, M. L. Parasitoides: insetos benéficos e cruéis. Ciência Hoje, v. 49, n. 291, abr. 2012 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q81.png"
+      ],
+      "statement": "A forma larval do parasitoide assume qual papel nessa cadeia alimentar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Consumidor primário, pois ataca diretamente uma espécie herbívora.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Consumidor secundário, pois se alimenta diretamente dos tecidos da lagarta.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Organismo heterótrofo de primeira ordem, pois se alimenta de pólen na fase adulta.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Organismo heterótrofo de segunda ordem, pois apresenta o maior nível energético na cadeia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Decompositor, pois se alimenta de tecidos do interior do corpo da lagarta e a leva à morte.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q82",
+      "question_number": 82,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Um professor utiliza essa história em quadrinhos para discutir com os estudantes o movimento de satélites.\nNesse sentido, pede a eles que analisem o movimento do coelhinho, considerando o módulo da velocidade constante.",
+          "source": "SOUSA, M. Cebolinha, n. 240, jun. 2006."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q82.png"
+      ],
+      "statement": "Desprezando a existência de forças dissipativas, o vetor aceleração tangencial do coelhinho, no terceiro quadrinho, é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "nulo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "paralelo à sua velocidade linear e no mesmo sentido.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "paralelo à sua velocidade linear e no sentido oposto.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "perpendicular à sua velocidade linear e dirigido para o centro da Terra.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "perpendicular à sua velocidade linear e dirigido para fora da superfície da Terra. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q83",
+      "question_number": 83,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A utilização de processos de biorremediação de resíduos gerados pela combustão incompleta de compostos orgânicos tem se tornado crescente, visando minimizar a poluição ambiental. Para a ocorrência de resíduos de naftaleno, algumas legislações limitam sua concentração em até 30 mg/kg para solo agrícola e 0,14 mg/L para água subterrânea. A quantificação desse resíduo foi realizada em diferentes ambientes, utilizando-se amostras de 500 g de solo e 100 mL de água, conforme apresentado no quadro.\nAmbiente Resíduo de naftaleno (g)\nSolo I 1,0 × 10−2 Solo II 2,0 × 10−2 Água I 7,0 × 10−6 Água II 8,0 × 10−6 Água III 9,0 × 10−6 O ambiente que necessita de biorremediação é o(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "solo I.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "solo II.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "água I.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "água II.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "água III.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2014_d1_azul_q84",
+      "question_number": 84,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Ao sintonizarmos uma estação de rádio ou um canal de TV em um aparelho, estamos alterando algumas características elétricas de seu circuito receptor.\nDas inúmeras ondas eletromagnéticas que chegam simultaneamente ao receptor, somente aquelas que oscilam com determinada frequência resultarão em máxima absorção de energia.\nO fenômeno descrito é a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "difração.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "refração.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "polarização.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "interferência.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ressonância.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q85",
+      "question_number": 85,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2014_cd1_q85-1.png",
+        "assets/images/enem_2014_cd1_q85-2.png",
+        "assets/images/enem_2014_cd1_q85-3.png",
+        "assets/images/enem_2014_cd1_q85-4.png",
+        "assets/images/enem_2014_cd1_q85-5.png",
+        "assets/images/enem_2014_cd1_q85-6.png",
+        "assets/images/enem_2014_cd1_q85-7.png",
+        "assets/images/enem_2014_cd1_q85-8.png",
+        "assets/images/enem_2014_cd1_q85-9.png",
+        "assets/images/enem_2014_cd1_q85-10.png",
+        "assets/images/enem_2014_cd1_q85-11.png",
+        "assets/images/enem_2014_cd1_q85-12.png"
+      ],
+      "statement": "Imunobiológicos: diferentes formas de produção, diferentes aplicações Aplicação do imunobiológico II Vírus, bactérias Produção do imunobiológico III Aplicação do imunobiológico I A B Aplicação do imunobiológico III Embora sejam produzidos e utilizados em situações distintas, os imunobiológicos I e II atuam de forma semelhante nos humanos e equinos, pois",
+      "options": [
+        {
+          "letter": "A",
+          "text": "conferem imunidade passiva.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "transferem células de defesa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "suprimem a resposta imunológica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "estimulam a produção de anticorpos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "desencadeiam a produção de antígenos. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q86",
+      "question_number": 86,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Grande quantidade dos maus odores do nosso dia a dia está relacionada a compostos alcalinos. Assim, em vários desses casos, pode-se utilizar o vinagre, que contém entre 3,5% e 5% de ácido acético, para diminuir ou eliminar o mau cheiro. Por exemplo, lavar as mãos com vinagre e depois enxaguá-las com água elimina o odor de peixe, já que a molécula de piridina (C H N) é uma 5 5 das substâncias responsáveis pelo odor característico de peixe podre.",
+          "source": "SILVA, V. A.; BENITE, A. M. C.; SOARES, M. H. F. B. Algo aqui não cheira bem... A química do mau cheiro. Química Nova na Escola, v. 33, n. 1, fev. 2011 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A efi ciência do uso do vinagre nesse caso se explica pela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sobreposição de odor, propiciada pelo cheiro característico do vinagre.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "solubilidade da piridina, de caráter ácido, na solução ácida empregada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "inibição da proliferação das bactérias presentes, devido à ação do ácido acético.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "degradação enzimática da molécula de piridina, acelerada pela presença de ácido acético.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "reação de neutralização entre o ácido acético e a piridina, que resulta em compostos sem mau odor.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2014_d1_azul_q87",
+      "question_number": 87,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Quando adolescente, as nossas tardes, após as aulas, consistiam em tomar às mãos o violão e o dicionário de acordes de Almir Chediak e desafi ar nosso amigo Hamilton a descobrir, apenas ouvindo o acorde, quais notas eram escolhidas. Sempre perdíamos a aposta, ele possui o ouvido absoluto.\nO ouvido absoluto é uma característica perceptual de poucos indivíduos capazes de identifi car notas isoladas sem outras referências, isto é, sem precisar relacioná-las com outras notas de uma melodia.",
+          "source": "LENT, R. O cérebro do meu professor de acordeão. Disponível em: http://cienciahoje.uol.com.br. Acesso em: 15 ago. 2012 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "No contexto apresentado, a propriedade física das ondas que permite essa distinção entre as notas é a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "frequência.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "intensidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "forma da onda.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "amplitude da onda.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "velocidade de propagação.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2014_d1_azul_q88",
+      "question_number": 88,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Grandes fontes de emissão do gás dióxido de enxofre são as indústrias de extração de cobre e níquel, em decorrência da oxidação dos minérios sulfurados.\nPara evitar a liberação desses óxidos na atmosfera e a consequente formação da chuva ácida, o gás pode ser lavado, em um processo conhecido como dessulfurização, conforme mostrado na equação (1).\nCaCO (s) + SO (g) → CaSO (s) + CO (g) (1) 3 2 3 2 Por sua vez, o sulfito de cálcio formado pode ser oxidado, com o auxílio do ar atmosférico, para a obtenção do sulfato de cálcio, como mostrado na equação (2).\nEssa etapa é de grande interesse porque o produto da reação, popularmente conhecido como gesso, é utilizado para fins agrícolas. 2 CaSO (s) + O (g) → 2 CaSO (s) (2) 3 2 4 As massas molares dos elementos carbono, oxigênio, enxofre e cálcio são iguais a 12 g/mol, 16 g/mol, 32 g/mol e 40 g/mol, respectivamente.",
+          "source": "BAIRD, C. Química ambiental. Porto Alegre: Bookman, 2002 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considerando um rendimento de 90% no processo, a massa de gesso obtida, em gramas, por mol de gás retido é mais próxima de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "64.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "108.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "122.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "136.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "245. 2014",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2014_d1_azul_q89",
+      "question_number": 89,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Na década de 1990, células do cordão umbilical de recém-nascidos humanos começaram a ser guardadas por criopreservação, uma vez que apresentam alto potencial terapêutico em consequência de suas características peculiares.\nO poder terapêutico dessas células baseia-se em sua capacidade de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "multiplicação lenta.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "comunicação entre células.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "adesão a diferentes tecidos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "diferenciação em células especializadas.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "reconhecimento de células semelhantes.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2014_d1_azul_q90",
+      "question_number": 90,
+      "subject": "Ciências da Natureza e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "As lentes fotocromáticas escurecem quando expostas à luz solar por causa de reações químicas reversíveis entre uma espécie incolor e outra colorida.\nDiversas reações podem ser utilizadas, e a escolha do melhor reagente para esse fim se baseia em três principais aspectos: (i) o quanto escurece a lente; (ii) o tempo de escurecimento quando exposta à luz solar; e (iii) o tempo de esmaecimento em ambiente sem forte luz solar. A transmitância indica a razão entre a quantidade de luz que atravessa o meio e a quantidade de luz que incide sobre ele.\nDurante um teste de controle para o desenvolvimento de novas lentes fotocromáticas, foram analisadas cinco amostras, que utilizam reagentes químicos diferentes.\nNo quadro, são apresentados os resultados.\nTransmitância Tempo de Tempo de média da lente Amostra escurecimento esmaecimento quando exposta (segundo) (segundo) à luz solar (%) 1 20 50 80 2 40 30 90 3 20 30 50 4 50 50 50 5 40 20 95 Considerando os três aspectos, qual é a melhor amostra de lente fotocromática para se utilizar em óculos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}
