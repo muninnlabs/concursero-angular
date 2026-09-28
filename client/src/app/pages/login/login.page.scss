@@ -22,76 +22,49 @@
 }
 
 .auth__lead {
-  margin-top: 6px;
+  margin-top: 8px;
   color: var(--text-muted);
+  line-height: 1.6;
 }
 
-.tabs {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4px;
-  margin-top: 24px;
-  padding: 4px;
-  border-radius: 12px;
-  background: #f1f5f9;
-
-  button {
-    min-height: 38px;
-    border: 0;
-    border-radius: 9px;
-    color: var(--text-muted);
-    background: transparent;
-    font-weight: 600;
-    cursor: pointer;
-
-    &[aria-selected='true'] {
-      color: var(--text);
-      background: var(--surface);
-      box-shadow: var(--shadow-sm);
-    }
-  }
-}
-
-form {
-  display: grid;
-  gap: 16px;
-  margin-top: 24px;
-
-  .btn {
-    margin-top: 8px;
-  }
-}
-
-label {
-  display: grid;
-  gap: 6px;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-input {
-  min-height: 46px;
-  padding: 0 14px;
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 28px;
   border: 1px solid var(--border);
   border-radius: 10px;
   color: var(--text);
   background: var(--surface);
-  font-weight: 400;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
 
-  &:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgb(79 70 229 / 0.15);
+  &:hover:not(:disabled) {
+    border-color: #cbd5e1;
+    background: #f8fafc;
   }
-  &.ng-invalid.ng-touched {
-    border-color: var(--danger);
+  &:disabled {
+    opacity: 0.6;
+    cursor: wait;
   }
 }
 
 .auth__error {
+  margin-top: 16px;
   padding: 10px 12px;
   border-radius: 10px;
   color: #9f1239;
   background: var(--danger-soft);
   font-size: 14px;
+}
+
+.auth__note {
+  margin-top: 20px;
+  color: var(--text-subtle);
+  font-size: 13px;
+  text-align: center;
 }

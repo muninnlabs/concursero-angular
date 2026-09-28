@@ -1,0 +1,25 @@
+# Cloudflare Worker for the test deployment at https://munninlabs.com/concursero-angular/
+#   node scripts/build-cloudflare.mjs && npx wrangler deploy
+# Local run of the same Worker (local D1, no login needed):
+#   npx wrangler d1 migrations apply concursero-angular --local && npx wrangler dev
+name = "concursero-angular"
+main = "server/src/worker.ts"
+compatibility_date = "2026-09-01"
+workers_dev = false
+# A route (not a custom domain): it runs before the munninlabs-site Worker,
+# which owns the rest of munninlabs.com.
+routes = [{ pattern = "munninlabs.com/concursero-angular*", zone_name = "munninlabs.com" }]
+
+[assets]
+directory = "./dist-cf"
+binding = "ASSETS"
+run_worker_first = true
+
+[vars]
+FIREBASE_PROJECT_ID = "concursero-8cc5b"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "concursero-angular"
+database_id = "83a493d3-b186-47bf-ad15-59b746091929"
+migrations_dir = "server/migrations"

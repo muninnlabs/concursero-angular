@@ -8,7 +8,7 @@
         <a routerLink="/app" class="nav__link nav__link--accent">Meu painel</a>
       } @else {
         <a routerLink="/entrar" class="nav__link nav__link--accent">Entrar</a>
-        <a routerLink="/entrar" [queryParams]="{ modo: 'cadastro' }" class="btn btn--primary nav__cta">Começar Grátis</a>
+        <a routerLink="/entrar" class="btn btn--primary nav__cta">Começar Grátis</a>
       }
     </nav>
   </div>
@@ -108,7 +108,6 @@
           </ul>
           <a
             [routerLink]="startLink()"
-            [queryParams]="startLink() === '/entrar' ? { modo: 'cadastro' } : null"
             class="btn"
             [class.btn--primary]="plan.highlighted"
             [class.btn--outline]="!plan.highlighted"

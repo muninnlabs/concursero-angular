@@ -6,9 +6,12 @@
     "dev": "concurrently -n api,web -c blue,magenta \"npm --prefix server run dev\" \"npm --prefix client start\"",
     "test": "npm --prefix server test && npm --prefix client test -- --watch=false",
     "build": "npm --prefix client run build",
-    "sync-assets": "node scripts/sync-assets.mjs"
+    "sync-assets": "node scripts/sync-assets.mjs",
+    "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "deploy": "node scripts/build-cloudflare.mjs && wrangler d1 migrations apply concursero-angular --remote && wrangler deploy"
   },
   "devDependencies": {
-    "concurrently": "^10.0.5"
+    "concurrently": "^10.0.5",
+    "wrangler": "^4.143.0"
   }
 }

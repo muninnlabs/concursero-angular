@@ -3,17 +3,13 @@
 
 export type Plan = 'free' | 'premium';
 
+/** App profile; `id` is the Firebase uid. */
 export interface User {
   id: string;
   name: string;
   email: string;
   plan: Plan;
   createdAt: string;
-}
-
-export interface Session {
-  token: string;
-  user: User;
 }
 
 export interface Catalog {

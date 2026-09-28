@@ -34,3 +34,7 @@ yarn-error.log*
 # API data (SQLite) and secrets
 server/data/
 server/.env
+
+# Cloudflare build output and local Wrangler state
+/dist-cf/
+.wrangler/

@@ -85,7 +85,12 @@ export class PracticePage {
   }
 
   protected submit() {
-    const answers = Object.entries(this.selected()).map(([questionId, selected]) => ({ questionId, selected }));
+    const examOf = new Map(this.questions.value()?.map((q) => [q.id, q.examId]));
+    const answers = Object.entries(this.selected()).map(([questionId, selected]) => ({
+      questionId,
+      examId: examOf.get(questionId)!,
+      selected,
+    }));
     if (answers.length === 0) return;
 
     this.submitting.set(true);

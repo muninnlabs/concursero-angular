@@ -33,7 +33,7 @@ export class LandingPage {
   private readonly catalog = toSignal(inject(ApiService).catalog().pipe(catchError(() => of(null))));
 
   /** Where the "start" buttons go: straight to the dashboard when already logged in. */
-  protected readonly startLink = computed(() => (this.auth.token() ? '/app' : '/entrar'));
+  protected readonly startLink = computed(() => (this.auth.signedIn() ? '/app' : '/entrar'));
 
   /** Real question count, rounded down to the thousand ("7.000+"). */
   protected readonly questionCount = computed(() => {
