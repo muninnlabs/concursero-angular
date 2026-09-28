@@ -1,6 +1,6 @@
 import { Hono, type MiddlewareHandler } from 'hono';
 import type { AuthUser, TokenVerifier } from './auth/firebase.ts';
-import { isGradable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
+import { isPlayable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
 import type { AnswerRecord, UserStore } from './users/store.ts';
 
 export interface AppDeps {
@@ -97,7 +97,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
       const exam = await exams.get(String(answer?.examId));
       const question = exam?.questions.find((q) => q.id === String(answer?.questionId));
       const selected = String(answer?.selected ?? '').toUpperCase();
-      if (!exam || !question || !isGradable(question) || !question.options.some((o) => o.letter === selected)) {
+      if (!exam || !question || !isPlayable(question) || !question.options.some((o) => o.letter === selected)) {
         return c.json({ error: `Resposta inválida para a questão ${String(answer?.questionId)}` }, 400);
       }
       records.push({

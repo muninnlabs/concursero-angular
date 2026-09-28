@@ -75,6 +75,15 @@ export class PracticePage {
     inject(DestroyRef).onDestroy(() => clearInterval(timer));
   }
 
+  /**
+   * Some extracted images are 1–20 px fragments of lines from the PDF (mostly
+   * ENEM 2016); they'd show up as stray marks, so hide them once loaded.
+   */
+  protected hideSlivers(event: Event) {
+    const img = event.target as HTMLImageElement;
+    if (img.naturalWidth < 20 || img.naturalHeight < 20) img.hidden = true;
+  }
+
   protected choose(questionId: string, letter: string) {
     if (this.results()) return;
     this.selected.update((current) => ({ ...current, [questionId]: letter }));

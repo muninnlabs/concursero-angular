@@ -22,7 +22,8 @@ export interface Question {
   topic: string | null;
   foreign_language: string | null;
   context_texts: ContextText[];
-  image_url: string | null;
+  /** A single path, or (in ~550 ENEM questions) a list of paths. */
+  image_url: string | string[] | null;
   statement: string;
   options: QuestionOption[];
   correct_answer: string | null;
@@ -43,8 +44,12 @@ export interface QuestionOption {
   is_correct: boolean;
 }
 
-/** A question as sent to the browser: the answer key stays on the server. */
-export type PublicQuestion = Omit<Question, 'correct_answer' | 'options'> & {
+/**
+ * A question as sent to the browser: the answer key stays on the server and
+ * image_url is normalized to image_urls (always a list).
+ */
+export type PublicQuestion = Omit<Question, 'correct_answer' | 'options' | 'image_url'> & {
+  image_urls: string[];
   examId: string;
   /** e.g. "ENEM 2013 · Dia 1 · Caderno Azul" */
   examLabel: string;
@@ -65,7 +70,7 @@ export interface ExamSummary {
   /** Same relative path the Flutter app uses, e.g. assets/provas/oab/oab_2010_1_tipo1.json */
   path: string;
   questionCount: number;
-  /** Questions with a usable answer key (annulled / unparsed ones excluded). */
+  /** Questions that can be practised: valid answer key and complete content. */
   gradableCount: number;
   subjects: string[];
 }

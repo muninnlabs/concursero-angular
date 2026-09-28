@@ -12,6 +12,31 @@ export function isGradable(question: Question): boolean {
   return question.correct_answer != null && VALID_ANSWER.test(question.correct_answer);
 }
 
+function imageList(value: string | string[] | null | undefined): string[] {
+  if (!value) return [];
+  return (Array.isArray(value) ? value : [value]).filter((url) => typeof url === 'string' && url.trim() !== '');
+}
+
+/**
+ * Whether a question can be shown at all: it needs something to read
+ * (statement, context or image) and at least two options, each with text or an
+ * image. Filters out unfinished extractions (ENEM 2010, options that were
+ * images the pipeline didn't capture, ...).
+ */
+export function isUsable(question: Question): boolean {
+  const hasBody =
+    !!question.statement?.trim() ||
+    imageList(question.image_url).length > 0 ||
+    question.context_texts.some((c) => !!c.content?.trim() || !!c.image_url);
+  const options = question.options ?? [];
+  return hasBody && options.length >= 2 && options.every((o) => !!o.text?.trim() || !!o.image_url);
+}
+
+/** Can be served in practice and graded. */
+export function isPlayable(question: Question): boolean {
+  return isGradable(question) && isUsable(question);
+}
+
 /**
  * Human-readable exam name from its id, e.g.
  *   enem_2013_d1_azul            → "ENEM 2013 · Dia 1 · Caderno Azul"
@@ -36,9 +61,10 @@ export function examLabel(examId: string): string {
 }
 
 export function toPublicQuestion(question: Question, examId: string): PublicQuestion {
-  const { correct_answer: _answer, options, ...rest } = question;
+  const { correct_answer: _answer, options, image_url, ...rest } = question;
   return {
     ...rest,
+    image_urls: imageList(image_url),
     examId,
     examLabel: examLabel(examId),
     options: options.map(({ is_correct: _correct, ...option }) => option),
@@ -58,7 +84,7 @@ export function summarize(category: string, relativePath: string, data: ExamFile
     booklet: meta.booklet_color,
     path: relativePath,
     questionCount: data.questions.length,
-    gradableCount: data.questions.filter(isGradable).length,
+    gradableCount: data.questions.filter(isPlayable).length,
     subjects: [...new Set(data.questions.map((q) => q.subject).filter((s) => s != null))],
   };
 }
@@ -138,7 +164,7 @@ export async function randomQuestions(
   for (let i = 0; i < exams.length && (i < examsToUse || picked.length < count); i++) {
     const exam = await source.get(exams[i].id);
     if (!exam) continue;
-    const pool = exam.questions.filter((q) => isGradable(q) && (!filter.subject || q.subject === filter.subject));
+    const pool = exam.questions.filter((q) => isPlayable(q) && (!filter.subject || q.subject === filter.subject));
     for (const question of shuffle(pool).slice(0, Math.ceil(count / examsToUse))) {
       picked.push({ question, exam: exam.summary });
     }

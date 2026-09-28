@@ -42,7 +42,8 @@ export interface Question {
   topic: string | null;
   foreign_language: string | null;
   context_texts: ContextText[];
-  image_url: string | null;
+  /** Normalized by the API: always a list (possibly empty). */
+  image_urls: string[];
   statement: string;
   options: QuestionOption[];
 }

@@ -38,7 +38,7 @@ export class ApiService {
  * resolved against the page's <base href>, so they work both at / (local) and
  * under /concursero-angular/ (Cloudflare).
  */
-export function assetUrl(path: string | null | undefined): string | null {
-  if (!path) return null;
+export function assetUrl(path: unknown): string | null {
+  if (typeof path !== 'string' || !path.trim()) return null;
   return path.startsWith('http') ? path : path.replace(/^\/+/, '');
 }

@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
 import { createApp } from '../src/app.ts';
 import type { TokenVerifier } from '../src/auth/firebase.ts';
-import { MemoryExamSource, examLabel, randomQuestions } from '../src/exams/catalog.ts';
+import { MemoryExamSource, examLabel, isUsable, randomQuestions, toPublicQuestion } from '../src/exams/catalog.ts';
 import type { ExamFile, Question } from '../src/exams/types.ts';
 import { createSqliteStore } from '../src/users/sqlite-store.ts';
 import { countStreak } from '../src/users/store.ts';
@@ -140,6 +140,35 @@ describe('randomQuestions', () => {
 
     const civil = await randomQuestions(many, 5, { subject: 'Direito Civil' });
     assert.ok(civil.every((p) => p.question.subject === 'Direito Civil'));
+  });
+});
+
+describe('question content', () => {
+  test('image_url is always sent as a list (the data has both strings and lists)', () => {
+    const single = toPublicQuestion({ ...question('x_q1', 'A'), image_url: 'assets/images/a.png' }, 'x');
+    const list = toPublicQuestion({ ...question('x_q2', 'A'), image_url: ['assets/images/b.png', 'assets/images/c.png'] }, 'x');
+    const none = toPublicQuestion(question('x_q3', 'A'), 'x');
+    assert.deepEqual([single.image_urls, list.image_urls, none.image_urls], [['assets/images/a.png'], ['assets/images/b.png', 'assets/images/c.png'], []]);
+    assert.ok(!('image_url' in single));
+  });
+
+  test('questions with empty options or no body are not usable', () => {
+    assert.equal(isUsable(question('x_q1', 'A')), true);
+    const emptyOptions = { ...question('x_q2', 'A'), options: ['A', 'B', 'C', 'D'].map((letter) => ({ letter, text: '', is_correct: false })) };
+    assert.equal(isUsable(emptyOptions), false);
+    const imageOptions = { ...emptyOptions, options: emptyOptions.options.map((o) => ({ ...o, image_url: `assets/images/${o.letter}.png` })) };
+    assert.equal(isUsable(imageOptions), true);
+    assert.equal(isUsable({ ...question('x_q3', 'A'), statement: '', options: [] }), false);
+  });
+
+  test('practice never serves unusable questions', async () => {
+    const source = new MemoryExamSource();
+    source.add('ENEM', 'assets/provas/enem/e.json', exam('enem_2010_d1_azul', 2010, [
+      question('enem_2010_d1_azul_q1', 'A'),
+      { ...question('enem_2010_d1_azul_q2', 'B'), statement: '', options: [] },
+    ]));
+    const picked = await randomQuestions(source, 10);
+    assert.deepEqual(picked.map((p) => p.question.id), ['enem_2010_d1_azul_q1']);
   });
 });
 

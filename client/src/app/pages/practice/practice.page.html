@@ -51,7 +51,7 @@
           <p>{{ dewrap(context.content) }}</p>
         }
         @if (assetUrl(context.image_url); as src) {
-          <img [src]="src" alt="" loading="lazy" />
+          <img [src]="src" alt="" loading="lazy" (load)="hideSlivers($event)" />
         }
         @if (context.source) {
           <small>{{ context.source }}</small>
@@ -59,8 +59,10 @@
       </div>
     }
 
-    @if (assetUrl(question.image_url); as src) {
-      <img class="question__image" [src]="src" alt="" loading="lazy" />
+    @for (url of question.image_urls; track url) {
+      @if (assetUrl(url); as src) {
+        <img class="question__image" [src]="src" alt="" loading="lazy" (load)="hideSlivers($event)" />
+      }
     }
 
     <p class="question__statement">{{ dewrap(question.statement) }}</p>
