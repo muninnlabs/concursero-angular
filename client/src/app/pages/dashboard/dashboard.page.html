@@ -1,0 +1,112 @@
+<section class="welcome">
+  <h1>Bem-vindo de volta, {{ auth.firstName() }}</h1>
+  <p>Escolha seu concurso e continue praticando hoje.</p>
+</section>
+
+<div class="chips" role="radiogroup" aria-label="Tipo de prova">
+  @for (category of categories; track category.id) {
+    <button
+      type="button"
+      role="radio"
+      class="chip"
+      [class.chip--active]="categoryState.selected() === category.id"
+      [attr.aria-checked]="categoryState.selected() === category.id"
+      [disabled]="!category.available"
+      [title]="category.available ? '' : 'Em breve'"
+      (click)="categoryState.select(category.id)"
+    >
+      {{ category.label }}
+    </button>
+  }
+</div>
+
+<section class="stats" aria-label="Seu desempenho">
+  @for (card of statCards(); track card.label) {
+    <article class="card stat">
+      <span class="icon-badge tone--{{ card.tone }}"><app-icon [name]="card.icon" [size]="20" /></span>
+      <strong>{{ card.value }}</strong>
+      <span>{{ card.label }}</span>
+    </article>
+  }
+</section>
+
+<div class="section-head">
+  <h2>Prática Rápida</h2>
+  <a routerLink="/app/assuntos">Ver todos <app-icon name="arrow-right" [size]="14" /></a>
+</div>
+
+<section class="practice">
+  <article class="card practice__flash">
+    <span class="icon-badge icon-badge--lg tone--solid-indigo"><app-icon name="zap" [size]="22" [filled]="true" /></span>
+    <h3>Questão Relâmpago</h3>
+    <p>Responda uma questão aleatória em menos de 30 segundos.</p>
+    <div class="next-subject">
+      <small>Próxima matéria</small>
+      <strong>{{ nextSubject() ?? 'Carregando…' }}</strong>
+    </div>
+    <a
+      class="btn btn--dark"
+      routerLink="/app/praticar"
+      [queryParams]="{ modo: 'relampago', categoria: categoryState.selected(), materia: nextSubject() }"
+      >Começar agora</a
+    >
+  </article>
+
+  <article class="card practice__mini">
+    <div>
+      <span class="icon-badge icon-badge--lg tone--solid-amber"><app-icon name="timer" [size]="22" /></span>
+      <h3>Mini Simulado</h3>
+      <p>Um bloco de 10 questões cronometradas para testar seu ritmo antes da prova real.</p>
+      <p class="meta">
+        <span><app-icon name="clock" [size]="14" /> ~12 min</span>
+        <span class="meta__xp"><app-icon name="star" [size]="14" [filled]="true" /> +45 XP</span>
+      </p>
+    </div>
+    <a class="btn btn--primary" routerLink="/app/praticar" [queryParams]="{ modo: 'mini', categoria: categoryState.selected() }"
+      >Iniciar simulado</a
+    >
+  </article>
+</section>
+
+@if (!auth.isPremium()) {
+  <section class="ads-banner">
+    <span class="ads-banner__icon"><app-icon name="crown" [size]="26" [filled]="true" /></span>
+    <div>
+      <h3>Remover Anúncios</h3>
+      <p>Estude sem distrações e tenha acesso ilimitado a todos os simulados.</p>
+    </div>
+    <a routerLink="/" fragment="planos" class="ads-banner__btn">Assinar Premium</a>
+  </section>
+}
+
+<h2 class="section-title">Últimos Simulados</h2>
+<section class="card history">
+  @for (simulado of simulados.value(); track simulado.id) {
+    @let style = styleFor(simulado);
+    <div class="history__row">
+      <span class="icon-badge tone--{{ style.tone }}"><app-icon [name]="style.icon" [size]="18" /></span>
+      <div class="history__info">
+        <strong>{{ simulado.title }}</strong>
+        <small>{{ when(simulado.finishedAt) }} · {{ simulado.total }} questões</small>
+      </div>
+      <span class="pill tone--{{ accuracyTone(simulado) }}">{{ accuracy(simulado) }}% acerto</span>
+      @if (isAvailable(simulado.category)) {
+        <a
+          class="history__retry"
+          routerLink="/app/praticar"
+          [queryParams]="{ modo: 'mini', categoria: simulado.category }"
+          aria-label="Fazer outro simulado de {{ simulado.category }}"
+          ><app-icon name="refresh" [size]="15"
+        /></a>
+      }
+    </div>
+  } @empty {
+    <p class="history__empty">
+      @if (simulados.isLoading()) {
+        Carregando…
+      } @else {
+        Você ainda não fez nenhum simulado. Que tal começar pelo Mini Simulado?
+      }
+    </p>
+  }
+</section>

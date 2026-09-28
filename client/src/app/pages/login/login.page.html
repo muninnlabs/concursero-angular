@@ -1,0 +1,45 @@
+<main class="auth">
+  <div class="card auth__card">
+    <app-logo [size]="34" />
+
+    <h1>{{ mode() === 'login' ? 'Bem-vindo de volta' : 'Crie sua conta grátis' }}</h1>
+    <p class="auth__lead">
+      {{ mode() === 'login' ? 'Entre para continuar praticando.' : 'Salve seu progresso e acompanhe suas estatísticas.' }}
+    </p>
+
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" [attr.aria-selected]="mode() === 'login'" (click)="setMode('login')">Entrar</button>
+      <button type="button" role="tab" [attr.aria-selected]="mode() === 'register'" (click)="setMode('register')">Criar conta</button>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="submit()" novalidate>
+      @if (mode() === 'register') {
+        <label>
+          Nome
+          <input formControlName="name" autocomplete="name" placeholder="Seu nome" />
+        </label>
+      }
+      <label>
+        E-mail
+        <input formControlName="email" type="email" autocomplete="email" placeholder="voce@email.com" />
+      </label>
+      <label>
+        Senha
+        <input
+          formControlName="password"
+          type="password"
+          [attr.autocomplete]="mode() === 'login' ? 'current-password' : 'new-password'"
+          placeholder="Mínimo de 8 caracteres"
+        />
+      </label>
+
+      @if (error(); as message) {
+        <p class="auth__error" role="alert">{{ message }}</p>
+      }
+
+      <button class="btn btn--primary" type="submit" [disabled]="submitting()">
+        {{ submitting() ? 'Aguarde…' : mode() === 'login' ? 'Entrar' : 'Criar conta' }}
+      </button>
+    </form>
+  </div>
+</main>

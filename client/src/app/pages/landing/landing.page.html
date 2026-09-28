@@ -1,0 +1,150 @@
+<header class="nav">
+  <div class="container nav__inner">
+    <app-logo [size]="30" />
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#funcionalidades" class="nav__link">Funcionalidades</a>
+      <a href="#planos" class="nav__link">Planos</a>
+      @if (startLink() === '/app') {
+        <a routerLink="/app" class="nav__link nav__link--accent">Meu painel</a>
+      } @else {
+        <a routerLink="/entrar" class="nav__link nav__link--accent">Entrar</a>
+        <a routerLink="/entrar" [queryParams]="{ modo: 'cadastro' }" class="btn btn--primary nav__cta">Começar Grátis</a>
+      }
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero container">
+    <div class="hero__copy">
+      <h1 class="hero__title">Passe nos seus exames com <span class="hero__accent">confiança total</span></h1>
+      <p class="hero__lead">
+        Milhares de questões comentadas, simulados realistas e estatísticas detalhadas para ENEM, OAB e concursos públicos.
+      </p>
+      <div class="hero__actions">
+        <a [routerLink]="startLink()" class="btn btn--yellow btn--lg">Começar a Praticar</a>
+        <a href="#funcionalidades" class="btn btn--ghost btn--lg">Como funciona</a>
+      </div>
+      <p class="hero__note"><app-icon name="check-circle" [size]="16" /> Acesso gratuito • Sem cartão de crédito</p>
+    </div>
+    <div class="hero__media">
+      <!-- Placeholder cropped from the mock; replace with the final photo. -->
+      <img src="images/hero-laptop.jpg" alt="Notebook com um simulado aberto" width="582" height="582" />
+    </div>
+  </section>
+
+  <section class="numbers" aria-label="Números">
+    <div class="container numbers__grid">
+      <div class="number">
+        <strong>{{ questionCount() }}</strong>
+        <span>Questões</span>
+      </div>
+      <!-- TODO: the two figures below come from the mock; replace with real numbers before launch. -->
+      <div class="number">
+        <strong>10.000+</strong>
+        <span>Simulados realizados</span>
+      </div>
+      <div class="number">
+        <strong>95%</strong>
+        <span>De aprovação</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="funcionalidades" class="section container">
+    <div class="section__header">
+      <h2>Tudo que você precisa para ser aprovado</h2>
+      <p>Uma plataforma completa construída para transformar sua preparação em resultados reais.</p>
+    </div>
+    <div class="features">
+      @for (feature of features; track feature.title) {
+        <article class="card feature">
+          <span class="icon-badge feature__icon"><app-icon [name]="feature.icon" /></span>
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.text }}</p>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="mobile">
+    <div class="container mobile__inner">
+      <div class="card mobile__media">
+        <!-- Placeholder cropped from the mock; replace with the final photo. -->
+        <img src="images/mobile-app.jpg" alt="Aplicativo aberto no celular" width="574" height="575" loading="lazy" />
+      </div>
+      <div class="mobile__copy">
+        <h2>Estude onde e quando quiser</h2>
+        <p>
+          Leve sua preparação no bolso. A interface responsiva funciona perfeitamente no celular, tablet e computador,
+          sincronizando todo o seu progresso automaticamente.
+        </p>
+        <ul class="checklist">
+          @for (perk of mobilePerks; track perk) {
+            <li><span class="checklist__dot"><app-icon name="check" [size]="12" [strokeWidth]="3" /></span>{{ perk }}</li>
+          }
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos" class="section container">
+    <div class="section__header">
+      <h2>Comece hoje mesmo, totalmente grátis</h2>
+      <p>Sem limites de questões, sem período de teste. Seu sucesso é a nossa única meta.</p>
+    </div>
+    <div class="plans">
+      @for (plan of plans; track plan.name) {
+        <article class="card plan" [class.plan--highlighted]="plan.highlighted">
+          @if (plan.highlighted) {
+            <span class="plan__badge">Popular</span>
+          }
+          <h3>{{ plan.name }}</h3>
+          <p class="plan__price">R$ {{ plan.price }}<span>/mês</span></p>
+          <ul class="checklist checklist--plain">
+            @for (perk of plan.perks; track perk) {
+              <li><app-icon name="check" [size]="16" />{{ perk }}</li>
+            }
+          </ul>
+          <a
+            [routerLink]="startLink()"
+            [queryParams]="startLink() === '/entrar' ? { modo: 'cadastro' } : null"
+            class="btn"
+            [class.btn--primary]="plan.highlighted"
+            [class.btn--outline]="!plan.highlighted"
+            >{{ plan.cta }}</a
+          >
+        </article>
+      }
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <app-logo [size]="26" [light]="true" />
+      <p class="footer__about">Plataforma líder em preparação para exames públicos e privados no Brasil.</p>
+    </div>
+    <div>
+      <h4>Produto</h4>
+      <a routerLink="/entrar">ENEM</a>
+      <a routerLink="/entrar">OAB</a>
+      <a routerLink="/entrar">Concursos</a>
+    </div>
+    <div>
+      <h4>Empresa</h4>
+      <a href="#">Sobre nós</a>
+      <a href="#">Contato</a>
+      <a href="#">Privacidade</a>
+    </div>
+    <div>
+      <h4>Social</h4>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram"><app-icon name="instagram" [size]="16" /></a>
+        <a href="#" aria-label="X (Twitter)"><app-icon name="x-logo" [size]="14" /></a>
+      </div>
+    </div>
+  </div>
+  <p class="container footer__copy">© {{ year }} BrasilQuiz. Todos os direitos reservados.</p>
+</footer>

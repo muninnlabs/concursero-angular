@@ -1,0 +1,4383 @@
+{
+  "exam_metadata": {
+    "exam_id": "enem_2011_d2_azul",
+    "exam_name": "ENEM 2011 - 2º Dia (Caderno 7 - Azul)",
+    "institution": "INEP",
+    "year": 2011,
+    "day": 2,
+    "booklet_color": "Azul"
+  },
+  "questions": [
+    {
+      "id": "enem_2011_d2_azul_q91",
+      "question_number": 91,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "‘Desmachupizar’ el turismo Es ya un lugar común escuchar aquello de que hay que desmachupizar el turismo en Perú y buscar visitantes en las demás atracciones (y son muchas) que tiene el país, naturales y arqueológicas, pero la ciudadela inca tiene un imán innegable. La Cámara Nacional de Turismo considera que Machu Picchu significa el 70% de los ingresos por turismo en Perú, ya que cada turista que tiene como primer destino la ciudadela inca visita entre tres y cinco lugares más (la ciudad de Cuzco, la de Arequipa, las líneas de Nazca, el Lago Titicaca y la selva) y deja en el país un promedio de 2 200 dólares (unos 1 538 euros).\nCarlos Canales, presidente de Canatur, señaló que la ciudadela tiene capacidad para recibir más visitantes que en la actualidad (un máximo de 3 000) con un sistema planificado de horarios y rutas, pero no quiso avanzar una cifra. Sin embargo, la Unesco ha advertido en varias ocasiones que el monumento se encuentra cercano al punto de saturación y el Gobierno no debe emprender ninguna política de captación de nuevos visitantes, algo con lo que coincide el viceministro Roca Rey.",
+          "source": "Disponível em: http://www.elpais.com. Acesso em: 21 jun. 2011."
+        }
+      ],
+      "image_url": null,
+      "statement": "A reportagem do jornal espanhol mostra a preocupação diante de um problema no Peru, que pode ser resumido pelo vocábulo “desmachupizar”, referindo-se",
+      "options": [
+        {
+          "letter": "A",
+          "text": "à escassez de turistas no país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ao difícil acesso ao lago Titicaca.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "à destruição da arqueologia no país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "ao excesso de turistas na terra dos incas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "à falta de atrativos turísticos em Arequipa.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "enem_2011_d2_azul_q92",
+      "question_number": 92,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Los fallos de software en aparatos médicos, como marcapasos, van a ser una creciente amenaza para la salud pública, según el informe de Software Freedom Law Center (SFLC) que ha sido presentado hoy en Portland (EEUU), en la Open Source Convention (OSCON).\nLa ponencia “Muerto por el código: transparencia de software en los dispositivos médicos implantables” aborda el riesgo potencialmente mortal de los defectos informáticos en los aparatos médicos implantados en las personas.\nSegún SFLC, millones de personas con condiciones crónicas del corazón, epilepsia, diabetes, obesidad e, incluso, la depresión dependen de implantes, pero el software permanece oculto a los pacientes y sus médicos.\nLa SFLC recuerda graves fallos informáticos ocurridos en otros campos, como en elecciones, en la fabricación de coches, en las líneas aéreas comerciales o en los mercados financieros.",
+          "source": "Disponível em: http://www.elpais.com. Acesso em: 24 jul. 2010 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q92.png"
+      ],
+      "statement": "O título da palestra, citado no texto, antecipa o tema que será tratado e mostra que o autor tem a intenção de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "relatar novas experiências em tratamento de saúde.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "alertar sobre os riscos mortais de determinados softwares de uso médico para o ser humano.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "denunciar falhas médicas na implantação de softwares em seres humanos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "divulgar novos softwares presentes em aparelhos médicos lançados no mercado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apresentar os defeitos mais comuns de softwares em aparelhos médicos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "enem_2011_d2_azul_q93",
+      "question_number": 93,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Bienvenido a Brasília El Gobierno de Brasil, por medio del Ministerio de la Cultura y del Instituto del Patrimonio Histórico y Artístico Nacional (IPHAN), da la bienvenida a los participantes de la 34ª Sesión del Comité del Patrimonio Mundial, encuentro realizado por la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO).\nRespaldado por la Convención del Patrimonio Mundial, de 1972, el Comité reúne en su 34ª sesión más de 180 delegaciones nacionales para deliberar sobre las nuevas candidaturas y el estado de conservación y de riesgo de los bienes ya declarados Patrimonio Mundial, con base en los análisis del Consejo Internacional de Monumentos y Sitios (Icomos), del Centro Internacional para el Estudio de la Preservación y la Restauración del Patrimonio Cultural (ICCROM) y de la Unión Internacional para la Conservación de la Naturaleza (IUCN).",
+          "source": "Disponível em: http://www.34whc.brasilia2010.org.br. Acesso em: 28 jul. 2010."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q93.png"
+      ],
+      "statement": "O Comitê do Patrimônio Mundial reúne-se regularmente para deliberar sobre ações que visem à conservação e à preservação do patrimônio mundial. Entre as tarefas atribuídas às delegações nacionais que participaram da 34ª Sessão do Comitê do Patrimônio Mundial, destaca-se a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "participação em reuniões do Conselho Internacional de Monumentos e Sítios.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "realização da cerimônia de recepção da Convenção do Patrimônio Mundial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "organização das análises feitas pelo Ministério da Cultura brasileiro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "discussão sobre o estado de conservação dos bens já declarados patrimônios mundiais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "estruturação da próxima reunião do Comitê do Patrimônio Mundial.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "enem_2011_d2_azul_q94",
+      "question_number": 94,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "El tango Ya sea como danza, música, poesía o cabal expresión de una filosofía de vida, el tango posee una larga y valiosa trayectoria, jalonada de encuentros y desencuentros, amores y odios, nacida desde lo más hondo de la historia argentina.\nEl nuevo ambiente es el cabaret, su nuevo cultor la clase media porteña, que ameniza sus momentos de diversión con nuevas composiciones, sustituyendo el carácter malevo del tango primitivo por una nueva poesía más acorde con las concepciones estéticas provenientes de Londres y París.\nYa en la década del ‘20 el tango se anima incluso a traspasar las fronteras del país, recalando en lujosos salones parisinos donde es aclamado por públicos selectos que adhieren entusiastas a la sensualidad del nuevo baile. Ya no es privativo de los bajos fondos porteños; ahora se escucha y se baila en salones elegantes, clubs y casas particulares.\nEl tango revive con juveniles fuerzas en ajironadas versiones de grupos rockeros, presentaciones en elegantes reductos de San Telmo, Barracas y La Boca y películas foráneas que lo divulgan por el mundo entero.",
+          "source": "Disponível em: http://www.elpolvorin.over-blog.es. Acesso em: 22 jun. 2011 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Sabendo-se que a produção cultural de um país pode influenciar, retratar ou, inclusive, ser reflexo de acontecimentos de sua história, o tango, dentro do contexto histórico argentino, é reconhecido por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manter-se inalterado ao longo de sua história no país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "influenciar os subúrbios, sem chegar a outras regiões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "sobreviver e se difundir, ultrapassando as fronteiras do país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "manifestar seu valor primitivo nas diferentes camadas sociais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ignorar a influência de países europeus, como Inglaterra e França.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "enem_2011_d2_azul_q95",
+      "question_number": 95,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Es posible reducir la basura En México se producen más de 10 millones de m3 de basura mensualmente, depositados en más de 50 mil tiraderos de basura legales y clandestinos, que afectan de manera directa nuestra calidad de vida, pues nuestros recursos naturales son utilizados desproporcionalmente, como materias primas que luego desechamos y tiramos convirtiéndolos en materiales inútiles y focos de infección.\nTodo aquello que compramos y consumimos tiene una relación directa con lo que tiramos. Consumiendo racionalmente, evitando el derroche y usando sólo lo indispensable, directamente colaboramos con el cuidado del ambiente.\nSi la basura se compone de varios desperdicios y si como desperdicios no fueron basura, si los separamos adecuadamente, podremos controlarlos y evitar posteriores problemas. Reciclar se traduce en importantes ahorros de energía, ahorro de agua potable, ahorro de materias primas, menor impacto en los ecosistemas y sus recursos naturales y ahorro de tiempo, dinero y esfuerzo.\nEs necesario saber para empezar a actuar...",
+          "source": "Disponível em: http://www.tododecarton.com. Acesso em: 27 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q95.png"
+      ],
+      "statement": "A partir do que se afirma no último parágrafo: “Es necesario saber para empezar a actuar...”, pode-se constatar que o texto foi escrito com a intenção de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "informar o leitor a respeito da importância da reciclagem para a conservação do meio ambiente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "indicar os cuidados que se deve ter para não consumir alimentos que podem ser focos de infecção.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "denunciar o quanto o consumismo é nocivo, pois é o gerador dos dejetos produzidos no México.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "ensinar como economizar tempo, dinheiro e esforço a partir dos 50 mil depósitos de lixo legalizados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "alertar a população mexicana para os perigos causados pelos consumidores de matéria-prima reciclável.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "enem_2011_d2_azul_q96",
+      "question_number": 96,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Na modernidade, o corpo foi descoberto, despido e modelado pelos exercícios físicos da moda. Novos espaços e práticas esportivas e de ginástica passaram a convocar as pessoas a modelarem seus corpos. Multiplicaram-se as academias de ginástica, as salas de musculação e o número de pessoas correndo pelas ruas.",
+          "source": "SECRETARIA DA EDUCAÇÃO. Caderno do professor: educação física. São Paulo, 2008."
+        }
+      ],
+      "image_url": null,
+      "statement": "Diante do exposto, é possível perceber que houve um aumento da procura por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "exercícios físicos aquáticos (natação/hidroginástica), que são exercícios de baixo impacto, evitando o atrito (não prejudicando as articulações), e que previnem o envelhecimento precoce e melhoram a qualidade de vida.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "mecanismos que permitem combinar alimentação e exercício físico, que permitem a aquisição e manutenção de níveis adequados de saúde, sem a preocupação com padrões de beleza instituídos socialmente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "programas saudáveis de emagrecimento, que evitam os prejuízos causados na regulação metabólica, função imunológica, integridade óssea e manutenção da capacidade funcional ao longo do envelhecimento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "exercícios de relaxamento, reeducação postural e alongamentos, que permitem um melhor funcionamento do organismo como um todo, bem como uma dieta alimentar e hábitos saudáveis com base em produtos naturais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "dietas que preconizam a ingestão excessiva ou restrita de um ou mais macronutrientes (carboidratos, gorduras ou proteínas), bem como exercícios que permitem um aumento de massa muscular e/ou modelar o corpo.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q97",
+      "question_number": 97,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q97.png"
+      ],
+      "statement": "COSTA, C. Superinteressante. Fev. 2011 (adaptado). Os amigos são um dos principais indicadores de bem-estar na vida social das pessoas. Da mesma forma que em outras áreas, a internet também inovou as maneiras de vivenciar a amizade. Da leitura do infográfico, depreendem-se dois tipos de amizade virtual, a simétrica e a assimétrica, ambas com seus prós e contras. Enquanto a primeira se baseia na relação de reciprocidade, a segunda",
+      "options": [
+        {
+          "letter": "A",
+          "text": "reduz o número de amigos virtuais, ao limitar o acesso à rede.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "parte do anonimato obrigatório para se difundir.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "reforça a configuração de laços mais profundos de amizade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "facilita a interação entre pessoas em virtude de interesses comuns.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "tem a responsabilidade de promover a proximidade física.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q98",
+      "question_number": 98,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O hipertexto refere-se à escritura eletrônica não sequencial e não linear, que se bifurca e permite ao leitor o acesso a um número praticamente ilimitado de outros textos a partir de escolhas locais e sucessivas, em tempo real.\nAssim, o leitor tem condições de definir interativamente o fluxo de sua leitura a partir de assuntos tratados no texto sem se prender a uma sequência fixa ou a tópicos estabelecidos por um autor. Trata-se de uma forma de estruturação textual que faz do leitor simultaneamente coautor do texto final.\nO hipertexto se caracteriza, pois, como um processo de escritura/leitura eletrônica multilinearizado, multisequencial e indeterminado, realizado em um novo espaço de escrita.\nAssim, ao permitir vários níveis de tratamento de um tema, o hipertexto oferece a possibilidade de múltiplos graus de profundidade simultaneamente, já que não tem sequência definida, mas liga textos não necessariamente correlacionados.",
+          "source": "MARCUSCHI, L. A. Disponível em: http://www.pucsp.br. Acesso em: 29 jun. 2011."
+        }
+      ],
+      "image_url": null,
+      "statement": "O computador mudou nossa maneira de ler e escrever, e o hipertexto pode ser considerado como um novo espaço de escrita e leitura. Definido como um conjunto de blocos autônomos de texto, apresentado em meio eletrônico computadorizado e no qual há remissões associando entre si diversos elementos, o hipertexto",
+      "options": [
+        {
+          "letter": "A",
+          "text": "é uma estratégia que, ao possibilitar caminhos totalmente abertos, desfavorece o leitor, ao confundir os conceitos cristalizados tradicionalmente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "é uma forma artificial de produção da escrita, que, ao desviar o foco da leitura, pode ter como consequência o menosprezo pela escrita tradicional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "exige do leitor um maior grau de conhecimentos prévios, por isso deve ser evitado pelos estudantes nas suas pesquisas escolares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "facilita a pesquisa, pois proporciona uma informação específica, segura e verdadeira, em qualquer site de busca ou blog oferecidos na internet.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "possibilita ao leitor escolher seu próprio percurso de leitura, sem seguir sequência predeterminada, constituindo-se em atividade mais coletiva e colaborativa.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q99",
+      "question_number": 99,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO i",
+          "content": "O meu nome é Severino, não tenho outro de pia.\nComo há muitos Severinos, que é santo de romaria, deram então de me chamar Severino de Maria; como há muitos Severinos com mães chamadas Maria, fiquei sendo o da Maria do finado Zacarias, mas isso ainda diz pouco: há muitos na freguesia, por causa de um coronel que se chamou Zacarias e que foi o mais antigo senhor desta sesmaria.\nComo então dizer quem fala ora a Vossas Senhorias?",
+          "source": "MELO NETO, J. C. Obra completa. Rio de Janeiro: Aguilar, 1994 (fragmento)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO ii",
+          "content": "João Cabral, que já emprestara sua voz ao rio, transfere-a, aqui, ao retirante Severino, que, como o Capibaribe, também segue no caminho do Recife.\nA autoapresentação do personagem, na fala inicial do texto, nos mostra um Severino que, quanto mais se define, menos se individualiza, pois seus traços biográficos são sempre partilhados por outros homens.",
+          "source": "SECCHIN, A. C. João Cabral: a poesia do menos. Rio de Janeiro: Topbooks, 1999 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Com base no trecho de Morte e Vida Severina (Texto I) e na análise crítica (Texto II), observa-se que a relação entre o texto poético e o contexto social a que ele faz referência aponta para um problema social expresso literariamente pela pergunta “Como então dizer quem fala / ora a Vossas Senhorias?”. A resposta à pergunta expressa no poema é dada por meio da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "descrição minuciosa dos traços biográficos do personagem-narrador.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "construção da figura do retirante nordestino como um homem resignado com a sua situação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "representação, na figura do personagem-narrador, de outros Severinos que compartilham sua condição.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "apresentação do personagem-narrador como uma projeção do próprio poeta, em sua crise existencial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "descrição de Severino, que, apesar de humilde, orgulha-se de ser descendente do coronel Zacarias.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q100",
+      "question_number": 100,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q100.png"
+      ],
+      "statement": "Disponível em: www.ccsp.com.br. Acesso em: 26 jul. 2010 (adaptado). O anúncio publicitário está intimamente ligado ao ideário de consumo quando sua função é vender um produto.\nNo texto apresentado, utilizam-se elementos linguísticos e extralinguísticos para divulgar a atração “Noites do Terror”, de um parque de diversões. O entendimento da propaganda requer do leitor",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a identificação com o público-alvo a que se destina o anúncio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a avaliação da imagem como uma sátira às atrações de terror.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a atenção para a imagem da parte do corpo humano selecionada aleatoriamente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o reconhecimento do intertexto entre a publicidade e um dito popular.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "a percepção do sentido literal da expressão “noites do terror”, equivalente à expressão “noites de terror”.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q101",
+      "question_number": 101,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO i",
+          "content": "Onde está a honestidade?\nVocê tem palacete reluzente Tem joias e criados à vontade Sem ter nenhuma herança ou parente Só anda de automóvel na cidade...\nE o povo pergunta com maldade:\nOnde está a honestidade?\nOnde está a honestidade?\nO seu dinheiro nasce de repente E embora não se saiba se é verdade Você acha nas ruas diariamente Anéis, dinheiro e felicidade...\nVassoura dos salões da sociedade Que varre o que encontrar em sua frente Promove festivais de caridade Em nome de qualquer defunto ausente...",
+          "source": "ROSA, N. Disponível em: http://www.mpbnet.com.br. Acesso em: abr. 2010."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO ii",
+          "content": "Um vulto da história da música popular brasileira, reconhecido nacionalmente, é Noel Rosa. Ele nasceu em 1910, no Rio de Janeiro; portanto, se estivesse vivo, estaria completando 100 anos. Mas faleceu aos 26 anos de idade, vítima de tuberculose, deixando um acervo de grande valor para o patrimônio cultural brasileiro. Muitas de suas letras representam a sociedade contemporânea, como se tivessem sido escritas no século XXI.",
+          "source": "Disponível em: http://www.mpbnet.com.br. Acesso em: abr. 2010."
+        }
+      ],
+      "image_url": null,
+      "statement": "Um texto pertencente ao patrimônio literário-cultural brasileiro é atualizável, na medida em que ele se refere a valores e situações de um povo. A atualidade da canção Onde está a honestidade?, de Noel Rosa, evidencia-se por meio",
+      "options": [
+        {
+          "letter": "A",
+          "text": "da ironia, ao se referir ao enriquecimento de origem duvidosa de alguns.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "da crítica aos ricos que possuem joias, mas não têm herança.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "da maldade do povo a perguntar sobre a honestidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "do privilégio de alguns em clamar pela honestidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "da insistência em promover eventos beneficentes.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q102",
+      "question_number": 102,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Quem é pobre, pouco se apega, é um giro-o-giro no vago dos gerais, que nem os pássaros de rios e lagoas. O senhor vê: o Zé-Zim, o melhor meeiro meu aqui, risonho e habilidoso. Pergunto: ― Zé-Zim, por que é que você não cria galinhas-d’angola, como todo o mundo faz? ― Quero criar nada não... ― me deu resposta: ― Eu gosto muito de mudar... [...] Belo um dia, ele tora. Ninguém discrepa. Eu, tantas, mesmo digo. Eu dou proteção. [...] Essa não faltou também à minha mãe, quando eu era menino, no sertãozinho de minha terra. [...] Gente melhor do lugar eram todos dessa família Guedes, Jidião Guedes; quando saíram de lá, nos trouxeram junto, minha mãe e eu. Ficamos existindo em território baixio da Sirga, da outra banda, ali onde o de-Janeiro vai no São Francisco, o senhor sabe.",
+          "source": "ROSA, J. G. Grande Sertão: Veredas. Rio de Janeiro: José Olympio (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Na passagem citada, Riobaldo expõe uma situação decorrente de uma desigualdade social típica das áreas rurais brasileiras marcadas pela concentração de terras e pela relação de dependência entre agregados e fazendeiros. No texto, destaca-se essa relação porque o personagem-narrador",
+      "options": [
+        {
+          "letter": "A",
+          "text": "relata a seu interlocutor a história de Zé-Zim, demonstrando sua pouca disposição em ajudar seus agregados, uma vez que superou essa condição graças à sua força de trabalho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "descreve o processo de transformação de um meeiro — espécie de agregado — em proprietário de terra.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "denuncia a falta de compromisso e a desocupação dos moradores, que pouco se envolvem no trabalho da terra.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "mostra como a condição material da vida do sertanejo é dificultada pela sua dupla condição de homem livre e, ao mesmo tempo, dependente.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "mantém o distanciamento narrativo condizente com sua posição social, de proprietário de terras.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q103",
+      "question_number": 103,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A discussão sobre “o fim do livro de papel” com a chegada da mídia eletrônica me lembra a discussão idêntica sobre a obsolescência do folheto de cordel. Os folhetos talvez não existam mais daqui a 100 ou 200 anos, mas, mesmo que isso aconteça, os poemas de Leandro Gomes de Barros ou Manuel Camilo dos Santos continuarão sendo publicados e lidos — em CD-ROM, em livro eletrônico, em “chips quânticos”, sei lá o quê. O texto é uma espécie de alma imortal, capaz de reencarnar em corpos variados: página impressa, livro em Braille, folheto, “coffee-table book”, cópia manuscrita, arquivo PDF... Qualquer texto pode se reencarnar nesses (e em outros) formatos, não importa se é Moby Dick ou Viagem a São Saruê, se é Macbeth ou O livro de piadas de Casseta & Planeta.",
+          "source": "TAVARES, B. Disponível em: http://jornaldaparaiba.globo.com."
+        }
+      ],
+      "image_url": null,
+      "statement": "Ao refletir sobre a possível extinção do livro impresso e o surgimento de outros suportes em via eletrônica, o cronista manifesta seu ponto de vista, defendendo que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o cordel é um dos gêneros textuais, por exemplo, que será extinto com o avanço da tecnologia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o livro impresso permanecerá como objeto cultural veiculador de impressões e de valores culturais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o surgimento da mídia eletrônica decretou o fim do prazer de se ler textos em livros e suportes impressos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "os textos continuarão vivos e passíveis de reprodução em novas tecnologias, mesmo que os livros desapareçam.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "os livros impressos desaparecerão e, com eles, a possibilidade de se ler obras literárias dos mais diversos gêneros.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q104",
+      "question_number": 104,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Não tem tradução [...] Lá no morro, se eu fizer uma falseta A Risoleta desiste logo do francês e do inglês A gíria que o nosso morro criou Bem cedo a cidade aceitou e usou [...] Essa gente hoje em dia que tem mania de exibição Não entende que o samba não tem tradução no idioma francês Tudo aquilo que o malandro pronuncia Com voz macia é brasileiro, já passou de português Amor lá no morro é amor pra chuchu As rimas do samba não são I love you E esse negócio de alô, alô boy e alô Johnny Só pode ser conversa de telefone ROSA, N. In: SOBRAL, João J. V. A tradução dos bambas. Revista Língua Portuguesa.",
+          "source": "Ano 4, nº 54. São Paulo: Segmento, abr. 2010 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "As canções de Noel Rosa, compositor brasileiro de Vila Isabel, apesar de revelarem uma aguçada preocupação do artista com seu tempo e com as mudanças político-culturais no Brasil, no início dos anos 1920, ainda são modernas. Nesse fragmento do samba Não tem tradução, por meio do recurso da metalinguagem, o poeta propõe",
+      "options": [
+        {
+          "letter": "A",
+          "text": "incorporar novos costumes de origem francesa e americana, juntamente com vocábulos estrangeiros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "respeitar e preservar o português padrão como forma de fortalecimento do idioma do Brasil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "valorizar a fala popular brasileira como patrimônio linguístico e forma legítima de identidade nacional.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "mudar os valores sociais vigentes à época, com o advento do novo e quente ritmo da música popular brasileira.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ironizar a malandragem carioca, aculturada pela invasão de valores étnicos de sociedades mais desenvolvidas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q105",
+      "question_number": 105,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A dança é um importante componente cultural da humanidade. O folclore brasileiro é rico em danças que representam as tradições e a cultura de várias regiões do país. Estão ligadas aos aspectos religiosos, festas, lendas, fatos históricos, acontecimentos do cotidiano e brincadeiras e caracterizam-se pelas músicas animadas (com letras simples e populares), figurinos e cenários representativos.\nSECRETARIA DA EDUCAÇÃO. Proposta Curricular do Estado de São Paulo:",
+          "source": "Educação Física. São Paulo: 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A dança, como manifestação e representação da cultura rítmica, envolve a expressão corporal própria de um povo. Considerando-a como elemento folclórico, a dança revela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manifestações afetivas, históricas, ideológicas, intelectuais e espirituais de um povo, refletindo seu modo de expressar-se no mundo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "aspectos eminentemente afetivos, espirituais e de entretenimento de um povo, desconsiderando fatos históricos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "acontecimentos do cotidiano, sob influência mitológica e religiosa de cada região, sobrepondo aspectos políticos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "tradições culturais de cada região, cujas manifestações rítmicas são classificadas em um ranking das mais originais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "lendas, que se sustentam em inverdades históricas, uma vez que são inventadas, e servem apenas para a vivência lúdica de um povo.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q106",
+      "question_number": 106,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Cultivar um estilo de vida saudável é extremamente importante para diminuir o risco de infarto, mas também de problemas como morte súbita e derrame. Significa que manter uma alimentação saudável e praticar atividade física regularmente já reduz, por si só, as chances de desenvolver vários problemas. Além disso, é importante para o controle da pressão arterial, dos níveis de colesterol e de glicose no sangue. Também ajuda a diminuir o estresse e aumentar a capacidade física, fatores que, somados, reduzem as chances de infarto.\nExercitar-se, nesses casos, com acompanhamento médico e moderação, é altamente recomendável.",
+          "source": "ATALIA, M. Nossa vida. Época. 23 mar. 2009."
+        }
+      ],
+      "image_url": null,
+      "statement": "As ideias veiculadas no texto se organizam estabelecendo relações que atuam na construção do sentido. A esse respeito, identifica-se, no fragmento, que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a expressão “Além disso” marca uma sequenciação de ideias.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "o conectivo “mas também” inicia oração que exprime ideia de contraste.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o termo “como”, em “como morte súbita e derrame”, introduz uma generalização.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o termo “Também” exprime uma justificativa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o termo “fatores” retoma coesivamente “níveis de colesterol e de glicose no sangue”.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q107",
+      "question_number": 107,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Brasília 50 anos. veja. Nº 2 138, nov. 2009.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q107.png"
+      ],
+      "statement": "Utilizadas desde a Antiguidade, as colunas, elementos verticais de sustentação, foram sofrendo modificações e incorporando novos materiais com ampliação de possibilidades. Ainda que as clássicas colunas gregas sejam retomadas, notáveis inovações são percebidas, por exemplo, nas obras de Oscar Niemeyer, arquiteto brasileiro nascido no Rio de Janeiro em 1907. No desenho de Niemeyer, das colunas do Palácio da Alvorada, observa-se",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a presença de um capitel muito simples, reforçando a sustentação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o traçado simples de amplas linhas curvas opostas, resultando em formas marcantes.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "a disposição simétrica das curvas, conferindo saliência e distorção à base.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "a oposição de curvas em concreto, configurando certo peso e rebuscamento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o excesso de linhas curvas, levando a um exagero na ornamentação.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q108",
+      "question_number": 108,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Conceitos e importância das lutas Antes de se tornarem esporte, as lutas ou as artes marciais tiveram duas conotações principais: eram praticadas com o objetivo guerreiro ou tinham um apelo filosófico como concepção de vida bastante significativo.\nAtualmente, nos deparamos com a grande expansão das artes marciais em nível mundial. As raízes orientais foram se disseminando, ora pela necessidade de luta pela sobrevivência ou para a “defesa pessoal”, ora pela possibilidade de ter as artes marciais como própria filosofia de vida.",
+          "source": "CARREIRO, E. A. Educação Física na escola: Implicações para a prática pedagógica. Rio de Janeiro: Guanabara Koogan, 2008 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Um dos problemas da violência que está presente principalmente nos grandes centros urbanos são as brigas e os enfrentamentos de torcidas organizadas, além da formação de gangues, que se apropriam de gestos das lutas, resultando, muitas vezes, em fatalidades.\nPortanto, o verdadeiro objetivo da aprendizagem desses movimentos foi mal compreendido, afinal as lutas",
+      "options": [
+        {
+          "letter": "A",
+          "text": "se tornaram um esporte, mas eram praticadas com o objetivo guerreiro a fim de garantir a sobrevivência.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "apresentam a possibilidade de desenvolver o autocontrole, o respeito ao outro e a formação do caráter.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "possuem como objetivo principal a “defesa pessoal” por meio de golpes agressivos sobre o adversário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "sofreram transformações em seus princípios filosóficos em razão de sua disseminação pelo mundo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "se disseminaram pela necessidade de luta pela sobrevivência ou como filosofia pessoal de vida.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q109",
+      "question_number": 109,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O tema da velhice foi objeto de estudo de brilhantes filósofos ao longo dos tempos. Um dos melhores livros sobre o assunto foi escrito pelo pensador e orador romano Cícero: A Arte do Envelhecimento. Cícero nota, primeiramente, que todas as idades têm seus encantos e suas dificuldades. E depois aponta para um paradoxo da humanidade. Todos sonhamos ter uma vida longa, o que significa viver muitos anos. Quando realizamos a meta, em vez de celebrar o feito, nos atiramos a um estado de melancolia e amargura. Ler as palavras de Cícero sobre envelhecimento pode ajudar a aceitar melhor a passagem do tempo.",
+          "source": "NOGUEIRA, P. Saúde & Bem-Estar Antienvelhecimento. Época. 28 abr. 2008."
+        }
+      ],
+      "image_url": null,
+      "statement": "O autor discute problemas relacionados ao envelhecimento, apresentando argumentos que levam a inferir que seu objetivo é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "esclarecer que a velhice é inevitável.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "contar fatos sobre a arte de envelhecer.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "defender a ideia de que a velhice é desagradável.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "influenciar o leitor para que lute contra o envelhecimento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "mostrar às pessoas que é possível aceitar, sem angústia, o envelhecimento.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q110",
+      "question_number": 110,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "LEIRNER, N. Tronco com cadeira (detalhe), 1964.\nDisponível em: http://www.itaucultural.org.br. Acesso em: 27 jul. 2010.\nNessa estranha dignidade e nesse abandono, o objeto foi exaltado de maneira ilimitada e ganhou um significado que se pode considerar mágico. Daí sua “vida inquietante e absurda”. Tornou-se ídolo e, ao mesmo tempo, objeto de zombaria. Sua realidade intrínseca foi anulada.",
+          "source": "JAFFÉ, A. O simbolismo nas artes plásticas. In: JUNG, C.G. (org.). O homem e os seus símbolos. Rio de Janeiro: Nova Fronteira, 2008."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q110.png"
+      ],
+      "statement": "A relação observada entre a imagem e o texto apresentados permite o entendimento da intenção de um artista contemporâneo. Neste caso, a obra apresenta características",
+      "options": [
+        {
+          "letter": "A",
+          "text": "funcionais e de sofisticação decorativa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "futuristas e do abstrato geométrico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "construtivistas e de estruturas modulares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "abstracionistas e de releitura do objeto.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "figurativas e de representação do cotidiano.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q111",
+      "question_number": 111,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No capricho O Adãozinho, meu cumpade, enquanto esperava pelo delegado, olhava para um quadro, a pintura de uma senhora. Ao entrar a autoridade e percebendo que o cabôco admirava tal figura, perguntou: “Que tal? Gosta desse quadro?”\nE o Adãozinho, com toda a sinceridade que Deus dá ao cabôco da roça: “Mas pelo amor de Deus, hein, dotô!\nQue muié feia! Parece fiote de cruis-credo, parente do deus-me-livre, mais horríver que briga de cego no escuro.”\nAo que o delegado não teve como deixar de confessar, um pouco secamente: “É a minha mãe.” E o cabôco, em cima da bucha, não perde a linha: “Mais dotô, inté que é uma feiura caprichada.”",
+          "source": "BOLDRIN, R. Almanaque Brasil de Cultura Popular. São Paulo: Andreato Comunicação e Cultura, nº 62, 2004 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Por suas características formais, por sua função e uso, o texto pertence ao gênero",
+      "options": [
+        {
+          "letter": "A",
+          "text": "anedota, pelo enredo e humor característicos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "crônica, pela abordagem literária de fatos do cotidiano.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "depoimento, pela apresentação de experiências pessoais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "relato, pela descrição minuciosa de fatos verídicos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "reportagem, pelo registro impessoal de situações reais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q112",
+      "question_number": 112,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO i",
+          "content": "",
+          "source": "Toca do Salitre - Piauí Disponível em: http://www.fumdham.org.br. Acesso em: 27 jul. 2010."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO ii",
+          "content": "",
+          "source": "Arte Urbana. Foto: Diego Singh Disponível em: http://www.diaadia.pr.gov.br. Acesso em: 27 jul. 2010."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q112-1.png",
+        "assets/images/enem_2011_cd7_q112-2.png"
+      ],
+      "statement": "O grafite contemporâneo, considerado em alguns momentos como uma arte marginal, tem sido comparado às pinturas murais de várias épocas e às escritas pré-históricas. Observando as imagens apresentadas, é possível reconhecer elementos comuns entre os tipos de pinturas murais, tais como",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a preferência por tintas naturais, em razão de seu efeito estético.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a inovação na técnica de pintura, rompendo com modelos estabelecidos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o registro do pensamento e das crenças das sociedades em várias épocas.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "a repetição dos temas e a restrição de uso pelas classes dominantes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o uso exclusivista da arte para atender aos interesses da elite.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q113",
+      "question_number": 113,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Estrada Esta estrada onde moro, entre duas voltas do caminho, Interessa mais que uma avenida urbana.\nNas cidades todas as pessoas se parecem.\nTodo mundo é igual. Todo mundo é toda a gente.\nAqui, não: sente-se bem que cada um traz a sua alma.\nCada criatura é única.\nAté os cães.\nEstes cães da roça parecem homens de negócios:\nAndam sempre preocupados.\nE quanta gente vem e vai!\nE tudo tem aquele caráter impressivo que faz meditar:\nEnterro a pé ou a carrocinha de leite puxada por um bodezinho manhoso.\nNem falta o murmúrio da água, para sugerir, pela voz dos símbolos, Que a vida passa! que a vida passa!\nE que a mocidade vai acabar.",
+          "source": "BANDEIRA, M. O ritmo dissoluto. Rio de Janeiro: Aguilar, 1967."
+        }
+      ],
+      "image_url": null,
+      "statement": "A lírica de Manuel Bandeira é pautada na apreensão de significados profundos a partir de elementos do cotidiano. No poema Estrada, o lirismo presente no contraste entre campo e cidade aponta para",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o desejo do eu lírico de resgatar a movimentação dos centros urbanos, o que revela sua nostalgia com relação à cidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a percepção do caráter efêmero da vida, possibilitada pela observação da aparente inércia da vida rural.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "a opção do eu lírico pelo espaço bucólico como possibilidade de meditação sobre a sua juventude.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "a visão negativa da passagem do tempo, visto que esta gera insegurança.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a profunda sensação de medo gerada pela reflexão acerca da morte.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q114",
+      "question_number": 114,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "PICASSO, P. Guernica. Óleo sobre tela. 349 X 777 cm. Museu Reina Sofia, Espanha, 1937.",
+          "source": "Disponível em: http://www.fddreis.files.wordpress.com. Acesso em: 26 jul. 2010."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q114.png"
+      ],
+      "statement": "O pintor espanhol Pablo Picasso (1881-1973), um dos mais valorizados no mundo artístico, tanto em termos financeiros quanto históricos, criou a obra Guernica em protesto ao ataque aéreo à pequena cidade basca de mesmo nome. A obra, feita para integrar o Salão Internacional de Artes Plásticas de Paris, percorreu toda a Europa, chegando aos EUA e instalando-se no MoMA, de onde sairia apenas em 1981. Essa obra cubista apresenta elementos plásticos identificados pelo",
+      "options": [
+        {
+          "letter": "A",
+          "text": "painel ideográfico, monocromático, que enfoca várias dimensões de um evento, renunciando à realidade, colocando-se em plano frontal ao espectador.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "horror da guerra de forma fotográfica, com o uso da perspectiva clássica, envolvendo o espectador nesse exemplo brutal de crueldade do ser humano.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "uso das formas geométricas no mesmo plano, sem emoção e expressão, despreocupado com o volume, a perspectiva e a sensação escultórica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "esfacelamento dos objetos abordados na mesma narrativa, minimizando a dor humana a serviço da objetividade, observada pelo uso do claro-escuro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "uso de vários ícones que representam personagens fragmentados bidimensionalmente, de forma fotográ-fica livre de sentimentalismo.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q115",
+      "question_number": 115,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No Brasil, a condição cidadã, embora dependa da leitura e da escrita, não se basta pela enunciação do direito, nem pelo domínio desses instrumentos, o que, sem dúvida, viabiliza melhor participação social. A condição cidadã depende, seguramente, da ruptura com o ciclo da pobreza, que penaliza um largo contingente populacional.\nFormação de leitores e construção da cidadania, memória e presença do PROLER.",
+          "source": "Rio de Janeiro: FBN, 2008."
+        }
+      ],
+      "image_url": null,
+      "statement": "Ao argumentar que a aquisição das habilidades de leitura e escrita não são suficientes para garantir o exercício da cidadania, o autor",
+      "options": [
+        {
+          "letter": "A",
+          "text": "critica os processos de aquisição da leitura e da escrita.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "fala sobre o domínio da leitura e da escrita no Brasil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "incentiva a participação efetiva na vida da comunidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "faz uma avaliação crítica a respeito da condição cidadã do brasileiro.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "define instrumentos eficazes para elevar a condição social da população do Brasil.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q116",
+      "question_number": 116,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Lépida e leve Língua do meu Amor velosa e doce, que me convences de que sou frase, que me contornas, que me vestes quase, como se o corpo meu de ti vindo me fosse.\nLíngua que me cativas, que me enleias os surtos de ave estranha, em linhas longas de invisíveis teias, de que és, há tanto, habilidosa aranha... [...] Amo-te as sugestões gloriosas e funestas, amo-te como todas as mulheres te amam, ó língua-lama, ó língua-resplendor, pela carne de som que à ideia emprestas e pelas frases mudas que proferes nos silêncios de Amor!...",
+          "source": "MACHADO, G. In: MORICONI, I. (org.). Os cem melhores poemas brasileiros do século. Rio de Janeiro: Objetiva, 2001 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A poesia de Gilka Machado identifica-se com as concepções artísticas simbolistas. Entretanto, o texto selecionado incorpora referências temáticas e formais modernistas, já que, nele, a poeta",
+      "options": [
+        {
+          "letter": "A",
+          "text": "procura desconstruir a visão metafórica do amor e abandona o cuidado formal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "concebe a mulher como um ser sem linguagem e questiona o poder da palavra.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "questiona o trabalho intelectual da mulher e antecipa a construção do verso livre.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "propõe um modelo novo de erotização na lírica",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "explora a construção da essência feminina, a partir da polissemia de “língua”, e inova o léxico.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q117",
+      "question_number": 117,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Abatidos pelo fadinho harmonioso e nostálgico dos desterrados, iam todos, até mesmo os brasileiros, se concentrando e caindo em tristeza; mas, de repente, o cavaquinho de Porfiro, acompanhado pelo violão do Firmo, romperam vibrantemente com um chorado baiano. Nada mais que os primeiros acordes da música crioula para que o sangue de toda aquela gente despertasse logo, como se alguém lhe fustigasse o corpo com urtigas bravas. E seguiram-se outras notas, e outras, cada vez mais ardentes e mais delirantes. Já não eram dois instrumentos que soavam, eram lúbricos gemidos e suspiros soltos em torrente, a correrem serpenteando, como cobras numa floresta incendiada; eram ais convulsos, chorados em frenesi de amor: música feita de beijos e soluços gostosos; carícia de fera, carícia de doer, fazendo estalar de gozo.",
+          "source": "AZEVEDO, A. O Cortiço. São Paulo: Ática, 1983 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "No romance O Cortiço (1890), de Aluízio Azevedo, as personagens são observadas como elementos coletivos caracterizados por condicionantes de origem social, sexo e etnia. Na passagem transcrita, o confronto entre brasileiros e portugueses revela prevalência do elemento brasileiro, pois",
+      "options": [
+        {
+          "letter": "A",
+          "text": "destaca o nome de personagens brasileiras e omite o de personagens portuguesas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "exalta a força do cenário natural brasileiro e considera o do português inexpressivo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "mostra o poder envolvente da música brasileira, que cala o fado português.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "destaca o sentimentalismo brasileiro, contrário à tristeza dos portugueses.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "atribui aos brasileiros uma habilidade maior com instrumentos musicais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q118",
+      "question_number": 118,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Guardar Guardar uma coisa não é escondê-la ou trancá-la.\nEm cofre não se guarda coisa alguma.\nEm cofre perde-se a coisa à vista.\nGuardar uma coisa é olhá-la, fitá-la, mirá-la por admirá-la, isto é, iluminá-la ou ser por ela iluminado.\nGuardar uma coisa é vigiá-la, isto é, fazer vigília por ela, isto é, velar por ela, isto é, estar acordado por ela, isto é, estar por ela ou ser por ela.\nPor isso melhor se guarda o voo de um pássaro Do que um pássaro sem voos.\nPor isso se escreve, por isso se diz, por isso se publica, por isso se declara e declama um poema:\nPara guardá-lo:\nPara que ele, por sua vez, guarde o que guarda:\nGuarde o que quer que guarda um poema:\nPor isso o lance do poema:\nPor guardar-se o que se quer guardar.",
+          "source": "MACHADO, G. In: MORICONI, I. (org.). Os cem melhores poemas brasileiros do século.. Rio de Janeiro: Objetiva, 2001."
+        }
+      ],
+      "image_url": null,
+      "statement": "A memória é um importante recurso do patrimônio cultural de uma nação. Ela está presente nas lembranças do passado e no acervo cultural de um povo. Ao tratar o fazer poético como uma das maneiras de se guardar o que se quer, o texto",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ressalta a importância dos estudos históricos para a construção da memória social de um povo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "valoriza as lembranças individuais em detrimento das narrativas populares ou coletivas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "reforça a capacidade da literatura em promover a subjetividade e os valores humanos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "destaca a importância de reservar o texto literário àqueles que possuem maior repertório cultural.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "revela a superioridade da escrita poética como forma ideal de preservação da memória cultural.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q119",
+      "question_number": 119,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Quando os portugueses se instalaram no Brasil, o país era povoado de índios. Importaram, depois, da África, grande número de escravos. O Português, o Índio e o Negro constituem, durante o período colonial, as três bases da população brasileira. Mas no que se refere à cultura, a contribuição do Português foi de longe a mais notada.\nDurante muito tempo o português e o tupi viveram lado a lado como línguas de comunicação. Era o tupi que utilizavam os bandeirantes nas suas expedições.\nEm 1694, dizia o Padre Antônio Vieira que “as famílias dos portugueses e índios em São Paulo estão tão ligadas hoje umas com as outras, que as mulheres e os filhos se criam mística e domesticamente, e a língua que nas ditas famílias se fala é a dos Índios, e a portuguesa a vão os meninos aprender à escola.”",
+          "source": "TEYSSIER, P. História da língua portuguesa. Lisboa: Livraria Sá da Costa, 1984 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "A identidade de uma nação está diretamente ligada à cultura de seu povo. O texto mostra que, no período colonial brasileiro, o Português, o Índio e o Negro formaram a base da população e que o patrimônio linguístico brasileiro é resultado da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "contribuição dos índios na escolarização dos brasileiros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "diferença entre as línguas dos colonizadores e as dos indígenas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "importância do padre Antônio Vieira para a literatura de língua portuguesa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "origem das diferenças entre a língua portuguesa e as línguas tupi.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "interação pacífica no uso da língua portuguesa e da língua tupi.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q120",
+      "question_number": 120,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Pequeno concerto que virou canção Não, não há por que mentir ou esconder A dor que foi maior do que é capaz meu coração Não, nem há por que seguir cantando só para explicar Não vai nunca entender de amor quem nunca soube amar Ah, eu vou voltar pra mim Seguir sozinho assim Até me consumir ou consumir toda essa dor Até sentir de novo o coração capaz de amor VANDRÉ, G. Disponível em: http://www.letras.terra.com.br. Acesso em: 29 jun. 2011. Na canção de Geraldo Vandré, tem-se a manifestação da função poética da linguagem, que é percebida na elaboração artística e criativa da mensagem, por meio de combinações sonoras e rítmicas. Pela análise do texto, entretanto, percebe-se, também, a presença marcante da função emotiva ou expressiva, por meio da qual o emissor",
+      "options": [
+        {
+          "letter": "A",
+          "text": "imprime à canção as marcas de sua atitude pessoal, seus sentimentos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "transmite informações objetivas sobre o tema de que trata a canção.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "busca persuadir o receptor da canção a adotar um certo comportamento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "procura explicar a própria linguagem que utiliza para construir a canção.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "objetiva verificar ou fortalecer a eficiência da mensagem veiculada.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q121",
+      "question_number": 121,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "É água que não acaba mais Dados preliminares divulgados por pesquisadores da Universidade Federal do Pará (UFPA) apontaram o Aquífero Alter do Chão como o maior depósito de água potável do planeta. Com volume estimado em 86 000 quilômetros cúbicos de água doce, a reserva subterrânea está localizada sob os estados do Amazonas, Pará e Amapá. “Essa quantidade de água seria suficiente para abastecer a população mundial durante 500 anos”, diz Milton Matta, geólogo da UFPA.\nEm termos comparativos, Alter do Chão tem quase o dobro do volume de água do Aquífero Guarani (com 45 000 quilômetros cúbicos). Até então, Guarani era a maior reserva subterrânea do mundo, distribuída por Brasil, Argentina, Paraguai e Uruguai.",
+          "source": "Época. Nº 623, 26 abr. 2010."
+        }
+      ],
+      "image_url": null,
+      "statement": "Essa notícia, publicada em uma revista de grande circulação, apresenta resultados de uma pesquisa científica realizada por uma universidade brasileira.\nNessa situação específica de comunicação, a função referencial da linguagem predomina, porque o autor do texto prioriza",
+      "options": [
+        {
+          "letter": "A",
+          "text": "as suas opiniões, baseadas em fatos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "os aspectos objetivos e precisos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "os elementos de persuasão do leitor.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "os elementos estéticos na construção do texto.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "os aspectos subjetivos da mencionada pesquisa. \nTexto para as questões 122 e 123 Nós adoraríamos dizer que somos perfeitos. Que somos infalíveis. Que não cometemos nem mesmo o menor deslize. E só não falamos isso por um pequeno detalhe: seria uma mentira. Aliás, em vez de usar a palavra “mentira”, como acabamos de fazer, poderíamos optar por um eufemismo. “Meia-verdade”, por exemplo, seria um termo muito menos agressivo. Mas nós não usamos esta palavra simplesmente porque não acreditamos que exista uma “Meia-verdade”. Para o Conar, Conselho Nacional de Autorregulamentação Publicitária, existem a verdade e a mentira. Existem a honestidade e a desonestidade. Absolutamente nada no meio. O Conar nasceu há 29 anos (viu só? não arredondamos para 30) com a missão de zelar pela ética na publicidade. Não fazemos isso porque somos bonzinhos (gostaríamos de dizer isso, mas, mais uma vez, seria mentira). Fazemos isso porque é a única forma da propaganda ter o máximo de credibilidade. E, cá entre nós, para que serviria a propaganda se o consumidor não acreditasse nela?\nQualquer pessoa que se sinta enganada por uma peça publicitária pode fazer uma reclamação ao Conar.\nEle analisa cuidadosamente todas as denúncias e, quando é o caso, aplica a punição.\nAnúncio veiculado na Revista veja. São Paulo: Abril. Ed. 2120, ano 42, nº 27, 8 jul. 2009.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q122",
+      "question_number": 122,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q122.png"
+      ],
+      "statement": "O recurso gráfico utilizado no anúncio publicitário ― de destacar a potencial supressão de trecho do texto ― reforça a eficácia pretendida, revelada na estratégia de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ressaltar a informação no título, em detrimento do restante do conteúdo associado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "incluir o leitor por meio do uso da 1ª pessoa do plural no discurso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "contar a história da criação do órgão como argumento de autoridade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "subverter o fazer publicitário pelo uso de sua metalinguagem.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "impressionar o leitor pelo jogo de palavras no texto.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q123",
+      "question_number": 123,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Considerando a autoria e a seleção lexical desse texto, bem como os argumentos nele mobilizados, constata-se que o objetivo do autor do texto é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "informar os consumidores em geral sobre a atuação do Conar.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "conscientizar publicitários do compromisso ético ao elaborar suas peças publicitárias.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "alertar chefes de família, para que eles fiscalizem o conteúdo das propagandas veiculadas pela mídia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "chamar a atenção de empresários e anunciantes em geral para suas responsabilidades ao contratarem publicitários sem ética.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "chamar a atenção de empresas para os efeitos nocivos que elas podem causar à sociedade, se compactuarem com propagandas enganosas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q124",
+      "question_number": 124,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "SE NO INVERNO É DIFÍCIL ACORDAR, imAGinE DORmiR.",
+          "source": "Com a chegada do inverno, muitas pessoas perdem o sono. São milhões de necessitados que lutam contra a fome e o frio. Para vencer esta batalha, eles precisam de você. Deposite qualquer quantia. Você ajuda milhares de pessoas a terem uma boa noite e dorme com a consciência tranquila. veja. 05 set. 1999 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O produtor de anúncios publicitários utiliza-se de estra-tégias persuasivas para influenciar o comportamento de seu leitor. Entre os recursos argumentativos mobilizados pelo autor para obter a adesão do público à campanha, destaca-se nesse texto",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a oposição entre individual e coletivo, trazendo um ideário populista para o anúncio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a utilização de tratamento informal com o leitor, o que suaviza a seriedade do problema.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o emprego de linguagem figurada, o que desvia a atenção da população do apelo financeiro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o uso dos numerais “milhares” e “milhões”, responsável pela supervalorização das condições dos necessitados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o jogo de palavras entre “acordar” e “dormir”, o que relativiza o problema do leitor em relação ao dos necessitados.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q125",
+      "question_number": 125,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Entre ideia e tecnologia O grande conceito por trás do Museu da Língua é apresentar o idioma como algo vivo e fundamental para o entendimento do que é ser brasileiro. Se nada nos define com clareza, a forma como falamos o português nas mais diversas situações cotidianas é talvez a melhor expressão da brasilidade.",
+          "source": "SCARDOVELI, E. Revista Língua Portuguesa. São Paulo: Segmento, Ano II, nº 6, 2006."
+        }
+      ],
+      "image_url": null,
+      "statement": "O texto propõe uma reflexão acerca da língua portuguesa, ressaltando para o leitor a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "inauguração do museu e o grande investimento em cultura no país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "importância da língua para a construção da identidade nacional.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "afetividade tão comum ao brasileiro, retratada através da língua.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "relação entre o idioma e as políticas públicas na área de cultura.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "diversidade étnica e linguística existente no território nacional.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q126",
+      "question_number": 126,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO i",
+          "content": "O Brasil sempre deu respostas rápidas através da solidariedade do seu povo. Mas a mesma força que nos motiva a ajudar o próximo deveria também nos motivar a ter atitudes cidadãs. Não podemos mais transferir a culpa para quem é vítima ou até mesmo para a própria natureza, como se essa seguisse a lógica humana.\nSobram desculpas esfarrapadas e falta competência da classe política.",
+          "source": "Cartas. Istoé. 28 abr. 2010."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO ii",
+          "content": "Não podemos negar ao povo sofrido todas as hipóteses de previsão dos desastres. Demagogos culpam os moradores; o governo e a prefeitura apelam para as pessoas saírem das áreas de risco e agora dizem que será compulsória a realocação. Então temos a realocar o Brasil inteiro! Criemos um serviço, similar ao SUS, com alocação obrigatória de recursos orçamentários com rede de atendimento preventivo, onde participariam arquitetos, engenheiros, geólogos.\nBem ou mal, esse “SUS” organizaria brigadas nos locais.\nNos casos da dengue, por exemplo, poderia verificar as condições de acontecer epidemias. Seriam boas ações preventivas.",
+          "source": "Carta do Leitor. carta Capital. 28 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os textos apresentados expressam opiniões de leitores acerca de relevante assunto para a sociedade brasileira.\nOs autores dos dois textos apontam para a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "necessidade de trabalho voluntário contínuo para a resolução das mazelas sociais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "importância de ações preventivas para evitar catástrofes, indevidamente atribuídas aos políticos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "incapacidade política para agir de forma diligente na resolução das mazelas sociais.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "urgência de se criarem novos órgãos públicos com as mesmas características do SUS.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "impossibilidade de o homem agir de forma eficaz ou preventiva diante das ações da natureza.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q127",
+      "question_number": 127,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q127.png"
+      ],
+      "statement": "Disponível em: http://www.ccsp.com.br. Acesso em: 27 jul. 2010 (adaptado). O texto é uma propaganda de um adoçante que tem o seguinte mote: “Mude sua embalagem”. A estratégia que o autor utiliza para o convencimento do leitor baseia-se no emprego de recursos expressivos, verbais e não verbais, com vistas a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ridicularizar a forma física do possível cliente do produto anunciado, aconselhando-o a uma busca de mudanças estéticas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "enfatizar a tendência da sociedade contemporânea de buscar hábitos alimentares saudáveis, reforçando tal postura.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "criticar o consumo excessivo de produtos industrializados por parte da população, propondo a redução desse consumo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "associar o vocábulo “açúcar” à imagem do corpo fora de forma, sugerindo a substituição desse produto pelo adoçante.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "relacionar a imagem do saco de açúcar a um corpo humano que não desenvolve atividades físicas, incentivando a prática esportiva.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q128",
+      "question_number": 128,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Motivadas ou não historicamente, normas prestigiadas ou estigmatizadas pela comunidade sobrepõem-se ao longo do território, seja numa relação de oposição, seja de complementaridade, sem, contudo, anular a interseção de usos que configuram uma norma nacional distinta da do português europeu. Ao focalizar essa questão, que opõe não só as normas do português de Portugal às normas do português brasileiro, mas também as chamadas normas cultas locais às populares ou vernáculas, deve-se insistir na ideia de que essas normas se consolidaram em diferentes momentos da nossa história e que só a partir do século XVIII se pode começar a pensar na bifurcação das variantes continentais, ora em consequência de mudanças ocorridas no Brasil, ora em Portugal, ora, ainda, em ambos os territórios.",
+          "source": "CALLOU, D. Gramática, variação e normas. In: VIEIRA, S. R.; BRANDÃO, S. (orgs). Ensino de gramática: descrição e uso. São Paulo: Contexto, 2007 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O português do Brasil não é uma língua uniforme. A variação linguística é um fenômeno natural, ao qual todas as línguas estão sujeitas. Ao considerar as variedades linguísticas, o texto mostra que as normas podem ser aprovadas ou condenadas socialmente, chamando a atenção do leitor para a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "desconsideração da existência das normas populares pelos falantes da norma culta.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "difusão do português de Portugal em todas as regiões do Brasil só a partir do século XVIII.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "existência de usos da língua que caracterizam uma norma nacional do Brasil, distinta da de Portugal.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "inexistência de normas cultas locais e populares ou vernáculas em um determinado país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "necessidade de se rejeitar a ideia de que os usos frequentes de uma língua devem ser aceitos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q129",
+      "question_number": 129,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "VERÍSSIMO, L. F. As cobras em: Se Deus existe que eu seja atingido por um raio.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q129.png"
+      ],
+      "statement": "Porto Alegre: L&PM, 1997.\nO humor da tira decorre da reação de uma das cobras com relação ao uso de pronome pessoal reto, em vez de pronome oblíquo. De acordo com a norma padrão da língua, esse uso é inadequado, pois",
+      "options": [
+        {
+          "letter": "A",
+          "text": "contraria o uso previsto para o registro oral da língua.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "contraria a marcação das funções sintáticas de sujeito e objeto.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "gera inadequação na concordância com o verbo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "gera ambiguidade na leitura do texto.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apresenta dupla marcação de sujeito.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q130",
+      "question_number": 130,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "MANDIOCA – mais um presente da Amazônia Aipim, castelinha, macaxeira, maniva, maniveira. As designações da Manihot utilissima podem variar de região, no Brasil, mas uma delas deve ser levada em conta em todo o território nacional: pão-de-pobre – e por motivos óbvios.\nRica em fécula, a mandioca — uma planta rústica e nativa da Amazônia disseminada no mundo inteiro, especialmente pelos colonizadores portugueses — é a base de sustento de muitos brasileiros e o único alimento disponível para mais de 600 milhões de pessoas em vários pontos do planeta, e em particular em algumas regiões da África.",
+          "source": "O melhor do Globo Rural. Fev. 2005 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "De acordo com o texto, há no Brasil uma variedade de nomes para a Manihot utilissima, nome científico da mandioca. Esse fenômeno revela que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "existem variedades regionais para nomear uma mesma espécie de planta.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "mandioca é nome específico para a espécie existente na região amazônica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "“pão-de-pobre” é designação específica para a planta da região amazônica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "os nomes designam espécies diferentes da planta, conforme a região.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a planta é nomeada conforme as particularidades que apresenta.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q131",
+      "question_number": 131,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Há certos usos consagrados na fala, e até mesmo na escrita, que, a depender do estrato social e do nível de escolaridade do falante, são, sem dúvida, previsíveis.\nOcorrem até mesmo em falantes que dominam a variedade padrão, pois, na verdade, revelam tendências existentes na língua em seu processo de mudança que não podem ser bloqueadas em nome de um “ideal linguístico” que estaria representado pelas regras da gramática normativa. Usos como ter por haver em construções existenciais (tem muitos livros na estante), o do pronome objeto na posição de sujeito (para mim fazer o trabalho), a não-concordância das passivas com se (aluga-se casas) são indícios da existência, não de uma norma única, mas de uma pluralidade de normas, entendida, mais uma vez, norma como conjunto de hábitos linguísticos, sem implicar juízo de valor.",
+          "source": "CALLOU, D. Gramática, variação e normas. In: VIEIRA, S. R.; BRANDÃO, S. (orgs). Ensino de gramática: descrição e uso. São Paulo: Contexto, 2007 (fragmento)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considerando a reflexão trazida no texto a respeito da multiplicidade do discurso, verifica-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "estudantes que não conhecem as diferenças entre língua escrita e língua falada empregam, indistintamente, usos aceitos na conversa com amigos quando vão elaborar um texto escrito.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "falantes que dominam a variedade padrão do português do Brasil demonstram usos que confirmam a diferença entre a norma idealizada e a efetivamente praticada, mesmo por falantes mais escolarizados.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "moradores de diversas regiões do país que enfrentam dificuldades ao se expressar na escrita revelam a constante modificação das regras de emprego de pronomes e os casos especiais de concordância.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "pessoas que se julgam no direito de contrariar a gramática ensinada na escola gostam de apresentar usos não aceitos socialmente para esconderem seu desconhecimento da norma padrão.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "usuários que desvendam os mistérios e sutilezas da língua portuguesa empregam formas do verbo ter quando, na verdade, deveriam usar formas do verbo haver, contrariando as regras gramaticais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q132",
+      "question_number": 132,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Palavra indígena A história da tribo Sapucaí, que traduziu para o idioma guarani os artefatos da era da computação que ganharam importância em sua vida, como mouse (que eles chamam de angojhá) e windows (oventã)\nQuando a internet chegou àquela comunidade, que abriga em torno de 400 guaranis, há quatro anos, por meio de um projeto do Comitê para Democratização da Informática (CDI), em parceria com a ONG Rede Povos da Floresta e com antena cedida pela Star One (da Embratel), Potty e sua aldeia logo vislumbraram as possibilidades de comunicação que a web traz.\nEle conta que usam a rede, por enquanto, somente para preparação e envio de documentos, mas perceberam que ela pode ajudar na preservação da cultura indígena.\nA apropriação da rede se deu de forma gradual, mas os guaranis já incorporaram a novidade tecnológica ao seu estilo de vida. A importância da internet e da computação para eles está expressa num caso de rara incorporação: a do vocabulário.\n— Um dia, o cacique da aldeia Sapucaí me ligou.\n“A gente não está querendo chamar computador de “computador”. Sugeri a eles que criassem uma palavra em guarani. E criaram aiú irú rive, “caixa pra acumular a língua”. Nós, brancos, usamos mouse, windows e outros termos, que eles começaram a adaptar para o idioma deles, como angojhá (rato) e oventã (janela) — conta Rodrigo Baggio, diretor do CDI.",
+          "source": "Disponível em: http://www.revistalingua.uol.com.br. Acesso em: 22 jul. 2010."
+        }
+      ],
+      "image_url": null,
+      "statement": "O uso das novas tecnologias de informação e comunicação fez surgir uma série de novos termos que foram acolhidos na sociedade brasileira em sua forma original, como: mouse, windows, download, site, homepage, entre outros. O texto trata da adaptação de termos da informática à língua indígena como uma reação da tribo Sapucaí, o que revela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a possibilidade que o índio Potty vislumbrou em relação à comunicação que a web pode trazer a seu povo e à facilidade no envio de documentos e na conversação em tempo real.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o uso da internet para preparação e envio de documentos, bem como a contribuição para as atividades relacionadas aos trabalhos da cultura indígena.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a preservação da identidade, demonstrada pela conservação do idioma, mesmo com a utilização de novas tecnologias características da cultura de outros grupos sociais.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "adesão ao projeto do Comitê para Democratização da Informática (CDI), que, em parceria com a ONG Rede Povos da Floresta, possibilitou o acesso à web, mesmo em ambiente inóspito.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a apropriação da nova tecnologia de forma gradual, evidente quando os guaranis incorporaram a novidade tecnológica ao seu estilo de vida com a possibilidade de acesso à internet. \nImagem para as questões 133 e 134 Disponível em: http://www.wordinfo.info. Acesso em: 27 abr. 2010.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q133",
+      "question_number": 133,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q133.png"
+      ],
+      "statement": "O homem evoluiu. Independentemente de teoria, essa evolução ocorreu de várias formas. No que concerne à evolução digital, o homem percorreu longo trajeto da pedra lascada ao mundo virtual. Tal fato culminou em um problema físico habitual, ilustrado na imagem, que propicia uma piora na qualidade de vida do usuário, uma vez que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a evolução ocorreu e com ela evoluíram as dores de cabeça, o estresse e a falta de atenção à família.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a vida sem o computador tornou-se quase inviável, mas se tem diminuído problemas de visão cansada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a utilização demasiada do computador tem proporcionado o surgimento de cientistas que apresentam lesão por esforço repetitivo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o homem criou o computador, que evoluiu, e hoje opera várias ações antes feitas pelas pessoas, tornando-as sedentárias ou obesas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o uso contínuo do computador de forma inadequada tem ocasionado má postura corporal.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q134",
+      "question_number": 134,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O argumento presente na charge consiste em uma metáfora relativa à teoria evolucionista e ao desenvolvimento tecnológico. Considerando o contexto apresentado, verifica-se que o impacto tecnológico pode ocasionar",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o surgimento de um homem dependente de um novo modelo tecnológico.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "a mudança do homem em razão dos novos inventos que destroem sua realidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a problemática social de grande exclusão digital a partir da interferência da máquina.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "a invenção de equipamentos que dificultam o trabalho do homem, em sua esfera social.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o retrocesso do desenvolvimento do homem em face da criação de ferramentas como lança, máquina e computador.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q135",
+      "question_number": 135,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O que é possível dizer em 140 caracteres?\nSucesso do Twitter no Brasil é oportunidade única de compreender a importância da concisão nos gêneros de escrita A máxima “menos é mais” nunca fez tanto sentido como no caso do microblog Twitter, cuja premissa é dizer algo — não importa o quê — em 140 caracteres. Desde que o serviço foi criado, em 2006, o número de usuários da ferramenta é cada vez maior, assim como a diversidade de usos que se faz dela. Do estilo “querido diário” à literatura concisa, passando por aforismos, citações, jornalismo, fofoca, humor etc., tudo ganha o espaço de um tweet (“pio” em inglês), e entender seu sucesso pode indicar um caminho para o aprimoramento de um recurso vital à escrita: a concisão.",
+          "source": "Disponível em: http://www.revistalingua.com.br. Acesso em: 28 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "O Twitter se presta a diversas finalidades, entre elas, à comunicação concisa, por isso essa rede social",
+      "options": [
+        {
+          "letter": "A",
+          "text": "é um recurso elitizado, cujo público precisa dominar a língua padrão.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "constitui recurso próprio para a aquisição da modalidade escrita da língua.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "é restrita à divulgação de textos curtos e pouco significativos e, portanto, é pouco útil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "interfere negativamente no processo de escrita e acaba por revelar uma cultura pouco reflexiva.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "estimula a produção de frases com clareza e objetividade, fatores que potencializam a comunicação interativa.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q136",
+      "question_number": 136,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O dono de uma oficina mecânica precisa de um pistão das partes de um motor, de 68 mm de diâmetro, para o conserto de um carro. Para conseguir um, esse dono vai até um ferro velho e lá encontra pistões com diâmetros iguais a 68,21 mm; 68,102 mm; 68,001 mm; 68,02 mm e 68,012 mm.\nPara colocar o pistão no motor que está sendo consertado, o dono da oficina terá de adquirir aquele que tenha o diâmetro mais próximo do que precisa.\nNessa condição, o dono da oficina deverá comprar o pistão de diâmetro",
+      "options": [
+        {
+          "letter": "A",
+          "text": "68,21 mm.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "68,102 mm.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "68,02 mm.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "68,012 mm.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "68,001 mm.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "enem_2011_d2_azul_q137",
+      "question_number": 137,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A Escala de Magnitude de Momento (abreviada como MMS e denotada como M ), introduzida em 1979 w por Thomas Haks e Hiroo Kanamori, substituiu a Escala de Richter para medir a magnitude dos terremotos em termos de energia liberada. Menos conhecida pelo público, a MMS é, no entanto, a escala usada para estimar as magnitudes de todos os grandes terremotos da atualidade. Assim como a escala Richter, a MMS é uma escala logarítmica. M e M se relacionam pela fórmula:\nW 0 M =−10,7+ 2 log ( M )\nW 10 0 3 Onde M é o momento sísmico (usualmente estimado 0 a partir dos registros de movimento da superfície, através dos sismogramas), cuja unidade é o dina∙cm.\nO terremoto de Kobe, acontecido no dia 17 de janeiro de 1995, foi um dos terremotos que causaram maior impacto no Japão e na comunidade científica internacional. Teve magnitude M = 7,3.\nW u.S. GEOlOGicAl SuRvEY. Historic Earthquakes.\nDisponível em: http://earthquake.usgs.gov. Acesso em: 1 maio 2010 (adaptado).\nU.S. GEOLOGICAL SURVEY. USGS Earthquake Magnitude Policy.",
+          "source": "Disponível em: http://earthquake.usgs.gov. Acesso em: 1 maio 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Mostrando que é possível determinar a medida por meio de conhecimentos matemáticos, qual foi o momento sísmico M do terremoto de Kobe (em dina∙cm)? 0",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10-5,10",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "10-0,73",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1012,00",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1021,65",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1027,00",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q138",
+      "question_number": 138,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q138.png"
+      ],
+      "statement": "Um mecânico de uma equipe de corrida necessita que as seguintes medidas realizadas em um carro sejam obtidas em metros: a) distância a entre os eixos dianteiro e traseiro; b) altura b entre o solo e o encosto do piloto.\nAo optar pelas medidas a e b em metros, obtêm-se, respectivamente,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,23 e 0,16.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2,3 e 1,6.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "23 e 16.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "230 e 160.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2 300 e 1 600.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q139",
+      "question_number": 139,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O medidor de energia elétrica de uma residência, conhecido por “relógio de luz”, é constituído de quatro pequenos relógios, cujos sentidos de rotação estão indicados conforme a figura:",
+          "source": "Disponível em: http://www.enersul.com.br. Acesso em: 26 abr. 2010."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q139.png"
+      ],
+      "statement": "A medida é expressa em kWh. O número obtido na leitura é composto por 4 algarismos. Cada posição do número é formada pelo último algarismo ultrapassado pelo ponteiro.\nO número obtido pela leitura em kWh, na imagem, é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2 614.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "3 624.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2 715.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3 725.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "4 162.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q140",
+      "question_number": 140,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em uma certa cidade, os moradores de um bairro carente de espaços de lazer reivindicam à prefeitura municipal a construção de uma praça. A prefeitura concorda com a solicitação e afirma que irá construí-la em formato retangular devido às características técnicas do terreno. Restrições de natureza orçamentária impõem que sejam gastos, no máximo, 180 m de tela para cercar a praça. A prefeitura apresenta aos moradores desse bairro as medidas dos terrenos disponíveis para a construção da praça:\nTerreno 1: 55 m por 45 m Terreno 2: 55 m por 55 m Terreno 3: 60 m por 30 m Terreno 4: 70 m por 20 m Terreno 5: 95 m por 85 m Para optar pelo terreno de maior área, que atenda às restrições impostas pela prefeitura, os moradores deverão escolher o terreno",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "5.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q141",
+      "question_number": 141,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Você pode adaptar as atividades do seu dia a dia de uma forma que possa queimar mais calorias do que as gastas normalmente, conforme a relação seguinte: - Enquanto você fala ao telefone, faça agachamentos: 100 calorias gastas em 20 minutos. - Meia hora de supermercado: 100 calorias. - Cuidar do jardim por 30 minutos: 200 calorias. - Passear com o cachorro: 200 calorias em 30 minutos. - Tirar o pó dos móveis: 150 calorias em 30 minutos. - Lavar roupas por 30 minutos: 200 calorias.",
+          "source": "Disponível em: http://cyberdiet.terra.com.br. Acesso em: 27 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Uma pessoa deseja executar essas atividades, porém, ajustando o tempo para que, em cada uma, gaste igualmente 200 calorias.\nA partir dos ajustes, quanto tempo a mais será necessário para realizar todas as atividades?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "50 minutos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "60 minutos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "80 minutos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "120 minutos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "170 minutos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q142",
+      "question_number": 142,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma equipe de especialistas do centro meteorológico de uma cidade mediu a temperatura do ambiente, sempre no mesmo horário, durante 15 dias intercalados, a partir do primeiro dia de um mês. Esse tipo de procedimento é frequente, uma vez que os dados coletados servem de referência para estudos e verificação de tendências climáticas ao longo dos meses e anos.\nAs medições ocorridas nesse período estão indicadas no quadro:\nDia do mês Temperatura (em °C) (1) 15,5 (3) 14 (5) 13,5 (7) 18 (9) 19,5 (11) 20 (13) 13,5 (15) 13,5 (17) 18 (19) 20 (21) 18,5 (23) 13,5 (25) 21,5 (27) 20 (29) 16 Em relação à temperatura, os valores da média, mediana e moda são, respectivamente, iguais a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "17 °C, 17 °C e 13,5 °C.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "17 °C, 18 °C e 13,5 °C.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "17 °C, 13,5 °C e 18 °C.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "17 °C, 18 °C e 21,5 °C.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "17 °C, 13,5 °C e 21,5 °C.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q143",
+      "question_number": 143,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Para uma atividade realizada no laboratório de Matemática, um aluno precisa construir uma maquete da quadra de esportes da escola que tem 28 m de comprimento por 12 m de largura. A maquete deverá ser construída na escala de 1 : 250.\nQue medidas de comprimento e largura, em cm, o aluno utilizará na construção da maquete?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4,8 e 11,2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "7,0 e 3,0",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "11,2 e 4,8",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "28,0 e 12,0",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "30,0 e 70,0",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q144",
+      "question_number": 144,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma indústria fabrica brindes promocionais em forma de pirâmide. A pirâmide é obtida a partir de quatro cortes em um sólido que tem a forma de um cubo. No esquema, estão indicados o sólido original (cubo) e a pirâmide obtida a partir dele.\nOs pontos A, B, C, D e O do cubo e da pirâmide são os mesmos. O ponto O é central na face superior do cubo.\nOs quatro cortes saem de O em direção às arestas AD, BC, AB e CD, nessa ordem. Após os cortes, são descartados quatro sólidos.\nOs formatos dos sólidos descartados são",
+      "options": [
+        {
+          "letter": "A",
+          "text": "todos iguais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "todos diferentes.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "três iguais e um diferente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "apenas dois iguais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "iguais dois a dois.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q145",
+      "question_number": 145,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Café no Brasil O consumo atingiu o maior nível da história no ano passado: os brasileiros beberam o equivalente a 331 bilhões de xícaras. veja. Ed. 2158, 31 mar. 2010.",
+          "source": null
+        }
+      ],
+      "image_url": null,
+      "statement": "Considere que a xícara citada na notícia seja equivalente a, aproximadamente, 120 mL de café. Suponha que em 2010 os brasileiros bebam ainda mais café, aumentando 1 o consumo em do que foi consumido no ano anterior. 5 De acordo com essas informações, qual a previsão mais aproximada para o consumo de café em 2010?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "8 bilhões de litros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "16 bilhões de litros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "32 bilhões de litros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "40 bilhões de litros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "48 bilhões de litros.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q146",
+      "question_number": 146,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Sabe-se que a distância real, em linha reta, de uma cidade A, localizada no estado de São Paulo, a uma cidade B, localizada no estado de Alagoas, é igual a 2 000 km. Um estudante, ao analisar um mapa, verificou com sua régua que a distância entre essas duas cidades, A e B, era 8 cm.\nOs dados nos indicam que o mapa observado pelo estudante está na escala de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 : 250.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1 : 2 500.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1 : 25 000.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1 : 250 000.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1 : 25 000 000.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q147",
+      "question_number": 147,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A figura seguinte mostra um modelo de sombrinha muito usado em países orientais.",
+          "source": "Disponível em: http://mdmat.psico.ufrgs.br. Acesso em: 1 maio 2010."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q147.png"
+      ],
+      "statement": "Esta figura é uma representação de uma superfície de revolução chamada de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pirâmide.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "semiesfera.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "cilindro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "tronco de cone.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "cone.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q148",
+      "question_number": 148,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Em 2010, um caos aéreo afetou o continente europeu, devido à quantidade de fumaça expelida por um vulcão na Islândia, o que levou ao cancelamento de inúmeros voos.\nCinco dias após o início desse caos, todo o espaço aéreo europeu acima de 6 000 metros estava liberado, com exceção do espaço aéreo da Finlândia.\nLá, apenas voos internacionais acima de 31 mil pés estavam liberados.",
+          "source": "Disponível em: http://www1.folha.uol.com.br. Acesso em: 21 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considere que 1 metro equivale a aproximadamente 3,3 pés.\nQual a diferença, em pés, entre as altitudes liberadas na Finlândia e no restante do continente europeu cinco dias após o início do caos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3 390 pés.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "9 390 pés.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "11 200 pés.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "19 800 pés.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "50 800 pés.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q149",
+      "question_number": 149,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O Índice de Massa Corporal (IMC) é largamente utilizado há cerca de 200 anos, mas esse cálculo representa muito mais a corpulência que a adiposidade, uma vez que indivíduos musculosos e obesos podem apresentar o mesmo IMC. Uma nova pesquisa aponta o Índice de Adiposidade Corporal (IAC) como uma alternativa mais fidedigna para quantificar a gordura corporal, utilizando a medida do quadril e a altura. A figura mostra como calcular essas medidas, sabendo-se que, em mulheres, a adiposidade normal está entre 19% e 26%.",
+          "source": "Disponível em: http://www1.folha.uol.com.br. Acesso em: 24 abr. 2011(adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Uma jovem com IMC = 20 kg/m², 100 cm de circunferência dos quadris e 60 kg de massa corpórea resolveu averiguar seu IAC. Para se enquadrar aos níveis de normalidade de gordura corporal, a atitude adequada que essa jovem deve ter diante da nova medida é (Use ) √3 � 1,7����1,7�� 1,3",
+      "options": [
+        {
+          "letter": "A",
+          "text": "reduzir seu excesso de gordura em cerca de 1%.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "reduzir seu excesso de gordura em cerca de 27%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "manter seus níveis atuais de gordura.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "aumentar seu nível de gordura em cerca de 1%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "aumentar seu nível de gordura em cerca de 27%.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q150",
+      "question_number": 150,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um bairro de uma cidade foi planejado em uma região plana, com ruas paralelas e perpendiculares, delimitando quadras de mesmo tamanho. No plano de coordenadas cartesianas seguinte, esse bairro localiza-se no segundo quadrante, e as distâncias nos eixos são dadas em quilômetros. \nA reta de equação y = x + 4 representa o planejamento do percurso da linha do metrô subterrâneo que atravessará o bairro e outras regiões da cidade.\nNo ponto P = (-5, 5), localiza-se um hospital público. A comunidade solicitou ao comitê de planejamento que fosse prevista uma estação do metrô de modo que sua distância ao hospital, medida em linha reta, não fosse maior que 5 km.\nAtendendo ao pedido da comunidade, o comitê argumentou corretamente que isso seria automaticamente satisfeito, pois já estava prevista a construção de uma estação no ponto",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(–5, 0).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "(–3, 1).",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "(–2, 1).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "(0, 4).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "(2, 6).",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q151",
+      "question_number": 151,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q151.png"
+      ],
+      "statement": "Disponível em: http://www.diaadia.pr.gov.br. Acesso em: 28 abr. 2010. O polígono que dá forma a essa calçada é invariante por rotações, em torno de seu centro, de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "45°.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "60°.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "90°.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "120°.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "180°.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q152",
+      "question_number": 152,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "As frutas que antes se compravam por dúzias, hoje em dia, podem ser compradas por quilogramas, existindo também a variação dos preços de acordo com a época de produção. Considere que, independente da época ou variação de preço, certa fruta custa R$ 1,75 o quilograma.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q152-opts.png"
+      ],
+      "statement": "Dos gráficos a seguir, o que representa o preço m pago em reais pela compra de n quilogramas desse produto é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q153",
+      "question_number": 153,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Observe as dicas para calcular a quantidade certa de alimentos e bebidas para as festas de fim de ano: • Para o prato principal, estime 250 gramas de carne para cada pessoa. • Um copo americano cheio de arroz rende o suficiente para quatro pessoas. • Para a farofa, calcule quatro colheres de sopa por convidado. • Uma garrafa de vinho serve seis pessoas. • Uma garrafa de cerveja serve duas. • Uma garrafa de espumante serve três convidados.\nQuem organiza festas faz esses cálculos em cima do total de convidados, independente do gosto de cada um.\nQuantidade certa de alimentos e bebidas evita o desperdício da ceia.",
+          "source": "Jornal Hoje. 17 dez. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Um anfitrião decidiu seguir essas dicas ao se preparar para receber 30 convidados para a ceia de Natal. Para seguir essas orientações à risca, o anfitrião deverá dispor de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "120 kg de carne, 7 copos americanos e meio de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 15 de cerveja e 10 de espumante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "120 kg de carne, 7 copos americanos e meio de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 30 de cerveja e 10 de espumante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "75 kg de carne, 7 copos americanos e meio de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 15 de cerveja e 10 de espumante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "7,5 kg de carne, 7 copos americanos, 120 colheres de sopa de farofa, 5 garrafas de vinho, 30 de cerveja e 10 de espumante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "7,5 kg de carne, 7 copos americanos e meio de arroz, 120 colheres de sopa de farofa, 5 garrafas de vinho, 15 de cerveja e 10 de espumante.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q154",
+      "question_number": 154,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A participação dos estudantes na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP) aumenta a cada ano. O quadro indica o percentual de medalhistas de ouro, por região, nas edições da OBMEP de 2005 a 2009:",
+          "source": "Região 2005 2006 2007 2008 2009 Norte 2% 2% 1% 2% 1% Nordeste 18% 19% 21% 15% 19% Centro-Oeste 5% 6% 7% 8% 9% Sudeste 55% 61% 58% 66% 60% Sul 21% 12% 13% 9% 11% Disponível em: http://www.obmep.org.br. Acesso em: abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Em relação às edições de 2005 a 2009 da OBMEP, qual o percentual médio de medalhistas de ouro da região Nordeste?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "14,6%",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "18,2%",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "18,4%",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "19,0%",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "21,0%",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q155",
+      "question_number": 155,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Para determinar a distância de um barco até a praia, um navegante utilizou o seguinte procedimento: a partir de um ponto A, mediu o ângulo visual α fazendo mira em um ponto fixo P da praia. Mantendo o barco no mesmo sentido, ele seguiu até um ponto B de modo que fosse possível ver o mesmo ponto P da praia, no entanto sob um ângulo visual 2α.",
+          "source": null
+        }
+      ],
+      "image_url": null,
+      "statement": "Suponha que o navegante tenha medido o ângulo α = 30° e, ao chegar ao ponto B, verificou que o barco havia percorrido a distância AB = 2 000 m. Com base nesses dados e mantendo a mesma trajetória, a menor distância do barco até o ponto fixo P será",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 000 m.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1 000√3 m.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "2 000·(√3/3) m.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "2 000 m.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2 000√3 m.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q156",
+      "question_number": 156,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O saldo de contratações no mercado formal no setor varejista da região metropolitana de São Paulo registrou alta. Comparando as contratações deste setor no mês de fevereiro com as de janeiro deste ano, houve incremento de 4 300 vagas no setor, totalizando 880 605 trabalhadores com carteira assinada.",
+          "source": "Disponível em: http://www.folha.uol.com.br. Acesso em: 26 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Suponha que o incremento de trabalhadores no setor varejista seja sempre o mesmo nos seis primeiros meses do ano.\nConsiderando-se que y e x representam, respectivamen-te, as quantidades de trabalhadores no setor varejista e os meses, janeiro sendo o primeiro, fevereiro, o segundo, e assim por diante, a expressão algébrica que relaciona essas quantidades nesses meses é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "y = 4 300x",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "y = 884 905x",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "y = 872 005 + 4 300x",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "y = 876 305 + 4 300x",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "y = 880 605 + 4 300x",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q157",
+      "question_number": 157,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um jovem investidor precisa escolher qual investimento lhe trará maior retorno financeiro em uma aplicação de R$ 500,00. Para isso, pesquisa o rendimento e o imposto a ser pago em dois investimentos: poupança e CDB (certificado de depósito bancário). As informações obtidas estão resumidas no quadro: \nRendimento IR (imposto de mensal (%) renda)\nPOUPANÇA 0,560 ISENTO CDB 0,876 4% (sobre o ganho)\nPara o jovem investidor, ao final de um mês, a aplicação mais vantajosa é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a poupança, pois totalizará um montante de R$ 502,80.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a poupança, pois totalizará um montante de R$ 500,56.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o CDB, pois totalizará um montante de R$ 504,38.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o CDB, pois totalizará um montante de R$ 504,21.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "o CDB, pois totalizará um montante de R$ 500,87.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q158",
+      "question_number": 158,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A tabela compara o consumo mensal, em kWh, dos consumidores residenciais e dos de baixa renda, antes e depois da redução da tarifa de energia no estado de Pernambuco.",
+          "source": "Diário de Pernambuco. 28 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q158.png"
+      ],
+      "statement": "Considere dois consumidores: um que é de baixa renda e gastou 100 kWh e outro do tipo residencial que gastou 185 kWh. A diferença entre o gasto desses consumidores com 1 kWh, depois da redução da tarifa de energia, mais aproximada, é de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R$ 0,27.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "R$ 0,29.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "R$ 0,32.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "R$ 0,34.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "R$ 0,61.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q159",
+      "question_number": 159,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O prefeito de uma cidade deseja construir uma rodovia para dar acesso a outro município. Para isso, foi aberta uma licitação na qual concorreram duas empresas.\nA primeira cobrou R$ 100 000,00 por km construído (n), acrescidos de um valor fixo de R$ 350 000,00, enquanto a segunda cobrou R$ 120 000,00 por km construído (n), acrescidos de um valor fixo de R$ 150 000,00. As duas empresas apresentam o mesmo padrão de qualidade dos serviços prestados, mas apenas uma delas poderá ser contratada.\nDo ponto de vista econômico, qual equação possibilitaria encontrar a extensão da rodovia que tornaria indiferente para a prefeitura escolher qualquer uma das propostas apresentadas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "100n + 350 = 120n + 150",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "100n + 150 = 120n + 350",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "100(n + 350) = 120(n + 150)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "100(n + 350 000) = 120(n + 150 000)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "350(n + 100 000) = 150(n + 120 000)",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q160",
+      "question_number": 160,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma pessoa aplicou certa quantia em ações. No primeiro mês, ela perdeu 30% do total do investimento e, no segundo mês, recuperou 20% do que havia perdido.\nDepois desses dois meses, resolveu tirar o montante de R$ 3 800,00 gerado pela aplicação.\nA quantia inicial que essa pessoa aplicou em ações corresponde ao valor de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R$ 4 222,22.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "R$ 4 523,80.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "R$ 5 000,00.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "R$ 13 300,00.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "R$ 17 100,00.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q161",
+      "question_number": 161,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Cerca de 20 milhões de brasileiros vivem na região coberta pela caatinga, em quase 800 mil km2 de área.\nQuando não chove, o homem do sertão e sua família precisam caminhar quilômetros em busca da água dos açudes. A irregularidade climática é um dos fatores que mais interferem na vida do sertanejo.",
+          "source": "Disponível em: http://www.wwf.org.br. Acesso em: 23 abr. 2010."
+        }
+      ],
+      "image_url": null,
+      "statement": "Segundo este levantamento, a densidade demográfica da região coberta pela caatinga, em habitantes por km2, é de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "250.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "25.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "2,5.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "0,25.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "0,025.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q162",
+      "question_number": 162,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O número mensal de passagens de uma determinada empresa aérea aumentou no ano passado nas seguintes condições: em janeiro foram vendidas 33 000 passagens; em fevereiro, 34 500; em março, 36 000. Esse padrão de crescimento se mantém para os meses subsequentes.\nQuantas passagens foram vendidas por essa empresa em julho do ano passado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "38 000",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "40 500",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "41 000",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "42 000",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "48 000",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q163",
+      "question_number": 163,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q163.png"
+      ],
+      "statement": "Rafael mora no Centro de uma cidade e decidiu se mudar, por recomendações médicas, para uma das regiões: Rural, Comercial, Residencial Urbano ou Residencial Suburbano. A principal recomendação médica foi com as temperaturas das “ilhas de calor” da região, que deveriam ser inferiores a 31°C. Tais temperaturas são apresentadas no gráfico:\nEscolhendo, aleatoriamente, uma das outras regiões para morar, a probabilidade de ele escolher uma região que seja adequada às recomendações médicas é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1 4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2 5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "3 5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "3 4",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q164",
+      "question_number": 164,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Muitas medidas podem ser tomadas em nossas casas visando à utilização racional de energia elétrica.\nIsso deve ser uma atitude diária de cidadania. Uma delas pode ser a redução do tempo no banho. Um chuveiro com potência de 4 800 W consome 4,8 kW por hora.\nUma pessoa que toma dois banhos diariamente, de 10 minutos cada, consumirá, em sete dias, quantos kW?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,8",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1,6",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5,6",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "11,2",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "33,",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q165",
+      "question_number": 165,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O atletismo é um dos esportes que mais se identificam com o espírito olímpico. A figura ilustra uma pista de atletismo. A pista é composta por oito raias e tem largura de 9,76 m. As raias são numeradas do centro da pista para a extremidade e são construídas de segmentos de retas paralelas e arcos de circunferência.\nOs dois semicírculos da pista são iguais.",
+          "source": "BIEMBENGUT, M. S. Modelação Matemática como método de ensino-aprendizagem de Matemática em cursos de 1º e 2º graus. 1990. Dissertação de Mestrado. IGCE/UNESP, Rio Claro,1990 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q165.png"
+      ],
+      "statement": "Se os atletas partissem do mesmo ponto, dando uma volta completa, em qual das raias o corredor estaria sendo beneficiado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "4",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "7",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "8",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q166",
+      "question_number": 166,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Nos últimos cinco anos, 32 mil mulheres de 20 a 24 anos foram internadas nos hospitais do SUS por causa de AVC. Entre os homens da mesma faixa etária, houve 28 mil internações pelo mesmo motivo.",
+          "source": "Época. 26 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Suponha que, nos próximos cinco anos, haja um acréscimo de 8 mil internações de mulheres e que o acréscimo de internações de homens por AVC ocorra na mesma proporção.\nDe acordo com as informações dadas, o número de homens que seriam internados por AVC, nos próximos cinco anos, corresponderia a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4 mil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "9 mil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "21 mil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "35 mil.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "39 mil.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q167",
+      "question_number": 167,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "É possível usar água ou comida para atrair as aves e observá-las. Muitas pessoas costumam usar água com açúcar, por exemplo, para atrair beija-flores. Mas é importante saber que, na hora de fazer a mistura, você deve sempre usar uma parte de açúcar para cinco partes de água. Além disso, em dias quentes, precisa trocar a água de duas a três vezes, pois com o calor ela pode fermentar e, se for ingerida pela ave, pode deixá-la doente. O excesso de açúcar, ao cristalizar, também pode manter o bico da ave fechado, impedindo-a de se alimentar. Isso pode até matá-la.\nCiência Hoje das Crianças. FNDE; Instituto Ciência Hoje, ano 19, n. 166, mar. 1996.\nPretende-se encher completamente um copo com a mistura para atrair beija-flores. O copo tem formato cilíndrico, e suas medidas são 10 cm de altura e 4 cm de diâmetro. A quantidade de água que deve ser utilizada na mistura é cerca de (utilize p = 3)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "20 mL.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "24 mL.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "100 mL.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "120 mL.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "600 mL.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q168",
+      "question_number": 168,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em um jogo disputado em uma mesa de sinuca, há 16 bolas: 1 branca e 15 coloridas, as quais, de acordo com a coloração, valem de 1 a 15 pontos (um valor para cada bola colorida).\nO jogador acerta o taco na bola branca de forma que esta acerte as outras, com o objetivo de acertar duas das quinze bolas em quaisquer caçapas. Os valores dessas duas bolas são somados e devem resultar em um valor escolhido pelo jogador antes do início da jogada.\nArthur, Bernardo e Caio escolhem os números 12, 17 e 22 como sendo resultados de suas respectivas somas.\nCom essa escolha, quem tem a maior probabilidade de ganhar o jogo é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Arthur, pois a soma que escolheu é a menor.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Bernardo, pois há 7 possibilidades de compor a soma escolhida por ele, contra 4 possibilidades para a escolha de Arthur e 4 possibilidades para a escolha de Caio.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Bernardo, pois há 7 possibilidades de compor a soma escolhida por ele, contra 5 possibilidades para a escolha de Arthur e 4 possibilidades para a escolha de Caio.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Caio, pois há 10 possibilidades de compor a soma escolhida por ele, contra 5 possibilidades para a escolha de Arthur e 8 possibilidades para a escolha de Bernardo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Caio, pois a soma que escolheu é a maior.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q169",
+      "question_number": 169,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q169.png"
+      ],
+      "statement": "A figura apresenta informações biométricas de um homem (Duílio) e de uma mulher (Sandra) que estão buscando alcançar seu peso ideal a partir das atividades físicas (corrida). Para se verificar a escala de obesidade, foi desenvolvida a fórmula que permite verificar o Índice de Massa Corporal (IMC). Esta fórmula é apresentada como IMC = m/h², onde m é a massa em quilogramas e h é altura em metros. veja. Ed. 2055 (adaptado). No quadro é apresentada a Escala de Índice de Massa Corporal com as respectivas categorias relacionadas aos pesos.\nEscala de Índice de Massa Corporal cATEGORiAS IMC (kg/m²)\nDesnutrição Abaixo de 14,5 Peso abaixo do normal 14,5 a 20 Peso normal 20 a 24,9 Sobrepeso 25 a 29,9 Obesidade 30 a 39,9 Obesidade mórbida Igual ou acima de 40 Nova Escola. N° 172, maio 2004.\nA partir dos dados biométricos de Duílio e Sandra e da Escala de IMC, o valor IMC e a categoria em que cada uma das pessoas se posiciona na Escala são",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Duílio tem o IMC 26,7 e Sandra tem o IMC 26,6, estando ambos na categoria de sobrepeso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Duílio tem o IMC 27,3 e Sandra tem o IMC 29,1, estando ambos na categoria de sobrepeso.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Duílio tem o IMC 27,3 e Sandra tem o IMC 26,6, estando ambos na categoria de sobrepeso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Duílio tem o IMC 25,6, estando na categoria de sobrepeso, e Sandra tem o IMC 24,7, estando na categoria de peso normal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Duílio tem o IMC 25,1, estando na categoria de sobrepeso, e Sandra tem o IMC 22,6, estando na categoria de peso normal.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2011_d2_azul_q170",
+      "question_number": 170,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Todo o país passa pela primeira fase de campanha de vacinação contra a gripe suína (H1N1). Segundo um médico infectologista do Instituto Emílio Ribas, de São Paulo, a imunização “deve mudar”, no país, a história da epidemia. Com a vacina, de acordo com ele, o Brasil tem a chance de barrar uma tendência do crescimento da doença, que já matou 17 mil no mundo. A tabela apresenta dados específicos de um único posto de vacinação.",
+          "source": "Campanha de vacinação contra a gripe suína Datas da Quantidade de Público-alvo vacinação pessoas vacinadas 8 a 19 de Trabalhadores da saúde 42 março e indígenas 22 de março a Portadores de doenças 22 2 de abril crônicas Adultos saudáveis entre 5 a 23 de abril 56 20 e 29 anos 24 de abril a População com mais de 30 7 de maio 60 anos 10 a 21 de Adultos saudáveis entre 50 maio 30 e 39 anos Disponível em: http://img.terra.com.br. Acesso em: 26 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Escolhendo-se aleatoriamente uma pessoa atendida nesse posto de vacinação, a probabilidade de ela ser portadora de doença crônica é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "8%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "9%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "11%.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "12%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "22%.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q171",
+      "question_number": 171,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O gráfico mostra a velocidade de conexão à internet utilizada em domicílios no Brasil. Esses dados são resultado da mais recente pesquisa, de 2009, realizada pelo Comitê Gestor da Internet (CGI).",
+          "source": "Disponível em: http://agencia.ipea.gov.br. Acesso em: 28 abr. 2010 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q171.png"
+      ],
+      "statement": "Escolhendo-se, aleatoriamente, um domicílio pesquisado, qual a chance de haver banda larga de conexão de pelo menos 1 Mbps neste domicílio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,45",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "0,42",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "0,30",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "0,22",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "0,",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q172",
+      "question_number": 172,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q172.png"
+      ],
+      "statement": "Um técnico em refrigeração precisa revisar todos os pontos de saída de ar de um escritório com várias salas.\nNa imagem apresentada, cada ponto indicado por uma letra é a saída do ar, e os segmentos são as tubulações.\nIniciando a revisão pelo ponto K e terminando em F, sem passar mais de uma vez por cada ponto, o caminho será passando pelos pontos",
+      "options": [
+        {
+          "letter": "A",
+          "text": "K, I e F.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "K, J, I, G, L e F.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "K, L, G, I, J, H e F.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "K, J, H, I, G, L e F.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "K, L, G, I, H, J e F.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q173",
+      "question_number": 173,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O termo agronegócio não se refere apenas à agricultura e à pecuária, pois as atividades ligadas a essa produção incluem fornecedores de equipamentos, serviços para a zona rural, industrialização e comercialização dos produtos.\nO gráfico seguinte mostra a participação percentual do agronegócio no PIB brasileiro:\nCentro de Estudos Avançados em Economia Aplicada (CEPEA). Almanaque abril 2010.",
+          "source": "São Paulo: Abril, ano 36 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q173.png"
+      ],
+      "statement": "Esse gráfico foi usado em uma palestra na qual o orador ressaltou uma queda da participação do agronegócio no PIB brasileiro e a posterior recuperação dessa participação, em termos percentuais.\nSegundo o gráfico, o período de queda ocorreu entre os anos de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1998 e 2001.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2001 e 2003.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2003 e 2006.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "2003 e 2007.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2003 e 2008.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q174",
+      "question_number": 174,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O setor de recursos humanos de uma empresa vai realizar uma entrevista com 120 candidatos a uma vaga de contador. Por sorteio, eles pretendem atribuir a cada candidato um número, colocar a lista de números em ordem numérica crescente e usá-la para convocar os interessados. Acontece que, por um defeito do computador, foram gerados números com 5 algarismos distintos e, em nenhum deles, apareceram dígitos pares. \nEm razão disso, a ordem de chamada do candidato que tiver recebido o número 75 913 é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "24.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "31.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "32.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "88.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "89.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2011_d2_azul_q175",
+      "question_number": 175,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Uma enquete, realizada em março de 2010, perguntava aos internautas se eles acreditavam que as atividades humanas provocam o aquecimento global.\nEram três as alternativas possíveis e 279 internautas responderam à enquete, como mostra o gráfico.",
+          "source": "Época. Ed. 619, 29 mar. 2010 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q175.png"
+      ],
+      "statement": "Analisando os dados do gráfico, quantos internautas responderam “NÃO” à enquete?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menos de 23.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Mais de 23 e menos de 25.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Mais de 50 e menos de 75.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Mais de 100 e menos de 190.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Mais de 200.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q176",
+      "question_number": 176,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A cor de uma estrela tem relação com a temperatura em sua superfície. Estrelas não muito quentes (cerca de 3 000 K) nos parecem avermelhadas. Já as estrelas amarelas, como o Sol, possuem temperatura em torno dos 6 000 K; as mais quentes são brancas ou azuis porque sua temperatura fica acima dos 10 000 K.\nA tabela apresenta uma classificação espectral e outros dados para as estrelas dessas classes.\nEstrelas da Sequência Principal Classe Temperatura Luminosidade Massa Raio Espectral O5 40 000 5 x 105 40 18 B0 28 000 2 x 104 18 7 A0 9 900 80 3 2.5 G2 5 770 1 1 1 M0 3 480 0,06 0,5 0,6 Temperatura em Kelvin.\nLuminosidade, massa e raio, tomando o Sol como unidade.",
+          "source": "Disponível em: http://www.zenite.nu. Acesso em: 1 maio 2010 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Se tomarmos uma estrela que tenha temperatura 5 vezes maior que a temperatura do Sol, qual será a ordem de grandeza de sua luminosidade?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "20 000 vezes a luminosidade do Sol.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "28 000 vezes a luminosidade do Sol.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "28 850 vezes a luminosidade do Sol.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "30 000 vezes a luminosidade do Sol.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "50 000 vezes a luminosidade do Sol.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2011_d2_azul_q177",
+      "question_number": 177,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Considere que uma pessoa decida investir uma determinada quantia e que lhe sejam apresentadas três possibilidades de investimento, com rentabilidades líquidas garantidas pelo período de um ano, conforme descritas:\nInvestimento A: 3% ao mês Investimento B: 36% ao ano Investimento C: 18% ao semestre As rentabilidades, para esses investimentos, incidem sobre o valor do período anterior. O quadro fornece algumas aproximações para a análise das rentabilidades: n 1,03n 3 1,093 6 1,194 9 1,305 12 1,426 Para escolher o investimento com a maior rentabilidade anual, essa pessoa deverá",
+      "options": [
+        {
+          "letter": "A",
+          "text": "escolher qualquer um dos investimentos A, B ou C, pois as suas rentabilidades anuais são iguais a 36%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "escolher os investimentos A ou C, pois suas rentabilidades anuais são iguais a 39%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "escolher o investimento A, pois a sua rentabilidade anual é maior que as rentabilidades anuais dos investimentos B e C.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "escolher o investimento B, pois sua rentabilidade de 36% é maior que as rentabilidades de 3% do investimento A e de 18% do investimento C.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "escolher o investimento C, pois sua rentabilidade de 39% ao ano é maior que a rentabilidade de 36% ao ano dos investimentos A e B.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q178",
+      "question_number": 178,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A resistência das vigas de dado comprimento é diretamente proporcional à largura (b) e ao quadrado da altura (d), conforme a figura. A constante de proporcionalidade k varia de acordo com o material utilizado na sua construção.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q178.png"
+      ],
+      "statement": "Considerando-se S como a resistência, a representação algébrica que exprime essa relação é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "S = k . b . d",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "S = b . d²",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "S = k . b . d²",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "S = (k . b) / d²",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "S = (k . d²) / b",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2011_d2_azul_q179",
+      "question_number": 179,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Uma empresa de telefonia fixa oferece dois planos aos seus clientes: no plano K, o cliente paga R$ 29,90 por 200 minutos mensais e R$ 0,20 por cada minuto excedente; no plano Z, paga R$ 49,90 por 300 minutos mensais e R$ 0,10 por cada minuto excedente.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2011_cd7_q179-opts.png"
+      ],
+      "statement": "O gráfico que representa o valor pago, em reais, nos dois planos em função dos minutos utilizados é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2011_d2_azul_q180",
+      "question_number": 180,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma indústria fabrica um único tipo de produto e sempre vende tudo o que produz. O custo total para fabricar uma quantidade q de produtos é dado por uma função, simbolizada por CT, enquanto o faturamento que a empresa obtém com a venda da quantidade q também é uma função, simbolizada por FT. O lucro total (LT) obtido pela venda da quantidade q de produtos é dado pela expressão LT(q) = FT(q) – CT(q).\nConsiderando-se as funções FT(q) = 5q e CT(q) = 2q + 12 como faturamento e custo, qual a quantidade mínima de produtos que a indústria terá de fabricar para não ter prejuízo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "5",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    }
+  ]
+}

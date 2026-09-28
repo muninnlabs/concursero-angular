@@ -1,0 +1,80 @@
+<aside class="sidebar" [class.sidebar--open]="sidebarOpen()" aria-label="Menu">
+  <div class="sidebar__brand">
+    <app-logo [size]="36" link="/app" />
+    <button class="icon-btn sidebar__close" type="button" (click)="sidebarOpen.set(false)" aria-label="Fechar menu">
+      <app-icon name="x" />
+    </button>
+  </div>
+
+  <nav class="sidebar__nav">
+    <p class="sidebar__label">Menu principal</p>
+    @for (item of mainNav; track item.link) {
+      <a class="nav-item" [routerLink]="item.link" routerLinkActive="nav-item--active" [routerLinkActiveOptions]="{ exact: true }">
+        <app-icon [name]="item.icon" [size]="19" />{{ item.label }}
+      </a>
+    }
+
+    <p class="sidebar__label">Geral</p>
+    @for (item of generalNav; track item.link) {
+      <a class="nav-item" [routerLink]="item.link" routerLinkActive="nav-item--active">
+        <app-icon [name]="item.icon" [size]="19" />{{ item.label }}
+      </a>
+    }
+  </nav>
+
+  @if (!auth.isPremium()) {
+    <div class="premium-card">
+      <span class="premium-card__icon"><app-icon name="crown" [size]="18" [filled]="true" /></span>
+      <strong>Versão Premium</strong>
+      <p>Desbloqueie todos os simulados ilimitados.</p>
+      <a routerLink="/" fragment="planos" class="premium-card__btn">Atualizar agora</a>
+    </div>
+  }
+</aside>
+
+@if (sidebarOpen()) {
+  <div class="backdrop" (click)="sidebarOpen.set(false)"></div>
+}
+
+<div class="main">
+  <header class="topbar">
+    <button class="icon-btn topbar__menu" type="button" (click)="sidebarOpen.set(true)" aria-label="Abrir menu">
+      <app-icon name="menu" />
+    </button>
+
+    <!-- Search isn't wired up yet (needs a search endpoint on the API). -->
+    <label class="search">
+      <app-icon name="search" [size]="17" />
+      <span class="sr-only">Buscar questões</span>
+      <input type="search" placeholder="Buscar questões..." disabled title="Em breve" />
+    </label>
+
+    <div class="topbar__right">
+      <button class="icon-btn" type="button" aria-label="Notificações">
+        <app-icon name="bell" [size]="18" />
+      </button>
+      <span class="topbar__divider"></span>
+
+      <div class="user">
+        <button class="user__button" type="button" (click)="userMenuOpen.set(!userMenuOpen())" [attr.aria-expanded]="userMenuOpen()">
+          <span class="user__avatar">{{ initials() }}</span>
+          <span class="user__info">
+            <strong>{{ auth.user()?.name }}</strong>
+            <small>{{ auth.isPremium() ? 'Premium' : 'Gratuito' }}</small>
+          </span>
+          <app-icon name="chevron-down" [size]="16" />
+        </button>
+        @if (userMenuOpen()) {
+          <div class="user__menu card" role="menu">
+            <a role="menuitem" routerLink="/app/perfil"><app-icon name="user" [size]="16" />Perfil</a>
+            <button role="menuitem" type="button" (click)="auth.logout()"><app-icon name="log-out" [size]="16" />Sair</button>
+          </div>
+        }
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+    <router-outlet />
+  </main>
+</div>

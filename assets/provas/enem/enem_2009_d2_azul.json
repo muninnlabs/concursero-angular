@@ -1,0 +1,3957 @@
+{
+  "exam_metadata": {
+    "exam_id": "enem_2009_d2_azul",
+    "exam_name": "ENEM 2009 - 2º Dia (Caderno 7 - Azul)",
+    "institution": "INEP",
+    "year": 2009,
+    "day": 2,
+    "booklet_color": "Azul"
+  },
+  "questions": [
+    {
+      "id": "enem_2009_d2_azul_q91",
+      "question_number": 91,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Os melhores críticos da cultura brasileira trataram-na sempre no plural, isto é, enfatizando a coexistência no Brasil de diversas culturas. Arthur Ramos distingue as culturas não europeias (indígenas, negras) das europeias (portuguesa, italiana, alemã etc.), e Darcy Ribeiro fala de diversos Brasis: crioulo, caboclo, sertanejo, caipira e de Brasis sulinos, a cada um deles correspondendo uma cultura específica.",
+          "source": "MORAIS, F. O Brasil na visão do artista: o país e sua cultura. São Paulo: Sudameris, 2003."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q91-1.png",
+        "assets/images/enem_2009_cd7_q91-2.png",
+        "assets/images/enem_2009_cd7_q91-3.png",
+        "assets/images/enem_2009_cd7_q91-4.png",
+        "assets/images/enem_2009_cd7_q91-5.png"
+      ],
+      "statement": "Considerando a hipótese de Darcy Ribeiro de que há vários Brasis, a opção em que a obra mostrada representa a arte brasileira de origem negro-africana é:\nRubem Valentim. Disponível",
+      "options": [
+        {
+          "letter": "A",
+          "text": "em:http://www.ocaixote.com.br.\nAcesso: em 9 jul. 2009.\nAthos Bulcão. Disponível em:",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "http://www.irbr.mre.gov.br. Acesso: em 9 jul. 2009.\nRubens Gerchman. Disponível em:",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "http://www.itaucultural.org.br.\nAcesso em: 6 jul. 2009.\nVictor Vassarely. Disponível em:",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "http://www.masterworksfineart.com.\nAcesso em: 5 jul. 2009.\nGougon. Disponível em:",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "http://www.ocaixote.com.br. Acesso em: 5 set. 2009.\nLC – 2º dia CADERNO 7 – A GIAS",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q92",
+      "question_number": 92,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Gerente – Boa tarde. Em que eu posso ajudá-lo?\nCliente – Estou interessado em financiamento para compra de veículo.\nGerente – Nós dispomos de várias modalidades de crédito.\nO senhor é nosso cliente?\nCliente – Sou Júlio César Fontoura, também sou funcionário do banco.\nGerente – Julinho, é você, cara? Aqui é a Helena! Cê tá em Brasília? Pensei que você inda tivesse na agência de Uberlândia! Passa aqui pra gente conversar com calma.\nBORTONI-RICARDO, S. M. Educação em língua materna.",
+          "source": "São Paulo: Parábola, 2004 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q92.png"
+      ],
+      "statement": "Na representação escrita da conversa telefônica entre a gerente do banco e o cliente, observa-se que a maneira de falar da gerente foi alterada de repente devido",
+      "options": [
+        {
+          "letter": "A",
+          "text": "à adequação de sua fala à conversa com um amigo, caracterizada pela informalidade.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "à iniciativa do cliente em se apresentar como funcionário do banco.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ao fato de ambos terem nascido em Uberlândia (Minas Gerais).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "à intimidade forçada pelo cliente ao fornecer seu nome completo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ao seu interesse profissional em financiar o veículo de Júlio.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q93",
+      "question_number": 93,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Analise as seguintes avaliações de possíveis resultados de um teste na Internet.",
+          "source": "Veja. 8 jul. 2009. p.102 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q93.png"
+      ],
+      "statement": "Depreende-se, a partir desse conjunto de informações, que o teste que deu origem a esses resultados, além de estabelecer um perfil para o usuário de sites de relacionamento, apresenta preocupação com hábitos e propõe mudanças de comportamento direcionadas",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ao adolescente que acessa sites de entretenimento.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "ao profissional interessado em aperfeiçoamento tecnológico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "à pessoa que usa os sites de relacionamento para complementar seu círculo de amizades.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "ao usuário que reserva mais tempo aos sites de relacionamento do que ao convívio pessoal com os amigos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "ao leitor que se interessa em aprender sobre o funcionamento de diversos tipos de sites de relacionamento.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q94",
+      "question_number": 94,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q94-1.png",
+        "assets/images/enem_2009_cd7_q94-2.png",
+        "assets/images/enem_2009_cd7_q94-3.png",
+        "assets/images/enem_2009_cd7_q94-4.png"
+      ],
+      "statement": "A música pode ser definida como a combinação de sons ao longo do tempo. Cada produto final oriundo da infinidade de combinações possíveis será diferente, dependendo da escolha das notas, de suas durações, dos instrumentos utilizados, do estilo de música, da nacionalidade do compositor e do período em que as obras foram compostas. figura 1 figura 2 figura 3 figura 4 Figura 1 - http://images.quebarato.com.br/photos/big/2/D/15A12D_2.jpg.\nFigura 2 - http://ourinhos.prefeituramunicipal.net/dados/fotos/2009/07/07/normal.\nFigura 3 - http://www.edmontonculturalcapital.com/gallery/edjazzfestival/JazzQuartet.jpg.\nFigura 4 - http://www.filmica.com/jacintaescudos/archivos/Led-Zeppelin.jpg.\nDas figuras que apresentam grupos musicais em ação, pode-se concluir que o(os) grupo(s) mostrado(s) na(s) figura(s)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 executa um gênero característico da música brasileira, conhecido como chorinho.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "2 executa um gênero característico da música clássica, cujo compositor mais conhecido é Tom Jobim.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "3 executa um gênero característico da música europeia, que tem como representantes Beethoven e Mozart.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "4 executa um tipo de música caracterizada pelos instrumentos acústicos, cuja intensidade e nível de ruído permanecem na faixa dos 30 aos 40 decibéis.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1 a 4 apresentam um produto final bastante semelhante, uma vez que as possibilidades de combinações sonoras ao longo do tempo são limitadas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q95",
+      "question_number": 95,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": "espanhol",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No programa do balé Parade, apresentado em 18 de maio de 1917, foi empregada publicamente, pela primeira vez, a palavra sur-realisme. Pablo Picasso desenhou o cenário e a indumentária, cujo efeito foi tão surpreendente que se sobrepôs à coreografia. A música de Erik Satie era uma mistura de jazz, música popular e sons reais tais como tiros de pistola, combinados com as imagens do balé de Charlie Chaplin, caubóis e vilões, mágica chinesa e Ragtime. Os tempos não eram propícios para receber a nova mensagem cênica demasiado provocativa devido ao repicar da máquina de escrever, aos zumbidos de sirene e dínamo e aos rumores de aeroplano previstos por Cocteau para a partitura de Satie. Já a ação coreográfica confirmava a tendência marcadamente teatral da gestualidade cênica, dada pela justaposição, colagem de ações isoladas seguindo um estímulo musical.",
+          "source": "SILVA, S. M. O surrealismo e a dança. GUINSBURG, J.; LEIRNER (Org.). O surrealismo. São Paulo: Perspectiva, 2008 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "As manifestações corporais na história das artes da cena muitas vezes demonstram as condições cotidianas de um determinado grupo social, como se pode observar na descrição acima do balé Parade, o qual reflete",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a falta de diversidade cultural na sua proposta estética.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a alienação dos artistas em relação às tensões da Segunda Guerra Mundial.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "uma disputa cênica entre as linguagens das artes visuais, do figurino e da música.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "as inovações tecnológicas nas partes cênicas, musicais, coreográficas e de figurino.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "uma narrativa com encadeamentos claramente lógicos e lineares.\nAZUL – PÁGINA 3 ENEM 2009 Texto para as questões 96 e 97 BRASIL. Ministério da Saúde, 2009 (adaptado).",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q96",
+      "question_number": 96,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q96.png"
+      ],
+      "statement": "Os principais recursos utilizados para envolvimento e adesão do leitor à campanha institucional incluem",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o emprego de enumeração de itens e apresentação de títulos expressivos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o uso de orações subordinadas condicionais e temporais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o emprego de pronomes como “você” e “sua” e o uso do imperativo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "a construção de figuras metafóricas e o uso de repetição.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o fornecimento de número de telefone gratuito para contato.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q97",
+      "question_number": 97,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O texto tem o objetivo de solucionar um problema social,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "descrevendo a situação do país em relação à gripe suína.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "alertando a população para o risco de morte pela Influenza A.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "informando a população sobre a iminência de uma pandemia de Influenza A.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "orientando a população sobre os sintomas da gripe suína e procedimentos para evitar a contaminação.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "convocando toda a população para se submeter a",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q98",
+      "question_number": 98,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Para o Mano Caetano 1 O que fazer do ouro de tolo Quando um doce bardo brada a toda brida, Em velas pandas, suas esquisitas rimas? 4 Geografia de verdades, Guanabaras postiças Saudades banguelas, tropicais preguiças?\nA boca cheia de dentes 7 De um implacável sorriso Morre a cada instante Que devora a voz do morto, e com isso, 10 Ressuscita vampira, sem o menor aviso [...] E eu soy lobo-bolo? lobo-bolo Tipo pra rimar com ouro de tolo? 13 Oh, Narciso Peixe Ornamental!\nTease me, tease me outra vez 1 Ou em banto baiano 16 Ou em português de Portugal Se quiser,até mesmo em americano De Natal [...] 1 Tease me (caçoe de mim, importune-me).",
+          "source": "LOBÃO. Disponível em: http://vagalume.uol.com.br. Acesso em: 14 ago. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Na letra da canção apresentada, o compositor Lobão explora vários recursos da língua portuguesa, a fim de conseguir efeitos estéticos ou de sentido. Nessa letra, o autor explora o extrato sonoro do idioma e o uso de termos coloquiais na seguinte passagem:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "“Quando um doce bardo brada a toda brida” (v. 2)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "“Em velas pandas, suas esquisitas rimas?” (v. 3)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "“Que devora a voz do morto” (v. 9)",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "“lobo-bolo//Tipo pra rimar com ouro de tolo? (v. 11-12)",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "“Tease me, tease me outra vez” (v. 14)",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q99",
+      "question_number": 99,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Cárcere das almas Ah! Toda a alma num cárcere anda presa, Soluçando nas trevas, entre as grades Do calabouço olhando imensidades, Mares, estrelas, tardes, natureza.\nTudo se veste de uma igual grandeza Quando a alma entre grilhões as liberdades Sonha e, sonhando, as imortalidades Rasga no etéreo o Espaço da Pureza.\nÓ almas presas, mudas e fechadas Nas prisões colossais e abandonadas, Da Dor no calabouço, atroz, funéreo!\nNesses silêncios solitários, graves, que chaveiro do Céu possui as chaves para abrir-vos as portas do Mistério?!",
+          "source": "CRUZ E SOUSA, J. Poesia completa. Florianópolis: Fundação Catarinense de Cultura / Fundação Banco do Brasil, 1993."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os elementos formais e temáticos relacionados ao contexto cultural do Simbolismo encontrados no poema Cárcere das almas, de Cruz e Sousa, são",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a opção pela abordagem, em linguagem simples e direta, de temas filosóficos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a prevalência do lirismo amoroso e intimista em relação à temática nacionalista.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o refinamento estético da forma poética e o tratamento metafísico de temas universais.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "a evidente preocupação do eu lírico com a realidade social expressa em imagens poéticas inovadoras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a liberdade formal da estrutura poética que dispensa a rima e a métrica tradicionais em favor de temas do cotidiano.\nLC – 2º dia CADERNO 7 – A Texto para as questões 100 e 101 XAVIER, C. Quadrinho quadrado. Disponível em: http://www.releituras.com.\nAcesso em: 5 jul. 2009.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q100",
+      "question_number": 100,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q100.png"
+      ],
+      "statement": "Tendo em vista a segunda fala do personagem entrevistado, constata-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o entrevistado deseja convencer o jornalista a não publicar um livro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o principal objetivo do entrevistado é explicar o significado da palavra motivação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "são utilizados diversos recursos da linguagem literária, tais como a metáfora e a metonímia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o entrevistado deseja informar de modo objetivo o jornalista sobre as etapas de produção de um livro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o principal objetivo do entrevistado é evidenciar seu sentimento com relação ao processo de produção de um livro.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q101",
+      "question_number": 101,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Quanto às variantes linguísticas presentes no texto, a norma padrão da língua portuguesa é rigorosamente obedecida por meio",
+      "options": [
+        {
+          "letter": "A",
+          "text": "do emprego do pronome demonstrativo “esse” em “Por que o senhor publicou esse livro?”.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "do emprego do pronome pessoal oblíquo em “Meu filho, um escritor publica um livro para parar de escrevê-lo!”.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "do emprego do pronome possessivo “sua” em “Qual foi sua maior motivação?”.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "do emprego do vocativo “Meu filho”, que confere à fala distanciamento do interlocutor.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "da necessária repetição do conectivo no último quadrinho.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "enem_2009_d2_azul_q102",
+      "question_number": 102,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Gênero dramático é aquele em que o artista usa como intermediária entre si e o público a representação. A palavra vem do grego drao (fazer) e quer dizer ação. A peça teatral é, pois, uma composição literária destinada à apresentação por atores em um palco, atuando e dialogando entre si. O texto dramático é complementado pela atuação dos atores no espetáculo teatral e possui uma estrutura específica, caracterizada: 1) pela presença de personagens que devem estar ligados com lógica uns aos outros e à ação; 2) pela ação dramática (trama, enredo), que é o conjunto de atos dramáticos, maneiras de ser e de agir das personagens encadeadas à unidade do efeito e segundo uma ordem composta de exposição, conflito, complicação, clímax e desfecho; 3) pela situação ou ambiente, que é o conjunto de circunstâncias físicas, sociais, espirituais em que se situa a ação; 4) pelo tema, ou seja, a ideia que o autor (dramaturgo) deseja expor, ou sua interpretação real por meio da representação.",
+          "source": "COUTINHO, A. Notas de teoria literária. Rio de Janeiro: Civilização Brasileira, 1973 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considerando o texto e analisando os elementos que constituem um espetáculo teatral, conclui-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a criação do espetáculo teatral apresenta-se como um fenômeno de ordem individual, pois não é possível sua concepção de forma coletiva.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o cenário onde se desenrola a ação cênica é concebido e construído pelo cenógrafo de modo autônomo e independente do tema da peça e do trabalho interpretativo dos atores.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o texto cênico pode originar-se dos mais variados gêneros textuais, como contos, lendas, romances, poesias, crônicas, notícias, imagens e fragmentos textuais, entre outros.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "o corpo do ator na cena tem pouca importância na comunicação teatral, visto que o mais importante é a expressão verbal, base da comunicação cênica em toda a trajetória do teatro até os dias atuais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a iluminação e o som de um espetáculo cênico independem do processo de produção/recepção do espetáculo teatral, já que se trata de linguagens artísticas diferentes, agregadas posteriormente à cena teatral.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q103",
+      "question_number": 103,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Saúde, no modelo atual de qualidade de vida, é o resultado das condições de alimentação, habitação, educação, renda, trabalho, transporte, lazer, serviços médicos e acesso à atividade física regular. Quanto ao acesso à atividade física, um dos elementos essenciais é a aptidão física, entendida como a capacidade de a pessoa utilizar seu corpo — incluindo músculos, esqueleto, coração, enfim, todas as partes —, de forma eficiente em suas atividades cotidianas; logo, quando se avalia a saúde de uma pessoa, a aptidão física deve ser levada em conta.\nA partir desse contexto, considera-se que uma pessoa tem boa aptidão física quando",
+      "options": [
+        {
+          "letter": "A",
+          "text": "apresenta uma postura regular.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "pode se exercitar por períodos curtos de tempo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "pode desenvolver as atividades físicas do dia-a-dia, independentemente de sua idade.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "pode executar suas atividades do dia a dia com vigor, atenção e uma fadiga de moderada a intensa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "pode exercer atividades físicas no final do dia, mas suas reservas de energia são insuficientes para atividades intelectuais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q104",
+      "question_number": 104,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Diferentemente do texto escrito, que em geral compele os leitores a lerem numa onda linear – da esquerda para a direita e de cima para baixo, na página impressa – hipertextos encorajam os leitores a moverem-se de um bloco de texto a outro, rapidamente e não sequencialmente. Considerando que o hipertexto oferece uma multiplicidade de caminhos a seguir, podendo ainda o leitor incorporar seus caminhos e suas decisões como novos caminhos, inserindo informações novas, o leitor-navegador passa a ter um papel mais ativo e uma oportunidade diferente da de um leitor de texto impresso.\nDificilmente dois leitores de hipertextos farão os mesmos caminhos e tomarão as mesmas decisões.",
+          "source": "MARCUSCHI, L. A. Cognição, linguagem e práticas interacionais. Rio: Lucerna, 2007."
+        }
+      ],
+      "image_url": null,
+      "statement": "No que diz respeito à relação entre o hipertexto e o conhecimento por ele produzido, o texto apresentado deixa claro que o hipertexto muda a noção tradicional de autoria, porque",
+      "options": [
+        {
+          "letter": "A",
+          "text": "é o leitor que constrói a versão final do texto.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "o autor detém o controle absoluto do que escreve.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "aclara os limites entre o leitor e o autor.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "propicia um evento textual-interativo em que apenas o autor é ativo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "só o autor conhece o que eletronicamente se dispõe para o leitor.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q105",
+      "question_number": 105,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "La Vie en Rose ITURRUSGARAI, A. La Vie en Rose. Folha de S.Paulo, 11 ago. 2007.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q105-1.png",
+        "assets/images/enem_2009_cd7_q105-2.png",
+        "assets/images/enem_2009_cd7_q105-3.png"
+      ],
+      "statement": "Os quadrinhos exemplificam que as Histórias em Quadrinhos constituem um gênero textual",
+      "options": [
+        {
+          "letter": "A",
+          "text": "em que a imagem pouco contribui para facilitar a interpretação da mensagem contida no texto, como pode ser constatado no primeiro quadrinho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "cuja linguagem se caracteriza por ser rápida e clara, que facilita a compreensão, como se percebe na fala do segundo quadrinho: “</DIV> </SPAN> <BR CLEAR = ALL> < BR> <BR> <SCRIPT>”.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "em que o uso de letras com espessuras diversas está ligado a sentimentos expressos pelos personagens, como pode ser percebido no último quadrinho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "que possui em seu texto escrito características próximas a uma conversação face a face, como pode ser percebido no segundo quadrinho.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "que a localização casual dos balões nos quadrinhos expressa com clareza a sucessão cronológica da história, como pode ser percebido no segundo quadrinho.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q106",
+      "question_number": 106,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A partir da metade do século XX, ocorreu um conjunto de transformações econômicas e sociais cuja dimensão é difícil de ser mensurada: a chamada explosão da informação. Embora essa expressão tenha surgido no contexto da informação científica e tecnológica, seu significado, hoje, em um contexto mais geral, atinge proporções gigantescas.\nPor estabelecerem novas formas de pensamento e mesmo de lógica, a informática e a Internet vêm gerando impactos sociais e culturais importantes. A disseminação do microcomputador e a expansão da Internet vêm acelerando o processo de globalização tanto no sentido do mercado quanto no sentido das trocas simbólicas possíveis entre sociedades e culturas diferentes, o que tem provocado e acelerado o fenômeno de hibridização amplamente caracterizado como próprio da pós-modernidade.",
+          "source": "FERNANDES, M. F.; PARÁ, T. A contribuição das novas tecnologias da informação na geração de conhecimento. Disponível em: http://www.coep.ufrj.br. Acesso em: 11 ago. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considerando-se o novo contexto social e econômico aludido no texto apresentado, as novas tecnologias de informação e comunicação",
+      "options": [
+        {
+          "letter": "A",
+          "text": "desempenham importante papel, porque sem elas não seria possível registrar os acontecimentos históricos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "facilitam os processos educacionais para ensino de tecnologia, mas não exercem influência nas ciências humanas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "limitam-se a dar suporte aos meios de comunicação, facilitando sobretudo os trabalhos jornalísticos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "contribuem para o desenvolvimento social, pois permitem o registro e a disseminação do conhecimento de forma mais democrática e interativa.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "estão em estágio experimental, particularmente na educação, área em que ainda não demonstraram potencial produtivo.\nAZUL – PÁGINA 7 ENEM 2009 Textos para as questões 107 e 108\nTexto I\nÉ praticamente impossível imaginarmos nossas vidas sem o plástico. Ele está presente em embalagens de alimentos, bebidas e remédios, além de eletrodomésticos, automóveis etc. Esse uso ocorre devido à sua atoxicidade e à inércia, isto é: quando em contato com outras substâncias, o plástico não as contamina; ao contrário, protege o produto embalado. Outras duas grandes vantagens garantem o uso dos plásticos em larga escala: são leves, quase não alteram o peso do material embalado, e são 100% recicláveis, fato que, infelizmente, não é aproveitado, visto que, em todo o mundo, a percentagem de plástico reciclado, quando comparado ao total produzido, ainda é irrelevante.\nRevista Mãe Terra. Minuano, ano I, n. 6 (adaptado).\nTexto II\nSacolas plásticas são leves e voam ao vento. Por isso, elas entopem esgotos e bueiros, causando enchentes. São encontradas até no estômago de tartarugas marinhas, baleias, focas e golfinhos, mortos por sufocamento.\nSacolas plásticas descartáveis são gratuitas para os consumidores, mas têm um custo incalculável para o meio ambiente.\nVeja, 8 jul. 2009. Fragmentos de texto publicitário do Instituto Akatu pelo Consumo Consciente.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q107",
+      "question_number": 107,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em contraste com o texto I, no texto II são empregadas, predominantemente, estratégias argumentativas que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "atraem o leitor por meio de previsões para o futuro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "apelam à emoção do leitor, mencionando a morte de animais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "orientam o leitor a respeito dos modos de usar conscientemente as sacolas plásticas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "intimidam o leitor com as nocivas consequências do uso indiscriminado de sacolas plásticas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "recorrem à informação, por meio de constatações, para convencer o leitor a evitar o uso de sacolas plásticas.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q108",
+      "question_number": 108,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Na comparação dos textos, observa-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o texto I apresenta um alerta a respeito do efeito da reciclagem de materiais plásticos; o texto II justifica o uso desse material reciclado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o texto I tem como objetivo precípuo apresentar a versatilidade e as vantagens do uso do plástico na contemporaneidade; o texto II objetiva alertar os consumidores sobre os problemas ambientais decorrentes de embalagens plásticas não recicladas.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "o texto I expõe vantagens, sem qualquer ressalva, do uso do plástico; o texto II busca convencer o leitor a evitar o uso de embalagens plásticas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o texto I ilustra o posicionamento de fabricantes de embalagens plásticas, mostrando por que elas devem ser usadas; o texto II ilustra o posicionamento de consumidores comuns, que buscam praticidade e conforto.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o texto I apresenta um alerta a respeito da possibilidade de contaminação de produtos orgânicos e industrializados decorrente do uso de plástico em suas embalagens; o texto II apresenta vantagens do consumo de sacolas plásticas: leves, descartáveis e gratuitas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q109",
+      "question_number": 109,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "BROWNE, C. Hagar, o horrível. Jornal O GLOBO, Segundo Caderno. 20 fev. 2009.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q109-1.png",
+        "assets/images/enem_2009_cd7_q109-2.png"
+      ],
+      "statement": "A linguagem da tirinha revela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o uso de expressões linguísticas e vocabulário próprios de épocas antigas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o uso de expressões linguísticas inseridas no registro mais formal da língua.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o caráter coloquial expresso pelo uso do tempo verbal no segundo quadrinho.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "o uso de um vocabulário específico para situações comunicativas de emergência.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a intenção comunicativa dos personagens: a de estabelecer a hierarquia entre eles.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q110",
+      "question_number": 110,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O \"Portal Domínio Público\", lançado em novembro de 2004, propõe o compartilhamento de conhecimentos de forma equânime e gratuita, colocando à disposição de todos os usuários da Internet, uma biblioteca virtual que deverá constituir referência para professores, alunos, pesquisadores e para a população em geral.\nEsse portal constitui um ambiente virtual que permite a coleta, a integração, a preservação e o compartilhamento de conhecimentos, sendo seu principal objetivo o de promover o amplo acesso às obras literárias, artísticas e científicas (na forma de textos, sons, imagens e vídeos), já em domínio público ou que tenham a sua divulgação devidamente autorizada.",
+          "source": "BRASIL. Ministério da Educação. Disponível em: http://www.dominiopublico.gov.br. Acesso em: 29 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considerando a função social das informações geradas nos sistemas de comunicação e informação, o ambiente virtual descrito no texto exemplifica",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a dependência das escolas públicas quanto ao uso de sistemas de informação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a ampliação do grau de interação entre as pessoas, a partir de tecnologia convencional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a democratização da informação, por meio da disponibilização de conteúdo cultural e científico à sociedade.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "a comercialização do acesso a diversas produções culturais nacionais e estrangeiras via tecnologia da informação e da comunicação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a produção de repertório cultural direcionado a acadêmicos e educadores.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q111",
+      "question_number": 111,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Cuitelinho Cheguei na bera do porto Onde as onda se espaia.\nAs garça dá meia volta, Senta na bera da praia.\nE o cuitelinho não gosta Que o botão da rosa caia.\nQuando eu vim da minha terra, Despedi da parentaia.\nEu entrei em Mato Grosso, Dei em terras paraguaia.\nLá tinha revolução, Enfrentei fortes bataia.\nA tua saudade corta Como o aço de navaia.\nO coração fica aflito, Bate uma e outra faia.\nE os oio se enche d´água Que até a vista se atrapaia.\nFolclore recolhido por Paulo Vanzolini e Antônio Xandó.",
+          "source": "BORTONI-RICARDO, S. M. Educação em língua materna. São Paulo: Parábola, 2004."
+        }
+      ],
+      "image_url": null,
+      "statement": "Transmitida por gerações, a canção Cuitelinho manifesta aspectos culturais de um povo, nos quais se inclui sua forma de falar, além de registrar um momento histórico.\nDepreende-se disso que a importância em preservar a produção cultural de uma nação consiste no fato de que produções como a canção Cuitelinho evidenciam a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "recriação da realidade brasileira de forma ficcional.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "criação neológica na língua portuguesa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "formação da identidade nacional por meio da tradição oral.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "incorreção da língua portuguesa que é falada por pessoas do interior do Brasil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "padronização de palavras que variam regionalmente, mas possuem mesmo significado.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q112",
+      "question_number": 112,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "ECKHOUT, A. “Índio Tapuia” (1610-1666). Disponível em: http://www.diaadia.pr.gov.br.\nAcesso em: 9 jul. 2009.\nA feição deles é serem pardos, maneira d’avermelhados, de bons rostos e bons narizes, bem feitos.\nAndam nus, sem nenhuma cobertura, nem estimam nenhuma cousa cobrir, nem mostrar suas vergonhas. E estão acerca disso com tanta inocência como têm em mostrar o rosto.",
+          "source": "CAMINHA, P. V. A carta. Disponível em: www.dominiopublico.gov.br. Acesso em: 12 ago. 2009."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q112.png"
+      ],
+      "statement": "Ao se estabelecer uma relação entre a obra de Eckhout e o trecho do texto de Caminha, conclui-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ambos se identificam pelas características estéticas marcantes, como tristeza e melancolia, do movimento romântico das artes plásticas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o artista, na pintura, foi fiel ao seu objeto, representando-o de maneira realista, ao passo que o texto é apenas fantasioso.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a pintura e o texto têm uma característica em comum, que é representar o habitante das terras que sofreriam processo colonizador.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "o texto e a pintura são baseados no contraste entre a cultura europeia e a cultura indígena.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "há forte direcionamento religioso no texto e na pintura, uma vez que o índio representado é objeto da catequização jesuítica.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q113",
+      "question_number": 113,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "As tecnologias de informação e comunicação (TIC) vieram aprimorar ou substituir meios tradicionais de comunicação e armazenamento de informações, tais como o rádio e a TV analógicos, os livros, os telégrafos, o fax etc. As novas bases tecnológicas são mais poderosas e versáteis, introduziram fortemente a possibilidade de comunicação interativa e estão presentes em todos os meios produtivos da atualidade. As novas TIC vieram acompanhadas da chamada Digital Divide, Digital Gap ou Digital Exclusion, traduzidas para o português como Divisão Digital ou Exclusão Digital, sendo, às vezes, também usados os termos Brecha Digital ou Abismo Digital. Nesse contexto, a expressão Divisão Digital refere-se a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "uma classificação que caracteriza cada uma das áreas nas quais as novas TIC podem ser aplicadas, relacionando os padrões de utilização e exemplificando o uso dessas TIC no mundo moderno.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "uma relação das áreas ou subáreas de conhecimento que ainda não foram contempladas com o uso das novas tecnologias digitais, o que caracteriza uma brecha tecnológica que precisa ser minimizada.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "uma enorme diferença de desempenho entre os empreendimentos que utilizam as tecnologias digitais e aqueles que permaneceram usando métodos e técnicas analógicas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "um aprofundamento das diferenças sociais já existentes, uma vez que se torna difícil a aquisição de conhecimentos e habilidades fundamentais pelas populações menos favorecidas nos novos meios produtivos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "uma proposta de educação para o uso de novas pedagogias com a finalidade de acompanhar a evolução das mídias e orientar a produção de material pedagógico com apoio de computadores e outras técnicas digitais.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q114",
+      "question_number": 114,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Você sabia que as metrópoles são as grandes consumidoras dos produtos feitos com recursos naturais da Amazônia? Você pode diminuir os impactos à floresta adquirindo produtos com selos de certificação. Eles são encontrados em itens que vão desde lápis e embalagens de papelão até móveis, cosméticos e materiais de construção. Para receber os selos esses produtos devem ser fabricados sob 10 princípios éticos, entre eles o respeito à legislação ambiental e aos direitos de povos indígenas e populações que vivem em nossas matas nativas.",
+          "source": "Vida simples. Ed. 74, dez. 2008."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q114.png"
+      ],
+      "statement": "O texto e a imagem têm por finalidade induzir o leitor a uma mudança de comportamento a partir do(a)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "consumo de produtos naturais provindos da Amazônia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "cuidado na hora de comprar produtos alimentícios.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "verificação da existência do selo de padronização de produtos industriais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "certificação de que o produto foi fabricado de acordo com os princípios éticos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "verificação da garantia de tratamento dos recursos naturais utilizados em cada produto.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q115",
+      "question_number": 115,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q116",
+      "question_number": 116,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Predomina no texto a função da linguagem",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fática, porque o autor procura testar o canal de comunicação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "metalinguística, porque há explicação do significado das expressões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "conativa, uma vez que o leitor é provocado a participar de uma ação.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "referencial, já que são apresentadas informações sobre acontecimentos e fatos reais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "poética, pois chama-se a atenção para a elaboração especial e artística da estrutura do texto.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q117",
+      "question_number": 117,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Na estruturação do texto, destaca-se",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a construção de oposições semânticas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a apresentação de ideias de forma objetiva.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o emprego recorrente de figuras de linguagem, como o eufemismo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "a repetição de sons e de construções sintáticas semelhantes.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "a inversão da ordem sintática das palavras.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q118",
+      "question_number": 118,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Teatro do Oprimido é um método teatral que sistematiza exercícios, jogos e técnicas teatrais elaboradas pelo teatrólogo brasileiro Augusto Boal, recentemente falecido, que visa à desmecanização física e intelectual de seus praticantes. Partindo do princípio de que a linguagem teatral não deve ser diferenciada da que é usada cotidianamente pelo cidadão comum (oprimido), ele propõe condições práticas para que o oprimido se aproprie dos meios do fazer teatral e, assim, amplie suas possibilidades de expressão. Nesse sentido, todos podem desenvolver essa linguagem e, consequentemente, fazer teatro. Trata-se de um teatro em que o espectador é convidado a substituir o protagonista e mudar a condução ou mesmo o fim da história, conforme o olhar interpretativo e contextualizado do receptor.",
+          "source": "Companhia Teatro do Oprimido. Disponível em: www.ctorio.org.br. Acesso em: 1 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considerando-se as características do Teatro do Oprimido apresentadas, conclui-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "esse modelo teatral é um método tradicional de fazer teatro que usa, nas suas ações cênicas, a linguagem rebuscada e hermética falada normalmente pelo cidadão comum.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a forma de recepção desse modelo teatral se destaca pela separação entre atores e público, na qual os atores representam seus personagens e a plateia assiste passivamente ao espetáculo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "sua linguagem teatral pode ser democratizada e apropriada pelo cidadão comum, no sentido de proporcionar-lhe autonomia crítica para compreensão e interpretação do mundo em que vive.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "o convite ao espectador para substituir o protagonista e mudar o fim da história evidencia que a proposta de Boal se aproxima das regras do teatro tradicional para a preparação de atores.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a metodologia teatral do Teatro do Oprimido segue a concepção do teatro clássico aristotélico, que visa à desautomação física e intelectual de seus praticantes.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q119",
+      "question_number": 119,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "O professor deve ser um guia seguro, muito senhor de sua língua; se outra for a orientação, vamos cair na “língua brasileira”, refúgio nefasto e confissão nojenta de ignorância do idioma pátrio, recurso vergonhoso de homens de cultura falsa e de falso patriotismo. Como havemos de querer que respeitem a nossa nacionalidade se somos os primeiros a descuidar daquilo que exprime e representa o idioma pátrio?",
+          "source": "ALMEIDA, N. M. Gramática metódica da língua portuguesa. Prefácio. São Paulo: Saraiva, 1999 (adaptado)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Alguns leitores poderão achar que a linguagem desta Gramática se afasta do padrão estrito usual neste tipo de livro. Assim, o autor escreve tenho que reformular, e não tenho de reformular; pode-se colocar dois constituintes, e não podem-se colocar dois constituintes; e assim por diante. Isso foi feito de caso pensado, com a preocupação de aproximar a linguagem da gramática do padrão atual brasileiro presente nos textos técnicos e jornalísticos de nossa época.",
+          "source": "REIS, N. Nota do editor. PERINI, M. A. Gramática descritiva do português. São Paulo: Ática, 1996."
+        }
+      ],
+      "image_url": null,
+      "statement": "Confrontando-se as opiniões defendidas nos dois textos, conclui-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ambos os textos tratam da questão do uso da língua com o objetivo de criticar a linguagem do brasileiro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "os dois textos defendem a ideia de que o estudo da gramática deve ter o objetivo de ensinar as regras prescritivas da língua.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a questão do português falado no Brasil é abordada nos dois textos, que procuram justificar como é correto e aceitável o uso coloquial do idioma.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "o primeiro texto enaltece o padrão estrito da língua, ao passo que o segundo defende que a linguagem jornalística deve criar suas próprias regras gramaticais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o primeiro texto prega a rigidez gramatical no uso da língua, enquanto o segundo defende uma adequação da língua escrita ao padrão atual brasileiro.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q120",
+      "question_number": 120,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "No decênio de 1870, Franklin Távora defendeu a tese de que no Brasil havia duas literaturas independentes dentro da mesma língua: uma do Norte e outra do Sul, regiões segundo ele muito diferentes por formação histórica, composição étnica, costumes, modismos linguísticos etc. Por isso, deu aos romances regionais que publicou o título geral de Literatura do Norte. Em nossos dias, um escritor gaúcho, Viana Moog, procurou mostrar com bastante engenho que no Brasil há, em verdade, literaturas setoriais diversas, refletindo as características locais.",
+          "source": "CANDIDO, A. A nova narrativa. A educação pela noite e outros ensaios. São Paulo: Ática, 2003."
+        }
+      ],
+      "image_url": null,
+      "statement": "Com relação à valorização, no romance regionalista brasileiro, do homem e da paisagem de determinadas regiões nacionais, sabe-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o romance do Sul do Brasil se caracteriza pela temática essencialmente urbana, colocando em relevo a formação do homem por meio da mescla de características locais e dos aspectos culturais trazidos de fora pela imigração europeia.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "José de Alencar, representante, sobretudo, do romance urbano, retrata a temática da urbanização das cidades brasileiras e das relações conflituosas entre as raças.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o romance do Nordeste caracteriza-se pelo acentuado realismo no uso do vocabulário, pelo temário local, expressando a vida do homem em face da natureza agreste, e assume frequentemente o ponto de vista dos menos favorecidos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "a literatura urbana brasileira, da qual um dos expoentes é Machado de Assis, põe em relevo a formação do homem brasileiro, o sincretismo religioso, as raízes africanas e indígenas que caracterizam o nosso povo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Érico Veríssimo, Rachel de Queiroz, Simões Lopes Neto e Jorge Amado são romancistas das décadas de 30 e 40 do século XX, cuja obra retrata a problemática do homem urbano em confronto com a modernização do país promovida pelo Estado Novo.\nLC – 2º dia CADERNO 7 – AZ Texto para as questões 121 e 122 Quando eu falo com vocês, procuro usar o código de vocês. A figura do índio no Brasil de hoje não pode ser aquela de 500 anos atrás, do passado, que representa aquele primeiro contato. Da mesma forma que o Brasil de hoje não é o Brasil de ontem, tem 160 milhões de pessoas com diferentes sobrenomes. Vieram para cá asiáticos, europeus, africanos, e todo mundo quer ser brasileiro. A importante pergunta que nós fazemos é: qual é o pedaço de índio que vocês têm? O seu cabelo? São seus olhos?\nOu é o nome da sua rua? O nome da sua praça? Enfim, vocês devem ter um pedaço de índio dentro de vocês.\nPara nós, o importante é que vocês olhem para a gente como seres humanos, como pessoas que nem precisam de paternalismos, nem precisam ser tratadas com privilégios. Nós não queremos tomar o Brasil de vocês, nós queremos compartilhar esse Brasil com vocês.\nTERENA, M. Debate. MORIN, E. Saberes globais e saberes locais.\nRio de Janeiro: Garamond, 2000 (adaptado).",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q121",
+      "question_number": 121,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Os procedimentos argumentativos utilizados no texto permitem inferir que o ouvinte/leitor, no qual o emissor foca o seu discurso, pertence",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ao mesmo grupo social do falante/autor.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a um grupo de brasileiros considerados como não índios.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "a um grupo étnico que representa a maioria europeia que vive no país.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "a um grupo formado por estrangeiros que falam português.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "a um grupo sociocultural formado por brasileiros naturalizados e imigrantes.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q122",
+      "question_number": 122,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Na situação de comunicação da qual o texto foi retirado, a norma padrão da língua portuguesa é empregada com a finalidade de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "demonstrar a clareza e a complexidade da nossa língua materna.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "situar os dois lados da interlocução em posições simétricas.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "comprovar a importância da correção gramatical nos diálogos cotidianos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "mostrar como as línguas indígenas foram incorporadas à língua portuguesa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ressaltar a importância do código linguístico que adotamos como língua nacional.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q123",
+      "question_number": 123,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Se os tubarões fossem homens Se os tubarões fossem homens, eles seriam mais gentis com os peixes pequenos?\nCertamente, se os tubarões fossem homens, fariam construir resistentes gaiolas no mar para os peixes pequenos, com todo o tipo de alimento, tanto animal como vegetal. Cuidariam para que as gaiolas tivessem sempre água fresca e adotariam todas as providências sanitárias.\nNaturalmente haveria também escolas nas gaiolas. Nas aulas, os peixinhos aprenderiam como nadar para a goela dos tubarões. Eles aprenderiam, por exemplo, a usar a geografia para localizar os grandes tubarões deitados preguiçosamente por aí. A aula principal seria, naturalmente, a formação moral dos peixinhos. A eles seria ensinado que o ato mais grandioso e mais sublime é o sacrifício alegre de um peixinho e que todos deveriam acreditar nos tubarões, sobretudo quando estes dissessem que cuidavam de sua felicidade futura. Os peixinhos saberiam que este futuro só estaria garantido se aprendessem a obediência.\nCada peixinho que na guerra matasse alguns peixinhos inimigos seria condecorado com uma pequena Ordem das Algas e receberia o título de herói.",
+          "source": "BRECHT, B. Histórias do Sr. Keuner. São Paulo: Ed. 34, 2006 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Como produção humana, a literatura veicula valores que nem sempre estão representados diretamente no texto, mas são transfigurados pela linguagem literária e podem até entrar em contradição com as convenções sociais e revelar o quanto a sociedade perverteu os valores humanos que ela própria criou. É o que ocorre na narrativa do dramaturgo alemão Bertolt Brecht mostrada. Por meio da hipótese apresentada, o autor",
+      "options": [
+        {
+          "letter": "A",
+          "text": "demonstra o quanto a literatura pode ser alienadora ao retratar, de modo positivo, as relações de opressão existentes na sociedade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "revela a ação predatória do homem no mar, questionando a utilização dos recursos naturais pelo homem ocidental.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "defende que a força colonizadora e civilizatória do homem ocidental valorizou a organização das sociedades africanas e asiáticas, elevando-as ao modo de organização cultural e social da sociedade moderna.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "questiona o modo de organização das sociedades ocidentais capitalistas, que se desenvolveram fundamentadas nas relações de opressão em que os mais fortes exploram os mais fracos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "evidencia a dinâmica social do trabalho coletivo em que os mais fortes colaboram com os mais fracos, de modo a guiá-los na realização de tarefas.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q124",
+      "question_number": 124,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q125",
+      "question_number": 125,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Veja, 7 maio 1997.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q125.png"
+      ],
+      "statement": "Na parte superior do anúncio, há um comentário escrito à mão que aborda a questão das atividades linguísticas e sua relação com as modalidades oral e escrita da língua.\nEsse comentário deixa evidente uma posição crítica quanto a usos que se fazem da linguagem, enfatizando ser necessário",
+      "options": [
+        {
+          "letter": "A",
+          "text": "implementar a fala, tendo em vista maior desenvoltura, naturalidade e segurança no uso da língua .",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "conhecer gêneros mais formais da modalidade oral para a obtenção de clareza na comunicação oral e escrita.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "dominar as diferentes variedades do registro oral da língua portuguesa para escrever com adequação, eficiência e correção.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "empregar vocabulário adequado e usar regras da norma padrão da língua em se tratando da modalidade escrita.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "utilizar recursos mais expressivos e menos desgastados da variedade padrão da língua para se expressar com alguma segurança e sucesso.\nZUL – PÁGINA 14 ENEM 2009 Texto para as questões 126 e 127 BRASIL. Ministério da Saúde. Revista Nordeste, João Pessoa, ano 3, n. 35, maio/jun. 2009.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q126",
+      "question_number": 126,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q126-1.png",
+        "assets/images/enem_2009_cd7_q126-2.png"
+      ],
+      "statement": "O texto exemplifica um gênero textual híbrido entre carta e publicidade oficial. Em seu conteúdo, é possível perceber aspectos relacionados a gêneros digitais. Considerando-se a função social das informações geradas nos sistemas de comunicação e informação presentes no texto, infere-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a utilização do termo download indica restrição de leitura de informações a respeito de formas de combate à dengue.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a diversidade dos sistemas de comunicação empregados e mencionados reduz a possibilidade de acesso às informações a respeito do combate à dengue.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "a utilização do material disponibilizado para download no site www.combatadengue.com.br restringe-se ao receptor da publicidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "a necessidade de atingir públicos distintos se revela por meio da estratégia de disponibilização de informações empregada pelo emissor.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "a utilização desse gênero textual compreende, no próprio texto, o detalhamento de informações a respeito de formas de combate à dengue.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q127",
+      "question_number": 127,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Diante dos recursos argumentativos utilizados, depreende-se que o texto apresentado",
+      "options": [
+        {
+          "letter": "A",
+          "text": "se dirige aos líderes comunitários para tomarem a iniciativa de combater a dengue.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "conclama toda a população a participar das estratégias de combate ao mosquito da dengue.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "se dirige aos prefeitos, conclamando-os a organizarem iniciativas de combate à dengue.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "tem como objetivo ensinar os procedimentos técnicos necessários para o combate ao mosquito da dengue.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apela ao governo federal, para que dê apoio aos governos estaduais e municipais no combate ao mosquito da dengue.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q128",
+      "question_number": 128,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A partida 1 Acordei pela madrugada. A princípio com tranquilidade, e logo com obstinação, quis novamente dormir. Inútil, o sono esgotara-se. Com precaução, 4 acendi um fósforo: passava das três. Restava-me, portanto, menos de duas horas, pois o trem chegaria às cinco. Veio-me então o desejo de não passar mais 7 nem uma hora naquela casa. Partir, sem dizer nada, deixar quanto antes minhas cadeias de disciplina e de amor. 10 Com receio de fazer barulho, dirigi-me à cozinha, lavei o rosto, os dentes, penteei-me e, voltando ao meu quarto, vesti-me. Calcei os sapatos, 13 sentei-me um instante à beira da cama. Minha avó continuava dormindo. Deveria fugir ou falar com ela?\nOra, algumas palavras... Que me custava acordá-la, 16 dizer-lhe adeus?",
+          "source": "LINS, O. A partida. Melhores contos. Seleção e prefácio de Sandra Nitrini. São Paulo: Global, 2003."
+        }
+      ],
+      "image_url": null,
+      "statement": "No texto, o personagem narrador, na iminência da partida, descreve a sua hesitação em separar-se da avó. Esse sentimento contraditório fica claramente expresso no trecho:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "“A princípio com tranquilidade, e logo com obstinação, quis novamente dormir” (ℓ. 1-3).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "“Restava-me, portanto, menos de duas horas, pois o trem chegaria às cinco” (ℓ. 4-6).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "“Calcei os sapatos, sentei-me um instante à beira da cama” (ℓ. 12-13).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "“Partir, sem dizer nada, deixar quanto antes minhas cadeias de disciplina e amor” (ℓ. 7-9).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "“Deveria fugir ou falar com ela? Ora, algumas palavras...” (ℓ. 14-15).",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q129",
+      "question_number": 129,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Serafim da Silva Neto defendia a tese da unidade da língua portuguesa no Brasil, entrevendo que no Brasil as delimitações dialetais espaciais não eram tão marcadas como as isoglossas1 da România Antiga. Mas Paul Teyssier, na sua História da Língua Portuguesa, reconhece que na diversidade socioletal essa pretensa unidade se desfaz. Diz Teyssier:\n“A realidade, porém, é que as divisões ‘dialetais’ no Brasil são menos geográficas que socioculturais. As diferenças na maneira de falar são maiores, num determinado lugar, entre um homem culto e o vizinho analfabeto que entre dois brasileiros do mesmo nível cultural originários de duas regiões distantes uma da outra.”",
+          "source": "SILVA, R. V. M. O português brasileiro e o português europeu contemporâneo: alguns aspectos da diferença. Disponível em: www.uniroma.it. Acesso em: 23 jun. 2008. 1 isoglossa – linha imaginária que, em um mapa, une os pontos de ocorrência de traços e fenômenos linguísticos idênticos. FERREIRA, A. B. H. Novo dicionário Aurélio da língua portuguesa. Rio de Janeiro: Nova Fronteira, 1986."
+        }
+      ],
+      "image_url": null,
+      "statement": "De acordo com as informações presentes no texto, os pontos de vista de Serafim da Silva Neto e de Paul Teyssier convergem em relação",
+      "options": [
+        {
+          "letter": "A",
+          "text": "à influência dos aspectos socioculturais nas diferenças dos falares entre indivíduos, pois ambos consideram que pessoas de mesmo nível sociocultural falam de forma semelhante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "à delimitação dialetal no Brasil assemelhar-se ao que ocorria na România Antiga, pois ambos consideram a variação linguística no Brasil como decorrente de aspectos geográficos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "à variação sociocultural entre brasileiros de diferentes regiões, pois ambos consideram o fator sociocultural de bastante peso na constituição das variedades linguísticas no Brasil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "à diversidade da língua portuguesa na România Antiga, que até hoje continua a existir, manifestando-se nas variantes linguísticas do português atual no Brasil.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "à existência de delimitações dialetais geográficas pouco marcadas no Brasil, embora cada um enfatize aspectos diferentes da questão.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q130",
+      "question_number": 130,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Nestes últimos anos, a situação mudou bastante e o Brasil, normalizado, já não nos parece tão mítico, no bem e no mal. Houve um mútuo reconhecimento entre os dois países de expressão portuguesa de um lado e do outro do Atlântico: o Brasil descobriu Portugal e Portugal, em um retorno das caravelas, voltou a descobrir o Brasil e a ser, por seu lado, colonizado por expressões linguísticas, as telenovelas, os romances, a poesia, a comida e as formas de tratamento brasileiros. O mesmo, embora em nível superficial, dele excluído o plano da língua, aconteceu com a Europa, que, depois da diáspora dos anos 70, depois da inserção na cultura da bossa-nova e da música popular brasileira, da problemática ecológica centrada na Amazônia, ou da problemática social emergente do fenômeno dos meninos de rua, e até do álibi ocultista dos romances de Paulo Coelho, continua todos os dias a descobrir, no bem e no mal, o novo Brasil. Se, no fim do século XIX, Sílvio Romero definia a literatura brasileira como manifestação de um país mestiço, será fácil para nós defini-la como expressão de um país polifônico: em que já não é determinante o eixo Rio-São Paulo, mas que, em cada região, desenvolve originalmente a sua unitária e particular tradição cultural. É esse, para nós, no início do século XXI, o novo estilo brasileiro.\nSTEGAGNO-PICCHIO, L. História da literatura brasileira.",
+          "source": "Rio de Janeiro: Nova Aguilar, 2004 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "No texto, a autora mostra como o Brasil, ao longo de sua história, foi, aos poucos, construindo uma identidade cultural e literária relativamente autônoma frente à identidade europeia, em geral, e à portuguesa em particular. Sua análise pressupõe, de modo especial, o papel do patrimônio literário e linguístico, que favoreceu o surgimento daquilo que ela chama de “estilo brasileiro”.\nDiante desse pressuposto, e levando em consideração o texto e as diferentes etapas de consolidação da cultura brasileira, constata-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o Brasil redescobriu a cultura portuguesa no século XIX, o que o fez assimilar novos gêneros artísticos e culturais, assim como usos originais do idioma, conforme ilustra o caso do escritor Machado de Assis.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "a Europa reconheceu a importância da língua portuguesa no mundo, a partir da projeção que poetas brasileiros ganharam naqueles países, a partir do século XX.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "ocorre, no início do século XXI, promovido pela solidificação da cultura nacional, maior reconhecimento do Brasil por ele mesmo, tanto nos aspectos positivos quanto nos negativos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "o Brasil continua sendo, como no século XIX, uma nação culturalmente mestiça, embora a expressão dominante seja aquela produzida no eixo Rio-São Paulo, em especial aquela ligada às telenovelas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o novo estilo cultural brasileiro se caracteriza por uma união bastante significativa entre as diversas matrizes culturais advindas das várias regiões do país, como se pode comprovar na obra de Paulo Coelho.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q131",
+      "question_number": 131,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "Acompanhando os navegadores, colonizadores e comerciantes portugueses em todas as suas incríveis viagens, a partir do século XV, o português se transformou na língua de um império. Nesse processo, entrou em contato — forçado, o mais das vezes; amigável, em alguns casos — com as mais diversas línguas, passando por processos de variação e de mudança linguística. Assim, contar a história do português do Brasil é mergulhar na sua história colonial e de país independente, já que as línguas não são mecanismos desgarrados dos povos que as utilizam. Nesse cenário, são muitos os aspectos da estrutura linguística que não só expressam a diferença entre Portugal e Brasil como também definem, no Brasil, diferenças regionais e sociais.",
+          "source": "PAGOTTO, E. P. Línguas do Brasil. Disponível em: http://cienciaecultura.bvs.br. Acesso em: 5 jul. 2009 (adaptado)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Barbarismo é vício que se comete na escritura de cada uma das partes da construção ou na pronunciação. E em nenhuma parte da Terra se comete mais essa figura da pronunciação que nestes reinos, por causa das muitas nações que trouxemos ao jugo do nosso serviço. Porque bem como os Gregos e Romanos haviam por bárbaras todas as outras nações estranhas a eles, por não poderem formar sua linguagem, assim nós podemos dizer que as nações de África, Guiné, Ásia, Brasil barbarizam quando querem imitar a nossa.",
+          "source": "BARROS, J. Gramática da língua portuguesa. Porto: Porto Editora, 1957 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os textos abordam o contato da língua portuguesa com outras línguas e processos de variação e de mudança decorridos desse contato. Da comparação entre os textos, conclui-se que a posição de João de Barros (Texto II), em relação aos usos sociais da linguagem, revela",
+      "options": [
+        {
+          "letter": "A",
+          "text": "atitude crítica do autor quanto à gramática que as nações a serviço de Portugal possuíam e, ao mesmo tempo, de benevolência quanto ao conhecimento que os povos tinham de suas línguas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "atitude preconceituosa relativa a vícios culturais das nações sob domínio português, dado o interesse dos falantes dessa línguas em copiar a língua do império, o que implicou a falência do idioma falado em Portugal.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o desejo de conservar, em Portugal, as estruturas da variante padrão da língua grega — em oposição às consideradas bárbaras —, em vista da necessidade de preservação do padrão de correção dessa língua à época.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "adesão à concepção de língua como entidade homogênea e invariável, e negação da ideia de que a língua portuguesa pertence a outros povos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "atitude crítica, que se estende à própria língua portuguesa, por se tratar de sistema que não disporia de elementos necessários para a plena inserção sociocultural de falantes não nativos do português.\nLC – 2º dia CADERNO 7 – AZ Textos para as questões 132 e 133\nTexto I\n[...] já foi o tempo em que via a convivência como viável, só exigindo deste bem comum, piedosamente, o meu quinhão, já foi o tempo em que consentia num contrato, deixando muitas coisas de fora sem ceder contudo no que me era vital, já foi o tempo em que reconhecia a existência escandalosa de imaginados valores, coluna vertebral de toda ‘ordem’; mas não tive sequer o sopro necessário, e, negado o respiro, me foi imposto o sufoco; é esta consciência que me libera, é ela hoje que me empurra, são outras agora minhas preocupações, é hoje outro o meu universo de problemas; num mundo estapafúrdio — definitivamente fora de foco — cedo ou tarde tudo acaba se reduzindo a um ponto de vista, e você que vive paparicando as ciências humanas, nem suspeita que paparica uma piada: impossível ordenar o mundo dos valores, ninguém arruma a casa do capeta; me recuso pois a pensar naquilo em que não mais acredito, seja o amor, a amizade, a família, a igreja, a humanidade; me lixo com tudo isso! me apavora ainda a existência, mas não tenho medo de ficar sozinho, foi conscientemente que escolhi o exílio, me bastando hoje o cinismo dos grandes indiferentes [...].\nNASSAR, R. Um copo de cólera. São Paulo:\nCompanhia das Letras, 1992.\nTexto II\nRaduan Nassar lançou a novela Um Copo de Cólera em 1978, fervilhante narrativa de um confronto verbal entre amantes, em que a fúria das palavras cortantes se estilhaçava no ar. O embate conjugal ecoava o autoritário discurso do poder e da submissão de um Brasil que vivia sob o jugo da ditadura militar.\nCOMODO, R. Um silêncio inquietante. IstoÉ. Disponível em: http://www.terra.com.br. Acesso em: 15 jul. 2009.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q132",
+      "question_number": 132,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "",
+          "source": null
+        }
+      ],
+      "image_url": null,
+      "statement": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "é escrito em terceira pessoa, com narrador onisciente, apresentando a disputa entre um homem e uma mulher em linguagem sóbria, condizente com a seriedade da temática político-social do período da ditadura militar.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "articula o discurso dos interlocutores em torno de uma luta verbal, veiculada por meio de linguagem simples e objetiva, que busca traduzir a situação de exclusão social do narrador.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "representa a literatura dos anos 70 do século XX e aborda, por meio de expressão clara e objetiva e de ponto de vista distanciado, os problemas da urbanização das grandes metrópoles brasileiras.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "evidencia uma crítica à sociedade em que vivem os personagens, por meio de fluxo verbal contínuo de tom agressivo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "traduz, em linguagem subjetiva e intimista, a partir do ponto de vista interno, os dramas psicológicos da mulher moderna, às voltas com a questão da priorização do trabalho em detrimento da vida familiar",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q133",
+      "question_number": 133,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Considerando-se os textos apresentados e o contexto político e social no qual foi produzida a obra Um Copo de Cólera, verifica-se que o narrador, ao dirigir-se à sua parceira, nessa novela, tece um discurso",
+      "options": [
+        {
+          "letter": "A",
+          "text": "conformista, que procura defender as instituições nas quais repousava a autoridade do regime militar no Brasil, a saber: a Igreja, a família e o Estado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "pacifista, que procura defender os ideais libertários representativos da intelectualidade brasileira opositora à ditadura militar na década de 70 do século passado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "desmistificador, escrito em um discurso ágil e contundente, que critica os grandes princípios humanitários supostamente defendidos por sua interlocutora.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "politizado, pois apela para o engajamento nas causas sociais e para a defesa dos direitos humanos como uma única forma de salvamento para a humanidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "contraditório, ao acusar a sua interlocutora de compactuar com o regime repressor da ditadura militar, por meio da defesa de instituições como a família e a Igreja.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q134",
+      "question_number": 134,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Nunca se falou e se preocupou tanto com o corpo como nos dias atuais. É comum ouvirmos anúncios de uma nova academia de ginástica, de uma nova forma de dieta, de uma nova técnica de autoconhecimento e outras práticas de saúde alternativa, em síntese, vivemos nos últimos anos a redescoberta do prazer, voltando nossas atenções ao nosso próprio corpo. Essa valorização do prazer individualizante se estrutura em um verdadeiro culto ao corpo, em analogia a uma religião, assistimos hoje ao surgimento de novo universo: a corpolatria.",
+          "source": "CODO, W.; SENNE, W. O que é corpo(latria). Coleção Primeiros Passos. Brasiliense, 1985 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Sobre esse fenômeno do homem contemporâneo presente nas classes sociais brasileiras, principalmente, na classe média, a corpolatria",
+      "options": [
+        {
+          "letter": "A",
+          "text": "é uma religião pelo avesso, por isso outra religião; inverteram-se os sinais, a busca da felicidade eterna antes carregava em si a destruição do prazer, hoje implica o seu culto.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "criou outro ópio do povo, levando as pessoas a buscarem cada vez mais grupos igualitários de integração social.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "é uma tradução dos valores das sociedades subdesenvolvidas, mas em países considerados do primeiro mundo ela não consegue se manifestar porque a população tem melhor educação e senso crítico.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "tem como um de seus dogmas o narcisismo, significando o “amar o próximo como se ama a si mesmo”.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "existe desde a Idade Média, entretanto esse acontecimento se intensificou a partir da Revolução Industrial no século XIX e se estendeu até os nossos dias.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q135",
+      "question_number": 135,
+      "subject": "Linguagens, Códigos e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Confidência do Itabirano Alguns anos vivi em Itabira.\nPrincipalmente nasci em Itabira.\nPor isso sou triste, orgulhoso: de ferro.\nNoventa por cento de ferro nas calçadas.\nOitenta por cento de ferro nas almas.\nE esse alheamento do que na vida é porosidade e [comunicação.\nA vontade de amar, que me paralisa o trabalho, vem de Itabira, de suas noites brancas, sem mulheres e [sem horizontes.\nE o hábito de sofrer, que tanto me diverte, é doce herança itabirana.\nDe Itabira trouxe prendas diversas que ora te ofereço: esta pedra de ferro, futuro aço do Brasil, este São Benedito do velho santeiro Alfredo Duval; este couro de anta, estendido no sofá da sala de visitas; este orgulho, esta cabeça baixa...\nTive ouro, tive gado, tive fazendas.\nHoje sou funcionário público.\nItabira é apenas uma fotografia na parede.\nMas como dói!",
+          "source": "ANDRADE, C. D. Poesia completa. Rio de Janeiro: Nova Aguilar, 2003."
+        }
+      ],
+      "image_url": null,
+      "statement": "Carlos Drummond de Andrade é um dos expoentes do movimento modernista brasileiro. Com seus poemas, penetrou fundo na alma do Brasil e trabalhou poeticamente as inquietudes e os dilemas humanos. Sua poesia é feita de uma relação tensa entre o universal e o particular, como se percebe claramente na construção do poema Confidência do Itabirano. Tendo em vista os procedimentos de construção do texto literário e as concepções artísticas modernistas, conclui-se que o poema acima",
+      "options": [
+        {
+          "letter": "A",
+          "text": "representa a fase heroica do modernismo, devido ao tom contestatório e à utilização de expressões e usos linguísticos típicos da oralidade.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "apresenta uma característica importante do gênero lírico, que é a apresentação objetiva de fatos e dados históricos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "evidencia uma tensão histórica entre o “eu” e a sua comunidade, por intermédio de imagens que representam a forma como a sociedade e o mundo colaboram para a constituição do indivíduo.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "critica, por meio de um discurso irônico, a posição de inutilidade do poeta e da poesia em comparação com as prendas resgatadas de Itabira.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "apresenta influências românticas, uma vez que trata da individualidade, da saudade da infância e do amor pela terra natal, por meio de recursos retóricos pomposos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q136",
+      "question_number": 136,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Dados da Associação Nacional de Empresas de Transportes Urbanos (ANTU) mostram que o número de passageiros transportados mensalmente nas principais regiões metropolitanas do país vem caindo sistematicamente. Eram 476,7 milhões de passageiros em 1995, e esse número caiu para 321,9 milhões em abril de 2001. Nesse período, o tamanho da frota de veículos mudou pouco, tendo no final de 2008 praticamente o mesmo tamanho que tinha em 2001.\nO gráfico a seguir mostra um índice de produtividade utilizado pelas empresas do setor, que é a razão entre o total de passageiros transportados por dia e o tamanho da frota de veículos.",
+          "source": "Disponível em: http://www.ntu.org.br. Acesso em 16 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q136.png"
+      ],
+      "statement": "Supondo que as frotas totais de veículos naquelas regiões metropolitanas em abril de 2001 e em outubro de 2008 eram do mesmo tamanho, os dados do gráfico permitem inferir que o total de passageiros transportados no mês de outubro de 2008 foi aproximadamente igual a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "355 milhões.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "400 milhões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "426 milhões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "441 milhões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "477 milhões.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q137",
+      "question_number": 137,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q138",
+      "question_number": 138,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q138-1.png",
+        "assets/images/enem_2009_cd7_q138-2.png"
+      ],
+      "statement": "Suponha que o modelo exponencial y = 363e0,03x, em que x = 0 corresponde ao ano 2000, x = 1 corresponde ao ano 2001, e assim sucessivamente, e que y é a população em milhões de habitantes no ano x, seja usado para estimar essa população com 60 anos ou mais de idade nos países em desenvolvimento entre 2010 e 2050. Desse modo, considerando e0,3 = 1,35, estima-se que a população com 60 anos ou mais estará, em 2030, entre",
+      "options": [
+        {
+          "letter": "A",
+          "text": "490 e 510 milhões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "550 e 620 milhões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "780 e 800 milhões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "810 e 860 milhões.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "870 e 910 milhões.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q139",
+      "question_number": 139,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Em 2050, a probabilidade de se escolher, aleatoriamente, uma pessoa com 60 anos ou mais de idade, na população dos países desenvolvidos, será um número mais próximo de 1",
+      "options": [
+        {
+          "letter": "A",
+          "text": ". 2 7",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": ". 20 8",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": ". 25 1",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": ". 5 3",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": ". 25",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q140",
+      "question_number": 140,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O governo cedeu terrenos para que famílias construíssem suas residências com a condição de que no mínimo 94% da área do terreno fosse mantida como área de preservação ambiental. Ao receber o terreno retangular BC ABCD, em que AB = , Antônio demarcou uma área 2 quadrada no vértice A, para a construção de sua AB residência, de acordo com o desenho, no qual AE= é 5 lado do quadrado.\nB C A E D Nesse caso, a área definida por Antônio atingiria exatamente o limite determinado pela condição se ele",
+      "options": [
+        {
+          "letter": "A",
+          "text": "duplicasse a medida do lado do quadrado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "triplicasse a medida do lado do quadrado.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "triplicasse a área do quadrado.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "ampliasse a medida do lado do quadrado em 4%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "ampliasse a área do quadrado em 4%.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q141",
+      "question_number": 141,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Uma resolução do Conselho Nacional de Política Energética (CNPE) estabeleceu a obrigatoriedade de adição de biodísel ao óleo dísel comercializado nos postos.\nA exigência é que, a partir de 1.º de julho de 2009, 4% do volume da mistura final seja formada por biodísel. Até junho de 2009, esse percentual era de 3%. Essa medida estimula a demanda de biodísel, bem como possibilita a redução da importação de dísel de petróleo.",
+          "source": "Disponível em: http://www1.folha.uol.com.br. Acesso em: 12 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Estimativas indicam que, com a adição de 4% de biodísel ao dísel, serão consumidos 925 milhões de litros de biodísel no segundo semestre de 2009. Considerando-se essa estimativa, para o mesmo volume da mistura final dísel/biodísel consumida no segundo semestre de 2009, qual seria o consumo de biodísel com a adição de 3%?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "27,75 milhões de litros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "37,00 milhões de litros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "231,25 milhões de litros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "693,75 milhões de litros.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "888,00 milhões de litros.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q142",
+      "question_number": 142,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A suspeita de que haveria uma relação causal entre tabagismo e câncer de pulmão foi levantada pela primeira vez a partir de observações clínicas. Para testar essa possível associação, foram conduzidos inúmeros estudos epidemiológicos. Dentre esses, houve o estudo do número de casos de câncer em relação ao número de cigarros consumidos por dia, cujos resultados são mostrados no gráfico a seguir.",
+          "source": "Centers for Disease Control and Prevention CDC-EIS Summer Course – 1992 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q142-1.png",
+        "assets/images/enem_2009_cd7_q142-2.png"
+      ],
+      "statement": "De acordo com as informações do gráfico,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "o consumo diário de cigarros e o número de casos de câncer de pulmão são grandezas inversamente proporcionais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o consumo diário de cigarros e o número de casos de câncer de pulmão são grandezas que não se relacionam.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o consumo diário de cigarros e o número de casos de câncer de pulmão são grandezas diretamente proporcionais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "uma pessoa não fumante certamente nunca será diagnosticada com câncer de pulmão.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o consumo diário de cigarros e o número de casos de câncer de pulmão são grandezas que estão relacionadas, mas sem proporcionalidade.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q143",
+      "question_number": 143,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O gráfico a seguir mostra a evolução, de abril de 2008 a maio de 2009, da população economicamente ativa para seis Regiões Metropolitanas pesquisadas.",
+          "source": "Disponível em: www.ibge.gov.br."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q143.png"
+      ],
+      "statement": "Considerando que a taxa de crescimento da população economicamente ativa, entre 05/09 e 06/09, seja de 4%, então o número de pessoas economicamente ativas em 06/09 será igual a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "23.940.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "32.228.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "920.800.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "23.940.800.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "32.228.000.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q144",
+      "question_number": 144,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q144.png"
+      ],
+      "statement": "A música e a matemática se encontram na representação dos tempos das notas musicais, conforme a figura seguinte.\nUm compasso é uma unidade musical composta por determinada quantidade de notas musicais em que a soma das durações coincide com a fração indicada como fórmula do compasso. Por exemplo, se a fórmula de compasso for 1 , poderia ter um compasso ou com duas semínimas ou 2 uma mínima ou quatro colcheias, sendo possível a combinação de diferentes figuras. 3 Um trecho musical de oito compassos, cuja fórmula é , 4 poderia ser preenchido com",
+      "options": [
+        {
+          "letter": "A",
+          "text": "24 fusas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "3 semínimas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "8 semínimas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "24 colcheias e 12 semínimas.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "16 semínimas e 8 semicolcheias.\nRascunho",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q145",
+      "question_number": 145,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "O controle de qualidade de uma empresa fabricante de telefones celulares aponta que a probabilidade de um aparelho de determinado modelo apresentar defeito de fabricação é de 0,2%. Se uma loja acaba de vender 4 aparelhos desse modelo para um cliente, qual é a probabilidade de esse cliente sair da loja com exatamente dois aparelhos defeituosos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2 × (0,2%)4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "4 × (0,2%)2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "6 × (0,2%)2 × (99,8%)2.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "4 × (0,2%).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "6 × (0,2%) × (99,8%).",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q146",
+      "question_number": 146,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma pousada oferece pacotes promocionais para atrair casais a se hospedarem por até oito dias. A hospedagem seria em apartamento de luxo e, nos três primeiros dias, a diária custaria R$ 150,00, preço da diária fora da promoção. Nos três dias seguintes, seria aplicada uma redução no valor da diária, cuja taxa média de variação, a cada dia, seria de R$ 20,00. Nos dois dias restantes, seria mantido o preço do sexto dia. Nessas condições, um modelo para a promoção idealizada é apresentado no gráfico a seguir, no qual o valor da diária é função do tempo medido em número de dias.\nDe acordo com os dados e com o modelo, comparando o preço que um casal pagaria pela hospedagem por sete dias fora da promoção, um casal que adquirir o pacote promocional por oito dias fará uma economia de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R$ 90,00.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "R$ 110,00.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "R$ 130,00.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "R$ 150,00.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "R$ 170,00.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q147",
+      "question_number": 147,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "As figuras a seguir exibem um trecho de um quebra-cabeças que está sendo montado. Observe que as peças são quadradas e há 8 peças no tabuleiro da figura A e 8 peças no tabuleiro da figura B. As peças são retiradas do tabuleiro da figura B e colocadas no tabuleiro da figura A na posição correta, isto é, de modo a completar os desenhos.",
+          "source": "F i g u r a A F i g u r a B Peça 1 Peça 2 Disponível em: http://pt.eternityii.com. Acesso em: 14 jul. 2009."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q147-1.png",
+        "assets/images/enem_2009_cd7_q147-2.png"
+      ],
+      "statement": "É possível preencher corretamente o espaço indicado pela seta no tabuleiro da figura A colocando a peça",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 após girá-la 90° no sentido horário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1 após girá-la 180° no sentido anti-horário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2 após girá-la 90° no sentido anti-horário.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "2 após girá-la 180° no sentido horário.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2 após girá-la 270° no sentido anti-horário.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q148",
+      "question_number": 148,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A tabela mostra alguns dados da emissão de dióxido de carbono de uma fábrica, em função do número de toneladas produzidas.\nProdução Emissão de dióxido de carbono (em toneladas) (em partes por milhão – ppm) 1,1 2,14 1,2 2,30 1,3 2,46 1,4 2,64 1,5 2,83 1,6 3,03 1,7 3,25 1,8 3,48 1,9 3,73 2,0 4,00 Cadernos do Gestar II, Matemática TP3.",
+          "source": "Disponível em: www.mec.gov.br. Acesso em: 14 jul. 2009."
+        }
+      ],
+      "image_url": null,
+      "statement": "Os dados na tabela indicam que a taxa média de variação entre a emissão de dióxido de carbono (em ppm) e a produção (em toneladas) é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "inferior a 0,18.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "superior a 0,18 e inferior a 0,50.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "superior a 0,50 e inferior a 1,50.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "superior a 1,50 e inferior a 2,80.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "superior a 2,80.\nRascunho",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q149",
+      "question_number": 149,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q150",
+      "question_number": 150,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Brasil e França têm relações comerciais há mais de 200 anos. Enquanto a França é a 5.ª nação mais rica do planeta, o Brasil é a 10.ª, e ambas se destacam na economia mundial. No entanto, devido a uma série de restrições, o comércio entre esses dois países ainda não é adequadamente explorado, como mostra a tabela seguinte, referente ao período 2003-2007.\nInvestimentos Bilaterais (em milhões de dólares)",
+          "source": "Ano Brasil na França França no Brasil 2003 367 825 2004 357 485 2005 354 1.458 2006 539 744 2007 280 1.214 Disponível em: www.cartacapital.com.br. Acesso em: 7 jul. 2009."
+        }
+      ],
+      "image_url": null,
+      "statement": "MT – 2º dia CADERNO 7 – AZ Os dados da tabela mostram que, no período considerado, os valores médios dos investimentos da França no Brasil foram maiores que os investimentos do Brasil na França em um valor",
+      "options": [
+        {
+          "letter": "A",
+          "text": "inferior a 300 milhões de dólares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "superior a 300 milhões de dólares, mas inferior a 400 milhões de dólares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "superior a 400 milhões de dólares, mas inferior a 500 milhões de dólares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "superior a 500 milhões de dólares, mas inferior a 600 milhões de dólares.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "superior a 600 milhões de dólares.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q151",
+      "question_number": 151,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um grupo de 50 pessoas fez um orçamento inicial para organizar uma festa, que seria dividido entre elas em cotas iguais. Verificou-se ao final que, para arcar com todas as despesas, faltavam R$ 510,00, e que 5 novas pessoas haviam ingressado no grupo. No acerto foi decidido que a despesa total seria dividida em partes iguais pelas 55 pessoas. Quem não havia ainda contribuído pagaria a sua parte, e cada uma das 50 pessoas do grupo inicial deveria contribuir com mais R$ 7,00.\nDe acordo com essas informações, qual foi o valor da cota calculada no acerto final para cada uma das 55 pessoas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R$ 14,00.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "R$ 17,00.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "R$ 22,00.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "R$ 32,00.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "R$ 57,00.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q152",
+      "question_number": 152,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Técnicos concluem mapeamento do aquífero Guarani O aquífero Guarani localiza-se no subterrâneo dos territórios da Argentina, Brasil, Paraguai e Uruguai, com extensão total de 1.200.000 quilômetros quadrados, dos quais 840.000 quilômetros quadrados estão no Brasil. O aquífero armazena cerca de 30 mil quilômetros cúbicos de água e é considerado um dos maiores do mundo.\nNa maioria das vezes em que são feitas referências à água, são usadas as unidades metro cúbico e litro, e não as unidades já descritas. A Companhia de Saneamento Básico do Estado de São Paulo (SABESP) divulgou, por exemplo, um novo reservatório cuja capacidade de armazenagem é de 20 milhões de litros.",
+          "source": "Disponível em: http://noticias.terra.com.br. Acesso em: 10 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Comparando as capacidades do aquífero Guarani e desse novo reservatório da SABESP, a capacidade do aquífero Guarani é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1,5 x 102 vezes a capacidade do reservatório novo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "1,5 x 103 vezes a capacidade do reservatório novo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1,5 x 106 vezes a capacidade do reservatório novo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1,5 x 108 vezes a capacidade do reservatório novo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "1,5 x 109 vezes a capacidade do reservatório novo.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q153",
+      "question_number": 153,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Suponha que, na escultura do artista Emanoel Araújo, mostrada na figura a seguir, todos os prismas numerados em algarismos romanos são retos, com bases triangulares, e que as faces laterais do poliedro II são perpendiculares à sua própria face superior, que, por sua vez, é um triângulo congruente ao triângulo base dos prismas. Além disso, considere que os prismas I e III são perpendiculares ao prisma IV e ao poliedro II.",
+          "source": "Disponível em: www.escritosriodearte.com.br. Acesso em: 28 jul. 2009."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q153-1.png",
+        "assets/images/enem_2009_cd7_q153-2.png"
+      ],
+      "statement": "Imagine um plano paralelo à face α do prisma I, mas que passe pelo ponto P pertencente à aresta do poliedro II, indicado na figura. A interseção desse plano imaginário com a escultura contém",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dois triângulos congruentes com lados correspondentes paralelos.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "dois retângulos congruentes e com lados correspondentes paralelos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "dois trapézios congruentes com lados correspondentes perpendiculares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "dois paralelogramos congruentes com lados correspondentes paralelos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "dois quadriláteros congruentes com lados correspondentes perpendiculares.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q154",
+      "question_number": 154,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q155",
+      "question_number": 155,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um posto de combustível vende 10.000 litros de álcool por dia a R$ 1,50 cada litro. Seu proprietário percebeu que, para cada centavo de desconto que concedia por litro, eram vendidos 100 litros a mais por dia.\nPor exemplo, no dia em que o preço do álcool foi R$ 1,48, foram vendidos 10.200 litros.\nConsiderando x o valor, em centavos, do desconto dado no preço de cada litro, e V o valor, em R$, arrecadado por dia com a venda do álcool, então a expressão que relaciona V e x é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "V = 10.000 + 50x – x2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "V = 10.000 + 50x + x2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "V = 15.000 – 50x – x2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "V = 15.000 + 50x – x2.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "V = 15.000 – 50x + x2.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q156",
+      "question_number": 156,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q157",
+      "question_number": 157,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q158",
+      "question_number": 158,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q158.png"
+      ],
+      "statement": "A figura a seguir mostra as medidas reais de uma aeronave que será fabricada para utilização por companhias de transporte aéreo. Um engenheiro precisa fazer o desenho desse avião em escala de 1:150.\nPara o engenheiro fazer esse desenho em uma folha de papel, deixando uma margem de 1 cm em relação às bordas da folha, quais as dimensões mínimas, em centímetros, que essa folha deverá ter?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2,9 cm × 3,4 cm.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "3,9 cm × 4,4 cm.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "20 cm × 25 cm.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "21 cm × 26 cm.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "192 cm × 242 cm.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q159",
+      "question_number": 159,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Um experimento consiste em colocar certa quantidade de bolas de vidro idênticas em um copo com água até certo nível e medir o nível da água, conforme ilustrado na figura a seguir. Como resultado do experimento, concluiu-se que o nível da água é função do número de bolas de vidro que são colocadas dentro do copo.",
+          "source": "O quadro a seguir mostra alguns resultados do experimento realizado. número de bolas (x) nível da água (y) 5 6,35 cm 10 6,70 cm 15 7,05 cm Disponível em: www.penta.ufrgs.br. Acesso em: 13 jan. 2009 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q159-1.png"
+      ],
+      "statement": "Qual a expressão algébrica que permite calcular o nível da água (y) em função do número de bolas (x)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "y = 30x.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "y = 25x + 20,2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "y = 1,27x.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "y = 0,7x.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "y = 0,07x + 6.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q160",
+      "question_number": 160,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma cooperativa de colheita propôs a um fazendeiro um contrato de trabalho nos seguintes termos: a cooperativa forneceria 12 trabalhadores e 4 máquinas, em um regime de trabalho de 6 horas diárias, capazes de colher 20 hectares de milho por dia, ao custo de R$ 10,00 por trabalhador por dia de trabalho, e R$ 1.000,00 pelo aluguel diário de cada máquina. O fazendeiro argumentou que fecharia contrato se a cooperativa colhesse 180 hectares de milho em 6 dias, com gasto inferior a R$ 25.000,00.\nPara atender às exigências do fazendeiro e supondo que o ritmo dos trabalhadores e das máquinas seja constante, a cooperativa deveria",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manter sua proposta.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "oferecer 4 máquinas a mais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "oferecer 6 trabalhadores a mais.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "aumentar a jornada de trabalho para 9 horas diárias.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "reduzir em R$ 400,00 o valor do aluguel diário de uma máquina.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q161",
+      "question_number": 161,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Suponha que a etapa final de uma gincana escolar consista em um desafio de conhecimentos. Cada equipe escolheria 10 alunos para realizar uma prova objetiva, e a pontuação da equipe seria dada pela mediana das notas obtidas pelos alunos. As provas valiam, no máximo, 10 pontos cada. Ao final, a vencedora foi a equipe Ômega, com 7,8 pontos, seguida pela equipe Delta, com 7,6 pontos. Um dos alunos da equipe Gama, a qual ficou na terceira e última colocação, não pôde comparecer, tendo recebido nota zero na prova. As notas obtidas pelos 10 alunos da equipe Gama foram 10; 6,5; 8; 10; 7; 6,5; 7; 8; 6; 0.\nSe o aluno da equipe Gama que faltou tivesse comparecido, essa equipe",
+      "options": [
+        {
+          "letter": "A",
+          "text": "teria a pontuação igual a 6,5 se ele obtivesse nota 0.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "seria a vencedora se ele obtivesse nota 10.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "seria a segunda colocada se ele obtivesse nota 8.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "permaneceria na terceira posição, independentemente da nota obtida pelo aluno.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "empataria com a equipe Ômega na primeira colocação se o aluno obtivesse nota 9.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q162",
+      "question_number": 162,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Uma escola lançou uma campanha para seus alunos arrecadarem, durante 30 dias, alimentos não perecíveis para doar a uma comunidade carente da região.\nVinte alunos aceitaram a tarefa e nos primeiros 10 dias trabalharam 3 horas diárias, arrecadando 12 kg de alimentos por dia. Animados com os resultados, 30 novos alunos somaram-se ao grupo, e passaram a trabalhar 4 horas por dia nos dias seguintes até o término da campanha.\nAdmitindo-se que o ritmo de coleta tenha se mantido constante, a quantidade de alimentos arrecadados ao final do prazo estipulado seria de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "920 kg.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "800 kg.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "720 kg.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "600 kg.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "570 kg.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q163",
+      "question_number": 163,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Segundo as regras da Fórmula 1, o peso mínimo do carro, de tanque vazio, com o piloto, é de 605 kg, e a gasolina deve ter densidade entre 725 e 780 gramas por litro. Entre os circuitos nos quais ocorrem competições dessa categoria, o mais longo é Spa-Francorchamps, na Bélgica, cujo traçado tem 7 km de extensão. O consumo médio de um carro da Fórmula 1 é de 75 litros para cada 100 km.\nSuponha que um piloto de uma equipe específica, que utiliza um tipo de gasolina com densidade de 750 g/L, esteja no circuito de Spa-Francorchamps, parado no box para reabastecimento. Caso ele pretenda dar mais 16 voltas, ao ser liberado para retornar à pista, seu carro deverá pesar, no mínimo,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "617 kg.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "668 kg.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "680 kg.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "689 kg.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "717 kg.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q164",
+      "question_number": 164,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q164.png"
+      ],
+      "statement": "Ao morrer, o pai de João, Pedro e José deixou como herança um terreno retangular de 3 km x 2 km que contém uma área de extração de ouro delimitada por um quarto de círculo de raio 1 km a partir do canto inferior esquerdo da propriedade. Dado o maior valor da área de extração de ouro, os irmãos acordaram em repartir a propriedade de modo que cada um ficasse com a terça parte da área de extração, conforme mostra a figura.\nEm relação à partilha proposta, constata-se que a porcentagem da área do terreno que coube a João corresponde, aproximadamente, a 3 (considere =0,58) 3",
+      "options": [
+        {
+          "letter": "A",
+          "text": "50%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "43%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "37%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "33%.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "19%.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q165",
+      "question_number": 165,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Doze times se inscreveram em um torneio de futebol amador. O jogo de abertura do torneio foi escolhido da seguinte forma: primeiro foram sorteados 4 times para compor o Grupo A. Em seguida, entre os times do Grupo A, foram sorteados 2 times para realizar o jogo de abertura do torneio, sendo que o primeiro deles jogaria em seu próprio campo, e o segundo seria o time visitante.\nA quantidade total de escolhas possíveis para o Grupo A e a quantidade total de escolhas dos times do jogo de abertura podem ser calculadas através de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "uma combinação e um arranjo, respectivamente.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "um arranjo e uma combinação, respectivamente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "um arranjo e uma permutação, respectivamente.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "duas combinações.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "dois arranjos.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "enem_2009_d2_azul_q166",
+      "question_number": 166,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Rotas aéreas são como pontes que ligam cidades, estados ou países. O mapa a seguir mostra os estados brasileiros e a localização de algumas capitais identificadas pelos números. Considere que a direção seguida por um avião AI que partiu de Brasília – DF, sem escalas, para Belém, no Pará, seja um segmento de reta com extremidades em DF e em 4.",
+          "source": "SIQUEIRA, S. Brasil Regiões. Disponível em: www.santiagosiqueira.pro.br. Acesso em: 28 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q166.png"
+      ],
+      "statement": "Suponha que um passageiro de nome Carlos pegou um avião AII, que seguiu a direção que forma um ângulo de 135o graus no sentido horário com a rota Brasília – Belém e pousou em alguma das capitais brasileiras. Ao desembarcar, Carlos fez uma conexão e embarcou em um avião AIII, que seguiu a direção que forma um ângulo reto, no sentido anti-horário, com a direção seguida pelo avião AII ao partir de Brasília-DF. Considerando que a direção seguida por um avião é sempre dada pela semirreta com origem na cidade de partida e que passa pela cidade destino do avião, pela descrição dada, o passageiro Carlos fez uma conexão em",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Belo Horizonte, e em seguida embarcou para Curitiba.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Belo Horizonte, e em seguida embarcou para Salvador.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "Boa Vista, e em seguida embarcou para Porto Velho.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "Goiânia, e em seguida embarcou para o Rio de Janeiro.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "Goiânia, e em seguida embarcou para Manaus.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q167",
+      "question_number": 167,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O quadro apresenta informações da área aproximada de cada bioma brasileiro. biomas área área / total continentais aproximada Brasil brasileiros (km2)",
+          "source": "Amazônia 4.196.943 49,29% Cerrado 2.036.448 23,92% Mata Atlântica 1.110.182 13,04% Caatinga 844.453 9,92% Pampa 176.496 2,07% Pantanal 150.355 1,76% Área Total Brasil 8.514.877 Disponível em: www.ibge.gov.br. Acesso em: 10 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "É comum em conversas informais, ou mesmo em noticiários, o uso de múltiplos da área de um campo de futebol (com as medidas de 120 m x 90 m) para auxiliar a visualização de áreas consideradas extensas. Nesse caso, qual é o número de campos de futebol correspondente à área aproximada do bioma Pantanal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1.400",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "14.000",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "140.000",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1.400.000",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "14.000.000",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q168",
+      "question_number": 168,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Na tabela, são apresentados dados da cotação mensal do ovo extra branco vendido no atacado, em Brasília, em reais, por caixa de 30 dúzias de ovos, em alguns meses dos anos 2007 e 2008.",
+          "source": null
+        }
+      ],
+      "image_url": null,
+      "statement": "Mês Cotação Ano Outubro R$ 83,00 2007 Novembro R$ 73,10 2007 Dezembro R$ 81,60 2007 Janeiro R$ 82,00 2008 Fevereiro R$ 85,30 2008 Março R$ 84,00 2008 Abril R$ 84,60 2008 De acordo com esses dados, o valor da mediana das cotações mensais do ovo extra branco nesse período era igual a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R$ 73,10.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "R$ 81,50.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "R$ 82,00.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "R$ 83,00.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "R$ 85,30.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q169",
+      "question_number": 169,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "D"
+    },
+    {
+      "id": "enem_2009_d2_azul_q170",
+      "question_number": 170,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "A resolução das câmeras digitais modernas é dada em megapixels, unidade de medida que representa um milhão de pontos. As informações sobre cada um desses pontos são armazenadas, em geral, em 3 bytes.\nPorém, para evitar que as imagens ocupem muito espaço, elas são submetidas a algoritmos de compressão, que reduzem em até 95% a quantidade de bytes necessários para armazená-las. Considere 1 KB = 1.000 bytes, 1 MB = 1.000 KB, 1 GB = 1.000 MB.\nUtilizando uma câmera de 2.0 megapixels cujo algoritmo de compressão é de 95%, João fotografou 150 imagens para seu trabalho escolar. Se ele deseja armazená-las de modo que o espaço restante no dispositivo seja o menor espaço possível, ele deve utilizar",
+      "options": [
+        {
+          "letter": "A",
+          "text": "um CD de 700 MB.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "um pendrive de 1 GB.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "um HD externo de 16 GB.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "um memory stick de 16 MB.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "um cartão de memória de 64 MB.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q171",
+      "question_number": 171,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A população brasileira sabe, pelo menos intuitivamente, que a probabilidade de acertar as seis dezenas da mega sena não é zero, mas é quase.\nMesmo assim, milhões de pessoas são atraídas por essa loteria, especialmente quando o prêmio se acumula em valores altos. Até junho de 2009, cada aposta de seis dezenas, pertencentes ao conjunto {01, 02, 03, ..., 59, 60}, custava R$ 1,50.",
+          "source": "Disponível em: www.caixa.gov.br. Acesso em: 7 jul. 2009."
+        }
+      ],
+      "image_url": null,
+      "statement": "Considere que uma pessoa decida apostar exatamente R$ 126,00 e que esteja mais interessada em acertar apenas cinco das seis dezenas da mega sena, justamente pela dificuldade desta última. Nesse caso, é melhor que essa pessoa faça 84 apostas de seis dezenas diferentes, que não tenham cinco números em comum, do que uma única aposta com nove dezenas, porque a probabilidade de acertar a quina no segundo caso em relação ao primeiro é, aproximadamente, 1",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 vez menor. 2 1",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "2 vezes menor. 2",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "4 vezes menor.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "9 vezes menor.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "14 vezes menor.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q172",
+      "question_number": 172,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Nos últimos anos, o volume de petróleo exportado pelo Brasil tem mostrado expressiva tendência de crescimento, ultrapassando as importações em 2008.\nEntretanto, apesar de as importações terem se mantido praticamente no mesmo patamar desde 2001, os recursos gerados com as exportações ainda são inferiores àqueles despendidos com as importações, uma vez que o preço médio por metro cúbico do petróleo importado é superior ao do petróleo nacional. Nos primeiros cinco meses de 2009, foram gastos 2,84 bilhões de dólares com importações e gerada uma receita de 2,24 bilhões de dólares com as exportações. O preço médio por metro cúbico em maio de 2009 foi de 340 dólares para o petróleo importado e de 230 dólares para o petróleo exportado.\nO quadro a seguir mostra os dados consolidados de 2001 a 2008 e dos primeiros cinco meses de 2009.\nComércio exterior de petróleo (milhões de metros cúbicos)\nAno Importação Exportação 2001 24,19 6,43 2002 22,06 13,63 2003 19,96 14,03 2004 26,91 13,39 2005 21,97 15,93 2006 20,91 21,36 2007 25,38 24,45 2008 23,53 25,14 2009* 9,00 11,00 *Valores apurados de janeiro a maio de 2009.",
+          "source": "Disponível em: http://www.anp.gov.br. Acesso em: 15 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "MT – 2º dia CADERNO 7 – AZ Considere que as importações e exportações de petróleo 7 de junho a dezembro de 2009 sejam iguais a das 5 importações e exportações, respectivamente, ocorridas de janeiro a maio de 2009. Nesse caso, supondo que os preços para importação e exportação não sofram alterações, qual seria o valor mais aproximado da diferença entre os recursos despendidos com as importações e os recursos gerados com as exportações em 2009?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "600 milhões de dólares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "840 milhões de dólares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1,34 bilhão de dólares.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "1,44 bilhão de dólares.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "2,00 bilhões de dólares.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q173",
+      "question_number": 173,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q174",
+      "question_number": 174,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": null,
+      "options": [],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q175",
+      "question_number": 175,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "O Indicador do CadÚnico (ICadÚnico), que compõe o cálculo do Índice de Gestão Descentralizada do Programa Bolsa Família (IGD), é obtido por meio da média aritmética entre a taxa de cobertura qualificada de cadastros (TC) e a taxa de atualização de cadastros (TA), NV NA em que TC = ,TA= , NV é o número de NF NV cadastros domiciliares válidos no perfil do CadÚnico, NF é o número de famílias estimadas como público alvo do CadÚnico e NA é o número de cadastros domiciliares atualizados no perfil do CadÚnico.",
+          "source": "Portaria n° 148 de 27 de abril de 2006 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Suponha que o IcadÚnico de um município específico é 0,6. Porém, dobrando NF o IcadÚnico cairá para 0,5. Se NA + NV = 3.600, então NF é igual a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10.000.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "7.500.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5.000.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "4.500.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "3.000.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q176",
+      "question_number": 176,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Joana frequenta uma academia de ginástica onde faz exercícios de musculação. O programa de Joana requer que ela faça 3 séries de exercícios em 6 aparelhos diferentes, gastando 30 segundos em cada série. No aquecimento, ela caminha durante 10 minutos na esteira e descansa durante 60 segundos para começar o primeiro exercício no primeiro aparelho. Entre uma série e outra, assim como ao mudar de aparelho, Joana descansa por 60 segundos.\nSuponha que, em determinado dia, Joana tenha iniciado seus exercícios às 10h30min e finalizado às 11h7min.\nNesse dia e nesse tempo, Joana",
+      "options": [
+        {
+          "letter": "A",
+          "text": "não poderia fazer sequer a metade dos exercícios e dispor dos períodos de descanso especificados em seu programa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "poderia ter feito todos os exercícios e cumprido rigorosamente os períodos de descanso especificados em seu programa.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "poderia ter feito todos os exercícios, mas teria de ter deixado de cumprir um dos períodos de descanso especificados em seu programa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "conseguiria fazer todos os exercícios e cumpriria todos os períodos de descanso especificados em seu programa, e ainda se permitiria uma pausa de 7 min.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "não poderia fazer todas as 3 séries dos exercícios especificados em seu programa; em alguma dessas séries deveria ter feito uma série a menos e não deveria ter cumprido um dos períodos de descanso.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q177",
+      "question_number": 177,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Um artesão construiu peças de artesanato interceptando uma pirâmide de base quadrada com um plano. Após fazer um estudo das diferentes peças que poderia obter, ele concluiu que uma delas poderia ter uma das faces pentagonal.\nQual dos argumentos a seguir justifica a conclusão do artesão?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Uma pirâmide de base quadrada tem 4 arestas laterais e a interseção de um plano com a pirâmide intercepta suas arestas laterais. Assim, esses pontos formam um polígono de 4 lados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "Uma pirâmide de base quadrada tem 4 faces triangulares e, quando um plano intercepta essa pirâmide, divide cada face em um triângulo e um trapézio. Logo, um dos polígonos tem 4 lados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "Uma pirâmide de base quadrada tem 5 faces e a interseção de uma face com um plano é um segmento de reta. Assim, se o plano interceptar todas as faces, o polígono obtido nessa interseção tem 5 lados.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "O número de lados de qualquer polígono obtido como interseção de uma pirâmide com um plano é igual ao número de faces da pirâmide. Como a pirâmide tem 5 faces, o polígono tem 5 lados.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "O número de lados de qualquer polígono obtido interceptando-se uma pirâmide por um plano é igual ao número de arestas laterais da pirâmide. Como a pirâmide tem 4 arestas laterais, o polígono tem 4 lados.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "enem_2009_d2_azul_q178",
+      "question_number": 178,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": null,
+      "statement": "João deve 12 parcelas de R$ 150,00 referentes ao cheque especial de seu banco e cinco parcelas de R$ 80,00 referentes ao cartão de crédito. O gerente do banco lhe ofereceu duas parcelas de desconto no cheque especial, caso João quitasse esta dívida imediatamente ou, na mesma condição, isto é, quitação imediata, com 25% de desconto na dívida do cartão. João também poderia renegociar suas dívidas em 18 parcelas mensais de R$ 125,00. Sabendo desses termos, José, amigo de João, ofereceu-lhe emprestar o dinheiro que julgasse necessário pelo tempo de 18 meses, com juros de 25% sobre o total emprestado.\nA opção que dá a João o menor gasto seria",
+      "options": [
+        {
+          "letter": "A",
+          "text": "renegociar suas dívidas com o banco.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "pegar emprestado de José o dinheiro referente à quitação das duas dívidas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "recusar o empréstimo de José e pagar todas as parcelas pendentes nos devidos prazos.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "pegar emprestado de José o dinheiro referente à quitação do cheque especial e pagar as parcelas do cartão de crédito.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "pegar emprestado de José o dinheiro referente à quitação do cartão de crédito e pagar as parcelas do cheque especial.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E"
+    },
+    {
+      "id": "enem_2009_d2_azul_q179",
+      "question_number": 179,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A cisterna é um recipiente utilizado para armazenar água da chuva. Os principais critérios a serem observados para captação e armazenagem de água da chuva são: a demanda diária de água na propriedade; o índice médio de precipitação (chuva), por região, em cada período do ano; o tempo necessário para armazenagem; e a área de telhado necessária ou disponível para captação.\nPara fazer o cálculo do volume de uma cisterna, deve-se acrescentar um adicional relativo ao coeficiente de evaporação. Na dificuldade em se estabelecer um coeficiente confiável, a Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA) sugere que sejam adicionados 10% ao volume calculado de água.\nDesse modo, o volume, em m3, de uma cisterna é calculado por V = V × N , em que V = volume de c d dia d demanda da água diária (m³), N = número de dias de dia armazenagem, e este resultado deve ser acrescido de 10%.\nPara melhorar a qualidade da água, recomenda-se que a captação seja feita somente nos telhados das edificações.\nConsiderando que a precipitação de chuva de 1 mm sobre uma área de 1 m2 produz 1 litro de água, pode-se calcular a área de um telhado a fim de atender a necessidade de armazenagem da seguinte maneira: área do telhado (em m2) = volume da cisterna (em litros)/precipitação.",
+          "source": "Disponível em: www.cnpsa.embrapa.br. Acesso em: 8 jun. 2009 (adaptado)."
+        }
+      ],
+      "image_url": null,
+      "statement": "Para atender a uma demanda diária de 2.000 litros de água, com período de armazenagem de 15 dias e precipitação média de 110 mm, o telhado, retangular, deverá ter as dimensões mínimas de",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6 metros por 5 metros, pois assim teria uma área de 30 m2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "15 metros por 20 metros, pois assim teria uma área de 300 m2.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "50 metros por 60 metros, pois assim teria uma área de 3.000 m2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "91 metros por 30 metros, pois assim teria uma área de 2.730 m2.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "110 metros por 30 metros, pois assim teria uma área de 3.300 m2.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "enem_2009_d2_azul_q180",
+      "question_number": 180,
+      "subject": "Matemática e Suas Tecnologias",
+      "topic": null,
+      "foreign_language": null,
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q180-1.png",
+        "assets/images/enem_2009_cd7_q180-2.png",
+        "assets/images/enem_2009_cd7_q180-3.png"
+      ],
+      "statement": "Um médico está estudando um novo medicamento que combate um tipo de câncer em estágios avançados.\nPorém, devido ao forte efeito dos seus componentes, a cada dose administrada há uma chance de 10% de que o paciente sofra algum dos efeitos colaterais observados no estudo, tais como dores de cabeça, vômitos ou mesmo agravamento dos sintomas da doença. O médico oferece tratamentos compostos por 3, 4, 6, 8 ou 10 doses do medicamento, de acordo com o risco que o paciente pretende assumir.\nSe um paciente considera aceitável um risco de até 35% de chances de que ocorra algum dos efeitos colaterais durante o tratamento, qual é o maior número admissível de doses para esse paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3 doses.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "4 doses.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "6 doses.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "8 doses.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "10 doses.\nMT – 2º dia CADERNO 7 – AZ Rascunho ZUL – PÁGINA 30 ENEM 2009 Transcreva a sua Redaçã 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 RED – 2º dia CADERNO 7 – AZ ão para a Folha de Redação",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}
