@@ -35,6 +35,8 @@ export interface QuestionOption {
 export interface Question {
   id: string;
   examId: string;
+  /** e.g. "ENEM 2013 · Dia 1 · Caderno Azul" */
+  examLabel: string;
   question_number: number;
   subject: string | null;
   topic: string | null;

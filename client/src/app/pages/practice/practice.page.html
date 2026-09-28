@@ -39,7 +39,7 @@
   <article class="card question">
     <p class="question__meta">
       Questão {{ question.question_number }} · {{ question.subject }}
-      <span class="question__exam">{{ question.examId }}</span>
+      <span class="question__exam">{{ question.examLabel }}</span>
     </p>
 
     @for (context of question.context_texts; track $index) {

@@ -46,13 +46,18 @@ export interface QuestionOption {
 /** A question as sent to the browser: the answer key stays on the server. */
 export type PublicQuestion = Omit<Question, 'correct_answer' | 'options'> & {
   examId: string;
+  /** e.g. "ENEM 2013 · Dia 1 · Caderno Azul" */
+  examLabel: string;
   options: Omit<QuestionOption, 'is_correct'>[];
 };
 
 export interface ExamSummary {
   id: string;
   category: string;
+  /** Name as printed in the exam file (exam_metadata.exam_name). */
   name: string;
+  /** Readable name, e.g. "ENEM 2013 · Dia 1 · Caderno Azul". */
+  label: string;
   institution: string;
   year: number;
   day: number;

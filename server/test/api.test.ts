@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
 import { createApp } from '../src/app.ts';
 import type { TokenVerifier } from '../src/auth/firebase.ts';
-import { MemoryExamSource, randomQuestions } from '../src/exams/catalog.ts';
+import { MemoryExamSource, examLabel, randomQuestions } from '../src/exams/catalog.ts';
 import type { ExamFile, Question } from '../src/exams/types.ts';
 import { createSqliteStore } from '../src/users/sqlite-store.ts';
 import { countStreak } from '../src/users/store.ts';
@@ -140,6 +140,22 @@ describe('randomQuestions', () => {
 
     const civil = await randomQuestions(many, 5, { subject: 'Direito Civil' });
     assert.ok(civil.every((p) => p.question.subject === 'Direito Civil'));
+  });
+});
+
+describe('examLabel', () => {
+  test('turns exam ids into readable names', () => {
+    assert.equal(examLabel('enem_2013_d1_azul'), 'ENEM 2013 · Dia 1 · Caderno Azul');
+    assert.equal(examLabel('enem_2024_d1_amarelo'), 'ENEM 2024 · Dia 1 · Caderno Amarelo');
+    assert.equal(examLabel('oab_2025_44_tipo1'), 'OAB · 44º Exame (2025) · Tipo 1');
+    assert.equal(examLabel('oab_2012_6_reaplicacao_tipo1'), 'OAB · 6º Exame (2012) · Reaplicação · Tipo 1');
+    assert.equal(examLabel('oab_2016_20_salvador_tipo1'), 'OAB · 20º Exame (2016) · Salvador · Tipo 1');
+    assert.equal(examLabel('something_else'), 'something_else');
+  });
+
+  test('is sent with every practice question', async () => {
+    const { body } = await api('GET', '/api/practice/questions?count=1&category=OAB');
+    assert.equal(body[0].examLabel, 'OAB · 44º Exame (2025) · Tipo 1');
   });
 });
 

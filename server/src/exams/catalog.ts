@@ -12,11 +12,35 @@ export function isGradable(question: Question): boolean {
   return question.correct_answer != null && VALID_ANSWER.test(question.correct_answer);
 }
 
+/**
+ * Human-readable exam name from its id, e.g.
+ *   enem_2013_d1_azul            → "ENEM 2013 · Dia 1 · Caderno Azul"
+ *   oab_2025_44_tipo1            → "OAB · 44º Exame (2025) · Tipo 1"
+ *   oab_2012_6_reaplicacao_tipo1 → "OAB · 6º Exame (2012) · Reaplicação · Tipo 1"
+ * Unknown formats fall back to the id itself.
+ */
+export function examLabel(examId: string): string {
+  const enem = /^enem_(\d{4})_d(\d)_([a-z]+)$/.exec(examId);
+  if (enem) {
+    const [, year, day, color] = enem;
+    return `ENEM ${year} · Dia ${day} · Caderno ${color[0].toUpperCase()}${color.slice(1)}`;
+  }
+  const oab = /^oab_(\d{4})_(\d+)_(?:([a-z]+)_)?tipo(\d)$/.exec(examId);
+  if (oab) {
+    const [, year, number, variant, type] = oab;
+    const variants: Record<string, string> = { reaplicacao: 'Reaplicação', salvador: 'Salvador' };
+    const extra = variant ? ` · ${variants[variant] ?? variant}` : '';
+    return `OAB · ${number}º Exame (${year})${extra} · Tipo ${type}`;
+  }
+  return examId;
+}
+
 export function toPublicQuestion(question: Question, examId: string): PublicQuestion {
   const { correct_answer: _answer, options, ...rest } = question;
   return {
     ...rest,
     examId,
+    examLabel: examLabel(examId),
     options: options.map(({ is_correct: _correct, ...option }) => option),
   };
 }
@@ -27,6 +51,7 @@ export function summarize(category: string, relativePath: string, data: ExamFile
     id: meta.exam_id,
     category,
     name: meta.exam_name,
+    label: examLabel(meta.exam_id),
     institution: meta.institution,
     year: meta.year,
     day: meta.day,
