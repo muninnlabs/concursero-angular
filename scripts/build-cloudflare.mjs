@@ -15,7 +15,13 @@ const out = path.join(root, 'dist-cf', BASE);
 
 execSync(`npm --prefix client run build -- --base-href /${BASE}/`, { cwd: root, stdio: 'inherit' });
 
-await rm(path.join(root, 'dist-cf'), { recursive: true, force: true });
+// Empty dist-cf rather than deleting it: on Windows the folder itself stays
+// locked (EBUSY) while an Explorer or editor window has it open.
+const distCf = path.join(root, 'dist-cf');
+await mkdir(distCf, { recursive: true });
+for (const entry of await readdir(distCf)) {
+  await rm(path.join(distCf, entry), { recursive: true, force: true, maxRetries: 5, retryDelay: 300 });
+}
 await cp(path.join(root, 'client', 'dist', 'client', 'browser'), out, { recursive: true });
 
 const catalog = [];
