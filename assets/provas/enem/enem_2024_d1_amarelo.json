@@ -22,7 +22,9 @@
           "source": "Disponível em: www.fapcom.edu.br. Acesso em: 20 nov. 2021."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2024_cd2_q1-fig1.png"
+      ],
       "statement": "Em sua escrita poética, a poetisa mexicana Celerina Patricia Sánchez Santiago assume o desafio de",
       "options": [
         {
@@ -360,7 +362,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2024_d1_amarelo_q8",
@@ -993,9 +1001,7 @@
           "source": "Disponível em: www.maimuseu.com.br. Acesso em: 11 jul. 2024."
         }
       ],
-      "image_url": [
-        "assets/images/enem_2024_cd2_q20.png"
-      ],
+      "image_url": [],
       "statement": "Pela leitura desses textos, infere-se que a compreensão da arte plumária indígena requer a consideração da",
       "options": [
         {
@@ -1029,7 +1035,15 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure area overlaps option letters / other content",
+          "broken image and no figure found in the PDF"
+        ]
+      }
     },
     {
       "id": "enem_2024_d1_amarelo_q21",
@@ -2243,7 +2257,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option drawing(s) E not located or cut by a page break",
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2024_d1_amarelo_q45",

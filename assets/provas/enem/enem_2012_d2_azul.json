@@ -861,7 +861,9 @@
           "source": "Palavras do arco da velha Expressão Significado Cair nos braços de Morfeu Dormir Debicar Zombar, ridicularizar Tunda Surra Mangar Escarnecer, caçoar Tugir Murmurar Liró Bem-vestido Copo d’água Lanche oferecido pelos amigos Convescote Piquenique Bilontra Velhaco Treteiro de topete Tratante atrevido Abrir o arco Fugir FIORIN, J. L. As línguas mudam. In: Revista Língua Portuguesa, n. 24, out. 2007 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q108-fig1.png"
+      ],
       "statement": "Na leitura do fragmento do texto Antigamente constata-se, pelo emprego de palavras obsoletas, que itens lexicais outrora produtivos não mais o são no português brasileiro atual. Esse fenômeno revela que",
       "options": [
         {
@@ -2337,7 +2339,13 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2012_d2_azul_q138",
@@ -2389,7 +2397,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q139-fig1.png"
+      ],
       "statement": "Em um blog de variedades, músicas, mantras e informações diversas, foram postados “Contos de Halloween”. Após a leitura, os visitantes poderiam opinar, assinalando suas reações em: “Divertido”, “Assustador” ou “Chato”. Ao final de uma semana, o blog registrou que 500 visitantes distintos acessaram esta postagem.\nO gráfico a seguir apresenta o resultado da enquete.\nCONTOS DE HALLOWEEN opinião dos visitantes DIVERTIDO 52% ASSUSTADOR 15% CHATO 12% NÃO OPINARAM 21% 0% 10% 20% 30% 40% 50% 60% O administrador do blog irá sortear um livro entre os visitantes que opinaram na postagem “Contos de Halloween”.\nSabendo que nenhum visitante votou mais de uma vez, a probabilidade de uma pessoa escolhida ao acaso entre as que opinaram ter assinalado que o conto “Contos de Halloween” é “Chato” é mais aproximada por",
       "options": [
         {
@@ -2475,7 +2485,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q141-fig1.png"
+      ],
       "statement": "Um forro retangular de tecido traz em sua etiqueta a informação de que encolherá após a primeira lavagem mantendo, entretanto, seu formato. A figura a seguir mostra as medidas originais do forro e o tamanho do encolhimento (x) no comprimento e (y) na largura.\nA expressão algébrica que representa a área do forro após ser lavado é (5 – x) (3 – y). 3 y x 5 Nestas condições, a área perdida do forro, após a primeira lavagem, será expressa por",
       "options": [
         {
@@ -2568,7 +2580,9 @@
           "source": "BUSHAW, D. et al. Aplicações da matemática escolar. São Paulo: Atual, 1997."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q143-fig1.png"
+      ],
       "statement": "A expressão que traduz a resistência S dessa viga de madeira é k.b.d2",
       "options": [
         {
@@ -2654,7 +2668,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q145-fig1.png"
+      ],
       "statement": "Um biólogo mediu a altura de cinco árvores distintas e representou-as em uma mesma malha quadriculada, utilizando escalas diferentes, conforme indicações na figura a seguir.\nI II III IV V 1:100 2:100 2:300 1:300 2:300 Qual é a árvore que apresenta a maior altura real?",
       "options": [
         {
@@ -2697,7 +2713,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q146-fig1.png"
+      ],
       "statement": "Em um jogo há duas urnas com 10 bolas de mesmo tamanho em cada urna. A tabela a seguir indica as quantidades de bolas de cada cor em cada urna.\nCor Urna 1 Urna 2 Amarela 4 0 Azul 3 1 Branca 2 2 Verde 1 3 Vermelha 0 Uma jogada consiste em: 1º) o jogador apresenta um palpite sobre a cor da bola que será retirada por ele da urna 2; 2º) ele retira, aleatoriamente, uma bola da urna 1 e a coloca na urna 2, misturando-a com as que lá estão; 3º) em seguida ele retira, também aleatoriamente, uma bola da urna 2; 4º) se a cor da última bola retirada for a mesma do palpite inicial, ele ganha o jogo.\nQual cor deve ser escolhida pelo jogador para que ele tenha a maior probabilidade de ganhar?",
       "options": [
         {
@@ -2731,7 +2749,14 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)",
+          "figure split across columns/pages"
+        ]
+      }
     },
     {
       "id": "enem_2012_d2_azul_q147",
@@ -2747,7 +2772,9 @@
           "source": "Existem vários modelos de mostradores de hidrômetros, sendo que alguns deles possuem uma combinação de um mostrador e dois relógios de ponteiro. O número formado pelos quatro primeiros algarismos do mostrador fornece o consumo em m3, e os dois últimos algarismos representam, respectivamente, as centenas e dezenas de litros de água consumidos. Um dos relógios de ponteiros indica a quantidade em litros, e o outro em décimos de litros, conforme ilustrados na figura a seguir. 1 000 Disponível em: www.aguasdearacoiaba.com.br (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q147-fig1.png"
+      ],
       "statement": "Considerando as informações indicadas na figura, o consumo total de água registrado nesse hidrômetro, em litros, é igual a",
       "options": [
         {
@@ -2790,7 +2817,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q148-fig1.png"
+      ],
       "statement": "O dono de uma farmácia resolveu colocar à vista do público o gráfico mostrado a seguir, que apresenta a evolução do total de vendas (em Reais) de certo medicamento ao longo do ano de 2011. (R$)\nJan Fev Mar Abr Maio Jun Jul Ago Set Out Nov Dez mês De acordo com o gráfico, os meses em que ocorreram, respectivamente, a maior e a menor venda absolutas em 2011 foram",
       "options": [
         {
@@ -2833,7 +2862,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q149-fig1.png"
+      ],
       "statement": "Maria quer inovar em sua loja de embalagens e decidiu vender caixas com diferentes formatos. Nas imagens apresentadas estão as planificações dessas caixas.\nQuais serão os sólidos geométricos que Maria obterá a partir dessas planificações?",
       "options": [
         {
@@ -2926,7 +2957,9 @@
           "source": "O Ártico começa a recobrar o gelo quando termina o verão, em meados de setembro. O gelo do mar atua como o sistema de resfriamento da Terra, refletindo quase toda a luz solar de volta ao espaço. Águas de oceanos escuros, por sua vez, absorvem a luz solar e reforçam o aquecimento do Ártico, ocasionando derretimento crescente do gelo. 15 o m aríti 12 m o g el 1995 e 9 d 1998 o ã 2000 s n xt e6 2005 E 2007 3 Junho Julho Agosto Setembro Disponível em: http://sustentabilidade.allianz.com.br. Acesso em: fev. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q151-fig1.png"
+      ],
       "statement": "Com base no gráfico e nas informações do texto, é possível inferir que houve maior aquecimento global em",
       "options": [
         {
@@ -3055,7 +3088,13 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2012_d2_azul_q154",
@@ -3109,7 +3148,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q155-fig1.png"
+      ],
       "statement": "Uma pesquisa realizada por estudantes da Faculdade de Estatística mostra, em horas por dia, como os jovens entre 12 e 18 anos gastam seu tempo, tanto durante a semana (de segunda-feira a sexta-feira), como no fim de semana (sábado e domingo). A seguinte tabela ilustra os resultados da pesquisa.\nDurante a No fim de Rotina Juvenil semana semana Assistir à televisão 3 3 Atividades domésticas 1 1 Atividades escolares 5 1 Atividades de lazer 2 4 Descanso, higiene e 10 12 alimentação Outras atividades 3 3 De acordo com esta pesquisa, quantas horas de seu tempo gasta um jovem entre 12 e 18 anos, na semana inteira (de segunda-feira a domingo), nas atividades escolares?",
       "options": [
         {
@@ -3158,31 +3199,31 @@
         {
           "letter": "A",
           "text": "1 000 750 500 250 0 0 25 50 75 100 125 150 175 200 225 Produtos vendidos m R$ 2 250 Salário e 2 1 0 7 0 5 0 0 1 500 1 250",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd7_q156-optA.png",
           "is_correct": false
         },
         {
           "letter": "B",
           "text": "1 000 750 500 250 0 0 25 50 75 100 125 150 175 200 225 Produtos vendidos m R$ 2 250 Salário e 2 1 0 7 0 5 0 0 1 500 1 250",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd7_q156-optB.png",
           "is_correct": false
         },
         {
           "letter": "C",
           "text": "1 000 750 500 250 0 0 25 50 75 100 125 150 175 200 225 Produtos vendidos m R$ 2 250 Salário e 2 1 0 7 0 5 0 0 1 500 1 250",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd7_q156-optC.png",
           "is_correct": false
         },
         {
           "letter": "D",
           "text": "1 000 750 500 250 0 0 25 50 75 100 125 150 175 200 225 Produtos vendidos m R$ 2 250 Salário e 2 1 0 7 0 5 0 0 1 500 1 250",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd7_q156-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
           "text": "1 000 750 500 250 0 0 25 50 75 100 125 150 175 200 225 Produtos vendidos",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd7_q156-optE.png",
           "is_correct": true
         }
       ],
@@ -3238,7 +3279,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q158-fig1.png"
+      ],
       "statement": "Alguns objetos, durante a sua fabricação, necessitam passar por um processo de resfriamento. Para que isso ocorra, uma fábrica utiliza um tanque de resfriamento, como mostrado na figura. 5 cm 25 cm 30 cm 40 cm O que aconteceria com o nível da água se colocássemos no tanque um objeto cujo volume fosse de 2 400 cm3?",
       "options": [
         {
@@ -3281,7 +3324,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q159-fig1.png"
+      ],
       "statement": "Jorge quer instalar aquecedores no seu salão de beleza para melhorar o conforto dos seus clientes no inverno. Ele estuda a compra de unidades de dois tipos de aquecedores: modelo A, que consome 600 g/h (gramas por hora) de gás propano e cobre 35 m2 de área, ou modelo B, que consome 750 g/h de gás propano e cobre 45 m2 de área. O fabricante indica que o aquecedor deve ser instalado em um ambiente com área menor do que a da sua cobertura. Jorge vai instalar uma unidade por ambiente e quer gastar o mínimo possível com gás.\nA área do salão que deve ser climatizada encontra-se na planta seguinte (ambientes representados por três retângulos e um trapézio). 9 m II III IV 4 m 14 m 7 m I 8m 5m Avaliando-se todas as informações, serão necessários",
       "options": [
         {
@@ -3324,7 +3369,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q160-fig1.png"
+      ],
       "statement": "Para decorar a fachada de um edifício, um arquiteto projetou a colocação de vitrais compostos de quadrados de lado medindo 1 m, conforme a figura a seguir.\nB A P Q C D Nesta figura, os pontos A, B, C e D são pontos médios dos lados do quadrado e os segmentos AP e QC medem 1/4 da medida do lado do quadrado. Para confeccionar um vitral, são usados dois tipos de materiais: um para a parte sombreada da figura, que custa R$ 30,00 o m2, e outro para a parte mais clara (regiões ABPDA e BCDQB), que custa R$ 50,00 o m2.\nDe acordo com esses dados, qual é o custo dos materiais usados na fabricação de um vitral?",
       "options": [
         {
@@ -3410,7 +3457,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q162-fig1.png",
+        "assets/images/enem_2012_cd7_q162-fig2.png"
+      ],
       "statement": "O gráfico fornece os valores das ações da empresa XPN, no período das 10 às 17 horas, num dia em que elas oscilaram acentuadamente em curtos intervalos de tempo.\nValor da Ação (em reais) 460 380 330 280 200 150 100 Tempo (em horas) 10 11 12 13 14 15 16 17 Neste dia, cinco investidores compraram e venderam o mesmo volume de ações, porém em horários diferentes, de acordo com a seguinte tabela.\nInvestidor Hora da Compra Hora da Venda 1 10:00 15:00 2 10:00 17:00 3 13:00 15:00 4 15:00 16:00 5 16:00 17:00 Com relação ao capital adquirido na compra e venda das ações, qual investidor fez o melhor negócio?",
       "options": [
         {
@@ -3460,7 +3510,9 @@
           "source": "Disponível em: http://blog.bibliotecaunix.org. Acesso em: 21 jan. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q163-fig1.png"
+      ],
       "statement": "O gerente de atendimento pôde concluir, baseado no conceito de eficiência utilizado na empresa e nas informações do gráfico, que o nível de eficiência foi muito bom na",
       "options": [
         {
@@ -3589,7 +3641,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2012_d2_azul_q166",
@@ -3734,7 +3792,9 @@
           "source": null
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q169-fig1.png"
+      ],
       "statement": "Para obter essas médias, ele multiplicou a matriz obtida a partir da tabela por",
       "options": [
         {
@@ -3820,7 +3880,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2012_d2_azul_q171",
@@ -3974,7 +4040,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q174-fig1.png"
+      ],
       "statement": "A tabela a seguir mostra a evolução da receita bruta anual nos três últimos anos de cinco microempresas (ME) que se encontram à venda. 2009 2010 2011 ME (em milhares (em milhares (em milhares de reais) de reais) de reais)\nAlfinetes V 200 220 240 Balas W 200 230 200 Chocolates X 250 210 215 Pizzaria Y 230 230 230 Tecelagem Z 160 210 245 Um investidor deseja comprar duas das empresas listadas na tabela. Para tal, ele calcula a média da receita bruta anual dos últimos três anos (de 2009 até 2011) e escolhe as duas empresas de maior média anual.\nAs empresas que este investidor escolhe comprar são",
       "options": [
         {
@@ -4017,7 +4085,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q175-fig1.png"
+      ],
       "statement": "Um laboratório realiza exames em que é possível observar a taxa de glicose de uma pessoa. Os resultados são analisados de acordo com o quadro a seguir.\nHipoglicemia taxa de glicose menor ou igual a 70 mg/dL Normal taxa de glicose maior que 70 mg/dL e menor ou igual a 100 mg/dL Pré-diabetes taxa de glicose maior que 100 mg/dL e menor ou igual a 125 mg/dL Diabetes Melito taxa de glicose maior que 125 mg/dL e menor ou igual a 250 mg/dL Hiperglicemia taxa de glicose maior que 250 mg/dL Um paciente fez um exame de glicose nesse laboratório e comprovou que estava com hiperglicemia. Sua taxa de glicose era de 300 mg/dL. Seu médico prescreveu um tratamento em duas etapas. Na primeira etapa ele conseguiu reduzir sua taxa em 30% e na segunda etapa em 10%.\nAo calcular sua taxa de glicose após as duas reduções, o paciente verificou que estava na categoria de",
       "options": [
         {
@@ -4203,7 +4273,9 @@
           "source": "MAIO Disponível em: www.mte.gov.br. Acesso em: 28 fev. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd7_q179-fig1.png"
+      ],
       "statement": "Com base no gráfico, o valor da parte inteira da mediana dos empregos formais surgidos no período é",
       "options": [
         {

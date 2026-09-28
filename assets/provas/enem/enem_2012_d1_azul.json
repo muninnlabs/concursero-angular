@@ -1170,7 +1170,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd1_q24-fig1.png",
+        "assets/images/enem_2012_cd1_q24-fig2.png"
+      ],
       "statement": "Composição da população residente urbana por sexo, segundo os grupos de idade - Brasil - 1991/2010 100 95 Homens Mulheres 90 85 80 75 70 65 60 55 50 45 40 45 30 25 20 15 10 5 0 % 8,0 6,0 4,0 2,0 0,0 2,0 4,0 6,0 8,0 1991 2010 Fonte: IBGE, Censo Demográfico 1991/2010 Composição da população residente rural por sexo, segundo os grupos de idade - Brasil - 1991/2010 100 Homens Mulheres 95 90 85 80 75 70 65 60 55 50 45 40 45 30 25 20 15 10 5 0 % 8,0 6,0 4,0 2,0 0,0 2,0 4,0 6,0 8,0 1991 2010 Fonte: IBGE, Censo Demográfico 1991/2010 BRASIL. IBGE. Censo demográfico 1991-2010. Rio de Janeiro, 2011.\nA interpretação e a correlação das figuras sobre a dinâmica demográfica brasileira demonstram um(a)",
       "options": [
         {
@@ -2405,7 +2408,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd1_q49-fig1.png",
+        "assets/images/enem_2012_cd1_q49-fig2.png"
+      ],
       "statement": "A produção mundial de alimentos poderia se reduzir a 40% da atual sem a aplicação de controle sobre as pragas agrícolas. Por outro lado, o uso frequente dos agrotóxicos pode causar contaminação em solos, águas superficiais e subterrâneas, atmosfera e alimentos. Os biopesticidas, tais como a piretrina e a coronopilina, têm sido uma alternativa na diminuição dos prejuízos econômicos, sociais e ambientais gerados pelos agrotóxicos.\nPiretrina Coronopilina Identifique as funções orgânicas presentes simultaneamente nas estruturas dos dois biopesticidas apresentados:",
       "options": [
         {
@@ -2704,7 +2710,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image",
+          "no statement, context or image"
+        ]
+      }
     },
     {
       "id": "enem_2012_d1_azul_q56",
@@ -2713,7 +2726,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd1_q56-fig1.png"
+      ],
       "statement": "A figura representa um dos modelos de um sistema de interações entre seres vivos. Ela apresenta duas propriedades, P e P , que interagem em I, para 1 2 afetar uma terceira propriedade, P , quando o sistema 3 é alimentado por uma fonte de energia, E. Essa figura pode simular um sistema de campo em que P 1 representa as plantas verdes; P um animal herbívoro 2 e P , um animal onívoro. 3 ODUM, E. P. Ecologia. Rio de Janeiro: Guanabara Koogan, 1988.\nA função interativa I representa a proporção de",
       "options": [
         {
@@ -3172,7 +3187,7 @@
         }
       ],
       "image_url": [
-        "assets/images/enem_2012_cd1_q66.png"
+        "assets/images/enem_2012_cd1_q66-fig1.png"
       ],
       "statement": "Com base no texto e no gráfico do progresso da reação apresentada, as estruturas químicas encontradas em I, II e III são, respectivamente:\nH Br H",
       "options": [
@@ -3250,7 +3265,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content",
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2012_d1_azul_q68",
@@ -3309,7 +3331,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd1_q69-fig1.png"
+      ],
       "statement": "Uma dona de casa acidentalmente deixou cair na geladeira a água proveniente do degelo de um peixe, o que deixou um cheiro forte e desagradável dentro do eletrodoméstico. Sabe-se que o odor característico de peixe se deve às aminas e que esses compostos se comportam como bases.\nNa tabela são listadas as concentrações hidrogeniônicas de alguns materiais encontrados na cozinha, que a dona de casa pensa em utilizar na limpeza da geladeira.\nMaterial Concentração de H O+ (mol/L) 3 Suco de limão 10–2 Leite 10–6 Vinagre 10–3 Álcool 10–8 Sabão 10–12 Carbonato de sódio/ 10–12 barrilha Dentre os materiais listados, quais são apropriados para amenizar esse odor?",
       "options": [
         {
@@ -3481,37 +3505,40 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd1_q73-fig1.png",
+        "assets/images/enem_2012_cd1_q73-fig2.png"
+      ],
       "statement": null,
       "options": [
         {
           "letter": "A",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd1_q73-optA.png",
           "is_correct": false
         },
         {
           "letter": "B",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd1_q73-optB.png",
           "is_correct": false
         },
         {
           "letter": "C",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd1_q73-optC.png",
           "is_correct": false
         },
         {
           "letter": "D",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd1_q73-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd1_q73-optE.png",
           "is_correct": true
         }
       ],
@@ -3531,7 +3558,9 @@
           "source": "Se observarmos a posição de um planeta por vários dias, verificaremos que sua posição em relação às estrelas fixas se modifica regularmente. A figura destaca o movimento de Marte observado em intervalos de 10 dias, registrado da Terra. 155º 150º 145º 140º 135º 130º +20 MARTE +10 Projecto Física. Lisboa: Fundação Calouste Gulbenkian, 1980 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd1_q74-fig1.png"
+      ],
       "statement": "Qual a causa da forma da trajetória do planeta Marte registrada na figura?",
       "options": [
         {
@@ -3719,7 +3748,7 @@
         {
           "letter": "A",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd1_q78-optA.png",
           "is_correct": true
         },
         {
@@ -3737,17 +3766,23 @@
         {
           "letter": "D",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd1_q78-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2012_cd1_q78-optE.png",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2012_d1_azul_q79",
@@ -3756,7 +3791,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd1_q79-fig1.png",
+        "assets/images/enem_2012_cd1_q79-fig2.png"
+      ],
       "statement": "O armazenamento de certas vitaminas no organism Por exemplo, vitaminas hidrossolúveis devem ser incluíd armazenadas em quantidades suficientes para evitar doenç as estuturas químicas de cinco vitaminas necessárias ao o I II IV Dentre as vitaminas apresentadas na figura, aquela que ne",
       "options": [
         {
@@ -3790,7 +3828,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2012_d1_azul_q80",
@@ -3894,7 +3938,9 @@
           "source": "Li+ + e– → Li –3,05 K+ + e– → K –2,93 Mg2+ + 2 e– → Mg –2,36 Al3+ + 3 e– → Al –1,66 Zn2+ + 2 e– → Zn –0,76 Cu2+ + 2 e– → Cu +0,34 Disponível em: www.sucatas.com. Acesso em: 28 fev. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2012_cd1_q82-fig1.png"
+      ],
       "statement": "Com base no texto e na tabela, que metais poderiam entrar na composição do anel das latas com a mesma função do magnésio, ou seja, proteger o alumínio da oxidação nos fornos e não deixar diminuir o rendimento da sua reciclagem?",
       "options": [
         {

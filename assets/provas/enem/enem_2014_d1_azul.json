@@ -196,7 +196,7 @@
         },
         {
           "letter": "E",
-          "text": "fortalecimento dos preconceitos religiosos. 2014",
+          "text": "fortalecimento dos preconceitos religiosos.",
           "image_url": null,
           "is_correct": false
         }
@@ -391,7 +391,7 @@
         },
         {
           "letter": "E",
-          "text": "valorização de comportamento de grupos privilegiados. 2014",
+          "text": "valorização de comportamento de grupos privilegiados.",
           "image_url": null,
           "is_correct": false
         }
@@ -599,7 +599,7 @@
         },
         {
           "letter": "E",
-          "text": "fundamentar técnica e economicamente as pesquisas sobre células-tronco para uso em seres humanos. 2014",
+          "text": "fundamentar técnica e economicamente as pesquisas sobre células-tronco para uso em seres humanos.",
           "image_url": null,
           "is_correct": false
         }
@@ -893,7 +893,7 @@
         },
         {
           "letter": "E",
-          "text": "purgação dos pecados. 2014",
+          "text": "purgação dos pecados.",
           "image_url": null,
           "is_correct": false
         }
@@ -1244,7 +1244,7 @@
         },
         {
           "letter": "E",
-          "text": "ordem intrínseca ao mundo por meio da sensibilidade. 2014",
+          "text": "ordem intrínseca ao mundo por meio da sensibilidade.",
           "image_url": null,
           "is_correct": false
         }
@@ -1396,7 +1396,7 @@
         },
         {
           "letter": "E",
-          "text": "esclarecer as circunstâncias de violações aos direitos humanos. 2014",
+          "text": "esclarecer as circunstâncias de violações aos direitos humanos.",
           "image_url": null,
           "is_correct": true
         }
@@ -1546,7 +1546,7 @@
         },
         {
           "letter": "E",
-          "text": "declínio do regime de monarquia absolutista. 2014",
+          "text": "declínio do regime de monarquia absolutista.",
           "image_url": null,
           "is_correct": false
         }
@@ -1741,7 +1741,7 @@
         },
         {
           "letter": "E",
-          "text": "convergência de fluxos de ar. 2014",
+          "text": "convergência de fluxos de ar.",
           "image_url": null,
           "is_correct": true
         }
@@ -1786,7 +1786,7 @@
         },
         {
           "letter": "E",
-          "text": "constituição de orogêneses no período Quaternário. 2014",
+          "text": "constituição de orogêneses no período Quaternário.",
           "image_url": null,
           "is_correct": false
         }
@@ -1976,7 +1976,7 @@
         },
         {
           "letter": "E",
-          "text": "promoção de fluxos migratórios do campo para a cidade. 2014",
+          "text": "promoção de fluxos migratórios do campo para a cidade.",
           "image_url": null,
           "is_correct": false
         }
@@ -2182,7 +2182,7 @@
         },
         {
           "letter": "E",
-          "text": "poder oligárquico regional. 2014",
+          "text": "poder oligárquico regional.",
           "image_url": null,
           "is_correct": false
         }
@@ -2334,7 +2334,7 @@
         },
         {
           "letter": "E",
-          "text": "ácidos graxos saturados. 2014",
+          "text": "ácidos graxos saturados.",
           "image_url": null,
           "is_correct": false
         }
@@ -2348,7 +2348,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q48-fig1.png"
+      ],
       "statement": "A liberação dos gases clorofluorcarbonos (CFCs) na atmosfera pode provocar depleção de ozônio (O ) na 3 estratosfera. O ozônio estratosférico é responsável por absorver parte da radiação ultravioleta emitida pelo Sol, a qual é nociva aos seres vivos. Esse processo, na camada de ozônio, é ilustrado simplificadamente na figura.\nLegenda C F + CI O hν + Quimicamente, a destruição do ozônio na atmosfera por gases CFCs é decorrência da",
       "options": [
         {
@@ -2520,7 +2522,7 @@
         },
         {
           "letter": "E",
-          "text": "floculação, em tanques de concreto com a água em movimento. 2014",
+          "text": "floculação, em tanques de concreto com a água em movimento.",
           "image_url": null,
           "is_correct": false
         }
@@ -2634,7 +2636,9 @@
           "source": "Milho < 0,1 11,7 1,9 25,2 60,6 0,5 Palma 1,0 42,8 4,5 40,5 10,1 0,2 Canola < 0,2 3,5 0,9 64,4 22,3 8,2 Algodão 0,7 20,1 2,6 19,2 55,2 0,6 Amendoim < 0,6 11,4 2,4 48,3 32,0 0,9 MA, F.; HANNA, M. A. Biodiesel Production: a review. Bioresource Technology, Londres, v. 70, n. 1, jan. 1999 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q54-fig1.png"
+      ],
       "statement": "Qual das fontes oleaginosas apresentadas produziria um biodiesel de maior resistência à oxidação?",
       "options": [
         {
@@ -2677,7 +2681,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q55-fig1.png"
+      ],
       "statement": "Uma pessoa, lendo o manual de uma ducha que acabou de adquirir para a sua casa, observa o gráfico, que relaciona a vazão na ducha com a pressão, medida em metros de coluna de água (mca). )nim/L( oãzaV 14 12 10 8 6 4 2 0 1 2 3 4 5 6 7 8 9 Pressão Estática (mca)\nNessa casa residem quatro pessoas. Cada uma delas toma um banho por dia, com duração média de 8 minutos, permanecendo o registro aberto com vazão máxima durante esse tempo. A ducha é instalada em um ponto seis metros abaixo do nível da lâmina de água, que se mantém constante dentro do reservatório.\nAo final de 30 dias, esses banhos consumirão um volume de água, em litros, igual a",
       "options": [
         {
@@ -2706,7 +2712,7 @@
         },
         {
           "letter": "E",
-          "text": "2 880. 2014",
+          "text": "2 880.",
           "image_url": null,
           "is_correct": false
         }
@@ -2770,7 +2776,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q57-fig1.png"
+      ],
       "statement": "Um sistema de iluminação foi construído com um circuito de três lâmpadas iguais conectadas a um gerador (G) de tensão constante. Esse gerador possui uma chave que pode ser ligada nas posições A ou B. 1 2 X X 3 X A + G B – Considerando o funcionamento do circuito dado, a lâmpada 1 brilhará mais quando a chave estiver na posição",
       "options": [
         {
@@ -2799,7 +2807,7 @@
         },
         {
           "letter": "E",
-          "text": "A, pois a potência dissipada pelo gerador será menor nesse caso. 2014",
+          "text": "A, pois a potência dissipada pelo gerador será menor nesse caso.",
           "image_url": null,
           "is_correct": false
         }
@@ -2870,7 +2878,9 @@
           "source": "Ag(S O ) 3− (aq) + e− Ag (s) + 2 S O 2− (aq) +0,02 2 3 2 2 3 Cu2+ (aq) + 2 e− Cu (s) +0,34 Pt2+ (aq) + 2 e− Pt (s) +1,20 Al3+ (aq) + 3 e− Al (s) −1,66 Sn2+ (aq) + 2 e− Sn (s) −0,14 Zn2+ (aq) + 2 e− Zn (s) −0,76 BENDASSOLLI, J. A. et al. Procedimentos para a recuperação de Ag de resíduos líquidos e sólidos. Química Nova, v. 26, n. 4, 2003 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q59-fig1.png"
+      ],
       "statement": "Das espécies apresentadas, a adequada para essa recuperação é",
       "options": [
         {
@@ -2899,7 +2909,7 @@
         },
         {
           "letter": "E",
-          "text": "Zn2+ (aq). 2014",
+          "text": "Zn2+ (aq).",
           "image_url": null,
           "is_correct": false
         }
@@ -2997,7 +3007,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2014_d1_azul_q62",
@@ -3006,7 +3022,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q62-fig1.png"
+      ],
       "statement": "Um sistema de pistão contendo um gás é mostrado na figura. Sobre a extremidade superior do êmbolo, que pode movimentar-se livremente sem atrito, encontra-se um objeto. Através de uma chapa de aquecimento é possível fornecer calor ao gás e, com auxílio de um manômetro, medir sua pressão. A partir de diferentes valores de calor fornecido, considerando o sistema como hermético, o objeto elevou-se em valores Δh, como mostrado no gráfico.\nForam estudadas, separadamente, quantidades equimolares de dois diferentes gases, denominados M e V.\nObjeto ∆h M ∆h V Manômetro Calor fornecido Chapa de aquecimento A diferença no comportamento dos gases no experimento decorre do fato de o gás M, em relação ao V, apresentar",
       "options": [
         {
@@ -3049,7 +3067,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q63-fig1.png"
+      ],
       "statement": "A aplicação excessiva de fertilizantes nitrogenados na agricultura pode acarretar alterações no solo e na água pelo acúmulo de compostos nitrogenados, principalmente a forma mais oxidada, favorecendo a proliferação de algas e plantas aquáticas e alterando o ciclo do nitrogênio, representado no esquema. A espécie nitrogenada mais oxidada tem sua quantidade controlada por ação de microrganismos que promovem a reação de redução dessa espécie, no processo denominado desnitrificação.\nN I 2 V NH 3 NO – 3 II IV III NH + NO – 4 2 O processo citado está representado na etapa",
       "options": [
         {
@@ -3078,7 +3098,7 @@
         },
         {
           "letter": "E",
-          "text": "V. 2014",
+          "text": "V.",
           "image_url": null,
           "is_correct": true
         }
@@ -3092,7 +3112,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q64-fig1.png"
+      ],
       "statement": null,
       "options": [
         {
@@ -3126,7 +3148,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option drawing(s) E not located or cut by a page break",
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2014_d1_azul_q65",
@@ -3143,31 +3172,31 @@
         {
           "letter": "A",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2014_cd1_q65-optA.png",
           "is_correct": true
         },
         {
           "letter": "B",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2014_cd1_q65-optB.png",
           "is_correct": false
         },
         {
           "letter": "C",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2014_cd1_q65-optC.png",
           "is_correct": false
         },
         {
           "letter": "D",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2014_cd1_q65-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2014_cd1_q65-optE.png",
           "is_correct": false
         }
       ],
@@ -3209,7 +3238,7 @@
         },
         {
           "letter": "E",
-          "text": "Lançamento do vapor-d’água sobre as pás das turbinas. 2014",
+          "text": "Lançamento do vapor-d’água sobre as pás das turbinas.",
           "image_url": null,
           "is_correct": false
         }
@@ -3323,7 +3352,9 @@
           "source": "7 - Planta células do tecido da planta Disponível em: http://ciencia.hsw.uol.com.br. Acesso em: 22 nov. 2013 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q69-fig1.png"
+      ],
       "statement": "Do ponto de vista biotecnológico, como a planta representada na figura é classificada?",
       "options": [
         {
@@ -3352,7 +3383,7 @@
         },
         {
           "letter": "E",
-          "text": "Transgênica. 2014",
+          "text": "Transgênica.",
           "image_url": null,
           "is_correct": true
         }
@@ -3409,7 +3440,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q71-fig1.png"
+      ],
       "statement": "Parte do gás carbônico da atmosfera é absorvida pela água do mar. O esquema representa reações que ocorrem naturalmente, em equilíbrio, no sistema ambiental marinho. O excesso de dióxido de carbono na atmosfera pode afetar os recifes de corais. 1 Menos Mais Dióxido de carbono atmosférico ácido ácido CO 2 2 3 Dióxido de carbono Ácido dissolvido Água carbônico Íons hidrogênio CO 2 + H 2 O H 2 CO 3 H+ Íons bicarbonato HCO 3 – Íons carbonato CO2– 3 Conchas deformadas Disponível em: http://news.bbc.co.uk. Acesso em: 20 maio 2014 (adaptado). O resultado desse processo nos corais é o(a)",
       "options": [
         {
@@ -3438,7 +3471,7 @@
         },
         {
           "letter": "E",
-          "text": "dano à estrutura dos esqueletos calcários, diminuindo o tamanho das populações. 2014",
+          "text": "dano à estrutura dos esqueletos calcários, diminuindo o tamanho das populações.",
           "image_url": null,
           "is_correct": true
         }
@@ -3452,7 +3485,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q72-fig1.png"
+      ],
       "statement": "O funcionamento dos geradores de usinas elétricas baseia-se no fenômeno da indução eletromagnética, descoberto por Michael Faraday no século XIX. Pode-se observar esse fenômeno ao se movimentar um ímã e uma espira em sentidos opostos com módulo da velocidade igual a v, induzindo uma corrente elétrica de intensidade i, como ilustrado na figura. v v B S N A i A fim de se obter uma corrente com o mesmo sentido da apresentada na figura, utilizando os mesmos materiais, outra possibilidade é mover a espira para a",
       "options": [
         {
@@ -3538,7 +3573,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q74-fig1.png"
+      ],
       "statement": "No heredograma, os símbolos preenchidos representam pessoas portadoras de um tipo raro de doença genética. Os homens são representados pelos quadrados e as mulheres, pelos círculos.\nQual é o padrão de herança observado para essa doença?",
       "options": [
         {
@@ -3610,7 +3647,7 @@
         },
         {
           "letter": "E",
-          "text": "bolinha de manteiga em solução com pH = 9. 2014",
+          "text": "bolinha de manteiga em solução com pH = 9.",
           "image_url": null,
           "is_correct": false
         }
@@ -3767,7 +3804,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q79-fig1.png"
+      ],
       "statement": "Em um hospital havia cinco lotes de bolsas de sangue, rotulados com os códigos I, II, III, IV e V. Cada lote continha apenas um tipo sanguíneo não identificado.\nUma funcionária do hospital resolveu fazer a identificação utilizando dois tipos de soro, anti-A e anti-B. Os resultados obtidos estão descritos no quadro.\nCódigo Volume de Soro anti-A Soro anti-B dos lotes sangue (L)\nI 22 Não aglutinou Aglutinou II 25 Aglutinou Não aglutinou III 30 Aglutinou Aglutinou IV 15 Não aglutinou Não aglutinou V 33 Não aglutinou Aglutinou Quantos litros de sangue eram do grupo sanguíneo do tipo A?",
       "options": [
         {
@@ -3810,7 +3849,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q80-fig1.png"
+      ],
       "statement": "O principal processo industrial utilizado na produção de fenol é a oxidação do cumeno (isopropilbenzeno).\nA equação mostra que esse processo envolve a formação do hidroperóxido de cumila, que em seguida é decomposto em fenol e acetona, ambos usados na indústria química como precursores de moléculas mais complexas. Após o processo de síntese, esses dois insumos devem ser separados para comercialização individual.\nOOH OH O + O Catalisador H 2 O / H 2 SO 4 + 2 Cumeno Hidroperóxido Fenol Acetona de cumila Considerando as características físico-químicas dos dois insumos formados, o método utilizado para a separação da mistura, em escala industrial, é a",
       "options": [
         {
@@ -3839,7 +3880,7 @@
         },
         {
           "letter": "E",
-          "text": "destilação fracionada. 2014",
+          "text": "destilação fracionada.",
           "image_url": null,
           "is_correct": true
         }
@@ -3943,7 +3984,7 @@
         },
         {
           "letter": "E",
-          "text": "perpendicular à sua velocidade linear e dirigido para fora da superfície da Terra. 2014",
+          "text": "perpendicular à sua velocidade linear e dirigido para fora da superfície da Terra.",
           "image_url": null,
           "is_correct": false
         }
@@ -3957,7 +3998,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q83-fig1.png"
+      ],
       "statement": "A utilização de processos de biorremediação de resíduos gerados pela combustão incompleta de compostos orgânicos tem se tornado crescente, visando minimizar a poluição ambiental. Para a ocorrência de resíduos de naftaleno, algumas legislações limitam sua concentração em até 30 mg/kg para solo agrícola e 0,14 mg/L para água subterrânea. A quantificação desse resíduo foi realizada em diferentes ambientes, utilizando-se amostras de 500 g de solo e 100 mL de água, conforme apresentado no quadro.\nAmbiente Resíduo de naftaleno (g)\nSolo I 1,0 × 10−2 Solo II 2,0 × 10−2 Água I 7,0 × 10−6 Água II 8,0 × 10−6 Água III 9,0 × 10−6 O ambiente que necessita de biorremediação é o(a)",
       "options": [
         {
@@ -4044,18 +4087,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": [
-        "assets/images/enem_2014_cd1_q85-1.png",
-        "assets/images/enem_2014_cd1_q85-2.png",
-        "assets/images/enem_2014_cd1_q85-3.png",
-        "assets/images/enem_2014_cd1_q85-4.png",
-        "assets/images/enem_2014_cd1_q85-5.png",
-        "assets/images/enem_2014_cd1_q85-6.png",
-        "assets/images/enem_2014_cd1_q85-7.png",
-        "assets/images/enem_2014_cd1_q85-8.png",
-        "assets/images/enem_2014_cd1_q85-9.png",
-        "assets/images/enem_2014_cd1_q85-10.png",
-        "assets/images/enem_2014_cd1_q85-11.png",
-        "assets/images/enem_2014_cd1_q85-12.png"
+        "assets/images/enem_2014_cd1_q85-fig1.png"
       ],
       "statement": "Imunobiológicos: diferentes formas de produção, diferentes aplicações Aplicação do imunobiológico II Vírus, bactérias Produção do imunobiológico III Aplicação do imunobiológico I A B Aplicação do imunobiológico III Embora sejam produzidos e utilizados em situações distintas, os imunobiológicos I e II atuam de forma semelhante nos humanos e equinos, pois",
       "options": [
@@ -4085,7 +4117,7 @@
         },
         {
           "letter": "E",
-          "text": "desencadeiam a produção de antígenos. 2014",
+          "text": "desencadeiam a produção de antígenos.",
           "image_url": null,
           "is_correct": false
         }
@@ -4235,7 +4267,7 @@
         },
         {
           "letter": "E",
-          "text": "245. 2014",
+          "text": "245.",
           "image_url": null,
           "is_correct": false
         }
@@ -4292,7 +4324,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2014_cd1_q90-fig1.png"
+      ],
       "statement": "As lentes fotocromáticas escurecem quando expostas à luz solar por causa de reações químicas reversíveis entre uma espécie incolor e outra colorida.\nDiversas reações podem ser utilizadas, e a escolha do melhor reagente para esse fim se baseia em três principais aspectos: (i) o quanto escurece a lente; (ii) o tempo de escurecimento quando exposta à luz solar; e (iii) o tempo de esmaecimento em ambiente sem forte luz solar. A transmitância indica a razão entre a quantidade de luz que atravessa o meio e a quantidade de luz que incide sobre ele.\nDurante um teste de controle para o desenvolvimento de novas lentes fotocromáticas, foram analisadas cinco amostras, que utilizam reagentes químicos diferentes.\nNo quadro, são apresentados os resultados.\nTransmitância Tempo de Tempo de média da lente Amostra escurecimento esmaecimento quando exposta (segundo) (segundo) à luz solar (%) 1 20 50 80 2 40 30 90 3 20 30 50 4 50 50 50 5 40 20 95 Considerando os três aspectos, qual é a melhor amostra de lente fotocromática para se utilizar em óculos?",
       "options": [
         {

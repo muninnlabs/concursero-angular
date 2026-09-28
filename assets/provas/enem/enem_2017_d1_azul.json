@@ -523,7 +523,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2017_cd1_q11-fig1.png"
+      ],
       "statement": "Usa novos canais on-line e novas ferramentas de comunicação Confia em Quer suporte para conselhos de encontrar pessoas amigos on-line, que compartilham conhecidos e da mesma estranhos opinião Lê e cria avaliações, Tende a comprar ranking de produtos e posts Novo consumidor mais on-line do que off-line em blogs social Deseja uma Quer fornecer experiência feedback sobre melhor on-line o produto e do que off-line serviço ao cliente CIPRIANI, F. Disponível em: www.snmsolutions.com.br. Acesso em: 15 maio 2013 (adaptado). O consumidor do século XXI, chamado de novo consumidor social, tende a se comportar de modo diferente do consumidor tradicional. Pela associação das características apresentadas no diagrama, infere-se que esse novo consumidor sofre influência da",
       "options": [
         {
@@ -2694,7 +2696,9 @@
           "source": "São Paulo: Cengage Learning, 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2017_cd1_q54-fig1.png"
+      ],
       "statement": "A leitura dos dados revela que as áreas com maior cobertura vegetal têm o potencial de intensificar o processo de",
       "options": [
         {
@@ -2937,7 +2941,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2017_cd1_q59-fig1.png"
+      ],
       "statement": "Figura 1 ºC mm 50 100 40 80 30 60 20 40 10 20 0 0 −10 J F M A M J J A S O N D Taxa de pluviosidade Temperatura Figura 2 Moscou Barcelona Mumbai Cidade do Cabo Sydney Disponível em: https://pt.climate-data.org. Acesso em: 12 maio 2017 (adaptado). As temperaturas médias mensais e as taxas de pluviosidade expressas no climograma apresentam o clima típico da seguinte cidade:",
       "options": [
         {
@@ -3832,7 +3838,9 @@
           "source": "São Paulo: Edgard Blucher, 1994 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2017_cd1_q77-fig1.png"
+      ],
       "statement": "Nas imagens constam informações sobre a formação de brisas em áreas litorâneas. Esse processo é resultado de",
       "options": [
         {
@@ -4338,7 +4346,10 @@
           "source": "Norte 60 - 70% Nordeste 90 - 100% Centro-Oeste 55 - 65% Sudeste 65 - 75% Sul 90 - 100% Disponível em: http://imagens.climatempo.com.br. Acesso em: 25 ago. 2014 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2017_cd1_q87-fig1.png",
+        "assets/images/enem_2017_cd1_q87-fig2.png"
+      ],
       "statement": "No dia em que foram colhidos os dados meteorológicos apresentados, qual fator climático foi determinante para explicar os índices de umidade relativa do ar nas regiões Nordeste e Sul?",
       "options": [
         {
@@ -4520,7 +4531,7 @@
         },
         {
           "letter": "E",
-          "text": "criação de uma estética de resistência. 2017",
+          "text": "criação de uma estética de resistência.",
           "image_url": null,
           "is_correct": true
         }

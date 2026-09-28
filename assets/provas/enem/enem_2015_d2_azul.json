@@ -295,7 +295,7 @@
         },
         {
           "letter": "E",
-          "text": "para o cidadão formar sua opinião, ele deve ter acesso à informação. 2015",
+          "text": "para o cidadão formar sua opinião, ele deve ter acesso à informação.",
           "image_url": null,
           "is_correct": true
         }
@@ -595,7 +595,7 @@
         },
         {
           "letter": "E",
-          "text": "explorar o uso da linguagem, conceituando detalhadamente os termos utilizados de forma a proporcionar melhor compreensão do texto. 2015",
+          "text": "explorar o uso da linguagem, conceituando detalhadamente os termos utilizados de forma a proporcionar melhor compreensão do texto.",
           "image_url": null,
           "is_correct": false
         }
@@ -1191,7 +1191,7 @@
         },
         {
           "letter": "E",
-          "text": "aferir a capacidade intelectual do candidato na resolução de problemas. 2015",
+          "text": "aferir a capacidade intelectual do candidato na resolução de problemas.",
           "image_url": null,
           "is_correct": false
         }
@@ -1334,7 +1334,7 @@
         },
         {
           "letter": "E",
-          "text": "expressa-se em linguagem mais subjetiva, com forte carga emocional. 2015",
+          "text": "expressa-se em linguagem mais subjetiva, com forte carga emocional.",
           "image_url": null,
           "is_correct": true
         }
@@ -1637,7 +1637,7 @@
         },
         {
           "letter": "E",
-          "text": "“por trás de encrencas” por “causadora de problemas”. 2015",
+          "text": "“por trás de encrencas” por “causadora de problemas”.",
           "image_url": null,
           "is_correct": true
         }
@@ -2135,7 +2135,7 @@
         },
         {
           "letter": "E",
-          "text": "possibilidade de reinvenção no contexto em que é realizada. 2015",
+          "text": "possibilidade de reinvenção no contexto em que é realizada.",
           "image_url": null,
           "is_correct": true
         }
@@ -2249,7 +2249,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q136-fig1.png"
+      ],
       "statement": "Um investidor inicia um dia com x ações de uma empresa. No decorrer desse dia, ele efetua apenas dois tipos de operações, comprar ou vender ações.\nPara realizar essas operações, ele segue estes critérios:\nI. vende metade das ações que possui, assim que seu valor fica acima do valor ideal (Vi);\nII. compra a mesma quantidade de ações que possui, assim que seu valor fica abaixo do valor mínimo (Vm);\nIII. vende todas as ações que possui, quando seu valor fica acima do valor ótimo (Vo).\nO gráfico apresenta o período de operações e a variação do valor de cada ação, em reais, no decorrer daquele dia e a indicação dos valores ideal, mínimo e ótimo.\nValor da ação (R$)\nVo Vi Vm 10 11 12 13 14 15 16 17 Tempo (hora)\nQuantas operações o investidor fez naquele dia?",
       "options": [
         {
@@ -2278,7 +2280,7 @@
         },
         {
           "letter": "E",
-          "text": "7 2015",
+          "text": "7",
           "image_url": null,
           "is_correct": false
         }
@@ -2342,7 +2344,9 @@
           "source": "Disponível em: www.sempretops.com. Acesso em: 7 ago. 2012."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q138-fig1.png"
+      ],
       "statement": "O valor pago na locadora Q é menor ou igual àquele pago na locadora P para distâncias, em quilômetros, presentes em qual(is) intervalo(s)?",
       "options": [
         {
@@ -2385,7 +2389,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q139-fig1.png"
+      ],
       "statement": "No contexto da matemática recreativa, utilizando diversos materiais didáticos para motivar seus alunos, uma professora organizou um jogo com um tipo de baralho modificado. No início do jogo, vira-se uma carta do baralho na mesa e cada jogador recebe em mãos nove cartas. Deseja-se formar pares de cartas, sendo a primeira carta a da mesa e a segunda, uma carta na mão do jogador, que tenha um valor equivalente àquele descrito na carta da mesa. O objetivo do jogo é verificar qual jogador consegue o maior número de pares. Iniciado o jogo, a carta virada na mesa e as cartas da mão de um jogador são como no esquema: 7,5 4 6 %0,754,3 3 6,8 8 34 3 3,4 4 % 75 6 8 3 Carta da mesa Cartas da mão 4 Segundo as regras do jogo, quantas cartas da mão desse jogador podem formar um par com a carta da mesa?",
       "options": [
         {
@@ -2428,7 +2434,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q140-fig1.png"
+      ],
       "statement": "Uma pesquisa de mercado foi realizada entre os consumidores das classes sociais A, B, C e D que costumam participar de promoções tipo sorteio ou concurso. Os dados comparativos, expressos no gráfico, revelam a participação desses consumidores em cinco categorias: via Correios (juntando embalagens ou recortando códigos de barra), via internet (cadastrando-se no site da empresa/marca promotora), via mídias sociais (redes sociais), via SMS (mensagem por celular) ou via rádio/TV.\nParticipação em promoções do tipo sorteio ou concurso em uma região Percentual 45 40 40 34 37 35 35 33 28 30 28 Correios 30 25 24 Internet 20 20 Mídias Sociais 15 SMS 10 Rádio/TV 5 0 A/B C/D Uma empresa vai lançar uma promoção utilizando apenas uma categoria nas classes A e B (A/B) e uma categoria nas classes C e D (C/D). 2015 De acordo com o resultado da pesquisa, para atingir o maior número de consumidores das classes A/B e C/D, a empresa deve realizar a promoção, respectivamente, via",
       "options": [
         {
@@ -2557,7 +2565,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q143-fig1.png"
+      ],
       "statement": "Em uma seletiva para a final dos 100 metros livres de natação, numa olimpíada, os atletas, em suas respectivas raias, obtiveram os seguintes tempos:\nRaia 1 2 3 4 5 6 7 8 Tempo 20,90 20,90 20,50 20,80 20,60 20,60 20,90 20,96 (segundo)\nA mediana dos tempos apresentados no quadro é",
       "options": [
         {
@@ -2600,7 +2610,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q144-fig1.png",
+        "assets/images/enem_2015_cd7_q144-fig2.png"
+      ],
       "statement": "O Esquema I mostra a configuração de uma quadra de basquete. Os trapézios em cinza, chamados de garrafões, correspondem a áreas restritivas. 580 cm 580 cm 600 cm 360 cm 360 cm 600 cm Esquema I: área restritiva antes de 2010 Visando atender as orientações do Comitê Central da Federação Internacional de Basquete (Fiba) em 2010, que unificou as marcações das diversas ligas, foi prevista uma modificação nos garrafões das quadras, que passariam a ser retângulos, como mostra o Esquema II. 490 cm 490 cm 580 cm 580 cm Esquema II: área restritiva a partir de 2010 Após executadas as modificações previstas, houve uma alteração na área ocupada por cada garrafão, que corresponde a um(a)",
       "options": [
         {
@@ -2629,7 +2642,7 @@
         },
         {
           "letter": "E",
-          "text": "diminuição de 272 600 cm². 2015",
+          "text": "diminuição de 272 600 cm².",
           "image_url": null,
           "is_correct": false
         }
@@ -2729,7 +2742,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q147-fig1.png"
+      ],
       "statement": "Numa cidade, cinco escolas de samba (I, II, III, IV e V) participaram do desfile de Carnaval. Quatro quesitos são julgados, cada um por dois jurados, que podem atribuir somente uma dentre as notas 6, 7, 8, 9 ou 10. A campeã será a escola que obtiver maior pontuação na soma de todas as notas emitidas. Em caso de empate, a campeã será a que alcançar a maior soma das notas atribuídas pelos jurados no quesito Enredo e Harmonia. A tabela mostra as notas do desfile desse ano no momento em que faltava somente a divulgação das notas do jurado B no quesito Bateria. 1. Fantasia 2. Evolução 3. Enredo Quesitos 4. Bateria e Alegoria e conjunto e Harmonia Total Jurado A B A B A B A B Escola 6 7 8 8 9 9 8 55 I Escola 9 8 10 9 10 10 10 66 II Escola 8 8 7 8 6 7 6 50 III Escola 9 10 10 10 9 10 10 68 IV Escola 8 7 9 8 6 8 8 54 V Quantas configurações distintas das notas a serem atribuídas pelo jurado B no quesito Bateria tornariam campeã a Escola II?",
       "options": [
         {
@@ -2758,7 +2773,7 @@
         },
         {
           "letter": "E",
-          "text": "3 2015",
+          "text": "3",
           "image_url": null,
           "is_correct": false
         }
@@ -2889,7 +2904,7 @@
         },
         {
           "letter": "E",
-          "text": "R$ 4,50 ≤ p < R$ 5,50 2015",
+          "text": "R$ 4,50 ≤ p < R$ 5,50",
           "image_url": null,
           "is_correct": false
         }
@@ -2996,7 +3011,11 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q153-fig1.png",
+        "assets/images/enem_2015_cd7_q153-fig2.png",
+        "assets/images/enem_2015_cd7_q153-fig3.png"
+      ],
       "statement": "Para uma alimentação saudável, recomenda-se ingerir, em relação ao total de calorias diárias, 60% de carboidratos, 10% de proteínas e 30% de gorduras.\nUma nutricionista, para melhorar a visualização dessas porcentagens, quer dispor esses dados em um polígono.\nEla pode fazer isso em um triângulo equilátero, um losango, um pentágono regular, um hexágono regular ou um octógono regular, desde que o polígono seja dividido em regiões cujas áreas sejam proporcionais às porcentagens mencionadas. Ela desenhou as seguintes figuras:\nProteínas Proteínas Carboidratos Gorduras Gorduras Carboidratos Proteínas Carboidratos Gorduras Carboidratos Gorduras Proteínas Proteínas Gorduras Carboidratos Entre esses polígonos, o único que satisfaz as condições necessárias para representar a ingestão correta de diferentes tipos de alimentos é o",
       "options": [
         {
@@ -3025,12 +3044,18 @@
         },
         {
           "letter": "E",
-          "text": "octógono. 2015",
+          "text": "octógono.",
           "image_url": null,
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2015_d2_azul_q154",
@@ -3039,7 +3064,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q154-fig1.png"
+      ],
       "statement": "Um engenheiro projetou um automóvel cujos vidros das portas dianteiras foram desenhados de forma que suas bordas superiores fossem representadas pela curva de equação y = log (x), conforme a figura. y(m) y = log(x) 1 h 0 x(m) n A forma do vidro foi concebida de modo que o eixo x sempre divida ao meio a altura h do vidro e a base do vidro seja paralela ao eixo x. Obedecendo a essas condições, o engenheiro determinou uma expressão que fornece a altura h do vidro em função da medida n de sua base, em metros.\nA expressão algébrica que determina a altura do vidro é ( ) ( ) n + √n2 + 4 n − √n2 + 4",
       "options": [
         {
@@ -3082,7 +3109,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q155-fig1.png"
+      ],
       "statement": "Uma empresa de telefonia celular possui duas antenas que serão substituídas por uma nova, mais potente.\nAs áreas de cobertura das antenas que serão substituídas são círculos de raio 2 km, cujas circunferências se tangenciam no ponto O, como mostra a figura.\nÁrea de cobertura Nova antena Área de cobertura O Área de cobertura Antena 1 Antena 2 O ponto O indica a posição da nova antena, e sua região de cobertura será um círculo cuja circunferência tangenciará externamente as circunferências das áreas de cobertura menores.\nCom a instalação da nova antena, a medida da área de cobertura, em quilômetros quadrados, foi ampliada em",
       "options": [
         {
@@ -3154,7 +3183,7 @@
         },
         {
           "letter": "E",
-          "text": "2 300,00. 2015",
+          "text": "2 300,00.",
           "image_url": null,
           "is_correct": false
         }
@@ -3356,7 +3385,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q161-fig1.png"
+      ],
       "statement": "Uma indústria produz malhas de proteção solar para serem aplicadas em vidros, de modo a diminuir a passagem de luz, a partir de fitas plásticas entrelaçadas perpendicularmente. Nas direções vertical e horizontal, são aplicadas fitas de 1 milímetro de largura, tal que a distância entre elas é de (d − 1) milímetros, conforme a figura. O material utilizado não permite a passagem da luz, ou seja, somente o raio de luz que atingir as lacunas deixadas pelo entrelaçamento consegue transpor essa proteção.\nA taxa de cobertura do vidro é o percentual da área da região coberta pelas fitas da malha, que são colocadas paralelamente às bordas do vidro. 1 mm 1 mm 1 mm 1 mm 1 mm 1 mm d 1 mm d 1 mm d 1 mm d d d d Essa indústria recebeu a encomenda de uma malha de proteção solar para ser aplicada em um vidro retangular de 5 m de largura por 9 m de comprimento. 2015 A medida de d, em milímetros, para que a taxa de cobertura da malha seja de 75% é",
       "options": [
         {
@@ -3494,7 +3525,9 @@
           "source": "L G Disponível em: www.gebh.net. Acesso em: 30 out. 2013 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q164-fig1.png"
+      ],
       "statement": "O número de formas distintas de se acomodar a família nesse voo é calculado por 9!",
       "options": [
         {
@@ -3523,7 +3556,7 @@
         },
         {
           "letter": "E",
-          "text": "× 4! 3! 2015",
+          "text": "× 4! 3!",
           "image_url": null,
           "is_correct": false
         }
@@ -3537,7 +3570,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q165-fig1.png"
+      ],
       "statement": "O proprietário de um parque aquático deseja construir uma piscina em suas dependências. A figura representa a vista superior dessa piscina, que é formada por três setores circulares idênticos, com ângulo central igual a 60°. O raio R deve ser um número natural. 60° R O parque aquático já conta com uma piscina em formato retangular com dimensões 50 m x 24 m.\nO proprietário quer que a área ocupada pela nova piscina seja menor que a ocupada pela piscina já existente.\nConsidere 3,0 como aproximação para π.\nO maior valor possível para R, em metros, deverá ser",
       "options": [
         {
@@ -3650,7 +3685,7 @@
         {
           "letter": "C",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2015_cd7_q167-optC.png",
           "is_correct": false
         },
         {
@@ -3666,7 +3701,13 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2015_d2_azul_q168",
@@ -3725,7 +3766,9 @@
           "source": "PET RECICLADO - 2010 Usos Finais Usos Finais Têxteis Outros Tubos 7,6% T 37 ê , x 8 te % is C M e o rd n a o s fi l / a C m o e r n d t a o s s / Tecido 3 s 0 e % Malhas 3,8% 27% Fitas de Arquear 6,8% Laminados e chapas 7,9% Emb. Alimentos e não alimentos 17,2% Resinas Insaturadas Não tecidos e Alquídicas 43% 18,9% Disponível em: www.abipet.org.br. Acesso em: 12 jul. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q169-fig1.png"
+      ],
       "statement": "De acordo com os gráficos, a quantidade de embalagens PET recicladas destinadas à produção de tecidos e malhas, em kton, é mais aproximada de",
       "options": [
         {
@@ -3759,7 +3802,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2015_d2_azul_q170",
@@ -3768,7 +3817,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q170-fig1.png"
+      ],
       "statement": "Um concurso é composto por cinco etapas.\nCada etapa vale 100 pontos. A pontuação final de cada candidato é a média de suas notas nas cinco etapas.\nA classificação obedece à ordem decrescente das pontuações finais. O critério de desempate baseia-se na maior pontuação na quinta etapa.\nMédia nas quatro Pontuação na candidato primeiras etapas quinta etapa A 90 60 B 85 85 C 80 95 D 60 90 E 60 100 A ordem de classificação final desse concurso é",
       "options": [
         {
@@ -3840,7 +3891,7 @@
         },
         {
           "letter": "E",
-          "text": "324,0. 2015",
+          "text": "324,0.",
           "image_url": null,
           "is_correct": false
         }
@@ -3854,7 +3905,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q172-fig1.png"
+      ],
       "statement": "Devido ao aumento do fluxo de passageiros, uma empresa de transporte coletivo urbano está fazendo estudos para a implantação de um novo ponto de parada em uma determinada rota. A figura mostra o percurso, indicado pelas setas, realizado por um ônibus nessa rota e a localização de dois de seus atuais pontos de parada, representados por P e Q.\nRua A B auR y Rua C 320 Q 20 P 0 30 550 x Os estudos indicam que o novo ponto T deverá ser instalado, nesse percurso, entre as paradas já existentes P e Q, de modo que as distâncias percorridas pelo ônibus entre os pontos P e T e entre os pontos T e Q sejam iguais.\nDe acordo com os dados, as coordenadas do novo ponto de parada são",
       "options": [
         {
@@ -3940,7 +3993,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q174-fig1.png"
+      ],
       "statement": "Um estudante está pesquisando o desenvolvimento de certo tipo de bactéria. Para essa pesquisa, ele utiliza uma estufa para armazenar as bactérias. A temperatura no interior dessa estufa, em graus Celsius, é dada pela expressão T(h) = − h2 + 22h − 85, em que h representa as horas do dia. Sabe-se que o número de bactérias é o maior possível quando a estufa atinge sua temperatura máxima e, nesse momento, ele deve retirá-las da estufa.\nA tabela associa intervalos de temperatura, em graus Celsius, com as classificações: muito baixa, baixa, média, alta e muito alta.\nIntervalos de Classificação temperatura (°c)\nT < 0 Muito baixa 0 < T < 17 Baixa 17 < T < 30 Média 30 < T < 43 Alta T > 43 Muito alta Quando o estudante obtém o maior número possível de bactérias, a temperatura no interior da estufa está classificada como",
       "options": [
         {
@@ -3983,7 +4038,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q175-fig1.png"
+      ],
       "statement": "A figura representa a vista superior de uma bola de futebol americano, cuja forma é um elipsoide obtido pela rotação de uma elipse em torno do eixo das abscissas. Os valores a e b são, respectivamente, a metade do seu comprimento horizontal e a metade do seu comprimento vertical. Para essa bola, a diferença entre os comprimentos horizontal e vertical é igual à metade do comprimento vertical. y b x − a 0 a − b Considere que o volume aproximado dessa bola é dado por V = 4ab2.\nO volume dessa bola, em função apenas de b, é dado por",
       "options": [
         {
@@ -4012,7 +4069,7 @@
         },
         {
           "letter": "E",
-          "text": "2b 2015",
+          "text": "2b",
           "image_url": null,
           "is_correct": false
         }
@@ -4060,7 +4117,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option drawing(s) E not located or cut by a page break"
+        ]
+      }
     },
     {
       "id": "enem_2015_d2_azul_q177",
@@ -4069,7 +4132,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2015_cd7_q177-fig1.png"
+      ],
       "statement": "Alguns medicamentos para felinos são administrados com base na superfície corporal do animal. Foi receitado a um felino pesando 3,0 kg um medicamento na dosagem diária de 250 mg por metro quadrado de superfície corporal.\nO quadro apresenta a relação entre a massa do felino, em quilogramas, e a área de sua superfície corporal, em metros quadrados.\nRelação entre a massa de um felino e a área de sua superfície corporal Massa (kg) Área (m²) 1,0 0,100 2,0 0,159 3,0 0,208 4,0 0,252 5,0 0,292 NORSWORTHY, G. D. O paciente felino. São Paulo: Roca, 2009.\nA dose diária, em miligramas, que esse felino deverá receber é de",
       "options": [
         {
@@ -4141,7 +4206,7 @@
         },
         {
           "letter": "E",
-          "text": "16 000. 2015",
+          "text": "16 000.",
           "image_url": null,
           "is_correct": true
         }
@@ -4234,7 +4299,7 @@
         },
         {
           "letter": "E",
-          "text": "outubro. 2015 2015",
+          "text": "outubro. 2015",
           "image_url": null,
           "is_correct": false
         }

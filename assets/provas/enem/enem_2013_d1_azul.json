@@ -23,25 +23,7 @@
         }
       ],
       "image_url": [
-        "assets/images/enem_2013_cd1_q1-1.png",
-        "assets/images/enem_2013_cd1_q1-2.png",
-        "assets/images/enem_2013_cd1_q1-3.png",
-        "assets/images/enem_2013_cd1_q1-4.png",
-        "assets/images/enem_2013_cd1_q1-5.png",
-        "assets/images/enem_2013_cd1_q1-6.png",
-        "assets/images/enem_2013_cd1_q1-7.png",
-        "assets/images/enem_2013_cd1_q1-8.png",
-        "assets/images/enem_2013_cd1_q1-9.png",
-        "assets/images/enem_2013_cd1_q1-10.png",
-        "assets/images/enem_2013_cd1_q1-11.png",
-        "assets/images/enem_2013_cd1_q1-12.png",
-        "assets/images/enem_2013_cd1_q1-13.png",
-        "assets/images/enem_2013_cd1_q1-14.png",
-        "assets/images/enem_2013_cd1_q1-15.png",
-        "assets/images/enem_2013_cd1_q1-16.png",
-        "assets/images/enem_2013_cd1_q1-17.png",
-        "assets/images/enem_2013_cd1_q1-18.png",
-        "assets/images/enem_2013_cd1_q1-19.png"
+        "assets/images/enem_2013_cd1_q1-fig1.png"
       ],
       "statement": "Os mapas representam distintos padrões de distribuição de processos socioespaciais. Nesse sentido, a menor incidência de disputas territoriais envolvendo povos indígenas se explica pela",
       "options": [
@@ -227,7 +209,7 @@
         },
         {
           "letter": "E",
-          "text": "encontrar ideias e pensamentos evidentes que dispensam ser questionados. 2013",
+          "text": "encontrar ideias e pensamentos evidentes que dispensam ser questionados.",
           "image_url": null,
           "is_correct": false
         }
@@ -348,7 +330,9 @@
           "source": "Disponível em: ftp://ftp.ibge.gov.br. Acesso em: 12 mar. 2013."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q7-fig1.png"
+      ],
       "statement": "O processo registrado no gráfico gerou a seguinte consequência demográfica:",
       "options": [
         {
@@ -427,7 +411,7 @@
         },
         {
           "letter": "E",
-          "text": "adesão ao anarquismo. 2013",
+          "text": "adesão ao anarquismo.",
           "image_url": null,
           "is_correct": false
         }
@@ -627,7 +611,7 @@
         },
         {
           "letter": "E",
-          "text": "perseguições policiais tinham caráter xenófobo por repudiarem tradições estrangeiras. 2013",
+          "text": "perseguições policiais tinham caráter xenófobo por repudiarem tradições estrangeiras.",
           "image_url": null,
           "is_correct": false
         }
@@ -832,7 +816,7 @@
         },
         {
           "letter": "E",
-          "text": "os mecanismos de controle sejam deslocados dos processos para os resultados do trabalho. 2013",
+          "text": "os mecanismos de controle sejam deslocados dos processos para os resultados do trabalho.",
           "image_url": null,
           "is_correct": true
         }
@@ -846,7 +830,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q17-fig1.png"
+      ],
       "statement": "Modelo 1 Fornecedor Estoque Produção Estoque Cliente Modelo 2 Requisição Requisição Entrega Entrega Cliente Produção Fornecedor Disponível em: http://ensino.univates.br. Acesso em: 11 maio 2013 (adaptado). Na imagem, estão representados dois modelos de produção. A possibilidade de uma crise de superprodução é distinta entre eles em função do seguinte fator:",
       "options": [
         {
@@ -880,7 +866,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2013_d1_azul_q18",
@@ -1018,7 +1010,7 @@
         },
         {
           "letter": "E",
-          "text": "valorização da representação parlamentar. 2013",
+          "text": "valorização da representação parlamentar.",
           "image_url": null,
           "is_correct": false
         }
@@ -1218,7 +1210,7 @@
         },
         {
           "letter": "E",
-          "text": "consensuais, que pactuam acordos com base na compreensão dos benefícios gerais de se ter as próprias ações controladas. 2013",
+          "text": "consensuais, que pactuam acordos com base na compreensão dos benefícios gerais de se ter as próprias ações controladas.",
           "image_url": null,
           "is_correct": false
         }
@@ -1415,7 +1407,7 @@
         },
         {
           "letter": "E",
-          "text": "implantar a mecanização intensiva. 2013",
+          "text": "implantar a mecanização intensiva.",
           "image_url": null,
           "is_correct": false
         }
@@ -1621,7 +1613,7 @@
         },
         {
           "letter": "E",
-          "text": "financiar a fixação de famílias camponesas para estímulo da agricultura de subsistência. 2013",
+          "text": "financiar a fixação de famílias camponesas para estímulo da agricultura de subsistência.",
           "image_url": null,
           "is_correct": false
         }
@@ -1774,7 +1766,7 @@
         },
         {
           "letter": "E",
-          "text": "Imunidade parlamentar. 2013",
+          "text": "Imunidade parlamentar.",
           "image_url": null,
           "is_correct": false
         }
@@ -1976,7 +1968,7 @@
         },
         {
           "letter": "E",
-          "text": "mostrar que a ocupação de regiões interioranas abriu frentes de trabalho para a população local. 2013",
+          "text": "mostrar que a ocupação de regiões interioranas abriu frentes de trabalho para a população local.",
           "image_url": null,
           "is_correct": false
         }
@@ -2227,7 +2219,7 @@
         },
         {
           "letter": "E",
-          "text": "antecipava a libertação paternalista dos cativos. 2013",
+          "text": "antecipava a libertação paternalista dos cativos.",
           "image_url": null,
           "is_correct": false
         }
@@ -2329,7 +2321,7 @@
         },
         {
           "letter": "E",
-          "text": "promove a polarização das moléculas poliméricas, o que resulta no movimento gerado pela aplicação de diferença de potencial. 2013",
+          "text": "promove a polarização das moléculas poliméricas, o que resulta no movimento gerado pela aplicação de diferença de potencial.",
           "image_url": null,
           "is_correct": false
         }
@@ -2467,7 +2459,7 @@
         },
         {
           "letter": "E",
-          "text": "200. 2013",
+          "text": "200.",
           "image_url": null,
           "is_correct": false
         }
@@ -2610,7 +2602,7 @@
         },
         {
           "letter": "E",
-          "text": "terem frequências próximas. 2013",
+          "text": "terem frequências próximas.",
           "image_url": null,
           "is_correct": true
         }
@@ -2674,7 +2666,9 @@
           "source": "O O HO C C O CH CH O H 2 2 n Disponível em: www.abipet.org.br. Acesso em: 27 fev. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q54-fig1.png"
+      ],
       "statement": "Com base nas informações do texto, uma alternativa para a obtenção de etilenoglicol a partir do PET é a",
       "options": [
         {
@@ -2760,7 +2754,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option drawing(s) E not located or cut by a page break",
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2013_d1_azul_q56",
@@ -2852,7 +2853,7 @@
         },
         {
           "letter": "E",
-          "text": "Impede a entrada de ar, por ser menor que a pressão interna; não muda a velocidade de escoamento, que só depende da pressão da coluna de água. 2013",
+          "text": "Impede a entrada de ar, por ser menor que a pressão interna; não muda a velocidade de escoamento, que só depende da pressão da coluna de água.",
           "image_url": null,
           "is_correct": false
         }
@@ -2881,31 +2882,31 @@
         {
           "letter": "A",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2013_cd1_q58-optA.png",
           "is_correct": true
         },
         {
           "letter": "B",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2013_cd1_q58-optB.png",
           "is_correct": false
         },
         {
           "letter": "C",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2013_cd1_q58-optC.png",
           "is_correct": false
         },
         {
           "letter": "D",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2013_cd1_q58-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2013_cd1_q58-optE.png",
           "is_correct": false
         }
       ],
@@ -2997,7 +2998,7 @@
         },
         {
           "letter": "E",
-          "text": "reduz a variabilidade genética da população. 2013",
+          "text": "reduz a variabilidade genética da população.",
           "image_url": null,
           "is_correct": false
         }
@@ -3133,7 +3134,7 @@
         },
         {
           "letter": "E",
-          "text": "extinção de nichos ecológicos. 2013",
+          "text": "extinção de nichos ecológicos.",
           "image_url": null,
           "is_correct": false
         }
@@ -3197,7 +3198,9 @@
           "source": "Disponível em: www.ufsm.br. Acesso em: 7 dez. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q65-fig1.png"
+      ],
       "statement": "Nessa ola mexicana, a frequência da onda, em hertz, é um valor mais próximo de",
       "options": [
         {
@@ -3240,7 +3243,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q66-fig1.png"
+      ],
       "statement": "Para serrar ossos e carnes congeladas, um açougueiro utiliza uma serra de fita que possui três polias e um motor. O equipamento pode ser montado de duas formas diferentes, P e Q. Por questão de segurança, é necessário que a serra possua menor velocidade linear.\nSerra Serra de fita de fita Polia 3 Polia 3 Polia 2 Polia 2 Motor Motor Polia 1 Polia 1 Correia Correia Montagem P Montagem Q Por qual montagem o açougueiro deve optar e qual a justificativa desta opção?",
       "options": [
         {
@@ -3319,7 +3324,7 @@
         },
         {
           "letter": "E",
-          "text": "Atenuando a concentração de resíduos vegetais do solo. 2013",
+          "text": "Atenuando a concentração de resíduos vegetais do solo.",
           "image_url": null,
           "is_correct": false
         }
@@ -3340,37 +3345,39 @@
           "source": "Glifosato O O H N P NH 2 OH H C OH 3 OH Sarcosina AMPA AMARANTE JR., O. P. et al. Química Nova, São Paulo, v. 25, n. 3, 2002 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q68-fig1.png"
+      ],
       "statement": "A partir do texto e dos produtos de degradação apresentados, a estrutura química que representa o glifosato é:\nO O",
       "options": [
         {
           "letter": "A",
-          "text": "H N P 2 O OH OH O O",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2013_cd1_q68-optA.png",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "NH P HO OH OH O NH O 2",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2013_cd1_q68-optB.png",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "P HO OH OH O",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2013_cd1_q68-optC.png",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "P H N O OH 2 OH O O O",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2013_cd1_q68-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "P H N OO OH 2 OH",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2013_cd1_q68-optE.png",
           "is_correct": false
         }
       ],
@@ -3426,7 +3433,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q70-fig1.png"
+      ],
       "statement": "Cinco casais alegavam ser os pais de um bebê.\nA confirmação da paternidade foi obtida pelo exame de DNA. O resultado do teste está esquematizado na figura, em que cada casal apresenta um padrão com duas bandas de DNA (faixas, uma para o suposto pai e outra para a suposta mãe), comparadas à do bebê. 1 2 3 4 5 Bebê Pai Mãe Pai Mãe Pai Mãe Pai Mãe Pai Mãe Que casal pode ser considerado como pais biológicos do bebê?",
       "options": [
         {
@@ -3455,7 +3464,7 @@
         },
         {
           "letter": "E",
-          "text": "5 2013",
+          "text": "5",
           "image_url": null,
           "is_correct": false
         }
@@ -3555,7 +3564,13 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2013_d1_azul_q73",
@@ -3598,7 +3613,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2013_d1_azul_q74",
@@ -3686,7 +3707,7 @@
         },
         {
           "letter": "E",
-          "text": "quarta parte da área da seção reta do fio. 2013",
+          "text": "quarta parte da área da seção reta do fio.",
           "image_url": null,
           "is_correct": true
         }
@@ -3872,7 +3893,7 @@
         },
         {
           "letter": "E",
-          "text": "as cargas positivas e negativas se chocam no filamento da lâmpada. 2013",
+          "text": "as cargas positivas e negativas se chocam no filamento da lâmpada.",
           "image_url": null,
           "is_correct": false
         }
@@ -4017,7 +4038,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q83-fig1.png"
+      ],
       "statement": "Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (R) e a dependência da s resistência com a temperatura é conhecida. 470 Ω 470 Ω 10 V + Voltímetro R = 100 Ω 120 Ω S Para um valor de temperatura em que R = 100 Ω, a S leitura apresentada pelo voltímetro será de",
       "options": [
         {
@@ -4046,7 +4069,7 @@
         },
         {
           "letter": "E",
-          "text": "– 6,2 V. 2013",
+          "text": "– 6,2 V.",
           "image_url": null,
           "is_correct": false
         }
@@ -4096,7 +4119,7 @@
         },
         {
           "letter": "E",
-          "text": "apresentarem características fisiológicas que lhes conferem maior tamanho corporal que o das espécies nativas. 2013",
+          "text": "apresentarem características fisiológicas que lhes conferem maior tamanho corporal que o das espécies nativas.",
           "image_url": null,
           "is_correct": false
         }
@@ -4110,7 +4133,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q85-fig1.png"
+      ],
       "statement": "Desenvolve-se um dispositivo para abrir automaticamente uma porta no qual um botão, quando acionado, faz com que uma corrente elétrica i = 6 A percorra uma barra condutora de comprimento L = 5 cm, cujo ponto médio está preso a uma mola de constante elástica k = 5 × 10–2 N/cm. O sistema mola-condutor está imerso em um campo magnético uniforme perpendicular ao plano. Quando acionado o botão, a barra sairá da posição de equilíbrio a uma velocidade média de 5 m/s e atingirá a catraca em 6 milisegundos, abrindo a porta. x B catraca fio x x x i x x x x x k v L x x x x x mola i x x x x x isolante x (cm) C 0 A intensidade do campo magnético, para que o dispostivo funcione corretamente, é de",
       "options": [
         {
@@ -4160,7 +4185,9 @@
           "source": "CURI, D. Química Nova na Escola, São Paulo, n. 23, maio 2006 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q86-fig1.png"
+      ],
       "statement": "A maior eficiência dessas fraldas descartáveis, em relação às de pano, deve-se às",
       "options": [
         {
@@ -4246,7 +4273,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2013_d1_azul_q88",
@@ -4327,7 +4360,7 @@
         },
         {
           "letter": "E",
-          "text": "0,833. 2013",
+          "text": "0,833.",
           "image_url": null,
           "is_correct": false
         }
@@ -4348,7 +4381,9 @@
           "source": "NanoKid CHANTEAU, S. H.; TOUR, J. M. The Journal of Organic Chemistry, v. 68, n. 23, 2003 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q90-fig1.png"
+      ],
       "statement": "Em que parte do corpo do NanoKid existe carbono quaternário?",
       "options": [
         {

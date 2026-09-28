@@ -2819,7 +2819,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option drawing(s) DE not located or cut by a page break",
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2018_d1_azul_q57",
@@ -3336,7 +3343,9 @@
           "source": "Disponível em: www.biologiasur.org. Acesso em: 4 jul. 2015 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd1_q67-fig1.png"
+      ],
       "statement": "A dinâmica hidrológica expressa no gráfico demonstra que o processo de urbanização promove a",
       "options": [
         {
@@ -4099,7 +4108,9 @@
           "source": "Verão normal Amazônia Verão de 2014 Amazônia JBN JBN 0° 0° Fluxo do Fluxo do Oceano Atlântico Oceano Atlântico ZCAS SoloA 20° S Solo úmido 20° S seco FF FF 40° S 40° S 60° W 60° W MARENGO, J. A. et al. A seca e a crise hídrica de 2014-2015 em São Paulo. Revista USP, n. 106, 2015 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd1_q82-fig1.png"
+      ],
       "statement": "De acordo com as informações apresentadas, a seca de 2014, no Sudeste, teve como causa natural o(a)",
       "options": [
         {
@@ -4387,7 +4398,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd1_q88-fig1.png"
+      ],
       "statement": "Participação percentual do extrativismo vegetal e da silvicultura no valor da produção primária florestal — Brasil — 1996-2014 % 90,0 80,0 70,0 60,0 50,0 40,0 30,0 20,0 10,0 0, 6991 7991 8991 9991 0002 1002 2002 3002 4002 5002 6002 7002 8002 9002 0102 1102 2102 3102 4102 Silvicultura Extrativismo vegetal IBGE. Produção da extração vegetal e da silvicultura. Rio de Janeiro: IBGE, 2014 (adaptado). Considerando as diferenças entre extrativismo vegetal e silvicultura, a variação das curvas do gráfico foi influenciada pela tendência de",
       "options": [
         {

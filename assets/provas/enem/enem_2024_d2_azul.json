@@ -1375,7 +1375,15 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure area overlaps option letters / other content",
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2024_d2_azul_q119",
@@ -2383,7 +2391,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2024_d2_azul_q140",
@@ -2515,7 +2529,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2024_d2_azul_q143",
@@ -3069,7 +3089,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2024_d2_azul_q155",
@@ -3602,7 +3628,13 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2024_d2_azul_q167",
@@ -3720,7 +3752,9 @@
           "source": "Disponível em: www.codifica.ibict.br. Acesso em: 15 out. 2019."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2024_cd7_q169-fig1.png"
+      ],
       "statement": "Qualquer código que tenha um padrão de substituição de letras como o descrito é considerado uma Cifra de César ou um Código de César. Note que, para decifrar uma Cifra de César, basta descobrir por qual letra o “A” foi substituído, pois isso define todas as demais substituições a serem feitas.\nUma mensagem, em um alfabeto de 26 letras, foi codificada usando uma Cifra de César. Considere a probabilidade de se descobrir, aleatoriamente, o padrão utilizado nessa codificação, e que uma tentativa frustrada deverá ser eliminada nas tentativas seguintes.\nA probabilidade de se descobrir o padrão dessa Cifra de César apenas na terceira tentativa é dada por",
       "options": [
         {
@@ -4136,7 +4170,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2024_d2_azul_q178",
@@ -4145,7 +4185,9 @@
       "topic": "Estatística (mediana)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2024_cd7_q178-fig1.png"
+      ],
       "statement": "A umidade relativa do ar é um dos indicadores utilizados na meteorologia para fazer previsões sobre o clima. O quadro apresenta as médias mensais, em porcentagem, da umidade relativa do ar em um período de seis meses consecutivos em uma cidade. Meses Maio Jun. Jul. Ago. Set. Out. Média mensal da umidade relativa 66 64 54 46 60 64 do ar (%) Nessa cidade, a mediana desses dados, em porcentagem, da umidade relativa do ar no período considerado foi",
       "options": [
         {

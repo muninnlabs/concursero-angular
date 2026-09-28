@@ -15,7 +15,9 @@
       "topic": "Química (reação de decomposição do hidróxido de sódio/desentupidor)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q91-fig1.png"
+      ],
       "statement": "Para realizar o desentupimento de tubulações de esgotos residenciais, é utilizada uma mistura sólida comercial que contém hidróxido de sódio (NaOH) e outra espécie química pulverizada. Quando é adicionada água a essa mistura, ocorre uma reação que libera gás hidrogênio e energia na forma de calor, aumentando a eficiência do processo de desentupimento. Considere os potenciais padrão de redução (E ) da água e de outras espécies em meio básico, expressos no quadro.\nSemirreação de redução E (V) 2 H O + 2 e− → H + 2 OH− −0,83 2 2 Co(OH) + 2 e− → Co + 2 OH− −0,73 2 Cu(OH) + 2 e− → Cu + 2 OH− −0,22 2 PbO + H O + 2 e− → Pb + 2 OH− −0,58 2 Al(OH) − + 3 e− → Al + 4 OH− −2,33 4 Fe(OH) + 2 e− → Fe + 2 OH− −0,88 2 Qual é a outra espécie que está presente na composição da mistura sólida comercial para aumentar sua eficiência?",
       "options": [
         {
@@ -244,7 +246,9 @@
       "topic": "Ecologia (estratégias de sobrevivência r e K)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q96-fig1.png"
+      ],
       "statement": "No quadro estão apresentadas informações sobre duas estratégias de sobrevivência que podem ser adotadas por algumas espécies de seres vivos.\nEstratégia 1 Estratégia 2 Hábitat Mais instável e imprevisível Mais estável e previsível Potencial biótico Muito elevado Baixo Duração da vida Curta e com reprodução precoce Longa e com reprodução tardia Descendentes Muitos e com tamanho corporal pequeno Poucos e com tamanho corporal maior Tamanho populacional Variável Constante Na recuperação de uma área desmatada deveriam ser reintroduzidas primeiramente as espécies que adotam qual estratégia?",
       "options": [
         {
@@ -575,7 +579,9 @@
           "source": "Equação 2 2 H O (aq) + 3 l− (aq) I − (aq) + 2 H O (I) + O (g) 2 2 3 2 2 GARCIA, P. T. et al. A Handheld Stamping Process to Fabricate Microfluidic Paper-Based Analytical Devices with Chemically Modified Surface for Clinical Assays. RSC Advances, v. 4, 13 ago. 2014 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q103-fig1.png"
+      ],
       "statement": "O tipo de reação que ocorre na superfície do biochip, nas duas reações do processo, é",
       "options": [
         {
@@ -711,7 +717,9 @@
       "topic": "Física (tensão em corda esticada - slackline)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q106-fig1.png"
+      ],
       "statement": "Slackline é um esporte no qual o atleta deve se equilibrar e executar manobras estando sobre uma fita esticada. Para a prática do esporte, as duas extremidades da fita são fixadas de forma que ela fique a alguns centímetros do solo. Quando uma atleta de massa igual a 80 kg está exatamente no meio da fita, essa se desloca verticalmente, formando um ângulo de 10° com a horizontal, como esquematizado na figura. Sabe-se que a aceleração da gravidade é igual a 10 m s−2, cos(10°) = 0,98 e sen(10°) = 0,17.\nQual é a força que a fita exerce em cada uma das árvores por causa da presença da atleta?",
       "options": [
         {
@@ -992,7 +1000,9 @@
           "source": "Faixa de Número de átomos de carbono Fração Exemplos de produto(s) temperatura (°C) (hidrocarboneto de fórmula geral C H ) n 2n+2 1 Até 20 Gás natural e gás de cozinha (GLP) C a C 1 4 2 30 a 180 Gasolina C a C 6 12 3 170 a 290 Querosene C a C 11 16 4 260 a 350 Óleo diesel C a C 14 18 SANTA MARIA, L. C. et al. Petróleo: um tema para o ensino de química. Química Nova na Escola, n. 15, maio 2002 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q112-fig1.png"
+      ],
       "statement": "Na fração 4, a separação dos compostos ocorre em temperaturas mais elevadas porque",
       "options": [
         {
@@ -1071,7 +1081,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2019_d2_azul_q114",
@@ -1166,7 +1182,9 @@
       "topic": "Biologia (fluidez da membrana celular)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q116-fig1.png"
+      ],
       "statement": "A fluidez da membrana celular é caracterizada pela capacidade de movimento das moléculas componentes dessa estrutura. Os seres vivos mantêm essa propriedade de duas formas: controlando a temperatura e/ou alterando a composição lipídica da membrana.\nNeste último aspecto, o tamanho e o grau de insaturação das caudas hidrocarbônicas dos fosfolipídios, conforme representados na figura, influenciam significativamente a fluidez. Isso porque quanto maior for a magnitude das interações entre os fosfolipídios, menor será a fluidez da membrana.\nRepresentação simplificada da estrutura de um fosfolipídio Cabeça polar Caudas hidrocarbônicas Insaturação Assim, existem bicamadas lipídicas com diferentes composições de fosfolipídios, como as mostradas de I a V.\nI II III IV V Qual das bicamadas lipídicas apresentadas possui maior fluidez?",
       "options": [
         {
@@ -1209,7 +1227,9 @@
       "topic": "Física (calorimetria, energia liberada pela queima de alimento)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q117-fig1.png"
+      ],
       "statement": "Em uma aula experimental de calorimetria, uma professora queimou 2,5 g de castanha-de-caju crua para aquecer 350 g de água, em um recipiente apropriado para diminuir as perdas de calor. Com base na leitura da tabela nutricional a seguir e da medida da temperatura da água, após a queima total do combustível, ela concluiu que 50% da energia disponível foi aproveitada. O calor específico da água é 1 cal g−1 °C−1, e sua temperatura inicial era de 20 °C.\nQuantidade por porção de 10 g (2 castanhas)\nValor energético 70 kcal Carboidratos 0,8 g Proteínas 3,5 g Gorduras totais 3,5 g Qual foi a temperatura da água, em grau Celsius, medida ao final do experimento?",
       "options": [
         {
@@ -1243,7 +1263,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2019_d2_azul_q118",
@@ -1354,7 +1380,11 @@
           "source": "HAMERSKI, L.; REZENDE, M. J. C.; SILVA, B. V. Usando as cores da natureza para atender aos desejos do consumidor: substâncias naturais como corantes na indústria alimentícia. Revista Virtual de Química, n. 3, 2013."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q120-fig1.png",
+        "assets/images/enem_2019_cd7_q120-fig2.png",
+        "assets/images/enem_2019_cd7_q120-fig3.png"
+      ],
       "statement": "A propriedade comum às estruturas que confere cor a esses compostos é a presença de",
       "options": [
         {
@@ -1397,7 +1427,9 @@
       "topic": "Física (conservação de energia - disco de Maxwell/ioiô)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q121-fig1.png"
+      ],
       "statement": "Numa feira de ciências, um estudante utilizará o disco de Maxwell (ioiô) para demonstrar o princípio da conservação da energia. A apresentação consistirá em duas etapas:\nEtapa 1 - a explicação de que, à medida que o disco desce, parte de sua energia potencial gravitacional é transformada em energia cinética de translação e energia cinética de rotação;\nEtapa 2 - o cálculo da energia cinética de rotação do disco no ponto mais baixo de sua trajetória, supondo o sistema conservativo.\nAo preparar a segunda etapa, ele considera a aceleração da gravidade igual a 10 m s−2 e a velocidade linear do centro de massa do disco desprezível em comparação com a velocidade angular. Em seguida, mede a altura do topo do disco em relação ao chão no ponto mais baixo de sua trajetória, obtendo 1 da altura 3 da haste do brinquedo.\nAs especificações de tamanho do brinquedo, isto é, de comprimento (C), largura (L) e altura (A), assim como da massa de seu disco de metal, foram encontradas pelo estudante no recorte de manual ilustrado a seguir. 2h h 3 Conteúdo: base de metal, hastes metálicas, barra superior, disco de metal.\nTamanho (C × L × A): 300 mm × 100 mm × 410 mm Massa do disco de metal: 30 g O resultado do cálculo da etapa 2, em joule, é:",
       "options": [
         {
@@ -1533,7 +1565,9 @@
       "topic": "Química orgânica (reciclagem química do PET, hidrólise de éster)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q124-fig1.png"
+      ],
       "statement": "Uma das técnicas de reciclagem química do polímero PET [poli(tereftalato de etileno)] gera o tereftalato de metila e o etanodiol, conforme o esquema de reação, e ocorre por meio de uma reação de transesterificação.\nCOOCH 3 Altas temperaturas O O e pressão O + 2n A n + n OH HO O n PET COOCH 3 O composto A, representado no esquema de reação, é o",
       "options": [
         {
@@ -1567,7 +1601,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2019_d2_azul_q125",
@@ -1634,7 +1674,9 @@
       "topic": "Física (circuitos elétricos, resistência equivalente e queda de tensão)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q126-fig1.png"
+      ],
       "statement": "Uma casa tem um cabo elétrico mal dimensionado, de resistência igual a 10 Ω, que a conecta à rede elétrica de 120 V. Nessa casa, cinco lâmpadas, de resistência igual a 200 Ω, estão conectadas ao mesmo circuito que uma televisão de resistência igual a 50 Ω, conforme ilustrado no esquema. A televisão funciona apenas com tensão entre 90 V e 130 V. 10 Ω\nΩ 002 Ω 002 Ω 002 Ω 002 Ω 002 Ω 05 120 V O número máximo de lâmpadas que podem ser ligadas sem que a televisão pare de funcionar é:",
       "options": [
         {
@@ -1784,7 +1826,9 @@
           "source": "BRASIL. Ministério da Agricultura e do Abastecimento. Instrução normativa n. 1, de 7 de janeiro de 2000. Disponível em: www.agricultura.gov.br. Acesso em: 9 maio 2019 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q129-fig1.png"
+      ],
       "statement": "Entre as listadas, a amostra analisada pode ser de qual polpa de fruta?",
       "options": [
         {
@@ -1877,7 +1921,9 @@
           "source": "Disponível em: www.nrcan.gc.ca. Acesso em: 26 abr. 2019 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q131-fig1.png"
+      ],
       "statement": "Com que intervalo de tempo o operador deve adquirir duas imagens consecutivas?",
       "options": [
         {
@@ -2020,7 +2066,9 @@
       "topic": "Física (evaporação e resfriamento - experimento com etanol)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q134-fig1.png"
+      ],
       "statement": "Um experimento simples, que pode ser realizado com materiais encontrados em casa, é realizado da seguinte forma: adiciona-se um volume de etanol em um copo de vidro e, em seguida, uma folha de papel.\nCom o passar do tempo, observa-se um comportamento peculiar: o etanol se desloca sobre a superfície do papel, superando a gravidade que o atrai no sentido oposto, como mostra a imagem. Para parte dos estudantes, isso ocorre por causa da absorção do líquido pelo papel.\nPapel de filtro Copo de vidro Etanol Do ponto de vista científico, o que explica o movimento do líquido é a",
       "options": [
         {
@@ -2424,7 +2472,9 @@
       "topic": "Matemática (leitura de gráfico - taxa de consumo calórico)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q143-fig1.png"
+      ],
       "statement": "Os exercícios físicos são recomendados para o bom funcionamento do organismo, pois aceleram o metabolismo e, em consequência, elevam o consumo de calorias. No gráfico, estão registrados os valores calóricos, em kcal, gastos em cinco diferentes atividades físicas, em função do tempo dedicado às atividades, contado em minuto. 140\n)lack( III 120 II IV 100 V 80 60 40 I 20 5 10 15 20 25 30 Tempo (min)\nQual dessas atividades físicas proporciona o maior consumo de quilocalorias por minuto?",
       "options": [
         {
@@ -2510,7 +2560,9 @@
       "topic": "Geometria (razão de engrenagens - diâmetro de catracas)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q145-fig1.png"
+      ],
       "statement": "Um ciclista quer montar um sistema de marchas usando dois discos dentados na parte traseira de sua bicicleta, chamados catracas. A coroa é o disco dentado que é movimentado pelos pedais da bicicleta, sendo que a corrente transmite esse movimento às catracas, que ficam posicionadas na roda traseira da bicicleta.\nAs diferentes marchas ficam definidas pelos diferentes diâmetros das catracas, que são medidos conforme indicação na figura.\nDiâmetro do disco dentado O ciclista já dispõe de uma catraca com 7 cm de diâmetro e pretende incluir uma segunda catraca, de modo que, à medida em que a corrente passe por ela, a bicicleta avance 50% a mais do que avançaria se a corrente passasse pela primeira catraca, a cada volta completa dos pedais.\nO valor mais próximo da medida do diâmetro da segunda catraca, em centímetro e com uma casa decimal, é",
       "options": [
         {
@@ -2553,7 +2605,9 @@
       "topic": "Matemática (lógica - classificação de alertas meteorológicos)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q146-fig1.png"
+      ],
       "statement": "O serviço de meteorologia de uma cidade emite relatórios diários com a previsão do tempo. De posse dessas informações, a prefeitura emite três tipos de alertas para a população: • Alerta cinza: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será inferior a 10 °C, e a umidade relativa do ar for inferior a 40%; • Alerta laranja: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura deve variar entre 35 °C e 40 °C, e a umidade relativa do ar deve ficar abaixo de 30%; • Alerta vermelho: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será superior a 40 °C, e a umidade relativa do ar for inferior a 25%.\nUm resumo da previsão do tempo nessa cidade, para um período de 15 dias, foi apresentado no gráfico.\nTemperatura Temperatura Umidade relativa 60 (°C) Umidade relativa do ar do ar (%) 60 40 40 20 20 0 2 4 6 8 10 12 14 16 Dia Decorridos os 15 dias de validade desse relatório, um funcionário percebeu que, no período a que se refere o gráfico, foram emitidos os seguintes alertas: • Dia 1: alerta cinza; • Dia 12: alerta laranja; • Dia 13: alerta vermelho.\nEm qual(is) desses dias o(s) aviso(s) foi(ram) emitido(s) corretamente?",
       "options": [
         {
@@ -2689,7 +2743,9 @@
           "source": "Ano 2013 2014 2015 Número total 1 050 900 850 de acidentes Suponha que a tendência de redução no número de acidentes nessa rodovia para os anos subsequentes seja igual à redução absoluta observada de 2014 para 2015."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q149-fig1.png"
+      ],
       "statement": "Com base na situação apresentada, o número de acidentes esperados nessa rodovia em 2018 foi de",
       "options": [
         {
@@ -2918,7 +2974,9 @@
           "source": "Disponível em: http://cejarj.cecierj.edu.br. Acesso em: 1 fev. 2015 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q154-fig1.png"
+      ],
       "statement": "Utilize 0,3 como aproximação para log 2.\nDe acordo com os dados fornecidos, o terremoto ocorrido pode ser descrito como",
       "options": [
         {
@@ -3054,7 +3112,10 @@
       "topic": "Geometria espacial (tetraedro truncado, volume por secções)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q157-fig1.png",
+        "assets/images/enem_2019_cd7_q157-fig2.png"
+      ],
       "statement": "As luminárias para um laboratório de matemática serão fabricadas em forma de sólidos geométricos.\nUma delas terá a forma de um tetraedro truncado.\nEsse sólido é gerado a partir de secções paralelas a cada uma das faces de um tetraedro regular.\nPara essa luminária, as secções serão feitas de maneira que, em cada corte, um terço das arestas seccionadas serão removidas. Uma dessas secções está indicada na figura. a 3 a Essa luminária terá por faces",
       "options": [
         {
@@ -3226,7 +3287,9 @@
       "topic": "Estatística (média ponderada - controle de qualidade)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q161-fig1.png"
+      ],
       "statement": "Em uma fábrica de refrigerantes, é necessário que se faça periodicamente o controle no processo de engarrafamento para evitar que sejam envasadas garrafas fora da especificação do volume escrito no rótulo.\nDiariamente, durante 60 dias, foram anotadas as quantidades de garrafas fora dessas especificações.\nO resultado está apresentado no quadro.\nQuantidade de garrafas fora das Quantidade especificações por dia de dias 0 52 1 5 2 2 3 1\nA média diária de garrafas fora das especificações no período considerado é",
       "options": [
         {
@@ -3260,7 +3323,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)",
+          "figure split across columns/pages"
+        ]
+      }
     },
     {
       "id": "enem_2019_d2_azul_q162",
@@ -3303,7 +3373,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2019_d2_azul_q163",
@@ -3355,7 +3431,9 @@
       "topic": "Geometria espacial (volume de laje de concreto)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q164-fig1.png"
+      ],
       "statement": "Um mestre de obras deseja fazer uma laje com espessura de 5 cm utilizando concreto usinado, conforme as dimensões do projeto dadas na figura.\nO concreto para fazer a laje será fornecido por uma usina que utiliza caminhões com capacidades máximas de 2 m3, 5 m3 e 10 m3 de concreto. 8 m 1 m 3 m 2 m 3 m 5 m 14 m Qual a menor quantidade de caminhões, utilizando suas capacidades máximas, que o mestre de obras deverá pedir à usina de concreto para fazer a laje?",
       "options": [
         {
@@ -3491,7 +3569,9 @@
       "topic": "Probabilidade (formação de grupos com restrição)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q167-fig1.png"
+      ],
       "statement": "Os alunos de uma turma escolar foram divididos em dois grupos. Um grupo jogaria basquete, enquanto o outro jogaria futebol. Sabe-se que o grupo de basquete é formado pelos alunos mais altos da classe e tem uma pessoa a mais do que o grupo de futebol. A tabela seguinte apresenta informações sobre as alturas dos alunos da turma.\nMédia Mediana Moda 1,65 1,67 1,70 Os alunos P, J, F e M medem, respectivamente, 1,65 m, 1,66 m, 1,67 m e 1,68 m, e as suas alturas não são iguais a de nenhum outro colega da sala.\nSegundo essas informações, argumenta-se que os alunos P, J, F e M jogaram, respectivamente,",
       "options": [
         {
@@ -3577,7 +3657,9 @@
       "topic": "Geometria analítica (raio de abrangência - aplicativo de relacionamentos)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q169-fig1.png"
+      ],
       "statement": "Um aplicativo de relacionamentos funciona da seguinte forma: o usuário cria um perfil com foto e informações pessoais, indica as características dos usuários com quem deseja estabelecer contato e determina um raio de abrangência a partir da sua localização. O aplicativo identifica as pessoas que se encaixam no perfil desejado e que estão a uma distância do usuário menor ou igual ao raio de abrangência.\nCaso dois usuários tenham perfis compatíveis e estejam numa região de abrangência comum a ambos, o aplicativo promove o contato entre os usuários, o que é chamado de match.\nO usuário P define um raio de abrangência com medida de 3 km e busca ampliar a possibilidade de obter um match se deslocando para a região central da cidade, que concentra um maior número de usuários.\nO gráfico ilustra alguns bares que o usuário P costuma frequentar para ativar o aplicativo, indicados por I, II, III, IV e V. Sabe-se que os usuários Q, R e S, cujas posições estão descritas pelo gráfico, são compatíveis com o usuário P, e que estes definiram raios de abrangência respectivamente iguais a 3 km, 2 km e 5 km. y (km) 8 Q R 7 IV I 6 II III 5 V 4 S 3 2 1 P 0 1 2 3 4 5 6 7 x (km)\nCom base no gráfico e nas afirmações anteriores, em qual bar o usuário P teria a possibilidade de um match com os usuários Q, R e S, simultaneamente?",
       "options": [
         {
@@ -3663,7 +3745,9 @@
       "topic": "Análise combinatória (combinações sucessivas)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q171-fig1.png"
+      ],
       "statement": "Uma empresa confecciona e comercializa um brinquedo formado por uma locomotiva, pintada na cor preta, mais 12 vagões de iguais formato e tamanho, numerados de 1 a 12. Dos 12 vagões, 4 são pintados na cor vermelha, 3 na cor azul, 3 na cor verde e 2 na cor amarela. O trem é montado utilizando-se uma locomotiva e 12 vagões, ordenados crescentemente segundo suas numerações, conforme ilustrado na figura.\nDe acordo com as possíveis variações nas colorações dos vagões, a quantidade de trens que podem ser montados, expressa por meio de combinações, é dada por",
       "options": [
         {
@@ -3713,7 +3797,9 @@
           "source": "O gerente de vendas disse, em uma reunião da diretoria, que, se essa redução no número de unidades vendidas de novembro para dezembro de 2011 se mantivesse constante nos meses subsequentes, as vendas só voltariam a ficar piores que julho de 2011 apenas no final de 2012."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q172-fig1.png"
+      ],
       "statement": "O diretor financeiro rebateu imediatamente esse argumento mostrando que, mantida a tendência, isso aconteceria já em",
       "options": [
         {
@@ -3799,7 +3885,9 @@
       "topic": "Matemática (leitura de gráficos - taxa de urbanização)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q174-fig1.png"
+      ],
       "statement": "A taxa de urbanização de um município é dada pela razão entre a população urbana e a população total do município (isto é, a soma das populações rural e urbana). Os gráficos apresentam, respectivamente, a população urbana e a população rural de cinco municípios (I, II, III, IV, V) de uma mesma região estadual. Em reunião entre o governo do estado e os prefeitos desses municípios, ficou acordado que o município com maior taxa de urbanização receberá um investimento extra em infraestrutura.\nPopulação urbana População rural 20 000 14 000 18 000 18 000 17 000 12 000 12 000 16 000 10 000 14 000 10 000 11 000 8 000 12 000 10 000 8 000 10 000 8 000 6 000 5 000 8 000 4 000 6 000 4 000 4 000 2 000 2 000 0 0 I II III IV V I II III IV V Segundo o acordo, qual município receberá o investimento extra?",
       "options": [
         {
@@ -3842,7 +3930,9 @@
       "topic": "Geometria espacial (volume de cilindros - reservatórios)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q175-fig1.png"
+      ],
       "statement": "Uma construtora pretende conectar um reservatório central (R ) em formato de um cilindro, com raio interno c igual a 2 m e altura interna igual a 3,30 m, a quatro reservatórios cilíndricos auxiliares (R , R , R e R ), 1 2 3 4 os quais possuem raios internos e alturas internas medindo 1,5 m.\nR 2 R C R R 1 3 R 4 As ligações entre o reservatório central e os auxiliares são feitas por canos cilíndricos com 0,10 m de diâmetro interno e 20 m de comprimento, conectados próximos às bases de cada reservatório. Na conexão de cada um desses canos com o reservatório central há registros que liberam ou interrompem o fluxo de água.\nNo momento em que o reservatório central está cheio e os auxiliares estão vazios, abrem-se os quatro registros e, após algum tempo, as alturas das colunas de água nos reservatórios se igualam, assim que cessa o fluxo de água entre eles, pelo princípio dos vasos comunicantes.\nA medida, em metro, das alturas das colunas de água nos reservatórios auxiliares, após cessar o fluxo de água entre eles, é",
       "options": [
         {
@@ -3928,7 +4018,9 @@
       "topic": "Trigonometria (função periódica - deslocamento do pistão)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q177-fig1.png"
+      ],
       "statement": "Um grupo de engenheiros está projetando um motor cujo esquema de deslocamento vertical do pistão dentro da câmara de combustão está representado na figura.\nCâmara de Câmara de combustão combustão h(t) Pistão h(0) = 0 Pistão Instante t = 0 Instante t ≠ 0 t A função h(t) 4 4sen definida parat ≥0 descreve como varia a altura h, medida em centímetro, da parte superior do pistão dentro da câmara de combustão, em função do tempo t, medido em segundo. Nas figuras estão indicadas as alturas do pistão em dois instantes distintos.\nO valor do parâmetro β, que é dado por um número inteiro positivo, está relacionado com a velocidade de deslocamento do pistão. Para que o motor tenha uma boa potência, é necessário e suficiente que, em menos de 4 segundos após o início do funcionamento (instante t = 0), a altura da base do pistão alcance por três vezes o valor de 6 cm. Para os cálculos, utilize 3 como aproximação para π.\nO menor valor inteiro a ser atribuído ao parâmetro β, de forma que o motor a ser construído tenha boa potência, é",
       "options": [
         {
@@ -3971,7 +4063,9 @@
       "topic": "Estatística (leitura de gráfico - análise de vendas)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q178-fig1.png"
+      ],
       "statement": "Um comerciante, que vende somente pastel, refrigerante em lata e caldo de cana em copos, fez um levantamento das vendas realizadas durante a semana. O resultado desse levantamento está apresentado no gráfico.\nVendas na última semana Domingo Caldo de cana 10 Refrigerante 8 Sábado Segunda Pastel 6 4 2 0 Sexta Terça Quinta Quarta Ele estima que venderá, em cada dia da próxima semana, uma quantidade de refrigerante em lata igual à soma das quantidades de refrigerante em lata e caldo de cana em copos vendidas no respectivo dia da última semana. Quanto aos pastéis, estima vender, a cada dia da próxima semana, uma quantidade igual à quantidade de refrigerante em lata que prevê vender em tal dia. Já para o número de caldo de cana em copos, estima que as vendas diárias serão iguais às da última semana.\nSegundo essas estimativas, a quantidade a mais de pastéis que esse comerciante deve vender na próxima semana é",
       "options": [
         {
@@ -4014,7 +4108,9 @@
       "topic": "Matemática (leitura de gráfico - consumo de energia acumulado)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q179-fig1.png"
+      ],
       "statement": "Nos seis cômodos de uma casa há sensores de presença posicionados de forma que a luz de cada cômodo acende assim que uma pessoa nele adentra, e apaga assim que a pessoa se retira desse cômodo. Suponha que o acendimento e o desligamento sejam instantâneos.\nO morador dessa casa visitou alguns desses cômodos, ficando exatamente um minuto em cada um deles.\nO gráfico descreve o consumo acumulado de energia, em watt × minuto, em função do tempo t, em minuto, das lâmpadas de LED dessa casa, enquanto a figura apresenta a planta baixa da casa, na qual os cômodos estão numerados de 1 a 6, com as potências das respectivas lâmpadas indicadas.\n)nim⋅W( aigrenE (8 ; 120)\nBANHO (2 W) SUÍTE QUARTO (7 ; 105) (13 W) 3 (15 W) (6 ; 85) 2 (5 ; 75) 4 BANHO 5 (5 W) (4 ; 55)\nSALA (3 ; 40) (20 W) (2 ; 35) COZINHA (10 W) (1 ; 20) 1 6 (0 ; 0) Tempo (min)\nENTRADA A sequência de deslocamentos pelos cômodos, conforme o consumo de energia apresentado no gráfico, é",
       "options": [
         {
@@ -4057,7 +4153,9 @@
       "topic": "Matemática financeira (proporcionalidade - conversão de moedas)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2019_cd7_q180-fig1.png"
+      ],
       "statement": "Um casal planejou uma viagem e definiu como teto para o gasto diário um valor de até R$ 1 000,00. Antes de decidir o destino da viagem, fizeram uma pesquisa sobre a taxa de câmbio vigente para as moedas de cinco países que desejavam visitar e também sobre as estimativas de gasto diário em cada um, com o objetivo de escolher o destino que apresentasse o menor custo diário em real.\nO quadro mostra os resultados obtidos com a pesquisa realizada.\nPaís de destino Moeda local Taxa de câmbio Gasto diário França Euro (€) R$ 3,14 315,00 € EUA Dólar (US$) R$ 2,78 US$ 390,00 Austrália Dólar australiano (A$) R$ 2,14 A$ 400,00 Canadá Dólar canadense (C$) R$ 2,10 C$ 410,00 Reino Unido Libra esterlina (£) R$ 4,24 £ 290,00 Nessas condições, qual será o destino escolhido para a viagem?",
       "options": [
         {

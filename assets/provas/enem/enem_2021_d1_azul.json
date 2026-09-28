@@ -194,7 +194,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2021_d1_azul_q5",
@@ -1991,7 +1997,9 @@
           "source": "LONGE DAQUI... 1 6 4 NANA, SE A GENTE BEBER A NSANGA E ENFRENTAR O CALUNGA, PODEMOS FICAR JUNTOS LA NA OUTRA TERRA. ...LONGE DISSO TUDO. 2 5 D’SALETE, M Cumbe São Paulo: Veneta, 2018, p 10-11 (adaptado)"
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2021_cd1_q43-fig1.png"
+      ],
       "statement": "A sequência dos quadrinhos conjuga lirismo e violência ao",
       "options": [
         {
@@ -2081,52 +2089,13 @@
         "assets/images/enem_2021_cd1_q45-1.png",
         "assets/images/enem_2021_cd1_q45-2.png",
         "assets/images/enem_2021_cd1_q45-3.png",
-        "assets/images/enem_2021_cd1_q45-4.png",
         "assets/images/enem_2021_cd1_q45-5.png",
         "assets/images/enem_2021_cd1_q45-6.png",
         "assets/images/enem_2021_cd1_q45-7.png",
         "assets/images/enem_2021_cd1_q45-8.png",
         "assets/images/enem_2021_cd1_q45-9.png",
         "assets/images/enem_2021_cd1_q45-10.png",
-        "assets/images/enem_2021_cd1_q45-11.png",
-        "assets/images/enem_2021_cd1_q45-12.png",
-        "assets/images/enem_2021_cd1_q45-13.png",
-        "assets/images/enem_2021_cd1_q45-14.png",
-        "assets/images/enem_2021_cd1_q45-15.png",
-        "assets/images/enem_2021_cd1_q45-16.png",
-        "assets/images/enem_2021_cd1_q45-17.png",
-        "assets/images/enem_2021_cd1_q45-18.png",
-        "assets/images/enem_2021_cd1_q45-19.png",
-        "assets/images/enem_2021_cd1_q45-20.png",
-        "assets/images/enem_2021_cd1_q45-21.png",
-        "assets/images/enem_2021_cd1_q45-22.png",
-        "assets/images/enem_2021_cd1_q45-23.png",
-        "assets/images/enem_2021_cd1_q45-24.png",
-        "assets/images/enem_2021_cd1_q45-25.png",
-        "assets/images/enem_2021_cd1_q45-26.png",
-        "assets/images/enem_2021_cd1_q45-27.png",
-        "assets/images/enem_2021_cd1_q45-28.png",
-        "assets/images/enem_2021_cd1_q45-29.png",
-        "assets/images/enem_2021_cd1_q45-30.png",
-        "assets/images/enem_2021_cd1_q45-31.png",
-        "assets/images/enem_2021_cd1_q45-32.png",
-        "assets/images/enem_2021_cd1_q45-33.png",
-        "assets/images/enem_2021_cd1_q45-34.png",
-        "assets/images/enem_2021_cd1_q45-35.png",
-        "assets/images/enem_2021_cd1_q45-36.png",
-        "assets/images/enem_2021_cd1_q45-37.png",
-        "assets/images/enem_2021_cd1_q45-38.png",
-        "assets/images/enem_2021_cd1_q45-39.png",
-        "assets/images/enem_2021_cd1_q45-40.png",
-        "assets/images/enem_2021_cd1_q45-41.png",
-        "assets/images/enem_2021_cd1_q45-42.png",
-        "assets/images/enem_2021_cd1_q45-43.png",
-        "assets/images/enem_2021_cd1_q45-44.png",
-        "assets/images/enem_2021_cd1_q45-45.png",
-        "assets/images/enem_2021_cd1_q45-46.png",
-        "assets/images/enem_2021_cd1_q45-47.png",
-        "assets/images/enem_2021_cd1_q45-48.png",
-        "assets/images/enem_2021_cd1_q45-49.png"
+        "assets/images/enem_2021_cd1_q45-34.png"
       ],
       "statement": "No ano em que o maior clarinetista que o Brasil conheceu, Abel Ferreira, faria 100 anos, o choro dá mostras de vivacidade É quase um paradoxo que essa riquíssima manifestação da genuína alma brasileira seja forte o suficiente para driblar a falta de incentivos oficiais, a insensibilidade dos meios de comunicação e a amnésia generalizada “Ele trazia a alma brasileira derramada em sua sonoridade ímpar Artur da Távola, seguramente seu maior admirador, foi quem melhor o definiu, ’alma sertaneja, toque mozarteano’” O acervo do músico autodidata nascido na mineira Coromandel, autor de 50 músicas, entre as quais Chorando baixinho (1942), que o consagrou, amigo e parceiro de Pixinguinha, com quem gravou Ingênuo (1958), permanece com os herdeiros à espera de compilação adequada O Museu da Imagem e do Som do Rio de Janeiro tem a guarda do sax e do clarinete, doados em 1995 Na avaliação de Leonor Bianchi, editora da Revista do Choro, “a música instrumental fica apartada do que é popular porque não vai à sala de concerto O público em geral tem interesse em samba, pagode e axé” Ela atribui essa situação à falta de conhecimento e à pouca divulgação do gênero nas escolas FERRAZ, A Disponível em: www cartacapital com br Acesso em: 22 abr 2015 (adaptado) Considerando-se o contexto, o gênero e o público-alvo, os argumentos trazidos pela autora do texto buscam",
       "options": [
@@ -2161,7 +2130,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "broken image and no figure found in the PDF"
+        ]
+      }
     },
     {
       "id": "enem_2021_d1_azul_q46",
@@ -3949,7 +3924,9 @@
           "source": "15 - 13 Escravo fugido Jornal Correio Paulistano, 13 de abril de 1879 Disponível em: http://bndigital bn gov br Acesso em: 2 ago 2019 (adaptado)"
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2021_cd1_q85-fig1.png"
+      ],
       "statement": "No anúncio publicado na segunda metade do século XIX, qual a estratégia de resistência escrava apresentada?",
       "options": [
         {
@@ -4026,7 +4003,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2021_d1_azul_q87",
@@ -4121,7 +4104,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2021_cd1_q89-fig1.png"
+      ],
       "statement": "Movimento de translação da Terra EQUINÓCIO 21 de março SOLSTíCIO 21 de dezembro SOL SOLSTíCIO 21 de junho EQUINÓCIO 23 de setembro Disponível em: www cdcc usp br Acesso em: 27 jul 2010 (adaptado) Considerando as informações apresentadas, o prédio do Congresso Nacional, em Brasília, no dia 21 de junho, às 12 horas, projetará sua sombra para a direção",
       "options": [
         {
@@ -4213,7 +4198,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     }
   ]
 }

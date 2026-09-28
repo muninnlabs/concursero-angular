@@ -2236,24 +2236,18 @@
         "assets/images/enem_2020_cd1_q45-4.png",
         "assets/images/enem_2020_cd1_q45-5.png",
         "assets/images/enem_2020_cd1_q45-6.png",
-        "assets/images/enem_2020_cd1_q45-7.png",
         "assets/images/enem_2020_cd1_q45-8.png",
         "assets/images/enem_2020_cd1_q45-9.png",
         "assets/images/enem_2020_cd1_q45-10.png",
         "assets/images/enem_2020_cd1_q45-11.png",
-        "assets/images/enem_2020_cd1_q45-12.png",
         "assets/images/enem_2020_cd1_q45-13.png",
         "assets/images/enem_2020_cd1_q45-14.png",
         "assets/images/enem_2020_cd1_q45-15.png",
         "assets/images/enem_2020_cd1_q45-16.png",
         "assets/images/enem_2020_cd1_q45-17.png",
         "assets/images/enem_2020_cd1_q45-18.png",
-        "assets/images/enem_2020_cd1_q45-19.png",
-        "assets/images/enem_2020_cd1_q45-20.png",
         "assets/images/enem_2020_cd1_q45-21.png",
-        "assets/images/enem_2020_cd1_q45-22.png",
         "assets/images/enem_2020_cd1_q45-23.png",
-        "assets/images/enem_2020_cd1_q45-24.png",
         "assets/images/enem_2020_cd1_q45-25.png",
         "assets/images/enem_2020_cd1_q45-26.png",
         "assets/images/enem_2020_cd1_q45-27.png",
@@ -2262,8 +2256,6 @@
         "assets/images/enem_2020_cd1_q45-30.png",
         "assets/images/enem_2020_cd1_q45-31.png",
         "assets/images/enem_2020_cd1_q45-32.png",
-        "assets/images/enem_2020_cd1_q45-33.png",
-        "assets/images/enem_2020_cd1_q45-34.png",
         "assets/images/enem_2020_cd1_q45-35.png",
         "assets/images/enem_2020_cd1_q45-36.png",
         "assets/images/enem_2020_cd1_q45-37.png",
@@ -2280,8 +2272,7 @@
         "assets/images/enem_2020_cd1_q45-48.png",
         "assets/images/enem_2020_cd1_q45-49.png",
         "assets/images/enem_2020_cd1_q45-50.png",
-        "assets/images/enem_2020_cd1_q45-51.png",
-        "assets/images/enem_2020_cd1_q45-52.png"
+        "assets/images/enem_2020_cd1_q45-51.png"
       ],
       "statement": "A tematização de Curitiba é frequente na obra de Dalton Trevisan. No fragmento, a relação do narrador com o espaço urbano é caracterizada por um olhar",
       "options": [
@@ -2316,7 +2307,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "broken image and no figure found in the PDF"
+        ]
+      }
     },
     {
       "id": "enem_2020_d1_azul_q46",

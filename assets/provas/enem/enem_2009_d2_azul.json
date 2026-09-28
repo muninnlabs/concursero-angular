@@ -5,7 +5,9 @@
     "institution": "INEP",
     "year": 2009,
     "day": 2,
-    "booklet_color": "Azul"
+    "booklet_color": "Azul",
+    "status": "incomplete",
+    "status_reason": "extraction unfinished (empty questions, answer key not verified)"
   },
   "questions": [
     {
