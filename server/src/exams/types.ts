@@ -13,6 +13,8 @@ export interface ExamMetadata {
   year: number;
   day: number;
   booklet_color: string;
+  /** Set by the data pipeline when the whole exam must not be served ("incomplete", "superseded"). */
+  status?: string;
 }
 
 export interface Question {
@@ -27,6 +29,8 @@ export interface Question {
   statement: string;
   options: QuestionOption[];
   correct_answer: string | null;
+  /** Set by the data pipeline when a figure/option couldn't be recovered; hidden until fixed. */
+  review?: { status: string; reasons: string[] };
 }
 
 export interface ContextText {

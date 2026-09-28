@@ -24,6 +24,7 @@ function imageList(value: string | string[] | null | undefined): string[] {
  * images the pipeline didn't capture, ...).
  */
 export function isUsable(question: Question): boolean {
+  if (question.review) return false;
   const hasBody =
     !!question.statement?.trim() ||
     imageList(question.image_url).length > 0 ||
@@ -114,6 +115,7 @@ export class MemoryExamSource implements ExamSource {
   private readonly exams = new Map<string, LoadedExam>();
 
   add(category: string, relativePath: string, data: ExamFile) {
+    if (data.exam_metadata.status) return; // incomplete / superseded exams aren't served
     const summary = summarize(category, relativePath, data);
     if (this.exams.has(summary.id)) throw new Error(`Duplicate exam_id ${summary.id} in ${relativePath}`);
     this.exams.set(summary.id, { summary, questions: data.questions });

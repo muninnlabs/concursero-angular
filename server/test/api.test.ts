@@ -161,6 +161,20 @@ describe('question content', () => {
     assert.equal(isUsable({ ...question('x_q3', 'A'), statement: '', options: [] }), false);
   });
 
+  test('questions flagged for review and incomplete exams are never served', async () => {
+    const source = new MemoryExamSource();
+    source.add('ENEM', 'assets/provas/enem/a.json', exam('enem_2013_d1_azul', 2013, [
+      question('enem_2013_d1_azul_q1', 'A'),
+      { ...question('enem_2013_d1_azul_q2', 'B'), review: { status: 'needs_review', reasons: ['figure cut'] } },
+    ]));
+    const incomplete = exam('enem_2010_d1_azul', 2010, [question('enem_2010_d1_azul_q1', 'A')]);
+    incomplete.exam_metadata.status = 'incomplete';
+    source.add('ENEM', 'assets/provas/enem/b.json', incomplete);
+    assert.deepEqual((await source.list()).map((e) => e.id), ['enem_2013_d1_azul']);
+    const picked = await randomQuestions(source, 10);
+    assert.deepEqual(picked.map((p) => p.question.id), ['enem_2013_d1_azul_q1']);
+  });
+
   test('practice never serves unusable questions', async () => {
     const source = new MemoryExamSource();
     source.add('ENEM', 'assets/provas/enem/e.json', exam('enem_2010_d1_azul', 2010, [

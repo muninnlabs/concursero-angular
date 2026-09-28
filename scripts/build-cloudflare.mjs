@@ -30,8 +30,10 @@ for (const [folder, category] of Object.entries(CATEGORY_BY_FOLDER)) {
   await mkdir(path.join(out, 'assets', 'provas', folder), { recursive: true });
   for (const file of (await readdir(dir)).filter((f) => f.endsWith('.json')).sort()) {
     const relative = `assets/provas/${folder}/${file}`;
+    const data = JSON.parse(await readFile(path.join(dir, file), 'utf8'));
+    if (data.exam_metadata.status) continue; // incomplete / superseded exams aren't served
     await cp(path.join(dir, file), path.join(out, relative));
-    catalog.push(summarize(category, relative, JSON.parse(await readFile(path.join(dir, file), 'utf8'))));
+    catalog.push(summarize(category, relative, data));
   }
 }
 await writeFile(path.join(out, 'assets', 'provas', 'catalog.json'), JSON.stringify(catalog));
