@@ -1,0 +1,227 @@
+:host {
+  display: block;
+}
+
+.filter {
+  position: relative;
+}
+.filter__current {
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: var(--primary);
+  background: var(--primary-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+.filter__menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 10;
+  display: grid;
+  min-width: 180px;
+  padding: 6px;
+  box-shadow: var(--shadow-md);
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 8px;
+    color: var(--text);
+    background: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--hover);
+    }
+    &.selected {
+      color: var(--primary);
+      font-weight: 700;
+    }
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 28px;
+  margin-top: 36px;
+}
+.grid__empty {
+  grid-column: 1 / -1;
+  margin-top: 0;
+}
+
+.subject {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  border-radius: 22px;
+
+  h2 {
+    margin-top: 28px;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+  }
+}
+.subject__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.subject__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+}
+.subject__count {
+  padding: 5px 12px;
+  border-radius: 999px;
+  color: var(--text-muted);
+  background: var(--hover);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.subject__desc {
+  margin-top: 12px;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.progress {
+  margin-top: auto;
+  padding-top: 28px;
+}
+.progress__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  span {
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  strong {
+    color: var(--primary);
+    font-size: 16px;
+  }
+}
+.progress__track {
+  display: flex;
+  gap: 4px;
+  height: 8px;
+  margin-top: 12px;
+  border-radius: 999px;
+  background: var(--track);
+  overflow: hidden;
+
+  span {
+    border-radius: 999px;
+    min-width: 6px;
+  }
+}
+.progress__correct {
+  background: #10b981;
+}
+.progress__wrong {
+  background: #f87171;
+}
+
+.subject__start {
+  margin-top: 20px;
+  min-height: 50px;
+  border-radius: 12px;
+}
+
+.suggestion {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 48px;
+  border-radius: 22px;
+
+  h2 {
+    margin-top: 16px;
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+  }
+  p {
+    margin-top: 18px;
+    color: var(--text-muted);
+    font-size: 17px;
+    line-height: 1.65;
+  }
+}
+.suggestion__tag {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  color: #92400e;
+  background: #fef3c7;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.suggestion__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+
+  .btn {
+    min-height: 50px;
+    padding: 0 36px;
+  }
+}
+.suggestion__art {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  color: #fcd34d;
+  background:
+    radial-gradient(circle at 50% 110%, rgb(252 211 77 / 0.18), transparent 60%),
+    repeating-linear-gradient(90deg, rgb(255 255 255 / 0.03) 0 1px, transparent 1px 44px),
+    linear-gradient(160deg, #1e3a8a, #172554);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.06);
+}
+
+@media (max-width: 860px) {
+  .suggestion {
+    grid-template-columns: 1fr;
+    padding: 28px;
+  }
+  .suggestion__art {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-head__actions,
+  .page-head__actions .filter,
+  .page-head__actions .btn {
+    width: 100%;
+  }
+}

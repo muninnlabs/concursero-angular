@@ -1,8 +1,10 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
-import { NavigationEnd, Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { ActivatedRouteSnapshot, NavigationEnd, Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { filter } from 'rxjs';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { AuthService } from '../../core/auth.service';
+import { PreferencesService } from '../../core/preferences';
+import { SearchState } from '../../core/search';
 import { Icon, type IconName } from '../../shared/icon';
 import { Logo } from '../../shared/logo';
 
@@ -18,10 +20,18 @@ interface NavItem {
   templateUrl: './shell.layout.html',
   styleUrl: './shell.layout.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  host: { '(document:keydown.escape)': 'closeMenus()' },
+  host: {
+    '(document:keydown.escape)': 'closeMenus()',
+    '[attr.data-theme]': "preferences.value().darkMode ? 'dark' : 'light'",
+  },
 })
 export class ShellLayout {
   protected readonly auth = inject(AuthService);
+  protected readonly preferences = inject(PreferencesService);
+  protected readonly search = inject(SearchState);
+
+  /** From the current route's data: a search placeholder, or a title shown instead of the search box. */
+  protected readonly topbar = signal<{ search?: string; title?: string }>({});
 
   protected readonly sidebarOpen = signal(false);
   protected readonly userMenuOpen = signal(false);
@@ -48,12 +58,23 @@ export class ShellLayout {
   ];
 
   constructor() {
-    inject(Router)
-      .events.pipe(
+    const router = inject(Router);
+    const readTopbar = () => {
+      let route: ActivatedRouteSnapshot = router.routerState.snapshot.root;
+      while (route.firstChild) route = route.firstChild;
+      this.topbar.set({ search: route.data['search'], title: route.data['topbarTitle'] });
+    };
+    readTopbar();
+    router.events
+      .pipe(
         filter((e) => e instanceof NavigationEnd),
         takeUntilDestroyed(),
       )
-      .subscribe(() => this.closeMenus());
+      .subscribe(() => {
+        this.closeMenus();
+        this.search.query.set('');
+        readTopbar();
+      });
   }
 
   protected closeMenus() {

@@ -1,0 +1,109 @@
+<header class="page-head">
+  <div>
+    <h1>Estatísticas</h1>
+    <p>Análise detalhada do seu progresso e desempenho.</p>
+  </div>
+  <div class="page-head__actions">
+    <div class="segmented" role="radiogroup" aria-label="Tipo de prova">
+      @for (category of categories; track category.id) {
+        <button
+          type="button"
+          role="radio"
+          [attr.aria-checked]="categoryState.selected() === category.id"
+          [class.active]="categoryState.selected() === category.id"
+          (click)="categoryState.select(category.id)"
+        >
+          {{ category.label }}
+        </button>
+      }
+    </div>
+    <div class="segmented" role="radiogroup" aria-label="Período">
+      @for (period of periods; track period) {
+        <button type="button" role="radio" [attr.aria-checked]="days() === period" [class.active]="days() === period" (click)="days.set(period)">
+          {{ period }} dias
+        </button>
+      }
+    </div>
+  </div>
+</header>
+
+@if (activity.error()) {
+  <p class="card state">
+    Não foi possível carregar suas estatísticas.
+    <button class="link" type="button" (click)="activity.reload()">Tentar de novo</button>
+  </p>
+} @else {
+  <section class="kpis" aria-label="Resumo do período">
+    @for (kpi of kpis(); track kpi.label) {
+      <article class="card kpi">
+        <div class="kpi__top">
+          <span class="icon-badge tone--{{ kpi.tone }}"><app-icon [name]="kpi.icon" [size]="20" [strokeWidth]="2.5" /></span>
+          @if (kpi.delta; as delta) {
+            <span class="delta" [class.delta--good]="delta.good" [class.delta--bad]="!delta.good">{{ delta.text }}</span>
+          }
+        </div>
+        <strong>{{ kpi.value }}</strong>
+        <span class="kpi__label">{{ kpi.label }}</span>
+      </article>
+    }
+  </section>
+
+  <section class="card chart-card">
+    <div class="chart-card__head">
+      <div>
+        <h2>Evolução Diária</h2>
+        <p>Comparativo entre acertos e erros {{ days() === 7 ? 'na última semana' : 'nos últimos 30 dias' }}</p>
+      </div>
+      <ul class="legend" aria-label="Legenda">
+        @for (s of chart().series; track s.label) {
+          <li><i [style.background]="s.color"></i>{{ s.label }}</li>
+        }
+      </ul>
+    </div>
+    @if (activity.isLoading() && !activity.value()) {
+      <p class="chart-card__empty">Carregando…</p>
+    } @else {
+      <div class="chart-card__plot">
+        <app-line-chart
+          [class.muted]="chart().empty"
+          [labels]="chart().labels"
+          [fullLabels]="chart().fullLabels"
+          [series]="chart().series"
+          [description]="chartDescription(activity.value())"
+        />
+        @if (chart().empty) {
+          <div class="chart-card__overlay">
+            <p>Nenhuma questão respondida neste período.</p>
+            <a class="btn btn--primary" routerLink="/app/assuntos">Praticar agora</a>
+          </div>
+        }
+      </div>
+    }
+  </section>
+
+  <div class="bottom">
+    <section class="card subjects">
+      <h2>Desempenho por Matéria</h2>
+      @for (s of subjects(); track s.subject) {
+        <div class="subject">
+          <div class="subject__label">
+            <span>{{ s.subject }}</span>
+            <strong class="text--{{ s.tone }}" [title]="s.answered + ' respostas'">{{ s.value }}%</strong>
+          </div>
+          <div class="bar" role="img" [attr.aria-label]="s.subject + ': ' + s.value + '% de acerto'">
+            <span class="bar--{{ s.tone }}" [style.width.%]="s.value"></span>
+          </div>
+        </div>
+      } @empty {
+        <p class="subjects__empty">Sem respostas neste período ainda.</p>
+      }
+    </section>
+
+    <section class="card level">
+      <span class="level__badge level__badge--{{ level()?.tone ?? 'none' }}"><app-icon name="award" [size]="30" /></span>
+      <h2>Nível de Preparação: {{ level()?.name ?? '—' }}</h2>
+      <p>{{ levelText() }}</p>
+      <a class="btn btn--primary" routerLink="/app/assuntos">Continuar praticando</a>
+    </section>
+  </div>
+}

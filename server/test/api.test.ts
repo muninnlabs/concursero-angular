@@ -69,6 +69,14 @@ describe('exams', () => {
     assert.ok(!json.includes('is_correct'));
   });
 
+  test('lists subjects with their practisable question counts', async () => {
+    const { body } = await api('GET', '/api/subjects?category=OAB');
+    assert.deepEqual(
+      body.map((s: { subject: string; questionCount: number }) => [s.subject, s.questionCount]),
+      [['Direito Penal', 2], ['Direito Civil', 1]],
+    );
+  });
+
   test('practice questions skip annulled questions', async () => {
     const { body } = await api('GET', '/api/practice/questions?count=50&category=OAB');
     assert.deepEqual(body.map((q: Question) => q.id).sort(), ['legacy_q4', `${EXAM}_q1`, `${EXAM}_q2`]);
@@ -123,6 +131,35 @@ describe('signed-in user', () => {
   test("users don't see each other's stats", async () => {
     const other = await api('GET', '/api/me/stats', undefined, 'valid:someone-else');
     assert.equal(other.body.answered, 0);
+  });
+
+  test('activity: daily split, averages and progress per subject', async () => {
+    await api(
+      'POST',
+      '/api/answers',
+      { answers: [{ questionId: `${EXAM}_q1`, examId: EXAM, selected: 'A', durationMs: 30_000 }] },
+      token,
+    );
+    const { status, body } = await api('GET', '/api/me/activity?days=7&category=OAB&tz=180', undefined, token);
+    assert.equal(status, 200);
+    assert.equal(body.days.length, 7);
+    assert.deepEqual(body.days.at(-1), { day: body.days.at(-1).day, correct: 2, wrong: 2 });
+    assert.deepEqual(body.current, { answered: 4, correct: 2, avgSeconds: 30 });
+    assert.deepEqual(body.previous, { answered: 0, correct: 0, avgSeconds: null });
+    const penal = body.bySubject.find((s: { subject: string }) => s.subject === 'Direito Penal');
+    assert.deepEqual([penal.answered, penal.correct, penal.questions], [3, 2, 2]);
+    assert.equal(body.ranking, null); // not enough answers or users to rank
+  });
+
+  test('deleting the account removes the profile and its history', async () => {
+    const uid = 'valid:to-delete';
+    await api('POST', '/api/answers', { answers: [{ questionId: `${EXAM}_q1`, examId: EXAM, selected: 'C' }], simulado: {} }, uid);
+    assert.equal((await api('GET', '/api/me/stats', undefined, uid)).body.answered, 1);
+
+    const res = await app.request('/api/me', { method: 'DELETE', headers: { authorization: `Bearer ${uid}` } });
+    assert.equal(res.status, 204);
+    assert.equal((await api('GET', '/api/me/stats', undefined, uid)).body.answered, 0);
+    assert.deepEqual((await api('GET', '/api/me/simulados', undefined, uid)).body, []);
   });
 });
 

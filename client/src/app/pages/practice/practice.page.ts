@@ -1,9 +1,10 @@
 import { HttpErrorResponse } from '@angular/common/http';
-import { ChangeDetectionStrategy, Component, DestroyRef, computed, inject, input, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, DestroyRef, computed, effect, inject, input, signal } from '@angular/core';
 import { rxResource } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { ApiService, assetUrl } from '../../core/api.service';
 import type { GradedAnswer } from '../../core/models';
+import { PreferencesService } from '../../core/preferences';
 import { Icon } from '../../shared/icon';
 
 const MODES = {
@@ -27,6 +28,7 @@ export function dewrap(text: string | null | undefined): string {
 })
 export class PracticePage {
   private readonly api = inject(ApiService);
+  private readonly preferences = inject(PreferencesService);
 
   // Query params (?modo=mini&categoria=OAB&materia=...), bound by the router.
   readonly modo = input<string>();
@@ -65,6 +67,10 @@ export class PracticePage {
     return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
   });
 
+  // Time spent looking at each question ("Média por Questão" on Estatísticas).
+  private readonly timeSpent = new Map<string, number>();
+  private viewingSince = Date.now();
+
   protected readonly dewrap = dewrap;
   protected readonly assetUrl = assetUrl;
 
@@ -73,6 +79,10 @@ export class PracticePage {
       if (!this.results()) this.now.set(Date.now());
     }, 1000);
     inject(DestroyRef).onDestroy(() => clearInterval(timer));
+    // The clock for the first question starts once it's on screen, not while loading.
+    effect(() => {
+      if (this.questions.value()) this.viewingSince = Date.now();
+    });
   }
 
   /**
@@ -90,26 +100,44 @@ export class PracticePage {
   }
 
   protected go(delta: number) {
-    this.index.update((i) => Math.min(Math.max(i + delta, 0), this.total() - 1));
+    this.goTo(this.index() + delta);
+  }
+
+  protected goTo(index: number) {
+    this.recordTime();
+    this.index.set(Math.min(Math.max(index, 0), this.total() - 1));
+  }
+
+  /** Adds the time since the last switch to the question on screen. */
+  private recordTime() {
+    const now = Date.now();
+    const id = this.current()?.id;
+    if (id && !this.results()) this.timeSpent.set(id, (this.timeSpent.get(id) ?? 0) + now - this.viewingSince);
+    this.viewingSince = now;
   }
 
   protected submit() {
+    this.recordTime();
     const examOf = new Map(this.questions.value()?.map((q) => [q.id, q.examId]));
     const answers = Object.entries(this.selected()).map(([questionId, selected]) => ({
       questionId,
       examId: examOf.get(questionId)!,
       selected,
+      durationMs: this.timeSpent.get(questionId),
     }));
     if (answers.length === 0) return;
 
     this.submitting.set(true);
     this.error.set(null);
-    const simulado = this.mode() === 'mini' ? { title: `${this.config().title} — ${this.category()}` } : undefined;
+    const simulado =
+      this.mode() === 'mini' ? { title: `${this.config().title} — ${this.materia() || this.category()}` } : undefined;
 
     this.api.submitAnswers(answers, simulado).subscribe({
       next: ({ results }) => {
         this.results.set(results);
         this.submitting.set(false);
+        const correct = results.filter((r) => r.isCorrect).length;
+        this.preferences.playResult(correct / results.length >= 0.6);
         this.index.set(0);
       },
       error: (err: unknown) => {

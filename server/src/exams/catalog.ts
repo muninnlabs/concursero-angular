@@ -72,6 +72,12 @@ export function toPublicQuestion(question: Question, examId: string): PublicQues
   };
 }
 
+function countSubjects(questions: Question[]): Record<string, number> {
+  const counts: Record<string, number> = {};
+  for (const { subject } of questions) if (subject) counts[subject] = (counts[subject] ?? 0) + 1;
+  return counts;
+}
+
 export function summarize(category: string, relativePath: string, data: ExamFile): ExamSummary {
   const meta = data.exam_metadata;
   return {
@@ -87,6 +93,7 @@ export function summarize(category: string, relativePath: string, data: ExamFile
     questionCount: data.questions.length,
     gradableCount: data.questions.filter(isPlayable).length,
     subjects: [...new Set(data.questions.map((q) => q.subject).filter((s) => s != null))],
+    subjectCounts: countSubjects(data.questions.filter(isPlayable)),
   };
 }
 

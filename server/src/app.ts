@@ -13,6 +13,9 @@ type Env = { Variables: { user: AuthUser } };
 
 const MAX_PRACTICE_QUESTIONS = 50;
 const MAX_ANSWERS_PER_REQUEST = 200;
+/** Longer than this, the tab was probably left open: the time isn't counted. */
+const MAX_DURATION_MS = 30 * 60_000;
+const ACTIVITY_PERIODS = [7, 30];
 
 /**
  * The API, independent of where it runs: server/src/node.ts serves it with
@@ -59,6 +62,23 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     return c.json({ exam: exam.summary, questions: exam.questions.map((q) => toPublicQuestion(q, exam.summary.id)) });
   });
 
+  /** Subjects with their practisable question counts, most questions first ("Assuntos"). */
+  app.get('/subjects', async (c) => {
+    const category = c.req.query('category');
+    const totals = new Map<string, { subject: string; category: string; questionCount: number; examCount: number }>();
+    for (const exam of await exams.list()) {
+      if (category && exam.category !== category) continue;
+      for (const [subject, count] of Object.entries(exam.subjectCounts)) {
+        const key = `${exam.category}\u0000${subject}`;
+        const entry = totals.get(key) ?? { subject, category: exam.category, questionCount: 0, examCount: 0 };
+        entry.questionCount += count;
+        entry.examCount++;
+        totals.set(key, entry);
+      }
+    }
+    return c.json([...totals.values()].sort((a, b) => b.questionCount - a.questionCount));
+  });
+
   /** Random questions for "Questão Relâmpago" (count=1) and "Mini Simulado" (count=10). */
   app.get('/practice/questions', async (c) => {
     const count = Math.min(Math.max(Number(c.req.query('count')) || 10, 1), MAX_PRACTICE_QUESTIONS);
@@ -84,7 +104,9 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
    */
   app.post('/answers', requireAuth, async (c) => {
     const body = await c.req.json().catch(() => null);
-    const submitted: { questionId?: unknown; examId?: unknown; selected?: unknown }[] = Array.isArray(body?.answers)
+    const submitted: { questionId?: unknown; examId?: unknown; selected?: unknown; durationMs?: unknown }[] = Array.isArray(
+      body?.answers,
+    )
       ? body.answers
       : [];
     if (submitted.length === 0 || submitted.length > MAX_ANSWERS_PER_REQUEST) {
@@ -107,6 +129,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
         subject: question.subject,
         selected,
         isCorrect: selected === question.correct_answer,
+        durationMs: validDuration(answer?.durationMs),
         correctAnswer: question.correct_answer!,
       });
     }
@@ -144,6 +167,25 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     return c.json(await store.getStats(c.get('user').uid, { category: c.req.query('category') || undefined }));
   });
 
+  /** "Estatísticas": ?days=7|30&category=OAB&tz=<Date#getTimezoneOffset()> */
+  app.get('/me/activity', requireAuth, async (c) => {
+    const days = Number(c.req.query('days'));
+    const tz = Number(c.req.query('tz'));
+    return c.json(
+      await store.getActivity(c.get('user').uid, {
+        days: ACTIVITY_PERIODS.includes(days) ? days : 7,
+        category: c.req.query('category') || undefined,
+        tzOffsetMinutes: Number.isInteger(tz) && Math.abs(tz) <= 14 * 60 ? tz : 0,
+      }),
+    );
+  });
+
+  /** Deletes the profile, answers and simulados. The Firebase account itself is left alone (shared with the mobile app). */
+  app.delete('/me', requireAuth, async (c) => {
+    await store.deleteUser(c.get('user').uid);
+    return c.body(null, 204);
+  });
+
   app.get('/me/simulados', requireAuth, async (c) => {
     const limit = Math.min(Math.max(Number(c.req.query('limit')) || 5, 1), 50);
     return c.json(
@@ -158,4 +200,10 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
   });
 
   return app;
+}
+
+function validDuration(value: unknown): number | null {
+  return typeof value === 'number' && Number.isFinite(value) && value > 0 && value <= MAX_DURATION_MS
+    ? Math.round(value)
+    : null;
 }

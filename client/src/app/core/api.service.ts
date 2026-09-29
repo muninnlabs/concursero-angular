@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import type { Observable } from 'rxjs';
-import type { Catalog, GradedAnswer, Question, Simulado, UserStats } from './models';
+import type { ActivityStats, Catalog, GradedAnswer, Question, Simulado, SubjectInfo, UserStats } from './models';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
@@ -17,8 +17,12 @@ export class ApiService {
     return this.http.get<Question[]>('api/practice/questions', { params });
   }
 
+  subjects(category?: string): Observable<SubjectInfo[]> {
+    return this.http.get<SubjectInfo[]>('api/subjects', { params: category ? { category } : {} });
+  }
+
   submitAnswers(
-    answers: { questionId: string; examId: string; selected: string }[],
+    answers: { questionId: string; examId: string; selected: string; durationMs?: number }[],
     simulado?: { title: string },
   ): Observable<{ results: GradedAnswer[]; simulado?: Simulado }> {
     return this.http.post<{ results: GradedAnswer[]; simulado?: Simulado }>('api/answers', { answers, simulado });
@@ -26,6 +30,16 @@ export class ApiService {
 
   stats(category?: string): Observable<UserStats> {
     return this.http.get<UserStats>('api/me/stats', { params: category ? { category } : {} });
+  }
+
+  /** Last `days` days (7 or 30), split at the browser's local midnight. */
+  activity(days: number, category?: string): Observable<ActivityStats> {
+    const params = { days, tz: new Date().getTimezoneOffset(), ...(category ? { category } : {}) };
+    return this.http.get<ActivityStats>('api/me/activity', { params });
+  }
+
+  deleteAccount(): Observable<void> {
+    return this.http.delete<void>('api/me');
   }
 
   simulados(category?: string, limit = 5): Observable<Simulado[]> {
