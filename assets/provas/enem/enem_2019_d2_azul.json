@@ -1281,12 +1281,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Grupos de pesquisa em todo o mundo vêm buscando soluções inovadoras, visando a produção de dispositivos para a geração de energia elétrica. Dentre eles, pode-se destacar as baterias de zinco-ar, que combinam o oxigênio atmosférico e o metal zinco em um eletrólito aquoso de caráter alcalino. O esquema de funcionamento da bateria zinco-ar está apresentado na figura. arodarapes anarbmeM Zn(OH) 2− 4 O 2 o o c s n o r o p d e zi o o d d o o r te lE OH− El et r LI, Y.; DAI, H. Recent Advances in Zinc–Air Batteries.",
+          "content": "Grupos de pesquisa em todo o mundo vêm buscando soluções inovadoras, visando a produção de dispositivos para a geração de energia elétrica. Dentre eles, pode-se destacar as baterias de zinco-ar, que combinam o oxigênio atmosférico e o metal zinco em um eletrólito aquoso de caráter alcalino. O esquema de funcionamento da bateria zinco-ar está apresentado na figura. DAI, H. Recent Advances in Zinc–Air Batteries.",
           "source": "Chemical Society Reviews, v. 43, n. 15, 2014 (adaptado)."
         }
       ],
       "image_url": [
-        "assets/images/enem_2019_cd7_q118.png"
+        "assets/images/enem_2019_cd7_q118-fig1.png"
       ],
       "statement": "No funcionamento da bateria, a espécie química formada no ânodo é",
       "options": [
@@ -1619,18 +1619,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Durante sua evolução, as plantas apresentaram grande diversidade de características, as quais permitiram sua sobrevivência em diferentes ambientes. Na imagem, cinco dessas características estão indicadas por números.\nLegenda:\nHepáticas 1. Embriões protegidos no gametófito.\nALGA VERDE 1 Antóceros 2 Tecidos condutores verdadeiros.\nANCESTRAL 3 Formação de tubo polínico.\nMusgos 4 Polinização pelo vento. 5 Produção de frutos.",
-          "source": "Licófitas (licopódios, Isoetes, Selaginella) 2 Pteridófitas (samambaias, cavalinhas, Psilotum) 4 Gimnospermas 3 5 Angiospermas 500 450 400 350 300 50 0 Milhões de anos CAMPBELL, N. et al. Biologia. São Paulo: Artmed, 2010 (adaptado)."
+          "content": "Durante sua evolução, as plantas apresentaram grande diversidade de características, as quais permitiram sua sobrevivência em diferentes ambientes. Na imagem, cinco dessas características estão indicadas por números.",
+          "source": "CAMPBELL, N. et al. Biologia. São Paulo: Artmed, 2010 (adaptado)."
         }
       ],
       "image_url": [
-        "assets/images/enem_2019_cd7_q125-1.png",
-        "assets/images/enem_2019_cd7_q125-2.png",
-        "assets/images/enem_2019_cd7_q125-3.png",
-        "assets/images/enem_2019_cd7_q125-4.png",
-        "assets/images/enem_2019_cd7_q125-5.png",
-        "assets/images/enem_2019_cd7_q125-6.png",
-        "assets/images/enem_2019_cd7_q125-7.png"
+        "assets/images/enem_2019_cd7_q125-fig1.png"
       ],
       "statement": "A aquisição evolutiva que permitiu a conquista definitiva do ambiente terrestre pelas plantas está indicada pelo número",
       "options": [

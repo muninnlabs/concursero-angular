@@ -3684,7 +3684,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure measurements (H, 4 m, 3 m, 5 m) missing from the images; needs a manual crop"
+        ]
+      }
     },
     {
       "id": "enem_2017_d2_azul_q169",
