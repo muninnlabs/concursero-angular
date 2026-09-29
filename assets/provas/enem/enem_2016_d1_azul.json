@@ -782,7 +782,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q16-fig1.png"
+      ],
       "statement": "Parceria Transpacífica Canadá Estados Unidos Japão México Vietnã Cingapura Brunei Darussalam Malásia Peru Austrália Chile Nova Zelândia Disponível em: http://portuguese.brazil.usembassy.gov. Acesso em: 11 maio 2016 (adaptado). Dentro das atuais redes produtivas, o referido bloco apresenta composição estratégica por se tratar de um conjunto de países com",
       "options": [
         {
@@ -825,7 +827,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q17-fig1.png"
+      ],
       "statement": null,
       "options": [
         {
@@ -859,7 +863,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option drawing(s) E not located or cut by a page break",
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2016_d1_azul_q18",
@@ -1785,7 +1796,9 @@
           "source": "Japão Espanha 1 054 274 2 588 658 Estados Unidos 5 653 941 Emirados Árabes Unidos 6 228 017 Arábia Saudita 6 879 869 Kuwait 2 111 558 Capacidade instalada (m³/dia): 5 001 a 50 000 50 001 a 500 000 500 001 a 1 000 000 acima de 1 000 000 EUA. Relatório da Academia Nacional de Ciências, 2008 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q36-fig1.png"
+      ],
       "statement": "Conforme a análise do documento cartográfico, a área de concentração das usinas de dessalinização é explicada pelo(a)",
       "options": [
         {
@@ -2234,169 +2247,19 @@
       ],
       "image_url": [
         "assets/images/enem_2016_cd1_q45-1.png",
-        "assets/images/enem_2016_cd1_q45-2.png",
-        "assets/images/enem_2016_cd1_q45-3.png",
         "assets/images/enem_2016_cd1_q45-4.png",
         "assets/images/enem_2016_cd1_q45-5.png",
         "assets/images/enem_2016_cd1_q45-6.png",
         "assets/images/enem_2016_cd1_q45-7.png",
         "assets/images/enem_2016_cd1_q45-8.png",
         "assets/images/enem_2016_cd1_q45-9.png",
-        "assets/images/enem_2016_cd1_q45-10.png",
-        "assets/images/enem_2016_cd1_q45-11.png",
-        "assets/images/enem_2016_cd1_q45-12.png",
-        "assets/images/enem_2016_cd1_q45-13.png",
-        "assets/images/enem_2016_cd1_q45-14.png",
-        "assets/images/enem_2016_cd1_q45-15.png",
-        "assets/images/enem_2016_cd1_q45-16.png",
-        "assets/images/enem_2016_cd1_q45-17.png",
-        "assets/images/enem_2016_cd1_q45-18.png",
-        "assets/images/enem_2016_cd1_q45-19.png",
-        "assets/images/enem_2016_cd1_q45-20.png",
-        "assets/images/enem_2016_cd1_q45-21.png",
-        "assets/images/enem_2016_cd1_q45-22.png",
-        "assets/images/enem_2016_cd1_q45-23.png",
-        "assets/images/enem_2016_cd1_q45-24.png",
-        "assets/images/enem_2016_cd1_q45-25.png",
-        "assets/images/enem_2016_cd1_q45-26.png",
-        "assets/images/enem_2016_cd1_q45-27.png",
-        "assets/images/enem_2016_cd1_q45-28.png",
-        "assets/images/enem_2016_cd1_q45-29.png",
-        "assets/images/enem_2016_cd1_q45-30.png",
-        "assets/images/enem_2016_cd1_q45-31.png",
-        "assets/images/enem_2016_cd1_q45-32.png",
-        "assets/images/enem_2016_cd1_q45-33.png",
-        "assets/images/enem_2016_cd1_q45-34.png",
-        "assets/images/enem_2016_cd1_q45-35.png",
-        "assets/images/enem_2016_cd1_q45-36.png",
-        "assets/images/enem_2016_cd1_q45-37.png",
-        "assets/images/enem_2016_cd1_q45-38.png",
-        "assets/images/enem_2016_cd1_q45-39.png",
-        "assets/images/enem_2016_cd1_q45-40.png",
         "assets/images/enem_2016_cd1_q45-41.png",
-        "assets/images/enem_2016_cd1_q45-42.png",
-        "assets/images/enem_2016_cd1_q45-43.png",
-        "assets/images/enem_2016_cd1_q45-44.png",
-        "assets/images/enem_2016_cd1_q45-45.png",
-        "assets/images/enem_2016_cd1_q45-46.png",
-        "assets/images/enem_2016_cd1_q45-47.png",
-        "assets/images/enem_2016_cd1_q45-48.png",
-        "assets/images/enem_2016_cd1_q45-49.png",
-        "assets/images/enem_2016_cd1_q45-50.png",
-        "assets/images/enem_2016_cd1_q45-51.png",
-        "assets/images/enem_2016_cd1_q45-52.png",
-        "assets/images/enem_2016_cd1_q45-53.png",
-        "assets/images/enem_2016_cd1_q45-54.png",
-        "assets/images/enem_2016_cd1_q45-55.png",
-        "assets/images/enem_2016_cd1_q45-56.png",
-        "assets/images/enem_2016_cd1_q45-57.png",
-        "assets/images/enem_2016_cd1_q45-58.png",
-        "assets/images/enem_2016_cd1_q45-59.png",
-        "assets/images/enem_2016_cd1_q45-60.png",
-        "assets/images/enem_2016_cd1_q45-61.png",
-        "assets/images/enem_2016_cd1_q45-62.png",
-        "assets/images/enem_2016_cd1_q45-63.png",
-        "assets/images/enem_2016_cd1_q45-64.png",
-        "assets/images/enem_2016_cd1_q45-65.png",
         "assets/images/enem_2016_cd1_q45-66.png",
         "assets/images/enem_2016_cd1_q45-67.png",
         "assets/images/enem_2016_cd1_q45-68.png",
         "assets/images/enem_2016_cd1_q45-69.png",
         "assets/images/enem_2016_cd1_q45-70.png",
-        "assets/images/enem_2016_cd1_q45-71.png",
-        "assets/images/enem_2016_cd1_q45-72.png",
-        "assets/images/enem_2016_cd1_q45-73.png",
-        "assets/images/enem_2016_cd1_q45-74.png",
-        "assets/images/enem_2016_cd1_q45-75.png",
-        "assets/images/enem_2016_cd1_q45-76.png",
-        "assets/images/enem_2016_cd1_q45-77.png",
-        "assets/images/enem_2016_cd1_q45-78.png",
-        "assets/images/enem_2016_cd1_q45-79.png",
-        "assets/images/enem_2016_cd1_q45-80.png",
-        "assets/images/enem_2016_cd1_q45-81.png",
-        "assets/images/enem_2016_cd1_q45-82.png",
-        "assets/images/enem_2016_cd1_q45-83.png",
-        "assets/images/enem_2016_cd1_q45-84.png",
-        "assets/images/enem_2016_cd1_q45-85.png",
-        "assets/images/enem_2016_cd1_q45-86.png",
-        "assets/images/enem_2016_cd1_q45-87.png",
-        "assets/images/enem_2016_cd1_q45-88.png",
-        "assets/images/enem_2016_cd1_q45-89.png",
-        "assets/images/enem_2016_cd1_q45-90.png",
-        "assets/images/enem_2016_cd1_q45-91.png",
-        "assets/images/enem_2016_cd1_q45-92.png",
-        "assets/images/enem_2016_cd1_q45-93.png",
-        "assets/images/enem_2016_cd1_q45-94.png",
-        "assets/images/enem_2016_cd1_q45-95.png",
-        "assets/images/enem_2016_cd1_q45-96.png",
-        "assets/images/enem_2016_cd1_q45-97.png",
-        "assets/images/enem_2016_cd1_q45-98.png",
-        "assets/images/enem_2016_cd1_q45-99.png",
-        "assets/images/enem_2016_cd1_q45-100.png",
-        "assets/images/enem_2016_cd1_q45-101.png",
-        "assets/images/enem_2016_cd1_q45-102.png",
-        "assets/images/enem_2016_cd1_q45-103.png",
-        "assets/images/enem_2016_cd1_q45-104.png",
-        "assets/images/enem_2016_cd1_q45-105.png",
-        "assets/images/enem_2016_cd1_q45-106.png",
-        "assets/images/enem_2016_cd1_q45-107.png",
-        "assets/images/enem_2016_cd1_q45-108.png",
-        "assets/images/enem_2016_cd1_q45-109.png",
-        "assets/images/enem_2016_cd1_q45-110.png",
-        "assets/images/enem_2016_cd1_q45-111.png",
-        "assets/images/enem_2016_cd1_q45-112.png",
-        "assets/images/enem_2016_cd1_q45-113.png",
-        "assets/images/enem_2016_cd1_q45-114.png",
-        "assets/images/enem_2016_cd1_q45-115.png",
-        "assets/images/enem_2016_cd1_q45-116.png",
-        "assets/images/enem_2016_cd1_q45-117.png",
-        "assets/images/enem_2016_cd1_q45-118.png",
-        "assets/images/enem_2016_cd1_q45-119.png",
-        "assets/images/enem_2016_cd1_q45-120.png",
-        "assets/images/enem_2016_cd1_q45-121.png",
-        "assets/images/enem_2016_cd1_q45-122.png",
-        "assets/images/enem_2016_cd1_q45-123.png",
-        "assets/images/enem_2016_cd1_q45-124.png",
-        "assets/images/enem_2016_cd1_q45-125.png",
-        "assets/images/enem_2016_cd1_q45-126.png",
-        "assets/images/enem_2016_cd1_q45-127.png",
-        "assets/images/enem_2016_cd1_q45-128.png",
-        "assets/images/enem_2016_cd1_q45-129.png",
-        "assets/images/enem_2016_cd1_q45-130.png",
-        "assets/images/enem_2016_cd1_q45-131.png",
-        "assets/images/enem_2016_cd1_q45-132.png",
-        "assets/images/enem_2016_cd1_q45-133.png",
-        "assets/images/enem_2016_cd1_q45-134.png",
-        "assets/images/enem_2016_cd1_q45-135.png",
-        "assets/images/enem_2016_cd1_q45-136.png",
-        "assets/images/enem_2016_cd1_q45-137.png",
-        "assets/images/enem_2016_cd1_q45-138.png",
-        "assets/images/enem_2016_cd1_q45-139.png",
-        "assets/images/enem_2016_cd1_q45-140.png",
-        "assets/images/enem_2016_cd1_q45-141.png",
-        "assets/images/enem_2016_cd1_q45-142.png",
-        "assets/images/enem_2016_cd1_q45-143.png",
-        "assets/images/enem_2016_cd1_q45-144.png",
-        "assets/images/enem_2016_cd1_q45-145.png",
-        "assets/images/enem_2016_cd1_q45-146.png",
-        "assets/images/enem_2016_cd1_q45-147.png",
-        "assets/images/enem_2016_cd1_q45-148.png",
-        "assets/images/enem_2016_cd1_q45-149.png",
-        "assets/images/enem_2016_cd1_q45-150.png",
-        "assets/images/enem_2016_cd1_q45-151.png",
-        "assets/images/enem_2016_cd1_q45-152.png",
-        "assets/images/enem_2016_cd1_q45-153.png",
-        "assets/images/enem_2016_cd1_q45-154.png",
-        "assets/images/enem_2016_cd1_q45-155.png",
-        "assets/images/enem_2016_cd1_q45-156.png",
-        "assets/images/enem_2016_cd1_q45-157.png",
-        "assets/images/enem_2016_cd1_q45-158.png",
-        "assets/images/enem_2016_cd1_q45-159.png",
-        "assets/images/enem_2016_cd1_q45-160.png",
-        "assets/images/enem_2016_cd1_q45-161.png",
-        "assets/images/enem_2016_cd1_q45-162.png",
-        "assets/images/enem_2016_cd1_q45-163.png",
-        "assets/images/enem_2016_cd1_q45-164.png"
+        "assets/images/enem_2016_cd1_q45-71.png"
       ],
       "statement": "Uma consequência socioeconômica para os países que vivenciam o fenômeno demográfi co ilustrado é a diminuição da",
       "options": [
@@ -2636,7 +2499,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2016_d1_azul_q50",
@@ -2745,7 +2614,9 @@
           "source": "Substância Inseto Cultivo OH O Sitophilus spp Milho O Migdolus fryanus Cana-de-açúcar NH OH Anthonomus rubi Morango OH Grapholita molesta Frutas OCOCH Scrobipalpuloides 3 Tomate absoluta FERREIRA, J. T. B.; ZARBIN, P. H. G. Amor ao primeiro odor: a comunicação química entre os insetos. Química Nova na Escola, n. 7, maio 1998 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q52-fig1.png"
+      ],
       "statement": "Considerando essas estruturas químicas, o tipo de estereoisomeria apresentada pelo bombicol é também apresentada pelo feromônio utilizado no controle do inseto",
       "options": [
         {
@@ -2788,7 +2659,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q53-fig1.png"
+      ],
       "statement": "O esquema representa, de maneira simplificada, o processo de produção de etanol utilizando milho como matéria-prima.\nLevedura CO 2 Milho Etanol Água Hidrólise Fermentação A etapa de hidrólise na produção de etanol a partir do milho é fundamental para que",
       "options": [
         {
@@ -2881,7 +2754,9 @@
           "source": "Figura 1 +20 +10 0 −10 − Bd Resposta de Frequência 3 mm 25 mm 51 mm 60 mm 2 3 4 56789 2 3 4 56789 20 50 100 1 000 10 000 20 000 Hz Disponível em: www.batera.com.br. Acesso em: 8 fev. 2015. Figura 2 Faixas do espectro de frequência sonora Média Média Subgrave Grave Média Aguda baixa alta zH 02 zH 36 zH 052 zH 046 zHk 5,2 zHk 5 zHk 02 Disponível em: www.somsc.com.br. Acesso em: 2 abr. 2015."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q55-fig1.png"
+      ],
       "statement": "Relacionando as informações presentes nas figuras 1 e 2, como a intensidade sonora percebida é afetada pelo aumento da distância do microfone ao alto-falante?",
       "options": [
         {
@@ -3053,7 +2928,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q59-fig1.png"
+      ],
       "statement": "Por apresentar significativa resistividade elétrica, o grafite pode ser utilizado para simular resistores elétricos em circuitos desenhados no papel, com o uso de lápis e lapiseiras. Dependendo da espessura e do comprimento das linhas desenhadas, é possível determinar a resistência elétrica de cada traçado produzido. No esquema foram utilizados três tipos de lápis diferentes (2H, HB e 6B) para efetuar três traçados distintos. 2H HB 6B Munido dessas informações, um estudante pegou uma folha de papel e fez o desenho de um sorvete de casquinha utilizando-se desses traçados. Os valores encontrados nesse experimento, para as resistências elétricas (R), medidas com o auxílio de um ohmímetro ligado nas extremidades das resistências, são mostrados na figura. Verificou-se que os resistores obedeciam à Lei de Ohm. 5 kΩ A B 20 kΩ 10 kΩ 10 kΩ C Na sequência, conectou o ohmímetro nos terminais A e B do desenho e, em seguida, conectou-o nos terminais B e C, anotando as leituras R e R , respectivamente.\nAB BC R Ao estabelecer a razão AB , qual resultado o estudante R BC obteve?",
       "options": [
         {
@@ -3139,7 +3016,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q61-fig1.png"
+      ],
       "statement": "Um pesquisador investigou o papel da predação por peixes na densidade e tamanho das presas, como possível controle de populações de espécies exóticas em costões rochosos. No experimento colocou uma tela sobre uma área da comunidade, impedindo o acesso dos peixes ao alimento, e comparou o resultado com uma área adjacente na qual os peixes tinham acesso livre.\nO quadro apresenta os resultados encontrados após 15 dias de experimento.\nÁrea com tela Área sem tela Espécie Tamanho Tamanho Densidade Densidade exótica médio dos médio dos (indivíduos/ (indivíduos/ indivíduos indivíduos m²) m²) (cm) (cm)\nAlga 100 15 110 18 Craca 300 2 150 1,5 Mexilhão 380 3 200 6 Ascídia 55 4 58 3,8 O pesquisador concluiu corretamente que os peixes controlam a densidade dos(as)",
       "options": [
         {
@@ -3655,7 +3534,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q72-fig1.png"
+      ],
       "statement": "Uma pessoa é responsável pela manutenção de uma sauna úmida. Todos os dias cumpre o mesmo ritual: colhe folhas de capim-cidreira e algumas folhas de eucalipto.\nEm seguida, coloca as folhas na saída do vapor da sauna, aromatizando-a, conforme representado na figura.\nParede Sauna úmida Gerador de vapor Folhas Saída do vapor Qual processo de separação é responsável pela aromatização promovida?",
       "options": [
         {
@@ -3895,7 +3776,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q77-fig1.png",
+        "assets/images/enem_2016_cd1_q77-fig2.png"
+      ],
       "statement": "O trilho de ar é um dispositivo utilizado em laboratórios de física para analisar movimentos em que corpos de prova (carrinhos) podem se mover com atrito desprezível. A figura ilustra um trilho horizontal com dois carrinhos (1 e 2) em que se realiza um experimento para obter a massa do carrinho 2. No instante em que o carrinho 1, de massa 150,0 g, passa a se mover com velocidade escalar constante, o carrinho 2 está em repouso. No momento em que o carrinho 1 se choca com o carrinho 2, ambos passam a se movimentar juntos com velocidade escalar constante. Os sensores eletrônicos distribuídos ao longo do trilho determinam as posições e registram os instantes associados à passagem de cada carrinho, gerando os dados do quadro. sensor 1 sensor 2 sensor 3 sensor 4 carrinho 1 carrinho 2 Carrinho 1 Carrinho 2 Posição (cm) Instante (s) Posição (cm) Instante (s) 15,0 0,0 45,0 0,0 30,0 1,0 45,0 1,0 75,0 8,0 75,0 8,0 90,0 11,0 90,0 11,0 Com base nos dados experimentais, o valor da massa do carrinho 2 é igual a",
       "options": [
         {
@@ -3938,7 +3822,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q78-fig1.png"
+      ],
       "statement": "Após seu desgaste completo, os pneus podem ser queimados para a geração de energia. Dentre os gases gerados na combustão completa da borracha vulcanizada, alguns são poluentes e provocam a chuva ácida. Para evitar que escapem para a atmosfera, esses gases podem ser borbulhados em uma solução aquosa contendo uma substância adequada. Considere as informações das substâncias listadas no quadro.\nSubstância Equilíbrio em solução aquosa Valor da constante de equilíbrio Fenol C H OH + H O → ← C H O− + H O+ 1,3 × 10−10 6 5 2 6 5 3 Piridina C H N + H O → ← C H NH+ + OH− 1,7 × 10−9 5 5 2 5 5 Metilamina CH NH + H O → ← CH NH + + OH− 4,4 × 10−4 3 2 2 3 3 Hidrogenofosfato de potássio HPO 2− + H O → ← H PO − + OH− 2,8 × 10−2 4 2 2 4 Hidrogenosulfato de potássio HSO − + H O → ← SO 2− + H O+ 3,1 × 10−2 4 2 4 3 Dentre as substâncias listadas no quadro, aquela capaz de remover com maior eficiência os gases poluentes é o(a)",
       "options": [
         {
@@ -4090,7 +3976,9 @@
           "source": "H H X = CH (Composto 2) 3 O NOGUEIRA, L. J.; MONTANARI, C. A.; DONNICI, C. L. Histórico da evolução da química medicinal e a importância da lipofilia: de Hipócrates e Galeno a Paracelsus e as contribuições de Overton e de Hansch. Revista Virtual de Química, n. 3, 2009 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q81-fig1.png"
+      ],
       "statement": "Em relação ao coeficiente de partição da testosterona, as lipofilias dos compostos 1 e 2 são, respectivamente,",
       "options": [
         {
@@ -4140,7 +4028,9 @@
           "source": "F Disponível em: www.histedbr.fae.unicamp.br. Acesso em: 28 fev. 2013 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q82-fig1.png"
+      ],
       "statement": "O número mínimo de polias móveis usadas, nessa situação, por Arquimedes foi",
       "options": [
         {
@@ -4291,31 +4181,31 @@
         {
           "letter": "A",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2016_cd1_q85-optA.png",
           "is_correct": false
         },
         {
           "letter": "B",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2016_cd1_q85-optB.png",
           "is_correct": false
         },
         {
           "letter": "C",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2016_cd1_q85-optC.png",
           "is_correct": true
         },
         {
           "letter": "D",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2016_cd1_q85-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2016_cd1_q85-optE.png",
           "is_correct": false
         }
       ],
@@ -4328,7 +4218,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q86-fig1.png"
+      ],
       "statement": "Um experimento para comprovar a natureza ondulatória da radiação de micro-ondas foi realizado da seguinte forma: anotou-se a frequência de operação de um forno de micro-ondas e, em seguida, retirou-se sua plataforma giratória. No seu lugar, colocou-se uma travessa refratária com uma camada grossa de manteiga. Depois disso, o forno foi ligado por alguns segundos. Ao se retirar a travessa refratária do forno, observou-se que havia três pontos de manteiga derretida alinhados sobre toda a travessa. Parte da onda estacionária gerada no interior do forno é ilustrada na figura.\nI II III IV V De acordo com a figura, que posições correspondem a dois pontos consecutivos da manteiga derretida?",
       "options": [
         {
@@ -4464,7 +4356,9 @@
           "source": "BARBOZA, A. C. R. N. et al. Aquecimento em forno de micro-ondas. Desenvolvimento de alguns conceitos fundamentais. Química Nova, n. 6, 2001 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2016_cd1_q89-fig1.png"
+      ],
       "statement": "No gráfico, qual solvente apresenta taxa média de aquecimento mais próxima de zero, no intervalo de 0 s a 40 s?",
       "options": [
         {

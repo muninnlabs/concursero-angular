@@ -3,17 +3,13 @@
 
 export type Plan = 'free' | 'premium';
 
+/** App profile; `id` is the Firebase uid. */
 export interface User {
   id: string;
   name: string;
   email: string;
   plan: Plan;
   createdAt: string;
-}
-
-export interface Session {
-  token: string;
-  user: User;
 }
 
 export interface Catalog {
@@ -39,12 +35,15 @@ export interface QuestionOption {
 export interface Question {
   id: string;
   examId: string;
+  /** e.g. "ENEM 2013 · Dia 1 · Caderno Azul" */
+  examLabel: string;
   question_number: number;
   subject: string | null;
   topic: string | null;
   foreign_language: string | null;
   context_texts: ContextText[];
-  image_url: string | null;
+  /** Normalized by the API: always a list (possibly empty). */
+  image_urls: string[];
   statement: string;
   options: QuestionOption[];
 }

@@ -75,6 +75,15 @@ export class PracticePage {
     inject(DestroyRef).onDestroy(() => clearInterval(timer));
   }
 
+  /**
+   * Some extracted images are 1–20 px fragments of lines from the PDF (mostly
+   * ENEM 2016); they'd show up as stray marks, so hide them once loaded.
+   */
+  protected hideSlivers(event: Event) {
+    const img = event.target as HTMLImageElement;
+    if (img.naturalWidth < 20 || img.naturalHeight < 20) img.hidden = true;
+  }
+
   protected choose(questionId: string, letter: string) {
     if (this.results()) return;
     this.selected.update((current) => ({ ...current, [questionId]: letter }));
@@ -85,7 +94,12 @@ export class PracticePage {
   }
 
   protected submit() {
-    const answers = Object.entries(this.selected()).map(([questionId, selected]) => ({ questionId, selected }));
+    const examOf = new Map(this.questions.value()?.map((q) => [q.id, q.examId]));
+    const answers = Object.entries(this.selected()).map(([questionId, selected]) => ({
+      questionId,
+      examId: examOf.get(questionId)!,
+      selected,
+    }));
     if (answers.length === 0) return;
 
     this.submitting.set(true);

@@ -158,7 +158,9 @@
           "source": null
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q94-fig1.png"
+      ],
       "statement": "Qual teste deve ser considerado para controlar a formação desse tipo de obstrução de tubulações?",
       "options": [
         {
@@ -437,7 +439,9 @@
           "source": null
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q100-fig1.png"
+      ],
       "statement": "Ele solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração.\nA escolha que corresponde à combinação correta é",
       "options": [
         {
@@ -897,7 +901,9 @@
           "source": null
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q110-fig1.png"
+      ],
       "statement": "Qual foi o gráfico obtido pelo assistente de laboratório?",
       "options": [
         {
@@ -1261,7 +1267,9 @@
       "topic": "Composição da gasolina e hidrocarbonetos",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q118-fig1.png"
+      ],
       "statement": "A gasolina é uma mistura de hidrocarbonetos de cadeias saturadas contendo de 8 a 12 átomos de carbono.\nAlém disso, a gasolina de alto desempenho deve conter elevados teores de hidrocarbonetos de cadeias ramificadas, de forma a resistir à compressão e entrar em ignição apenas quando a vela aciona uma centelha elétrica no motor.\nNo quadro, estão apresentados compostos que podem ser utilizados como combustíveis.\nComposto Nomenclatura I n-decano II n-heptano III 2,2,4-trimetilpentano IV 3-etil-4-metilex-1-eno V 3-etil-2-metilpentan-1-ol Entre esses compostos, aquele que conferirá maior desempenho como combustível é o",
       "options": [
         {
@@ -1406,7 +1414,11 @@
           "source": "Elemento metálico Eletronegatividade K 0,82 Ca 1,00 Mg 1,31 Zn 1,65 Fe 1,83 MICHALOVIC, M. Ancient Soil Chemists of the Amazon. ChemMatters, fev. 2009 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q121-fig1.png",
+        "assets/images/enem_2023_cd7_q121-fig2.png",
+        "assets/images/enem_2023_cd7_q121-fig3.png"
+      ],
       "statement": "O cátion que resultará em uma interação de maior caráter iônico com o ânion carboxilato será aquele proveniente do elemento",
       "options": [
         {
@@ -2111,7 +2123,10 @@
       "topic": "Volume de sólidos geométricos (escultura em cone e cilindro)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q136-fig1.png",
+        "assets/images/enem_2023_cd7_q136-fig2.png"
+      ],
       "statement": "Um artista plástico esculpe uma escultura a partir de um bloco de madeira de lei, em etapas. Inicialmente, esculpe um cone reto com 36 cm de altura e diâmetro da base medindo 18 cm. Em seguida, remove desse cone um cone menor, cujo diâmetro da base mede 6 cm, obtendo, assim, um tronco de cone, conforme ilustrado na figura. 6 cm 36 cm 18 cm Em seguida, perfura esse tronco de cone, removendo um cilindro reto, de diâmetro 6 cm, cujo eixo de simetria é o mesmo do cone original. Dessa forma, ao final, a escultura tem a forma de um tronco de cone com uma perfuração cilíndrica de base a base.\nO tipo de madeira utilizada para produzir essa escultura tem massa igual a 0,6 g por centímetro cúbico de volume.\nUtilize 3 como aproximação para π.\nQual é a massa, em grama, dessa escultura?",
       "options": [
         {
@@ -2154,7 +2169,9 @@
       "topic": "Média salarial ponderada entre setores de uma empresa",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q137-fig1.png"
+      ],
       "statement": "Os 100 funcionários de uma empresa estão distribuídos em dois setores: Produção e Administração.\nOs funcionários de um mesmo setor recebem salários com valores iguais. O quadro apresenta a quantidade de funcionários por setor e seus respectivos salários.\nQuantidade de Salário Setor funcionários (em real)\nProdução 75 2 000,00 Administração 25 7 000,00 A média dos salários dos 100 funcionários dessa empresa, em real, é",
       "options": [
         {
@@ -2240,7 +2257,9 @@
       "topic": "Comparação de evolução de vendas (interpretação gráfica)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q139-fig1.png"
+      ],
       "statement": "O gerente de uma fábrica pretende comparar a evolução das vendas de dois produtos similares (I e II). Para isso, passou a verificar o número de unidades vendidas de cada um desses produtos em cada mês. Os resultados dessa verificação, para os meses de abril a junho, são apresentados na tabela.\nVendas Vendas Vendas Produto em abril em maio em junho (unidade) (unidade) (unidade) l 80 90 100 ll 190 170 150 O gerente estava decidido a cessar a produção do produto II no mês seguinte àquele em que as vendas do produto I superassem as do produto II.\nSuponha que a variação na quantidade de unidades vendidas dos produtos I e II se manteve, mês a mês, como no período representado na tabela.\nEm qual mês o produto II parou de ser produzido?",
       "options": [
         {
@@ -2554,7 +2573,9 @@
       "topic": "Triângulo mágico e combinatória de números",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q146-fig1.png"
+      ],
       "statement": "O triângulo da figura é denominado triângulo mágico.\nNos círculos, escrevem-se os números de 1 a 6, sem repetição, com um número em cada círculo. O objetivo é distribuir os números de forma que as somas dos números em cada lado do triângulo sejam iguais.\nConsidere que os números colocados nos vértices do triângulo estejam em progressão aritmética de razão igual a 2.\nNas condições propostas, quais as possíveis soluções para as somas dos números que formam os lados do triângulo?",
       "options": [
         {
@@ -2963,7 +2984,9 @@
       "topic": "Escala em planta baixa (piscina e calçada)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q155-fig1.png"
+      ],
       "statement": "Na planta baixa de um clube, a piscina é representada por um quadrado cuja área real mede 400 m². Ao redor dessa piscina, será construída uma calçada, de largura constante igual a 5 m. 5 m Calçada 5 m Piscina 5 m 5 m Qual é a medida da área, em metro quadrado, ocupada pela calçada?",
       "options": [
         {
@@ -3051,7 +3074,9 @@
       "topic": "Distribuição de frequências em atividade de estatística",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q157-fig1.png"
+      ],
       "statement": "Um professor, para promover a aprendizagem dos estudantes em estatística, propôs uma atividade. O objetivo era verificar o percentual de estudantes com massa corporal abaixo da média e altura acima da média de um grupo de estudantes. Para isso, usando uma balança e uma fita métrica, avaliou uma amostra de dez estudantes, anotando as medidas observadas. O gráfico apresenta a massa corporal, em quilograma, e a altura, em metro, obtidas na atividade.\nMassa corporal e altura de estudantes Altura (m) 1,8 1,75 1,7 1,65 1,6 1,55 1,5 1,45 0 20 40 60 80 100 120 140 Massa corporal (kg)\nApós a coleta dos dados, os estudantes calcularam a média dos valores obtidos, referentes à massa corporal e à altura, obtendo, respectivamente, 80 kg e 1,65 m.\nQual é o percentual de estudantes dessa amostra com massa corporal abaixo da média e altura acima da média?",
       "options": [
         {
@@ -3361,7 +3386,9 @@
           "source": "Números da campanha contra a gripe A-H1N1 Adultos entre 20 e 29 anos Gestantes Doentes crônicos Indígenas Crianças de 6 meses a 2 anos Trabalhadores da saúde 0,0% 10,0% 20,0% 30,0% 40,0% 50,0% 60,0% 70,0% 80,0% 90,0% 100,0% Época, 26 abr. 2010 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q164-fig1.png"
+      ],
       "statement": "De acordo com o gráfico, entre as demais categorias, a que está mais exposta ao vírus da gripe A-H1N1 é a categoria de",
       "options": [
         {
@@ -3395,7 +3422,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": null
+      "correct_answer": null,
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2023_d2_azul_q165",
@@ -3449,7 +3482,10 @@
       "topic": "Comparação de gasto calórico entre atividades físicas",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q166-fig1.png",
+        "assets/images/enem_2023_cd7_q166-fig2.png"
+      ],
       "statement": "Uma pessoa pratica quatro atividades físicas — caminhar, correr, andar de bicicleta e jogar futebol — como parte de seu programa de emagrecimento. Essas atividades são praticadas semanalmente de acordo com o quadro, que apresenta o número de horas diárias por atividade.\nDias da semana Caminhar Correr Andar de bicicleta Jogar futebol Segunda-feira 1,0 0,5 0,0 2,0 Terça-feira 0,5 1,0 0,5 1,0 Quarta-feira 0,0 1,5 1,0 0,5 Quinta-feira 0,0 2,0 0,0 0,0 Sexta-feira 0,0 0,5 0,0 2,5 Ela deseja comemorar seu aniversário e escolhe o dia da semana em que o gasto calórico com as atividades físicas praticadas for o maior. Para tanto, considera que os valores dos gastos calóricos das atividades por hora (cal/h) são os seguintes:\nAtividade física Caminhar Correr Andar de bicicleta Jogar futebol Gasto calórico (cal/h) 248 764 356 492 O dia da semana em que será comemorado o aniversário é",
       "options": [
         {
@@ -3578,7 +3614,9 @@
       "topic": "Progressão geométrica na atenuação da luz em profundidade",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q169-fig1.png"
+      ],
       "statement": "O esquema mostra como a intensidade luminosa decresce com o aumento da profundidade em um rio, sendo L₀ a intensidade na sua superfície.\n\nProfundidade — Intensidade luminosa\n0 m — L₀\n1 m — (2/3)L₀\n2 m — (4/9)L₀\n3 m — (8/27)L₀\n\nConsidere que a intensidade luminosa diminui, a cada metro acrescido na profundidade, segundo o mesmo padrão do esquema.\n\nA intensidade luminosa correspondente à profundidade de 6 m é igual a",
       "options": [
         {
@@ -3898,7 +3936,9 @@
       "topic": "Números figurados pentagonais (sequências)",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2023_cd7_q176-fig1.png"
+      ],
       "statement": "Os números figurados pentagonais provavelmente foram introduzidos pelos pitagóricos por volta do século V a.C. As figuras ilustram como obter os seis primeiros deles, sendo os demais obtidos seguindo o mesmo padrão geométrico. 1 5 12 22 35 51 O oitavo número pentagonal é",
       "options": [
         {

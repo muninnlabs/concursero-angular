@@ -1,75 +1,67 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, computed, inject, signal } from '@angular/core';
 import { Router } from '@angular/router';
-import { Observable, firstValueFrom, tap } from 'rxjs';
-import type { Session, User } from './models';
+import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut, type User as FirebaseUser } from 'firebase/auth';
+import { firstValueFrom } from 'rxjs';
+import { firebaseAuth } from './firebase';
+import type { User } from './models';
 
-const TOKEN_KEY = 'brasilquiz.token';
-
-function readToken(): string | null {
-  try {
-    return localStorage.getItem(TOKEN_KEY);
-  } catch {
-    return null;
-  }
-}
-
-function writeToken(token: string | null) {
-  try {
-    if (token) localStorage.setItem(TOKEN_KEY, token);
-    else localStorage.removeItem(TOKEN_KEY);
-  } catch {
-    // Private mode / blocked storage: the session just won't survive a reload.
-  }
-}
-
+/**
+ * Google sign-in through Firebase Authentication, the same accounts as the
+ * mobile app. The API receives the Firebase ID token and keeps its own
+ * profile/stats for the user (see /api/auth/me).
+ */
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   private readonly http = inject(HttpClient);
   private readonly router = inject(Router);
 
-  readonly token = signal<string | null>(readToken());
+  private readonly firebaseUser = signal<FirebaseUser | null>(null);
+  /** The app profile from the API; null until loaded. */
   readonly user = signal<User | null>(null);
+
+  readonly signedIn = computed(() => this.firebaseUser() !== null);
   readonly firstName = computed(() => this.user()?.name.split(' ')[0] ?? '');
   readonly isPremium = computed(() => this.user()?.plan === 'premium');
+  readonly photoUrl = computed(() => this.firebaseUser()?.photoURL ?? null);
 
-  login(email: string, password: string): Observable<Session> {
-    return this.http.post<Session>('/api/auth/login', { email, password }).pipe(tap((s) => this.start(s)));
+  constructor() {
+    onAuthStateChanged(firebaseAuth, (user) => {
+      this.firebaseUser.set(user);
+      if (!user) this.user.set(null);
+    });
   }
 
-  register(name: string, email: string, password: string): Observable<Session> {
-    return this.http.post<Session>('/api/auth/register', { name, email, password }).pipe(tap((s) => this.start(s)));
+  /** Current ID token (refreshed by Firebase when needed), or null when signed out. */
+  async idToken(): Promise<string | null> {
+    await firebaseAuth.authStateReady();
+    return firebaseAuth.currentUser ? firebaseAuth.currentUser.getIdToken() : null;
   }
 
-  /** Resolves the stored token into a user; clears the session when it's no longer valid. */
+  async signInWithGoogle(): Promise<User | null> {
+    const provider = new GoogleAuthProvider();
+    provider.setCustomParameters({ prompt: 'select_account' });
+    await signInWithPopup(firebaseAuth, provider);
+    return this.restore();
+  }
+
+  /** Waits for Firebase to restore the session, then loads the app profile. */
   async restore(): Promise<User | null> {
+    await firebaseAuth.authStateReady();
+    if (!firebaseAuth.currentUser) return null;
     if (this.user()) return this.user();
-    if (!this.token()) return null;
     try {
-      const user = await firstValueFrom(this.http.get<User>('/api/auth/me'));
+      const user = await firstValueFrom(this.http.get<User>('api/auth/me'));
       this.user.set(user);
       return user;
     } catch {
-      this.clear();
       return null;
     }
   }
 
-  logout() {
-    this.clear();
-    this.router.navigateByUrl('/');
-  }
-
-  /** Drops the session without navigating (used when the API answers 401). */
-  clear() {
-    writeToken(null);
-    this.token.set(null);
+  async logout() {
+    await signOut(firebaseAuth);
     this.user.set(null);
-  }
-
-  private start({ token, user }: Session) {
-    writeToken(token);
-    this.token.set(token);
-    this.user.set(user);
+    this.router.navigateByUrl('/');
   }
 }

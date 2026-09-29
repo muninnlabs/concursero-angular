@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["es2024"],
+    "types": ["@cloudflare/workers-types"]
+  },
+  "include": ["src/worker.ts"],
+  "exclude": []
+}

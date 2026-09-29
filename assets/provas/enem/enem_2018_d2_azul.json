@@ -22,7 +22,10 @@
           "source": "Hidrogênio 365 nm Carbono Nitrogênio 420 nm TOMA, H. E. A nanotecnologia das moléculas. Química Nova na Escola, n. 21, maio 2005 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q91-fig1.png",
+        "assets/images/enem_2018_cd7_q91-fig2.png"
+      ],
       "statement": "O fenômeno de movimento molecular, promovido pela incidência de luz, decorre do(a)",
       "options": [
         {
@@ -65,7 +68,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q92-fig1.png"
+      ],
       "statement": "O carro flex é uma realidade no Brasil. Estes veículos estão equipados com motor que tem a capacidade de funcionar com mais de um tipo de combustível. No entanto, as pessoas que têm esse tipo de veículo, na hora do abastecimento, têm sempre a dúvida: álcool ou gasolina? Para avaliar o consumo desses combustíveis, realizou-se um percurso com um veículo flex, consumindo 40 litros de gasolina e no percurso de volta utilizou-se etanol.\nFoi considerado o mesmo consumo de energia tanto no percurso de ida quanto no de volta.\nO quadro resume alguns dados aproximados sobre esses combustíveis.\nCombustível Densidade (g mL−1) Calor de combustão (kcal g−1)\nEtanol 0,8 −6 Gasolina 0,7 −10 O volume de etanol combustível, em litro, consumido no percurso de volta é mais próximo de",
       "options": [
         {
@@ -115,7 +120,9 @@
           "source": "E (H+|H ) = 0,00 V; e E (Cu2+|Cu) = +0,34 V. 2 Tampa de betume Barra de ferro Tubo de cobre Vestígio de ácido Vaso de barro As pilhas de Bagdá e a acupuntura. Disponível em: http://jornalggn.com.br. Acesso em: 14 dez. 2014 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q93-fig1.png"
+      ],
       "statement": "Nessa suposta pilha, qual dos componentes atuaria como cátodo?",
       "options": [
         {
@@ -237,7 +244,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q96",
@@ -736,7 +749,9 @@
           "source": "RESULTADOS DOS CRUZAMENTOS PÃO DE PETI PETI AÇÚCAR ITIRAPINA ALCOBAÇA ITAPEVA BERTIOGA OLIVENÇA MARAMBAIA MASSAMBABA DOADOR RECEPTOR - Polinização induzida bem-sucedida DOADOR RECEPTOR - Polinização induzida inviável ou nula Mata Atlântica Cerrado FIORAVANTI, C. Os primeiros passos de novas espécies: plantas e animais se diferenciam por meio de mecanismos surpreendentes. Pesquisa Fapesp, out. 2013 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q106-fig1.png"
+      ],
       "statement": "Em populações de quais localidades se observa um processo de especiação evidente?",
       "options": [
         {
@@ -770,7 +785,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q107",
@@ -865,7 +886,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option drawing(s) ABDE not located or cut by a page break",
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q109",
@@ -874,7 +902,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q109-fig1.png"
+      ],
       "statement": "A hidroxilamina (NH OH) é extremamente reativa 2 em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada.\nO O NH + 2 O O OH O Produto A + NHOH O 2 O O Anidrido acético + OH OH N H Produto B O produto A é favorecido em relação ao B, por um fator de 105. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as móleculas numeradas de 1 a 5.\nHO HO N O N O N HO N NH H 2 H 1 2 3 4 5 Dentre as moléculas testadas, qual delas apresentou menor reatividade?",
       "options": [
         {
@@ -1003,7 +1033,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q112-fig1.png"
+      ],
       "statement": "Muitos smartphones e tablets não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque.\nA imagem é uma simplificação do circuito formado pelas placas, em que A e B representam pontos onde o circuito pode ser fechado por meio do toque. Ωk 4 A Ωk 4 Ωk 4 Ωk 4 + ε -B Qual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto A?",
       "options": [
         {
@@ -1146,7 +1178,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q115-fig1.png"
+      ],
       "statement": "Alguns peixes, como o poraquê, a enguia-elétrica da Amazônia, podem produzir uma corrente elétrica quando se encontram em perigo. Um poraquê de 1 metro de comprimento, em perigo, produz uma corrente em torno de 2 ampères e uma voltagem de 600 volts.\nO quadro apresenta a potência aproximada de equipamentos elétricos.\nEquipamento elétrico Potência aproximada (watt)\nExaustor 150 Computador 300 Aspirador de pó 600 Churrasqueira elétrica 1 200 Secadora de roupas 3 600 O equipamento elétrico que tem potência similar àquela produzida por esse peixe em perigo é o(a)",
       "options": [
         {
@@ -1196,7 +1230,9 @@
           "source": "I− 2 2 2 2 3 e− S/S+ e− 1 I − + e− → 3 I− (4) 2 3 2 e− e− LONGO, C.; DE PAOLI, M.-A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q116-fig1.png"
+      ],
       "statement": "A reação 3 é fundamental para o contínuo funcionamento da célula solar, pois",
       "options": [
         {
@@ -1284,7 +1320,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q118-fig1.png"
+      ],
       "statement": "Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial de ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observa-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (R) 0 corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de T a T (temperaturas crescentes). 1 4 o ã ç a g Distância interatômica e li 0 R 0 d a gi r T e 4 n T E 3 T 2 T 1 T = 0 K O deslocamento observado na distância média revela o fenômeno da",
       "options": [
         {
@@ -1370,7 +1408,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q120-fig1.png",
+        "assets/images/enem_2018_cd7_q120-fig2.png"
+      ],
       "statement": "Nos manuais de instalação de equipamentos de som há o alerta aos usuários para que observem a correta polaridade dos fios ao realizarem as conexões das caixas de som. As figuras ilustram o esquema de conexão das caixas de som de um equipamento de som mono, no qual os alto-falantes emitem as mesmas ondas. No primeiro caso, a ligação obedece às especificações do fabricante e no segundo mostra uma ligação na qual a polaridade está invertida.\nPolaridade correta Saídas do equipamento de som E D E D Caixa de som Caixa de som Polaridade invertida Saídas do equipamento de som E D E D Caixa de som Caixa de som O que ocorre com os alto-falantes E e D se forem conectados de acordo com o segundo esquema?",
       "options": [
         {
@@ -1601,7 +1642,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q125-fig1.png",
+        "assets/images/enem_2018_cd7_q125-fig2.png"
+      ],
       "statement": null,
       "options": [
         {
@@ -1635,7 +1679,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option drawing(s) ABCDE not located or cut by a page break",
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q126",
@@ -1687,7 +1738,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q127",
@@ -1703,7 +1760,10 @@
           "source": "Esquema M S1 DP1 DP2 DP3 DP4 DP5 do Gel 1 alelo 1 loco A alelo 2 alelo 3 alelo 4 Esquema M S1 DP1 DP2 DP3 DP4 DP5 do Gel 2 alelo 1 loco B alelo 2 alelo 3 alelo 4 alelo 5 COLLEVATTI, R. G.; TELLES, M. P.; SOARES, T. N. Dispersão do pólen entre pequizeiros: uma atividade para a genética do ensino superior. Genética na Escola, n. 1, 2013 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q127-fig1.png",
+        "assets/images/enem_2018_cd7_q127-fig2.png"
+      ],
       "statement": "A progênie S1 recebeu o pólen de qual doadora?",
       "options": [
         {
@@ -1753,7 +1813,10 @@
           "source": null
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q128-fig1.png",
+        "assets/images/enem_2018_cd7_q128-fig2.png"
+      ],
       "statement": "Com os carros orientados de acordo com as figuras, os estudantes ligaram as ventoinhas, aguardaram o fluxo de ar ficar permanente e determinaram os módulos das velocidades médias dos carros A (Vₐ) e B (Vʙ) para o mesmo intervalo de tempo.\n\nA respeito das intensidades das velocidades médias e do sentido de movimento do carro A, os estudantes observaram que:",
       "options": [
         {
@@ -1803,7 +1866,9 @@
           "source": "Disponível em: www.comprehensivephysiology.com. Acesso em: 3 ago. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q129-fig1.png"
+      ],
       "statement": "Caso estimulássemos a retina de um indivíduo com essa característica, que não possuísse o pigmento conhecido como “verde”, com as luzes de 530 nm e 600 nm na mesma intensidade luminosa, esse indivíduo seria incapaz de",
       "options": [
         {
@@ -1846,7 +1911,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q130-fig1.png"
+      ],
       "statement": "O grafeno é uma forma alotrópica do carbono constituído por uma folha planar (arranjo bidimensional) de átomos de carbono compactados e com a espessura de apenas um átomo. Sua estrutura é hexagonal, conforme a figura.\nNesse arranjo, os átomos de carbono possuem hibridação",
       "options": [
         {
@@ -2206,7 +2273,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q138-fig1.png"
+      ],
       "statement": "Um jogo pedagógico utiliza-se de uma interface algébrico-geométrica do seguinte modo: os alunos devem eliminar os pontos do plano cartesiano dando “tiros”, seguindo trajetórias que devem passar pelos pontos escolhidos. Para dar os tiros, o aluno deve escrever em uma janela do programa a equação cartesiana de uma reta ou de uma circunferência que passa pelos pontos e pela origem do sistema de coordenadas. Se o tiro for dado por meio da equação da circunferência, cada ponto diferente da origem que for atingido vale 2 pontos. Se o tiro for dado por meio da equação de uma reta, cada ponto diferente da origem que for atingido vale 1 ponto.\nEm uma situação de jogo, ainda restam os seguintes pontos para serem eliminados: A(0 ; 4), B(4 ; 4), C(4 ; 0), D(2 ; 2) e E(0 ; 2). y 5 A B 4 3 E D 2 1 C x 0 1 2 3 4 5 6 Passando pelo ponto A, qual equação forneceria a maior pontuação?",
       "options": [
         {
@@ -2249,7 +2318,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q139-fig1.png"
+      ],
       "statement": "Sobre um sistema cartesiano considera-se uma malha formada por circunferências de raios com medidas dadas por números naturais e por 12 semirretas com π extremidades na origem, separadas por ângulos de rad, 6 conforme a figura. y 6 5 4 A 3 B 2 1 x −6 −5 −4 −3 −2 −1 0 1 2 3 4 5 6 −1 −2 −3 −4 −5 −6 Suponha que os objetos se desloquem apenas pelas semirretas e pelas circunferências dessa malha, não podendo passar pela origem (0 ; 0).\nConsidere o valor de π com aproximação de, pelo menos, uma casa decimal.\nPara realizar o percurso mais curto possível ao longo da malha, do ponto B até o ponto A, um objeto deve percorrer uma distância igual a 2⋅π⋅1",
       "options": [
         {
@@ -2283,7 +2354,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q140",
@@ -2292,7 +2369,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q140-fig1.png"
+      ],
       "statement": "Um artesão possui potes cilíndricos de tinta cujas medidas externas são 4 cm de diâmetro e 6 cm de altura. Ele pretende adquirir caixas organizadoras para armazenar seus potes de tinta, empilhados verticalmente com tampas voltadas para cima, de forma que as caixas possam ser fechadas.\nNo mercado, existem cinco opções de caixas organizadoras, com tampa, em formato de paralelepípedo reto retângulo, vendidas pelo mesmo preço, possuindo as seguintes dimensões internas:\nComprimento Largura Altura Modelo (cm) (cm) (cm)\nI 8 8 40 II 8 20 14 III 18 5 35 IV 20 12 12 V 24 8 14 Qual desses modelos o artesão deve adquirir para conseguir armazenar o maior número de potes por caixa?",
       "options": [
         {
@@ -2326,7 +2405,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q141",
@@ -2385,7 +2470,9 @@
           "source": null
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q142-fig1.png"
+      ],
       "statement": "As intensidades Fₐ, Fʙ e Fᴄ expressas no gráfico satisfazem a relação",
       "options": [
         {
@@ -2471,7 +2558,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q144-fig1.png"
+      ],
       "statement": "Em um aeroporto, os passageiros devem submeter suas bagagens a uma das cinco máquinas de raio-X disponíveis ao adentrarem a sala de embarque. Num dado instante, o tempo gasto por essas máquinas para escanear a bagagem de cada passageiro e o número de pessoas presentes em cada fila estão apresentados em um painel, como mostrado na figura.\nMáquina 1 Máquina 2 Máquina 3 Máquina 4 Máquina 5 35 segundos 25 segundos 22 segundos 40 segundos 20 segundos 5 pessoas 6 pessoas 7 pessoas 4 pessoas 8 pessoas Um passageiro, ao chegar à sala de embarque desse aeroporto no instante indicado, visando esperar o menor tempo possível, deverá se dirigir à máquina",
       "options": [
         {
@@ -2514,7 +2603,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q145-fig1.png"
+      ],
       "statement": "A Comissão Interna de Prevenção de Acidentes (CIPA) de uma empresa, observando os altos custos com os frequentes acidentes de trabalho ocorridos, fez, a pedido da diretoria, uma pesquisa do número de acidentes sofridos por funcionários. Essa pesquisa, realizada com uma amostra de 100 funcionários, norteará as ações da empresa na política de segurança no trabalho.\nOs resultados obtidos estão no quadro.\nNúmero de Número de acidentes sofridos trabalhadores 0 50 1 17 2 15 3 10 4 6 5 2 A média do número de acidentes por funcionário na amostra que a CIPA apresentará à diretoria da empresa é",
       "options": [
         {
@@ -2607,7 +2698,9 @@
           "source": "Ótima Menor do que 100 Próxima de ótima De 100 a 129 Limite De 130 a 159 Alta De 160 a 189 Muito alta 190 ou mais Disponível em: www.minhavida.com.br. Acesso em: 15 out. 2015 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q147-fig1.png"
+      ],
       "statement": "O paciente, seguindo as recomendações médicas sobre estilo de vida e alimentação, realizou o exame logo após o primeiro mês, e a taxa de LDL reduziu 25%.\nNo mês seguinte, realizou novo exame e constatou uma redução de mais 20% na taxa de LDL.\nDe acordo com o resultado do segundo exame, a classificação da taxa de LDL do paciente é",
       "options": [
         {
@@ -2693,7 +2786,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q149-fig1.png"
+      ],
       "statement": "A inclinação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se x centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de x%, como no exemplo da figura: 20 cm Inclinação = 20% 1 m A figura apresenta um projeto de uma rampa de acesso a uma garagem residencial cuja base, situada 2 metros abaixo do nível da rua, tem 8 metros de comprimento.\nPortão Nível da rua Garagem 2 m Rampa Nível da base 8 m da garagem Depois de projetada a rampa, o responsável pela obra foi informado de que as normas técnicas do município onde ela está localizada exigem que a inclinação máxima de uma rampa de acesso a uma garagem residencial seja de 20%.\nSe a rampa projetada tiver inclinação superior a 20%, o nível da garagem deverá ser alterado para diminuir o percentual de inclinação, mantendo o comprimento da base da rampa.\nPara atender às normas técnicas do município, o nível da garagem deverá ser",
       "options": [
         {
@@ -2831,7 +2926,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q152-fig1.png"
+      ],
       "statement": "Para criar um logotipo, um profissional da área de design gráfico deseja construí-lo utilizando o conjunto de pontos do plano na forma de um triângulo, exatamente como mostra a imagem. y 15 10 5 x −15 −10 −5 0 5 10 15 −5 −10 −15 Para construir tal imagem utilizando uma ferramenta gráfica, será necessário escrever algebricamente o conjunto que representa os pontos desse gráfico.\nEsse conjunto é dado pelos pares ordenados (x ; y) ∈  × , tais que",
       "options": [
         {
@@ -2908,7 +3005,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q154",
@@ -2917,7 +3020,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q154-fig1.png"
+      ],
       "statement": "Um designer de jogos planeja um jogo que faz uso de um tabuleiro de dimensão n × n, com n ≥ 2, no qual cada jogador, na sua vez, coloca uma peça sobre uma das casas vazias do tabuleiro. Quando uma peça é posicionada, a região formada pelas casas que estão na mesma linha ou coluna dessa peça é chamada de zona de combate dessa peça. Na figura está ilustrada a zona de combate de uma peça colocada em uma das casas de um tabuleiro de dimensão 8 × 8.\nO tabuleiro deve ser dimensionado de forma que a probabilidade de se posicionar a segunda peça aleatoriamente, seguindo a regra do jogo, e esta ficar 1 sobre a zona de combate da primeira, seja inferior a . 5 A dimensão mínima que o designer deve adotar para esse tabuleiro é",
       "options": [
         {
@@ -3193,7 +3298,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q160",
@@ -3655,7 +3766,10 @@
           "source": "O A Solo Solo Disponível em: http://en.wikipedia.org. Acesso em: 22 abr. 2014 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q170-fig1.png",
+        "assets/images/enem_2018_cd7_q170-fig2.png"
+      ],
       "statement": "A partir da posição indicada, em que o segmento OA se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto O.\nSejam t o ângulo determinado pelo segmento OA em relação à sua posição inicial, e f a função que descreve a altura do ponto A, em relação ao solo, em função de t.\nApós duas voltas completas, f tem o seguinte gráfico: f(metro) 168 88 0 π/2 2π 4π t (radiano)\nA expressão da função altura é dada por",
       "options": [
         {
@@ -3743,7 +3857,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q172-fig1.png",
+        "assets/images/enem_2018_cd7_q172-fig2.png"
+      ],
       "statement": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes.\nEm uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking.\nRanking Colocação I II III IV 1o Ana Dani Bia Edu 2o Bia Caio Ana Ana 3o Caio Edu Caio Dani 4o Dani Ana Edu Bia 5o Edu Bia Dani Caio Ranking Frequência I 4 II 9 III 7 IV 5 A poesia vencedora foi a de",
       "options": [
         {
@@ -3829,7 +3946,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "option(s) without text or image"
+        ]
+      }
     },
     {
       "id": "enem_2018_d2_azul_q174",
@@ -3931,7 +4054,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q176-fig1.png",
+        "assets/images/enem_2018_cd7_q176-fig2.png"
+      ],
       "statement": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (o grau de dificuldade de cada salto).\nFica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas.\nO atleta 10 irá realizar o último salto da final.\nEle observa no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento.\nQuadro 1 Classificação Atleta 6o Salto Total 1o 3 135,0 829,0 2o 4 140,0 825,2 3o 8 140,4 824,2 6o 10 687,5 Ele precisa decidir com seu treinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2.\nQuadro 2 Tipo Nota Estimativa da Probabilidade de de soma das notas de obter a salto partida dos juízes nota T1 2,2 57 89,76% T2 2,4 58 93,74% T3 2,6 55 91,88% T4 2,8 50 95,38% T5 3,0 53 87,34% O atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar.\nConsiderando essas condições, o salto que o atleta deverá escolher é o de tipo",
       "options": [
         {
@@ -3981,7 +4107,9 @@
           "source": "Crianças 4,5 0,9 20 Profissionais de saúde 2,0 1,0 50 Gestantes 2,5 1,5 60 Indígenas 0,5 0,4 80 Idosos 20,5 8,2 40 Disponível em: http://portalsaude.saude.gov.br. Acesso em: 16 ago. 2012."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q177-fig1.png"
+      ],
       "statement": "Qual é a porcentagem do total de pessoas desses grupos de risco já vacinadas?",
       "options": [
         {
@@ -4110,7 +4238,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q180-fig1.png",
+        "assets/images/enem_2018_cd7_q180-fig2.png"
+      ],
       "statement": "Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada em negrito uma diagonal que forma 30° com a 6 borda inferior. O raio da base do cilindro mede cm, e ao π enrolar a faixa obtém-se uma linha em formato de hélice, como na figura. 30° O valor da medida da altura do cilindro, em centímetro, é",
       "options": [
         {

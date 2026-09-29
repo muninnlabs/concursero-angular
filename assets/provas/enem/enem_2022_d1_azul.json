@@ -1634,7 +1634,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2022_d1_azul_q33",
@@ -2467,7 +2473,9 @@
       "topic": "Impermeabilização do solo e ciclo hidrológico urbano",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd1_q49-fig1.png"
+      ],
       "statement": "evapotranspiração: 40% escoamento superficial:10% infiltração subsuperficial: 25% percolação Cobertura natural do solo profunda: 25% evapotranspiração: 38% escoamento superficial: 20% infiltração subsuperficial: 21% percolação 10% - 20% de superfície impermeável profunda: 21% evapotranspiração: 35% escoamento superficial: 30% infiltração subsuperficial: 20% percolação 35% - 50% de superfície impermeável profunda: 15% evapotranspiração: 30% escoamento superficial: 55% infiltração subsuperficial: 10% percolação 75% - 100% de superfície impermeável profunda: 5% PAZ, A. D. Disponível em: www.ct.ufpb.br. Acesso em: 15 out. 2021 (adaptado). A intensificação da ocupação urbana demonstrada afeta de forma imediata o(a)",
       "options": [
         {
@@ -2501,7 +2509,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2022_d1_azul_q50",
@@ -3274,7 +3289,9 @@
       "topic": "Ciclo da violência doméstica em ilustração",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd1_q65-fig1.png"
+      ],
       "statement": "TENSÃO MORTE AGRESSÃO TENSÃO LUA DE MEL AGRESSÃO TENSÃO LUA DE MEL AGRESSÃO TENSÃO LUA DE MEL AGRESSÃO TENSÃO LUA DE MEL LUA DE MEL AGRESSÃO TENSÃO LUA DE MEL LUA DE MEL carinho, paixão, presentes, promessas, reconciliação, liberdade TENSÃO insulto, humilhação, intimidação, gritos, ameaça, controle, isolamento, medo, conflitos, descumprimento de promessa AGRESSÃO empurrão, beliscão, puxão de cabelo, sufocamento, arremesso de objetos, tapa, chute, espancamento Disponível em: https://ndmais.com.br. Acesso em: 8 out. 2021. O ápice da ilustração se traduz por uma conduta social caracterizada pela",
       "options": [
         {
@@ -3308,7 +3325,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop"
+        ]
+      }
     },
     {
       "id": "enem_2022_d1_azul_q66",
@@ -3580,7 +3603,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content",
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2022_d1_azul_q71",
@@ -3740,13 +3770,9 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": [
-        "assets/images/enem_2022_cd1_q74-1.png",
         "assets/images/enem_2022_cd1_q74-2.png",
         "assets/images/enem_2022_cd1_q74-3.png",
         "assets/images/enem_2022_cd1_q74-4.png",
-        "assets/images/enem_2022_cd1_q74-5.png",
-        "assets/images/enem_2022_cd1_q74-6.png",
-        "assets/images/enem_2022_cd1_q74-7.png",
         "assets/images/enem_2022_cd1_q74-8.png"
       ],
       "statement": "RADIAÇÃO SOLAR GLOBAL HORIZONTAL MÉDIA ANUAL 3,15 3,50 3,85 4,20 4,55 4,90 5,25 5,60 5,95 6,30 6,65 kWh/m² 0 200 400 600 800 1000 km PEREIRA, E. B. et al. Atlas brasileiro de energia solar. São José dos Campos: Inpe, 2006.\nUma característica regional que justifica o maior potencial anual médio para o aproveitamento da energia solar é a reduzida",
@@ -3782,7 +3808,15 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content",
+          "figure in the PDF could not be extracted",
+          "broken image and no figure found in the PDF"
+        ]
+      }
     },
     {
       "id": "enem_2022_d1_azul_q75",

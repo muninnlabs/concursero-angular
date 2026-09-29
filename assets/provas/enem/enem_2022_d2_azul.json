@@ -56,7 +56,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content",
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q92",
@@ -165,7 +172,9 @@
           "source": "Disponível em: www.fiocruz.br. Acesso em: 6 dez. 2017 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q94-fig1.png"
+      ],
       "statement": "O descarte dos conjuntos (1) e (2) resultará, respectivamente, em",
       "options": [
         {
@@ -199,7 +208,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q95",
@@ -302,7 +317,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q97",
@@ -504,7 +525,9 @@
           "source": "Disponível em: www.inovacao.unicamp.br. Acesso em: 11 ago. 2012 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q101-fig1.png"
+      ],
       "statement": "Qual tipo de cana-de-açúcar deve ser escolhido?",
       "options": [
         {
@@ -538,7 +561,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q102",
@@ -631,7 +660,15 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure area overlaps option letters / other content",
+          "option drawings split across columns; layout not recognised"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q104",
@@ -776,7 +813,9 @@
           "source": "H+ OH OH HO O O O O HO OH OH OH OH H HO O O + + O O HO OH OH OH OH HO O O HO O + HO OH O OH H H OH OH O O H+ O H O + HO O HO OH OH H OH OGEDA, T. L.; PETRI, D. F. S. [...] Química Nova, n. 7, 2010 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q107-fig1.png"
+      ],
       "statement": "Nessa conversão de polissacarídeos, a função do íon H+ é",
       "options": [
         {
@@ -810,7 +849,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q108",
@@ -819,7 +864,10 @@
       "topic": "Titulação ácido-base: acidez do vinho",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q108-fig1.png",
+        "assets/images/enem_2022_cd7_q108-fig2.png"
+      ],
       "statement": "O ácido tartárico é o principal ácido do vinho e está diretamente relacionado com sua qualidade. Na avaliação de um vinho branco em produção, uma analista neutralizou uma alíquota de 25,0 mL do vinho com NaOH a 0,10 mol L−1, consumindo um volume igual a 8,0 mL dessa base. A reação para esse processo de titulação é representada pela equação química:\nO OH O OH OH  2 NaOH ONa  2 H O 2 HO NaO OH O OH O Ácido tartárico (massa molar: 150 g mol 1)\nA concentração de ácido tartárico no vinho analisado é mais próxima de:",
       "options": [
         {
@@ -853,7 +901,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q109",
@@ -896,7 +950,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q110",
@@ -955,7 +1015,9 @@
           "source": "Energia 10/01 10/04 10/07 10/10 Dia Disponível em: www.fisica.ufpr.br. Acesso em: 27 maio 2022 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q111-fig1.png"
+      ],
       "statement": "Próximo a que região se situa a residência onde as placas foram instaladas?",
       "options": [
         {
@@ -989,7 +1051,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q112",
@@ -1175,7 +1243,15 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure area overlaps option letters / other content",
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q116",
@@ -1218,7 +1294,15 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure area overlaps option letters / other content",
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q117",
@@ -1261,7 +1345,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content",
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q118",
@@ -1277,7 +1368,9 @@
           "source": "Machos controle )1−Lm gn( oinômroh od oãçartnecnoC 6 5 4 3 2 1 0 Machos Fêmeas expostos controle à atrazina HAYES, T. B. et al. Hermaphroditic, Demasculinized Frogs After Exposure to the Herbicide Atrazine at Low Ecologically Relevant Doses. Proceedings of the National Academy of Sciences, n. 8, 2002 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q118-fig1.png"
+      ],
       "statement": "Com base nas informações do texto, qual é o hormônio cujas concentrações estão representadas na figura?",
       "options": [
         {
@@ -1311,7 +1404,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q119",
@@ -1363,7 +1462,9 @@
       "topic": "Atividade enzimática da catalase em função da temperatura",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q120-fig1.png"
+      ],
       "statement": "Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H O ), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro. 2 2 Resultado Ensaio Temperatura (°C) (cid:30)10(cid:31)12mol(cid:27)\nDecomposição de H O (cid:28) (cid:25) 2 2 (cid:29) min (cid:26) 1 10 8,0 2 15 10,5 3 20 9,5 4 25 5,0 5 30 3,6 6 35 3,1 Os diferentes resultados dos ensaios justificam-se pelo(a)",
       "options": [
         {
@@ -1397,7 +1498,13 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q121",
@@ -1406,7 +1513,9 @@
       "topic": "Mecanismo de ação de antimicrobianos",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q121-fig1.png"
+      ],
       "statement": "Antimicrobianos são substâncias naturais ou sintéticas que têm capacidade de matar ou inibir o crescimento de microrganismos. A tabela apresenta uma lista de antimicrobianos hipotéticos, bem como suas ações e efeitos sobre o metabolismo microbiano.\nAntimicrobiano Ação Efeito 1 Une-se aos ribossomos Impede a síntese proteica 2 Une-se aos microtúbulos Impede a segregação das cromátides 3 Une-se aos fosfolipídeos da membrana plasmática Reduz a permeabilidade da membrana plasmática 4 Interfere na síntese de timina Inibe a síntese de DNA 5 Interfere na síntese de uracila Impede a síntese de RNA Qual dos antimicrobianos deve ser utilizado para curar uma infecção causada por um fungo sem afetar as bactérias da microbiota normal do organismo?",
       "options": [
         {
@@ -1737,7 +1846,9 @@
       "topic": "Modelagem de tráfego por analogia com circuitos elétricos",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q128-fig1.png"
+      ],
       "statement": "A fim de classificar as melhores rotas em um aplicativo de trânsito, um pesquisador propõe um modelo com base em circuitos elétricos. Nesse modelo, a corrente representa o número de carros que passam por um ponto da pista no intervalo de 1 s. A diferença de potencial (d.d.p.) corresponde à quantidade de energia por carro necessária para o deslocamento de 1 m. De forma análoga à lei de Ohm, cada via é classificada pela sua resistência, sendo a de maior resistência a mais congestionada. O aplicativo mostra as rotas em ordem crescente, ou seja, da rota de menor para a de maior resistência.\nComo teste para o sistema, são utilizadas três possíveis vias para uma viagem de A até B, com os valores de d.d.p. e corrente conforme a tabela. (cid:30) J (cid:27) (cid:31)carro(cid:28)\nRota d.d.p. (cid:28) (cid:25) Corrente (cid:29) (cid:26) (cid:29)carro(cid:31)m(cid:26) (cid:30) s (cid:27) 1 510 4 2 608 4 3 575 3 Nesse teste, a ordenação das rotas indicadas pelo aplicativo será:",
       "options": [
         {
@@ -1771,7 +1882,15 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)",
+          "figure split across columns/pages",
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q129",
@@ -1882,7 +2001,12 @@
           "source": "SOLOMONS, T. W. G.; FRYHLE, C. B. Química orgânica. Rio de Janeiro: LTC, 2009 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q131-fig1.png",
+        "assets/images/enem_2022_cd7_q131-fig2.png",
+        "assets/images/enem_2022_cd7_q131-fig3.png",
+        "assets/images/enem_2022_cd7_q131-fig4.png"
+      ],
       "statement": "A característica estrutural dessa família de compostos é a presença de",
       "options": [
         {
@@ -1916,7 +2040,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure cut at the side (drawing crosses the column edge)"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q132",
@@ -2025,7 +2155,9 @@
       "topic": "Velocidade do som em meios diferentes",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q134-fig1.png"
+      ],
       "statement": "O sinal sonoro oriundo da queda de um grande bloco de gelo de uma geleira é detectado por dois dispositivos situados em um barco, sendo que o detector A está imerso em água e o B, na proa da embarcação. Sabe-se m que a velocidade do som na água é de 1 540 e no ar s m é de 340 . s L B A Os gráficos indicam, em tempo real, o sinal sonoro detectado pelos dois dispositivos, os quais foram ligados simultaneamente em um instante anterior à queda do bloco de gelo. Ao comparar pontos correspondentes desse sinal em cada dispositivo, é possível obter informações sobre a onda sonora.\nA B la la n n iS iS 208 220 232 244 208 220 232 244 Tempo (s) Tempo (s)\nA distância L, em metro, entre o barco e a geleira é mais próxima de",
       "options": [
         {
@@ -2059,7 +2191,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure split across columns/pages"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q135",
@@ -2154,7 +2292,13 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E"
+      "correct_answer": "E",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q137",
@@ -2240,7 +2384,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q139",
@@ -2753,7 +2904,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q150",
@@ -2798,7 +2955,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q151",
@@ -2857,7 +3020,9 @@
           "source": "Disponível em: www.ctav.gov.br. Acesso em: 14 nov. 2013."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q152-fig1.png"
+      ],
       "statement": "Uma sala de cinema, cuja largura da tela mede 12 m, está montada em conformidade com as normas da ABNT e tem suas dimensões especificadas na figura.\nÁrea de instalação de novas poltronas D = 2,9L aceitável D =2L máx D =0,6L mín Tela L  m 1 m 1 Fileira Fileira Fileira Pretende-se ampliar essa sala, mantendo-se na mesma posição a tela e todas as poltronas já instaladas, ampliando-se ao máximo a sala para os fundos (área de instalação de novas poltronas), respeitando-se o limite aceitável da norma da ABNT. A intenção é aumentar, ao máximo, a quantidade de poltronas da sala, instalando-se novas unidades, iguais às já instaladas.\nQuantas fileiras de poltronas a sala comportará após essa ampliação?",
       "options": [
         {
@@ -2900,7 +3065,9 @@
       "topic": "Volume do cone",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q153-fig1.png"
+      ],
       "statement": "Uma empresa produz e vende um tipo de chocolate, maciço, em formato de cone circular reto com as medidas do diâmetro da base e da altura iguais a 8 cm e 10 cm, respectivamente, como apresenta a figura. 8 cm 10 cm Devido a um aumento de preço dos ingredientes utilizados na produção desse chocolate, a empresa decide produzir esse mesmo tipo de chocolate com um volume 19% menor, no mesmo formato de cone circular reto com altura de 10 cm.\nPara isso, a empresa produzirá esses novos chocolates com medida do raio da base, em centímetro, igual a",
       "options": [
         {
@@ -3133,7 +3300,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": null
+      "correct_answer": null,
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "undecoded symbol (cid:NN) in the text"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q158",
@@ -3314,7 +3487,15 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure area overlaps option letters / other content",
+          "figure in the PDF could not be extracted"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q162",
@@ -3529,7 +3710,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q167",
@@ -3622,7 +3810,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q169",
@@ -3674,7 +3868,9 @@
       "topic": "Leitura de gráficos: evolução de preços de imóveis e aluguéis",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2022_cd7_q170-fig1.png"
+      ],
       "statement": "No período de 2005 a 2013, o valor de venda dos imóveis em uma cidade apresentou alta, o que resultou no aumento dos aluguéis. Os gráficos apresentam a evolução desses valores, para um mesmo imóvel, no mercado imobiliário dessa cidade. 3 240 1 800 1 350 960 630 )$R( leugula od lasnem rolaV 2005 2007 2009 2011 2013 Ano 540 450 270 120 90 levómi od odacrem ed rolaV )$R ed rahlim( 2005 2007 2009 2011 2013 Ano A rentabilidade do aluguel de um imóvel é calculada pela razão entre o valor mensal de aluguel e o valor de mercado desse imóvel.\nCom base nos dados fornecidos, em que ano a rentabilidade do aluguel foi maior?",
       "options": [
         {
@@ -3708,7 +3904,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q171",
@@ -3751,7 +3953,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q172",
@@ -3837,7 +4045,14 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure touches the statement text; needs a manual crop",
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q174",
@@ -3966,7 +4181,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q177",
@@ -4009,7 +4230,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "figure area overlaps option letters / other content"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q178",

@@ -1,13 +1,11 @@
-import { HttpErrorResponse } from '@angular/common/http';
-import { ChangeDetectionStrategy, Component, computed, inject, input, signal } from '@angular/core';
-import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
+import { ChangeDetectionStrategy, Component, inject, input, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../core/auth.service';
 import { Logo } from '../../shared/logo';
 
 @Component({
   selector: 'app-login-page',
-  imports: [ReactiveFormsModule, Logo],
+  imports: [Logo],
   templateUrl: './login.page.html',
   styleUrl: './login.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -16,48 +14,31 @@ export class LoginPage {
   private readonly auth = inject(AuthService);
   private readonly router = inject(Router);
 
-  /** ?modo=cadastro opens the sign-up tab; ?redirect= is where to go afterwards. */
-  readonly modo = input<string>();
+  /** ?redirect= is where to go after signing in. */
   readonly redirect = input<string>();
 
-  private readonly modeOverride = signal<'login' | 'register' | null>(null);
-  protected readonly mode = computed(() => this.modeOverride() ?? (this.modo() === 'cadastro' ? 'register' : 'login'));
   protected readonly submitting = signal(false);
   protected readonly error = signal<string | null>(null);
 
-  protected readonly form = inject(FormBuilder).nonNullable.group({
-    name: [''],
-    email: ['', [Validators.required, Validators.email]],
-    password: ['', [Validators.required, Validators.minLength(8)]],
-  });
-
-  protected setMode(mode: 'login' | 'register') {
-    this.modeOverride.set(mode);
-    this.error.set(null);
-  }
-
-  protected submit() {
-    const registering = this.mode() === 'register';
-    const { name, email, password } = this.form.getRawValue();
-
-    if (this.form.invalid || (registering && !name.trim())) {
-      this.form.markAllAsTouched();
-      this.error.set(registering ? 'Preencha nome, e-mail e uma senha com 8+ caracteres.' : 'Informe e-mail e senha.');
-      return;
-    }
-
+  protected async signIn() {
     this.submitting.set(true);
     this.error.set(null);
-    const request = registering ? this.auth.register(name.trim(), email, password) : this.auth.login(email, password);
-
-    request.subscribe({
-      next: () => this.router.navigateByUrl(this.safeRedirect()),
-      error: (err: unknown) => {
-        this.submitting.set(false);
-        const message = err instanceof HttpErrorResponse ? err.error?.error : null;
-        this.error.set(message ?? 'Não foi possível conectar ao servidor. Tente novamente.');
-      },
-    });
+    try {
+      const user = await this.auth.signInWithGoogle();
+      if (!user) throw new Error('profile');
+      await this.router.navigateByUrl(this.safeRedirect());
+    } catch (err: unknown) {
+      const code = (err as { code?: string }).code;
+      if (code !== 'auth/popup-closed-by-user' && code !== 'auth/cancelled-popup-request') {
+        this.error.set(
+          code === 'auth/unauthorized-domain'
+            ? 'Este endereço ainda não está autorizado no Firebase para login com Google.'
+            : 'Não foi possível entrar agora. Tente novamente.',
+        );
+      }
+    } finally {
+      this.submitting.set(false);
+    }
   }
 
   /** Only follow in-app redirects. */
