@@ -1,0 +1,117 @@
+<header class="page-head">
+  <div>
+    <h1>Assuntos</h1>
+    <p>Escolha uma categoria para focar seus estudos hoje.</p>
+  </div>
+  <div class="page-head__actions">
+    <div class="filter">
+      <button
+        class="btn btn--outline"
+        type="button"
+        (click)="toggleFilter($event)"
+        [attr.aria-expanded]="filterOpen()"
+        aria-haspopup="listbox"
+      >
+        <app-icon name="filter" [size]="16" [filled]="true" /> Filtrar
+        <span class="filter__current">{{ categoryLabel() }}</span>
+      </button>
+      @if (filterOpen()) {
+        <div class="filter__menu card" role="listbox" aria-label="Categoria" (click)="$event.stopPropagation()">
+          @for (category of categories; track category.id) {
+            <button
+              type="button"
+              role="option"
+              [attr.aria-selected]="categoryState.selected() === category.id"
+              [class.selected]="categoryState.selected() === category.id"
+              (click)="pickCategory(category.id)"
+            >
+              {{ category.label }}
+              @if (categoryState.selected() === category.id) {
+                <app-icon name="check" [size]="16" />
+              }
+            </button>
+          }
+        </div>
+      }
+    </div>
+    <a
+      class="btn btn--primary"
+      routerLink="/app/praticar"
+      [queryParams]="{ modo: 'mini', categoria: categoryState.selected() }"
+      ><app-icon name="zap" [size]="16" [filled]="true" /> Simulado Rápido</a
+    >
+  </div>
+</header>
+
+@if (subjects.isLoading()) {
+  <p class="card state">Carregando assuntos…</p>
+} @else if (subjects.error()) {
+  <p class="card state">
+    Não foi possível carregar os assuntos.
+    <button class="link" type="button" (click)="subjects.reload()">Tentar de novo</button>
+  </p>
+} @else {
+  <section class="grid" aria-label="Matérias">
+    @for (card of cards(); track card.subject) {
+      <article class="card subject">
+        <div class="subject__top">
+          <span class="icon-badge subject__icon tone--{{ card.style.tone }}"><app-icon [name]="card.style.icon" [size]="22" /></span>
+          <span class="subject__count">{{ card.questionCount.toLocaleString('pt-BR') }} questões</span>
+        </div>
+        <h2>{{ card.subject }}</h2>
+        @if (card.style.description) {
+          <p class="subject__desc">{{ card.style.description }}</p>
+        }
+        <div class="progress">
+          <div class="progress__label">
+            <span>Seu progresso</span>
+            <strong>{{ percent(card.progress) }}</strong>
+          </div>
+          <div
+            class="progress__track"
+            role="img"
+            [attr.aria-label]="percent(card.progress) + ' das questões respondidas'"
+            [title]="'Verde: acertos · Vermelho: erros'"
+          >
+            @if (card.correctWidth > 0) {
+              <span class="progress__correct" [style.width.%]="card.correctWidth"></span>
+            }
+            @if (card.wrongWidth > 0) {
+              <span class="progress__wrong" [style.width.%]="card.wrongWidth"></span>
+            }
+          </div>
+        </div>
+        <a
+          class="btn btn--dark subject__start"
+          routerLink="/app/praticar"
+          [queryParams]="{ modo: 'mini', categoria: categoryState.selected(), materia: card.subject }"
+          >Iniciar Simulado</a
+        >
+      </article>
+    } @empty {
+      <p class="card state grid__empty">Nenhum assunto encontrado.</p>
+    }
+  </section>
+
+  @if (suggestion(); as tip) {
+    <section class="card suggestion">
+      <div class="suggestion__body">
+        <span class="suggestion__tag">Sugerido para você</span>
+        <h2>{{ tip.title }}</h2>
+        <p>{{ tip.text }}</p>
+        <div class="suggestion__actions">
+          <a
+            class="btn btn--primary"
+            routerLink="/app/praticar"
+            [queryParams]="{ modo: 'mini', categoria: categoryState.selected(), materia: tip.subject }"
+            >Focar agora</a
+          >
+          <a class="btn btn--soft" routerLink="/app/estatisticas">Ver detalhes</a>
+        </div>
+      </div>
+      <div class="suggestion__art" aria-hidden="true">
+        <app-icon [name]="tip.style.icon" [size]="132" [strokeWidth]="1.1" />
+      </div>
+    </section>
+  }
+}

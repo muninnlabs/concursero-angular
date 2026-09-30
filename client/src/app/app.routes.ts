@@ -11,11 +11,26 @@ export const routes: Routes = [
     children: [
       { path: '', pathMatch: 'full', title: 'Início · BrasilQuiz', loadComponent: () => import('./pages/dashboard/dashboard.page').then((m) => m.DashboardPage) },
       { path: 'praticar', title: 'Praticar · BrasilQuiz', loadComponent: () => import('./pages/practice/practice.page').then((m) => m.PracticePage) },
+      {
+        path: 'assuntos',
+        title: 'Assuntos · BrasilQuiz',
+        data: { search: 'Buscar assuntos...' },
+        loadComponent: () => import('./pages/subjects/subjects.page').then((m) => m.SubjectsPage),
+      },
+      {
+        path: 'estatisticas',
+        title: 'Estatísticas · BrasilQuiz',
+        data: { search: 'Buscar matérias...' },
+        loadComponent: () => import('./pages/stats/stats.page').then((m) => m.StatsPage),
+      },
+      {
+        path: 'configuracoes',
+        title: 'Configurações · BrasilQuiz',
+        data: { topbarTitle: 'Configurações do sistema' },
+        loadComponent: () => import('./pages/settings/settings.page').then((m) => m.SettingsPage),
+      },
       ...[
-        { path: 'estatisticas', title: 'Estatísticas' },
-        { path: 'assuntos', title: 'Assuntos' },
         { path: 'perfil', title: 'Perfil' },
-        { path: 'configuracoes', title: 'Configurações' },
         { path: 'ajuda', title: 'Ajuda' },
       ].map(({ path, title }) => ({
         path,

@@ -1,0 +1,138 @@
+@let user = auth.user();
+@let prefs = preferences.value();
+
+<section class="card panel profile">
+  <div class="panel__head">
+    <h2>Perfil do Usuário</h2>
+    <a class="panel__action" href="https://myaccount.google.com/personal-info" target="_blank" rel="noopener"
+      >Editar Perfil <app-icon name="external-link" [size]="14" /><span class="sr-only"> (na sua Conta Google, abre em nova aba)</span></a
+    >
+  </div>
+
+  <div class="profile__body">
+    <div class="profile__photo">
+      @if (auth.photoUrl(); as photo) {
+        <img [src]="photo" alt="Sua foto" referrerpolicy="no-referrer" />
+      } @else {
+        <span class="profile__initials">{{ initials() }}</span>
+      }
+    </div>
+
+    <dl class="profile__fields">
+      <div>
+        <dt>Nome completo</dt>
+        <dd>{{ user?.name }}</dd>
+      </div>
+      <div>
+        <dt>E-mail</dt>
+        <dd>{{ user?.email }}</dd>
+      </div>
+      <div>
+        <dt>Tipo de plano</dt>
+        <dd>
+          {{ auth.isPremium() ? 'Premium' : 'Gratuito' }}
+          <span class="plan-tag" [class.plan-tag--premium]="auth.isPremium()">{{ auth.isPremium() ? 'Completo' : 'Básico' }}</span>
+        </dd>
+      </div>
+      <div>
+        <dt>Membro desde</dt>
+        <dd>{{ memberSince() }}</dd>
+      </div>
+    </dl>
+  </div>
+  <p class="profile__note">Nome, e-mail e foto vêm da sua Conta Google.</p>
+</section>
+
+<div class="columns">
+  <section class="card panel">
+    <h2>Preferências do App</h2>
+    <ul class="prefs">
+      <li>
+        <span class="icon-badge tone--blue"><app-icon name="bell" [size]="18" [filled]="true" /></span>
+        <div class="prefs__text">
+          <strong id="pref-notifications">Notificações</strong>
+          <small>Alertas de novos simulados · em breve</small>
+        </div>
+        <button class="switch" type="button" role="switch" aria-checked="false" aria-labelledby="pref-notifications" disabled title="Em breve"></button>
+      </li>
+      <li>
+        <span class="icon-badge tone--slate"><app-icon name="moon" [size]="18" [filled]="true" /></span>
+        <div class="prefs__text">
+          <strong id="pref-dark">Modo Escuro</strong>
+          <small>Conforto visual para estudos</small>
+        </div>
+        <button
+          class="switch"
+          type="button"
+          role="switch"
+          [attr.aria-checked]="prefs.darkMode"
+          aria-labelledby="pref-dark"
+          (click)="toggle('darkMode')"
+        ></button>
+      </li>
+      <li>
+        <span class="icon-badge tone--green"><app-icon name="volume" [size]="18" /></span>
+        <div class="prefs__text">
+          <strong id="pref-sounds">Efeitos Sonoros</strong>
+          <small>Sons de acerto e erro</small>
+        </div>
+        <button
+          class="switch"
+          type="button"
+          role="switch"
+          [attr.aria-checked]="prefs.sounds"
+          aria-labelledby="pref-sounds"
+          (click)="toggle('sounds')"
+        ></button>
+      </li>
+    </ul>
+  </section>
+
+  <section class="card panel">
+    <h2>Segurança e Acesso</h2>
+    <p class="panel__hint">Você entra com o Google: senha, verificação e dispositivos são gerenciados na sua Conta Google.</p>
+    <div class="links">
+      @for (link of securityLinks; track link.href) {
+        <a class="link-row" [href]="link.href" target="_blank" rel="noopener">
+          <app-icon [name]="link.icon" [size]="18" />
+          <strong>{{ link.label }}</strong>
+          <small>{{ link.detail }}</small>
+          <app-icon name="chevron-right" [size]="16" />
+          <span class="sr-only"> (abre em nova aba)</span>
+        </a>
+      }
+      <button class="link-row" type="button" (click)="auth.logout()">
+        <app-icon name="log-out" [size]="18" />
+        <strong>Sair desta conta</strong>
+        <small></small>
+        <app-icon name="chevron-right" [size]="16" />
+      </button>
+    </div>
+  </section>
+</div>
+
+<section class="danger">
+  <div>
+    <h2>Zona de Perigo</h2>
+    <p>A exclusão da conta é permanente e não pode ser desfeita.</p>
+  </div>
+  <button class="btn danger__btn" type="button" (click)="openDelete()">Excluir Minha Conta</button>
+</section>
+
+<dialog #deleteDialog class="card dialog" aria-labelledby="delete-title" (cancel)="deleting() && $event.preventDefault()">
+  <span class="icon-badge tone--rose"><app-icon name="alert" [size]="20" /></span>
+  <h2 id="delete-title">Excluir sua conta?</h2>
+  <p>
+    Seu perfil, todas as respostas e o histórico de simulados do BrasilQuiz serão apagados. Seu login do Google continua
+    existindo; se entrar de novo, você começa do zero.
+  </p>
+  @if (deleteError(); as error) {
+    <p class="dialog__error" role="alert">{{ error }}</p>
+  }
+  <div class="dialog__actions">
+    <button class="btn btn--soft" type="button" (click)="closeDelete()" [disabled]="deleting()">Cancelar</button>
+    <button class="btn danger__confirm" type="button" (click)="confirmDelete()" [disabled]="deleting()">
+      <app-icon name="trash" [size]="16" /> {{ deleting() ? 'Excluindo…' : 'Excluir definitivamente' }}
+    </button>
+  </div>
+</dialog>

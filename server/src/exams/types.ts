@@ -77,4 +77,6 @@ export interface ExamSummary {
   /** Questions that can be practised: valid answer key and complete content. */
   gradableCount: number;
   subjects: string[];
+  /** Practisable questions per subject (questions without a subject aren't counted). */
+  subjectCounts: Record<string, number>;
 }

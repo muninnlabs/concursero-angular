@@ -28,7 +28,7 @@
         [class.dot--answered]="selected()[q.id]"
         [class.dot--correct]="resultFor().get(q.id)?.isCorrect === true"
         [class.dot--wrong]="resultFor().get(q.id)?.isCorrect === false"
-        (click)="index.set(i)"
+        (click)="goTo(i)"
         [attr.aria-label]="'Questão ' + (i + 1)"
       >
         {{ i + 1 }}

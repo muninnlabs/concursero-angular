@@ -17,6 +17,14 @@
   --danger: #e11d48;
   --danger-soft: #fff1f2;
   --yellow: #facc15;
+  --text-secondary: #475569;
+  --hover: #f1f5f9;
+  --track: #f1f5f9;
+  --border-strong: #cbd5e1;
+  --on-primary: #ffffff;
+  // Chart series (validated with the dataviz palette checks, light and dark).
+  --series-correct: #2563eb;
+  --series-wrong: #dc2626;
   --radius: 16px;
   --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.04), 0 1px 3px rgb(15 23 42 / 0.06);
   --shadow-md: 0 10px 30px -12px rgb(15 23 42 / 0.18);
@@ -26,6 +34,44 @@
   color: var(--text);
   background: var(--background);
   -webkit-font-smoothing: antialiased;
+}
+
+// Dark theme, set on the app shell by PreferencesService ("Modo Escuro").
+[data-theme='dark'] {
+  --primary: #6366f1;
+  --primary-hover: #818cf8;
+  --primary-soft: rgb(99 102 241 / 0.16);
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --text-subtle: #64748b;
+  --text-secondary: #cbd5e1;
+  --border: #1e293b;
+  --border-strong: #334155;
+  --surface: #0f172a;
+  --background: #020617;
+  --dark: #e2e8f0;
+  --hover: #1e293b;
+  --track: #1e293b;
+  --success: #34d399;
+  --success-soft: rgb(52 211 153 / 0.12);
+  --warning: #fbbf24;
+  --warning-soft: rgb(251 191 36 / 0.12);
+  --danger: #fb7185;
+  --danger-soft: rgb(251 113 133 / 0.12);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 10px 30px -12px rgb(0 0 0 / 0.6);
+  --series-correct: #3b82f6;
+  --series-wrong: #ef4444;
+
+  color-scheme: dark;
+  color: var(--text);
+
+  .btn--dark {
+    color: #0f172a;
+    &:hover:not(:disabled) {
+      background: #cbd5e1;
+    }
+  }
 }
 
 *,
@@ -122,7 +168,7 @@ input {
   background: var(--surface);
   border-color: var(--border);
   &:hover:not(:disabled) {
-    border-color: #cbd5e1;
+    border-color: var(--border-strong);
   }
 }
 
@@ -130,7 +176,7 @@ input {
   color: var(--text);
   background: transparent;
   &:hover:not(:disabled) {
-    background: rgb(15 23 42 / 0.04);
+    background: var(--hover);
   }
 }
 
@@ -159,4 +205,98 @@ input {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+.btn--soft {
+  color: var(--text);
+  background: var(--hover);
+  &:hover:not(:disabled) {
+    background: var(--border);
+  }
+}
+
+// Page header shared by the app's sections (Assuntos, Estatísticas).
+.page-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+
+  h1 {
+    font-size: clamp(1.7rem, 3vw, 2.1rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+  }
+  p {
+    margin-top: 6px;
+    color: var(--text-muted);
+    font-size: 16px;
+  }
+}
+.page-head__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+// Loading / empty / error message in place of a section's content.
+.state {
+  margin-top: 28px;
+  padding: 40px 24px;
+  color: var(--text-muted);
+  text-align: center;
+}
+.link {
+  padding: 0;
+  border: 0;
+  color: var(--primary);
+  background: none;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+// Icon badge colour pairs.
+.tone--indigo {
+  color: var(--primary);
+  background: var(--primary-soft);
+}
+.tone--orange {
+  color: #ea580c;
+  background: #fff7ed;
+}
+.tone--blue {
+  color: #2563eb;
+  background: #eff6ff;
+}
+.tone--purple {
+  color: #9333ea;
+  background: #faf5ff;
+}
+.tone--green {
+  color: var(--success);
+  background: var(--success-soft);
+}
+.tone--rose {
+  color: var(--danger);
+  background: var(--danger-soft);
+}
+.tone--amber {
+  color: var(--warning);
+  background: var(--warning-soft);
+}
+[data-theme='dark'] {
+  .tone--orange {
+    color: #fb923c;
+    background: rgb(251 146 60 / 0.12);
+  }
+  .tone--blue {
+    color: #60a5fa;
+    background: rgb(96 165 250 / 0.12);
+  }
+  .tone--purple {
+    color: #c084fc;
+    background: rgb(192 132 252 / 0.12);
+  }
 }

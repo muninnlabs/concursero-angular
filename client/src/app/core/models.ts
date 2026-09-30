@@ -69,5 +69,35 @@ export interface UserStats {
   correct: number;
   accuracy: number;
   streakDays: number;
-  bySubject: { subject: string; answered: number; correct: number }[];
+  bySubject: SubjectStats[];
+}
+
+export interface SubjectStats {
+  subject: string;
+  answered: number;
+  correct: number;
+  /** Distinct questions answered at least once. */
+  questions: number;
+}
+
+/** A subject and how many practisable questions it has. */
+export interface SubjectInfo {
+  subject: string;
+  category: string;
+  questionCount: number;
+  examCount: number;
+}
+
+export interface PeriodTotals {
+  answered: number;
+  correct: number;
+  avgSeconds: number | null;
+}
+
+export interface ActivityStats {
+  days: { day: string; correct: number; wrong: number }[];
+  current: PeriodTotals;
+  previous: PeriodTotals;
+  bySubject: SubjectStats[];
+  ranking: { topPercent: number; users: number } | null;
 }

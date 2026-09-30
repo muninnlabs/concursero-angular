@@ -21,6 +21,8 @@ export interface AnswerRecord {
   subject: string | null;
   selected: string;
   isCorrect: boolean;
+  /** Time spent on the question, when the client measured it. */
+  durationMs?: number | null;
 }
 
 export interface SimuladoRecord {
@@ -39,7 +41,46 @@ export interface UserStats {
   accuracy: number;
   /** Consecutive days with at least one answer, ending today (or yesterday). */
   streakDays: number;
-  bySubject: { subject: string; answered: number; correct: number }[];
+  bySubject: SubjectStats[];
+}
+
+export interface SubjectStats {
+  subject: string;
+  answered: number;
+  correct: number;
+  /** Distinct questions answered at least once (for "Seu progresso"). */
+  questions: number;
+}
+
+export interface PeriodTotals {
+  answered: number;
+  correct: number;
+  /** Mean time per question in seconds; null when no timed answers. */
+  avgSeconds: number | null;
+}
+
+/** The "Estatísticas" page: the last `days` days against the `days` before them. */
+export interface ActivityStats {
+  days: { day: string; correct: number; wrong: number }[];
+  current: PeriodTotals;
+  previous: PeriodTotals;
+  bySubject: SubjectStats[];
+  /**
+   * Accuracy rank among users with at least RANKING_MIN_ANSWERS answers in the
+   * period; null when the user doesn't qualify or there are too few users.
+   */
+  ranking: { topPercent: number; users: number } | null;
+}
+
+export const RANKING_MIN_ANSWERS = 10;
+export const RANKING_MIN_USERS = 5;
+
+export interface ActivityOptions {
+  days: number;
+  category?: string;
+  /** The browser's Date#getTimezoneOffset(), so days split at local midnight. */
+  tzOffsetMinutes?: number;
+  today?: Date;
 }
 
 export interface UserStore {
@@ -55,10 +96,13 @@ export interface UserStore {
 
   getStats(userId: string, options?: { category?: string; today?: Date }): Promise<UserStats>;
   listSimulados(userId: string, options?: { category?: string; limit?: number }): Promise<SimuladoRecord[]>;
+  getActivity(userId: string, options: ActivityOptions): Promise<ActivityStats>;
+  /** Removes the profile with all its answers and simulados. */
+  deleteUser(userId: string): Promise<void>;
 }
 
 /** YYYY-MM-DD in UTC, matching SQLite's date(). */
-function isoDay(date: Date): string {
+export function isoDay(date: Date): string {
   return date.toISOString().slice(0, 10);
 }
 
