@@ -3594,12 +3594,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A Companhia de Engenharia de Tráfego (CET) de São Paulo testou em 2013 novos radares que permitem o cálculo da velocidade média desenvolvida por um veículo em um trecho da via.\nO sistema mede o tempo decorrido entre um radar e outro e calcula a velocidade média.\nNo teste feito pela CET, os dois radares ficavam a uma distância de 2,1 km um do outro.\nAs medições de velocidade deixariam de ocorrer de maneira instantânea, ao se passar pelo radar, e seriam feitas a partir da velocidade média no trecho, considerando o tempo gasto no percurso entre um radar e outro. Sabe-se que a velocidade média é calculada como sendo a razão entre a distância percorrida e o tempo gasto para percorrê-la.\nO teste realizado mostrou que o tempo que permite uma condução segura de deslocamento no percurso entre os dois radares deveria ser de, no mínimo, 1 minuto e 24 segundos.\nCom isso, a CET precisa instalar uma placa antes do primeiro radar informando a velocidade média máxima permitida nesse trecho da via. O valor a ser exibido na placa deve ser o maior possível, entre os que atendem às condições de condução segura observadas.",
+          "content": "A Companhia de Engenharia de Tráfego (CET) de São Paulo testou em 2013 novos radares que permitem o cálculo da velocidade média desenvolvida por um veículo em um trecho da via.\nO sistema mede o tempo decorrido entre um radar e outro e calcula a velocidade média.\nAs medições de velocidade deixariam de ocorrer de maneira instantânea, ao se passar pelo radar, e seriam feitas a partir da velocidade média no trecho, considerando o tempo gasto no percurso entre um radar e outro. Sabe-se que a velocidade média é calculada como sendo a razão entre a distância percorrida e o tempo gasto para percorrê-la.\nO teste realizado mostrou que o tempo que permite uma condução segura de deslocamento no percurso entre os dois radares deveria ser de, no mínimo, 1 minuto e 24 segundos.\nCom isso, a CET precisa instalar uma placa antes do primeiro radar informando a velocidade média máxima permitida nesse trecho da via. O valor a ser exibido na placa deve ser o maior possível, entre os que atendem às condições de condução segura observadas.",
           "source": "Disponível em: www1.folha.uol.com.br. Acesso em: 11 jan. 2014 (adaptado)."
         }
       ],
       "image_url": [
-        "assets/images/enem_2014_cd7_q165.png"
+        "assets/images/enem_2014_cd7_q165-fig1.png"
       ],
       "statement": "A placa de sinalização que informa a velocidade que atende a essas condições é 25",
       "options": [
