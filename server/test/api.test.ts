@@ -5,6 +5,7 @@ import type { TokenVerifier } from '../src/auth/firebase.ts';
 import { MemoryExamSource, examLabel, isUsable, randomQuestions, toPublicQuestion } from '../src/exams/catalog.ts';
 import type { ExamFile, Question } from '../src/exams/types.ts';
 import { createSqliteStore } from '../src/users/sqlite-store.ts';
+import { badgesFor, levelFor, longestStreak, publicName } from '../src/users/profile.ts';
 import { countStreak } from '../src/users/store.ts';
 
 function question(id: string, correct: string | null, subject = 'Direito Penal'): Question {
@@ -151,6 +152,35 @@ describe('signed-in user', () => {
     assert.equal(body.ranking, null); // not enough answers or users to rank
   });
 
+  test('profile: XP, level, badges and a weekly ranking without full names', async () => {
+    // Someone else answers too, so there's a ranking with two people.
+    const other = 'valid:ana';
+    await api('POST', '/api/answers', { answers: [{ questionId: `${EXAM}_q1`, examId: EXAM, selected: 'C' }] }, other);
+
+    const { status, body } = await api('GET', '/api/me/profile?tz=180', undefined, token);
+    assert.equal(status, 200);
+    // uid-123 so far: q1 ✓, q2 ✗, q4 ✓ (simulado), q1 ✗ → 10+2+10+2 + 20 for the simulado.
+    assert.equal(body.xp, 44);
+    assert.deepEqual(body.level, { level: 1, levelXp: 0, nextLevelXp: 100 });
+    assert.equal(body.streak.current, 1);
+    assert.equal(body.streak.practicedToday, true);
+    assert.deepEqual(body.activity, [{ day: body.today, count: 4 }]);
+    assert.equal(body.badges.find((b: { id: string }) => b.id === 'primeiro-passo').progress, 4);
+
+    const [first, second] = body.ranking.entries;
+    assert.deepEqual([first.name, first.xp, first.you], ['Carlos Silva', 44, true]);
+    assert.deepEqual([second.name, second.xp, second.you], ['Carlos S.', 10, false]);
+  });
+
+  test('profile: bio and location can be set and cleared', async () => {
+    const set = await api('PATCH', '/api/me', { bio: '  Foco na OAB.  ', location: 'Recife, PE' }, token);
+    assert.deepEqual([set.body.bio, set.body.location], ['Foco na OAB.', 'Recife, PE']);
+    const cleared = await api('PATCH', '/api/me', { bio: '' }, token);
+    assert.deepEqual([cleared.body.bio, cleared.body.location], [null, 'Recife, PE']);
+    // Signing in again doesn't wipe them.
+    assert.equal((await api('GET', '/api/auth/me', undefined, token)).body.location, 'Recife, PE');
+  });
+
   test('deleting the account removes the profile and its history', async () => {
     const uid = 'valid:to-delete';
     await api('POST', '/api/answers', { answers: [{ questionId: `${EXAM}_q1`, examId: EXAM, selected: 'C' }], simulado: {} }, uid);
@@ -253,5 +283,29 @@ describe('countStreak', () => {
   test('a missed day resets it', () => {
     assert.equal(countStreak(['2026-09-24'], today), 0);
     assert.equal(countStreak([], today), 0);
+  });
+});
+
+describe('profile rules', () => {
+  test('levels get 100 XP longer each time', () => {
+    assert.deepEqual([0, 99, 100, 299, 300, 600].map((xp) => levelFor(xp).level), [1, 1, 2, 2, 3, 4]);
+    assert.deepEqual(levelFor(12_400), { level: 16, levelXp: 12_000, nextLevelXp: 13_600 });
+  });
+
+  test('longest streak ignores order and gaps', () => {
+    assert.equal(longestStreak(['2026-09-03', '2026-09-01', '2026-09-02', '2026-09-10', '2026-09-11']), 3);
+    assert.equal(longestStreak([]), 0);
+  });
+
+  test('Especialista needs volume and 80% in one subject', () => {
+    const expert = (bySubject: { subject: string; answered: number; correct: number }[]) =>
+      badgesFor({ answered: 0, longestStreak: 0, simulados: 0, perfectSimulados: 0, bySubject }).find((b) => b.id === 'especialista')!;
+    assert.equal(expert([{ subject: 'Direito Penal', answered: 60, correct: 47 }]).unlocked, false);
+    const earned = expert([{ subject: 'Direito Penal', answered: 60, correct: 50 }]);
+    assert.deepEqual([earned.unlocked, earned.detail], [true, 'Direito Penal']);
+  });
+
+  test('other students appear as first name and initial', () => {
+    assert.deepEqual(['Ana Paula Souza', 'Ana', '  '].map(publicName), ['Ana S.', 'Ana', 'Estudante']);
   });
 });

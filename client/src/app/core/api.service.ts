@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import type { Observable } from 'rxjs';
-import type { ActivityStats, Catalog, GradedAnswer, Question, Simulado, SubjectInfo, UserStats } from './models';
+import type { ActivityStats, Catalog, GradedAnswer, Question, Simulado, StudentProfile, SubjectInfo, User, UserStats } from './models';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
@@ -36,6 +36,14 @@ export class ApiService {
   activity(days: number, category?: string): Observable<ActivityStats> {
     const params = { days, tz: new Date().getTimezoneOffset(), ...(category ? { category } : {}) };
     return this.http.get<ActivityStats>('api/me/activity', { params });
+  }
+
+  profile(): Observable<StudentProfile> {
+    return this.http.get<StudentProfile>('api/me/profile', { params: { tz: new Date().getTimezoneOffset() } });
+  }
+
+  updateProfile(fields: { bio?: string | null; location?: string | null }): Observable<User> {
+    return this.http.patch<User>('api/me', fields);
   }
 
   deleteAccount(): Observable<void> {

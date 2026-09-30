@@ -1,0 +1,259 @@
+@let p = profile.value();
+@let u = user();
+
+<section class="hero">
+  <div class="hero__banner">
+    <button class="btn hero__share" type="button" (click)="share()" [disabled]="!p">
+      <app-icon name="share" [size]="16" /> Compartilhar
+    </button>
+    @if (shareMessage(); as message) {
+      <p class="hero__toast" role="status">{{ message }}</p>
+    }
+  </div>
+
+  <div class="hero__body">
+    <div class="avatar">
+      @if (auth.photoUrl(); as photo) {
+        <img [src]="photo" alt="" referrerpolicy="no-referrer" />
+      } @else {
+        <span class="avatar__initials">{{ initials() }}</span>
+      }
+      <span
+        class="avatar__streak"
+        [class.avatar__streak--on]="p?.streak?.practicedToday"
+        [title]="p?.streak?.practicedToday ? 'Você já estudou hoje' : 'Estude hoje para manter a ofensiva'"
+        ><app-icon name="zap" [size]="18" [filled]="true"
+      /></span>
+    </div>
+
+    <div class="hero__info">
+      <h1>{{ u?.name }}</h1>
+      <p class="hero__meta">
+        @if (u?.location) {
+          <span><app-icon name="map-pin" [size]="16" /> {{ u?.location }}</span>
+          <span class="hero__divider" aria-hidden="true"></span>
+        }
+        <strong>Estudante Nível {{ p?.level?.level ?? '—' }}</strong>
+      </p>
+      @if (p) {
+        <div class="level" [title]="p.xp - p.level.levelXp + ' de ' + (p.level.nextLevelXp - p.level.levelXp) + ' XP neste nível'">
+          <div class="level__track"><span [style.width.%]="levelProgress()"></span></div>
+          <small>{{ (p.level.nextLevelXp - p.xp).toLocaleString('pt-BR') }} XP para o nível {{ p.level.level + 1 }}</small>
+        </div>
+      }
+    </div>
+
+    <div class="hero__stats">
+      <div class="card stat">
+        <strong>{{ p?.streak?.current ?? '—' }}</strong>
+        <span>Dias de ofensiva</span>
+      </div>
+      <div class="card stat">
+        <strong>{{ p ? formatXp(p.xp) : '—' }}</strong>
+        <span>Total XP</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+@if (profile.error()) {
+  <p class="card state">
+    Não foi possível carregar seu perfil.
+    <button class="link" type="button" (click)="profile.reload()">Tentar de novo</button>
+  </p>
+} @else {
+  <div class="layout">
+    <div class="layout__main">
+      <section class="card panel">
+        <div class="panel__head">
+          <h2>Atividade de Estudos</h2>
+          <span class="panel__hint">Últimos 6 meses</span>
+        </div>
+        <div class="heatmap-scroll" #heatmapScroll>
+          <div class="heatmap" role="img" [attr.aria-label]="'Dias de estudo nos últimos 6 meses. Maior sequência: ' + (p?.streak?.longest ?? 0) + ' dias.'">
+            <div class="heatmap__months" aria-hidden="true">
+              @for (month of heatmap().months; track month.column) {
+                <span [style.grid-column]="month.column + 2">{{ month.label }}</span>
+              }
+            </div>
+            <div class="heatmap__days" aria-hidden="true">
+              <span></span><span>Seg</span><span></span><span>Qua</span><span></span><span>Sex</span><span></span>
+            </div>
+            @for (week of heatmap().weeks; track $index) {
+              <div class="heatmap__week">
+                @for (cell of week; track cell.day) {
+                  <span class="cell cell--{{ cell.level }}" [class.cell--future]="cell.future" [title]="cell.future ? '' : cellTitle(cell)"></span>
+                }
+              </div>
+            }
+          </div>
+        </div>
+        <div class="heatmap__foot">
+          <p class="quote">
+            "Consistência é a chave da aprovação.
+            @if (daysThisWeek() === 0) {
+              Que tal começar a semana hoje?"
+            } @else {
+              Você estudou {{ daysThisWeek() }} {{ daysThisWeek() === 1 ? 'dia' : 'dias' }} nesta semana!"
+            }
+          </p>
+          <div class="legend" aria-hidden="true">
+            Menos
+            @for (level of [0, 1, 2, 3, 4]; track level) {
+              <span class="cell cell--{{ level }}"></span>
+            }
+            Mais
+          </div>
+        </div>
+        @if (p && p.streak.longest > 1) {
+          <p class="panel__note">Maior sequência: <strong>{{ p.streak.longest }} dias seguidos</strong></p>
+        }
+      </section>
+
+      <section class="card panel">
+        <div class="panel__head">
+          <h2>Conquistas</h2>
+          <span class="panel__hint">{{ unlockedCount() }} de {{ p?.badges?.length ?? 0 }} desbloqueadas</span>
+        </div>
+        <ul class="badges">
+          @for (badge of p?.badges; track badge.id) {
+            <li class="badge" [class.badge--locked]="!badge.unlocked">
+              <span class="badge__icon tone--{{ badge.tone }}"><app-icon [name]="badgeIcon(badge)" [size]="28" /></span>
+              <strong>{{ badge.name }}</strong>
+              <small>{{ badge.description }}</small>
+              @if (badge.unlocked && badge.detail) {
+                <small class="badge__detail">{{ badge.detail }}</small>
+              } @else if (!badge.unlocked) {
+                <div
+                  class="badge__progress"
+                  role="progressbar"
+                  [attr.aria-valuenow]="badge.progress"
+                  aria-valuemin="0"
+                  [attr.aria-valuemax]="badge.target"
+                  [attr.aria-label]="badge.name"
+                >
+                  <span [style.width.%]="(badge.progress / badge.target) * 100"></span>
+                </div>
+                <small class="badge__count">{{ badge.progress.toLocaleString('pt-BR') }}/{{ badge.target.toLocaleString('pt-BR') }}</small>
+              }
+            </li>
+          }
+        </ul>
+      </section>
+
+      <section class="card panel">
+        <div class="panel__head">
+          <h2>Resultados de Simulados</h2>
+          @if ((simulados.value()?.length ?? 0) >= 4 || allSimulados()) {
+            <button class="panel__action" type="button" (click)="allSimulados.set(!allSimulados())">
+              {{ allSimulados() ? 'Ver menos' : 'Ver todos' }}
+            </button>
+          }
+        </div>
+        <div class="results">
+          @for (simulado of simulados.value(); track simulado.id) {
+            <div class="result">
+              <span class="result__icon"><app-icon name="file-text" [size]="18" /></span>
+              <div class="result__info">
+                <strong>{{ simulado.title }}</strong>
+                <small>Concluído em {{ simuladoDate(simulado) }} · {{ simulado.correct }}/{{ simulado.total }} acertos</small>
+              </div>
+              <span class="score" [class.score--good]="score(simulado) >= 70" [class.score--mid]="score(simulado) >= 50 && score(simulado) < 70"
+                >{{ score(simulado) }}%</span
+              >
+              <a
+                class="result__retry"
+                routerLink="/app/praticar"
+                [queryParams]="{ modo: 'mini', categoria: simulado.category }"
+                [attr.aria-label]="'Fazer outro simulado de ' + simulado.category"
+                ><app-icon name="refresh" [size]="16"
+              /></a>
+            </div>
+          } @empty {
+            <p class="results__empty">
+              @if (simulados.isLoading()) {
+                Carregando…
+              } @else {
+                Nenhum simulado concluído ainda. <a routerLink="/app/assuntos">Escolha uma matéria</a> para começar.
+              }
+            </p>
+          }
+        </div>
+      </section>
+    </div>
+
+    <aside class="layout__side">
+      <section class="card panel about">
+        <div class="panel__head">
+          <h2>Sobre {{ firstName() }}</h2>
+          @if (!editing()) {
+            <button class="panel__action" type="button" (click)="startEditing()"><app-icon name="pencil" [size]="14" /> Editar</button>
+          }
+        </div>
+        @if (editing()) {
+          <form class="about__form" (submit)="$event.preventDefault(); save()">
+            <label>
+              <span>Sobre você</span>
+              <textarea
+                rows="4"
+                maxlength="280"
+                placeholder="Ex.: Focado na 1ª fase da OAB, estudo à noite depois do trabalho."
+                [value]="bioDraft()"
+                (input)="bioDraft.set($any($event.target).value)"
+              ></textarea>
+              <small>{{ bioDraft().length }}/280</small>
+            </label>
+            <label>
+              <span>Cidade</span>
+              <input maxlength="60" placeholder="Ex.: São Paulo, SP" [value]="locationDraft()" (input)="locationDraft.set($any($event.target).value)" />
+            </label>
+            @if (saveError(); as error) {
+              <p class="about__error" role="alert">{{ error }}</p>
+            }
+            <div class="about__actions">
+              <button class="btn btn--soft" type="button" (click)="editing.set(false)" [disabled]="saving()">Cancelar</button>
+              <button class="btn btn--primary" type="submit" [disabled]="saving()">{{ saving() ? 'Salvando…' : 'Salvar' }}</button>
+            </div>
+          </form>
+        } @else if (u?.bio) {
+          <p class="about__text">{{ u?.bio }}</p>
+        } @else {
+          <p class="about__empty">Conte seus objetivos: qual prova, qual fase, como você estuda. Aparece só no seu perfil.</p>
+        }
+      </section>
+
+      <section class="ranking">
+        <h2>Ranking Semanal</h2>
+        <p class="ranking__hint">XP ganho nos últimos 7 dias</p>
+        @if (rankingRows().length) {
+          <ol class="ranking__list">
+            @for (row of rankingRows(); track row.entry.position) {
+              @if (row.gapBefore) {
+                <li class="ranking__gap" aria-hidden="true">⋯</li>
+              }
+              <li class="ranking__row" [class.ranking__row--you]="row.entry.you">
+                <span class="ranking__pos">#{{ row.entry.position }}</span>
+                @if (row.entry.you && auth.photoUrl()) {
+                  <img class="ranking__avatar" [src]="auth.photoUrl()" alt="" referrerpolicy="no-referrer" />
+                } @else {
+                  <span class="ranking__avatar">{{ rankInitials(row.entry) }}</span>
+                }
+                <strong>{{ row.entry.you ? 'Você' : row.entry.name }}</strong>
+                <span class="ranking__xp">{{ row.entry.xp.toLocaleString('pt-BR') }} XP</span>
+              </li>
+            }
+          </ol>
+          @if ((p?.ranking?.entries?.length ?? 0) > 3) {
+            <button class="btn btn--primary ranking__btn" type="button" (click)="fullRanking.set(!fullRanking())">
+              {{ fullRanking() ? 'Ver menos' : 'Ver Ranking Completo' }}
+            </button>
+          }
+          <p class="ranking__total">{{ p?.ranking?.users }} {{ p?.ranking?.users === 1 ? 'estudante ativo' : 'estudantes ativos' }} nesta semana</p>
+        } @else {
+          <p class="ranking__empty">Responda uma questão para entrar no ranking desta semana.</p>
+          <a class="btn btn--primary ranking__btn" routerLink="/app/assuntos">Praticar agora</a>
+        }
+      </section>
+    </aside>
+  </div>
+}
