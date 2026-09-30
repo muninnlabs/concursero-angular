@@ -5,6 +5,7 @@ import { ApiService } from '../../core/api.service';
 import { CATEGORIES, CategoryState } from '../../core/categories';
 import type { ActivityStats } from '../../core/models';
 import { SearchState, matchesSearch } from '../../core/search';
+import { AdSlot } from '../../shared/ad-slot';
 import { Icon, type IconName } from '../../shared/icon';
 import { LineChart, type ChartSeries } from '../../shared/line-chart';
 
@@ -29,7 +30,7 @@ const WEEKDAYS = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
 
 @Component({
   selector: 'app-stats-page',
-  imports: [RouterLink, Icon, LineChart],
+  imports: [RouterLink, AdSlot, Icon, LineChart],
   templateUrl: './stats.page.html',
   styleUrl: './stats.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -88,6 +88,10 @@
           >Iniciar Simulado</a
         >
       </article>
+      @if ($first) {
+        <!-- Second cell of the grid, as in the mock. -->
+        <app-ad-slot placement="subjects-grid" />
+      }
     } @empty {
       <p class="card state grid__empty">Nenhum assunto encontrado.</p>
     }
