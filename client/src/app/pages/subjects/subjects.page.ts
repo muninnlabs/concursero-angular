@@ -5,6 +5,7 @@ import { ApiService } from '../../core/api.service';
 import { CATEGORIES, CategoryState } from '../../core/categories';
 import { SearchState, matchesSearch } from '../../core/search';
 import { subjectStyle, type SubjectStyle } from '../../core/subjects';
+import { AdSlot } from '../../shared/ad-slot';
 import { Icon } from '../../shared/icon';
 
 interface SubjectCard {
@@ -30,7 +31,7 @@ const MIN_ANSWERS_FOR_SUGGESTION = 5;
 
 @Component({
   selector: 'app-subjects-page',
-  imports: [RouterLink, Icon],
+  imports: [RouterLink, AdSlot, Icon],
   templateUrl: './subjects.page.html',
   styleUrl: './subjects.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
