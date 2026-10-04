@@ -18,7 +18,7 @@
       "image_url": [
         "assets/images/enem_2017_cd7_q91-fig1.png"
       ],
-      "statement": "A toxicidade de algumas substâncias é normalmente representada por um índice conhecido como DL (dose 50 letal mediana). Ele representa a dosagem aplicada a uma população de seres vivos que mata 50% desses indivíduos e é normalmente medido utilizando-se ratos como cobaias. Esse índice é muito importante para os seres humanos, pois ao se extrapolar os dados obtidos com o uso de cobaias, pode-se determinar o nível tolerável de contaminação de alimentos, para que possam ser consumidos de forma segura pelas pessoas.\nO quadro apresenta três pesticidas e suas toxicidades.\nA unidade mg/kg indica a massa da substância ingerida pela massa da cobaia.\nPesticidas DL (mg/kg) 50 Diazinon 70 Malation 1 000 Atrazina 3 100 Sessenta ratos, com massa de 200 g cada, foram divididos em três grupos de vinte. Três amostras de ração, contaminadas, cada uma delas com um dos pesticidas indicados no quadro, na concentração de 3 mg por grama de ração, foram administradas para cada grupo de cobaias. Cada rato consumiu 100 g de ração.\nQual(ais) grupo(s) terá(ão) uma mortalidade mínima de 10 ratos?",
+      "statement": "A toxicidade de algumas substâncias é normalmente representada por um índice conhecido como DL₅₀ (dose letal mediana). Ele representa a dosagem aplicada a uma população de seres vivos que mata 50% desses indivíduos e é normalmente medido utilizando-se ratos como cobaias. Esse índice é muito importante para os seres humanos, pois ao se extrapolar os dados obtidos com o uso de cobaias, pode-se determinar o nível tolerável de contaminação de alimentos, para que possam ser consumidos de forma segura pelas pessoas.\nO quadro apresenta três pesticidas e suas toxicidades.\nA unidade mg/kg indica a massa da substância ingerida pela massa da cobaia.\nPesticidas DL₅₀ (mg/kg) Diazinon 70 Malation 1 000 Atrazina 3 100 Sessenta ratos, com massa de 200 g cada, foram divididos em três grupos de vinte. Três amostras de ração, contaminadas, cada uma delas com um dos pesticidas indicados no quadro, na concentração de 3 mg por grama de ração, foram administradas para cada grupo de cobaias. Cada rato consumiu 100 g de ração.\nQual(ais) grupo(s) terá(ão) uma mortalidade mínima de 10 ratos?",
       "options": [
         {
           "letter": "A",
@@ -110,31 +110,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "0,5 × 100.",
+          "text": "0,5 × 10⁰.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "2,0 × 100.",
+          "text": "2,0 × 10⁰.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "2,5 × 105.",
+          "text": "2,5 × 10⁵.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "5,0 × 105.",
+          "text": "5,0 × 10⁵.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "2,0 × 106.",
+          "text": "2,0 × 10⁶.",
           "image_url": null,
           "is_correct": true
         }
@@ -202,7 +202,7 @@
           "type": "text_block",
           "title": null,
           "content": "A eletrólise é um processo não espontâneo de grande importância para a indústria química. Uma de suas aplicações é a obtenção do gás cloro e do hidróxido de sódio, a partir de uma solução aquosa de cloreto de sódio.",
-          "source": "Nesse procedimento, utiliza-se uma célula eletroquímica, como ilustrado. e e + -e Bateria e Cl (g) Produto secundário 2 Solução aquosa + -de NaCl Ânodo de carbono Cátodo de carbono Diafragma de amianto Dreno para solução aquosa alcalina Célula eletroquímica SHREVE, R. N.; BRINK Jr., J. A. Indústrias de processos químicos. Rio de Janeiro: Guanabara Koogan, 1997 (adaptado)."
+          "source": "Nesse procedimento, utiliza-se uma célula eletroquímica, como ilustrado. e e + -e Bateria e Cl₂ (g) Produto secundário Solução aquosa + -de NaCl Ânodo de carbono Cátodo de carbono Diafragma de amianto Dreno para solução aquosa alcalina Célula eletroquímica SHREVE, R. N.; BRINK Jr., J. A. Indústrias de processos químicos. Rio de Janeiro: Guanabara Koogan, 1997 (adaptado)."
         }
       ],
       "image_url": [
@@ -538,7 +538,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Partículas microscópicas existentes na atmosfera funcionam como núcleos de condensação de vapor de água que, sob condições adequadas de temperatura e pressão, propiciam a formação das nuvens e consequentemente das chuvas. No ar atmosférico, tais partículas são formadas pela reação de ácidos (HX) com a base NH , de forma natural ou antropogênica, 3 dando origem a sais de amônio (NH X), de acordo com a 4 equação química genérica:\nHX (g) + NH (g) → NH X (s) 3 4 FELIX, E. P.; CARDOSO, A. A. Fatores ambientais que afetam a precipitação úmida.",
+          "content": "Partículas microscópicas existentes na atmosfera funcionam como núcleos de condensação de vapor de água que, sob condições adequadas de temperatura e pressão, propiciam a formação das nuvens e consequentemente das chuvas. No ar atmosférico, tais partículas são formadas pela reação de ácidos (HX) com a base NH₃, de forma natural ou antropogênica, dando origem a sais de amônio (NH₄X), de acordo com a equação química genérica:\nHX (g) + NH₃ (g) → NH₄X (s) FELIX, E. P.; CARDOSO, A. A. Fatores ambientais que afetam a precipitação úmida.",
           "source": "Química Nova na Escola, n. 21, maio 2005 (adaptado)."
         }
       ],
@@ -1383,7 +1383,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Diversos produtos naturais podem ser obtidos de plantas por processo de extração. O lapachol é da classe das naftoquinonas. Sua estrutura apresenta uma hidroxila enólica (pK = 6,0) que permite que este composto seja a isolado da serragem dos ipês por extração com solução adequada, seguida de filtração simples. Considere que pK = −log K , em que K é a constante ácida da reação a a a de ionização do lapachol.",
+          "content": "Diversos produtos naturais podem ser obtidos de plantas por processo de extração. O lapachol é da classe das naftoquinonas. Sua estrutura apresenta uma hidroxila enólica (pKₐ = 6,0) que permite que este composto seja isolado da serragem dos ipês por extração com solução adequada, seguida de filtração simples. Considere que pKₐ = −log Kₐ, em que Kₐ é a constante ácida da reação de ionização do lapachol.",
           "source": "O OH O Lapachol COSTA, P. R. R. et al. Ácidos e bases em química orgânica. Porto Alegre: Bookman, 2005 (adaptado)."
         }
       ],
@@ -1394,7 +1394,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Solução de Na CO para formar um sal de lapachol. 2 3",
+          "text": "Solução de Na₂CO₃ para formar um sal de lapachol.",
           "image_url": null,
           "is_correct": true
         },
@@ -1412,7 +1412,7 @@
         },
         {
           "letter": "D",
-          "text": "Solução de Na SO para formar um par iônico com 2 4 lapachol.",
+          "text": "Solução de Na₂SO₄ para formar um par iônico com lapachol.",
           "image_url": null,
           "is_correct": false
         },
@@ -1476,35 +1476,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A invenção do LED azul, que permite a geração de out de lâmpadas energeticamente mais eficientes e mais dur experimento de laboratório, pretende-se associar duas pilha para o seu funcionamento. Considere as semirreações de re Semirreação de red Ce4+ (aq) + e− → Ce3+ (aq)\nCr O 2− (aq) + 14 H+ (aq) + 6 e− → 2 2 7 Ni2+ (aq) + 2 e− → Ni (s)\nZn2+ (aq) + 2 e− → Zn (s)\nQual associação em série de pilhas fornece diferença de potenc LED Grafite Ni Zn Grafite KCI KCI",
+      "statement": "A invenção do LED azul, que permite a geração de out de lâmpadas energeticamente mais eficientes e mais dur experimento de laboratório, pretende-se associar duas pilha para o seu funcionamento. Considere as semirreações de re Semirreação de red Ce⁴⁺ (aq) + e⁻ → Ce³⁺ (aq)\nCr₂O₇²⁻ (aq) + 14 H⁺ (aq) + 6 e⁻ → 2 Ni²⁺ (aq) + 2 e⁻ → Ni (s)\nZn²⁺ (aq) + 2 e⁻ → Zn (s)\nQual associação em série de pilhas fornece diferença de potenc LED Grafite Ni Zn Grafite KCI KCI",
       "options": [
         {
           "letter": "A",
-          "text": "Ce4+ e Ce3+ Ni2+ Zn2+ Cr 2 O 7 2−, H+ e Cr3+ LED Grafite Zn Ni Grafite KCI KCI",
+          "text": "Ce4+ e Ce3+ Ni2+ Zn2+ Cr₂O₇²⁻, H⁺ e Cr³⁺ LED Grafite Zn Ni Grafite KCI KCI",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Ce4+ e Ce3+ Zn2+ Ni2+ CrO2−, 2 7 H+ e Cr3+ LED Grafite Zn Grafite Ni KCI KCI",
+          "text": "Ce⁴⁺ e Ce³⁺ Zn²⁺ Ni²⁺ Cr₂O₇²⁻, H⁺ e Cr³⁺ LED Grafite Zn Grafite Ni KCI KCI",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Ce4+ e Ce3+ Zn2+ CrO2−, Ni2+ 2 7 H+ e Cr3+ tras cores para compor a luz branca, permitiu a construção ráveis do que as incandescentes e fluorescentes. Em um as em série para acender um LED azul que requer 3,6 volts edução e seus respectivos potenciais mostrados no quadro. dução E (V) +1,61 2 Cr3+ (aq) + 7 H O (l) +1,33 2 −0,25 −0,76 cial, nas condições-padrão, suficiente para acender o LED azul?\nLED Grafite Grafite Ni Zn KCI KCI",
+          "text": "Ce⁴⁺ e Ce³⁺ Zn²⁺ Cr₂O₇²⁻, Ni²⁺ H⁺ e Cr³⁺ tras cores para compor a luz branca, permitiu a construção ráveis do que as incandescentes e fluorescentes. Em um as em série para acender um LED azul que requer 3,6 volts edução e seus respectivos potenciais mostrados no quadro. dução E (V) +1,61 2 Cr³⁺ (aq) + 7 H₂O (l) +1,33 −0,25 −0,76 cial, nas condições-padrão, suficiente para acender o LED azul?\nLED Grafite Grafite Ni Zn KCI KCI",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "Ce4+ e Ce3+ CrO2−, Ni2+ Zn2+ 2 7 H+ e Cr3+ LED Grafite Grafite Zn Ni KCI KCI",
+          "text": "Ce⁴⁺ e Ce³⁺ Cr₂O₇²⁻, Ni²⁺ Zn²⁺ H⁺ e Cr³⁺ LED Grafite Grafite Zn Ni KCI KCI",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "Ce4+ e Ce3+ CrO2−, Zn2+ Ni2+ 2 7 H+ e Cr3+",
+          "text": "Ce⁴⁺ e Ce³⁺ Cr₂O₇²⁻, Zn²⁺ Ni²⁺ H⁺ e Cr³⁺",
           "image_url": null,
           "is_correct": false
         }
@@ -1529,7 +1529,7 @@
         "assets/images/enem_2017_cd7_q122-fig2.png",
         "assets/images/enem_2017_cd7_q122-fig3.png"
       ],
-      "statement": "O ácido acetilsalicílico, AAS (massa molar igual a 180 g/mol), é sintetizado a partir da reação do ácido salicílico (massa molar igual a 138 g/mol) com anidrido acético, usando-se ácido sulfúrico como catalisador, conforme a equação química:\nHSO 2 4 Ácido salicílico Anidrido acético Ácido acetilsalicílico Ácido acético Após a síntese, o AAS é purificado e o rendimento final é de aproximadamente 50%. Devido às suas propriedades farmacológicas (antitérmico, analgésico, anti-inflamatório e antitrombótico), o AAS é utilizado como medicamento na forma de comprimidos, nos quais se emprega tipicamente uma massa de 500 mg dessa substância.\nUma indústria farmacêutica pretende fabricar um lote de 900 mil comprimidos, de acordo com as especificações do texto. Qual é a massa de ácido salicílico, em kg, que deve ser empregada para esse fim?",
+      "statement": "O ácido acetilsalicílico, AAS (massa molar igual a 180 g/mol), é sintetizado a partir da reação do ácido salicílico (massa molar igual a 138 g/mol) com anidrido acético, usando-se ácido sulfúrico como catalisador, conforme a equação química:\nH₂SO₄ Ácido salicílico Anidrido acético Ácido acetilsalicílico Ácido acético Após a síntese, o AAS é purificado e o rendimento final é de aproximadamente 50%. Devido às suas propriedades farmacológicas (antitérmico, analgésico, anti-inflamatório e antitrombótico), o AAS é utilizado como medicamento na forma de comprimidos, nos quais se emprega tipicamente uma massa de 500 mg dessa substância.\nUma indústria farmacêutica pretende fabricar um lote de 900 mil comprimidos, de acordo com as especificações do texto. Qual é a massa de ácido salicílico, em kg, que deve ser empregada para esse fim?",
       "options": [
         {
           "letter": "A",
@@ -1622,7 +1622,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O ferro é encontrado na natureza na forma de seus minérios, tais como a hematita (α-Fe O ), a magnetita (Fe O ) 2 3 3 4 e a wustita (FeO). Na siderurgia, o ferro-gusa é obtido pela fusão de minérios de ferro em altos fornos em condições adequadas. Uma das etapas nesse processo é a formação de monóxido de carbono. O CO (gasoso) é utilizado para reduzir o FeO (sólido), conforme a equação química:\nFeO (s) + CO (g) → Fe (s) + CO (g) 2 Considere as seguintes equações termoquímicas:\nFe O (s) + 3 CO (g) → 2 Fe (s) + 3 CO (g) ∆H = −25 kJ/mol de Fe O 2 3 2 r 2 3 3 FeO (s) + CO (g) → Fe O (s) + CO (g) ∆H = −36 kJ/mol de CO 2 3 4 r 2 2 Fe O (s) + CO (g) → 3 Fe O (s) + CO (g) ∆H = +47 kJ/mol de CO 3 4 2 2 3 r 2 O valor mais próximo de ∆H , em kJ/mol de FeO, para a reação indicada do FeO (sólido) com o CO (gasoso) é r",
+      "statement": "O ferro é encontrado na natureza na forma de seus minérios, tais como a hematita (α-Fe₂O₃), a magnetita (Fe₃O₄) e a wustita (FeO). Na siderurgia, o ferro-gusa é obtido pela fusão de minérios de ferro em altos fornos em condições adequadas. Uma das etapas nesse processo é a formação de monóxido de carbono. O CO (gasoso) é utilizado para reduzir o FeO (sólido), conforme a equação química:\nFeO (s) + CO (g) → Fe (s) + CO₂ (g) Considere as seguintes equações termoquímicas:\nFe O (s) + 3 CO (g) → 2 Fe (s) + 3 CO (g) ∆H = −25 kJ/mol de Fe O 2 3 2 r 2 3 3 FeO (s) + CO (g) → Fe O (s) + CO (g) ∆H = −36 kJ/mol de CO 2 3 4 r 2 2 Fe O (s) + CO (g) → 3 Fe O (s) + CO (g) ∆H = +47 kJ/mol de CO 3 4 2 2 3 r 2 O valor mais próximo de ∆H , em kJ/mol de FeO, para a reação indicada do FeO (sólido) com o CO (gasoso) é r",
       "options": [
         {
           "letter": "A",
@@ -1766,35 +1766,35 @@
       "image_url": [
         "assets/images/enem_2017_cd7_q127-fig1.png"
       ],
-      "statement": "No manual fornecido pelo fabricante de uma ducha elétrica de 220 V é apresentado um gráfico com a variação da temperatura da água em função da vazão para três condições (morno, quente e superquente). Na condição superquente, a potência dissipada é de 6 500 W. Considere o calor específico da água igual a 4 200 J/(kg °C) e densidade da água igual a 1 kg/L.\nElevação de temperatura × Curva vazão\n1 - MORNO\n2 - QUENTE ∆T (°C) 3 - SUPERQUENTE 40 3 30 2 20 1 10 Vazão 1 2 3 4 5 6 7 8 9 10 (L/min)\nCom base nas informações dadas, a potência na condição morno corresponde a que fração da potência na condição superquente? 1",
+      "statement": "No manual fornecido pelo fabricante de uma ducha elétrica de 220 V é apresentado um gráfico com a variação da temperatura da água em função da vazão para três condições (morno, quente e superquente). Na condição superquente, a potência dissipada é de 6 500 W. Considere o calor específico da água igual a 4 200 J/(kg °C) e densidade da água igual a 1 kg/L.\nElevação de temperatura × Curva vazão\n1 - MORNO\n2 - QUENTE ∆T (°C) 3 - SUPERQUENTE 40 3 30 2 20 1 10 Vazão 1 2 3 4 5 6 7 8 9 10 (L/min)\nCom base nas informações dadas, a potência na condição morno corresponde a que fração da potência na condição superquente?",
       "options": [
         {
           "letter": "A",
-          "text": "3 1",
+          "text": "1/3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "5 3",
+          "text": "1/5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "5 3",
+          "text": "3/5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "8 5",
+          "text": "3/8",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "8",
+          "text": "5/8",
           "image_url": null,
           "is_correct": false
         }
@@ -1958,7 +1958,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando a possibilidade de acidentes ocorrerem em razão do aumento de seu tempo de reação.\nConsidere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige. Eles aceleram seus carros inicialmente a 1,00 m/s2. Em resposta a uma emergência, freiam com uma desaceleração igual a 5,00 m/s2. O motorista atento aciona o freio à velocidade de 14,0 m/s, enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem.\nQue distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?",
+      "statement": "Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando a possibilidade de acidentes ocorrerem em razão do aumento de seu tempo de reação.\nConsidere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige. Eles aceleram seus carros inicialmente a 1,00 m/s². Em resposta a uma emergência, freiam com uma desaceleração igual a 5,00 m/s². O motorista atento aciona o freio à velocidade de 14,0 m/s, enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem.\nQue distância o motorista desatento percorre a mais do que o motorista atento, até a parada total dos carros?",
       "options": [
         {
           "letter": "A",
@@ -2023,7 +2023,7 @@
         },
         {
           "letter": "D",
-          "text": "Os íons Na+ e Cl− provenientes da dissociação do sal entram livremente nelas.",
+          "text": "Os íons Na⁺ e Cl⁻ provenientes da dissociação do sal entram livremente nelas.",
           "image_url": null,
           "is_correct": false
         },
@@ -2089,7 +2089,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A ozonólise, reação utilizada na indústria madeireira para a produção de papel, é também utilizada em escala de laboratório na síntese de aldeídos e cetonas.\nAs duplas ligações dos alcenos são clivadas pela oxidação com o ozônio (O ), em presença de água e zinco metálico, 3 e a reação produz aldeídos e/ou cetonas, dependendo do grau de substituição da ligação dupla. Ligações duplas dissubstituídas geram cetonas, enquanto as ligações duplas terminais ou monossubstituídas dão origem a aldeídos, como mostra o esquema.",
+          "content": "A ozonólise, reação utilizada na indústria madeireira para a produção de papel, é também utilizada em escala de laboratório na síntese de aldeídos e cetonas.\nAs duplas ligações dos alcenos são clivadas pela oxidação com o ozônio (O₃), em presença de água e zinco metálico, e a reação produz aldeídos e/ou cetonas, dependendo do grau de substituição da ligação dupla. Ligações duplas dissubstituídas geram cetonas, enquanto as ligações duplas terminais ou monossubstituídas dão origem a aldeídos, como mostra o esquema.",
           "source": "O O , HO H 3 2 + Zn H H O But-1-eno Propanal Metanal Considere a ozonólise do composto 1-fenil-2-metilprop-1-eno: 1-fenil-2-metilprop-1-eno MARTINO, A. Química, a ciência global. Goiânia: Editora W, 2014 (adaptado)."
         }
       ],
@@ -2225,7 +2225,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Para realizar a viagem dos sonhos, uma pessoa precisava fazer um empréstimo no valor de R$ 5 000,00.\nPara pagar as prestações, dispõe de, no máximo, R$ 400,00 mensais. Para esse valor de empréstimo, o valor da prestação (P) é calculado em função do número de prestações (n) segundo a fórmula 5 000×1,013 n ×0,013 P = (1,013 n−1)\nSe necessário, utilize 0,005 como aproximação para log 1,013; 2,602 como aproximação para log 400; 2,525 como aproximação para log 335.\nDe acordo com a fórmula dada, o menor número de parcelas cujos valores não comprometem o limite definido pela pessoa é",
+      "statement": "Para realizar a viagem dos sonhos, uma pessoa precisava fazer um empréstimo no valor de R$ 5 000,00.\nPara pagar as prestações, dispõe de, no máximo, R$ 400,00 mensais. Para esse valor de empréstimo, o valor da prestação (P) é calculado em função do número de prestações (n) segundo a fórmula 5 000×1,013ⁿ ×0,013 P = (1,013ⁿ−1)\nSe necessário, utilize 0,005 como aproximação para log 1,013; 2,602 como aproximação para log 400; 2,525 como aproximação para log 335.\nDe acordo com a fórmula dada, o menor número de parcelas cujos valores não comprometem o limite definido pela pessoa é",
       "options": [
         {
           "letter": "A",
@@ -2495,31 +2495,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "C 6,4",
+          "text": "C₆,₄",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "C 9,3",
+          "text": "C₉,₃",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "C 10,4",
+          "text": "C₁₀,₄",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "6 4",
+          "text": "6⁴",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "4 6",
+          "text": "4⁶",
           "image_url": null,
           "is_correct": false
         }
@@ -3175,7 +3175,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em uma de suas viagens, um turista comprou uma lembrança de um dos monumentos que visitou. Na base do objeto há informações dizendo que se trata de uma peça em escala 1 : 400, e que seu volume é de 25 cm3.\nO volume do monumento original, em metro cúbico, é de",
+      "statement": "Em uma de suas viagens, um turista comprou uma lembrança de um dos monumentos que visitou. Na base do objeto há informações dizendo que se trata de uma peça em escala 1 : 400, e que seu volume é de 25 cm³.\nO volume do monumento original, em metro cúbico, é de",
       "options": [
         {
           "letter": "A",
@@ -3514,31 +3514,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "0 1",
+          "text": "0",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "2 1",
+          "text": "1/2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "5 2",
+          "text": "1/5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "15 8",
+          "text": "2/15",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "35",
+          "text": "8/35",
           "image_url": null,
           "is_correct": true
         }
@@ -3651,35 +3651,35 @@
         "assets/images/enem_2017_cd7_q168-2.png",
         "assets/images/enem_2017_cd7_q168-3.png"
       ],
-      "statement": "A Igreja de São Francisco de Assis, obra arquitetônica modernista de Oscar Niemeyer, localizada na Lagoa da Pampulha, em Belo Horizonte, possui abóbadas parabólicas. A seta na Figura 1 ilustra uma das abóbadas na entrada principal da capela. A Figura 2 fornece uma vista frontal desta abóbada, com medidas hipotéticas para simplificar os cálculos.\nH metros 4 metros 3 metros 5 metros Figura 1 Figura 2 Qual a medida da altura H, em metro, indicada na Figura 2? 16",
+      "statement": "A Igreja de São Francisco de Assis, obra arquitetônica modernista de Oscar Niemeyer, localizada na Lagoa da Pampulha, em Belo Horizonte, possui abóbadas parabólicas. A seta na Figura 1 ilustra uma das abóbadas na entrada principal da capela. A Figura 2 fornece uma vista frontal desta abóbada, com medidas hipotéticas para simplificar os cálculos.\nH metros 4 metros 3 metros 5 metros Figura 1 Figura 2 Qual a medida da altura H, em metro, indicada na Figura 2?",
       "options": [
         {
           "letter": "A",
-          "text": "3 31",
+          "text": "16/3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "5 25",
+          "text": "31/5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "4 25",
+          "text": "25/4",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "3 75",
+          "text": "25/3",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "2",
+          "text": "75/2",
           "image_url": null,
           "is_correct": false
         }
@@ -3799,7 +3799,7 @@
       "image_url": [
         "assets/images/enem_2017_cd7_q171.png"
       ],
-      "statement": "Pivô central é um sistema de irrigação muito usado na agricultura, em que uma área circular é projetada para receber uma estrutura suspensa. No centro dessa área, há uma tubulação vertical que transmite água através de um cano horizontal longo, apoiado em torres de sustentação, as quais giram, sobre rodas, em torno do centro do pivô, também chamado de base, conforme mostram as figuras.\nCada torre move-se com velocidade constante.\nT3 T2 T1 BASE Um pivô de três torres (T , T e T ) será instalado 1 2 3 em uma fazenda, sendo que as distâncias entre torres consecutivas bem como da base à torre T são iguais a 1 50 m. O fazendeiro pretende ajustar as velocidades das torres, de tal forma que o pivô efetue uma volta completa π em 25 horas. Use 3 como aproximação para .\nPara atingir seu objetivo, as velocidades das torres T , T 1 2 e T devem ser, em metro por hora, de 3",
+      "statement": "Pivô central é um sistema de irrigação muito usado na agricultura, em que uma área circular é projetada para receber uma estrutura suspensa. No centro dessa área, há uma tubulação vertical que transmite água através de um cano horizontal longo, apoiado em torres de sustentação, as quais giram, sobre rodas, em torno do centro do pivô, também chamado de base, conforme mostram as figuras.\nCada torre move-se com velocidade constante.\nT3 T2 T1 BASE Um pivô de três torres (T₁, T₂ e T₃) será instalado em uma fazenda, sendo que as distâncias entre torres consecutivas bem como da base à torre T₁ são iguais a 50 m. O fazendeiro pretende ajustar as velocidades das torres, de tal forma que o pivô efetue uma volta completa π em 25 horas. Use 3 como aproximação para .\nPara atingir seu objetivo, as velocidades das torres T₁, T₂ e T₃ devem ser, em metro por hora, de",
       "options": [
         {
           "letter": "A",
@@ -3894,23 +3894,23 @@
         }
       ],
       "image_url": null,
-      "statement": "A quantidade de gasolina utilizada, em litro, no reabastecimento foi 20",
+      "statement": "A quantidade de gasolina utilizada, em litro, no reabastecimento foi",
       "options": [
         {
           "letter": "A",
-          "text": "0,075 20",
+          "text": "20/0,075",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "0,75 20",
+          "text": "20/0,75",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "7,5",
+          "text": "20/7,5",
           "image_url": null,
           "is_correct": false
         },
@@ -3989,35 +3989,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Numa avenida existem 10 semáforos. Por causa de uma pane no sistema, os semáforos ficaram sem controle durante uma hora, e fixaram suas luzes unicamente em verde ou vermelho. Os semáforos funcionam de forma independente; a probabilidade de acusar a cor verde é de 2 1 e a de acusar a cor vermelha é de . Uma pessoa 3 3 percorreu a pé toda essa avenida durante o período da pane, observando a cor da luz de cada um desses semáforos.\nQual a probabilidade de que esta pessoa tenha observado exatamente um sinal na cor verde? 10×2",
+      "statement": "Numa avenida existem 10 semáforos. Por causa de uma pane no sistema, os semáforos ficaram sem controle durante uma hora, e fixaram suas luzes unicamente em verde ou vermelho. Os semáforos funcionam de forma independente; a probabilidade de acusar a cor verde é de 2/3 e a de acusar a cor vermelha é de 1/3. Uma pessoa percorreu a pé toda essa avenida durante o período da pane, observando a cor da luz de cada um desses semáforos.\nQual a probabilidade de que esta pessoa tenha observado exatamente um sinal na cor verde?",
       "options": [
         {
           "letter": "A",
-          "text": "310 10×29",
+          "text": "(10×2)/3¹⁰",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "310 210",
+          "text": "(10×2⁹)/3¹⁰",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "3100 290",
+          "text": "2¹⁰/3¹⁰⁰",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "3100 2",
+          "text": "2⁹⁰/3¹⁰⁰",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "310",
+          "text": "2/3¹⁰",
           "image_url": null,
           "is_correct": false
         }
@@ -4243,7 +4243,7 @@
         },
         {
           "letter": "E",
-          "text": "18 h 40 min e 19 h. 017",
+          "text": "18 h 40 min e 19 h.",
           "image_url": null,
           "is_correct": false
         }

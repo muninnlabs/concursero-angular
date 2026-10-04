@@ -251,29 +251,29 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A sacarase (ou invertase) é uma enzima que atua no intestino humano hidrolisando o dissacarídeo sacarose nos monossacarídeos glicose e frutose. Em um estudo cinético da reação de hidrólise da sacarose (C H O ), 12 22 11 foram dissolvidos 171 g de sacarose em 500 mL de água. Observou-se que, a cada 100 minutos de reação, a concentração de sacarose foi reduzida à metade, qualquer que fosse o momento escolhido como tempo inicial. As massas molares dos elementos H, C e O são iguais a 1, 12 e 16 g mol−1, respectivamente.\nQual é a concentração de sacarose depois de 400 minutos do início da reação de hidrólise?",
+      "statement": "A sacarase (ou invertase) é uma enzima que atua no intestino humano hidrolisando o dissacarídeo sacarose nos monossacarídeos glicose e frutose. Em um estudo cinético da reação de hidrólise da sacarose (C₁₂H₂₂O₁₁), foram dissolvidos 171 g de sacarose em 500 mL de água. Observou-se que, a cada 100 minutos de reação, a concentração de sacarose foi reduzida à metade, qualquer que fosse o momento escolhido como tempo inicial. As massas molares dos elementos H, C e O são iguais a 1, 12 e 16 g mol⁻¹, respectivamente.\nQual é a concentração de sacarose depois de 400 minutos do início da reação de hidrólise?",
       "options": [
         {
           "letter": "A",
-          "text": "2,50 × 10−3 mol L−1",
+          "text": "2,50 × 10⁻³ mol L⁻¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "6,25 × 10−2 mol L−1",
+          "text": "6,25 × 10⁻² mol L⁻¹",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1,25 × 10−1 mol L−1",
+          "text": "1,25 × 10⁻¹ mol L⁻¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "2,50 × 10−1 mol L−1",
+          "text": "2,50 × 10⁻¹ mol L⁻¹",
           "image_url": null,
           "is_correct": false
         },
@@ -382,7 +382,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q99-fig1.png"
       ],
-      "statement": "Você foi contratado para sincronizar os quatro semáforos de uma avenida, indicados pelas letras O, A, B e C, conforme a figura.\nO A B C Os semáforos estão separados por uma distância de 500 m. Segundo os dados estatísticos da companhia controladora de trânsito, um veículo, que está inicialmente parado no semáforo O, tipicamente parte com aceleração constante de 1 m s−2 até atingir a velocidade de 72 km h−1 e, a partir daí, prossegue com velocidade constante. Você deve ajustar os semáforos A, B e C de modo que eles mudem para a cor verde quando o veículo estiver a 100 m de cruzá-los, para que ele não tenha que reduzir a velocidade em nenhum momento.\nConsiderando essas condições, aproximadamente quanto tempo depois da abertura do semáforo O os semáforos A, B e C devem abrir, respectivamente?",
+      "statement": "Você foi contratado para sincronizar os quatro semáforos de uma avenida, indicados pelas letras O, A, B e C, conforme a figura.\nO A B C Os semáforos estão separados por uma distância de 500 m. Segundo os dados estatísticos da companhia controladora de trânsito, um veículo, que está inicialmente parado no semáforo O, tipicamente parte com aceleração constante de 1 m s⁻² até atingir a velocidade de 72 km h⁻¹ e, a partir daí, prossegue com velocidade constante. Você deve ajustar os semáforos A, B e C de modo que eles mudem para a cor verde quando o veículo estiver a 100 m de cruzá-los, para que ele não tenha que reduzir a velocidade em nenhum momento.\nConsiderando essas condições, aproximadamente quanto tempo depois da abertura do semáforo O os semáforos A, B e C devem abrir, respectivamente?",
       "options": [
         {
           "letter": "A",
@@ -427,17 +427,17 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q100-fig1.png"
       ],
-      "statement": "Nos dias atuais, o amplo uso de objetos de plástico gera bastante lixo, que muitas vezes é eliminado pela população por meio da queima. Esse procedimento é prejudicial ao meio ambiente por lançar substâncias poluentes. Para constatar esse problema, um estudante analisou a decomposição térmica do policloreto de vinila (PVC), um tipo de plástico, cuja estrutura é representada na figura.\nPolicloreto de vinila (PVC)\nPara realizar esse experimento, o estudante colocou uma amostra de filme de PVC em um tubo de ensaio e o aqueceu, promovendo a decomposição térmica. Houve a liberação majoritária de um gás diatômico heteronuclear que foi recolhido em um recipiente acoplado ao tubo de ensaio. Esse gás, quando borbulhado em solução alcalina diluída contendo indicador ácido-base, alterou a cor da solução. Além disso, em contato com uma solução aquosa de carbonato de sódio (Na CO ), liberou gás 2 3 carbônico.\nQual foi o gás liberado majoritariamente na decomposição térmica desse tipo de plástico?",
+      "statement": "Nos dias atuais, o amplo uso de objetos de plástico gera bastante lixo, que muitas vezes é eliminado pela população por meio da queima. Esse procedimento é prejudicial ao meio ambiente por lançar substâncias poluentes. Para constatar esse problema, um estudante analisou a decomposição térmica do policloreto de vinila (PVC), um tipo de plástico, cuja estrutura é representada na figura.\nPolicloreto de vinila (PVC)\nPara realizar esse experimento, o estudante colocou uma amostra de filme de PVC em um tubo de ensaio e o aqueceu, promovendo a decomposição térmica. Houve a liberação majoritária de um gás diatômico heteronuclear que foi recolhido em um recipiente acoplado ao tubo de ensaio. Esse gás, quando borbulhado em solução alcalina diluída contendo indicador ácido-base, alterou a cor da solução. Além disso, em contato com uma solução aquosa de carbonato de sódio (Na₂CO₃), liberou gás carbônico.\nQual foi o gás liberado majoritariamente na decomposição térmica desse tipo de plástico?",
       "options": [
         {
           "letter": "A",
-          "text": "H 2",
+          "text": "H₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Cl 2",
+          "text": "Cl₂",
           "image_url": null,
           "is_correct": false
         },
@@ -449,7 +449,7 @@
         },
         {
           "letter": "D",
-          "text": "CO 2",
+          "text": "CO₂",
           "image_url": null,
           "is_correct": false
         },
@@ -650,7 +650,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "o fl uxo de calor por condução no condensador sofre considerável redução.",
+          "text": "o fluxo de calor por condução no condensador sofre considerável redução.",
           "image_url": null,
           "is_correct": false
         },
@@ -662,7 +662,7 @@
         },
         {
           "letter": "C",
-          "text": "o fl uxo de calor promove signifi cativa elevação da temperatura no interior do refrigerador.",
+          "text": "o fluxo de calor promove significativa elevação da temperatura no interior do refrigerador.",
           "image_url": null,
           "is_correct": false
         },
@@ -674,7 +674,7 @@
         },
         {
           "letter": "E",
-          "text": "as correntes de convecção nas proximidades do condensador ocorrem com maior difi culdade.",
+          "text": "as correntes de convecção nas proximidades do condensador ocorrem com maior dificuldade.",
           "image_url": null,
           "is_correct": false
         }
@@ -692,7 +692,7 @@
         "assets/images/enem_2020_cd7_q106-fig1.png",
         "assets/images/enem_2020_cd7_q106-fig2.png"
       ],
-      "statement": "Um mergulhador fi ca preso ao explorar uma caverna no oceano. Dentro da caverna formou-se um bolsão de ar, como mostrado na fi gura, onde o mergulhador se abrigou.\nDurante o resgate, para evitar danos a seu organismo, foi necessário que o mergulhador passasse por um processo de descompressão antes de retornar à superfície para que seu corpo fi casse novamente sob pressão atmosférica. O gráfi co mostra a relação entre os tempos de descompressão recomendados para indivíduos nessa situação e a variação de pressão. ed opmeT )nim( oãsserpmocsed 100 80 60 40 20 100 200 300 400 500 600 700 Variação de pressão (kPa)\nConsidere que a aceleração da gravidade seja igual a 10 m s−2 e que a densidade da água seja de ρ = 1 000 kg m−3.\nEm minutos, qual é o tempo de descompressão a que o mergulhador deverá ser submetido?",
+      "statement": "Um mergulhador fica preso ao explorar uma caverna no oceano. Dentro da caverna formou-se um bolsão de ar, como mostrado na figura, onde o mergulhador se abrigou.\nDurante o resgate, para evitar danos a seu organismo, foi necessário que o mergulhador passasse por um processo de descompressão antes de retornar à superfície para que seu corpo ficasse novamente sob pressão atmosférica. O gráfico mostra a relação entre os tempos de descompressão recomendados para indivíduos nessa situação e a variação de pressão. ed opmeT )nim( oãsserpmocsed 100 80 60 40 20 100 200 300 400 500 600 700 Variação de pressão (kPa)\nConsidere que a aceleração da gravidade seja igual a 10 m s⁻² e que a densidade da água seja de ρ = 1 000 kg m⁻³.\nEm minutos, qual é o tempo de descompressão a que o mergulhador deverá ser submetido?",
       "options": [
         {
           "letter": "A",
@@ -737,7 +737,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q107-fig1.png"
       ],
-      "statement": "A Torre Eiff el, com seus 324 metros de altura, feita com treliças de ferro, pesava 7 300 toneladas quando terminou de ser construída em 1889. Um arquiteto resolve construir um protótipo dessa torre em escala 1:100, usando os mesmos materiais (cada dimensão linear em escala de 1:100 do monumento real).\nConsidere que a torre real tenha uma massa M torre e exerça na fundação sobre a qual foi erguida uma pressão P . O modelo construído pelo arquiteto terá torre uma massa M e exercerá uma pressão P . modelo modelo Como a pressão exercida pela torre se compara com a pressão exercida pelo protótipo? Ou seja, qual é a razão entre as pressões (P )/(P ) ? torre modelo",
+      "statement": "A Torre Eiffel, com seus 324 metros de altura, feita com treliças de ferro, pesava 7 300 toneladas quando terminou de ser construída em 1889. Um arquiteto resolve construir um protótipo dessa torre em escala 1:100, usando os mesmos materiais (cada dimensão linear em escala de 1:100 do monumento real).\nConsidere que a torre real tenha uma massa M_torre e exerça na fundação sobre a qual foi erguida uma pressão P_torre. O modelo construído pelo arquiteto terá uma massa M_modelo e exercerá uma pressão P_modelo. Como a pressão exercida pela torre se compara com a pressão exercida pelo protótipo? Ou seja, qual é a razão entre as pressões (P_torre)/(P_modelo)?",
       "options": [
         {
           "letter": "A",
@@ -1011,29 +1011,29 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Nos desenhos animados, com frequência se vê um personagem correndo na direção de um abismo, mas, ao invés de cair, ele continua andando no vazio e só quando percebe que não há nada sob seus pés é que ele para de andar e cai verticalmente. No entanto, para observar uma trajetória de queda num experimento real, pode-se lançar uma bolinha, com velocidade constante (V ), sobre 0 a superfície de uma mesa e verificar o seu movimento de queda até o chão.\nQual figura melhor representa a trajetória de queda da bolinha?\nV 0 Mesa",
+      "statement": "Nos desenhos animados, com frequência se vê um personagem correndo na direção de um abismo, mas, ao invés de cair, ele continua andando no vazio e só quando percebe que não há nada sob seus pés é que ele para de andar e cai verticalmente. No entanto, para observar uma trajetória de queda num experimento real, pode-se lançar uma bolinha, com velocidade constante (V₀), sobre a superfície de uma mesa e verificar o seu movimento de queda até o chão.\nQual figura melhor representa a trajetória de queda da bolinha?\nV 0 Mesa",
       "options": [
         {
           "letter": "A",
-          "text": "Solo V 0 Mesa",
+          "text": "Solo V₀ Mesa",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Solo V 0 Mesa",
+          "text": "Solo V₀ Mesa",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Solo V 0 Mesa",
+          "text": "Solo V₀ Mesa",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Solo V 0 Mesa",
+          "text": "Solo V₀ Mesa",
           "image_url": null,
           "is_correct": true
         },
@@ -1060,7 +1060,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Dois engenheiros estão verificando se uma cavidade perfurada no solo está de acordo com o planejamento de uma obra, cuja profundidade requerida é de 30 m.\nO teste é feito por um dispositivo denominado oscilador de áudio de frequência variável, que permite relacionar a profundidade com os valores da frequência de duas ressonâncias consecutivas, assim como em um tubo sonoro fechado. A menor frequência de ressonância que o aparelho mediu foi 135 Hz. Considere que a velocidade do som dentro da cavidade perfurada é de 360 m s-1.\nSe a profundidade estiver de acordo com o projeto, qual será o valor da próxima frequência de ressonância que será medida?",
+      "statement": "Dois engenheiros estão verificando se uma cavidade perfurada no solo está de acordo com o planejamento de uma obra, cuja profundidade requerida é de 30 m.\nO teste é feito por um dispositivo denominado oscilador de áudio de frequência variável, que permite relacionar a profundidade com os valores da frequência de duas ressonâncias consecutivas, assim como em um tubo sonoro fechado. A menor frequência de ressonância que o aparelho mediu foi 135 Hz. Considere que a velocidade do som dentro da cavidade perfurada é de 360 m s⁻¹.\nSe a profundidade estiver de acordo com o projeto, qual será o valor da próxima frequência de ressonância que será medida?",
       "options": [
         {
           "letter": "A",
@@ -1293,7 +1293,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Pesquisadores coletaram amostras de água de um rio em pontos diferentes, distantes alguns quilômetros um do outro. Ao longo do rio, há locais de águas limpas, como também locais que recebem descarga de esgoto de área urbana, e locais onde há decomposição ativa com ausência de peixes. Os pesquisadores analisaram dois parâmetros: oxigênio dissolvido (OD) e demanda bioquímica de oxigênio (DBO) em cada ponto de coleta de água, obtendo o gráfico: )1−L gm( OBD e DO 14 + 12 10 Legenda: ∗ 8 OD 6 + ∗ + DBO 4 ∗ ∗ + + ∗ 2 + ∗ 1 2 3 4 5 Pontos de amostragem Valores limites permitidos para águas doces destinadas ao abastecimento para o consumo humano após tratamento convencional, segundo Resolução Conama n. 357/2005:OD ≥ 5 mg L−1 e DBO ≤ 5 mg L−1.\nO OD é proveniente da atmosfera e da fotossíntese que ocorre no curso-d’água e sua concentração é função das variáveis físicas, químicas e bioquímicas locais. A DBO é a quantidade de oxigênio consumido por microrganismos em condições aeróbicas para degradar uma determinada quantidade de matéria orgânica, durante um período de tempo, numa temperatura de incubação específica.",
+          "content": "Pesquisadores coletaram amostras de água de um rio em pontos diferentes, distantes alguns quilômetros um do outro. Ao longo do rio, há locais de águas limpas, como também locais que recebem descarga de esgoto de área urbana, e locais onde há decomposição ativa com ausência de peixes. Os pesquisadores analisaram dois parâmetros: oxigênio dissolvido (OD) e demanda bioquímica de oxigênio (DBO) em cada ponto de coleta de água, obtendo o gráfico: )1−L gm( OBD e DO 14 + 12 10 Legenda: ∗ 8 OD 6 + ∗ + DBO 4 ∗ ∗ + + ∗ 2 + ∗ 1 2 3 4 5 Pontos de amostragem Valores limites permitidos para águas doces destinadas ao abastecimento para o consumo humano após tratamento convencional, segundo Resolução Conama n. 357/2005:OD ≥ 5 mg L⁻¹ e DBO ≤ 5 mg L⁻¹.\nO OD é proveniente da atmosfera e da fotossíntese que ocorre no curso-d’água e sua concentração é função das variáveis físicas, químicas e bioquímicas locais. A DBO é a quantidade de oxigênio consumido por microrganismos em condições aeróbicas para degradar uma determinada quantidade de matéria orgânica, durante um período de tempo, numa temperatura de incubação específica.",
           "source": "Disponível em: www.programaaguaazul.rn.gov.br. Acesso em: 16 ago. 2014 (adaptado)."
         }
       ],
@@ -1345,7 +1345,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O crescimento da frota de veículos em circulação no mundo tem levado à busca e desenvolvimento de tecnologias que permitam minimizar emissões de poluentes atmosféricos. O uso de veículos elétricos é uma das propostas mais propagandeadas por serem de emissão zero. Podemos comparar a emissão de carbono na forma de CO (massa molar igual a 44 g mol−1) para os 2 dois tipos de carros (a combustão e elétrico). Considere que os veículos tradicionais a combustão, movidos a etanol (massa molar igual a 46 g mol−1), emitem uma média de 2,6 mol de CO por quilômetro rodado, e os 2 elétricos emitem o equivalente a 0,45 mol de CO por 2 quilômetro rodado (considerando as emissões na geração e transmissão da eletricidade). A reação de combustão do etanol pode ser representada pela equação química:\nC H OH (l) + 3 O (g) → 2 CO (g) + 3 H O (g) 2 5 2 2 2 Foram analisadas as emissões de CO envolvidas 2 em dois veículos, um movido a etanol e outro elétrico, em um mesmo trajeto de 1 000 km.",
+          "content": "O crescimento da frota de veículos em circulação no mundo tem levado à busca e desenvolvimento de tecnologias que permitam minimizar emissões de poluentes atmosféricos. O uso de veículos elétricos é uma das propostas mais propagandeadas por serem de emissão zero. Podemos comparar a emissão de carbono na forma de CO₂ (massa molar igual a 44 g mol⁻¹) para os dois tipos de carros (a combustão e elétrico). Considere que os veículos tradicionais a combustão, movidos a etanol (massa molar igual a 46 g mol⁻¹), emitem uma média de 2,6 mol de CO₂ por quilômetro rodado, e os elétricos emitem o equivalente a 0,45 mol de CO₂ por quilômetro rodado (considerando as emissões na geração e transmissão da eletricidade). A reação de combustão do etanol pode ser representada pela equação química:\nC₂H₅OH (l) + 3 O₂ (g) → 2 CO₂ (g) + 3 H₂O (g) Foram analisadas as emissões de CO₂ envolvidas em dois veículos, um movido a etanol e outro elétrico, em um mesmo trajeto de 1 000 km.",
           "source": "CHIARADIA, C. A. Estudo da viabilidade da implantação de frotas de veículos elétricos e híbridos elétricos no atual cenário econômico, político, energético e ambiental brasileiro. Guaratinguetá: Unesp, 2015 (adaptado)."
         }
       ],
@@ -1440,7 +1440,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O exame parasitológico de fezes é utilizado para detectar ovos de parasitos. Um dos métodos utilizados, denominado de centrífugo-flutuação, considera a densidade dos ovos em relação a uma solução de densidade 1,15 g mL−1. Assim, ovos que flutuam na superfície dessa solução são detectados. Os dados de densidade dos ovos de alguns parasitos estão apresentados na tabela.\nParasito Densidade (g mL-1)",
+          "content": "O exame parasitológico de fezes é utilizado para detectar ovos de parasitos. Um dos métodos utilizados, denominado de centrífugo-flutuação, considera a densidade dos ovos em relação a uma solução de densidade 1,15 g mL⁻¹. Assim, ovos que flutuam na superfície dessa solução são detectados. Os dados de densidade dos ovos de alguns parasitos estão apresentados na tabela.\nParasito Densidade (g mL⁻¹)",
           "source": "Ancylostoma 1,06 Ascaris lumbricoides 1,11 Ascaris suum 1,13 Schistosoma mansoni 1,18 Taenia saginata 1,30 ZERBINI, A. M. Identificação e análise de viabilidade de ovos de helmintos em um sistema de tratamento de esgotos domésticos constituídos de reatores anaeróbios e rampas de escoamento superficial. Belo Horizonte: Prosab, 2001 (adaptado)."
         }
       ],
@@ -1490,7 +1490,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em seu laboratório, um técnico em química foi incumbido de tratar um resíduo, evitando seu descarte direto no meio ambiente. Ao encontrar o frasco, observou a seguinte informação: “Resíduo: mistura de acetato de etila e água”.\nConsidere os dados do acetato de etila: • Baixa solubilidade em água; • Massa específica = 0,9 g cm−3; • Temperatura de fusão = −83 °C; • Pressão de vapor maior que a da água.\nA fim de tratar o resíduo, recuperando o acetato de etila, o técnico deve",
+      "statement": "Em seu laboratório, um técnico em química foi incumbido de tratar um resíduo, evitando seu descarte direto no meio ambiente. Ao encontrar o frasco, observou a seguinte informação: “Resíduo: mistura de acetato de etila e água”.\nConsidere os dados do acetato de etila: • Baixa solubilidade em água; • Massa específica = 0,9 g cm⁻³; • Temperatura de fusão = −83 °C; • Pressão de vapor maior que a da água.\nA fim de tratar o resíduo, recuperando o acetato de etila, o técnico deve",
       "options": [
         {
           "letter": "A",
@@ -1578,7 +1578,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q125-fig1.png"
       ],
-      "statement": "Uma população encontra-se em equilíbrio genético quanto ao sistema ABO, em que 25% dos indivíduos pertencem ao grupo O e 16%, ao grupo A homozigotos.\nConsiderando que: p = frequência de IA; q = frequência de IB; e r = frequência de i, espera-se encontrar:\nGrupo Genótipos Frequências A IAIA e IAi p2 + 2pr B IBIB e IBi q2 + 2qr AB IAIB 2pq O ii r2 A porcentagem de doadores compatíveis para alguém do grupo B nessa população deve ser de",
+      "statement": "Uma população encontra-se em equilíbrio genético quanto ao sistema ABO, em que 25% dos indivíduos pertencem ao grupo O e 16%, ao grupo A homozigotos.\nConsiderando que: p = frequência de IA; q = frequência de IB; e r = frequência de i, espera-se encontrar:\nGrupo Genótipos Frequências A IAIA e IAi p² + 2pr B IBIB e IBi q² + 2qr AB IAIB 2pq O ii r² A porcentagem de doadores compatíveis para alguém do grupo B nessa população deve ser de",
       "options": [
         {
           "letter": "A",
@@ -1714,7 +1714,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Mesmo para peixes de aquário, como o peixe arco-íris, a temperatura da água fora da faixa ideal (26 °C a 28 °C), bem como sua variação brusca, pode afetar a saúde do animal. Para manter a temperatura da água dentro do aquário na média desejada, utilizam-se dispositivos de aquecimento com termostato. Por exemplo, para um aquário de 50 L, pode-se utilizar um sistema de aquecimento de 50 W otimizado para suprir sua taxa de resfriamento. Essa taxa pode ser considerada praticamente constante, já que a temperatura externa ao aquário é mantida pelas estufas. Utilize para a água o calor específico 4,0 kJ kg−1 K−1 e a densidade 1 kg L−1.\nSe o sistema de aquecimento for desligado por 1 h, qual o valor mais próximo para a redução da temperatura da água do aquário?",
+      "statement": "Mesmo para peixes de aquário, como o peixe arco-íris, a temperatura da água fora da faixa ideal (26 °C a 28 °C), bem como sua variação brusca, pode afetar a saúde do animal. Para manter a temperatura da água dentro do aquário na média desejada, utilizam-se dispositivos de aquecimento com termostato. Por exemplo, para um aquário de 50 L, pode-se utilizar um sistema de aquecimento de 50 W otimizado para suprir sua taxa de resfriamento. Essa taxa pode ser considerada praticamente constante, já que a temperatura externa ao aquário é mantida pelas estufas. Utilize para a água o calor específico 4,0 kJ kg⁻¹ K⁻¹ e a densidade 1 kg L⁻¹.\nSe o sistema de aquecimento for desligado por 1 h, qual o valor mais próximo para a redução da temperatura da água do aquário?",
       "options": [
         {
           "letter": "A",
@@ -1876,13 +1876,13 @@
         },
         {
           "letter": "D",
-          "text": "3A + 2B → 2C → 3D + 2E (a reação ocorrre sob pressão atmosférica). 1",
+          "text": "3A + 2B → 2C → 3D + 2E (a reação ocorrre sob pressão atmosférica).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "A + −B → C (a reação ocorre com o uso de um catalisador contendo um metal não tóxico).",
+          "text": "A + ½B → C (a reação ocorre com o uso de um catalisador contendo um metal não tóxico).",
           "image_url": null,
           "is_correct": true
         }
@@ -1999,7 +1999,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q134-fig1.png"
       ],
-      "statement": "As moedas despertam o interesse de colecionadores, numismatas e investidores há bastante tempo. Uma moeda de 100% cobre, circulante no período do Brasil Colônia, pode ser bastante valiosa. O elevado valor gera a necessidade de realização de testes que validem a procedência da moeda, bem como a veracidade de sua composição. Sabendo que a densidade do cobre metálico é próxima de 9 g cm−³, um investidor negocia a aquisição de um lote de quatro moedas A, B, C e D fabricadas supostamente de 100% cobre e massas 26 g, 27 g, 10 g e 36 g, respectivamente. Com o objetivo de testar a densidade das moedas, foi realizado um procedimento em que elas foram sequencialmente inseridas em uma proveta contendo 5 mL de água, conforme esquematizado. 16 14 12 10 8 D 6 4 B 2 A A A A Proveta Proveta Proveta Proveta Proveta )Lm( augá ed emuloV C C B B Com base nos dados obtidos, o investidor adquiriu as moedas",
+      "statement": "As moedas despertam o interesse de colecionadores, numismatas e investidores há bastante tempo. Uma moeda de 100% cobre, circulante no período do Brasil Colônia, pode ser bastante valiosa. O elevado valor gera a necessidade de realização de testes que validem a procedência da moeda, bem como a veracidade de sua composição. Sabendo que a densidade do cobre metálico é próxima de 9 g cm⁻³, um investidor negocia a aquisição de um lote de quatro moedas A, B, C e D fabricadas supostamente de 100% cobre e massas 26 g, 27 g, 10 g e 36 g, respectivamente. Com o objetivo de testar a densidade das moedas, foi realizado um procedimento em que elas foram sequencialmente inseridas em uma proveta contendo 5 mL de água, conforme esquematizado. 16 14 12 10 8 D 6 4 B 2 A A A A Proveta Proveta Proveta Proveta Proveta )Lm( augá ed emuloV C C B B Com base nos dados obtidos, o investidor adquiriu as moedas",
       "options": [
         {
           "letter": "A",
@@ -2139,35 +2139,35 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q137.png"
       ],
-      "statement": "Uma empresa de ônibus utiliza um sistema de vendas de passagens que fornece a imagem de todos os assentos do ônibus, diferenciando os assentos já vendidos, por uma cor mais escura, dos assentos ainda disponíveis. A empresa monitora, permanentemente, o número de assentos já vendidos e compara-o com o número total de assentos do ônibus para avaliar a necessidade de alocação de veículos extras.\nNa imagem tem-se a informação dos assentos já vendidos e dos ainda disponíveis em um determinado instante.\nA razão entre o número de assentos já vendidos e o total de assentos desse ônibus, no instante considerado na imagem, é 16",
+      "statement": "Uma empresa de ônibus utiliza um sistema de vendas de passagens que fornece a imagem de todos os assentos do ônibus, diferenciando os assentos já vendidos, por uma cor mais escura, dos assentos ainda disponíveis. A empresa monitora, permanentemente, o número de assentos já vendidos e compara-o com o número total de assentos do ônibus para avaliar a necessidade de alocação de veículos extras.\nNa imagem tem-se a informação dos assentos já vendidos e dos ainda disponíveis em um determinado instante.\nA razão entre o número de assentos já vendidos e o total de assentos desse ônibus, no instante considerado na imagem, é",
       "options": [
         {
           "letter": "A",
-          "text": "42 16",
+          "text": "16/42",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "26 26",
+          "text": "16/26",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "42 42",
+          "text": "26/42",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "26 42",
+          "text": "42/26",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "16",
+          "text": "42/16",
           "image_url": null,
           "is_correct": false
         }
@@ -2454,29 +2454,29 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma torneira está gotejando água em um balde com capacidade de 18 litros. No instante atual, o balde se encontra com ocupação de 50% de sua capacidade. A cada segundo caem 5 gotas de água da torneira, e uma gota é formada, em média, por 5 × 10−2 mL de água.\nQuanto tempo, em hora, será necessário para encher completamente o balde, partindo do instante atual?",
+      "statement": "Uma torneira está gotejando água em um balde com capacidade de 18 litros. No instante atual, o balde se encontra com ocupação de 50% de sua capacidade. A cada segundo caem 5 gotas de água da torneira, e uma gota é formada, em média, por 5 × 10⁻² mL de água.\nQuanto tempo, em hora, será necessário para encher completamente o balde, partindo do instante atual?",
       "options": [
         {
           "letter": "A",
-          "text": "2 × 101",
+          "text": "2 × 10¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1 × 101",
+          "text": "1 × 10¹",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "2 × 10−2",
+          "text": "2 × 10⁻²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1 × 10−2",
+          "text": "1 × 10⁻²",
           "image_url": null,
           "is_correct": false
         },
@@ -2499,7 +2499,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q145-fig1.png"
       ],
-      "statement": "Um clube deseja produzir miniaturas em escala do troféu que ganhou no último campeonato. O troféu está representado na Figura 1 e é composto por uma base em formato de um paralelepípedo reto-retângulo de madeira, sobre a qual estão fi xadas três hastes verticais que sustentam uma esfera de 30 cm de diâmetro, que fi ca centralizada sobre a base de madeira. O troféu tem 100 cm de altura, incluída sua base. ? 8 cm 50 cm 10 cm 50 cm Figura 1 Figura 2 A miniatura desse troféu deverá ser instalada no interior de uma caixa de vidro, em formato de paralelepípedo reto-retângulo, cujas dimensões internas de sua base estão indicadas na Figura 2, de modo que a base do troféu seja colada na base da caixa e distante das paredes laterais da caixa de vidro em pelo menos 1 cm.\nDeve ainda haver uma distância de exatos 2 cm entre o topo da esfera e a tampa dessa caixa de vidro. Nessas condições deseja-se fazer a maior miniatura possível.\nA medida da altura, em centímetro, dessa caixa de vidro deverá ser igual a",
+      "statement": "Um clube deseja produzir miniaturas em escala do troféu que ganhou no último campeonato. O troféu está representado na Figura 1 e é composto por uma base em formato de um paralelepípedo reto-retângulo de madeira, sobre a qual estão fixadas três hastes verticais que sustentam uma esfera de 30 cm de diâmetro, que fica centralizada sobre a base de madeira. O troféu tem 100 cm de altura, incluída sua base. ? 8 cm 50 cm 10 cm 50 cm Figura 1 Figura 2 A miniatura desse troféu deverá ser instalada no interior de uma caixa de vidro, em formato de paralelepípedo reto-retângulo, cujas dimensões internas de sua base estão indicadas na Figura 2, de modo que a base do troféu seja colada na base da caixa e distante das paredes laterais da caixa de vidro em pelo menos 1 cm.\nDeve ainda haver uma distância de exatos 2 cm entre o topo da esfera e a tampa dessa caixa de vidro. Nessas condições deseja-se fazer a maior miniatura possível.\nA medida da altura, em centímetro, dessa caixa de vidro deverá ser igual a",
       "options": [
         {
           "letter": "A",
@@ -2544,7 +2544,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q146-fig1.png"
       ],
-      "statement": "Uma casa de dois andares está sendo projetada.\nÉ necessário incluir no projeto a construção de uma escada para o acesso ao segundo andar. Para o cálculo das dimensões dos degraus utilizam-se as regras: |2h + b − 63,5| ≤ 1,5 e 16 ≤ h ≤ 19, nas quais h é a altura do degrau (denominada espelho) e b é a profundidade da pisada, como mostra a fi gura.\nPor conveniência, escolheu-se a altura do degrau como sendo h = 16. As unidades de h e b estão em centímetro.\nNesse caso, o mais amplo intervalo numérico ao qual a profundidade da pisada (b) deve pertencer, para que as regras sejam satisfeitas é",
+      "statement": "Uma casa de dois andares está sendo projetada.\nÉ necessário incluir no projeto a construção de uma escada para o acesso ao segundo andar. Para o cálculo das dimensões dos degraus utilizam-se as regras: |2h + b − 63,5| ≤ 1,5 e 16 ≤ h ≤ 19, nas quais h é a altura do degrau (denominada espelho) e b é a profundidade da pisada, como mostra a figura.\nPor conveniência, escolheu-se a altura do degrau como sendo h = 16. As unidades de h e b estão em centímetro.\nNesse caso, o mais amplo intervalo numérico ao qual a profundidade da pisada (b) deve pertencer, para que as regras sejam satisfeitas é",
       "options": [
         {
           "letter": "A",
@@ -2594,35 +2594,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Muitos modelos atuais de veículos possuem computador de bordo. Os computadores informam em uma tela diversas variações de grandezas associadas ao desempenho do carro, dentre elas o consumo médio de combustível. Um veículo, de um determinado modelo, pode vir munido de um dos dois tipos de computadores de bordo: • Tipo A: informa a quantidade X de litro de combustível gasto para percorrer 100 quilômetros; • Tipo B: informa a quantidade de quilômetro que o veículo é capaz de percorrer com um litro de combustível.\nUm veículo utiliza o computador do Tipo A, e ao fi nal de uma viagem o condutor viu apresentada na tela a informação “X/100”.\nCaso o seu veículo utilizasse o computador do Tipo B, o valor informado na tela seria obtido pela operação",
+      "statement": "Muitos modelos atuais de veículos possuem computador de bordo. Os computadores informam em uma tela diversas variações de grandezas associadas ao desempenho do carro, dentre elas o consumo médio de combustível. Um veículo, de um determinado modelo, pode vir munido de um dos dois tipos de computadores de bordo: • Tipo A: informa a quantidade X de litro de combustível gasto para percorrer 100 quilômetros; • Tipo B: informa a quantidade de quilômetro que o veículo é capaz de percorrer com um litro de combustível.\nUm veículo utiliza o computador do Tipo A, e ao final de uma viagem o condutor viu apresentada na tela a informação “X/100”.\nCaso o seu veículo utilizasse o computador do Tipo B, o valor informado na tela seria obtido pela operação",
       "options": [
         {
           "letter": "A",
-          "text": "X 100 X",
+          "text": "X · 100",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "∙ 100 100",
+          "text": "X/100",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "X 1",
+          "text": "100/X",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "X",
+          "text": "1/X",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "1 X ∙",
+          "text": "1 · X",
           "image_url": null,
           "is_correct": false
         }
@@ -2739,7 +2739,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q150-fig1.png"
       ],
-      "statement": "Enquanto um ser está vivo, a quantidade de carbono 14 nele existente não se altera. Quando ele morre, essa quantidade vai diminuindo. Sabe-se que a meia-vida do carbono 14 é de 5 730 anos, ou seja, num fóssil de um organismo que morreu há 5 730 anos haverá metade do carbono 14 que existia quando ele estava vivo. Assim, cientistas e arqueólogos usam a seguinte fórmula para t saber a idade de um fóssil encontrado: Q t Q 2 5730 0 − em que t é o tempo, medido em ano, Q t é a quantidade = ∙ de carbono 14 medida no instante t e Q é a quantidade 0 de carbono 14 no ser vivo correspondente.\nUm grupo de arqueólogos, numa de suas expedições, encontrou 5 fósseis de espécies conhecidas e mediram a quantidade de carbono 14 neles existente. Na tabela temos esses valores juntamente com a quantidade de carbono 14 nas referidas espécies vivas.\nFóssil Q Q(t) 0 1 128 32 2 256 8 3 512 64 4 1 024 512 5 2 048 128 O fóssil mais antigo encontrado nessa expedição foi",
+      "statement": "Enquanto um ser está vivo, a quantidade de carbono 14 nele existente não se altera. Quando ele morre, essa quantidade vai diminuindo. Sabe-se que a meia-vida do carbono 14 é de 5 730 anos, ou seja, num fóssil de um organismo que morreu há 5 730 anos haverá metade do carbono 14 que existia quando ele estava vivo. Assim, cientistas e arqueólogos usam a seguinte fórmula para t saber a idade de um fóssil encontrado: Q t Q 2 5730 0 − em que t é o tempo, medido em ano, Q t é a quantidade = ∙ de carbono 14 medida no instante t e Q₀ é a quantidade de carbono 14 no ser vivo correspondente.\nUm grupo de arqueólogos, numa de suas expedições, encontrou 5 fósseis de espécies conhecidas e mediram a quantidade de carbono 14 neles existente. Na tabela temos esses valores juntamente com a quantidade de carbono 14 nas referidas espécies vivas.\nFóssil Q₀ Q(t) 1 128 32 2 256 8 3 512 64 4 1 024 512 5 2 048 128 O fóssil mais antigo encontrado nessa expedição foi",
       "options": [
         {
           "letter": "A",
@@ -2928,25 +2928,25 @@
       "options": [
         {
           "letter": "A",
-          "text": "1,0 × 10 − 1",
+          "text": "1,0 × 10⁻¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1,0 × 10 − 3",
+          "text": "1,0 × 10⁻³",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "1,0 × 10 − 4",
+          "text": "1,0 × 10⁻⁴",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "1,0 × 10 − 6",
+          "text": "1,0 × 10⁻⁶",
           "image_url": null,
           "is_correct": false
         },
@@ -3062,35 +3062,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Amigo secreto é uma brincadeira tradicional nas festas de fim de ano. Um grupo de amigos se reúne e cada um deles sorteia o nome da pessoa que irá presentear. No dia da troca de presentes, uma primeira pessoa presenteia seu amigo secreto. Em seguida, o presenteado revela seu amigo secreto e o presenteia. A brincadeira continua até que todos sejam presenteados, mesmo no caso em que o ciclo se fecha. Dez funcionários de uma empresa, entre eles um casal, participarão de um amigo secreto. A primeira pessoa a revelar será definida por sorteio.\nQual é a probabilidade de que a primeira pessoa a revelar o seu amigo secreto e a última presenteada sejam as duas pessoas do casal? 1",
+      "statement": "Amigo secreto é uma brincadeira tradicional nas festas de fim de ano. Um grupo de amigos se reúne e cada um deles sorteia o nome da pessoa que irá presentear. No dia da troca de presentes, uma primeira pessoa presenteia seu amigo secreto. Em seguida, o presenteado revela seu amigo secreto e o presenteia. A brincadeira continua até que todos sejam presenteados, mesmo no caso em que o ciclo se fecha. Dez funcionários de uma empresa, entre eles um casal, participarão de um amigo secreto. A primeira pessoa a revelar será definida por sorteio.\nQual é a probabilidade de que a primeira pessoa a revelar o seu amigo secreto e a última presenteada sejam as duas pessoas do casal?",
       "options": [
         {
           "letter": "A",
-          "text": "5 1",
+          "text": "1/5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "45 1",
+          "text": "1/45",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "50 1",
+          "text": "1/50",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "90 1",
+          "text": "1/90",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "100",
+          "text": "1/100",
           "image_url": null,
           "is_correct": false
         }
@@ -3336,25 +3336,25 @@
         },
         {
           "letter": "B",
-          "text": "4!5!",
+          "text": "4! 5!",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "2 4!5! 9!×",
+          "text": "2 × 4! 5!",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "2 4!5!",
+          "text": "9!/2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "2",
+          "text": "(4! 5!)/2",
           "image_url": null,
           "is_correct": true
         }
@@ -3421,7 +3421,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O técnico de um time de basquete pretende aumentar a estatura média de sua equipe de 1,93 m para, no mínimo, 1,99 m. Para tanto, dentre os 15 jogadores que fazem parte de sua equipe, irá substituir os quatro mais baixos, de estaturas: 1,78 m, 1,82 m, 1,84 m e 1,86 m.\nPara isso, o técnico contratou um novo jogador de 2,02 m.\nOs outros três jogadores que ele ainda precisa contratar devem satisfazer à sua necessidade de aumentar a média das estaturas da equipe. Ele fi xará a média das estaturas para os três jogadores que ainda precisa contratar dentro do critério inicialmente estabelecido.\nQual deverá ser a média mínima das estaturas, em metro, que ele deverá fi xar para o grupo de três novos jogadores que ainda irá contratar?",
+      "statement": "O técnico de um time de basquete pretende aumentar a estatura média de sua equipe de 1,93 m para, no mínimo, 1,99 m. Para tanto, dentre os 15 jogadores que fazem parte de sua equipe, irá substituir os quatro mais baixos, de estaturas: 1,78 m, 1,82 m, 1,84 m e 1,86 m.\nPara isso, o técnico contratou um novo jogador de 2,02 m.\nOs outros três jogadores que ele ainda precisa contratar devem satisfazer à sua necessidade de aumentar a média das estaturas da equipe. Ele fixará a média das estaturas para os três jogadores que ainda precisa contratar dentro do critério inicialmente estabelecido.\nQual deverá ser a média mínima das estaturas, em metro, que ele deverá fixar para o grupo de três novos jogadores que ainda irá contratar?",
       "options": [
         {
           "letter": "A",
@@ -3464,7 +3464,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O consumo de espumantes no Brasil tem aumentado nos últimos anos. Uma das etapas do seu processo de produção consiste no envasamento da bebida em garrafas semelhantes às da imagem.\nNesse processo, a vazão do líquido no interior da garrafa é constante e cessa quando atinge o nível de envasamento.\nNível de envasamento da garrafa Qual esboço de gráfi co melhor representa a variação da altura do líquido em função do tempo, na garrafa indicada na imagem? altura",
+      "statement": "O consumo de espumantes no Brasil tem aumentado nos últimos anos. Uma das etapas do seu processo de produção consiste no envasamento da bebida em garrafas semelhantes às da imagem.\nNesse processo, a vazão do líquido no interior da garrafa é constante e cessa quando atinge o nível de envasamento.\nNível de envasamento da garrafa Qual esboço de gráfico melhor representa a variação da altura do líquido em função do tempo, na garrafa indicada na imagem? altura",
       "options": [
         {
           "letter": "A",
@@ -3509,7 +3509,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q167-fig1.png"
       ],
-      "statement": "O quadro representa os gastos mensais, em real, de uma família com internet, mensalidade escolar e mesada do fi lho.\nInternet Mensalidade escolar Mesada do fi lho 120 700 400 No início do ano, a internet e a mensalidade escolar tiveram acréscimos, respectivamente, de 20% e 10%.\nNecessitando manter o valor da despesa mensal total com os itens citados, a família reduzirá a mesada do fi lho.\nQual será a porcentagem da redução da mesada?",
+      "statement": "O quadro representa os gastos mensais, em real, de uma família com internet, mensalidade escolar e mesada do filho.\nInternet Mensalidade escolar Mesada do filho 120 700 400 No início do ano, a internet e a mensalidade escolar tiveram acréscimos, respectivamente, de 20% e 10%.\nNecessitando manter o valor da despesa mensal total com os itens citados, a família reduzirá a mesada do filho.\nQual será a porcentagem da redução da mesada?",
       "options": [
         {
           "letter": "A",
@@ -3647,35 +3647,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Antônio, Joaquim e José são sócios de uma empresa cujo capital é dividido, entre os três, em partes proporcionais a: 4, 6 e 6, respectivamente. Com a intenção de igualar a participação dos três sócios no capital da empresa, Antônio pretende adquirir uma fração do capital de cada um dos outros dois sócios.\nA fração do capital de cada sócio que Antônio deverá adquirir é 1",
+      "statement": "Antônio, Joaquim e José são sócios de uma empresa cujo capital é dividido, entre os três, em partes proporcionais a: 4, 6 e 6, respectivamente. Com a intenção de igualar a participação dos três sócios no capital da empresa, Antônio pretende adquirir uma fração do capital de cada um dos outros dois sócios.\nA fração do capital de cada sócio que Antônio deverá adquirir é",
       "options": [
         {
           "letter": "A",
-          "text": "2 1",
+          "text": "1/2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "3 1",
+          "text": "1/3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "9 2",
+          "text": "1/9",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "3 4",
+          "text": "2/3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "3",
+          "text": "4/3",
           "image_url": null,
           "is_correct": false
         }
@@ -3744,7 +3744,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q172-fig1.png"
       ],
-      "statement": "No período de fi m de ano, o síndico de um condomínio resolveu colocar, em um poste, uma iluminação natalina em formato de cone, lembrando uma árvore de Natal, conforme as fi guras 1 e 2.\nPoste h = 3 m c Figura 1 Figura 2 A árvore deverá ser feita colocando-se mangueiras de iluminação, consideradas segmentos de reta de mesmo comprimento, a partir de um ponto situado a 3 m de altura no poste até um ponto de uma circunferência de fi xação, no chão, de tal forma que esta fi que dividida em 20 arcos iguais. O poste está fi xado no ponto C (centro da circunferência) perpendicularmente ao plano do chão.\nPara economizar, ele utilizará mangueiras de iluminação aproveitadas de anos anteriores, que juntas totalizaram pouco mais de 100 m de comprimento, dos quais ele decide usar exatamente 100 m e deixar o restante como reserva.\nPara que ele atinja seu objetivo, o raio, em metro, da circunferência deverá ser de",
+      "statement": "No período de fim de ano, o síndico de um condomínio resolveu colocar, em um poste, uma iluminação natalina em formato de cone, lembrando uma árvore de Natal, conforme as figuras 1 e 2.\nPoste h = 3 m c Figura 1 Figura 2 A árvore deverá ser feita colocando-se mangueiras de iluminação, consideradas segmentos de reta de mesmo comprimento, a partir de um ponto situado a 3 m de altura no poste até um ponto de uma circunferência de fixação, no chão, de tal forma que esta fique dividida em 20 arcos iguais. O poste está fixado no ponto C (centro da circunferência) perpendicularmente ao plano do chão.\nPara economizar, ele utilizará mangueiras de iluminação aproveitadas de anos anteriores, que juntas totalizaram pouco mais de 100 m de comprimento, dos quais ele decide usar exatamente 100 m e deixar o restante como reserva.\nPara que ele atinja seu objetivo, o raio, em metro, da circunferência deverá ser de",
       "options": [
         {
           "letter": "A",
@@ -3789,7 +3789,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q173-fig1.png"
       ],
-      "statement": "Pergolado é o nome que se dá a um tipo de cobertura projetada por arquitetos, comumente em praças e jardins, para criar um ambiente para pessoas ou plantas, no qual há uma quebra da quantidade de luz, dependendo da posição do sol. É feito como um estrado de vigas iguais, postas paralelas e perfeitamente em fi la, como ilustra a fi gura. 30 cm 30 cm Um arquiteto projeta um pergolado com vãos de 30 cm de distância entre suas vigas, de modo que, no solstício de verão, a trajetória do sol durante o dia seja realizada num plano perpendicular à direção das vigas, e que o sol da tarde, no momento em que seus raios fi zerem 30° com a posição a pino, gere a metade da luz que passa no pergolado ao meio-dia.\nPara atender à proposta do projeto elaborado pelo arquiteto, as vigas do pergolado devem ser construídas de maneira que a altura, em centímetro, seja a mais próxima possível de",
+      "statement": "Pergolado é o nome que se dá a um tipo de cobertura projetada por arquitetos, comumente em praças e jardins, para criar um ambiente para pessoas ou plantas, no qual há uma quebra da quantidade de luz, dependendo da posição do sol. É feito como um estrado de vigas iguais, postas paralelas e perfeitamente em fila, como ilustra a figura. 30 cm 30 cm Um arquiteto projeta um pergolado com vãos de 30 cm de distância entre suas vigas, de modo que, no solstício de verão, a trajetória do sol durante o dia seja realizada num plano perpendicular à direção das vigas, e que o sol da tarde, no momento em que seus raios fizerem 30° com a posição a pino, gere a metade da luz que passa no pergolado ao meio-dia.\nPara atender à proposta do projeto elaborado pelo arquiteto, as vigas do pergolado devem ser construídas de maneira que a altura, em centímetro, seja a mais próxima possível de",
       "options": [
         {
           "letter": "A",
@@ -3840,7 +3840,7 @@
       "image_url": [
         "assets/images/enem_2020_cd7_q174-fig1.png"
       ],
-      "statement": "O fenômeno das manifestações populares de massa traz à discussão como estimar o número de pessoas presentes nesse tipo de evento. Uma metodologia usada é: no momento do ápice do evento, é feita uma foto aérea da via pública principal na área ocupada, bem como das vias afl uentes que apresentem aglomerações de pessoas que acessam a via principal. A foto é sobreposta por um mapa virtual das vias, ambos na mesma escala, fazendo-se um esboço geométrico da situação. Em seguida, subdivide-se o espaço total em trechos, quantifi cando a densidade, da seguinte forma: • 4 pessoas por metro quadrado, se elas estiverem andando em uma mesma direção; • 5 pessoas por metro quadrado, se elas estiverem se movimentando sem deixar o local; • 6 pessoas por metro quadrado, se elas estiverem paradas.\nÉ feito, então, o cálculo do total de pessoas, considerando os diversos trechos, e desconta-se daí 1 000 pessoas para cada carro de som fotografado.\nCom essa metodologia, procederam-se aos cálculos para estimar o número de participantes na manifestação cujo esboço geométrico é dado na fi gura. Há três trechos na via principal: MN, NO e OP, e um trecho numa via afl uente da principal: QR . 30 m Legenda:\nQ Andando em uma ou mesma direção 100 m Movimentando sem M N R O P deixar o local Via 30 m Parado principal Carro de som 100 m 300 m 200 m Obs.: a figura não está em escala (considere as medidas dadas).\nSegundo a metodologia descrita, o número estimado de pessoas presentes a essa manifestação foi igual a",
+      "statement": "O fenômeno das manifestações populares de massa traz à discussão como estimar o número de pessoas presentes nesse tipo de evento. Uma metodologia usada é: no momento do ápice do evento, é feita uma foto aérea da via pública principal na área ocupada, bem como das vias afluentes que apresentem aglomerações de pessoas que acessam a via principal. A foto é sobreposta por um mapa virtual das vias, ambos na mesma escala, fazendo-se um esboço geométrico da situação. Em seguida, subdivide-se o espaço total em trechos, quantificando a densidade, da seguinte forma: • 4 pessoas por metro quadrado, se elas estiverem andando em uma mesma direção; • 5 pessoas por metro quadrado, se elas estiverem se movimentando sem deixar o local; • 6 pessoas por metro quadrado, se elas estiverem paradas.\nÉ feito, então, o cálculo do total de pessoas, considerando os diversos trechos, e desconta-se daí 1 000 pessoas para cada carro de som fotografado.\nCom essa metodologia, procederam-se aos cálculos para estimar o número de participantes na manifestação cujo esboço geométrico é dado na figura. Há três trechos na via principal: MN, NO e OP, e um trecho numa via afluente da principal: QR . 30 m Legenda:\nQ Andando em uma ou mesma direção 100 m Movimentando sem M N R O P deixar o local Via 30 m Parado principal Carro de som 100 m 300 m 200 m Obs.: a figura não está em escala (considere as medidas dadas).\nSegundo a metodologia descrita, o número estimado de pessoas presentes a essa manifestação foi igual a",
       "options": [
         {
           "letter": "A",

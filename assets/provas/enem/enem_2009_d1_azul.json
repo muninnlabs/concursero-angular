@@ -5,9 +5,7 @@
     "institution": "INEP",
     "year": 2009,
     "day": 1,
-    "booklet_color": "Azul",
-    "status": "incomplete",
-    "status_reason": "extraction unfinished (empty questions, answer key not verified)"
+    "booklet_color": "Azul"
   },
   "questions": [
     {
@@ -20,7 +18,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A atmosfera terrestre é composta pelos gases nitrogênio (N ) e oxigênio (O ), que somam cerca de 99%, 2 2 e por gases traços, entre eles o gás carbônico (CO ), vapor 2 de água (H O), metano (CH ), ozônio (O ) e o óxido nitroso 2 4 3 (N O), que compõem o restante 1% do ar que respiramos. 2 Os gases traços, por serem constituídos por pelo menos três átomos, conseguem absorver o calor irradiado pela Terra, aquecendo o planeta. Esse fenômeno, que acontece há bilhões de anos, é chamado de efeito estufa. A partir da Revolução Industrial (século XIX), a concentração de gases traços na atmosfera, em particular o CO , tem 2 aumentado significativamente, o que resultou no aumento da temperatura em escala global. Mais recentemente, outro fator tornou-se diretamente envolvido no aumento da concentração de CO na atmosfera: o desmatamento. 2 BROWN, I. F.; ALECHANDRE, A. S. Conceitos básicos sobre clima, carbono, florestas e comunidades. A.G. Moreira & S.",
+          "content": "A atmosfera terrestre é composta pelos gases nitrogênio (N₂) e oxigênio (O₂), que somam cerca de 99%, e por gases traços, entre eles o gás carbônico (CO₂), vapor de água (H₂O), metano (CH₄), ozônio (O₃) e o óxido nitroso (N₂O), que compõem o restante 1% do ar que respiramos. Os gases traços, por serem constituídos por pelo menos três átomos, conseguem absorver o calor irradiado pela Terra, aquecendo o planeta. Esse fenômeno, que acontece há bilhões de anos, é chamado de efeito estufa. A partir da Revolução Industrial (século XIX), a concentração de gases traços na atmosfera, em particular o CO₂, tem aumentado significativamente, o que resultou no aumento da temperatura em escala global. Mais recentemente, outro fator tornou-se diretamente envolvido no aumento da concentração de CO₂ na atmosfera: o desmatamento. BROWN, I. F.; ALECHANDRE, A. S. Conceitos básicos sobre clima, carbono, florestas e comunidades. A.G. Moreira & S.",
           "source": "Schwartzman. As mudanças climáticas globais e os ecossistemas brasileiros. Brasília: Instituto de Pesquisa Ambiental da Amazônia, 2000 (adaptado)."
         }
       ],
@@ -35,25 +33,25 @@
         },
         {
           "letter": "B",
-          "text": "promover a queima da biomassa vegetal, responsável pelo aumento do efeito estufa devido à produção de CH . 4",
+          "text": "promover a queima da biomassa vegetal, responsável pelo aumento do efeito estufa devido à produção de CH₄.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "reduzir o desmatamento, mantendo-se, assim, o potencial da vegetação em absorver o CO da 2 atmosfera.",
+          "text": "reduzir o desmatamento, mantendo-se, assim, o potencial da vegetação em absorver o CO₂ da atmosfera.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "aumentar a concentração atmosférica de H O, 2 molécula capaz de absorver grande quantidade de calor.",
+          "text": "aumentar a concentração atmosférica de H₂O, molécula capaz de absorver grande quantidade de calor.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "remover moléculas orgânicas polares da atmosfera, diminuindo a capacidade delas de reter calor.\nCN – 1º dia CADERNO 1 – A GIAS",
+          "text": "remover moléculas orgânicas polares da atmosfera, diminuindo a capacidade delas de reter calor.",
           "image_url": null,
           "is_correct": false
         }
@@ -75,8 +73,7 @@
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd1_q2-1.png",
-        "assets/images/enem_2009_cd1_q2-2.png"
+        "assets/images/enem_2009_cd1_q2.png"
       ],
       "statement": "Supondo que seja necessário dar um título para essa figura, a alternativa que melhor traduziria o processo representado seria:",
       "options": [
@@ -373,7 +370,7 @@
         },
         {
           "letter": "C",
-          "text": "o aumento expressivo na liberação de CO para a 2 atmosfera.",
+          "text": "o aumento expressivo na liberação de CO₂ para a atmosfera.",
           "image_url": null,
           "is_correct": false
         },
@@ -450,11 +447,11 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A fotossíntese é importante para a vida na Terra.\nNos cloroplastos dos organismos fotossintetizantes, a energia solar é convertida em energia química que, juntamente com água e gás carbônico (CO ), é utilizada 2 para a síntese de compostos orgânicos (carboidratos). A fotossíntese é o único processo de importância biológica capaz de realizar essa conversão. Todos os organismos, incluindo os produtores, aproveitam a energia armazenada nos carboidratos para impulsionar os processos celulares, liberando CO para a atmosfera e água para a célula por 2 meio da respiração celular. Além disso, grande fração dos recursos energéticos do planeta, produzidos tanto no presente (biomassa) como em tempos remotos (combustível fóssil), é resultante da atividade fotossintética.\nAs informações sobre obtenção e transformação dos recursos naturais por meio dos processos vitais de fotossíntese e respiração, descritas no texto, permitem concluir que",
+      "statement": "A fotossíntese é importante para a vida na Terra.\nNos cloroplastos dos organismos fotossintetizantes, a energia solar é convertida em energia química que, juntamente com água e gás carbônico (CO₂), é utilizada para a síntese de compostos orgânicos (carboidratos). A fotossíntese é o único processo de importância biológica capaz de realizar essa conversão. Todos os organismos, incluindo os produtores, aproveitam a energia armazenada nos carboidratos para impulsionar os processos celulares, liberando CO₂ para a atmosfera e água para a célula por meio da respiração celular. Além disso, grande fração dos recursos energéticos do planeta, produzidos tanto no presente (biomassa) como em tempos remotos (combustível fóssil), é resultante da atividade fotossintética.\nAs informações sobre obtenção e transformação dos recursos naturais por meio dos processos vitais de fotossíntese e respiração, descritas no texto, permitem concluir que",
       "options": [
         {
           "letter": "A",
-          "text": "o CO e a água são moléculas de alto teor energético. 2",
+          "text": "o CO₂ e a água são moléculas de alto teor energético.",
           "image_url": null,
           "is_correct": false
         },
@@ -478,7 +475,7 @@
         },
         {
           "letter": "E",
-          "text": "a produção de biomassa e de combustível fóssil, por si, é responsável pelo aumento de CO atmosférico. 2",
+          "text": "a produção de biomassa e de combustível fóssil, por si, é responsável pelo aumento de CO₂ atmosférico.",
           "image_url": null,
           "is_correct": false
         }
@@ -493,35 +490,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Para que todos os órgãos do corpo humano funcionem em boas condições, é necessário que a temperatura do corpo fique sempre entre 36 ºC e 37 ºC.\nPara manter-se dentro dessa faixa, em dias de muito calor ou durante intensos exercícios físicos, uma série de mecanismos fisiológicos é acionada.\nPode-se citar como o principal responsável pela manutenção da temperatura corporal humana o sistema A digestório, pois produz enzimas que atuam na quebra de alimentos calóricos.\nB imunológico, pois suas células agem no sangue, diminuindo a condução do calor.\nC nervoso, pois promove a sudorese, que permite perda de calor por meio da evaporação da água.\nD reprodutor, pois secreta hormônios que alteram a temperatura, principalmente durante a menopausa.\nE endócrino, pois fabrica anticorpos que, por sua vez, atuam na variação do diâmetro dos vasos periféricos.\nAZUL – PÁGINA 3 ENEM 2009 Questão 12 Nesse contexto, para conciliar os interesses aparentemente contraditórios entre o progresso social e urbano e a Sabões são sais de ácidos carboxílicos de conservação do meio ambiente, seria razoável cadeia longa utilizados com a finalidade de facilitar, A impedir a abertura e a pavimentação de rodovias em durante processos de lavagem, a remoção de áreas rurais e em regiões preservadas, pois a qualidade de vida e as tecnologias encontradas nos centros urbanos substâncias de baixa solubilidade em água, por são prescindíveis às populações rurais. exemplo, óleos e gorduras. A figura a seguir representa B impedir a abertura e a pavimentação de rodovias em a estrutura de uma molécula de sabão. áreas rurais e em regiões preservadas, promovendo a migração das populações rurais para os centros urbanos, onde a qualidade de vida é melhor.\nC permitir a abertura e a pavimentação de rodovias apenas em áreas rurais produtivas, haja vista que nas demais Em solução, os ânions do sabão podem áreas o retorno financeiro necessário para produzir uma melhoria na qualidade de vida da região não é garantido. hidrolisar a água e, desse modo, formar o ácido D permitir a abertura e a pavimentação de rodovias, desde carboxílico correspondente. Por exemplo, para o que comprovada a sua real necessidade e após a estearato de sódio, é estabelecido o seguinte equilíbrio: realização de estudos que demonstrem ser possível contornar ou compensar seus impactos ambientais.\nCH (CH ) COO– + H O CH (CH ) COOH + OH– E permitir a abertura e a pavimentação de rodovias, haja 3 2 16 2 3 2 16 vista que os impactos ao meio ambiente são temporários e podem ser facilmente revertidos com as tecnologias Uma vez que o ácido carboxílico formado é existentes para recuperação de áreas degradadas. pouco solúvel em água e menos eficiente na remoção Questão 14 de gorduras, o pH do meio deve ser controlado de A eficiência de um processo de conversão de energia maneira a evitar que o equilíbrio acima seja deslocado é definida como a razão entre a produção de energia ou trabalho útil e o total de entrada de energia no processo. A para a direita. figura mostra um processo com diversas etapas. Nesse caso, a eficiência geral será igual ao produto das eficiências das Com base nas informações do texto, é correto concluir etapas individuais. A entrada de energia que não se que os sabões atuam de maneira transforma em trabalho útil é perdida sob formas não utilizáveis (como resíduos de calor).",
+      "statement": "Para que todos os órgãos do corpo humano funcionem em boas condições, é necessário que a temperatura do corpo fique sempre entre 36 ºC e 37 ºC.\nPara manter-se dentro dessa faixa, em dias de muito calor ou durante intensos exercícios físicos, uma série de mecanismos fisiológicos é acionada.\nPode-se citar como o principal responsável pela manutenção da temperatura corporal humana o sistema",
       "options": [
         {
           "letter": "A",
-          "text": "mais eficiente em pH básico.",
+          "text": "digestório, pois produz enzimas que atuam na quebra de alimentos calóricos.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "mais eficiente em pH ácido.",
+          "text": "imunológico, pois suas células agem no sangue, diminuindo a condução do calor.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "mais eficiente em pH neutro.",
+          "text": "nervoso, pois promove a sudorese, que permite perda de calor por meio da evaporação da água.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "eficiente em qualquer faixa de pH.",
+          "text": "reprodutor, pois secreta hormônios que alteram a temperatura, principalmente durante a menopausa.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "mais eficiente em pH ácido ou neutro.",
+          "text": "endócrino, pois fabrica anticorpos que, por sua vez, atuam na variação do diâmetro dos vasos periféricos.",
           "image_url": null,
           "is_correct": false
         }
@@ -534,16 +531,11 @@
       "subject": "Ciências da Natureza e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [
-        {
-          "type": "text_block",
-          "title": null,
-          "content": "Sabões são sais de ácidos carboxílicos de cadeia longa utilizados com a finalidade de facilitar, durante processos de lavagem, a remoção de substâncias de baixa solubilidade em água, por exemplo, óleos e gorduras. A figura a seguir representa a estrutura de uma molécula de sabão (uma cadeia carbônica longa terminada em -CO2⁻Na⁺, sal de ácido carboxílico).\n\nEm solução, os ânions do sabão podem hidrolisar a água e, desse modo, formar o ácido carboxílico correspondente. Por exemplo, para o estearato de sódio, é estabelecido o seguinte equilíbrio:\nCH3(CH2)16COO⁻ + H2O ⇌ CH3(CH2)16COOH + OH⁻\n\nUma vez que o ácido carboxílico formado é pouco solúvel em água e menos eficiente na remoção de gorduras, o pH do meio deve ser controlado de maneira a evitar que o equilíbrio acima seja deslocado para a direita.",
-          "source": null
-        }
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd1_q12.png"
       ],
-      "image_url": null,
-      "statement": "Com base nas informações do texto, é correto concluir que os sabões atuam de maneira",
+      "statement": "Sabões são sais de ácidos carboxílicos de cadeia longa utilizados com a finalidade de facilitar, durante processos de lavagem, a remoção de substâncias de baixa solubilidade em água, por exemplo, óleos e gorduras. A figura a seguir representa a estrutura de uma molécula de sabão.\nEm solução, os ânions do sabão podem hidrolisar a água e, desse modo, formar o ácido carboxílico correspondente. Por exemplo, para o estearato de sódio, é estabelecido o seguinte equilíbrio:\nCH₃(CH₂)₁₆COO⁻ + H₂O CH₃(CH₂)₁₆COOH + OH⁻ Uma vez que o ácido carboxílico formado é pouco solúvel em água e menos eficiente na remoção de gorduras, o pH do meio deve ser controlado de maneira a evitar que o equilíbrio acima seja deslocado para a direita.\nCom base nas informações do texto, é correto concluir que os sabões atuam de maneira",
       "options": [
         {
           "letter": "A",
@@ -638,11 +630,13 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A eficiência de um processo de conversão de energia é definida como a razão entre a produção de energia ou trabalho útil e o total de entrada de energia no processo. A figura mostra um processo com diversas etapas. Nesse caso, a eficiência geral será igual ao produto das eficiências das etapas individuais. A entrada de energia que não se transforma em trabalho útil é perdida sob formas não utilizáveis (como resíduos de calor).\n\nEtapas: Usina de força (E1 = 0,35) → Linhas de transmissão (E2 = 0,90) → Luz (E3 = 0,05).\nEficiência geral da conversão de energia química em energia luminosa = E1 × E2 × E3 = 0,35 × 0,90 × 0,05 = 0,016 (1,6%).",
+          "content": "A eficiência de um processo de conversão de energia é definida como a razão entre a produção de energia ou trabalho útil e o total de entrada de energia no processo. A figura mostra um processo com diversas etapas. Nesse caso, a eficiência geral será igual ao produto das eficiências das etapas individuais. A entrada de energia que não se transforma em trabalho útil é perdida sob formas não utilizáveis (como resíduos de calor).",
           "source": "HINRICHS, R. A. Energia e Meio Ambiente. São Paulo: Pioneira Thomson Learning, 2003 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2009_cd1_q14.png"
+      ],
       "statement": "Aumentar a eficiência dos processos de conversão de energia implica economizar recursos e combustíveis. Das propostas seguintes, qual resultará em maior aumento da eficiência geral do processo?",
       "options": [
         {
@@ -688,7 +682,7 @@
       "image_url": [
         "assets/images/enem_2009_cd1_q15.png"
       ],
-      "statement": "Para que apresente condutividade elétrica adequada a muitas aplicações, o cobre bruto obtido por métodos térmicos é purificado eletroliticamente. Nesse processo, o cobre bruto impuro constitui o ânodo da célula, que está imerso em uma solução de CuSO . À medida que 4 o cobre impuro é oxidado no ânodo, íons Cu2+ da solução são depositados na forma pura no cátodo. Quanto às impurezas metálicas, algumas são oxidadas, passando à solução, enquanto outras simplesmente se desprendem do ânodo e se sedimentam abaixo dele. As impurezas sedimentadas são posteriormente processadas, e sua comercialização gera receita que ajuda a cobrir os custos do processo. A série eletroquímica a seguir lista o cobre e alguns metais presentes como impurezas no cobre bruto de acordo com suas forças redutoras relativas.\nEntre as impurezas metálicas que constam na série apresentada, as que se sedimentam abaixo do ânodo de cobre são",
+      "statement": "Para que apresente condutividade elétrica adequada a muitas aplicações, o cobre bruto obtido por métodos térmicos é purificado eletroliticamente. Nesse processo, o cobre bruto impuro constitui o ânodo da célula, que está imerso em uma solução de CuSO₄. À medida que o cobre impuro é oxidado no ânodo, íons Cu²⁺ da solução são depositados na forma pura no cátodo. Quanto às impurezas metálicas, algumas são oxidadas, passando à solução, enquanto outras simplesmente se desprendem do ânodo e se sedimentam abaixo dele. As impurezas sedimentadas são posteriormente processadas, e sua comercialização gera receita que ajuda a cobrir os custos do processo. A série eletroquímica a seguir lista o cobre e alguns metais presentes como impurezas no cobre bruto de acordo com suas forças redutoras relativas.\nEntre as impurezas metálicas que constam na série apresentada, as que se sedimentam abaixo do ânodo de cobre são",
       "options": [
         {
           "letter": "A",
@@ -783,7 +777,7 @@
         }
       ],
       "image_url": null,
-      "statement": "Devido à alta velocidade, um dos problemas a ser enfrentado na escolha do trajeto que será percorrido pelo trem é o dimensionamento das curvas. Considerando-se que uma aceleração lateral confortável para os passageiros e segura para o trem seja de 0,1 g, em que g é a aceleração da gravidade (considerada igual a 10 m/s2), e que a velocidade do trem se mantenha constante em todo o percurso, seria correto prever que as curvas existentes no trajeto deveriam ter raio de curvatura mínimo de, aproximadamente,",
+      "statement": "Devido à alta velocidade, um dos problemas a ser enfrentado na escolha do trajeto que será percorrido pelo trem é o dimensionamento das curvas. Considerando-se que uma aceleração lateral confortável para os passageiros e segura para o trem seja de 0,1 g, em que g é a aceleração da gravidade (considerada igual a 10 m/s²), e que a velocidade do trem se mantenha constante em todo o percurso, seria correto prever que as curvas existentes no trajeto deveriam ter raio de curvatura mínimo de, aproximadamente,",
       "options": [
         {
           "letter": "A",
@@ -829,10 +823,12 @@
           "type": "text_block",
           "title": null,
           "content": "O manual de instruções de um aparelho de ar-condicionado apresenta a seguinte tabela, com dados técnicos para diversos modelos:",
-          "source": "Corrente Capacidade de Eficiência Potência elétrica - Vazão de Frequência refrigeração (W) ciclo frio energética ar (m3/h) (Hz) kW/(BTU/h) COP (W/W) (A) 3,52/(12.000) 1.193 5,8 2,95 550 60 5,42/(18.000) 1.790 8,7 2,95 800 60 5,42/(18.000) 1.790 8,7 2,95 800 60 6,45/(22.000) 2.188 10,2 2,95 960 60 6,45/(22.000) 2.188 10,2 2,95 960 60 Disponível em: http://www.institucional.brastemp.com.br. Acesso em: 13 jul. 2009 (adaptado)."
+          "source": "Disponível em: http://www.institucional.brastemp.com.br. Acesso em: 13 jul. 2009 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2009_cd1_q18-fig1.png"
+      ],
       "statement": "Considere-se que um auditório possua capacidade para 40 pessoas, cada uma produzindo uma quantidade média de calor, e que praticamente todo o calor que flui para fora do auditório o faz por meio dos aparelhos de ar-condicionado. Nessa situação, entre as informações listadas, aquelas essenciais para se determinar quantos e/ou quais aparelhos de ar-condicionado são precisos para manter, com lotação máxima, a temperatura interna do auditório agradável e constante, bem como determinar a espessura da fiação do circuito elétrico para a ligação desses aparelhos, são",
       "options": [
         {
@@ -876,9 +872,10 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": [
-        "assets/images/enem_2009_cd1_q19.png"
+        "assets/images/enem_2009_cd1_q19-fig1.png",
+        "assets/images/enem_2009_cd1_q19-fig2.png"
       ],
-      "statement": "A instalação elétrica de uma casa envolve várias etapas, desde a alocação dos dispositivos, instrumentos e aparelhos elétricos, até a escolha dos materiais que a compõem, passando pelo dimensionamento da potência requerida, da fiação necessária, dos eletrodutos*, entre outras.\nPara cada aparelho elétrico existe um valor de potência associado. Valores típicos de potências para alguns aparelhos elétricos são apresentados no quadro seguinte:\nAparelhos Potência (W)\nAparelho de som 120 Chuveiro elétrico 3.000 Ferro elétrico 500 Televisor 200 Geladeira 200 Rádio 50 *Eletrodutos são condutos por onde passa a fiação de uma instalação elétrica, com a finalidade de protegê-la.\nA escolha das lâmpadas é essencial para obtenção de uma boa iluminação. A potência da lâmpada deverá estar de acordo com o tamanho do cômodo a ser iluminado. O quadro a seguir mostra a relação entre as áreas dos cômodos (em m2) e as potências das lâmpadas (em W), e foi utilizado como referência para o primeiro pavimento de uma residência.\nPotência da Lâmpada (W)\nÁrea do Cômodo (m2) Sala/copa Quarto, varanda e Banheiro /cozinha corredor Até 6,0 60 60 60 6,0 a 7,5 100 100 60 7,5 a 10,5 100 100 100 Obs.: Para efeitos dos cálculos das áreas, as paredes são desconsideradas.\nConsiderando a planta baixa fornecida, com todos os aparelhos em funcionamento, a potência total, em watts, será de",
+      "statement": "A instalação elétrica de uma casa envolve várias etapas, desde a alocação dos dispositivos, instrumentos e aparelhos elétricos, até a escolha dos materiais que a compõem, passando pelo dimensionamento da potência requerida, da fiação necessária, dos eletrodutos*, entre outras.\nPara cada aparelho elétrico existe um valor de potência associado. Valores típicos de potências para alguns aparelhos elétricos são apresentados no quadro seguinte:\n*Eletrodutos são condutos por onde passa a fiação de uma instalação elétrica, com a finalidade de protegê-la.\nA escolha das lâmpadas é essencial para obtenção de uma boa iluminação. A potência da lâmpada deverá estar de acordo com o tamanho do cômodo a ser iluminado. O quadro a seguir mostra a relação entre as áreas dos cômodos (em m²) e as potências das lâmpadas (em W), e foi utilizado como referência para o primeiro pavimento de uma residência.\nObs.: Para efeitos dos cálculos das áreas, as paredes são desconsideradas.\nConsiderando a planta baixa fornecida, com todos os aparelhos em funcionamento, a potência total, em watts, será de",
       "options": [
         {
           "letter": "A",
@@ -971,47 +968,38 @@
       "subject": "Ciências da Natureza e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [
-        {
-          "type": "text_block",
-          "title": null,
-          "content": "Os seres vivos apresentam diferentes ciclos de vida, caracterizados pelas fases nas quais gametas são produzidos e pelos processos reprodutivos que resultam na geração de novos indivíduos.",
-          "source": "Disponível em: www.infoescola.com (adaptado)."
-        }
-      ],
-      "image_url": [
-        "assets/images/enem_2009_cd1_q21-opts.png"
-      ],
-      "statement": "Considerando-se um modelo simplificado padrão para geração de indivíduos viáveis, a alternativa que corresponde ao observado em seres humanos é:",
+      "context_texts": [],
+      "image_url": null,
+      "statement": "Os seres vivos apresentam diferentes ciclos de vida, caracterizados pelas fases nas quais gametas são produzidos e pelos processos reprodutivos que resultam na geração de novos indivíduos.\nConsiderando-se um modelo simplificado padrão para geração de indivíduos viáveis, a alternativa que corresponde ao observado em seres humanos é:",
       "options": [
         {
           "letter": "A",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q21-1.png",
           "is_correct": false
         },
         {
           "letter": "B",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q21-2.png",
           "is_correct": false
         },
         {
           "letter": "C",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q21-3.png",
           "is_correct": true
         },
         {
           "letter": "D",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q21-4.png",
           "is_correct": false
         },
         {
           "letter": "E",
           "text": "",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q21-5.png",
           "is_correct": false
         }
       ],
@@ -1032,10 +1020,7 @@
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd1_q22-1.png",
-        "assets/images/enem_2009_cd1_q22-2.png",
-        "assets/images/enem_2009_cd1_q22-3.png",
-        "assets/images/enem_2009_cd1_q22-4.png"
+        "assets/images/enem_2009_cd1_q22-fig1.png"
       ],
       "statement": "De acordo com as informações contidas no texto e nas figuras, o uso da iontoforese",
       "options": [
@@ -1130,9 +1115,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": [
-        "assets/images/enem_2009_cd1_q24-1.png",
-        "assets/images/enem_2009_cd1_q24-2.png",
-        "assets/images/enem_2009_cd1_q24-3.png"
+        "assets/images/enem_2009_cd1_q24-fig1.png"
       ],
       "statement": "Umidade relativa do ar é o termo usado para descrever a quantidade de vapor de água contido na atmosfera. Ela é definida pela razão entre o conteúdo real de umidade de uma parcela de ar e a quantidade de umidade que a mesma parcela de ar pode armazenar na mesma temperatura e pressão quando está saturada de vapor, isto é, com 100% de umidade relativa. O gráfico representa a relação entre a umidade relativa do ar e sua temperatura ao longo de um período de 24 horas em um determinado local.\nConsiderando-se as informações do texto e do gráfico, conclui-se que",
       "options": [
@@ -1176,8 +1159,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": "Os planos de controle e erradicação de doenças em animais envolvem ações de profilaxia e dependem em grande medida da correta utilização e interpretação de testes diagnósticos. O quadro mostra um exemplo hipotético de aplicação de um teste diagnóstico. condição real dos animais resultado total infectado não infectado do teste positivo 45 38 83 negativo 5 912 917 total 50 950 1.000 Manual Técnico do Programa Nacional de Controle e Erradicação da Brucelose e da Tuberculose Animal – PNCEBT. Brasília: Ministério da Agricultura, Pecuária e Abastecimento, 2006 (adaptado). Considerando que, no teste diagnóstico, a sensibilidade é a probabilidade de um animal infectado ser classificado como positivo e a especificidade é a probabilidade de um animal não infectado ter resultado negativo, a interpretação do quadro permite inferir que",
+      "image_url": [
+        "assets/images/enem_2009_cd1_q25-fig1.png"
+      ],
+      "statement": "Os planos de controle e erradicação de doenças em animais envolvem ações de profilaxia e dependem em grande medida da correta utilização e interpretação de testes diagnósticos. O quadro mostra um exemplo hipotético de aplicação de um teste diagnóstico.\nManual Técnico do Programa Nacional de Controle e Erradicação da Brucelose e da Tuberculose Animal – PNCEBT. Brasília: Ministério da Agricultura, Pecuária e Abastecimento, 2006 (adaptado). Considerando que, no teste diagnóstico, a sensibilidade é a probabilidade de um animal infectado ser classificado como positivo e a especificidade é a probabilidade de um animal não infectado ter resultado negativo, a interpretação do quadro permite inferir que",
       "options": [
         {
           "letter": "A",
@@ -1220,35 +1205,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O processo de industrialização tem gerado sérios problemas de ordem ambiental, econômica e social, entre os quais se pode citar a chuva ácida. Os ácidos usualmente presentes em maiores proporções na água da chuva são o H CO , formado pela reação do CO 2 3 2 atmosférico com a água, o HNO , o HNO , o H SO e o 3 2 2 4 H SO . Esses quatro últimos são formados principalmente 2 3 a partir da reação da água com os óxidos de nitrogênio e de enxofre gerados pela queima de combustíveis fósseis.\nA formação de chuva mais ou menos ácida depende não só da concentração do ácido formado, como também do tipo de ácido. Essa pode ser uma informação útil na elaboração de estratégias para minimizar esse problema ambiental. Se consideradas concentrações idênticas, quais dos ácidos citados no texto conferem maior acidez às águas das chuvas?",
+      "statement": "O processo de industrialização tem gerado sérios problemas de ordem ambiental, econômica e social, entre os quais se pode citar a chuva ácida. Os ácidos usualmente presentes em maiores proporções na água da chuva são o H₂CO₃, formado pela reação do CO₂ atmosférico com a água, o HNO₃, o HNO₂, o H₂SO₄ e o H₂SO₃. Esses quatro últimos são formados principalmente a partir da reação da água com os óxidos de nitrogênio e de enxofre gerados pela queima de combustíveis fósseis.\nA formação de chuva mais ou menos ácida depende não só da concentração do ácido formado, como também do tipo de ácido. Essa pode ser uma informação útil na elaboração de estratégias para minimizar esse problema ambiental. Se consideradas concentrações idênticas, quais dos ácidos citados no texto conferem maior acidez às águas das chuvas?",
       "options": [
         {
           "letter": "A",
-          "text": "HNO e HNO . 3 2",
+          "text": "HNO₃ e HNO₂.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "H SO e H SO . 2 4 2 3",
+          "text": "H₂SO₄ e H₂SO₃.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "H SO e HNO . 2 3 2",
+          "text": "H₂SO₃ e HNO₂.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "H SO e HNO . 2 4 3",
+          "text": "H₂SO₄ e HNO₃.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "H CO e H SO . 2 3 2 3",
+          "text": "H₂CO₃ e H₂SO₃.",
           "image_url": null,
           "is_correct": false
         }
@@ -1307,8 +1292,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": "Uma pesquisadora deseja reflorestar uma área de mata ciliar quase que totalmente desmatada. Essa formação vegetal é um tipo de floresta muito comum nas margens de rios dos cerrados no Brasil central e, em seu clímax, possui vegetação arbórea perene e apresenta dossel fechado, com pouca incidência luminosa no solo e nas plântulas. Sabe-se que a incidência de luz, a disponibilidade de nutrientes e a umidade do solo são os principais fatores do meio ambiente físico que influenciam no desenvolvimento da planta. Para testar unicamente os efeitos da variação de luz, a pesquisadora analisou, em casas de vegetação com condições controladas, o desenvolvimento de plantas de 10 espécies nativas da região desmatada sob quatro condições de luminosidade: uma sob sol pleno e as demais em diferentes níveis de sombreamento. Para cada tratamento experimental, a pesquisadora relatou se o desenvolvimento da planta foi bom, razoável ou ruim, de acordo com critérios específicos. Os resultados obtidos foram os seguintes:\nCondição de luminosidade Espécie Sombreamento Sol pleno 30% 50% 90% 1 Razoável Bom Razoável Ruim 2 Bom Razoável Ruim Ruim 3 Bom Bom Razoável Ruim 4 Bom Bom Bom Bom 5 Bom Razoável Ruim Ruim 6 Ruim Razoável Bom Bom 7 Ruim Ruim Ruim Razoável 8 Ruim Ruim Razoável Ruim 9 Ruim Razoável Bom Bom 10 Razoável Razoável Razoável Bom Para o reflorestamento da região desmatada,",
+      "image_url": [
+        "assets/images/enem_2009_cd1_q28-fig1.png"
+      ],
+      "statement": "Uma pesquisadora deseja reflorestar uma área de mata ciliar quase que totalmente desmatada. Essa formação vegetal é um tipo de floresta muito comum nas margens de rios dos cerrados no Brasil central e, em seu clímax, possui vegetação arbórea perene e apresenta dossel fechado, com pouca incidência luminosa no solo e nas plântulas. Sabe-se que a incidência de luz, a disponibilidade de nutrientes e a umidade do solo são os principais fatores do meio ambiente físico que influenciam no desenvolvimento da planta. Para testar unicamente os efeitos da variação de luz, a pesquisadora analisou, em casas de vegetação com condições controladas, o desenvolvimento de plantas de 10 espécies nativas da região desmatada sob quatro condições de luminosidade: uma sob sol pleno e as demais em diferentes níveis de sombreamento. Para cada tratamento experimental, a pesquisadora relatou se o desenvolvimento da planta foi bom, razoável ou ruim, de acordo com critérios específicos. Os resultados obtidos foram os seguintes:\nPara o reflorestamento da região desmatada,",
       "options": [
         {
           "letter": "A",
@@ -1403,7 +1390,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água.\nConsiderando que o calor específico da água é igual a 4,19 J g-1 °C-1, aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?",
+      "statement": "É possível, com 1 litro de gasolina, usando todo o calor produzido por sua combustão direta, aquecer 200 litros de água de 20 °C a 55 °C. Pode-se efetuar esse mesmo aquecimento por um gerador de eletricidade, que consome 1 litro de gasolina por hora e fornece 110 V a um resistor de 11 Ω, imerso na água, durante um certo intervalo de tempo. Todo o calor liberado pelo resistor é transferido à água.\nConsiderando que o calor específico da água é igual a 4,19 J g⁻¹ °C⁻¹, aproximadamente qual a quantidade de gasolina consumida para o aquecimento de água obtido pelo gerador, quando comparado ao obtido a partir da combustão?",
       "options": [
         {
           "letter": "A",
@@ -1638,7 +1625,7 @@
       "image_url": [
         "assets/images/enem_2009_cd1_q35.png"
       ],
-      "statement": "O Sol representa uma fonte limpa e inesgotável de energia para o nosso planeta. Essa energia pode ser captada por aquecedores solares, armazenada e convertida posteriormente em trabalho útil. Considere determinada região cuja insolação — potência solar incidente na superfície da Terra — seja de 800 watts/m2.\nUma usina termossolar utiliza concentradores solares parabólicos que chegam a dezenas de quilômetros de extensão. Nesses coletores solares parabólicos, a luz refletida pela superfície parabólica espelhada é focalizada em um receptor em forma de cano e aquece o óleo contido em seu interior a 400 °C. O calor desse óleo é transferido para a água, vaporizando-a em uma caldeira. O vapor em alta pressão movimenta uma turbina acoplada a um gerador de energia elétrica.\nConsiderando que a distância entre a borda inferior e a borda superior da superfície refletora tenha 6 m de largura e que focaliza no receptor os 800 watts/m2 de radiação provenientes do Sol, e que o calor específico da água é 1 cal g-1 ºC-1 = 4.200 J kg-1 ºC-1, então o comprimento linear do refletor parabólico necessário para elevar a temperatura de 1 m3 (equivalente a 1 t) de água de 20 °C para 100 °C, em uma hora, estará entre",
+      "statement": "O Sol representa uma fonte limpa e inesgotável de energia para o nosso planeta. Essa energia pode ser captada por aquecedores solares, armazenada e convertida posteriormente em trabalho útil. Considere determinada região cuja insolação — potência solar incidente na superfície da Terra — seja de 800 watts/m².\nUma usina termossolar utiliza concentradores solares parabólicos que chegam a dezenas de quilômetros de extensão. Nesses coletores solares parabólicos, a luz refletida pela superfície parabólica espelhada é focalizada em um receptor em forma de cano e aquece o óleo contido em seu interior a 400 °C. O calor desse óleo é transferido para a água, vaporizando-a em uma caldeira. O vapor em alta pressão movimenta uma turbina acoplada a um gerador de energia elétrica.\nConsiderando que a distância entre a borda inferior e a borda superior da superfície refletora tenha 6 m de largura e que focaliza no receptor os 800 watts/m² de radiação provenientes do Sol, e que o calor específico da água é 1 cal g⁻¹ ºC⁻¹ = 4.200 J kg⁻¹ ºC⁻¹, então o comprimento linear do refletor parabólico necessário para elevar a temperatura de 1 m³ (equivalente a 1 t) de água de 20 °C para 100 °C, em uma hora, estará entre",
       "options": [
         {
           "letter": "A",
@@ -1681,36 +1668,36 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O uso de protetores solares em situações de grande exposição aos raios solares como, por exemplo, nas praias, é de grande importância para a saúde. As moléculas ativas de um protetor apresentam, usualmente, anéis aromáticos conjugados com grupos carbonila, pois esses sistemas são capazes de absorver a radiação ultravioleta mais nociva aos seres humanos. A conjugação é definida como a ocorrência de alternância entre ligações simples e duplas em uma molécula. Outra propriedade das moléculas em questão é apresentar, em uma de suas extremidades, uma parte apolar responsável por reduzir a solubilidade do composto em água, o que impede sua rápida remoção quando do contato com a água.\nCN – 1º dia CADERNO 1 – AZ De acordo com as considerações do texto, qual das moléculas apresentadas a seguir é a mais adequada para funcionar como molécula ativa de protetores solares?\nO",
+      "statement": "O uso de protetores solares em situações de grande exposição aos raios solares como, por exemplo, nas praias, é de grande importância para a saúde. As moléculas ativas de um protetor apresentam, usualmente, anéis aromáticos conjugados com grupos carbonila, pois esses sistemas são capazes de absorver a radiação ultravioleta mais nociva aos seres humanos. A conjugação é definida como a ocorrência de alternância entre ligações simples e duplas em uma molécula. Outra propriedade das moléculas em questão é apresentar, em uma de suas extremidades, uma parte apolar responsável por reduzir a solubilidade do composto em água, o que impede sua rápida remoção quando do contato com a água. \nDe acordo com as considerações do texto, qual das moléculas apresentadas a seguir é a mais adequada para funcionar como molécula ativa de protetores solares?",
       "options": [
         {
           "letter": "A",
-          "text": "OH CH O 3 O",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd1_q36-optA.png",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "O",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd1_q36-optB.png",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "CH O 3 O",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd1_q36-optC.png",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "O CH O 3 O",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd1_q36-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "O CH O 3",
-          "image_url": null,
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd1_q36-optE.png",
           "is_correct": true
         }
       ],
@@ -1767,7 +1754,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Durante uma ação de fiscalização em postos de combustíveis, foi encontrado um mecanismo inusitado para enganar o consumidor. Durante o inverno, o responsável por um posto de combustível compra álcool por R$ 0,50/litro, a uma temperatura de 5 °C. Para revender o líquido aos motoristas, instalou um mecanismo na bomba de combustível para aquecê-lo, para que atinja a temperatura de 35 °C, sendo o litro de álcool revendido a R$ 1,60. Diariamente o posto compra 20 mil litros de álcool a 5 ºC e os revende.\nCom relação à situação hipotética descrita no texto e dado que o coeficiente de dilatação volumétrica do álcool é de 1×10-3 ºC-1, desprezando-se o custo da energia gasta no aquecimento do combustível, o ganho financeiro que o dono do posto teria obtido devido ao aquecimento do álcool após uma semana de vendas estaria entre",
+      "statement": "Durante uma ação de fiscalização em postos de combustíveis, foi encontrado um mecanismo inusitado para enganar o consumidor. Durante o inverno, o responsável por um posto de combustível compra álcool por R$ 0,50/litro, a uma temperatura de 5 °C. Para revender o líquido aos motoristas, instalou um mecanismo na bomba de combustível para aquecê-lo, para que atinja a temperatura de 35 °C, sendo o litro de álcool revendido a R$ 1,60. Diariamente o posto compra 20 mil litros de álcool a 5 ºC e os revende.\nCom relação à situação hipotética descrita no texto e dado que o coeficiente de dilatação volumétrica do álcool é de 1×10⁻³ ºC⁻¹, desprezando-se o custo da energia gasta no aquecimento do combustível, o ganho financeiro que o dono do posto teria obtido devido ao aquecimento do álcool após uma semana de vendas estaria entre",
       "options": [
         {
           "letter": "A",
@@ -1912,35 +1899,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma vítima de acidente de carro foi encontrada carbonizada devido a uma explosão. Indícios, como certos adereços de metal usados pela vítima, sugerem que a mesma seja filha de um determinado casal. Uma equipe policial de perícia teve acesso ao material biológico carbonizado da vítima, reduzido, praticamente, a fragmentos de ossos. Sabe-se que é possível obter DNA em condições para análise genética de parte do tecido interno de ossos. Os peritos necessitam escolher, entre cromossomos autossômicos, cromossomos sexuais (X e Y) ou DNAmt (DNA mitocondrial), a melhor opção para identificação do parentesco da vítima com o referido casal.\nSabe-se que, entre outros aspectos, o número de cópias de um mesmo cromossomo por célula maximiza a chance de se obter moléculas não degradadas pelo calor da explosão.\nCom base nessas informações e tendo em vista os diferentes padrões de herança de cada fonte de DNA citada, a melhor opção para a perícia seria a utilização A do DNAmt, transmitido ao longo da linhagem materna, pois, em cada célula humana, há várias cópias dessa molécula.\nB do cromossomo X, pois a vítima herdou duas cópias desse cromossomo, estando assim em número superior aos demais.\nC do cromossomo autossômico, pois esse cromossomo apresenta maior quantidade de material genético quando comparado aos nucleares, como, por exemplo, o DNAmt.\nD do cromossomo Y, pois, em condições normais, este é transmitido integralmente do pai para toda a prole e está presente em duas cópias em células de indivíduos do sexo feminino.\nE de marcadores genéticos em cromossomos autossômicos, pois estes, além de serem transmitidos pelo pai e pela mãe, estão presentes em 44 cópias por célula, e os demais, em apenas uma.\nZUL – PÁGINA 14 ENEM 2009 Questão 42 Questão 44 O cultivo de camarões de água salgada vem se O álcool hidratado utilizado como combustível desenvolvendo muito nos últimos anos na região Nordeste do veicular é obtido por meio da destilação fracionada de Brasil e, em algumas localidades, passou a ser a principal soluções aquosas geradas a partir da fermentação de atividade econômica. Uma das grandes preocupações dos impactos negativos dessa atividade está relacionada à biomassa. Durante a destilação, o teor de etanol da descarga, sem nenhum tipo de tratamento, dos efluentes dos mistura é aumentado, até o limite de 96% em massa. viveiros diretamente no ambiente marinho, em estuários ou em manguezais. Esses efluentes possuem matéria orgânica particulada e dissolvida, amônia, nitrito, nitrato, fosfatos, Considere que, em uma usina de produção de etanol, partículas de sólidos em suspensão e outras substâncias que 800 kg de uma mistura etanol/água com concentração podem ser consideradas contaminantes potenciais. 20% em massa de etanol foram destilados, sendo CASTRO, C. B.; ARAGÃO, J. S.; COSTA-LOTUFO, L. V. Monitoramento da toxicidade de efluentes de uma fazenda de cultivo de camarão marinho. Anais do IX Congresso Brasileiro de Ecotoxicologia, 2006 (adaptado). obtidos 100 kg de álcool hidratado 96% em massa de Suponha que tenha sido construída uma fazenda de etanol. A partir desses dados, é correto concluir que a carcinicultura próximo a um manguezal. Entre as perturbações destilação em questão gerou um resíduo com uma ambientais causadas pela fazenda, espera-se que concentração de etanol em massa A a atividade microbiana se torne responsável pela reciclagem do fósforo orgânico excedente no ambiente A de 0%. marinho. B de 8,0%.\nB a relativa instabilidade das condições marinhas torne as C entre 8,4% e 8,6%. alterações de fatores físico-químicos pouco críticas à vida no mar. D entre 9,0% e 9,2%.\nC a amônia excedente seja convertida em nitrito, por meio do E entre 13% e 14%. processo de nitrificação, e em nitrato, formado como produto intermediário desse processo.\nD os efluentes promovam o crescimento excessivo de plantas Questão 45 aquáticas devido à alta diversidade de espécies vegetais Considere a seguinte situação hipotética: ao permanentes no manguezal. preparar o palco para a apresentação de uma peça de E o impedimento da penetração da luz pelas partículas em suspensão venha a comprometer a produtividade primária teatro, o iluminador deveria colocar três atores sob do ambiente marinho, que resulta da atividade metabólica luzes que tinham igual brilho e os demais, sob luzes do fitoplâncton. de menor brilho. O iluminador determinou, então, aos Questão 43 técnicos, que instalassem no palco oito lâmpadas Nas últimas décadas, o efeito estufa tem-se incandescentes com a mesma especificação (L1 a L8), intensificado de maneira preocupante, sendo esse efeito muitas interligadas em um circuito com uma bateria, conforme vezes atribuído à intensa liberação de CO durante a queima 2 de combustíveis fósseis para geração de energia. O quadro mostra a figura. traz as entalpias-padrão de combustão a 25 ºC (ΔH0 ) do 25 metano, do butano e do octano. fórmula massa molar ΔH0 composto 25 molecular (g/mol) (kJ/mol) metano CH 16 - 890 4 butano C H 58 - 2.878 4 10 octano C H 114 - 5.471 8 18 À medida que aumenta a consciência sobre os impactos ambientais relacionados ao uso da energia, cresce a importância de se criar políticas de incentivo ao uso de Nessa situação, quais são as três lâmpadas que combustíveis mais eficientes. Nesse sentido, considerando-se acendem com o mesmo brilho por apresentarem igual que o metano, o butano e o octano sejam representativos do gás natural, do gás liquefeito de petróleo (GLP) e da gasolina, valor de corrente fluindo nelas, sob as quais devem se respectivamente, então, a partir dos dados fornecidos, é posicionar os três atores? possível concluir que, do ponto de vista da quantidade de calor obtido por mol de CO gerado, a ordem crescente desses três 2 A L1, L2 e L3. combustíveis é B L2, L3 e L4.",
+      "statement": "Uma vítima de acidente de carro foi encontrada carbonizada devido a uma explosão. Indícios, como certos adereços de metal usados pela vítima, sugerem que a mesma seja filha de um determinado casal. Uma equipe policial de perícia teve acesso ao material biológico carbonizado da vítima, reduzido, praticamente, a fragmentos de ossos. Sabe-se que é possível obter DNA em condições para análise genética de parte do tecido interno de ossos. Os peritos necessitam escolher, entre cromossomos autossômicos, cromossomos sexuais (X e Y) ou DNAmt (DNA mitocondrial), a melhor opção para identificação do parentesco da vítima com o referido casal.\nSabe-se que, entre outros aspectos, o número de cópias de um mesmo cromossomo por célula maximiza a chance de se obter moléculas não degradadas pelo calor da explosão.\nCom base nessas informações e tendo em vista os diferentes padrões de herança de cada fonte de DNA citada, a melhor opção para a perícia seria a utilização",
       "options": [
         {
           "letter": "A",
-          "text": "gasolina, GLP e gás natural.",
+          "text": "do DNAmt, transmitido ao longo da linhagem materna, pois, em cada célula humana, há várias cópias dessa molécula.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "gás natural, gasolina e GLP. C L2, L5 e L7.",
+          "text": "do cromossomo X, pois a vítima herdou duas cópias desse cromossomo, estando assim em número superior aos demais.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "gasolina, gás natural e GLP. D L4, L5 e L6.",
+          "text": "do cromossomo autossômico, pois esse cromossomo apresenta maior quantidade de material genético quando comparado aos nucleares, como, por exemplo, o DNAmt.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "gás natural, GLP e gasolina. E L4, L7 e L8.",
+          "text": "do cromossomo Y, pois, em condições normais, este é transmitido integralmente do pai para toda a prole e está presente em duas cópias em células de indivíduos do sexo feminino.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "GLP, gás natural e gasolina.",
+          "text": "de marcadores genéticos em cromossomos autossômicos, pois estes, além de serem transmitidos pelo pai e pela mãe, estão presentes em 44 cópias por célula, e os demais, em apenas uma.",
           "image_url": null,
           "is_correct": false
         }
@@ -1957,7 +1944,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O cultivo de camarões de água salgada vem se desenvolvendo muito nos últimos anos na região Nordeste do Brasil e, em algumas localidades, passou a ser a principal atividade econômica. Uma das grandes preocupações dessa atividade está relacionada à descarga, sem nenhum tipo de tratamento, dos efluentes dos viveiros diretamente no ambiente marinho, em estuários ou em manguezais. Esses efluentes possuem matéria orgânica particulada e dissolvida, amônia, nitrito, nitrato, fosfatos, partículas de sólidos em suspensão e outras substâncias que podem ser consideradas contaminantes potenciais.",
+          "content": "O cultivo de camarões de água salgada vem se desenvolvendo muito nos últimos anos na região Nordeste do Brasil e, em algumas localidades, passou a ser a principal atividade econômica. Uma das grandes preocupações dos impactos negativos dessa atividade está relacionada à descarga, sem nenhum tipo de tratamento, dos efluentes dos viveiros diretamente no ambiente marinho, em estuários ou em manguezais. Esses efluentes possuem matéria orgânica particulada e dissolvida, amônia, nitrito, nitrato, fosfatos, partículas de sólidos em suspensão e outras substâncias que podem ser consideradas contaminantes potenciais.",
           "source": "CASTRO, C. B.; ARAGÃO, J. S.; COSTA-LOTUFO, L. V. Monitoramento da toxicidade de efluentes de uma fazenda de cultivo de camarão marinho. Anais do IX Congresso Brasileiro de Ecotoxicologia, 2006 (adaptado)."
         }
       ],
@@ -2003,16 +1990,11 @@
       "subject": "Ciências da Natureza e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [
-        {
-          "type": "text_block",
-          "title": null,
-          "content": "Nas últimas décadas, o efeito estufa tem-se intensificado de maneira preocupante, sendo esse efeito muitas vezes atribuído à intensa liberação de CO2 durante a queima de combustíveis fósseis para geração de energia. O quadro traz as entalpias-padrão de combustão a 25 °C (ΔH°25) do metano, do butano e do octano.\n\ncomposto | fórmula molecular | massa molar (g/mol) | ΔH°25 (kJ/mol)\nmetano | CH4 | 16 | -890\nbutano | C4H10 | 58 | -2.878\noctano | C8H18 | 114 | -5.471",
-          "source": null
-        }
+      "context_texts": [],
+      "image_url": [
+        "assets/images/enem_2009_cd1_q43-fig1.png"
       ],
-      "image_url": null,
-      "statement": "À medida que aumenta a consciência sobre os impactos ambientais relacionados ao uso da energia, cresce a importância de se criar políticas de incentivo ao uso de combustíveis mais eficientes. Nesse sentido, considerando-se que o metano, o butano e o octano sejam representativos do gás natural, do gás liquefeito de petróleo (GLP) e da gasolina, respectivamente, então, a partir dos dados fornecidos, é possível concluir que, do ponto de vista da quantidade de calor obtido por mol de CO2 gerado, a ordem crescente desses três combustíveis é",
+      "statement": "Nas últimas décadas, o efeito estufa tem-se intensificado de maneira preocupante, sendo esse efeito muitas vezes atribuído à intensa liberação de CO₂ durante a queima de combustíveis fósseis para geração de energia. O quadro traz as entalpias-padrão de combustão a 25 ºC (ΔH0 ) do 25 metano, do butano e do octano.\nÀ medida que aumenta a consciência sobre os impactos ambientais relacionados ao uso da energia, cresce a importância de se criar políticas de incentivo ao uso de combustíveis mais eficientes. Nesse sentido, considerando-se que o metano, o butano e o octano sejam representativos do gás natural, do gás liquefeito de petróleo (GLP) e da gasolina, respectivamente, então, a partir dos dados fornecidos, é possível concluir que, do ponto de vista da quantidade de calor obtido por mol de CO₂ gerado, a ordem crescente desses três combustíveis é",
       "options": [
         {
           "letter": "A",
@@ -2053,16 +2035,9 @@
       "subject": "Ciências da Natureza e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [
-        {
-          "type": "text_block",
-          "title": null,
-          "content": "O álcool hidratado utilizado como combustível veicular é obtido por meio da destilação fracionada de soluções aquosas geradas a partir da fermentação de biomassa. Durante a destilação, o teor de etanol da mistura é aumentado, até o limite de 96% em massa.\n\nConsidere que, em uma usina de produção de etanol, 800 kg de uma mistura etanol/água com concentração 20% em massa de etanol foram destilados, sendo obtidos 100 kg de álcool hidratado 96% em massa de etanol.",
-          "source": null
-        }
-      ],
+      "context_texts": [],
       "image_url": null,
-      "statement": "A partir desses dados, é correto concluir que a destilação em questão gerou um resíduo com uma concentração de etanol em massa",
+      "statement": "O álcool hidratado utilizado como combustível veicular é obtido por meio da destilação fracionada de soluções aquosas geradas a partir da fermentação de biomassa. Durante a destilação, o teor de etanol da mistura é aumentado, até o limite de 96% em massa.\nConsidere que, em uma usina de produção de etanol, 800 kg de uma mistura etanol/água com concentração 20% em massa de etanol foram destilados, sendo obtidos 100 kg de álcool hidratado 96% em massa de etanol. A partir desses dados, é correto concluir que a destilação em questão gerou um resíduo com uma concentração de etanol em massa",
       "options": [
         {
           "letter": "A",
@@ -2103,18 +2078,11 @@
       "subject": "Ciências da Natureza e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [
-        {
-          "type": "text_block",
-          "title": null,
-          "content": "Considere a seguinte situação hipotética: ao preparar o palco para a apresentação de uma peça de teatro, o iluminador deveria colocar três atores sob luzes que tinham igual brilho e os demais, sob luzes de menor brilho. O iluminador determinou, então, aos técnicos, que instalassem no palco oito lâmpadas incandescentes com a mesma especificação (L1 a L8), interligadas em um circuito com uma bateria, conforme mostra a figura.",
-          "source": null
-        }
-      ],
+      "context_texts": [],
       "image_url": [
         "assets/images/enem_2009_cd1_q45.png"
       ],
-      "statement": "Nessa situação, quais são as três lâmpadas que acendem com o mesmo brilho por apresentarem igual valor de corrente fluindo nelas, sob as quais devem se posicionar os três atores?",
+      "statement": "Considere a seguinte situação hipotética: ao preparar o palco para a apresentação de uma peça de teatro, o iluminador deveria colocar três atores sob luzes que tinham igual brilho e os demais, sob luzes de menor brilho. O iluminador determinou, então, aos técnicos, que instalassem no palco oito lâmpadas incandescentes com a mesma especificação (L1 a L8), interligadas em um circuito com uma bateria, conforme mostra a figura.\nNessa situação, quais são as três lâmpadas que acendem com o mesmo brilho por apresentarem igual valor de corrente fluindo nelas, sob as quais devem se posicionar os três atores?",
       "options": [
         {
           "letter": "A",
@@ -2249,9 +2217,7 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": [
-        "assets/images/enem_2009_cd1_q48.png"
-      ],
+      "image_url": null,
       "statement": "Hoje em dia, nas grandes cidades, enterrar os mortos é uma prática quase íntima, que diz respeito apenas à família. A menos, é claro, que se trate de uma personalidade conhecida. Entretanto, isso nem sempre foi assim. Para um historiador, os sepultamentos são uma fonte de informações importantes para que se compreenda, por exemplo, a vida política das sociedades.\nNo que se refere às práticas sociais ligadas aos sepultamentos,",
       "options": [
         {
@@ -3075,7 +3041,7 @@
         },
         {
           "letter": "D",
-          "text": "do repúdio que os escravos trabalhadores dos portos demonstravam contra os marinheiros, porque estes",
+          "text": "do repúdio que os escravos trabalhadores dos portos demonstravam contra os marinheiros, porque estes representavam a elite branca opressora.",
           "image_url": null,
           "is_correct": false
         },
@@ -3643,7 +3609,7 @@
       "image_url": [
         "assets/images/enem_2009_cd1_q77.png"
       ],
-      "statement": "CH – 1º dia CADERNO 1 – AZ Com base nas informações do mapa acerca dos conflitos pela posse de terra no Brasil, a região",
+      "statement": "Com base nas informações do mapa acerca dos conflitos pela posse de terra no Brasil, a região",
       "options": [
         {
           "letter": "A",
@@ -3934,12 +3900,11 @@
           "type": "text_block",
           "title": null,
           "content": "No mundo contemporâneo, as reservas energéticas tornam-se estratégicas para muitos países no cenário internacional. Os gráficos apresentados mostram os dez países com as maiores reservas de petróleo e gás natural em reservas comprovadas até janeiro de 2008.",
-          "source": "Posição País 1 Rússia 2 Irã 3 Catar 4 Arábia Saudita 5 Emirados Árabes Unidos 6 Estados Unidos 7 Nigéria 8 Argélia 9 Venezuela 10 Iraque Posição País 1 Arábia Saudita 2 Canadá 3 Irã 4 Iraque 5 Kuwait 6 Emirados Árabes Unidos 7 Venezuela 8 Rússia 9 Líbia 10 Nigéria Disponível em: http://indexmundi.com. Acesso em: 12 ago. 2009 (adaptado)."
+          "source": "Disponível em: http://indexmundi.com. Acesso em: 12 ago. 2009 (adaptado)."
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd1_q83-1.png",
-        "assets/images/enem_2009_cd1_q83-2.png"
+        "assets/images/enem_2009_cd1_q83-fig1.png"
       ],
       "statement": "As reservas venezuelanas figuram em ambas as classificações porque",
       "options": [
@@ -3983,9 +3948,42 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": null,
-      "options": [],
+      "image_url": [
+        "assets/images/enem_2009_cd1_q84-fig1.png"
+      ],
+      "statement": "As terras brasileiras foram divididas por meio de tratados entre Portugal e Espanha. De acordo com esses tratados, identificados no mapa, conclui-se que",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Portugal, pelo Tratado de Tordesilhas, detinha o controle da foz do rio Amazonas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "o Tratado de Tordesilhas utilizava os rios como limite físico da América portuguesa.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "o Tratado de Madri reconheceu a expansão portuguesa além da linha de Tordesilhas.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "Portugal, pelo Tratado de San Ildefonso, perdia territórios na América em relação ao de Tordesilhas.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "o Tratado de Madri criou a divisão administrativa da América Portuguesa em Vice-Reinos Oriental e Ocidental.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "C"
     },
     {
@@ -3995,43 +3993,37 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": [
-        "assets/images/enem_2009_cd1_q85-1.png",
-        "assets/images/enem_2009_cd1_q85-2.png",
-        "assets/images/enem_2009_cd1_q85-3.png",
-        "assets/images/enem_2009_cd1_q85-4.png",
-        "assets/images/enem_2009_cd1_q85-5.png"
-      ],
+      "image_url": null,
       "statement": "O clima é um dos elementos fundamentais não só na caracterização das paisagens naturais, mas também no histórico de ocupação do espaço geográfico.\nTendo em vista determinada restrição climática, a figura que representa o uso de tecnologia voltada para a produção é:",
       "options": [
         {
           "letter": "A",
           "text": "Exploração vinícola no Chile",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q85-optA.png",
           "is_correct": false
         },
         {
           "letter": "B",
           "text": "Pequena agricultura praticada em região andina",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q85-optB.png",
           "is_correct": false
         },
         {
           "letter": "C",
           "text": "Parque de engorda de bovinos nos EUA",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q85-optC.png",
           "is_correct": false
         },
         {
           "letter": "D",
           "text": "Zonas irrigadas por aspersão na Arábia Saudita",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q85-optD.png",
           "is_correct": true
         },
         {
           "letter": "E",
           "text": "Parque eólico na Califórnia",
-          "image_url": null,
+          "image_url": "assets/images/enem_2009_cd1_q85-optE.png",
           "is_correct": false
         }
       ],
@@ -4043,14 +4035,19 @@
       "subject": "Ciências Humanas e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
-      "image_url": [
-        "assets/images/enem_2009_cd1_q86-1.png",
-        "assets/images/enem_2009_cd1_q86-2.png",
-        "assets/images/enem_2009_cd1_q86-3.png",
-        "assets/images/enem_2009_cd1_q86-4.png"
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "",
+          "source": "Disponível em: http://clickdigitalsj.com.br. Acesso em: 9 jul. 2009.\nDisponível em: http://conexaoambiental.zip.net/images/charge.jpg. Acesso em: 9 jul. 2009."
+        }
       ],
-      "statement": "Disponível em: http://clickdigitalsj.com.br. Acesso em: 9 jul. 2009. ; Disponível em: http://conexaoambiental.zip.net/images/ charge.jpg. Acesso em: 9 jul. 2009. Reunindo-se as informações contidas nas duas charges, infere-se que",
+      "image_url": [
+        "assets/images/enem_2009_cd1_q86-fig1.png",
+        "assets/images/enem_2009_cd1_q86-fig2.png"
+      ],
+      "statement": "Reunindo-se as informações contidas nas duas charges, infere-se que",
       "options": [
         {
           "letter": "A",
@@ -4091,12 +4088,18 @@
       "subject": "Ciências Humanas e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
-      "image_url": [
-        "assets/images/enem_2009_cd1_q87-1.png",
-        "assets/images/enem_2009_cd1_q87-2.png"
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Na figura, observa-se uma classificação de regiões da América do Sul segundo o grau de aridez verificado.",
+          "source": "Disponível em: http://www.mutirao.com.br. Acesso em: 5 ago. 2009."
+        }
       ],
-      "statement": "Na figura, observa-se uma classificação de regiões da América do Sul segundo o grau de aridez verificado. semiárido Disponível em: http:// www.mutirao.com.br. Acesso em: 5 ago. 2009. Em relação às regiões marcadas na figura, observa-se que",
+      "image_url": [
+        "assets/images/enem_2009_cd1_q87-fig1.png"
+      ],
+      "statement": "Em relação às regiões marcadas na figura, observa-se que",
       "options": [
         {
           "letter": "A",
@@ -4238,9 +4241,7 @@
           "source": "SBPC. Vol. 42, jun. 2008 (adaptado)."
         }
       ],
-      "image_url": [
-        "assets/images/enem_2009_cd1_q90.png"
-      ],
+      "image_url": null,
       "statement": "A medida mais eficaz a ser tomada, visando à conservação da planície pantaneira e à preservação de sua grande biodiversidade, é a conscientização da sociedade e a organização de movimentos sociais que exijam",
       "options": [
         {

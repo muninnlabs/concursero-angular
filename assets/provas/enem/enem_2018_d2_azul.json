@@ -71,7 +71,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q92-fig1.png"
       ],
-      "statement": "O carro flex é uma realidade no Brasil. Estes veículos estão equipados com motor que tem a capacidade de funcionar com mais de um tipo de combustível. No entanto, as pessoas que têm esse tipo de veículo, na hora do abastecimento, têm sempre a dúvida: álcool ou gasolina? Para avaliar o consumo desses combustíveis, realizou-se um percurso com um veículo flex, consumindo 40 litros de gasolina e no percurso de volta utilizou-se etanol.\nFoi considerado o mesmo consumo de energia tanto no percurso de ida quanto no de volta.\nO quadro resume alguns dados aproximados sobre esses combustíveis.\nCombustível Densidade (g mL−1) Calor de combustão (kcal g−1)\nEtanol 0,8 −6 Gasolina 0,7 −10 O volume de etanol combustível, em litro, consumido no percurso de volta é mais próximo de",
+      "statement": "O carro flex é uma realidade no Brasil. Estes veículos estão equipados com motor que tem a capacidade de funcionar com mais de um tipo de combustível. No entanto, as pessoas que têm esse tipo de veículo, na hora do abastecimento, têm sempre a dúvida: álcool ou gasolina? Para avaliar o consumo desses combustíveis, realizou-se um percurso com um veículo flex, consumindo 40 litros de gasolina e no percurso de volta utilizou-se etanol.\nFoi considerado o mesmo consumo de energia tanto no percurso de ida quanto no de volta.\nO quadro resume alguns dados aproximados sobre esses combustíveis.\nCombustível Densidade (g mL⁻¹) Calor de combustão (kcal g⁻¹)\nEtanol 0,8 −6 Gasolina 0,7 −10 O volume de etanol combustível, em litro, consumido no percurso de volta é mais próximo de",
       "options": [
         {
           "letter": "A",
@@ -116,8 +116,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Em 1938 o arqueólogo alemão Wilhelm König, diretor do Museu Nacional do Iraque, encontrou um objeto estranho na coleção da instituição, que poderia ter sido usado como uma pilha, similar às utilizadas em nossos dias. A suposta pilha, datada de cerca de 200 a.C., é constituída de um pequeno vaso de barro (argila) no qual foram instalados um tubo de cobre, uma barra de ferro (aparentemente corroída por ácido) e uma tampa de betume (asfalto), conforme ilustrado. Considere os potenciais-padrão de redução: E (Fe2+|Fe) = −0,44 V;",
-          "source": "E (H+|H ) = 0,00 V; e E (Cu2+|Cu) = +0,34 V. 2 Tampa de betume Barra de ferro Tubo de cobre Vestígio de ácido Vaso de barro As pilhas de Bagdá e a acupuntura. Disponível em: http://jornalggn.com.br. Acesso em: 14 dez. 2014 (adaptado)."
+          "content": "Em 1938 o arqueólogo alemão Wilhelm König, diretor do Museu Nacional do Iraque, encontrou um objeto estranho na coleção da instituição, que poderia ter sido usado como uma pilha, similar às utilizadas em nossos dias. A suposta pilha, datada de cerca de 200 a.C., é constituída de um pequeno vaso de barro (argila) no qual foram instalados um tubo de cobre, uma barra de ferro (aparentemente corroída por ácido) e uma tampa de betume (asfalto), conforme ilustrado. Considere os potenciais-padrão de redução: E (Fe²⁺|Fe) = −0,44 V;",
+          "source": "E (H⁺|H₂) = 0,00 V; e E (Cu²⁺|Cu) = +0,34 V. Tampa de betume Barra de ferro Tubo de cobre Vestígio de ácido Vaso de barro As pilhas de Bagdá e a acupuntura. Disponível em: http://jornalggn.com.br. Acesso em: 14 dez. 2014 (adaptado)."
         }
       ],
       "image_url": [
@@ -416,31 +416,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "eteno (C H ). 2 4",
+          "text": "eteno (C₂H₄).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "nitrogênio (N ). 2",
+          "text": "nitrogênio (N₂).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "amônia (NH ). 3",
+          "text": "amônia (NH₃).",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "propano (C H ). 3 8",
+          "text": "propano (C₃H₈).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "dióxido de carbono (CO ). 2",
+          "text": "dióxido de carbono (CO₂).",
           "image_url": null,
           "is_correct": false
         }
@@ -905,7 +905,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q109-fig1.png"
       ],
-      "statement": "A hidroxilamina (NH OH) é extremamente reativa 2 em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada.\nO O NH + 2 O O OH O Produto A + NHOH O 2 O O Anidrido acético + OH OH N H Produto B O produto A é favorecido em relação ao B, por um fator de 105. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as móleculas numeradas de 1 a 5.\nHO HO N O N O N HO N NH H 2 H 1 2 3 4 5 Dentre as moléculas testadas, qual delas apresentou menor reatividade?",
+      "statement": "A hidroxilamina (NH₂OH) é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada.\nO O NH + 2 O O OH O Produto A + NHOH O 2 O O Anidrido acético + OH OH N H Produto B O produto A é favorecido em relação ao B, por um fator de 10⁵. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as móleculas numeradas de 1 a 5.\nHO HO N O N O N HO N NH H 2 H 1 2 3 4 5 Dentre as moléculas testadas, qual delas apresentou menor reatividade?",
       "options": [
         {
           "letter": "A",
@@ -1036,7 +1036,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q112-fig1.png"
       ],
-      "statement": "Muitos smartphones e tablets não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque.\nA imagem é uma simplificação do circuito formado pelas placas, em que A e B representam pontos onde o circuito pode ser fechado por meio do toque. Ωk 4 A Ωk 4 Ωk 4 Ωk 4 + ε -B Qual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto A?",
+      "statement": "Muitos smartphones e tablets não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque.\nA imagem é uma simplificação do circuito formado pelas placas, em que A e B representam pontos onde o circuito pode ser fechado por meio do toque. Ωk 4 A Ωk 4 Ωk 4 Ωk 4 ε⁺ -B Qual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto A?",
       "options": [
         {
           "letter": "A",
@@ -1131,7 +1131,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.\nCH O (s) + 6 O (g) → 6 CO (g) + 6 HO (l) ∆H = −2 800 kJ 6 12 6 2 2 2 c Considere as massas molares (em g mol−1): H = 1;\nC = 12; O = 16.",
+          "content": "Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.\nCH O (s) + 6 O (g) → 6 CO (g) + 6 HO (l) ∆H = −2 800 kJ 6 12 6 2 2 2 c Considere as massas molares (em g mol⁻¹): H = 1;\nC = 12; O = 16.",
           "source": "LIMA, L. M.; FRAGA, C. A. M.; BARREIRO, E. J. Química na saúde. São Paulo: Sociedade Brasileira de Química, 2010 (adaptado)."
         }
       ],
@@ -1226,8 +1226,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Células solares à base de TiO sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de 2 silício. Nessas células, o corante adsorvido sobre o TiO é responsável por absorver a energia luminosa (hν), e o corante 2 excitado (S*) é capaz de transferir elétrons para o TiO . Um esquema dessa célula e os processos envolvidos estão 2 ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.\nEletrodo de TiO 2 com corante Corante Eletrodo de Pt e− S* TiO |S + hν → TiO |S* (1) 2 2 hv Mediador de carga I− TiO 2 |S* → TiO 2 |S+ + e− (2) 3 TiO |S+ + 3 I− → TiO |S + 1 I − (3)",
-          "source": "I− 2 2 2 2 3 e− S/S+ e− 1 I − + e− → 3 I− (4) 2 3 2 e− e− LONGO, C.; DE PAOLI, M.-A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado)."
+          "content": "Células solares à base de TiO₂ sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO₂ é responsável por absorver a energia luminosa (hν), e o corante excitado (S*) é capaz de transferir elétrons para o TiO₂. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.\nEletrodo de TiO₂ com corante Corante Eletrodo de Pt e− S* TiO₂ |S + hν → TiO₂ |S* (1) hv Mediador de carga I− TiO₂ |S* → TiO₂ |S⁺ + e⁻ (2) 3 TiO |S+ + 3 I− → TiO |S + 1 I − (3)",
+          "source": "I− 2 2 2 2 3 e− S/S⁺ e− 1 I − + e− → 3 I− (4) 2 3 2 e⁻ e⁻ LONGO, C.; DE PAOLI, M.-A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado)."
         }
       ],
       "image_url": [
@@ -1237,7 +1237,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "reduz íons I− a I −. 3",
+          "text": "reduz íons I⁻ a I₃⁻.",
           "image_url": null,
           "is_correct": false
         },
@@ -1261,7 +1261,7 @@
         },
         {
           "letter": "E",
-          "text": "transfere elétrons para o eletrodo de TiO . 2",
+          "text": "transfere elétrons para o eletrodo de TiO₂.",
           "image_url": null,
           "is_correct": false
         }
@@ -1323,7 +1323,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q118-fig1.png"
       ],
-      "statement": "Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial de ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observa-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (R) 0 corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de T a T (temperaturas crescentes). 1 4 o ã ç a g Distância interatômica e li 0 R 0 d a gi r T e 4 n T E 3 T 2 T 1 T = 0 K O deslocamento observado na distância média revela o fenômeno da",
+      "statement": "Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial de ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observa-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (R₀) corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de T₁ a T₄ (temperaturas crescentes). o ã ç a g Distância interatômica e li 0 R 0 d a gi r T e 4 n T E 3 T 2 T 1 T = 0 K O deslocamento observado na distância média revela o fenômeno da",
       "options": [
         {
           "letter": "A",
@@ -1457,7 +1457,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O manejo adequado do solo possibilita a manutenção de sua fertilidade à medida que as trocas de nutrientes entre matéria orgânica, água, solo e o ar são mantidas para garantir a produção. Algumas espécies iônicas de alumínio são tóxicas, não só para a planta, mas para muitos organismos como as bactérias responsáveis pelas transformações no ciclo do nitrogênio. O alumínio danifica as membranas das células das raízes e restringe a expansão de suas paredes, com isso, a planta não cresce adequadamente. Para promover benefícios para a produção agrícola, é recomendada a remediação do solo utilizando calcário (CaCO ). 3 BRADY, N. C.; WEIL, R. R. Elementos da natureza e propriedades dos solos.",
+          "content": "O manejo adequado do solo possibilita a manutenção de sua fertilidade à medida que as trocas de nutrientes entre matéria orgânica, água, solo e o ar são mantidas para garantir a produção. Algumas espécies iônicas de alumínio são tóxicas, não só para a planta, mas para muitos organismos como as bactérias responsáveis pelas transformações no ciclo do nitrogênio. O alumínio danifica as membranas das células das raízes e restringe a expansão de suas paredes, com isso, a planta não cresce adequadamente. Para promover benefícios para a produção agrícola, é recomendada a remediação do solo utilizando calcário (CaCO₃). BRADY, N. C.; WEIL, R. R. Elementos da natureza e propriedades dos solos.",
           "source": "Porto Alegre: Bookman, 2013 (adaptado)."
         }
       ],
@@ -1924,25 +1924,25 @@
         },
         {
           "letter": "B",
-          "text": "sp2 de geometria trigonal planar.",
+          "text": "sp² de geometria trigonal planar.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "sp3 alternados com carbonos com hibridação sp de geometria linear.",
+          "text": "sp³ alternados com carbonos com hibridação sp de geometria linear.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "sp3d de geometria planar.",
+          "text": "sp³d de geometria planar.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "sp3d2 com geometria hexagonal planar.",
+          "text": "sp³d² com geometria hexagonal planar.",
           "image_url": null,
           "is_correct": false
         }
@@ -2140,7 +2140,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH ). Em seu discurso 3 de premiação, Haber justificou a importância do feito dizendo que:\n“Desde a metade do século passado, tornou-se conhecido que um suprimento de nitrogênio é uma necessidade básica para o aumento das safras de alimentos; entretanto, também se sabia que as plantas não podem absorver o nitrogênio em sua forma simples, que é o principal constituinte da atmosfera. Elas precisam que o nitrogênio seja combinado [...] para poderem assimilá-lo.\nEconomias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, os produtos do solo são levados de onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne à terra da qual foi retirado.\nIsso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado. [...] A demanda por nitrogênio, tal como a do carvão, indica quão diferente nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam.\nDesde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com a extensão calculada desses depósitos, ficou claro que em meados do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.”",
+          "content": "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH₃). Em seu discurso de premiação, Haber justificou a importância do feito dizendo que:\n“Desde a metade do século passado, tornou-se conhecido que um suprimento de nitrogênio é uma necessidade básica para o aumento das safras de alimentos; entretanto, também se sabia que as plantas não podem absorver o nitrogênio em sua forma simples, que é o principal constituinte da atmosfera. Elas precisam que o nitrogênio seja combinado [...] para poderem assimilá-lo.\nEconomias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, os produtos do solo são levados de onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne à terra da qual foi retirado.\nIsso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado. [...] A demanda por nitrogênio, tal como a do carvão, indica quão diferente nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam.\nDesde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com a extensão calculada desses depósitos, ficou claro que em meados do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.”",
           "source": "HABER, F. The Synthesis of Ammonia from its Elements. Disponível em: www.nobelprize.org. Acesso em: 13 jul. 2013 (adaptado)."
         }
       ],
@@ -2231,23 +2231,23 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um contrato de empréstimo prevê que quando uma parcela é paga de forma antecipada, conceder-se-á uma redução de juros de acordo com o período de antecipação.\nNesse caso, paga-se o valor presente, que é o valor, naquele momento, de uma quantia que deveria ser paga em uma data futura. Um valor presente P submetido a juros compostos com taxa i, por um período de tempo n, produz um valor futuro V determinado pela fórmula V =P⋅ 1+i n Em um contrato de empréstimo com sessenta parcelas fixas mensais, de R$ 820,00, a uma taxa de juros de 1,32% ao mês, junto com a trigésima parcela será paga antecipadamente uma outra parcela, desde que o desconto seja superior a 25% do valor da parcela. 4 Utilize 0,2877 como aproximação para In e 3 0,0131 como aproximação para In (1,0132).\nA primeira das parcelas que poderá ser antecipada junto com a 30a é a",
+      "statement": "Um contrato de empréstimo prevê que quando uma parcela é paga de forma antecipada, conceder-se-á uma redução de juros de acordo com o período de antecipação.\nNesse caso, paga-se o valor presente, que é o valor, naquele momento, de uma quantia que deveria ser paga em uma data futura. Um valor presente P submetido a juros compostos com taxa i, por um período de tempo n, produz um valor futuro V determinado pela fórmula V =P⋅ 1+i n Em um contrato de empréstimo com sessenta parcelas fixas mensais, de R$ 820,00, a uma taxa de juros de 1,32% ao mês, junto com a trigésima parcela será paga antecipadamente uma outra parcela, desde que o desconto seja superior a 25% do valor da parcela. 4 Utilize 0,2877 como aproximação para In e 3 0,0131 como aproximação para In (1,0132).\nA primeira das parcelas que poderá ser antecipada junto com a 30ª é a",
       "options": [
         {
           "letter": "A",
-          "text": "56a",
+          "text": "56ª",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "55a",
+          "text": "55ª",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "52a",
+          "text": "52ª",
           "image_url": null,
           "is_correct": true
         },
@@ -2292,19 +2292,19 @@
         },
         {
           "letter": "C",
-          "text": "x2 + y2 = 16",
+          "text": "x² + y² = 16",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "x2 + (y − 2)2 = 4",
+          "text": "x² + (y − 2)² = 4",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "(x − 2)2 + (y − 2)2 = 8",
+          "text": "(x − 2)² + (y − 2)² = 8",
           "image_url": null,
           "is_correct": true
         }
@@ -2649,35 +2649,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Numa atividade de treinamento realizada no Exército de um determinado país, três equipes – Alpha, Beta e Gama – foram designadas a percorrer diferentes caminhos, todos com os mesmos pontos de partida e de chegada. • A equipe Alpha realizou seu percurso em 90 minutos com uma velocidade média de 6,0 km/h. • A equipe Beta também percorreu sua trajetória em 90 minutos, mas sua velocidade média foi de 5,0 km/h. • Com uma velocidade média de 6,5 km/h, a equipe Gama concluiu seu caminho em 60 minutos.\nCom base nesses dados, foram comparadas as distâncias d ; d e d percorridas pelas três equipes.\nBeta Alpha Gama A ordem das distâncias percorridas pelas equipes Alpha, Beta e Gama é",
+      "statement": "Numa atividade de treinamento realizada no Exército de um determinado país, três equipes – Alpha, Beta e Gama – foram designadas a percorrer diferentes caminhos, todos com os mesmos pontos de partida e de chegada. • A equipe Alpha realizou seu percurso em 90 minutos com uma velocidade média de 6,0 km/h. • A equipe Beta também percorreu sua trajetória em 90 minutos, mas sua velocidade média foi de 5,0 km/h. • Com uma velocidade média de 6,5 km/h, a equipe Gama concluiu seu caminho em 60 minutos.\nCom base nesses dados, foram comparadas as distâncias d_Beta; d_Alpha e d_Gama percorridas pelas três equipes.\nA ordem das distâncias percorridas pelas equipes Alpha, Beta e Gama é",
       "options": [
         {
           "letter": "A",
-          "text": "d <d <d Gama Beta Alpha",
+          "text": "d_Gama < d_Beta < d_Alpha",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "d =d <d Alpha Beta Gama",
+          "text": "d_Alpha = d_Beta < d_Gama",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "d <d =d Gama Beta Alpha",
+          "text": "d_Gama < d_Beta = d_Alpha",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "d <d <d Beta Alpha Gama",
+          "text": "d_Beta < d_Alpha < d_Gama",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "d <d <d Gama Alpha Beta",
+          "text": "d_Gama < d_Alpha < d_Beta",
           "image_url": null,
           "is_correct": false
         }
@@ -2744,35 +2744,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma empresa deseja iniciar uma campanha publicitária divulgando uma promoção para seus possíveis consumidores. Para esse tipo de campanha, os meios mais viáveis são a distribuição de panfletos na rua e anúncios na rádio local. Considera-se que a população alcançada pela distribuição de panfletos seja igual à quantidade de panfletos distribuídos, enquanto que a alcançada por um anúncio na rádio seja igual à quantidade de ouvintes desse anúncio. O custo de cada anúncio na rádio é de R$ 120,00, e a estimativa é de que seja ouvido por 1 500 pessoas. Já a produção e a distribuição dos panfletos custam R$ 180,00 cada 1 000 unidades. Considerando que cada pessoa será alcançada por um único desses meios de divulgação, a empresa pretende investir em ambas as mídias.\nConsidere X e Y os valores (em real) gastos em anúncios na rádio e com panfletos, respectivamente.\nO número de pessoas alcançadas pela campanha será dado pela expressão 50X 50Y",
+      "statement": "Uma empresa deseja iniciar uma campanha publicitária divulgando uma promoção para seus possíveis consumidores. Para esse tipo de campanha, os meios mais viáveis são a distribuição de panfletos na rua e anúncios na rádio local. Considera-se que a população alcançada pela distribuição de panfletos seja igual à quantidade de panfletos distribuídos, enquanto que a alcançada por um anúncio na rádio seja igual à quantidade de ouvintes desse anúncio. O custo de cada anúncio na rádio é de R$ 120,00, e a estimativa é de que seja ouvido por 1 500 pessoas. Já a produção e a distribuição dos panfletos custam R$ 180,00 cada 1 000 unidades. Considerando que cada pessoa será alcançada por um único desses meios de divulgação, a empresa pretende investir em ambas as mídias.\nConsidere X e Y os valores (em real) gastos em anúncios na rádio e com panfletos, respectivamente.\nO número de pessoas alcançadas pela campanha será dado pela expressão",
       "options": [
         {
           "letter": "A",
-          "text": "+ 4 9 50X 50Y",
+          "text": "50X/4 + 50Y/9",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "+ 9 4 4X 4Y",
+          "text": "50X/9 + 50Y/4",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "+ 50 50 50 50",
+          "text": "4X/50 + 4Y/50",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "+ 4X 9Y 50 50Y",
+          "text": "50/(4X) + 50/(9Y)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "+ 9X 4Y",
+          "text": "50/(9X) + 50Y/(4Y)",
           "image_url": null,
           "is_correct": false
         }
@@ -3118,35 +3118,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um rapaz estuda em uma escola que fica longe de sua casa, e por isso precisa utilizar o transporte público.\nComo é muito observador, todos os dias ele anota a hora exata (sem considerar os segundos) em que o ônibus passa pelo ponto de espera. Também notou que nunca consegue chegar ao ponto de ônibus antes de 6 h 15 min da manhã. Analisando os dados coletados durante o mês de fevereiro, o qual teve 21 dias letivos, ele concluiu que 6 h 21 min foi o que mais se repetiu, e que a mediana do conjunto de dados é 6 h 22 min.\nA probabilidade de que, em algum dos dias letivos de fevereiro, esse rapaz tenha apanhado o ônibus antes de 6 h 21 min da manhã é, no máximo, 4",
+      "statement": "Um rapaz estuda em uma escola que fica longe de sua casa, e por isso precisa utilizar o transporte público.\nComo é muito observador, todos os dias ele anota a hora exata (sem considerar os segundos) em que o ônibus passa pelo ponto de espera. Também notou que nunca consegue chegar ao ponto de ônibus antes de 6 h 15 min da manhã. Analisando os dados coletados durante o mês de fevereiro, o qual teve 21 dias letivos, ele concluiu que 6 h 21 min foi o que mais se repetiu, e que a mediana do conjunto de dados é 6 h 22 min.\nA probabilidade de que, em algum dos dias letivos de fevereiro, esse rapaz tenha apanhado o ônibus antes de 6 h 21 min da manhã é, no máximo,",
       "options": [
         {
           "letter": "A",
-          "text": "21 5",
+          "text": "4/21",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "21 6",
+          "text": "5/21",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "21 7",
+          "text": "6/21",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "21 8",
+          "text": "7/21",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "21",
+          "text": "8/21",
           "image_url": null,
           "is_correct": false
         }
@@ -3409,7 +3409,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Torneios de tênis, em geral, são disputados em sistema de eliminatória simples. Nesse sistema, são disputadas partidas entre dois competidores, com a eliminação do perdedor e promoção do vencedor para a fase seguinte. Dessa forma, se na 1a fase o torneio conta com 2n competidores, então na 2a fase restarão n competidores, e assim sucessivamente até a partida final.\nEm um torneio de tênis, disputado nesse sistema, participam 128 tenistas.\nPara se definir o campeão desse torneio, o número de partidas necessárias é dado por",
+      "statement": "Torneios de tênis, em geral, são disputados em sistema de eliminatória simples. Nesse sistema, são disputadas partidas entre dois competidores, com a eliminação do perdedor e promoção do vencedor para a fase seguinte. Dessa forma, se na 1ª fase o torneio conta com 2n competidores, então na 2ª fase restarão n competidores, e assim sucessivamente até a partida final.\nEm um torneio de tênis, disputado nesse sistema, participam 128 tenistas.\nPara se definir o campeão desse torneio, o número de partidas necessárias é dado por",
       "options": [
         {
           "letter": "A",
@@ -3499,31 +3499,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "16o",
+          "text": "16º",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "22o",
+          "text": "22º",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "23o",
+          "text": "23º",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "25o",
+          "text": "25º",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "32o",
+          "text": "32º",
           "image_url": null,
           "is_correct": false
         }
@@ -3545,35 +3545,35 @@
         }
       ],
       "image_url": null,
-      "statement": "Uma montadora pretende participar desse evento com dois estandes, um na entrada e outro na região central do salão, expondo, em cada um deles, um carro compacto e uma caminhonete.\nPara compor os estandes, foram disponibilizados pela montadora quatro carros compactos, de modelos distintos, e seis caminhonetes de diferentes cores para serem escolhidos aqueles que serão expostos. A posição dos carros dentro de cada estande é irrelevante.\nUma expressão que fornece a quantidade de maneiras diferentes que os estandes podem ser compostos é 4",
+      "statement": "Uma montadora pretende participar desse evento com dois estandes, um na entrada e outro na região central do salão, expondo, em cada um deles, um carro compacto e uma caminhonete.\nPara compor os estandes, foram disponibilizados pela montadora quatro carros compactos, de modelos distintos, e seis caminhonetes de diferentes cores para serem escolhidos aqueles que serão expostos. A posição dos carros dentro de cada estande é irrelevante.\nUma expressão que fornece a quantidade de maneiras diferentes que os estandes podem ser compostos é",
       "options": [
         {
           "letter": "A",
-          "text": "A 10 4",
+          "text": "A₁₀⁴",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "C 10",
+          "text": "C₁₀⁴",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "C 2 C 2 2×2 4 6",
+          "text": "C₄² × C₆² × 2 × 2",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "A 2 A 2 2×2 4 6",
+          "text": "A₄² × A₆² × 2 × 2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "C 2×C 2 4",
+          "text": "C₄² × C₆²",
           "image_url": null,
           "is_correct": false
         }
@@ -3815,7 +3815,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q171.png"
       ],
-      "statement": "A rosa dos ventos é uma figura que representa oito sentidos, que dividem o círculo em partes iguais.\nUma câmera de vigilância está fixada no teto de um shopping e sua lente pode ser direcionada remotamente, através de um controlador, para qualquer sentido. A lente da câmera está apontada inicialmente no sentido Oeste e o seu controlador efetua três mudanças consecutivas, a saber: • 1a mudança: 135º no sentido anti-horário; • 2a mudança: 60º no sentido horário; • 3a mudança: 45º no sentido anti-horário.\nApós a 3a mudança, ele é orientado a reposicionar a câmera, com a menor amplitude possível, no sentido Noroeste (NO) devido a um movimento suspeito de um cliente.\nQual mudança de sentido o controlador deve efetuar para reposicionar a câmera?",
+      "statement": "A rosa dos ventos é uma figura que representa oito sentidos, que dividem o círculo em partes iguais.\nUma câmera de vigilância está fixada no teto de um shopping e sua lente pode ser direcionada remotamente, através de um controlador, para qualquer sentido. A lente da câmera está apontada inicialmente no sentido Oeste e o seu controlador efetua três mudanças consecutivas, a saber: • 1ª mudança: 135º no sentido anti-horário; • 2ª mudança: 60º no sentido horário; • 3ª mudança: 45º no sentido anti-horário.\nApós a 3ª mudança, ele é orientado a reposicionar a câmera, com a menor amplitude possível, no sentido Noroeste (NO) devido a um movimento suspeito de um cliente.\nQual mudança de sentido o controlador deve efetuar para reposicionar a câmera?",
       "options": [
         {
           "letter": "A",
@@ -3861,7 +3861,7 @@
         "assets/images/enem_2018_cd7_q172-fig1.png",
         "assets/images/enem_2018_cd7_q172-fig2.png"
       ],
-      "statement": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes.\nEm uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking.\nRanking Colocação I II III IV 1o Ana Dani Bia Edu 2o Bia Caio Ana Ana 3o Caio Edu Caio Dani 4o Dani Ana Edu Bia 5o Edu Bia Dani Caio Ranking Frequência I 4 II 9 III 7 IV 5 A poesia vencedora foi a de",
+      "statement": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes.\nEm uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking.\nRanking Colocação I II III IV 1º Ana Dani Bia Edu 2º Bia Caio Ana Ana 3º Caio Edu Caio Dani 4º Dani Ana Edu Bia 5º Edu Bia Dani Caio Ranking Frequência I 4 II 9 III 7 IV 5 A poesia vencedora foi a de",
       "options": [
         {
           "letter": "A",
@@ -3964,12 +3964,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Com o avanço em ciência da computação, estamos próximos do momento em que o número de transistores no processador de um computador pessoal será da mesma ordem de grandeza que o número de neurônios em um cérebro humano, que é da ordem de 100 bilhões.\nUma das grandezas determinantes para o desempenho de um processador é a densidade de transistores, que é o número de transistores por centímetro quadrado.\nEm 1986, uma empresa fabricava um processador contendo 100000 transistores distribuídos em 0,25 cm2 de área. Desde então, o número de transistores por centímetro quadrado que se pode colocar em um processador dobra a cada dois anos (Lei de Moore).",
+          "content": "Com o avanço em ciência da computação, estamos próximos do momento em que o número de transistores no processador de um computador pessoal será da mesma ordem de grandeza que o número de neurônios em um cérebro humano, que é da ordem de 100 bilhões.\nUma das grandezas determinantes para o desempenho de um processador é a densidade de transistores, que é o número de transistores por centímetro quadrado.\nEm 1986, uma empresa fabricava um processador contendo 100000 transistores distribuídos em 0,25 cm² de área. Desde então, o número de transistores por centímetro quadrado que se pode colocar em um processador dobra a cada dois anos (Lei de Moore).",
           "source": "Disponível em: www.pocket-lint.com. Acesso em: 1 dez. 2017 (adaptado)."
         }
       ],
       "image_url": null,
-      "statement": "Considere 0,30 como aproximação para log 2. 10 Em que ano a empresa atingiu ou atingirá a densidade de 100 bilhões de transistores?",
+      "statement": "Considere 0,30 como aproximação para log₁₀ 2. Em que ano a empresa atingiu ou atingirá a densidade de 100 bilhões de transistores?",
       "options": [
         {
           "letter": "A",
@@ -4058,7 +4058,7 @@
         "assets/images/enem_2018_cd7_q176-fig1.png",
         "assets/images/enem_2018_cd7_q176-fig2.png"
       ],
-      "statement": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (o grau de dificuldade de cada salto).\nFica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas.\nO atleta 10 irá realizar o último salto da final.\nEle observa no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento.\nQuadro 1 Classificação Atleta 6o Salto Total 1o 3 135,0 829,0 2o 4 140,0 825,2 3o 8 140,4 824,2 6o 10 687,5 Ele precisa decidir com seu treinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2.\nQuadro 2 Tipo Nota Estimativa da Probabilidade de de soma das notas de obter a salto partida dos juízes nota T1 2,2 57 89,76% T2 2,4 58 93,74% T3 2,6 55 91,88% T4 2,8 50 95,38% T5 3,0 53 87,34% O atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar.\nConsiderando essas condições, o salto que o atleta deverá escolher é o de tipo",
+      "statement": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (o grau de dificuldade de cada salto).\nFica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas.\nO atleta 10 irá realizar o último salto da final.\nEle observa no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento.\nQuadro 1 Classificação Atleta 6º Salto Total 1º 3 135,0 829,0 2º 4 140,0 825,2 3º 8 140,4 824,2 6º 10 687,5 Ele precisa decidir com seu treinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2.\nQuadro 2 Tipo Nota Estimativa da Probabilidade de de soma das notas de obter a salto partida dos juízes nota T1 2,2 57 89,76% T2 2,4 58 93,74% T3 2,6 55 91,88% T4 2,8 50 95,38% T5 3,0 53 87,34% O atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar.\nConsiderando essas condições, o salto que o atleta deverá escolher é o de tipo",
       "options": [
         {
           "letter": "A",
@@ -4212,19 +4212,19 @@
         },
         {
           "letter": "C",
-          "text": "7 2",
+          "text": "7√2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "6+4 2",
+          "text": "6 + 4√2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "6+2 2",
+          "text": "6 + 2√2",
           "image_url": null,
           "is_correct": false
         }
@@ -4242,23 +4242,23 @@
         "assets/images/enem_2018_cd7_q180-fig1.png",
         "assets/images/enem_2018_cd7_q180-fig2.png"
       ],
-      "statement": "Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada em negrito uma diagonal que forma 30° com a 6 borda inferior. O raio da base do cilindro mede cm, e ao π enrolar a faixa obtém-se uma linha em formato de hélice, como na figura. 30° O valor da medida da altura do cilindro, em centímetro, é",
+      "statement": "Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada em negrito uma diagonal que forma 30° com a borda inferior. O raio da base do cilindro mede 6/π cm, e ao enrolar a faixa obtém-se uma linha em formato de hélice, como na figura. 30° O valor da medida da altura do cilindro, em centímetro, é",
       "options": [
         {
           "letter": "A",
-          "text": "36 3",
+          "text": "36√3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "24 3",
+          "text": "24√3",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "4 3",
+          "text": "4√3",
           "image_url": null,
           "is_correct": false
         },
@@ -4270,7 +4270,7 @@
         },
         {
           "letter": "E",
-          "text": "*DO0725AZ32*",
+          "text": "72",
           "image_url": null,
           "is_correct": false
         }

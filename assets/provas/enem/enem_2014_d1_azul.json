@@ -2351,7 +2351,7 @@
       "image_url": [
         "assets/images/enem_2014_cd1_q48-fig1.png"
       ],
-      "statement": "A liberação dos gases clorofluorcarbonos (CFCs) na atmosfera pode provocar depleção de ozônio (O ) na 3 estratosfera. O ozônio estratosférico é responsável por absorver parte da radiação ultravioleta emitida pelo Sol, a qual é nociva aos seres vivos. Esse processo, na camada de ozônio, é ilustrado simplificadamente na figura.\nLegenda C F + CI O hν + Quimicamente, a destruição do ozônio na atmosfera por gases CFCs é decorrência da",
+      "statement": "A liberação dos gases clorofluorcarbonos (CFCs) na atmosfera pode provocar depleção de ozônio (O₃) na estratosfera. O ozônio estratosférico é responsável por absorver parte da radiação ultravioleta emitida pelo Sol, a qual é nociva aos seres vivos. Esse processo, na camada de ozônio, é ilustrado simplificadamente na figura.\nLegenda C F + CI O hν + Quimicamente, a destruição do ozônio na atmosfera por gases CFCs é decorrência da",
       "options": [
         {
           "letter": "A",
@@ -2489,7 +2489,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Para impedir a contaminação microbiana do suprimento de água, deve-se eliminar as emissões de efluentes e, quando necessário, tratá-lo com desinfetante.\nO ácido hipocloroso (HClO), produzido pela reação entre cloro e água, é um dos compostos mais empregados como desinfetante. Contudo, ele não atua somente como oxidante, mas também como um ativo agente de cloração.\nA presença de matéria orgânica dissolvida no suprimento de água clorada pode levar à formação de clorofórmio (CHCl ) e outras espécies orgânicas cloradas tóxicas. 3 SPIRO, T. G.; STIGLIANI, W. M. Química ambiental.",
+          "content": "Para impedir a contaminação microbiana do suprimento de água, deve-se eliminar as emissões de efluentes e, quando necessário, tratá-lo com desinfetante.\nO ácido hipocloroso (HClO), produzido pela reação entre cloro e água, é um dos compostos mais empregados como desinfetante. Contudo, ele não atua somente como oxidante, mas também como um ativo agente de cloração.\nA presença de matéria orgânica dissolvida no suprimento de água clorada pode levar à formação de clorofórmio (CHCl₃) e outras espécies orgânicas cloradas tóxicas. SPIRO, T. G.; STIGLIANI, W. M. Química ambiental.",
           "source": "São Paulo: Pearson, 2009 (adaptado)."
         }
       ],
@@ -2734,7 +2734,7 @@
         }
       ],
       "image_url": null,
-      "statement": "A substituição do diesel usado nos anos 1980 por aquele difundido em 2012 permitiu uma redução percentual de emissão de SO de 3",
+      "statement": "A substituição do diesel usado nos anos 1980 por aquele difundido em 2012 permitiu uma redução percentual de emissão de SO₃ de",
       "options": [
         {
           "letter": "A",
@@ -2833,31 +2833,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "C H . 18 36",
+          "text": "C₁₈H₃₆.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "C H COONa. 17 33",
+          "text": "C₁₇H₃₃COONa.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "CH CH COONa. 3 2",
+          "text": "CH₃CH₂COONa.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "CH CH CH COOH. 3 2 2",
+          "text": "CH₃CH₂CH₂COOH.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "CH CH CH CH OCH CH CH CH . 3 2 2 2 2 2 2 3",
+          "text": "CH₃CH₂CH₂CH₂OCH₂CH₂CH₂CH₃.",
           "image_url": null,
           "is_correct": false
         }
@@ -2874,8 +2874,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A revelação das chapas de raios X gera uma solução que contém íons prata na forma de Ag(S O ) 3−. Para evitar 2 3 2 a descarga desse metal no ambiente, a recuperação de prata metálica pode ser feita tratando eletroquimicamente essa solução com uma espécie adequada. O quadro apresenta semirreações de redução de alguns íons metálicos.\nSemirreação de redução E0 (V)",
-          "source": "Ag(S O ) 3− (aq) + e− Ag (s) + 2 S O 2− (aq) +0,02 2 3 2 2 3 Cu2+ (aq) + 2 e− Cu (s) +0,34 Pt2+ (aq) + 2 e− Pt (s) +1,20 Al3+ (aq) + 3 e− Al (s) −1,66 Sn2+ (aq) + 2 e− Sn (s) −0,14 Zn2+ (aq) + 2 e− Zn (s) −0,76 BENDASSOLLI, J. A. et al. Procedimentos para a recuperação de Ag de resíduos líquidos e sólidos. Química Nova, v. 26, n. 4, 2003 (adaptado)."
+          "content": "A revelação das chapas de raios X gera uma solução que contém íons prata na forma de Ag(S₂O₃)₂³⁻. Para evitar a descarga desse metal no ambiente, a recuperação de prata metálica pode ser feita tratando eletroquimicamente essa solução com uma espécie adequada. O quadro apresenta semirreações de redução de alguns íons metálicos.\nSemirreação de redução E⁰ (V)",
+          "source": "Ag(S₂O₃)₂³⁻ (aq) + e⁻ Ag (s) + 2 S₂O₃²⁻ (aq) +0,02 Cu²⁺ (aq) + 2 e⁻ Cu (s) +0,34 Pt²⁺ (aq) + 2 e⁻ Pt (s) +1,20 Al³⁺ (aq) + 3 e⁻ Al (s) −1,66 Sn²⁺ (aq) + 2 e⁻ Sn (s) −0,14 Zn²⁺ (aq) + 2 e⁻ Zn (s) −0,76 BENDASSOLLI, J. A. et al. Procedimentos para a recuperação de Ag de resíduos líquidos e sólidos. Química Nova, v. 26, n. 4, 2003 (adaptado)."
         }
       ],
       "image_url": [
@@ -2897,7 +2897,7 @@
         },
         {
           "letter": "C",
-          "text": "Al3+ (aq).",
+          "text": "Al³⁺ (aq).",
           "image_url": null,
           "is_correct": false
         },
@@ -2909,7 +2909,7 @@
         },
         {
           "letter": "E",
-          "text": "Zn2+ (aq).",
+          "text": "Zn²⁺ (aq).",
           "image_url": null,
           "is_correct": false
         }
@@ -3070,7 +3070,7 @@
       "image_url": [
         "assets/images/enem_2014_cd1_q63-fig1.png"
       ],
-      "statement": "A aplicação excessiva de fertilizantes nitrogenados na agricultura pode acarretar alterações no solo e na água pelo acúmulo de compostos nitrogenados, principalmente a forma mais oxidada, favorecendo a proliferação de algas e plantas aquáticas e alterando o ciclo do nitrogênio, representado no esquema. A espécie nitrogenada mais oxidada tem sua quantidade controlada por ação de microrganismos que promovem a reação de redução dessa espécie, no processo denominado desnitrificação.\nN I 2 V NH 3 NO – 3 II IV III NH + NO – 4 2 O processo citado está representado na etapa",
+      "statement": "A aplicação excessiva de fertilizantes nitrogenados na agricultura pode acarretar alterações no solo e na água pelo acúmulo de compostos nitrogenados, principalmente a forma mais oxidada, favorecendo a proliferação de algas e plantas aquáticas e alterando o ciclo do nitrogênio, representado no esquema. A espécie nitrogenada mais oxidada tem sua quantidade controlada por ação de microrganismos que promovem a reação de redução dessa espécie, no processo denominado desnitrificação.\nN I 2 V NH 3 NO – 3 II IV III NH₄⁺ NO₂⁻ O processo citado está representado na etapa",
       "options": [
         {
           "letter": "A",
@@ -3398,29 +3398,29 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Visando minimizar impactos ambientais, a legislação brasileira determina que resíduos químicos lançados diretamente no corpo receptor tenham pH entre 5,0 e 9,0.\nUm resíduo líquido aquoso gerado em um processo industrial tem concentração de íons hidroxila igual a 1,0 × 10−10 mol/L. Para atender a legislação, um químico separou as seguintes substâncias, disponibilizadas no almoxarifado da empresa: CH COOH, Na SO , CH OH, 3 2 4 3 K CO e NH Cl. 2 3 4 Para que o resíduo possa ser lançado diretamente no corpo receptor, qual substância poderia ser empregada no ajuste do pH?",
+      "statement": "Visando minimizar impactos ambientais, a legislação brasileira determina que resíduos químicos lançados diretamente no corpo receptor tenham pH entre 5,0 e 9,0.\nUm resíduo líquido aquoso gerado em um processo industrial tem concentração de íons hidroxila igual a 1,0 × 10⁻¹⁰ mol/L. Para atender a legislação, um químico separou as seguintes substâncias, disponibilizadas no almoxarifado da empresa: CH₃COOH, Na₂SO₄, CH₃OH, K₂CO₃ e NH₄Cl. Para que o resíduo possa ser lançado diretamente no corpo receptor, qual substância poderia ser empregada no ajuste do pH?",
       "options": [
         {
           "letter": "A",
-          "text": "CH COOH 3",
+          "text": "CH₃COOH",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Na SO 2 4",
+          "text": "Na₂SO₄",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "CH OH 3",
+          "text": "CH₃OH",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "K CO 2 3",
+          "text": "K₂CO₃",
           "image_url": null,
           "is_correct": true
         },
@@ -3443,7 +3443,7 @@
       "image_url": [
         "assets/images/enem_2014_cd1_q71-fig1.png"
       ],
-      "statement": "Parte do gás carbônico da atmosfera é absorvida pela água do mar. O esquema representa reações que ocorrem naturalmente, em equilíbrio, no sistema ambiental marinho. O excesso de dióxido de carbono na atmosfera pode afetar os recifes de corais. 1 Menos Mais Dióxido de carbono atmosférico ácido ácido CO 2 2 3 Dióxido de carbono Ácido dissolvido Água carbônico Íons hidrogênio CO 2 + H 2 O H 2 CO 3 H+ Íons bicarbonato HCO 3 – Íons carbonato CO2– 3 Conchas deformadas Disponível em: http://news.bbc.co.uk. Acesso em: 20 maio 2014 (adaptado). O resultado desse processo nos corais é o(a)",
+      "statement": "Parte do gás carbônico da atmosfera é absorvida pela água do mar. O esquema representa reações que ocorrem naturalmente, em equilíbrio, no sistema ambiental marinho. O excesso de dióxido de carbono na atmosfera pode afetar os recifes de corais. 1 Menos Mais Dióxido de carbono atmosférico ácido ácido CO 2 2 3 Dióxido de carbono Ácido dissolvido Água carbônico Íons hidrogênio CO₂ + H₂O H₂CO₃ H+ Íons bicarbonato HCO₃⁻ Íons carbonato CO2– 3 Conchas deformadas Disponível em: http://news.bbc.co.uk. Acesso em: 20 maio 2014 (adaptado). O resultado desse processo nos corais é o(a)",
       "options": [
         {
           "letter": "A",
@@ -3716,31 +3716,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "CH –(CH) –CH(OH)–CO–NH–CH . 3 2 3",
+          "text": "CH₃ –(CH)₂ –CH(OH)–CO–NH–CH₃.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "CH –(CH) –CH(CH )–CO–NH–CH . 3 2 3 3",
+          "text": "CH₃ –(CH)₂ –CH(CH₃)–CO–NH–CH₃.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "CH –(CH) –CH(CH )–CO–NH . 3 2 3 2",
+          "text": "CH₃ –(CH)₂ –CH(CH₃)–CO–NH₂.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "CH –CH –CH(CH )–CO–NH–CH . 3 2 3 3",
+          "text": "CH₃ –CH₂ –CH(CH₃)–CO–NH–CH₃.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "C H –CH –CO–NH–CH . 6 5 2 3",
+          "text": "C₆H₅ –CH₂ –CO–NH–CH₃.",
           "image_url": null,
           "is_correct": false
         }
@@ -3852,7 +3852,7 @@
       "image_url": [
         "assets/images/enem_2014_cd1_q80-fig1.png"
       ],
-      "statement": "O principal processo industrial utilizado na produção de fenol é a oxidação do cumeno (isopropilbenzeno).\nA equação mostra que esse processo envolve a formação do hidroperóxido de cumila, que em seguida é decomposto em fenol e acetona, ambos usados na indústria química como precursores de moléculas mais complexas. Após o processo de síntese, esses dois insumos devem ser separados para comercialização individual.\nOOH OH O + O Catalisador H 2 O / H 2 SO 4 + 2 Cumeno Hidroperóxido Fenol Acetona de cumila Considerando as características físico-químicas dos dois insumos formados, o método utilizado para a separação da mistura, em escala industrial, é a",
+      "statement": "O principal processo industrial utilizado na produção de fenol é a oxidação do cumeno (isopropilbenzeno).\nA equação mostra que esse processo envolve a formação do hidroperóxido de cumila, que em seguida é decomposto em fenol e acetona, ambos usados na indústria química como precursores de moléculas mais complexas. Após o processo de síntese, esses dois insumos devem ser separados para comercialização individual.\nOOH OH O + O Catalisador H₂O / H₂SO₄ + 2 Cumeno Hidroperóxido Fenol Acetona de cumila Considerando as características físico-químicas dos dois insumos formados, o método utilizado para a separação da mistura, em escala industrial, é a",
       "options": [
         {
           "letter": "A",
@@ -4001,7 +4001,7 @@
       "image_url": [
         "assets/images/enem_2014_cd1_q83-fig1.png"
       ],
-      "statement": "A utilização de processos de biorremediação de resíduos gerados pela combustão incompleta de compostos orgânicos tem se tornado crescente, visando minimizar a poluição ambiental. Para a ocorrência de resíduos de naftaleno, algumas legislações limitam sua concentração em até 30 mg/kg para solo agrícola e 0,14 mg/L para água subterrânea. A quantificação desse resíduo foi realizada em diferentes ambientes, utilizando-se amostras de 500 g de solo e 100 mL de água, conforme apresentado no quadro.\nAmbiente Resíduo de naftaleno (g)\nSolo I 1,0 × 10−2 Solo II 2,0 × 10−2 Água I 7,0 × 10−6 Água II 8,0 × 10−6 Água III 9,0 × 10−6 O ambiente que necessita de biorremediação é o(a)",
+      "statement": "A utilização de processos de biorremediação de resíduos gerados pela combustão incompleta de compostos orgânicos tem se tornado crescente, visando minimizar a poluição ambiental. Para a ocorrência de resíduos de naftaleno, algumas legislações limitam sua concentração em até 30 mg/kg para solo agrícola e 0,14 mg/L para água subterrânea. A quantificação desse resíduo foi realizada em diferentes ambientes, utilizando-se amostras de 500 g de solo e 100 mL de água, conforme apresentado no quadro.\nAmbiente Resíduo de naftaleno (g)\nSolo I 1,0 × 10⁻² Solo II 2,0 × 10⁻² Água I 7,0 × 10⁻⁶ Água II 8,0 × 10⁻⁶ Água III 9,0 × 10⁻⁶ O ambiente que necessita de biorremediação é o(a)",
       "options": [
         {
           "letter": "A",
@@ -4134,12 +4134,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Grande quantidade dos maus odores do nosso dia a dia está relacionada a compostos alcalinos. Assim, em vários desses casos, pode-se utilizar o vinagre, que contém entre 3,5% e 5% de ácido acético, para diminuir ou eliminar o mau cheiro. Por exemplo, lavar as mãos com vinagre e depois enxaguá-las com água elimina o odor de peixe, já que a molécula de piridina (C H N) é uma 5 5 das substâncias responsáveis pelo odor característico de peixe podre.",
+          "content": "Grande quantidade dos maus odores do nosso dia a dia está relacionada a compostos alcalinos. Assim, em vários desses casos, pode-se utilizar o vinagre, que contém entre 3,5% e 5% de ácido acético, para diminuir ou eliminar o mau cheiro. Por exemplo, lavar as mãos com vinagre e depois enxaguá-las com água elimina o odor de peixe, já que a molécula de piridina (C₅H₅N) é uma das substâncias responsáveis pelo odor característico de peixe podre.",
           "source": "SILVA, V. A.; BENITE, A. M. C.; SOARES, M. H. F. B. Algo aqui não cheira bem... A química do mau cheiro. Química Nova na Escola, v. 33, n. 1, fev. 2011 (adaptado)."
         }
       ],
       "image_url": null,
-      "statement": "A efi ciência do uso do vinagre nesse caso se explica pela",
+      "statement": "A eficiência do uso do vinagre nesse caso se explica pela",
       "options": [
         {
           "letter": "A",
@@ -4184,7 +4184,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Quando adolescente, as nossas tardes, após as aulas, consistiam em tomar às mãos o violão e o dicionário de acordes de Almir Chediak e desafi ar nosso amigo Hamilton a descobrir, apenas ouvindo o acorde, quais notas eram escolhidas. Sempre perdíamos a aposta, ele possui o ouvido absoluto.\nO ouvido absoluto é uma característica perceptual de poucos indivíduos capazes de identifi car notas isoladas sem outras referências, isto é, sem precisar relacioná-las com outras notas de uma melodia.",
+          "content": "Quando adolescente, as nossas tardes, após as aulas, consistiam em tomar às mãos o violão e o dicionário de acordes de Almir Chediak e desafiar nosso amigo Hamilton a descobrir, apenas ouvindo o acorde, quais notas eram escolhidas. Sempre perdíamos a aposta, ele possui o ouvido absoluto.\nO ouvido absoluto é uma característica perceptual de poucos indivíduos capazes de identificar notas isoladas sem outras referências, isto é, sem precisar relacioná-las com outras notas de uma melodia.",
           "source": "LENT, R. O cérebro do meu professor de acordeão. Disponível em: http://cienciahoje.uol.com.br. Acesso em: 15 ago. 2012 (adaptado)."
         }
       ],
@@ -4234,7 +4234,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Grandes fontes de emissão do gás dióxido de enxofre são as indústrias de extração de cobre e níquel, em decorrência da oxidação dos minérios sulfurados.\nPara evitar a liberação desses óxidos na atmosfera e a consequente formação da chuva ácida, o gás pode ser lavado, em um processo conhecido como dessulfurização, conforme mostrado na equação (1).\nCaCO (s) + SO (g) → CaSO (s) + CO (g) (1) 3 2 3 2 Por sua vez, o sulfito de cálcio formado pode ser oxidado, com o auxílio do ar atmosférico, para a obtenção do sulfato de cálcio, como mostrado na equação (2).\nEssa etapa é de grande interesse porque o produto da reação, popularmente conhecido como gesso, é utilizado para fins agrícolas. 2 CaSO (s) + O (g) → 2 CaSO (s) (2) 3 2 4 As massas molares dos elementos carbono, oxigênio, enxofre e cálcio são iguais a 12 g/mol, 16 g/mol, 32 g/mol e 40 g/mol, respectivamente.",
+          "content": "Grandes fontes de emissão do gás dióxido de enxofre são as indústrias de extração de cobre e níquel, em decorrência da oxidação dos minérios sulfurados.\nPara evitar a liberação desses óxidos na atmosfera e a consequente formação da chuva ácida, o gás pode ser lavado, em um processo conhecido como dessulfurização, conforme mostrado na equação (1).\nCaCO₃ (s) + SO₂ (g) → CaSO₃ (s) + CO₂ (g) (1) Por sua vez, o sulfito de cálcio formado pode ser oxidado, com o auxílio do ar atmosférico, para a obtenção do sulfato de cálcio, como mostrado na equação (2).\nEssa etapa é de grande interesse porque o produto da reação, popularmente conhecido como gesso, é utilizado para fins agrícolas. 2 CaSO₃ (s) + O₂ (g) → 2 CaSO₄ (s) (2) As massas molares dos elementos carbono, oxigênio, enxofre e cálcio são iguais a 12 g/mol, 16 g/mol, 32 g/mol e 40 g/mol, respectivamente.",
           "source": "BAIRD, C. Química ambiental. Porto Alegre: Bookman, 2002 (adaptado)."
         }
       ],

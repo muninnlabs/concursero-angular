@@ -222,7 +222,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Es posible reducir la basura En México se producen más de 10 millones de m3 de basura mensualmente, depositados en más de 50 mil tiraderos de basura legales y clandestinos, que afectan de manera directa nuestra calidad de vida, pues nuestros recursos naturales son utilizados desproporcionalmente, como materias primas que luego desechamos y tiramos convirtiéndolos en materiales inútiles y focos de infección.\nTodo aquello que compramos y consumimos tiene una relación directa con lo que tiramos. Consumiendo racionalmente, evitando el derroche y usando sólo lo indispensable, directamente colaboramos con el cuidado del ambiente.\nSi la basura se compone de varios desperdicios y si como desperdicios no fueron basura, si los separamos adecuadamente, podremos controlarlos y evitar posteriores problemas. Reciclar se traduce en importantes ahorros de energía, ahorro de agua potable, ahorro de materias primas, menor impacto en los ecosistemas y sus recursos naturales y ahorro de tiempo, dinero y esfuerzo.\nEs necesario saber para empezar a actuar...",
+          "content": "Es posible reducir la basura En México se producen más de 10 millones de m³ de basura mensualmente, depositados en más de 50 mil tiraderos de basura legales y clandestinos, que afectan de manera directa nuestra calidad de vida, pues nuestros recursos naturales son utilizados desproporcionalmente, como materias primas que luego desechamos y tiramos convirtiéndolos en materiales inútiles y focos de infección.\nTodo aquello que compramos y consumimos tiene una relación directa con lo que tiramos. Consumiendo racionalmente, evitando el derroche y usando sólo lo indispensable, directamente colaboramos con el cuidado del ambiente.\nSi la basura se compone de varios desperdicios y si como desperdicios no fueron basura, si los separamos adecuadamente, podremos controlarlos y evitar posteriores problemas. Reciclar se traduce en importantes ahorros de energía, ahorro de agua potable, ahorro de materias primas, menor impacto en los ecosistemas y sus recursos naturales y ahorro de tiempo, dinero y esfuerzo.\nEs necesario saber para empezar a actuar...",
           "source": "Disponível em: http://www.tododecarton.com. Acesso em: 27 abr. 2010 (adaptado)."
         }
       ],
@@ -1224,7 +1224,7 @@
         },
         {
           "letter": "E",
-          "text": "uso de vários ícones que representam personagens fragmentados bidimensionalmente, de forma fotográ-fica livre de sentimentalismo.",
+          "text": "uso de vários ícones que representam personagens fragmentados bidimensionalmente, de forma fotográfica livre de sentimentalismo.",
           "image_url": null,
           "is_correct": false
         }
@@ -1677,7 +1677,7 @@
         }
       ],
       "image_url": null,
-      "statement": "O produtor de anúncios publicitários utiliza-se de estra-tégias persuasivas para influenciar o comportamento de seu leitor. Entre os recursos argumentativos mobilizados pelo autor para obter a adesão do público à campanha, destaca-se nesse texto",
+      "statement": "O produtor de anúncios publicitários utiliza-se de estratégias persuasivas para influenciar o comportamento de seu leitor. Entre os recursos argumentativos mobilizados pelo autor para obter a adesão do público à campanha, destaca-se nesse texto",
       "options": [
         {
           "letter": "A",
@@ -2306,40 +2306,40 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A Escala de Magnitude de Momento (abreviada como MMS e denotada como M ), introduzida em 1979 w por Thomas Haks e Hiroo Kanamori, substituiu a Escala de Richter para medir a magnitude dos terremotos em termos de energia liberada. Menos conhecida pelo público, a MMS é, no entanto, a escala usada para estimar as magnitudes de todos os grandes terremotos da atualidade. Assim como a escala Richter, a MMS é uma escala logarítmica. M e M se relacionam pela fórmula:\nW 0 M =−10,7+ 2 log ( M )\nW 10 0 3 Onde M é o momento sísmico (usualmente estimado 0 a partir dos registros de movimento da superfície, através dos sismogramas), cuja unidade é o dina∙cm.\nO terremoto de Kobe, acontecido no dia 17 de janeiro de 1995, foi um dos terremotos que causaram maior impacto no Japão e na comunidade científica internacional. Teve magnitude M = 7,3.\nW u.S. GEOlOGicAl SuRvEY. Historic Earthquakes.\nDisponível em: http://earthquake.usgs.gov. Acesso em: 1 maio 2010 (adaptado).\nU.S. GEOLOGICAL SURVEY. USGS Earthquake Magnitude Policy.",
+          "content": "A Escala de Magnitude de Momento (abreviada como MMS e denotada como M_w), introduzida em 1979 por Thomas Haks e Hiroo Kanamori, substituiu a Escala de Richter para medir a magnitude dos terremotos em termos de energia liberada. Menos conhecida pelo público, a MMS é, no entanto, a escala usada para estimar as magnitudes de todos os grandes terremotos da atualidade. Assim como a escala Richter, a MMS é uma escala logarítmica. M_W e M₀ se relacionam pela fórmula:\nM_W = −10,7 + (2/3) log₁₀(M₀)\nOnde M₀ é o momento sísmico (usualmente estimado a partir dos registros de movimento da superfície, através dos sismogramas), cuja unidade é o dina∙cm.\nO terremoto de Kobe, acontecido no dia 17 de janeiro de 1995, foi um dos terremotos que causaram maior impacto no Japão e na comunidade científica internacional. Teve magnitude M_W = 7,3.\nU.S. GEOLOGICAL SURVEY. Historic Earthquakes.\nDisponível em: http://earthquake.usgs.gov. Acesso em: 1 maio 2010 (adaptado).\nU.S. GEOLOGICAL SURVEY. USGS Earthquake Magnitude Policy.",
           "source": "Disponível em: http://earthquake.usgs.gov. Acesso em: 1 maio 2010 (adaptado)."
         }
       ],
       "image_url": null,
-      "statement": "Mostrando que é possível determinar a medida por meio de conhecimentos matemáticos, qual foi o momento sísmico M do terremoto de Kobe (em dina∙cm)? 0",
+      "statement": "Mostrando que é possível determinar a medida por meio de conhecimentos matemáticos, qual foi o momento sísmico M₀ do terremoto de Kobe (em dina∙cm)?",
       "options": [
         {
           "letter": "A",
-          "text": "10-5,10",
+          "text": "10^(−5,10)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "10-0,73",
+          "text": "10^(−0,73)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "1012,00",
+          "text": "10^(12,00)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1021,65",
+          "text": "10^(21,65)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "1027,00",
+          "text": "10^(27,00)",
           "image_url": null,
           "is_correct": true
         }
@@ -3461,12 +3461,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Cerca de 20 milhões de brasileiros vivem na região coberta pela caatinga, em quase 800 mil km2 de área.\nQuando não chove, o homem do sertão e sua família precisam caminhar quilômetros em busca da água dos açudes. A irregularidade climática é um dos fatores que mais interferem na vida do sertanejo.",
+          "content": "Cerca de 20 milhões de brasileiros vivem na região coberta pela caatinga, em quase 800 mil km² de área.\nQuando não chove, o homem do sertão e sua família precisam caminhar quilômetros em busca da água dos açudes. A irregularidade climática é um dos fatores que mais interferem na vida do sertanejo.",
           "source": "Disponível em: http://www.wwf.org.br. Acesso em: 23 abr. 2010."
         }
       ],
       "image_url": null,
-      "statement": "Segundo este levantamento, a densidade demográfica da região coberta pela caatinga, em habitantes por km2, é de",
+      "statement": "Segundo este levantamento, a densidade demográfica da região coberta pela caatinga, em habitantes por km², é de",
       "options": [
         {
           "letter": "A",
@@ -3558,31 +3558,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "1 5",
+          "text": "1/5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1 4",
+          "text": "1/4",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "2 5",
+          "text": "2/5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "3 5",
+          "text": "3/5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "3 4",
+          "text": "3/4",
           "image_url": null,
           "is_correct": true
         }
@@ -4171,7 +4171,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A cor de uma estrela tem relação com a temperatura em sua superfície. Estrelas não muito quentes (cerca de 3 000 K) nos parecem avermelhadas. Já as estrelas amarelas, como o Sol, possuem temperatura em torno dos 6 000 K; as mais quentes são brancas ou azuis porque sua temperatura fica acima dos 10 000 K.\nA tabela apresenta uma classificação espectral e outros dados para as estrelas dessas classes.\nEstrelas da Sequência Principal Classe Temperatura Luminosidade Massa Raio Espectral O5 40 000 5 x 105 40 18 B0 28 000 2 x 104 18 7 A0 9 900 80 3 2.5 G2 5 770 1 1 1 M0 3 480 0,06 0,5 0,6 Temperatura em Kelvin.\nLuminosidade, massa e raio, tomando o Sol como unidade.",
+          "content": "A cor de uma estrela tem relação com a temperatura em sua superfície. Estrelas não muito quentes (cerca de 3 000 K) nos parecem avermelhadas. Já as estrelas amarelas, como o Sol, possuem temperatura em torno dos 6 000 K; as mais quentes são brancas ou azuis porque sua temperatura fica acima dos 10 000 K.\nA tabela apresenta uma classificação espectral e outros dados para as estrelas dessas classes.\nEstrelas da Sequência Principal Classe Temperatura Luminosidade Massa Raio Espectral O5 40 000 5 x 10⁵ 40 18 B0 28 000 2 x 10⁴ 18 7 A0 9 900 80 3 2.5 G2 5 770 1 1 1 M0 3 480 0,06 0,5 0,6 Temperatura em Kelvin.\nLuminosidade, massa e raio, tomando o Sol como unidade.",
           "source": "Disponível em: http://www.zenite.nu. Acesso em: 1 maio 2010 (adaptado)."
         }
       ],
@@ -4223,7 +4223,7 @@
       "image_url": [
         "assets/images/enem_2011_cd7_q177-fig1.png"
       ],
-      "statement": "Considere que uma pessoa decida investir uma determinada quantia e que lhe sejam apresentadas três possibilidades de investimento, com rentabilidades líquidas garantidas pelo período de um ano, conforme descritas:\nInvestimento A: 3% ao mês Investimento B: 36% ao ano Investimento C: 18% ao semestre As rentabilidades, para esses investimentos, incidem sobre o valor do período anterior. O quadro fornece algumas aproximações para a análise das rentabilidades: n 1,03n 3 1,093 6 1,194 9 1,305 12 1,426 Para escolher o investimento com a maior rentabilidade anual, essa pessoa deverá",
+      "statement": "Considere que uma pessoa decida investir uma determinada quantia e que lhe sejam apresentadas três possibilidades de investimento, com rentabilidades líquidas garantidas pelo período de um ano, conforme descritas:\nInvestimento A: 3% ao mês Investimento B: 36% ao ano Investimento C: 18% ao semestre As rentabilidades, para esses investimentos, incidem sobre o valor do período anterior. O quadro fornece algumas aproximações para a análise das rentabilidades: n 1,03ⁿ 3 1,093 6 1,194 9 1,305 12 1,426 Para escolher o investimento com a maior rentabilidade anual, essa pessoa deverá",
       "options": [
         {
           "letter": "A",
