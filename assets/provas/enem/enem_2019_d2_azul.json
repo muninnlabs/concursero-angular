@@ -18,7 +18,7 @@
       "image_url": [
         "assets/images/enem_2019_cd7_q91-fig1.png"
       ],
-      "statement": "Para realizar o desentupimento de tubulações de esgotos residenciais, é utilizada uma mistura sólida comercial que contém hidróxido de sódio (NaOH) e outra espécie química pulverizada. Quando é adicionada água a essa mistura, ocorre uma reação que libera gás hidrogênio e energia na forma de calor, aumentando a eficiência do processo de desentupimento. Considere os potenciais padrão de redução (E ) da água e de outras espécies em meio básico, expressos no quadro.\nSemirreação de redução E (V) 2 H O + 2 e− → H + 2 OH− −0,83 2 2 Co(OH) + 2 e− → Co + 2 OH− −0,73 2 Cu(OH) + 2 e− → Cu + 2 OH− −0,22 2 PbO + H O + 2 e− → Pb + 2 OH− −0,58 2 Al(OH) − + 3 e− → Al + 4 OH− −2,33 4 Fe(OH) + 2 e− → Fe + 2 OH− −0,88 2 Qual é a outra espécie que está presente na composição da mistura sólida comercial para aumentar sua eficiência?",
+      "statement": "Para realizar o desentupimento de tubulações de esgotos residenciais, é utilizada uma mistura sólida comercial que contém hidróxido de sódio (NaOH) e outra espécie química pulverizada. Quando é adicionada água a essa mistura, ocorre uma reação que libera gás hidrogênio e energia na forma de calor, aumentando a eficiência do processo de desentupimento. Considere os potenciais padrão de redução (E ) da água e de outras espécies em meio básico, expressos no quadro.\nSemirreação de redução E (V) 2 H₂O + 2 e⁻ → H₂ + 2 OH⁻ −0,83 Co(OH)₂ + 2 e⁻ → Co + 2 OH⁻ −0,73 Cu(OH)₂ + 2 e⁻ → Cu + 2 OH⁻ −0,22 PbO + H₂O + 2 e⁻ → Pb + 2 OH⁻ −0,58 Al(OH)₄⁻ + 3 e⁻ → Al + 4 OH⁻ −2,33 Fe(OH)₂ + 2 e⁻ → Fe + 2 OH⁻ −0,88 Qual é a outra espécie que está presente na composição da mistura sólida comercial para aumentar sua eficiência?",
       "options": [
         {
           "letter": "A",
@@ -34,13 +34,13 @@
         },
         {
           "letter": "C",
-          "text": "Cu(OH) 2",
+          "text": "Cu(OH)₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Fe(OH) 2",
+          "text": "Fe(OH)₂",
           "image_url": null,
           "is_correct": false
         },
@@ -204,7 +204,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Glicólise é um processo que ocorre nas células, convertendo glicose em piruvato. Durante a prática de exercícios físicos que demandam grande quantidade de esforço, a glicose é completamente oxidada na presença de O . 2 Entretanto, em alguns casos, as células musculares podem sofrer um déficit de O e a glicose ser convertida em 2 duas moléculas de ácido lático. As equações termoquímicas para a combustão da glicose e do ácido lático são, respectivamente, mostradas a seguir:\nC H O (s) + 6 O (g) → 6 CO (g) + 6 H O (l) ∆ H = −2 800 kJ 6 12 6 2 2 2 c CH CH(OH)COOH (s) + 3 O (g) → 3 CO (g) + 3 H O (l) ∆ H = −1 344 kJ 3 2 2 2 c O processo anaeróbico é menos vantajoso energeticamente porque",
+      "statement": "Glicólise é um processo que ocorre nas células, convertendo glicose em piruvato. Durante a prática de exercícios físicos que demandam grande quantidade de esforço, a glicose é completamente oxidada na presença de O₂. Entretanto, em alguns casos, as células musculares podem sofrer um déficit de O₂ e a glicose ser convertida em duas moléculas de ácido lático. As equações termoquímicas para a combustão da glicose e do ácido lático são, respectivamente, mostradas a seguir:\nC H O (s) + 6 O (g) → 6 CO (g) + 6 H O (l) ∆ H = −2 800 kJ 6 12 6 2 2 2 c CH CH(OH)COOH (s) + 3 O (g) → 3 CO (g) + 3 H O (l) ∆ H = −1 344 kJ 3 2 2 2 c O processo anaeróbico é menos vantajoso energeticamente porque",
       "options": [
         {
           "letter": "A",
@@ -530,7 +530,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O objetivo de recipientes isolantes térmicos é minimizar as trocas de calor com o ambiente externo.\nEssa troca de calor é proporcional à condutividade térmica k e à área interna das faces do recipiente, bem como à diferença de temperatura entre o ambiente externo e o interior do recipiente, além de ser inversamente proporcional à espessura das faces.\nA fim de avaliar a qualidade de dois recipientes A (40 cm × 40 cm × 40 cm) e B (60 cm × 40 cm × 40 cm), de faces de mesma espessura, uma estudante compara suas condutividades térmicas k e k . Para isso suspende, A B dentro de cada recipiente, blocos idênticos de gelo a 0 °C, de modo que suas superfícies estejam em contato apenas com o ar. Após um intervalo de tempo, ela abre os recipientes enquanto ambos ainda contêm um pouco de gelo e verifica que a massa de gelo que se fundiu no recipiente B foi o dobro da que se fundiu no recipiente A. k A razão A é mais próxima de k B",
+      "statement": "O objetivo de recipientes isolantes térmicos é minimizar as trocas de calor com o ambiente externo.\nEssa troca de calor é proporcional à condutividade térmica k e à área interna das faces do recipiente, bem como à diferença de temperatura entre o ambiente externo e o interior do recipiente, além de ser inversamente proporcional à espessura das faces.\nA fim de avaliar a qualidade de dois recipientes A (40 cm × 40 cm × 40 cm) e B (60 cm × 40 cm × 40 cm), de faces de mesma espessura, uma estudante compara suas condutividades térmicas kₐ e kʙ. Para isso suspende, dentro de cada recipiente, blocos idênticos de gelo a 0 °C, de modo que suas superfícies estejam em contato apenas com o ar. Após um intervalo de tempo, ela abre os recipientes enquanto ambos ainda contêm um pouco de gelo e verifica que a massa de gelo que se fundiu no recipiente B foi o dobro da que se fundiu no recipiente A. A razão kₐ/kʙ é mais próxima de",
       "options": [
         {
           "letter": "A",
@@ -575,8 +575,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Estudos mostram o desenvolvimento de biochips utilizados para auxiliar o diagnóstico de diabetes melito, doença evidenciada pelo excesso de glicose no organismo.\nO teste é simples e consiste em duas reações sequenciais na superfície do biochip, entre a amostra de soro sanguíneo do paciente, enzimas específicas e reagente (iodeto de potássio, KI), conforme mostrado na imagem. (i) Biochip antes da adição de soro Enzimas KI (ii) Biochip após a adição de soro Soro Cor Fluxo Após a adição de soro sanguíneo, o fluxo desloca--se espontaneamente da esquerda para a direita (ii) promovendo reações sequenciais, conforme as equações 1 e 2. Na primeira, há conversão de glicose do sangue em ácido glucônico, gerando peróxido de hidrogênio:\nEquação 1 Enzimas C H O (aq) + O (g) + H O (l) C H O (aq) + H O (aq) 6 12 6 2 2 6 12 7 2 2 Na segunda, o peróxido de hidrogênio reage com íons iodeto gerando o íon tri-iodeto, água e oxigênio.",
-          "source": "Equação 2 2 H O (aq) + 3 l− (aq) I − (aq) + 2 H O (I) + O (g) 2 2 3 2 2 GARCIA, P. T. et al. A Handheld Stamping Process to Fabricate Microfluidic Paper-Based Analytical Devices with Chemically Modified Surface for Clinical Assays. RSC Advances, v. 4, 13 ago. 2014 (adaptado)."
+          "content": "Estudos mostram o desenvolvimento de biochips utilizados para auxiliar o diagnóstico de diabetes melito, doença evidenciada pelo excesso de glicose no organismo.\nO teste é simples e consiste em duas reações sequenciais na superfície do biochip, entre a amostra de soro sanguíneo do paciente, enzimas específicas e reagente (iodeto de potássio, KI), conforme mostrado na imagem. (i) Biochip antes da adição de soro Enzimas KI (ii) Biochip após a adição de soro Soro Cor Fluxo Após a adição de soro sanguíneo, o fluxo desloca--se espontaneamente da esquerda para a direita (ii) promovendo reações sequenciais, conforme as equações 1 e 2. Na primeira, há conversão de glicose do sangue em ácido glucônico, gerando peróxido de hidrogênio:\nEquação 1 Enzimas C₆H₁₂O₆ (aq) + O₂ (g) + H₂O (l) C₆H₁₂O₇ (aq) + H₂O₂ (aq) Na segunda, o peróxido de hidrogênio reage com íons iodeto gerando o íon tri-iodeto, água e oxigênio.",
+          "source": "Equação 2 2 H₂O₂ (aq) + 3 l⁻ (aq) I₃⁻ (aq) + 2 H₂O (I) + O₂ (g) GARCIA, P. T. et al. A Handheld Stamping Process to Fabricate Microfluidic Paper-Based Analytical Devices with Chemically Modified Surface for Clinical Assays. RSC Advances, v. 4, 13 ago. 2014 (adaptado)."
         }
       ],
       "image_url": [
@@ -720,35 +720,35 @@
       "image_url": [
         "assets/images/enem_2019_cd7_q106-fig1.png"
       ],
-      "statement": "Slackline é um esporte no qual o atleta deve se equilibrar e executar manobras estando sobre uma fita esticada. Para a prática do esporte, as duas extremidades da fita são fixadas de forma que ela fique a alguns centímetros do solo. Quando uma atleta de massa igual a 80 kg está exatamente no meio da fita, essa se desloca verticalmente, formando um ângulo de 10° com a horizontal, como esquematizado na figura. Sabe-se que a aceleração da gravidade é igual a 10 m s−2, cos(10°) = 0,98 e sen(10°) = 0,17.\nQual é a força que a fita exerce em cada uma das árvores por causa da presença da atleta?",
+      "statement": "Slackline é um esporte no qual o atleta deve se equilibrar e executar manobras estando sobre uma fita esticada. Para a prática do esporte, as duas extremidades da fita são fixadas de forma que ela fique a alguns centímetros do solo. Quando uma atleta de massa igual a 80 kg está exatamente no meio da fita, essa se desloca verticalmente, formando um ângulo de 10° com a horizontal, como esquematizado na figura. Sabe-se que a aceleração da gravidade é igual a 10 m s⁻², cos(10°) = 0,98 e sen(10°) = 0,17.\nQual é a força que a fita exerce em cada uma das árvores por causa da presença da atleta?",
       "options": [
         {
           "letter": "A",
-          "text": "4,0 × 102 N",
+          "text": "4,0 × 10² N",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "4,1 × 102 N",
+          "text": "4,1 × 10² N",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "8,0 × 102 N",
+          "text": "8,0 × 10² N",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "2,4 × 103 N",
+          "text": "2,4 × 10³ N",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "4,7 × 103 N",
+          "text": "4,7 × 10³ N",
           "image_url": null,
           "is_correct": false
         }
@@ -806,7 +806,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Por terem camada de valência completa, alta energia de ionização e afinidade eletrônica praticamente nula, considerou-se por muito tempo que os gases nobres não formariam compostos químicos.\nPorém, em 1962, foi realizada com sucesso a reação entre o xenônio (camada de valência 5s25p6) e o hexafluoreto de platina e, desde então, mais compostos novos de gases nobres vêm sendo sintetizados.\nTais compostos demonstram que não se pode aceitar acriticamente a regra do octeto, na qual se considera que, numa ligação química, os átomos tendem a adquirir estabilidade assumindo a configuração eletrônica de gás nobre. Dentre os compostos conhecidos, um dos mais estáveis é o difluoreto de xenônio, no qual dois átomos do halogênio flúor (camada de valência 2s22p5) se ligam covalentemente ao átomo de gás nobre para ficarem com oito elétrons de valência.\nAo se escrever a fórmula de Lewis do composto de xenônio citado, quantos elétrons na camada de valência haverá no átomo do gás nobre?",
+      "statement": "Por terem camada de valência completa, alta energia de ionização e afinidade eletrônica praticamente nula, considerou-se por muito tempo que os gases nobres não formariam compostos químicos.\nPorém, em 1962, foi realizada com sucesso a reação entre o xenônio (camada de valência 5s²5p⁶) e o hexafluoreto de platina e, desde então, mais compostos novos de gases nobres vêm sendo sintetizados.\nTais compostos demonstram que não se pode aceitar acriticamente a regra do octeto, na qual se considera que, numa ligação química, os átomos tendem a adquirir estabilidade assumindo a configuração eletrônica de gás nobre. Dentre os compostos conhecidos, um dos mais estáveis é o difluoreto de xenônio, no qual dois átomos do halogênio flúor (camada de valência 2s²2p⁵) se ligam covalentemente ao átomo de gás nobre para ficarem com oito elétrons de valência.\nAo se escrever a fórmula de Lewis do composto de xenônio citado, quantos elétrons na camada de valência haverá no átomo do gás nobre?",
       "options": [
         {
           "letter": "A",
@@ -951,7 +951,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em qualquer obra de construção civil é fundamental a utilização de equipamentos de proteção individual, tal como capacetes. Por exemplo, a queda livre de um tijolo de massa 2,5 kg de uma altura de 5 m, cujo impacto contra um capacete pode durar até 0,5 s, resulta em uma força impulsiva média maior do que o peso do tijolo.\nSuponha que a aceleração gravitacional seja 10 m s−2 e que o efeito de resistência do ar seja desprezível.\nA força impulsiva média gerada por esse impacto equivale ao peso de quantos tijolos iguais?",
+      "statement": "Em qualquer obra de construção civil é fundamental a utilização de equipamentos de proteção individual, tal como capacetes. Por exemplo, a queda livre de um tijolo de massa 2,5 kg de uma altura de 5 m, cujo impacto contra um capacete pode durar até 0,5 s, resulta em uma força impulsiva média maior do que o peso do tijolo.\nSuponha que a aceleração gravitacional seja 10 m s⁻² e que o efeito de resistência do ar seja desprezível.\nA força impulsiva média gerada por esse impacto equivale ao peso de quantos tijolos iguais?",
       "options": [
         {
           "letter": "A",
@@ -997,7 +997,7 @@
           "type": "text_block",
           "title": null,
           "content": "Os hidrocarbonetos são moléculas orgânicas com uma série de aplicações industriais. Por exemplo, eles estão presentes em grande quantidade nas diversas frações do petróleo e normalmente são separados por destilação fracionada, com base em suas temperaturas de ebulição. O quadro apresenta as principais frações obtidas na destilação do petróleo em diferentes faixas de temperaturas.",
-          "source": "Faixa de Número de átomos de carbono Fração Exemplos de produto(s) temperatura (°C) (hidrocarboneto de fórmula geral C H ) n 2n+2 1 Até 20 Gás natural e gás de cozinha (GLP) C a C 1 4 2 30 a 180 Gasolina C a C 6 12 3 170 a 290 Querosene C a C 11 16 4 260 a 350 Óleo diesel C a C 14 18 SANTA MARIA, L. C. et al. Petróleo: um tema para o ensino de química. Química Nova na Escola, n. 15, maio 2002 (adaptado)."
+          "source": "Faixa de Número de átomos de carbono Fração Exemplos de produto(s) temperatura (°C) (hidrocarboneto de fórmula geral CₙH₂ₙ₊₂) 1 Até 20 Gás natural e gás de cozinha (GLP) C₁ a C₄ 2 30 a 180 Gasolina C₆ a C₁₂ 3 170 a 290 Querosene C₁₁ a C₁₆ 4 260 a 350 Óleo diesel C₁₄ a C₁₈ SANTA MARIA, L. C. et al. Petróleo: um tema para o ensino de química. Química Nova na Escola, n. 15, maio 2002 (adaptado)."
         }
       ],
       "image_url": [
@@ -1230,7 +1230,7 @@
       "image_url": [
         "assets/images/enem_2019_cd7_q117-fig1.png"
       ],
-      "statement": "Em uma aula experimental de calorimetria, uma professora queimou 2,5 g de castanha-de-caju crua para aquecer 350 g de água, em um recipiente apropriado para diminuir as perdas de calor. Com base na leitura da tabela nutricional a seguir e da medida da temperatura da água, após a queima total do combustível, ela concluiu que 50% da energia disponível foi aproveitada. O calor específico da água é 1 cal g−1 °C−1, e sua temperatura inicial era de 20 °C.\nQuantidade por porção de 10 g (2 castanhas)\nValor energético 70 kcal Carboidratos 0,8 g Proteínas 3,5 g Gorduras totais 3,5 g Qual foi a temperatura da água, em grau Celsius, medida ao final do experimento?",
+      "statement": "Em uma aula experimental de calorimetria, uma professora queimou 2,5 g de castanha-de-caju crua para aquecer 350 g de água, em um recipiente apropriado para diminuir as perdas de calor. Com base na leitura da tabela nutricional a seguir e da medida da temperatura da água, após a queima total do combustível, ela concluiu que 50% da energia disponível foi aproveitada. O calor específico da água é 1 cal g⁻¹ °C⁻¹, e sua temperatura inicial era de 20 °C.\nQuantidade por porção de 10 g (2 castanhas)\nValor energético 70 kcal Carboidratos 0,8 g Proteínas 3,5 g Gorduras totais 3,5 g Qual foi a temperatura da água, em grau Celsius, medida ao final do experimento?",
       "options": [
         {
           "letter": "A",
@@ -1292,31 +1292,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "H (g). 2",
+          "text": "H₂ (g).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "O (g). 2",
+          "text": "O₂ (g).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "H O (l). 2",
+          "text": "H₂O (l).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "OH− (aq).",
+          "text": "OH⁻ (aq).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "Zn(OH) 2− (aq). 4",
+          "text": "Zn(OH)₄²⁻ (aq).",
           "image_url": null,
           "is_correct": true
         }
@@ -1376,7 +1376,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A utilização de corantes na indústria de alimentos é bastante difundida e a escolha por corantes naturais vem sendo mais explorada por diversas razões. A seguir são mostradas três estruturas de corantes naturais.\nHOOC COOCH 3 Bixina (presente no urucum)\nLicopeno (presente no tomate) β-caroteno (presente na cenoura e na laranja)",
+          "content": "A utilização de corantes na indústria de alimentos é bastante difundida e a escolha por corantes naturais vem sendo mais explorada por diversas razões. A seguir são mostradas três estruturas de corantes naturais.\nHOOC COOCH₃ Bixina (presente no urucum)\nLicopeno (presente no tomate) β-caroteno (presente na cenoura e na laranja)",
           "source": "HAMERSKI, L.; REZENDE, M. J. C.; SILVA, B. V. Usando as cores da natureza para atender aos desejos do consumidor: substâncias naturais como corantes na indústria alimentícia. Revista Virtual de Química, n. 3, 2013."
         }
       ],
@@ -1413,7 +1413,7 @@
         },
         {
           "letter": "E",
-          "text": "átomos de carbonos de hibridação sp3.",
+          "text": "átomos de carbonos de hibridação sp³.",
           "image_url": null,
           "is_correct": false
         }
@@ -1430,23 +1430,23 @@
       "image_url": [
         "assets/images/enem_2019_cd7_q121-fig1.png"
       ],
-      "statement": "Numa feira de ciências, um estudante utilizará o disco de Maxwell (ioiô) para demonstrar o princípio da conservação da energia. A apresentação consistirá em duas etapas:\nEtapa 1 - a explicação de que, à medida que o disco desce, parte de sua energia potencial gravitacional é transformada em energia cinética de translação e energia cinética de rotação;\nEtapa 2 - o cálculo da energia cinética de rotação do disco no ponto mais baixo de sua trajetória, supondo o sistema conservativo.\nAo preparar a segunda etapa, ele considera a aceleração da gravidade igual a 10 m s−2 e a velocidade linear do centro de massa do disco desprezível em comparação com a velocidade angular. Em seguida, mede a altura do topo do disco em relação ao chão no ponto mais baixo de sua trajetória, obtendo 1 da altura 3 da haste do brinquedo.\nAs especificações de tamanho do brinquedo, isto é, de comprimento (C), largura (L) e altura (A), assim como da massa de seu disco de metal, foram encontradas pelo estudante no recorte de manual ilustrado a seguir. 2h h 3 Conteúdo: base de metal, hastes metálicas, barra superior, disco de metal.\nTamanho (C × L × A): 300 mm × 100 mm × 410 mm Massa do disco de metal: 30 g O resultado do cálculo da etapa 2, em joule, é:",
+      "statement": "Numa feira de ciências, um estudante utilizará o disco de Maxwell (ioiô) para demonstrar o princípio da conservação da energia. A apresentação consistirá em duas etapas:\nEtapa 1 - a explicação de que, à medida que o disco desce, parte de sua energia potencial gravitacional é transformada em energia cinética de translação e energia cinética de rotação;\nEtapa 2 - o cálculo da energia cinética de rotação do disco no ponto mais baixo de sua trajetória, supondo o sistema conservativo.\nAo preparar a segunda etapa, ele considera a aceleração da gravidade igual a 10 m s⁻² e a velocidade linear do centro de massa do disco desprezível em comparação com a velocidade angular. Em seguida, mede a altura do topo do disco em relação ao chão no ponto mais baixo de sua trajetória, obtendo 1 da altura 3 da haste do brinquedo.\nAs especificações de tamanho do brinquedo, isto é, de comprimento (C), largura (L) e altura (A), assim como da massa de seu disco de metal, foram encontradas pelo estudante no recorte de manual ilustrado a seguir. 2h h 3 Conteúdo: base de metal, hastes metálicas, barra superior, disco de metal.\nTamanho (C × L × A): 300 mm × 100 mm × 410 mm Massa do disco de metal: 30 g O resultado do cálculo da etapa 2, em joule, é:",
       "options": [
         {
           "letter": "A",
-          "text": "4,10 × 10−2",
+          "text": "4,10 × 10⁻²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "8,20 × 10−2",
+          "text": "8,20 × 10⁻²",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1,23 × 10−1",
+          "text": "1,23 × 10⁻¹",
           "image_url": null,
           "is_correct": false
         },
@@ -1473,7 +1473,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O odor que permanece nas mãos após o contato com alho pode ser eliminado pela utilização de um “sabonete de aço inoxidável”, constituído de aço inox (74%), cromo e níquel. A principal vantagem desse “sabonete” é que ele não se desgasta com o uso. Considere que a principal substância responsável pelo odor de alho é a alicina (estrutura I) e que, para que o odor seja eliminado, ela seja transformada na estrutura II.\nO S S Estrutura I CH ═ CH — CH — S — S — CH — CH ═ CH 2 2 2 2 Estrutura II Na conversão de I em II, o “sabonete” atuará como um",
+      "statement": "O odor que permanece nas mãos após o contato com alho pode ser eliminado pela utilização de um “sabonete de aço inoxidável”, constituído de aço inox (74%), cromo e níquel. A principal vantagem desse “sabonete” é que ele não se desgasta com o uso. Considere que a principal substância responsável pelo odor de alho é a alicina (estrutura I) e que, para que o odor seja eliminado, ela seja transformada na estrutura II.\nO S S Estrutura I CH₂ ═ CH — CH₂ — S — S — CH₂ — CH ═ CH₂ Estrutura II Na conversão de I em II, o “sabonete” atuará como um",
       "options": [
         {
           "letter": "A",
@@ -1568,7 +1568,7 @@
       "image_url": [
         "assets/images/enem_2019_cd7_q124-fig1.png"
       ],
-      "statement": "Uma das técnicas de reciclagem química do polímero PET [poli(tereftalato de etileno)] gera o tereftalato de metila e o etanodiol, conforme o esquema de reação, e ocorre por meio de uma reação de transesterificação.\nCOOCH 3 Altas temperaturas O O e pressão O + 2n A n + n OH HO O n PET COOCH 3 O composto A, representado no esquema de reação, é o",
+      "statement": "Uma das técnicas de reciclagem química do polímero PET [poli(tereftalato de etileno)] gera o tereftalato de metila e o etanodiol, conforme o esquema de reação, e ocorre por meio de uma reação de transesterificação.\nCOOCH 3 Altas temperaturas O O e pressão O + 2n A n + n OH HO O n PET COOCH₃ O composto A, representado no esquema de reação, é o",
       "options": [
         {
           "letter": "A",
@@ -1716,7 +1716,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O 2,4-dinitrofenol (DNP) é conhecido como desacoplador da cadeia de elétrons na mitocôndria e apresenta um efeito emagrecedor. Contudo, por ser perigoso e pela ocorrência de casos letais, seu uso como medicamento é proibido em diversos países, inclusive no Brasil. Na mitocôndria, essa substância captura, no espaço intermembranas, prótons (H+) provenientes da atividade das proteínas da cadeia respiratória, retornando-os à matriz mitocondrial.\nAssim, esses prótons não passam pelo transporte enzimático na membrana interna.",
+          "content": "O 2,4-dinitrofenol (DNP) é conhecido como desacoplador da cadeia de elétrons na mitocôndria e apresenta um efeito emagrecedor. Contudo, por ser perigoso e pela ocorrência de casos letais, seu uso como medicamento é proibido em diversos países, inclusive no Brasil. Na mitocôndria, essa substância captura, no espaço intermembranas, prótons (H⁺) provenientes da atividade das proteínas da cadeia respiratória, retornando-os à matriz mitocondrial.\nAssim, esses prótons não passam pelo transporte enzimático na membrana interna.",
           "source": "GRUNDLINGH, J. et al. 2,4-Dinitrophenol (DNP): a Weight Loss Agent with Significant Acute Toxicity and Risk of Death. Journal of Medical Toxicology, v. 7, 2011 (adaptado)."
         }
       ],
@@ -1816,7 +1816,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Um dos parâmetros de controle de qualidade de polpas de frutas destinadas ao consumo como bebida é a acidez total expressa em ácido cítrico, que corresponde à massa dessa substância em 100 gramas de polpa de fruta. O ácido cítrico é uma molécula orgânica que apresenta três hidrogênios ionizáveis (ácido triprótico) e massa molar 192 g mol−1. O quadro indica o valor mínimo desse parâmetro de qualidade para polpas comerciais de algumas frutas.\nValor mínimo da acidez total Polpa de fruta expressa em ácido cítrico (g/100 g)\nAcerola 0,8 Caju 0,3 Cupuaçu 1,5 Graviola 0,6 Maracujá 2,5 A acidez total expressa em ácido cítrico de uma amostra comercial de polpa de fruta foi determinada.\nNo procedimento, adicionou-se água destilada a 2,2 g da amostra e, após a solubilização do ácido cítrico, o sólido remanescente foi filtrado. A solução obtida foi titulada com solução de hidróxido de sódio 0,01 mol L−1, em que se consumiram 24 mL da solução básica (titulante).",
+          "content": "Um dos parâmetros de controle de qualidade de polpas de frutas destinadas ao consumo como bebida é a acidez total expressa em ácido cítrico, que corresponde à massa dessa substância em 100 gramas de polpa de fruta. O ácido cítrico é uma molécula orgânica que apresenta três hidrogênios ionizáveis (ácido triprótico) e massa molar 192 g mol⁻¹. O quadro indica o valor mínimo desse parâmetro de qualidade para polpas comerciais de algumas frutas.\nValor mínimo da acidez total Polpa de fruta expressa em ácido cítrico (g/100 g)\nAcerola 0,8 Caju 0,3 Cupuaçu 1,5 Graviola 0,6 Maracujá 2,5 A acidez total expressa em ácido cítrico de uma amostra comercial de polpa de fruta foi determinada.\nNo procedimento, adicionou-se água destilada a 2,2 g da amostra e, após a solubilização do ácido cítrico, o sólido remanescente foi filtrado. A solução obtida foi titulada com solução de hidróxido de sódio 0,01 mol L⁻¹, em que se consumiram 24 mL da solução básica (titulante).",
           "source": "BRASIL. Ministério da Agricultura e do Abastecimento. Instrução normativa n. 1, de 7 de janeiro de 2000. Disponível em: www.agricultura.gov.br. Acesso em: 9 maio 2019 (adaptado)."
         }
       ],
@@ -1911,7 +1911,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A agricultura de precisão reúne técnicas agrícolas que consideram particularidades locais do solo ou lavoura a fim de otimizar o uso de recursos. Uma das formas de adquirir informações sobre essas particularidades é a fotografia aérea de baixa altitude realizada por um veículo aéreo não tripulado (vant). Na fase de aquisição é importante determinar o nível de sobreposição entre as fotografias. A figura ilustra como uma sequência de imagens é coletada por um vant e como são formadas as sobreposições frontais.\nVant com câmera fotográfica 1 2 3 H 45° 45° Solo 20% de ∆S sobreposição frontal Imagens coletadas 1 2 3 1, 2 e 3 O operador do vant recebe uma encomenda na qual as imagens devem ter uma sobreposição frontal de 20% em um terreno plano. Para realizar a aquisição das imagens, seleciona uma altitude H fixa de voo de 1 000 m, a uma velocidade constante de 50 m s−1. A abertura da câmera fotográfica do vant é de 90°. Considere tg(45°) = 1.\nNatural Resources Canada. Concepts of Aerial Photography.",
+          "content": "A agricultura de precisão reúne técnicas agrícolas que consideram particularidades locais do solo ou lavoura a fim de otimizar o uso de recursos. Uma das formas de adquirir informações sobre essas particularidades é a fotografia aérea de baixa altitude realizada por um veículo aéreo não tripulado (vant). Na fase de aquisição é importante determinar o nível de sobreposição entre as fotografias. A figura ilustra como uma sequência de imagens é coletada por um vant e como são formadas as sobreposições frontais.\nVant com câmera fotográfica 1 2 3 H 45° 45° Solo 20% de ∆S sobreposição frontal Imagens coletadas 1 2 3 1, 2 e 3 O operador do vant recebe uma encomenda na qual as imagens devem ter uma sobreposição frontal de 20% em um terreno plano. Para realizar a aquisição das imagens, seleciona uma altitude H fixa de voo de 1 000 m, a uma velocidade constante de 50 m s⁻¹. A abertura da câmera fotográfica do vant é de 90°. Considere tg(45°) = 1.\nNatural Resources Canada. Concepts of Aerial Photography.",
           "source": "Disponível em: www.nrcan.gc.ca. Acesso em: 26 abr. 2019 (adaptado)."
         }
       ],
@@ -2202,17 +2202,17 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A Hydrangea macrophylla é uma planta com flor azul ou cor-de-rosa, dependendo do pH do solo no qual está plantada. Em solo ácido (ou seja, com pH < 7) a flor é azul, enquanto que em solo alcalino (ou seja, com pH > 7) a flor é rosa. Considere que a Hydrangea cor-de-rosa mais valorizada comercialmente numa determinada região seja aquela produzida em solo com pH inferior a 8. Sabe-se que pH = - log x, em que x é a concentração de íon 10 hidrogênio (H+).\nPara produzir a Hydrangea cor-de-rosa de maior valor comercial, deve-se preparar o solo de modo que x assuma",
+      "statement": "A Hydrangea macrophylla é uma planta com flor azul ou cor-de-rosa, dependendo do pH do solo no qual está plantada. Em solo ácido (ou seja, com pH < 7) a flor é azul, enquanto que em solo alcalino (ou seja, com pH > 7) a flor é rosa. Considere que a Hydrangea cor-de-rosa mais valorizada comercialmente numa determinada região seja aquela produzida em solo com pH inferior a 8. Sabe-se que pH = - log₁₀ x, em que x é a concentração de íon hidrogênio (H⁺).\nPara produzir a Hydrangea cor-de-rosa de maior valor comercial, deve-se preparar o solo de modo que x assuma",
       "options": [
         {
           "letter": "A",
-          "text": "qualquer valor acima de 10-8.",
+          "text": "qualquer valor acima de 10⁻⁸.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "qualquer valor positivo inferior a 10-7.",
+          "text": "qualquer valor positivo inferior a 10⁻⁷.",
           "image_url": null,
           "is_correct": false
         },
@@ -2230,7 +2230,7 @@
         },
         {
           "letter": "E",
-          "text": "valores maiores que 10-8 e menores que 10-7.",
+          "text": "valores maiores que 10⁻⁸ e menores que 10⁻⁷.",
           "image_url": null,
           "is_correct": true
         }
@@ -2342,31 +2342,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "1,1 × 10-1",
+          "text": "1,1 × 10⁻¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1,1 × 10-2",
+          "text": "1,1 × 10⁻²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "1,1 × 10-3",
+          "text": "1,1 × 10⁻³",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1,1 × 10-4",
+          "text": "1,1 × 10⁻⁴",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "1,1 × 10-5",
+          "text": "1,1 × 10⁻⁵",
           "image_url": null,
           "is_correct": false
         }
@@ -2381,7 +2381,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em um jogo on-line, cada jogador procura subir de nível e aumentar sua experiência, que são dois parâmetros importantes no jogo, dos quais dependem as forças de defesa e de ataque do participante. A força de defesa de cada jogador é diretamente proporcional ao seu nível e ao quadrado de sua experiência, enquanto sua força de ataque é diretamente proporcional à sua experiência e ao quadrado do seu nível. Nenhum jogador sabe o nível ou a experiência dos demais. Os jogadores iniciam o jogo no nível 1 com experiência 1 e possuem força de ataque 2 e de defesa 1. Nesse jogo, cada participante se movimenta em uma cidade em busca de tesouros para aumentar sua experiência. Quando dois deles se encontram, um deles pode desafiar o outro para um confronto, sendo o desafiante considerado o atacante. Compara-se então a força de ataque do desafiante com a força de defesa do desafiado e vence o confronto aquele cuja força for maior. O vencedor do desafio aumenta seu nível em uma unidade. Caso haja empate no confronto, ambos os jogadores aumentam seus níveis em uma unidade.\nDurante um jogo, o jogador J , de nível 4 e experiência 5, 1 irá atacar o jogador J , de nível 2 e experiência 6. 2 O jogador J venceu esse confronto porque a diferença 1 entre sua força de ataque e a força de defesa de seu oponente era",
+      "statement": "Em um jogo on-line, cada jogador procura subir de nível e aumentar sua experiência, que são dois parâmetros importantes no jogo, dos quais dependem as forças de defesa e de ataque do participante. A força de defesa de cada jogador é diretamente proporcional ao seu nível e ao quadrado de sua experiência, enquanto sua força de ataque é diretamente proporcional à sua experiência e ao quadrado do seu nível. Nenhum jogador sabe o nível ou a experiência dos demais. Os jogadores iniciam o jogo no nível 1 com experiência 1 e possuem força de ataque 2 e de defesa 1. Nesse jogo, cada participante se movimenta em uma cidade em busca de tesouros para aumentar sua experiência. Quando dois deles se encontram, um deles pode desafiar o outro para um confronto, sendo o desafiante considerado o atacante. Compara-se então a força de ataque do desafiante com a força de defesa do desafiado e vence o confronto aquele cuja força for maior. O vencedor do desafio aumenta seu nível em uma unidade. Caso haja empate no confronto, ambos os jogadores aumentam seus níveis em uma unidade.\nDurante um jogo, o jogador J₁, de nível 4 e experiência 5, irá atacar o jogador J₂, de nível 2 e experiência 6. O jogador J₁ venceu esse confronto porque a diferença entre sua força de ataque e a força de defesa de seu oponente era",
       "options": [
         {
           "letter": "A",
@@ -2424,35 +2424,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em um condomínio, uma área pavimentada, que tem a forma de um círculo com diâmetro medindo 6 m, é cercada por grama. A administração do condomínio deseja ampliar essa área, mantendo seu formato circular, e aumentando, em 8 m, o diâmetro dessa região, mantendo o revestimento da parte já existente.\nO condomínio dispõe, em estoque, de material suficiente para pavimentar mais 100 m2 de área.\nO síndico do condomínio irá avaliar se esse material disponível será suficiente para pavimentar a região a ser ampliada.\nUtilize 3 como aproximação para π.\nA conclusão correta a que o síndico deverá chegar, considerando a nova área a ser pavimentada, é a de que o material disponível em estoque",
+      "statement": "Em um condomínio, uma área pavimentada, que tem a forma de um círculo com diâmetro medindo 6 m, é cercada por grama. A administração do condomínio deseja ampliar essa área, mantendo seu formato circular, e aumentando, em 8 m, o diâmetro dessa região, mantendo o revestimento da parte já existente.\nO condomínio dispõe, em estoque, de material suficiente para pavimentar mais 100 m² de área.\nO síndico do condomínio irá avaliar se esse material disponível será suficiente para pavimentar a região a ser ampliada.\nUtilize 3 como aproximação para π.\nA conclusão correta a que o síndico deverá chegar, considerando a nova área a ser pavimentada, é a de que o material disponível em estoque",
       "options": [
         {
           "letter": "A",
-          "text": "será suficiente, pois a área da nova região a ser pavimentada mede 21 m2.",
+          "text": "será suficiente, pois a área da nova região a ser pavimentada mede 21 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "será suficiente, pois a área da nova região a ser pavimentada mede 24 m2.",
+          "text": "será suficiente, pois a área da nova região a ser pavimentada mede 24 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "será suficiente, pois a área da nova região a ser pavimentada mede 48 m2.",
+          "text": "será suficiente, pois a área da nova região a ser pavimentada mede 48 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "não será suficiente, pois a área da nova região a ser pavimentada mede 108 m2.",
+          "text": "não será suficiente, pois a área da nova região a ser pavimentada mede 108 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "não será suficiente, pois a área da nova região a ser pavimentada mede 120 m2.",
+          "text": "não será suficiente, pois a área da nova região a ser pavimentada mede 120 m².",
           "image_url": null,
           "is_correct": true
         }
@@ -2688,7 +2688,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O rótulo da embalagem de um cosmético informa que a dissolução de seu conteúdo, de acordo com suas especificações, rende 2,7 litros desse produto pronto para o uso. Uma pessoa será submetida a um tratamento estético em que deverá tomar um banho de imersão com esse produto numa banheira com capacidade de 0,3 m3. Para evitar o transbordamento, essa banheira será preenchida em 80% de sua capacidade.\nPara esse banho, o número mínimo de embalagens desse cosmético é",
+      "statement": "O rótulo da embalagem de um cosmético informa que a dissolução de seu conteúdo, de acordo com suas especificações, rende 2,7 litros desse produto pronto para o uso. Uma pessoa será submetida a um tratamento estético em que deverá tomar um banho de imersão com esse produto numa banheira com capacidade de 0,3 m³. Para evitar o transbordamento, essa banheira será preenchida em 80% de sua capacidade.\nPara esse banho, o número mínimo de embalagens desse cosmético é",
       "options": [
         {
           "letter": "A",
@@ -2964,7 +2964,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Charles Richter e Beno Gutenberg desenvolveram a escala Richter, que mede a magnitude de um terremoto.\nEssa escala pode variar de 0 a 10, com possibilidades de valores maiores. O quadro mostra a escala de magnitude local (M ) de um terremoto que é utilizada s para descrevê-lo.\nMagnitude local (M )\nDescrição s (µm ⋅ Hz)\nPequeno 0 ≤ M ≤ 3,9 s Ligeiro 4,0 ≤ M ≤ 4,9 s Moderado 5,0 ≤ M ≤ 5,9 s Grande 6,0 ≤ M ≤ 9,9 s Extremo M ≥ 10,0 s Para se calcular a magnitude local, usa-se a fórmula M = 3,30 + log(A⋅f ), em que A representa a amplitude s máxima da onda registrada por um sismógrafo em micrômetro (µm) e f representa a frequência da onda, em hertz (Hz). Ocorreu um terremoto com amplitude máxima de 2 000 µm e frequência de 0,2 Hz.",
+          "content": "Charles Richter e Beno Gutenberg desenvolveram a escala Richter, que mede a magnitude de um terremoto.\nEssa escala pode variar de 0 a 10, com possibilidades de valores maiores. O quadro mostra a escala de magnitude local (Mₛ) de um terremoto que é utilizada para descrevê-lo.\nMagnitude local (M )\nDescrição s (µm ⋅ Hz)\nPequeno 0 ≤ Mₛ ≤ 3,9 Ligeiro 4,0 ≤ Mₛ ≤ 4,9 Moderado 5,0 ≤ Mₛ ≤ 5,9 Grande 6,0 ≤ Mₛ ≤ 9,9 Extremo Mₛ ≥ 10,0 Para se calcular a magnitude local, usa-se a fórmula Mₛ = 3,30 + log(A⋅f ), em que A representa a amplitude máxima da onda registrada por um sismógrafo em micrômetro (µm) e f representa a frequência da onda, em hertz (Hz). Ocorreu um terremoto com amplitude máxima de 2 000 µm e frequência de 0,2 Hz.",
           "source": "Disponível em: http://cejarj.cecierj.edu.br. Acesso em: 1 fev. 2015 (adaptado)."
         }
       ],
@@ -3153,7 +3153,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Comum em lançamentos de empreendimentos imobiliários, as maquetes de condomínios funcionam como uma ótima ferramenta de marketing para as construtoras, pois, além de encantar clientes, auxiliam de maneira significativa os corretores na negociação e venda de imóveis.\nUm condomínio está sendo lançado em um novo bairro de uma cidade. Na maquete projetada pela construtora, em escala de 1 : 200, existe um reservatório de água com capacidade de 45 cm3.\nQuando todas as famílias estiverem residindo no condomínio, a estimativa é que, por dia, sejam consumidos 30 000 litros de água.\nEm uma eventual falta de água, o reservatório cheio será suficiente para abastecer o condomínio por quantos dias?",
+      "statement": "Comum em lançamentos de empreendimentos imobiliários, as maquetes de condomínios funcionam como uma ótima ferramenta de marketing para as construtoras, pois, além de encantar clientes, auxiliam de maneira significativa os corretores na negociação e venda de imóveis.\nUm condomínio está sendo lançado em um novo bairro de uma cidade. Na maquete projetada pela construtora, em escala de 1 : 200, existe um reservatório de água com capacidade de 45 cm³.\nQuando todas as famílias estiverem residindo no condomínio, a estimativa é que, por dia, sejam consumidos 30 000 litros de água.\nEm uma eventual falta de água, o reservatório cheio será suficiente para abastecer o condomínio por quantos dias?",
       "options": [
         {
           "letter": "A",
@@ -3383,7 +3383,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O Índice de Desenvolvimento Humano (IDH) é uma medida usada para classificar os países pelo seu grau de desenvolvimento. Para seu cálculo, são levados em consideração a expectativa de vida ao nascer, tempo de escolaridade e renda per capita, entre outros. O menor valor deste índice é zero e o maior é um. Cinco países foram avaliados e obtiveram os seguintes índices de desenvolvimento humano: o primeiro país recebeu um 1 valor X, o segundo X, o terceiro X3, o quarto X 2 e o 3 último X . Nenhum desses países zerou ou atingiu o índice máximo.\nQual desses países obteve o maior IDH?",
+      "statement": "O Índice de Desenvolvimento Humano (IDH) é uma medida usada para classificar os países pelo seu grau de desenvolvimento. Para seu cálculo, são levados em consideração a expectativa de vida ao nascer, tempo de escolaridade e renda per capita, entre outros. O menor valor deste índice é zero e o maior é um. Cinco países foram avaliados e obtiveram os seguintes índices de desenvolvimento humano: o primeiro país recebeu um valor X, o segundo √X, o terceiro X^(1/3), o quarto X² e o último X³. Nenhum desses países zerou ou atingiu o índice máximo.\nQual desses países obteve o maior IDH?",
       "options": [
         {
           "letter": "A",
@@ -3428,35 +3428,35 @@
       "image_url": [
         "assets/images/enem_2019_cd7_q164-fig1.png"
       ],
-      "statement": "Um mestre de obras deseja fazer uma laje com espessura de 5 cm utilizando concreto usinado, conforme as dimensões do projeto dadas na figura.\nO concreto para fazer a laje será fornecido por uma usina que utiliza caminhões com capacidades máximas de 2 m3, 5 m3 e 10 m3 de concreto. 8 m 1 m 3 m 2 m 3 m 5 m 14 m Qual a menor quantidade de caminhões, utilizando suas capacidades máximas, que o mestre de obras deverá pedir à usina de concreto para fazer a laje?",
+      "statement": "Um mestre de obras deseja fazer uma laje com espessura de 5 cm utilizando concreto usinado, conforme as dimensões do projeto dadas na figura.\nO concreto para fazer a laje será fornecido por uma usina que utiliza caminhões com capacidades máximas de 2 m³, 5 m³ e 10 m³ de concreto. 8 m 1 m 3 m 2 m 3 m 5 m 14 m Qual a menor quantidade de caminhões, utilizando suas capacidades máximas, que o mestre de obras deverá pedir à usina de concreto para fazer a laje?",
       "options": [
         {
           "letter": "A",
-          "text": "Dez caminhões com capacidade máxima de 10 m3.",
+          "text": "Dez caminhões com capacidade máxima de 10 m³.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Cinco caminhões com capacidade máxima de 10 m3.",
+          "text": "Cinco caminhões com capacidade máxima de 10 m³.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Um caminhão com capacidade máxima de 5 m3.",
+          "text": "Um caminhão com capacidade máxima de 5 m³.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "Dez caminhões com capacidade máxima de 2 m3.",
+          "text": "Dez caminhões com capacidade máxima de 2 m³.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "Um caminhão com capacidade máxima de 2 m3.",
+          "text": "Um caminhão com capacidade máxima de 2 m³.",
           "image_url": null,
           "is_correct": false
         }
@@ -3697,7 +3697,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A bula de um antibiótico infantil, fabricado na forma de xarope, recomenda que sejam ministrados, diariamente, no máximo 500 mg desse medicamento para cada quilograma de massa do paciente. Um pediatra prescreveu a dosagem máxima desse antibiótico para ser ministrada diariamente a uma criança de 20 kg pelo período de 5 dias. Esse medicamento pode ser comprado em frascos de 10 mL, 50 mL, 100 mL, 250 mL e 500 mL.\nOs pais dessa criança decidiram comprar a quantidade exata de medicamento que precisará ser ministrada no tratamento, evitando a sobra de medicamento. Considere que 1 g desse medicamento ocupe um volume de 1 cm3.\nA capacidade do frasco, em mililitro, que esses pais deverão comprar é",
+      "statement": "A bula de um antibiótico infantil, fabricado na forma de xarope, recomenda que sejam ministrados, diariamente, no máximo 500 mg desse medicamento para cada quilograma de massa do paciente. Um pediatra prescreveu a dosagem máxima desse antibiótico para ser ministrada diariamente a uma criança de 20 kg pelo período de 5 dias. Esse medicamento pode ser comprado em frascos de 10 mL, 50 mL, 100 mL, 250 mL e 500 mL.\nOs pais dessa criança decidiram comprar a quantidade exata de medicamento que precisará ser ministrada no tratamento, evitando a sobra de medicamento. Considere que 1 g desse medicamento ocupe um volume de 1 cm³.\nA capacidade do frasco, em mililitro, que esses pais deverão comprar é",
       "options": [
         {
           "letter": "A",
@@ -3927,7 +3927,7 @@
       "image_url": [
         "assets/images/enem_2019_cd7_q175-fig1.png"
       ],
-      "statement": "Uma construtora pretende conectar um reservatório central (R ) em formato de um cilindro, com raio interno c igual a 2 m e altura interna igual a 3,30 m, a quatro reservatórios cilíndricos auxiliares (R , R , R e R ), 1 2 3 4 os quais possuem raios internos e alturas internas medindo 1,5 m.\nR 2 R C R R 1 3 R 4 As ligações entre o reservatório central e os auxiliares são feitas por canos cilíndricos com 0,10 m de diâmetro interno e 20 m de comprimento, conectados próximos às bases de cada reservatório. Na conexão de cada um desses canos com o reservatório central há registros que liberam ou interrompem o fluxo de água.\nNo momento em que o reservatório central está cheio e os auxiliares estão vazios, abrem-se os quatro registros e, após algum tempo, as alturas das colunas de água nos reservatórios se igualam, assim que cessa o fluxo de água entre eles, pelo princípio dos vasos comunicantes.\nA medida, em metro, das alturas das colunas de água nos reservatórios auxiliares, após cessar o fluxo de água entre eles, é",
+      "statement": "Uma construtora pretende conectar um reservatório central (R ) em formato de um cilindro, com raio interno c igual a 2 m e altura interna igual a 3,30 m, a quatro reservatórios cilíndricos auxiliares (R₁, R₂, R₃ e R₄), os quais possuem raios internos e alturas internas medindo 1,5 m.\nR 2 R C R R 1 3 R 4 As ligações entre o reservatório central e os auxiliares são feitas por canos cilíndricos com 0,10 m de diâmetro interno e 20 m de comprimento, conectados próximos às bases de cada reservatório. Na conexão de cada um desses canos com o reservatório central há registros que liberam ou interrompem o fluxo de água.\nNo momento em que o reservatório central está cheio e os auxiliares estão vazios, abrem-se os quatro registros e, após algum tempo, as alturas das colunas de água nos reservatórios se igualam, assim que cessa o fluxo de água entre eles, pelo princípio dos vasos comunicantes.\nA medida, em metro, das alturas das colunas de água nos reservatórios auxiliares, após cessar o fluxo de água entre eles, é",
       "options": [
         {
           "letter": "A",
@@ -3970,7 +3970,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Para construir uma piscina, cuja área total da superfície interna é igual a 40 m2, uma construtora apresentou o seguinte orçamento: • R$ 10 000,00 pela elaboração do projeto; • R$ 40 000,00 pelos custos fixos; • R$ 2 500,00 por metro quadrado para construção da área interna da piscina.\nApós a apresentação do orçamento, essa empresa decidiu reduzir o valor de elaboração do projeto em 50%, mas recalculou o valor do metro quadrado para a construção da área interna da piscina, concluindo haver a necessidade de aumentá-lo em 25%. Além disso, a construtora pretende dar um desconto nos custos fixos, de maneira que o novo valor do orçamento seja reduzido em 10% em relação ao total inicial.\nO percentual de desconto que a construtora deverá conceder nos custos fixos é de",
+      "statement": "Para construir uma piscina, cuja área total da superfície interna é igual a 40 m², uma construtora apresentou o seguinte orçamento: • R$ 10 000,00 pela elaboração do projeto; • R$ 40 000,00 pelos custos fixos; • R$ 2 500,00 por metro quadrado para construção da área interna da piscina.\nApós a apresentação do orçamento, essa empresa decidiu reduzir o valor de elaboração do projeto em 50%, mas recalculou o valor do metro quadrado para a construção da área interna da piscina, concluindo haver a necessidade de aumentá-lo em 25%. Além disso, a construtora pretende dar um desconto nos custos fixos, de maneira que o novo valor do orçamento seja reduzido em 10% em relação ao total inicial.\nO percentual de desconto que a construtora deverá conceder nos custos fixos é de",
       "options": [
         {
           "letter": "A",

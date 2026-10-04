@@ -2531,7 +2531,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A capacidade mínima, em BTU/h, de um aparelho de ar-condicionado, para ambientes sem exposição ao sol, pode ser determinada da seguinte forma: • 600 BTU/h por m2, considerando-se até duas pessoas no ambiente; • para cada pessoa adicional nesse ambiente, acrescentar 600 BTU/h; • acrescentar mais 600 BTU/h para cada equipamento eletroeletrônico em funcionamento no ambiente.\nSerá instalado um aparelho de ar-condicionado em uma sala, sem exposição ao sol, de dimensões 4 m x 5 m, em que permaneçam quatro pessoas e possua um aparelho de televisão em funcionamento.\nA capacidade mínima, em BTU/h, desse aparelho de ar-condicionado deve ser",
+      "statement": "A capacidade mínima, em BTU/h, de um aparelho de ar-condicionado, para ambientes sem exposição ao sol, pode ser determinada da seguinte forma: • 600 BTU/h por m², considerando-se até duas pessoas no ambiente; • para cada pessoa adicional nesse ambiente, acrescentar 600 BTU/h; • acrescentar mais 600 BTU/h para cada equipamento eletroeletrônico em funcionamento no ambiente.\nSerá instalado um aparelho de ar-condicionado em uma sala, sem exposição ao sol, de dimensões 4 m x 5 m, em que permaneçam quatro pessoas e possua um aparelho de televisão em funcionamento.\nA capacidade mínima, em BTU/h, desse aparelho de ar-condicionado deve ser",
       "options": [
         {
           "letter": "A",
@@ -2583,23 +2583,23 @@
       "image_url": [
         "assets/images/enem_2012_cd7_q143-fig1.png"
       ],
-      "statement": "A expressão que traduz a resistência S dessa viga de madeira é k.b.d2",
+      "statement": "A expressão que traduz a resistência S dessa viga de madeira é k.b.d²",
       "options": [
         {
           "letter": "A",
-          "text": "S = x2 k.b.d",
+          "text": "S = x² k.b.d",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "S = x2 k.b.d2",
+          "text": "S = x² k.b.d²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "S = x k.b2.d",
+          "text": "S = x k.b².d",
           "image_url": null,
           "is_correct": false
         },
@@ -2769,7 +2769,7 @@
           "type": "text_block",
           "title": null,
           "content": "Os hidrômetros são marcadores de consumo de água em residências e estabelecimentos comerciais.",
-          "source": "Existem vários modelos de mostradores de hidrômetros, sendo que alguns deles possuem uma combinação de um mostrador e dois relógios de ponteiro. O número formado pelos quatro primeiros algarismos do mostrador fornece o consumo em m3, e os dois últimos algarismos representam, respectivamente, as centenas e dezenas de litros de água consumidos. Um dos relógios de ponteiros indica a quantidade em litros, e o outro em décimos de litros, conforme ilustrados na figura a seguir. 1 000 Disponível em: www.aguasdearacoiaba.com.br (adaptado)."
+          "source": "Existem vários modelos de mostradores de hidrômetros, sendo que alguns deles possuem uma combinação de um mostrador e dois relógios de ponteiro. O número formado pelos quatro primeiros algarismos do mostrador fornece o consumo em m³, e os dois últimos algarismos representam, respectivamente, as centenas e dezenas de litros de água consumidos. Um dos relógios de ponteiros indica a quantidade em litros, e o outro em décimos de litros, conforme ilustrados na figura a seguir. 1 000 Disponível em: www.aguasdearacoiaba.com.br (adaptado)."
         }
       ],
       "image_url": [
@@ -3282,7 +3282,7 @@
       "image_url": [
         "assets/images/enem_2012_cd7_q158-fig1.png"
       ],
-      "statement": "Alguns objetos, durante a sua fabricação, necessitam passar por um processo de resfriamento. Para que isso ocorra, uma fábrica utiliza um tanque de resfriamento, como mostrado na figura. 5 cm 25 cm 30 cm 40 cm O que aconteceria com o nível da água se colocássemos no tanque um objeto cujo volume fosse de 2 400 cm3?",
+      "statement": "Alguns objetos, durante a sua fabricação, necessitam passar por um processo de resfriamento. Para que isso ocorra, uma fábrica utiliza um tanque de resfriamento, como mostrado na figura. 5 cm 25 cm 30 cm 40 cm O que aconteceria com o nível da água se colocássemos no tanque um objeto cujo volume fosse de 2 400 cm³?",
       "options": [
         {
           "letter": "A",
@@ -3327,7 +3327,7 @@
       "image_url": [
         "assets/images/enem_2012_cd7_q159-fig1.png"
       ],
-      "statement": "Jorge quer instalar aquecedores no seu salão de beleza para melhorar o conforto dos seus clientes no inverno. Ele estuda a compra de unidades de dois tipos de aquecedores: modelo A, que consome 600 g/h (gramas por hora) de gás propano e cobre 35 m2 de área, ou modelo B, que consome 750 g/h de gás propano e cobre 45 m2 de área. O fabricante indica que o aquecedor deve ser instalado em um ambiente com área menor do que a da sua cobertura. Jorge vai instalar uma unidade por ambiente e quer gastar o mínimo possível com gás.\nA área do salão que deve ser climatizada encontra-se na planta seguinte (ambientes representados por três retângulos e um trapézio). 9 m II III IV 4 m 14 m 7 m I 8m 5m Avaliando-se todas as informações, serão necessários",
+      "statement": "Jorge quer instalar aquecedores no seu salão de beleza para melhorar o conforto dos seus clientes no inverno. Ele estuda a compra de unidades de dois tipos de aquecedores: modelo A, que consome 600 g/h (gramas por hora) de gás propano e cobre 35 m² de área, ou modelo B, que consome 750 g/h de gás propano e cobre 45 m² de área. O fabricante indica que o aquecedor deve ser instalado em um ambiente com área menor do que a da sua cobertura. Jorge vai instalar uma unidade por ambiente e quer gastar o mínimo possível com gás.\nA área do salão que deve ser climatizada encontra-se na planta seguinte (ambientes representados por três retângulos e um trapézio). 9 m II III IV 4 m 14 m 7 m I 8m 5m Avaliando-se todas as informações, serão necessários",
       "options": [
         {
           "letter": "A",
@@ -3372,7 +3372,7 @@
       "image_url": [
         "assets/images/enem_2012_cd7_q160-fig1.png"
       ],
-      "statement": "Para decorar a fachada de um edifício, um arquiteto projetou a colocação de vitrais compostos de quadrados de lado medindo 1 m, conforme a figura a seguir.\nB A P Q C D Nesta figura, os pontos A, B, C e D são pontos médios dos lados do quadrado e os segmentos AP e QC medem 1/4 da medida do lado do quadrado. Para confeccionar um vitral, são usados dois tipos de materiais: um para a parte sombreada da figura, que custa R$ 30,00 o m2, e outro para a parte mais clara (regiões ABPDA e BCDQB), que custa R$ 50,00 o m2.\nDe acordo com esses dados, qual é o custo dos materiais usados na fabricação de um vitral?",
+      "statement": "Para decorar a fachada de um edifício, um arquiteto projetou a colocação de vitrais compostos de quadrados de lado medindo 1 m, conforme a figura a seguir.\nB A P Q C D Nesta figura, os pontos A, B, C e D são pontos médios dos lados do quadrado e os segmentos AP e QC medem 1/4 da medida do lado do quadrado. Para confeccionar um vitral, são usados dois tipos de materiais: um para a parte sombreada da figura, que custa R$ 30,00 o m², e outro para a parte mais clara (regiões ABPDA e BCDQB), que custa R$ 50,00 o m².\nDe acordo com esses dados, qual é o custo dos materiais usados na fabricação de um vitral?",
       "options": [
         {
           "letter": "A",
@@ -3657,7 +3657,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "As curvas de oferta e de demanda de um produto representam, respectivamente, as quantidades que vendedores e consumidores estão dispostos a comercializar em função do preço do produto. Em alguns casos, essas curvas podem ser representadas por retas.\nSuponha que as quantidades de oferta e de demanda de um produto sejam, respectivamente, representadas pelas equações:\nQ = –20 + 4P O Q = 46 – 2P D em que Q é quantidade de oferta, Q é a quantidade de O D demanda e P é o preço do produto.\nA partir dessas equações, de oferta e de demanda, os economistas encontram o preço de equilíbrio de mercado, ou seja, quando Q e Q se igualam.\nO D Para a situação descrita, qual o valor do preço de equilíbrio?",
+      "statement": "As curvas de oferta e de demanda de um produto representam, respectivamente, as quantidades que vendedores e consumidores estão dispostos a comercializar em função do preço do produto. Em alguns casos, essas curvas podem ser representadas por retas.\nSuponha que as quantidades de oferta e de demanda de um produto sejam, respectivamente, representadas pelas equações:\nQₒ = –20 + 4P\nQᴅ = 46 – 2P\nem que Qₒ é quantidade de oferta, Qᴅ é a quantidade de demanda e P é o preço do produto.\nA partir dessas equações, de oferta e de demanda, os economistas encontram o preço de equilíbrio de mercado, ou seja, quando Qₒ e Qᴅ se igualam.\nPara a situação descrita, qual o valor do preço de equilíbrio?",
       "options": [
         {
           "letter": "A",
@@ -3743,11 +3743,11 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Dentre outros objetos de pesquisa, a Alometria estuda a relação entre medidas de diferentes partes do corpo humano. Por exemplo, segundo a Alometria, a área A da superfície corporal de uma pessoa relaciona-se com 2 a sua massa m pela fórmula A = k.m3, em que k é uma constante positiva.\nSe no período que vai da infância até a maioridade de um indivíduo sua massa é multiplicada por 8, por quanto será multiplicada a área da superfície corporal?",
+      "statement": "Dentre outros objetos de pesquisa, a Alometria estuda a relação entre medidas de diferentes partes do corpo humano. Por exemplo, segundo a Alometria, a área A da superfície corporal de uma pessoa relaciona-se com a sua massa m pela fórmula A = k·m^(2/3), em que k é uma constante positiva.\nSe no período que vai da infância até a maioridade de um indivíduo sua massa é multiplicada por 8, por quanto será multiplicada a área da superfície corporal?",
       "options": [
         {
           "letter": "A",
-          "text": "3 16",
+          "text": "∛16",
           "image_url": null,
           "is_correct": false
         },
@@ -3759,7 +3759,7 @@
         },
         {
           "letter": "C",
-          "text": "24",
+          "text": "√24",
           "image_url": null,
           "is_correct": false
         },
@@ -3959,31 +3959,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "3,25 × 102 km.",
+          "text": "3,25 × 10² km.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "3,25 × 103 km.",
+          "text": "3,25 × 10³ km.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "3,25 × 104 km.",
+          "text": "3,25 × 10⁴ km.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "3,25 × 105 km.",
+          "text": "3,25 × 10⁵ km.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "3,25 × 106 km.",
+          "text": "3,25 × 10⁶ km.",
           "image_url": null,
           "is_correct": false
         }
@@ -4131,7 +4131,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um produtor de café irrigado em Minas Gerais recebeu um relatório de consultoria estatística, constando, entre outras informações, o desvio padrão das produções de uma safra dos talhões de sua propriedade. Os talhões têm a mesma área de 30 000 m2 e o valor obtido para o desvio padrão foi de 90 kg/talhão. O produtor deve apresentar as informações sobre a produção e a variância dessas produções em sacas de 60 kg por hectare (10 000 m2).\nA variância das produções dos talhões expressa em (sacas/hectare)2 é",
+      "statement": "Um produtor de café irrigado em Minas Gerais recebeu um relatório de consultoria estatística, constando, entre outras informações, o desvio padrão das produções de uma safra dos talhões de sua propriedade. Os talhões têm a mesma área de 30 000 m² e o valor obtido para o desvio padrão foi de 90 kg/talhão. O produtor deve apresentar as informações sobre a produção e a variância dessas produções em sacas de 60 kg por hectare (10 000 m²).\nA variância das produções dos talhões expressa em (sacas/hectare)² é",
       "options": [
         {
           "letter": "A",
@@ -4336,13 +4336,13 @@
         },
         {
           "letter": "B",
-          "text": "36% menor que V, porque a área da base diminui de a2 para ((1 − 0,2)a)2.",
+          "text": "36% menor que V, porque a área da base diminui de a² para ((1 − 0,2)a)².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "48,8% menor que V, porque o volume diminui de a3 para (0,8a)3.",
+          "text": "48,8% menor que V, porque o volume diminui de a³ para (0,8a)³.",
           "image_url": null,
           "is_correct": true
         },

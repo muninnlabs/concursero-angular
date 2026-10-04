@@ -18,8 +18,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Mapa 1 Mapa 2 Distribuição espacial atual da população brasileira Confl itos em terras indígenas PPRRIINNCCIIPPAAIISS EENNVVOOLLVVIIDDOOSS EEMM CCOONNFFRROONNTTOOSS CCOOMM ÍÍNNDDIIOOSS NNOOSS ÚÚLLTTIIMMOOSS AANNOOSS TTEERRRRAA IINNDDÍÍGGEENNAA GARIMPEIROS E MADEIREIROS FAZENDEIROS, POSSEIROS E PRESSÃO DE POLÍTICOS LOCAIS (Conflito de terras)",
-          "source": "THÉRY, H. As boas-novas sobre a população brasileira. Conhecimento Prático SIMIELLI, M. E. Geoatlas. São Paulo: Ática, 2009 (adaptado). Geográfi co, n. 41, jan. 2012 (adaptado)."
+          "content": "Mapa 1 Mapa 2 Distribuição espacial atual da população brasileira Conflitos em terras indígenas PRINCIPAIS ENVOLVIDOS EEMM CONFRONTOS COM ÍNDIOS NOS ÚLTIMOS ANOS TERRA INDÍGENA GARIMPEIROS E MADEIREIROS FAZENDEIROS, POSSEIROS E PRESSÃO DE POLÍTICOS LOCAIS (Conflito de terras)",
+          "source": "THÉRY, H. As boas-novas sobre a população brasileira. Conhecimento Prático SIMIELLI, M. E. Geoatlas. São Paulo: Ática, 2009 (adaptado). Geográfico, n. 41, jan. 2012 (adaptado)."
         }
       ],
       "image_url": [
@@ -41,7 +41,7 @@
         },
         {
           "letter": "C",
-          "text": "intensifi cação da migração de retorno.",
+          "text": "intensificação da migração de retorno.",
           "image_url": null,
           "is_correct": false
         },
@@ -85,7 +85,7 @@
         },
         {
           "letter": "B",
-          "text": "direcionamento maior do fl uxo de pessoas, devido à existência de um grande número de serviços.",
+          "text": "direcionamento maior do fluxo de pessoas, devido à existência de um grande número de serviços.",
           "image_url": null,
           "is_correct": false
         },
@@ -2342,29 +2342,29 @@
         }
       ],
       "image_url": null,
-      "statement": "Considerando-se o valor de 6 × 1023 mol–1 para a constante de Avogadro e a massa molar do cálcio igual a 40 g/mol, qual a quantidade mínima diária de átomos de cálcio a ser ingerida para que uma pessoa supra suas necessidades?",
+      "statement": "Considerando-se o valor de 6 × 10²³ mol⁻¹ para a constante de Avogadro e a massa molar do cálcio igual a 40 g/mol, qual a quantidade mínima diária de átomos de cálcio a ser ingerida para que uma pessoa supra suas necessidades?",
       "options": [
         {
           "letter": "A",
-          "text": "7,5 × 1021",
+          "text": "7,5 × 10²¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1,5 × 1022",
+          "text": "1,5 × 10²²",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "7,5 × 1023",
+          "text": "7,5 × 10²³",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1,5 × 1025",
+          "text": "1,5 × 10²⁵",
           "image_url": null,
           "is_correct": false
         },
@@ -2662,7 +2662,7 @@
           "type": "text_block",
           "title": null,
           "content": "O uso de embalagens plásticas descartáveis vem crescendo em todo o mundo, juntamente com o problema ambiental gerado por seu descarte inapropriado. O politereftalato de etileno (PET), cuja estrutura é mostrada, tem sido muito utilizado na indústria de refrigerantes e pode ser reciclado e reutilizado. Uma das opções possíveis envolve a produção de matérias-primas, como o etilenoglicol (1,2-etanodiol), a partir de objetos compostos de PET pós-consumo.",
-          "source": "O O HO C C O CH CH O H 2 2 n Disponível em: www.abipet.org.br. Acesso em: 27 fev. 2012 (adaptado)."
+          "source": "O O HO C C O CH₂ CH₂ O H n Disponível em: www.abipet.org.br. Acesso em: 27 fev. 2012 (adaptado)."
         }
       ],
       "image_url": [
@@ -2919,35 +2919,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Plantas terrestres que ainda estão em fase de crescimento fixam grandes quantidades de CO , 2 utilizando-o para formar novas moléculas orgânicas, e liberam grande quantidade de O . No entanto, 2 em florestas maduras, cujas árvores já atingiram o equilíbrio, o consumo de O pela respiração tende a 2 igualar sua produção pela fotossíntese. A morte natural de árvores nessas florestas afeta temporariamente a concentração de O e de CO próximo à superfície do 2 2 solo onde elas caíram.\nA concentração de O próximo ao solo, no local da 2 queda, será",
+      "statement": "Plantas terrestres que ainda estão em fase de crescimento fixam grandes quantidades de CO₂, utilizando-o para formar novas moléculas orgânicas, e liberam grande quantidade de O₂. No entanto, em florestas maduras, cujas árvores já atingiram o equilíbrio, o consumo de O₂ pela respiração tende a igualar sua produção pela fotossíntese. A morte natural de árvores nessas florestas afeta temporariamente a concentração de O₂ e de CO₂ próximo à superfície do solo onde elas caíram.\nA concentração de O₂ próximo ao solo, no local da queda, será",
       "options": [
         {
           "letter": "A",
-          "text": "menor, pois haverá consumo de O durante a 2 decomposição dessas árvores.",
+          "text": "menor, pois haverá consumo de O₂ durante a decomposição dessas árvores.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "maior, pois haverá economia de O pela ausência das 2 árvores mortas.",
+          "text": "maior, pois haverá economia de O₂ pela ausência das árvores mortas.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "maior, pois haverá liberação de O durante a 2 fotossíntese das árvores jovens.",
+          "text": "maior, pois haverá liberação de O₂ durante a fotossíntese das árvores jovens.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "igual, pois haverá consumo e produção de O pelas 2 árvores maduras restantes.",
+          "text": "igual, pois haverá consumo e produção de O₂ pelas árvores maduras restantes.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "menor, pois haverá redução de O pela falta da 2 fotossíntese realizada pelas árvores mortas.",
+          "text": "menor, pois haverá redução de O₂ pela falta da fotossíntese realizada pelas árvores mortas.",
           "image_url": null,
           "is_correct": false
         }
@@ -3012,7 +3012,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Para oferecer acessibilidade aos portadores de dificuldades de locomoção, é utilizado, em ônibus e automóveis, o elevador hidráulico. Nesse dispositivo é usada uma bomba elétrica, para forçar um fluido a passar de uma tubulação estreita para outra mais larga, e dessa forma acionar um pistão que movimenta a plataforma. Considere um elevador hidráulico cuja área da cabeça do pistão seja cinco vezes maior do que a área da tubulação que sai da bomba. Desprezando o atrito e considerando uma aceleração gravitacional de 10 m/s2, deseja-se elevar uma pessoa de 65 kg em uma cadeira de rodas de 15 kg sobre a plataforma de 20 kg.\nQual deve ser a força exercida pelo motor da bomba sobre o fluido, para que o cadeirante seja elevado com velocidade constante?",
+      "statement": "Para oferecer acessibilidade aos portadores de dificuldades de locomoção, é utilizado, em ônibus e automóveis, o elevador hidráulico. Nesse dispositivo é usada uma bomba elétrica, para forçar um fluido a passar de uma tubulação estreita para outra mais larga, e dessa forma acionar um pistão que movimenta a plataforma. Considere um elevador hidráulico cuja área da cabeça do pistão seja cinco vezes maior do que a área da tubulação que sai da bomba. Desprezando o atrito e considerando uma aceleração gravitacional de 10 m/s², deseja-se elevar uma pessoa de 65 kg em uma cadeira de rodas de 15 kg sobre a plataforma de 20 kg.\nQual deve ser a força exercida pelo motor da bomba sobre o fluido, para que o cadeirante seja elevado com velocidade constante?",
       "options": [
         {
           "letter": "A",
@@ -3148,7 +3148,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma das etapas do tratamento da água é a desinfecção, sendo a cloração o método mais empregado.\nEsse método consiste na dissolução do gás cloro numa solução sob pressão e sua aplicação na água a ser desinfectada. As equações das reações químicas envolvidas são:\nCl (g) + 2 HO (l) HClO (aq) + HO+ (aq) + Cl− (aq) 2 2 3 HClO (aq) + HO (l) HO+ (aq) + ClO− (aq) pK = − log K = 7,53 2 3 a a A ação desinfetante é controlada pelo ácido hipocloroso, que possui um potencial de desinfecção cerca de 80 vezes superior ao ânion hipoclorito. O pH do meio é importante, porque influencia na extensão com que o ácido hipocloroso se ioniza.\nPara que a desinfecção seja mais efetiva, o pH da água a ser tratada deve estar mais próximo de",
+      "statement": "Uma das etapas do tratamento da água é a desinfecção, sendo a cloração o método mais empregado.\nEsse método consiste na dissolução do gás cloro numa solução sob pressão e sua aplicação na água a ser desinfectada. As equações das reações químicas envolvidas são:\nCl₂ (g) + 2 H₂O (l) HClO (aq) + H₃O⁺ (aq) + Cl⁻ (aq) HClO (aq) + H₂O (l) H₃O⁺ (aq) + ClO⁻ (aq) pKₐ = − log Kₐ = 7,53 A ação desinfetante é controlada pelo ácido hipocloroso, que possui um potencial de desinfecção cerca de 80 vezes superior ao ânion hipoclorito. O pH do meio é importante, porque influencia na extensão com que o ácido hipocloroso se ioniza.\nPara que a desinfecção seja mais efetiva, o pH da água a ser tratada deve estar mais próximo de",
       "options": [
         {
           "letter": "A",
@@ -3290,7 +3290,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Sabe-se que o aumento da concentração de gases como CO, CH e NO na atmosfera é um dos fatores responsáveis 2 4 2 pelo agravamento do efeito estufa. A agricultura é uma das atividades humanas que pode contribuir tanto para a emissão quanto para o sequestro desses gases, dependendo do manejo da matéria orgânica do solo.",
+          "content": "Sabe-se que o aumento da concentração de gases como CO₂, CH₄ e N₂O na atmosfera é um dos fatores responsáveis pelo agravamento do efeito estufa. A agricultura é uma das atividades humanas que pode contribuir tanto para a emissão quanto para o sequestro desses gases, dependendo do manejo da matéria orgânica do solo.",
           "source": "ROSA, A. H.; COELHO, J. C. R. Cadernos Temáticos de Química Nova na Escola, São Paulo, n. 5, nov. 2003 (adaptado)."
         }
       ],
@@ -3305,7 +3305,7 @@
         },
         {
           "letter": "B",
-          "text": "Liberando o CO presente no solo. 2",
+          "text": "Liberando o CO₂ presente no solo.",
           "image_url": null,
           "is_correct": false
         },
@@ -3340,8 +3340,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O glifosato (C H NO P) é um herbicida pertencente 3 8 5 ao grupo químico das glicinas, classificado como não seletivo. Esse composto possui os grupos funcionais carboxilato, amino e fosfonato. A degradação do glifosato no solo é muito rápida e realizada por grande variedade de microrganismos, que usam o produto como fonte de energia e fósforo. Os produtos da degradação são o ácido aminometilfosfônico (AMPA) e o N-metilglicina (sarcosina):",
-          "source": "Glifosato O O H N P NH 2 OH H C OH 3 OH Sarcosina AMPA AMARANTE JR., O. P. et al. Química Nova, São Paulo, v. 25, n. 3, 2002 (adaptado)."
+          "content": "O glifosato (C₃H₈NO₅P) é um herbicida pertencente ao grupo químico das glicinas, classificado como não seletivo. Esse composto possui os grupos funcionais carboxilato, amino e fosfonato. A degradação do glifosato no solo é muito rápida e realizada por grande variedade de microrganismos, que usam o produto como fonte de energia e fósforo. Os produtos da degradação são o ácido aminometilfosfônico (AMPA) e o N-metilglicina (sarcosina):",
+          "source": "Glifosato O O H N P NH 2 OH H₃C OH OH Sarcosina AMPA AMARANTE JR., O. P. et al. Química Nova, São Paulo, v. 25, n. 3, 2002 (adaptado)."
         }
       ],
       "image_url": [
@@ -3390,7 +3390,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A formação frequente de grandes volumes de pirita (FeS ) em uma variedade de depósitos minerais favorece 2 a formação de soluções ácidas ferruginosas, conhecidas como “drenagem ácida de minas”. Esse fenômeno tem sido bastante pesquisado pelos cientistas e representa uma grande preocupação entre os impactos da mineração no ambiente. Em contato com oxigênio, a 25 °C, a pirita sofre reação, de acordo com a equação química: 4 FeS (s) + 15 O (g) + 2 HO (l) → 2 Fe(SO) (aq) + 2 HSO (aq) 2 2 2 2 43 2 4 FIGUEIREDO, B. R. Minérios e ambiente. Campinas: Unicamp, 2000.\nPara corrigir os problemas ambientais causados por essa drenagem, a substância mais recomendada a ser adicionada ao meio é o",
+      "statement": "A formação frequente de grandes volumes de pirita (FeS₂) em uma variedade de depósitos minerais favorece a formação de soluções ácidas ferruginosas, conhecidas como “drenagem ácida de minas”. Esse fenômeno tem sido bastante pesquisado pelos cientistas e representa uma grande preocupação entre os impactos da mineração no ambiente. Em contato com oxigênio, a 25 °C, a pirita sofre reação, de acordo com a equação química: 4 FeS₂ (s) + 15 O₂ (g) + 2 H₂O (l) → 2 Fe₂(SO₄)₃ (aq) + 2 H₂SO₄ (aq) FIGUEIREDO, B. R. Minérios e ambiente. Campinas: Unicamp, 2000.\nPara corrigir os problemas ambientais causados por essa drenagem, a substância mais recomendada a ser adicionada ao meio é o",
       "options": [
         {
           "letter": "A",
@@ -4040,7 +4040,7 @@
       "image_url": [
         "assets/images/enem_2013_cd1_q83-fig1.png"
       ],
-      "statement": "Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (R) e a dependência da s resistência com a temperatura é conhecida. 470 Ω 470 Ω 10 V + Voltímetro R = 100 Ω 120 Ω S Para um valor de temperatura em que R = 100 Ω, a S leitura apresentada pelo voltímetro será de",
+      "statement": "Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (Rₛ) e a dependência da resistência com a temperatura é conhecida. 470 Ω 470 Ω 10 V + Voltímetro R = 100 Ω 120 Ω S Para um valor de temperatura em que R = 100 Ω, a S leitura apresentada pelo voltímetro será de",
       "options": [
         {
           "letter": "A",
@@ -4135,35 +4135,35 @@
       "image_url": [
         "assets/images/enem_2013_cd1_q85-fig1.png"
       ],
-      "statement": "Desenvolve-se um dispositivo para abrir automaticamente uma porta no qual um botão, quando acionado, faz com que uma corrente elétrica i = 6 A percorra uma barra condutora de comprimento L = 5 cm, cujo ponto médio está preso a uma mola de constante elástica k = 5 × 10–2 N/cm. O sistema mola-condutor está imerso em um campo magnético uniforme perpendicular ao plano. Quando acionado o botão, a barra sairá da posição de equilíbrio a uma velocidade média de 5 m/s e atingirá a catraca em 6 milisegundos, abrindo a porta. x B catraca fio x x x i x x x x x k v L x x x x x mola i x x x x x isolante x (cm) C 0 A intensidade do campo magnético, para que o dispostivo funcione corretamente, é de",
+      "statement": "Desenvolve-se um dispositivo para abrir automaticamente uma porta no qual um botão, quando acionado, faz com que uma corrente elétrica i = 6 A percorra uma barra condutora de comprimento L = 5 cm, cujo ponto médio está preso a uma mola de constante elástica k = 5 × 10⁻² N/cm. O sistema mola-condutor está imerso em um campo magnético uniforme perpendicular ao plano. Quando acionado o botão, a barra sairá da posição de equilíbrio a uma velocidade média de 5 m/s e atingirá a catraca em 6 milisegundos, abrindo a porta. x B catraca fio x x x i x x x x x k v L x x x x x mola i x x x x x isolante x (cm) C 0 A intensidade do campo magnético, para que o dispostivo funcione corretamente, é de",
       "options": [
         {
           "letter": "A",
-          "text": "5 × 10–1 T.",
+          "text": "5 × 10⁻¹ T.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "5 × 10–2 T.",
+          "text": "5 × 10⁻² T.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "5 × 101 T.",
+          "text": "5 × 10¹ T.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "2 × 10–2 T.",
+          "text": "2 × 10⁻² T.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "2 × 100 T.",
+          "text": "2 × 10⁰ T.",
           "image_url": null,
           "is_correct": false
         }
@@ -4180,7 +4180,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "As fraldas descartáveis que contêm o polímero poliacrilato de sódio (1) são mais eficientes na retenção de água que as fraldas de pano convencionais, constituídas de fibras de celulose (2).\nOH HO n O O O O – Na+ n OH (1) (2)",
+          "content": "As fraldas descartáveis que contêm o polímero poliacrilato de sódio (1) são mais eficientes na retenção de água que as fraldas de pano convencionais, constituídas de fibras de celulose (2).\nOH HO n O O O O⁻ Na⁺ n OH (1) (2)",
           "source": "CURI, D. Química Nova na Escola, São Paulo, n. 23, maio 2006 (adaptado)."
         }
       ],

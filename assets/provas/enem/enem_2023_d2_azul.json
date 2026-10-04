@@ -313,7 +313,7 @@
         },
         {
           "letter": "C",
-          "text": "aumento da concentração de CO2.",
+          "text": "aumento da concentração de CO₂.",
           "image_url": null,
           "is_correct": false
         },
@@ -325,7 +325,7 @@
         },
         {
           "letter": "E",
-          "text": "isolamento do contato com O2 atmosférico.",
+          "text": "isolamento do contato com O₂ atmosférico.",
           "image_url": null,
           "is_correct": false
         }
@@ -1042,7 +1042,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O bluetooth é uma tecnologia de comunicação sem fio, de curto alcance, presente em diferentes dispositivos eletrônicos de consumo. Ela permite que aparelhos eletrônicos diferentes se conectem e troquem dados entre si. No padrão bluetooth, denominado de Classe 2, as antenas transmitem sinais de potência igual a 2,4 mW e possibilitam conectar dois dispositivos distanciados até 10 m. Considere que essas antenas se comportam como fontes puntiformes que emitem ondas eletromagnéticas esféricas e que a intensidade do sinal é calculada pela potência por unidade de área. Considere 3 como valor aproximado para π.\nW Para que o sinal de bluetooth seja detectado pelas antenas, o valor mínimo de sua intensidade, em , é mais m2 próximo de",
+      "statement": "O bluetooth é uma tecnologia de comunicação sem fio, de curto alcance, presente em diferentes dispositivos eletrônicos de consumo. Ela permite que aparelhos eletrônicos diferentes se conectem e troquem dados entre si. No padrão bluetooth, denominado de Classe 2, as antenas transmitem sinais de potência igual a 2,4 mW e possibilitam conectar dois dispositivos distanciados até 10 m. Considere que essas antenas se comportam como fontes puntiformes que emitem ondas eletromagnéticas esféricas e que a intensidade do sinal é calculada pela potência por unidade de área. Considere 3 como valor aproximado para π.\nPara que o sinal de bluetooth seja detectado pelas antenas, o valor mínimo de sua intensidade, em W/m², é mais próximo de",
       "options": [
         {
           "letter": "A",
@@ -1410,7 +1410,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Os solos amazônicos, ricos em silicato, não são apropriados para o cultivo por serem incapazes de reter nutrientes.\nContudo, descobertas arqueológicas têm demonstrado que os antigos habitantes da Amazônia dominavam a técnica de preparo de um insumo agrícola natural, denominado terra preta. Esse insumo era constituído principalmente de uma espécie de biocarvão (biochar) obtido da queima de matéria orgânica, como troncos de árvores, pedaços de ossos e esterco, capaz de manter um solo fértil por anos.\nAdmite-se que o efeito do biocarvão na fertilização do solo estava, em parte, relacionado à presença de grupos orgânicos do tipo carboxilato em sua superfície, carregados negativamente (—COO−). Esses grupos atraem íons positivos necessários como nutrientes, tais quais os provenientes do potássio (K), do cálcio (Ca) e do magnésio (Mg), além de micronutrientes, como zinco (Zn) e ferro (Fe). Essa ligação no solo fertilizado é predominantemente iônica, conforme ilustra a figura, em que Mn+ representa os cátions metálicos. De acordo com a escala de Pauling, a eletronegatividade do elemento oxigênio é igual a 3,44.\nO O– O O– Mn+ Mn+ Solo com biocarvão Solo fertilizado O quadro apresenta os valores de eletronegatividade desses cinco elementos metálicos.",
+          "content": "Os solos amazônicos, ricos em silicato, não são apropriados para o cultivo por serem incapazes de reter nutrientes.\nContudo, descobertas arqueológicas têm demonstrado que os antigos habitantes da Amazônia dominavam a técnica de preparo de um insumo agrícola natural, denominado terra preta. Esse insumo era constituído principalmente de uma espécie de biocarvão (biochar) obtido da queima de matéria orgânica, como troncos de árvores, pedaços de ossos e esterco, capaz de manter um solo fértil por anos.\nAdmite-se que o efeito do biocarvão na fertilização do solo estava, em parte, relacionado à presença de grupos orgânicos do tipo carboxilato em sua superfície, carregados negativamente (—COO⁻). Esses grupos atraem íons positivos necessários como nutrientes, tais quais os provenientes do potássio (K), do cálcio (Ca) e do magnésio (Mg), além de micronutrientes, como zinco (Zn) e ferro (Fe). Essa ligação no solo fertilizado é predominantemente iônica, conforme ilustra a figura, em que Mⁿ⁺ representa os cátions metálicos. De acordo com a escala de Pauling, a eletronegatividade do elemento oxigênio é igual a 3,44.\nO O⁻ O O⁻ Mⁿ⁺ Mn+ Solo com biocarvão Solo fertilizado O quadro apresenta os valores de eletronegatividade desses cinco elementos metálicos.",
           "source": "Elemento metálico Eletronegatividade K 0,82 Ca 1,00 Mg 1,31 Zn 1,65 Fe 1,83 MICHALOVIC, M. Ancient Soil Chemists of the Amazon. ChemMatters, fev. 2009 (adaptado)."
         }
       ],
@@ -1819,7 +1819,7 @@
         },
         {
           "letter": "E",
-          "text": "Leite, por causa do alto teor de gorduras.\nCN • 2º DIA • CAD",
+          "text": "Leite, por causa do alto teor de gorduras.",
           "image_url": null,
           "is_correct": true
         }
@@ -1887,7 +1887,7 @@
           "type": "text_block",
           "title": null,
           "content": "O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.",
-          "source": "CAVAGIS, A. D. M.; PEREIRA, E. A.; OLIVEIRA, L. C. Um método simples para avaliar o teor de sacarose e CO2 em refrigerantes. Química Nova na Escola, n. 3, ago. 2014 (adaptado)."
+          "source": "CAVAGIS, A. D. M.; PEREIRA, E. A.; OLIVEIRA, L. C. Um método simples para avaliar o teor de sacarose e CO₂ em refrigerantes. Química Nova na Escola, n. 3, ago. 2014 (adaptado)."
         }
       ],
       "image_url": null,
@@ -2348,35 +2348,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "No alojamento de uma universidade, há alguns quartos com o padrão superior ao dos demais. Um desses quartos ficou disponível, e muitos estudantes se candidataram para morar no local. Para escolher quem ficará com o quarto, um sorteio será realizado. Para esse sorteio, cartões individuais com os nomes de todos os estudantes inscritos serão depositados em uma urna, sendo que, para cada estudante de primeiro ano, será depositado um único cartão com seu nome; para cada estudante de segundo ano, dois cartões com seu nome; e, para cada estudante de terceiro ano, três cartões com seu nome. Foram inscritos 200 estudantes de primeiro ano, 150 de segundo ano e 100 de terceiro ano. Todos os cartões têm a mesma probabilidade de serem sorteados.\nQual a probabilidade de o vencedor do sorteio ser um estudante de terceiro ano? 1",
+      "statement": "No alojamento de uma universidade, há alguns quartos com o padrão superior ao dos demais. Um desses quartos ficou disponível, e muitos estudantes se candidataram para morar no local. Para escolher quem ficará com o quarto, um sorteio será realizado. Para esse sorteio, cartões individuais com os nomes de todos os estudantes inscritos serão depositados em uma urna, sendo que, para cada estudante de primeiro ano, será depositado um único cartão com seu nome; para cada estudante de segundo ano, dois cartões com seu nome; e, para cada estudante de terceiro ano, três cartões com seu nome. Foram inscritos 200 estudantes de primeiro ano, 150 de segundo ano e 100 de terceiro ano. Todos os cartões têm a mesma probabilidade de serem sorteados.\nQual a probabilidade de o vencedor do sorteio ser um estudante de terceiro ano?",
       "options": [
         {
           "letter": "A",
-          "text": "2 1",
+          "text": "1/2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "3 1",
+          "text": "1/3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "8 2",
+          "text": "1/8",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "9 3",
+          "text": "2/9",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "8",
+          "text": "3/8",
           "image_url": null,
           "is_correct": true
         }
@@ -2531,35 +2531,35 @@
       "image_url": [
         "assets/images/enem_2023_cd7_q145.png"
       ],
-      "statement": "Num certo momento de um jogo digital, a tela apresenta a imagem representada na figura. O ponto Q 1 representa a posição de um jogador que está com a bola, os pontos Q , Q , Q , Q e Q também indicam posições 2 3 4 5 6 de jogadores da mesma equipe, e os pontos A e B indicam os dois pés da trave mais próxima deles. No momento da partida retratado, o jogador Q tem a posse da bola, que 1 será passada para um dos outros jogadores das posições Q , n ∈ {2, 3, 4, 5, 6}, cujo ângulo AQ B tenha a mesma n n medida do ângulo AQB. 1 MT • 2º DIA • CAD Q3 A Q4 Q2 α B Q5 Q1 Q6 Qual é o jogador que receberá a bola?",
+      "statement": "Num certo momento de um jogo digital, a tela apresenta a imagem representada na figura. O ponto Q₁ representa a posição de um jogador que está com a bola, os pontos Q₂, Q₃, Q₄, Q₅ e Q₆ também indicam posições de jogadores da mesma equipe, e os pontos A e B indicam os dois pés da trave mais próxima deles. No momento da partida retratado, o jogador Q₁ tem a posse da bola, que será passada para um dos outros jogadores das posições Q , n ∈ {2, 3, 4, 5, 6}, cujo ângulo AQ B tenha a mesma n n medida do ângulo AQB. 1 Q3 A Q4 Q2 α B Q5 Q1 Q6 Qual é o jogador que receberá a bola?",
       "options": [
         {
           "letter": "A",
-          "text": "Q 2",
+          "text": "Q₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Q 3",
+          "text": "Q₃",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Q 4",
+          "text": "Q₄",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Q 5",
+          "text": "Q₅",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "Q 6",
+          "text": "Q₆",
           "image_url": null,
           "is_correct": false
         }
@@ -2671,29 +2671,29 @@
       "image_url": [
         "assets/images/enem_2023_cd7_q148.png"
       ],
-      "statement": "O mastro de uma bandeira foi instalado perpendicularmente ao solo em uma região plana.\nDevido aos fortes ventos, três cabos de aço, de mesmo comprimento, serão instalados para dar sustentação ao mastro. Cada cabo de aço ficará perfeitamente esticado, com uma extremidade num ponto P do mastro, a uma altura h do solo, e a outra extremidade, num ponto no chão, como mostra a figura.\nP h α α α Os cabos de aço formam um ângulo a com o plano do chão.\nPor medida de segurança, há apenas três opções de instalação: • opção I: h = 11 m e a = 30° • opção II: h = 12 m e a = 45° • opção III: h = 18 m e a = 60° 20 MT • 2º DIA • CAD A opção a ser escolhida é aquela em que a medida dos cabos seja a menor possível.\nQual será a medida, em metro, de cada um dos cabos a serem instalados? 22 3",
+      "statement": "O mastro de uma bandeira foi instalado perpendicularmente ao solo em uma região plana.\nDevido aos fortes ventos, três cabos de aço, de mesmo comprimento, serão instalados para dar sustentação ao mastro. Cada cabo de aço ficará perfeitamente esticado, com uma extremidade num ponto P do mastro, a uma altura h do solo, e a outra extremidade, num ponto no chão, como mostra a figura.\nP h α α α Os cabos de aço formam um ângulo a com o plano do chão.\nPor medida de segurança, há apenas três opções de instalação: • opção I: h = 11 m e a = 30° • opção II: h = 12 m e a = 45° • opção III: h = 18 m e a = 60° 20 A opção a ser escolhida é aquela em que a medida dos cabos seja a menor possível.\nQual será a medida, em metro, de cada um dos cabos a serem instalados?",
       "options": [
         {
           "letter": "A",
-          "text": "3",
+          "text": "22√3/3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "11 2",
+          "text": "11√2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "12 2",
+          "text": "12√2",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "12 3",
+          "text": "12√3",
           "image_url": null,
           "is_correct": false
         },
@@ -2854,7 +2854,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A exposição a alguns níveis sonoros pode causar lesões auditivas. Por isso, em uma indústria, são adotadas medidas preventivas de acordo com a máquina que o funcionário opera e o nível N de intensidade do som, medido em decibel (dB), a que o operário é exposto, sendo N = log I 10 − log I 10, I a intensidade do som e 10 10 0 I = 10−12 W/m2. 0 Disponível em: www.sofisica.com.br. Acesso em: 8 jul. 2015 (adaptado). Quando o som é considerado baixo, ou seja, N = 48 dB ou menos, deve ser utilizada a medida preventiva I. No caso de o som ser moderado, quando N está no intervalo (48 dB, 55 dB), deve ser utilizada a medida preventiva II. Quando o som é moderado alto, que equivale a N no intervalo (55 dB, 80 dB), a medida preventiva a ser usada é a III. Se N estiver no intervalo (80 dB, 115 dB), quando o som é considerado alto, deve ser utilizada a medida preventiva IV. E se o som é considerado muito alto, com N maior que 115 dB, deve-se utilizar a medida preventiva V.\nUma nova máquina, com I = 8 × 10−8 W/m2, foi adquirida e será classificada de acordo com o nível de ruído que produz.\nConsidere 0,3 como aproximação para log 2. 10 O funcionário que operará a nova máquina deverá adotar a medida preventiva",
+      "statement": "A exposição a alguns níveis sonoros pode causar lesões auditivas. Por isso, em uma indústria, são adotadas medidas preventivas de acordo com a máquina que o funcionário opera e o nível N de intensidade do som, medido em decibel (dB), a que o operário é exposto, sendo N = log₁₀ I¹⁰ − log₁₀ I₀¹⁰, I a intensidade do som e I₀ = 10⁻¹² W/m². Disponível em: www.sofisica.com.br. Acesso em: 8 jul. 2015 (adaptado). Quando o som é considerado baixo, ou seja, N = 48 dB ou menos, deve ser utilizada a medida preventiva I. No caso de o som ser moderado, quando N está no intervalo (48 dB, 55 dB), deve ser utilizada a medida preventiva II. Quando o som é moderado alto, que equivale a N no intervalo (55 dB, 80 dB), a medida preventiva a ser usada é a III. Se N estiver no intervalo (80 dB, 115 dB), quando o som é considerado alto, deve ser utilizada a medida preventiva IV. E se o som é considerado muito alto, com N maior que 115 dB, deve-se utilizar a medida preventiva V.\nUma nova máquina, com I = 8 × 10⁻⁸ W/m², foi adquirida e será classificada de acordo com o nível de ruído que produz.\nConsidere 0,3 como aproximação para log₁₀ 2. O funcionário que operará a nova máquina deverá adotar a medida preventiva",
       "options": [
         {
           "letter": "A",
@@ -3206,11 +3206,11 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Ao realizar o cadastro em um aplicativo de investimentos, foi solicitado ao usuário que criasse uma senha, sendo permitido o uso somente dos seguintes caracteres: • algarismos de 0 a 9; • 26 letras minúsculas do alfabeto; • 26 letras maiúsculas do alfabeto; • 6 caracteres especiais !, @, #, $, , &.\nTrês tipos de estruturas para senha foram apresentadas ao usuário: • tipo I: formada por quaisquer quatro caracteres distintos, escolhidos dentre os permitidos; • tipo II: formada por cinco caracteres distintos, iniciando por três letras, seguidas por um algarismo e, ao final, um caractere especial; • tipo III: formada por seis caracteres distintos, iniciando por duas letras, seguidas por dois algarismos e, ao final, dois caracteres especiais.\nConsidere p , p e p as probabilidades de se 1 2 3 descobrirem ao acaso, na primeira tentativa, as senhas dos tipos I, II e III, respectivamente.\nNessas condições, o tipo de senha que apresenta a menor probabilidade de ser descoberta ao acaso, na primeira tentativa, é o",
+      "statement": "Ao realizar o cadastro em um aplicativo de investimentos, foi solicitado ao usuário que criasse uma senha, sendo permitido o uso somente dos seguintes caracteres: • algarismos de 0 a 9; • 26 letras minúsculas do alfabeto; • 26 letras maiúsculas do alfabeto; • 6 caracteres especiais !, @, #, $, , &.\nTrês tipos de estruturas para senha foram apresentadas ao usuário: • tipo I: formada por quaisquer quatro caracteres distintos, escolhidos dentre os permitidos; • tipo II: formada por cinco caracteres distintos, iniciando por três letras, seguidas por um algarismo e, ao final, um caractere especial; • tipo III: formada por seis caracteres distintos, iniciando por duas letras, seguidas por dois algarismos e, ao final, dois caracteres especiais.\nConsidere p₁, p₂ e p₃ as probabilidades de se descobrirem ao acaso, na primeira tentativa, as senhas dos tipos I, II e III, respectivamente.\nNessas condições, o tipo de senha que apresenta a menor probabilidade de ser descoberta ao acaso, na primeira tentativa, é o",
       "options": [
         {
           "letter": "A",
-          "text": "tipo I, pois p < p < p . 1 2 3",
+          "text": "tipo I, pois p₁ < p₂ < p₃.",
           "image_url": null,
           "is_correct": true
         },
@@ -3228,7 +3228,7 @@
         },
         {
           "letter": "D",
-          "text": "tipo III, pois p < p < p . 3 2 1",
+          "text": "tipo III, pois p₃ < p₂ < p₁.",
           "image_url": null,
           "is_correct": false
         },
@@ -3572,35 +3572,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em um colégio público, a admissão no primeiro ano se dá por sorteio. Neste ano há 55 candidatos, cujas inscrições são numeradas de 01 a 55. O sorteio de cada número de inscrição será realizado em etapas, utilizando-se duas urnas. Da primeira urna será sorteada uma bola, dentre bolas numeradas de 0 a 9, que representará o algarismo das unidades do número de inscrição a ser sorteado e, em seguida, da segunda urna, será sorteada uma bola para representar o algarismo das dezenas desse número. Depois do primeiro sorteio, e antes de se sortear o algarismo das dezenas, as bolas que estarão presentes na segunda urna serão apenas aquelas cujos números formam, com o algarismo já sorteado, um número de 01 a 55.\nAs probabilidades de os candidatos de inscrição número 50 e 02 serem sorteados são, respectivamente, 1 1",
+      "statement": "Em um colégio público, a admissão no primeiro ano se dá por sorteio. Neste ano há 55 candidatos, cujas inscrições são numeradas de 01 a 55. O sorteio de cada número de inscrição será realizado em etapas, utilizando-se duas urnas. Da primeira urna será sorteada uma bola, dentre bolas numeradas de 0 a 9, que representará o algarismo das unidades do número de inscrição a ser sorteado e, em seguida, da segunda urna, será sorteada uma bola para representar o algarismo das dezenas desse número. Depois do primeiro sorteio, e antes de se sortear o algarismo das dezenas, as bolas que estarão presentes na segunda urna serão apenas aquelas cujos números formam, com o algarismo já sorteado, um número de 01 a 55.\nAs probabilidades de os candidatos de inscrição número 50 e 02 serem sorteados são, respectivamente,",
       "options": [
         {
           "letter": "A",
-          "text": "e 50 60 1 1",
+          "text": "1/50 e 1/60",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "e 50 50 1 1",
+          "text": "1/50 e 1/50",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "e 50 10 1 1",
+          "text": "1/50 e 1/10",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "e 55 54 1 1",
+          "text": "1/55 e 1/54",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "e 100 100",
+          "text": "1/100 e 1/100",
           "image_url": null,
           "is_correct": false
         }
@@ -3660,7 +3660,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Analisando as vendas de uma empresa, o gerente concluiu que o montante diário arrecadado, em milhar de real, poderia ser calculado pela expressão V(x) = x²/4 − 10x + 105, em que os valores de x representam os dias do mês, variando de 1 a 30.\nUm dos fatores para avaliar o desempenho mensal da empresa é verificar qual é o menor montante diário V 0 arrecadado ao longo do mês e classificar o desempenho conforme as categorias apresentadas a seguir, em que as quantidades estão expressas em milhar de real. • Ótimo: V ≥ 24 0 • Bom: 20 ≤ V < 24 0 • Normal: 10 ≤ V < 20 0 • Ruim: 4 ≤ V < 10 0 • Péssimo: V < 4 0 No caso analisado, qual seria a classificação do desempenho da empresa?",
+      "statement": "Analisando as vendas de uma empresa, o gerente concluiu que o montante diário arrecadado, em milhar de real, poderia ser calculado pela expressão V(x) = x²/4 − 10x + 105, em que os valores de x representam os dias do mês, variando de 1 a 30.\nUm dos fatores para avaliar o desempenho mensal da empresa é verificar qual é o menor montante diário V₀ arrecadado ao longo do mês e classificar o desempenho conforme as categorias apresentadas a seguir, em que as quantidades estão expressas em milhar de real. • Ótimo: V₀ ≥ 24 • Bom: 20 ≤ V₀ < 24 • Normal: 10 ≤ V₀ < 20 • Ruim: 4 ≤ V₀ < 10 • Péssimo: V₀ < 4 No caso analisado, qual seria a classificação do desempenho da empresa?",
       "options": [
         {
           "letter": "A",
@@ -3756,7 +3756,7 @@
         "assets/images/enem_2023_cd7_q172.png",
         "assets/images/enem_2023_cd7_q172-2.png"
       ],
-      "statement": "Sejam a, b e c as medidas dos lados de um triângulo retângulo, tendo a como medida da hipotenusa. Esses valores a, b e c são, respectivamente, os diâmetros dos círculos C , C e C , como apresentados na figura. 1 2 3 Círculo C 1 a c Círculo C 3 b Círculo C 2 Observe que essa construção assegura, pelo teorema de Pitágoras, que área (C) = área (C ) + área (C ). 1 2 3 Um professor de matemática era conhecedor dessa construção e, confraternizando com dois amigos em uma pizzaria onde são vendidas pizzas somente em formato de círculo, lançou um desafio: mesmo sem usar um instrumento de medição, poderia afirmar com certeza se a área do círculo correspondente à pizza que ele pedisse era maior, igual ou menor do que a soma das áreas das pizzas dos dois amigos. Assim, foram pedidas três pizzas.\nO professor as dividiu ao meio e formou um triângulo com os diâmetros das pizzas, conforme indicado na figura.\nA área da pizza do professor de matemática é maior do que a soma das áreas das outras duas pizzas, pois",
+      "statement": "Sejam a, b e c as medidas dos lados de um triângulo retângulo, tendo a como medida da hipotenusa. Esses valores a, b e c são, respectivamente, os diâmetros dos círculos C₁, C₂ e C₃, como apresentados na figura. Círculo C₁ a c Círculo C₃ b Círculo C₂ Observe que essa construção assegura, pelo teorema de Pitágoras, que área (C₁) = área (C₂) + área (C₃). Um professor de matemática era conhecedor dessa construção e, confraternizando com dois amigos em uma pizzaria onde são vendidas pizzas somente em formato de círculo, lançou um desafio: mesmo sem usar um instrumento de medição, poderia afirmar com certeza se a área do círculo correspondente à pizza que ele pedisse era maior, igual ou menor do que a soma das áreas das pizzas dos dois amigos. Assim, foram pedidas três pizzas.\nO professor as dividiu ao meio e formou um triângulo com os diâmetros das pizzas, conforme indicado na figura.\nA área da pizza do professor de matemática é maior do que a soma das áreas das outras duas pizzas, pois",
       "options": [
         {
           "letter": "A",
@@ -3984,7 +3984,7 @@
       "image_url": [
         "assets/images/enem_2023_cd7_q177-1.png"
       ],
-      "statement": "A figura ilustra uma roda-gigante no exato instante em que a cadeira onde se encontra a pessoa P está no ponto mais alto dessa roda-gigante.\nP Solo Com o passar do tempo, à medida que a roda-gigante gira, com velocidade angular constante e no sentido horário, a altura da cadeira onde se encontra a pessoa P, em relação ao solo, vai se alterando. 30 MT • 2º DIA • CAD O gráfico que melhor representa a variação dessa altura, em função do tempo, contado a partir do instante em que a cadeira da pessoa P se encontra na posição mais alta da roda-gigante, é",
+      "statement": "A figura ilustra uma roda-gigante no exato instante em que a cadeira onde se encontra a pessoa P está no ponto mais alto dessa roda-gigante.\nP Solo Com o passar do tempo, à medida que a roda-gigante gira, com velocidade angular constante e no sentido horário, a altura da cadeira onde se encontra a pessoa P, em relação ao solo, vai se alterando. 30 O gráfico que melhor representa a variação dessa altura, em função do tempo, contado a partir do instante em que a cadeira da pessoa P se encontra na posição mais alta da roda-gigante, é",
       "options": [
         {
           "letter": "A",

@@ -1918,7 +1918,7 @@
         },
         {
           "letter": "B",
-          "text": "Pela ação de ONGs (Organizações Não Governamen-tais) que limitam os investimentos estatais chineses, uma vez que estes se mostram desinteressados em relação aos problemas sociais africanos.",
+          "text": "Pela ação de ONGs (Organizações Não Governamentais) que limitam os investimentos estatais chineses, uma vez que estes se mostram desinteressados em relação aos problemas sociais africanos.",
           "image_url": null,
           "is_correct": false
         },
@@ -2233,7 +2233,7 @@
         },
         {
           "letter": "E",
-          "text": "a fuga decorrente de conflitos políticos e o fortalecimento de políticas sociais. \nCIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+          "text": "a fuga decorrente de conflitos políticos e o fortalecimento de políticas sociais.",
           "image_url": null,
           "is_correct": false
         }
@@ -2404,7 +2404,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Um paciente deu entrada em um pronto-socorro apresentando os seguintes sintomas: cansaço, dificuldade em respirar e sangramento nasal. O médico solicitou um hemograma ao paciente para definir um diagnóstico. Os resultados estão dispostos na tabela:\nConstituinte Número normal Paciente Glóbulos 4,8 milhões/mm3 4 milhões/mm3 vermelhos Glóbulos (5 000 – 10 000)/mm3 9 000/mm3 brancos Plaquetas (250 000 – 400 000)/mm3 200 000/mm3 TORTORA, G. J. Corpo Humano: fundamentos de anatomia e fisiologia.",
+          "content": "Um paciente deu entrada em um pronto-socorro apresentando os seguintes sintomas: cansaço, dificuldade em respirar e sangramento nasal. O médico solicitou um hemograma ao paciente para definir um diagnóstico. Os resultados estão dispostos na tabela:\nConstituinte Número normal Paciente Glóbulos 4,8 milhões/mm³ 4 milhões/mm³ vermelhos Glóbulos (5 000 – 10 000)/mm³ 9 000/mm³ brancos Plaquetas (250 000 – 400 000)/mm³ 200 000/mm³ TORTORA, G. J. Corpo Humano: fundamentos de anatomia e fisiologia.",
           "source": "Porto Alegre: Artmed, 2000 (adaptado)."
         }
       ],
@@ -2457,7 +2457,7 @@
           "type": "text_block",
           "title": null,
           "content": "Um dos problemas dos combustíveis que contêm carbono é que sua queima produz dióxido de carbono.\nPortanto, uma característica importante, ao se escolher um combustível, é analisar seu calor de combustão (∆Hº), definido como a energia liberada na queima c completa de um mol de combustível no estado padrão.",
-          "source": "O quadro seguinte relaciona algumas substâncias que contêm carbono e seu ∆Hº. c Substância Fórmula ∆Hº (kJ/mol) c benzeno C H (l) -3 268 6 6 etanol C H OH (l) -1 368 2 5 glicose C H O (s) -2 808 6 12 6 metano CH (g) -890 4 octano C H (l) -5 471 8 18 ATKINS, P. Princípios de Química. Bookman, 2007 (adaptado)."
+          "source": "O quadro seguinte relaciona algumas substâncias que contêm carbono e seu ∆Hº. c Substância Fórmula ∆Hº (kJ/mol) c benzeno C₆H₆ (l) -3 268 etanol C₂H₅OH (l) -1 368 glicose C₆H₁₂O₆ (s) -2 808 metano CH₄ (g) -890 octano C₈H₁₈ (l) -5 471 ATKINS, P. Princípios de Química. Bookman, 2007 (adaptado)."
         }
       ],
       "image_url": [
@@ -2942,7 +2942,7 @@
       "image_url": [
         "assets/images/enem_2011_cd1_q60.png"
       ],
-      "statement": "Em um manual de um chuveiro elétrico são encontradas informações sobre algumas características técnicas, ilustradas no quadro, como a tensão de alimentação, a potência dissipada, o dimensionamento do disjuntor ou fusível, e a área da seção transversal dos condutores utilizados.\nUma pessoa adquiriu um chuveiro do modelo A e, ao ler o manual, verificou que precisava ligá-lo a um disjuntor de 50 amperes. No entanto, intrigou-se com o fato de que o disjuntor a ser utilizado para uma correta instalação de um chuveiro do modelo B devia possuir amperagem 40% menor.\nConsiderando-se os chuveiros de modelos A e B, funcionando à mesma potência de 4 400 W, a razão entre as suas respectivas resistências elétricas, R e A R , que justifica a diferença de dimensionamento dos B disjuntores, é mais próxima de:",
+      "statement": "Em um manual de um chuveiro elétrico são encontradas informações sobre algumas características técnicas, ilustradas no quadro, como a tensão de alimentação, a potência dissipada, o dimensionamento do disjuntor ou fusível, e a área da seção transversal dos condutores utilizados.\nUma pessoa adquiriu um chuveiro do modelo A e, ao ler o manual, verificou que precisava ligá-lo a um disjuntor de 50 amperes. No entanto, intrigou-se com o fato de que o disjuntor a ser utilizado para uma correta instalação de um chuveiro do modelo B devia possuir amperagem 40% menor.\nConsiderando-se os chuveiros de modelos A e B, funcionando à mesma potência de 4 400 W, a razão entre as suas respectivas resistências elétricas, Rₐ e Rʙ, que justifica a diferença de dimensionamento dos disjuntores, é mais próxima de:",
       "options": [
         {
           "letter": "A",
@@ -3059,7 +3059,7 @@
         },
         {
           "letter": "D",
-          "text": "CO . 2",
+          "text": "CO₂.",
           "image_url": null,
           "is_correct": false
         },
@@ -3574,7 +3574,7 @@
       "image_url": [
         "assets/images/enem_2011_cd1_q73.png"
       ],
-      "statement": "Em um experimento realizado para determinar a densidade da água de um lago, foram utilizados alguns materiais conforme ilustrado: um dinamômetro D com graduação de 0 N a 50 N e um cubo maciço e homogêneo de 10 cm de aresta e 3 kg de massa. Inicialmente, foi conferida a calibração do dinamômetro, constatando-se a leitura de 30 N quando o cubo era preso ao dinamômetro e suspenso no ar. Ao mergulhar o cubo na água do lago, até que metade do seu volume ficasse submersa, foi registrada a leitura de 24 N no dinamômetro.\nConsiderando que a aceleração da gravidade local é de 10 m/s2, a densidade da água do lago, em g/cm3, é",
+      "statement": "Em um experimento realizado para determinar a densidade da água de um lago, foram utilizados alguns materiais conforme ilustrado: um dinamômetro D com graduação de 0 N a 50 N e um cubo maciço e homogêneo de 10 cm de aresta e 3 kg de massa. Inicialmente, foi conferida a calibração do dinamômetro, constatando-se a leitura de 30 N quando o cubo era preso ao dinamômetro e suspenso no ar. Ao mergulhar o cubo na água do lago, até que metade do seu volume ficasse submersa, foi registrada a leitura de 24 N no dinamômetro.\nConsiderando que a aceleração da gravidade local é de 10 m/s², a densidade da água do lago, em g/cm³, é",
       "options": [
         {
           "letter": "A",
@@ -3680,31 +3680,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "OH-, que reage com os íons Ca2+, deslocando o equilíbrio para a direita.",
+          "text": "OH⁻, que reage com os íons Ca²⁺, deslocando o equilíbrio para a direita.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "H+, que reage com as hidroxilas OH-, deslocando o equilíbrio para a direita.",
+          "text": "H⁺, que reage com as hidroxilas OH⁻, deslocando o equilíbrio para a direita.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "OH-, que reage com os íons Ca2+, deslocando o equilíbrio para a esquerda.",
+          "text": "OH⁻, que reage com os íons Ca²⁺, deslocando o equilíbrio para a esquerda.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "H+, que reage com as hidroxilas OH-, deslocando o equilíbrio para a esquerda.",
+          "text": "H⁺, que reage com as hidroxilas OH⁻, deslocando o equilíbrio para a esquerda.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "Ca2+, que reage com as hidroxilas OH-, deslocando o equilíbrio para a esquerda.",
+          "text": "Ca²⁺, que reage com as hidroxilas OH⁻, deslocando o equilíbrio para a esquerda.",
           "image_url": null,
           "is_correct": false
         }
@@ -3923,7 +3923,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Segundo dados do Balanço Energético Nacional de 2008, do Ministério das Minas e Energia, a matriz energética brasileira é composta por hidrelétrica (80%), termelétrica (19,9%) e eólica (0,1%). Nas termelétricas, esse percentual é dividido conforme o combustível usado, sendo: gás natural (6,6%), biomassa (5,3%), derivados de petróleo (3,3%), energia nuclear (3,1%) e carvão mineral (1,6%). Com a geração de eletricidade da biomassa, pode-se considerar que ocorre uma compensação do carbono liberado na queima do material vegetal pela absorção desse elemento no crescimento das plantas. Entretanto, estudos indicam que as emissões de metano (CH ) das hidrelétricas podem ser 4 comparáveis às emissões de CO das termelétricas. 2 MORET, A. S.; FERREIRA, I. A. As hidrelétricas do Rio Madeira e os impactos socioambientais da eletrificação no Brasil. Revista Ciência Hoje. V. 45, n° 265, 2009 (adaptado). No Brasil, em termos do impacto das fontes de energia no crescimento do efeito estufa, quanto à emissão de gases, as hidrelétricas seriam consideradas como uma fonte",
+      "statement": "Segundo dados do Balanço Energético Nacional de 2008, do Ministério das Minas e Energia, a matriz energética brasileira é composta por hidrelétrica (80%), termelétrica (19,9%) e eólica (0,1%). Nas termelétricas, esse percentual é dividido conforme o combustível usado, sendo: gás natural (6,6%), biomassa (5,3%), derivados de petróleo (3,3%), energia nuclear (3,1%) e carvão mineral (1,6%). Com a geração de eletricidade da biomassa, pode-se considerar que ocorre uma compensação do carbono liberado na queima do material vegetal pela absorção desse elemento no crescimento das plantas. Entretanto, estudos indicam que as emissões de metano (CH₄) das hidrelétricas podem ser comparáveis às emissões de CO₂ das termelétricas. MORET, A. S.; FERREIRA, I. A. As hidrelétricas do Rio Madeira e os impactos socioambientais da eletrificação no Brasil. Revista Ciência Hoje. V. 45, n° 265, 2009 (adaptado). No Brasil, em termos do impacto das fontes de energia no crescimento do efeito estufa, quanto à emissão de gases, as hidrelétricas seriam consideradas como uma fonte",
       "options": [
         {
           "letter": "A",
@@ -3968,7 +3968,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O peróxido de hidrogênio é comumente utilizado como antisséptico e alvejante. Também pode ser empregado em trabalhos de restauração de quadros enegrecidos e no clareamento de dentes. Na presença de soluções ácidas de oxidantes, como o permanganato de potássio, este óxido decompõe-se, conforme a equação a seguir: 5 H O (aq) + 2 KMnO (aq) + 3 H SO (aq) 2 2 4 2 4 5 O (g) + 2 MnSO (aq) + K SO (aq) + 8 H O (l) 2 4 2 4 2 ROCHA-FILHO, R. C. R.; SILVA, R. R. Introdução aos Cálculos da Química.",
+          "content": "O peróxido de hidrogênio é comumente utilizado como antisséptico e alvejante. Também pode ser empregado em trabalhos de restauração de quadros enegrecidos e no clareamento de dentes. Na presença de soluções ácidas de oxidantes, como o permanganato de potássio, este óxido decompõe-se, conforme a equação a seguir: 5 H₂O₂ (aq) + 2 KMnO₄ (aq) + 3 H₂SO₄ (aq) 5 O₂ (g) + 2 MnSO₄ (aq) + K₂SO₄ (aq) + 8 H₂O (l) ROCHA-FILHO, R. C. R.; SILVA, R. R. Introdução aos Cálculos da Química.",
           "source": "São Paulo: McGraw-Hill, 1992."
         }
       ],
@@ -3979,31 +3979,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "2,0×100 mol.",
+          "text": "2,0×10⁰ mol.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "2,0×10-3 mol.",
+          "text": "2,0×10⁻³ mol.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "8,0×10-1 mol.",
+          "text": "8,0×10⁻¹ mol.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "8,0×10-4 mol.",
+          "text": "8,0×10⁻⁴ mol.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "5,0×10-3 mol.",
+          "text": "5,0×10⁻³ mol.",
           "image_url": null,
           "is_correct": false
         }
@@ -4091,13 +4091,13 @@
         },
         {
           "letter": "C",
-          "text": "a contaminação de rios e lagos devido à alta solubilidade de íons como NO - e NH + em água. 3 4",
+          "text": "a contaminação de rios e lagos devido à alta solubilidade de íons como NO₃⁻ e NH₄⁺ em água.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "a diminuição do pH do solo pela presença de NH , 3 que reage com a água, formando o NH OH (aq). 4",
+          "text": "a diminuição do pH do solo pela presença de NH₃, que reage com a água, formando o NH₄OH (aq).",
           "image_url": null,
           "is_correct": false
         },

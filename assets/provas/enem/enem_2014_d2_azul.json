@@ -2404,35 +2404,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um carpinteiro fabrica portas retangulares maciças, feitas de um mesmo material. Por ter recebido de seus clientes pedidos de portas mais altas, aumentou sua 1 altura em , preservando suas espessuras. A fim de 8 manter o custo com o material de cada porta, precisou reduzir a largura.\nA razão entre a largura da nova porta e a largura da porta anterior é 1",
+      "statement": "Um carpinteiro fabrica portas retangulares maciças, feitas de um mesmo material. Por ter recebido de seus clientes pedidos de portas mais altas, aumentou sua 1 altura em , preservando suas espessuras. A fim de 8 manter o custo com o material de cada porta, precisou reduzir a largura.\nA razão entre a largura da nova porta e a largura da porta anterior é",
       "options": [
         {
           "letter": "A",
-          "text": "8 7",
+          "text": "1/8",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "8 8",
+          "text": "7/8",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "7 8",
+          "text": "8/7",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "9 9",
+          "text": "8/9",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "8",
+          "text": "9/8",
           "image_url": null,
           "is_correct": false
         }
@@ -2539,7 +2539,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Na alimentação de gado de corte, o processo de cortar a forragem, colocá-la no solo, compactá-la e protegê-la com uma vedação denomina-se silagem. Os silos mais comuns são os horizontais, cuja forma é a de um prisma reto trapezoidal, conforme mostrado na figura. h Legenda:\nB b - largura do fundo B - largura do topo C C - comprimento do silo h - altura do silo b Considere um silo de 2 m de altura, 6 m de largura de topo e 20 m de comprimento. Para cada metro de altura do silo, a largura do topo tem 0,5 m a mais do que a largura do fundo. Após a silagem, 1 tonelada de forragem ocupa 2 m3 desse tipo de silo.",
+          "content": "Na alimentação de gado de corte, o processo de cortar a forragem, colocá-la no solo, compactá-la e protegê-la com uma vedação denomina-se silagem. Os silos mais comuns são os horizontais, cuja forma é a de um prisma reto trapezoidal, conforme mostrado na figura. h Legenda:\nB b - largura do fundo B - largura do topo C C - comprimento do silo h - altura do silo b Considere um silo de 2 m de altura, 6 m de largura de topo e 20 m de comprimento. Para cada metro de altura do silo, a largura do topo tem 0,5 m a mais do que a largura do fundo. Após a silagem, 1 tonelada de forragem ocupa 2 m³ desse tipo de silo.",
           "source": "EMBRAPA. Gado de corte. Disponível em: www.cnpgc.embrapa.br. Acesso em: 1 ago. 2012 (adaptado)."
         }
       ],
@@ -2692,7 +2692,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "y = − x2 + x 25 5",
+          "text": "y = − x² + x 25 5",
           "image_url": null,
           "is_correct": true
         },
@@ -2731,7 +2731,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Durante a Segunda Guerra Mundial, para decifrarem as mensagens secretas, foi utilizada a técnica de decomposição em fatores primos. Um número N é dado pela expressão 2x ⋅ 5y ⋅ 7z, na qual x, y e z são números inteiros não negativos. Sabe-se que N é múltiplo de 10 e não é múltiplo de 7.\nO número de divisores de N, diferentes de N, é",
+      "statement": "Durante a Segunda Guerra Mundial, para decifrarem as mensagens secretas, foi utilizada a técnica de decomposição em fatores primos. Um número N é dado pela expressão 2ˣ ⋅ 5ʸ ⋅ 7ᶻ, na qual x, y e z são números inteiros não negativos. Sabe-se que N é múltiplo de 10 e não é múltiplo de 7.\nO número de divisores de N, diferentes de N, é",
       "options": [
         {
           "letter": "A",
@@ -2825,25 +2825,25 @@
       "options": [
         {
           "letter": "A",
-          "text": "f(x) = − √ 2 − x2",
+          "text": "f(x) = − √ 2 − x²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "f(x) = √ 2 − x2",
+          "text": "f(x) = √ 2 − x²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "f(x) = x2 − 2",
+          "text": "f(x) = x² − 2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "f(x) = − √ 4 − x2",
+          "text": "f(x) = − √ 4 − x²",
           "image_url": null,
           "is_correct": true
         },
@@ -3510,31 +3510,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "20 × 8! + (3!)2",
+          "text": "20 × 8! + (3!)²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "8! × 5! × 3! 8! × 5! × 3!",
+          "text": "8! × 5! × 3!",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "28 8! × 5! × 3!",
+          "text": "(8! × 5! × 3!)/2⁸",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "22 16!",
+          "text": "(8! × 5! × 3!)/2²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "28",
+          "text": "16!/2⁸",
           "image_url": null,
           "is_correct": false
         }

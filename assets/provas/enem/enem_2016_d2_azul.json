@@ -2776,35 +2776,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O tênis é um esporte em que a estratégia de jogo a ser adotada depende, entre outros fatores, de o adversário ser canhoto ou destro.\nUm clube tem um grupo de 10 tenistas, sendo que 4 são canhotos e 6 são destros. O técnico do clube deseja realizar uma partida de exibição entre dois desses jogadores, porém, não poderão ser ambos canhotos.\nQual o número de possibilidades de escolha dos tenistas para a partida de exibição? 10! 4!",
+      "statement": "O tênis é um esporte em que a estratégia de jogo a ser adotada depende, entre outros fatores, de o adversário ser canhoto ou destro.\nUm clube tem um grupo de 10 tenistas, sendo que 4 são canhotos e 6 são destros. O técnico do clube deseja realizar uma partida de exibição entre dois desses jogadores, porém, não poderão ser ambos canhotos.\nQual o número de possibilidades de escolha dos tenistas para a partida de exibição?",
       "options": [
         {
           "letter": "A",
-          "text": "− 2! × 8! 2! × 2! 10! 4!",
+          "text": "10!/(2! × 8!) − 4!/(2! × 2!)",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "− 8! 2! 10!",
+          "text": "10!/8! − 4!/2!",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "− 2 2! × 8! 6!",
+          "text": "10!/(2! × 8!) − 2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "+ 4 × 4 4! 6!",
+          "text": "6!/4! + 4 × 4",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "+ 6 × 4 4!",
+          "text": "6!/4! + 6 × 4",
           "image_url": null,
           "is_correct": false
         }
@@ -3336,7 +3336,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um posto de saúde registrou a quantidade de vacinas aplicadas contra febre amarela nos últimos cinco meses: • 1o mês: 21; • 2o mês: 22; • 3o mês: 25; • 4o mês: 31; • 5o mês: 21.\nNo início do primeiro mês, esse posto de saúde tinha 228 vacinas contra febre amarela em estoque. A política de reposição do estoque prevê a aquisição de novas vacinas, no início do sexto mês, de tal forma que a quantidade inicial em estoque para os próximos meses seja igual a 12 vezes a média das quantidades mensais dessas vacinas aplicadas nos últimos cinco meses.\nPara atender essas condições, a quantidade de vacinas contra febre amarela que o posto de saúde deve adquirir no início do sexto mês é",
+      "statement": "Um posto de saúde registrou a quantidade de vacinas aplicadas contra febre amarela nos últimos cinco meses: • 1º mês: 21; • 2º mês: 22; • 3º mês: 25; • 4º mês: 31; • 5º mês: 21.\nNo início do primeiro mês, esse posto de saúde tinha 228 vacinas contra febre amarela em estoque. A política de reposição do estoque prevê a aquisição de novas vacinas, no início do sexto mês, de tal forma que a quantidade inicial em estoque para os próximos meses seja igual a 12 vezes a média das quantidades mensais dessas vacinas aplicadas nos últimos cinco meses.\nPara atender essas condições, a quantidade de vacinas contra febre amarela que o posto de saúde deve adquirir no início do sexto mês é",
       "options": [
         {
           "letter": "A",
@@ -3379,7 +3379,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma liga metálica sai do forno a uma temperatura de 3 000 °C e diminui 1% de sua temperatura a cada 30 min.\nUse 0,477 como aproximação para log (3) e 1,041 10 como aproximação para log (11). 10 O tempo decorrido, em hora, até que a liga atinja 30 °C é mais próximo de",
+      "statement": "Uma liga metálica sai do forno a uma temperatura de 3 000 °C e diminui 1% de sua temperatura a cada 30 min.\nUse 0,477 como aproximação para log₁₀ (3) e 1,041 como aproximação para log₁₀ (11). O tempo decorrido, em hora, até que a liga atinja 30 °C é mais próximo de",
       "options": [
         {
           "letter": "A",
@@ -3428,31 +3428,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "1,4 × 103 m3",
+          "text": "1,4 × 10³ m³",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1,8 × 103 m3",
+          "text": "1,8 × 10³ m³",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "2,0 × 103 m3",
+          "text": "2,0 × 10³ m³",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "3,2 × 103 m3",
+          "text": "3,2 × 10³ m³",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "6,0 × 103 m3",
+          "text": "6,0 × 10³ m³",
           "image_url": null,
           "is_correct": false
         }
@@ -3695,7 +3695,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um túnel deve ser lacrado com uma tampa de concreto.\nA seção transversal do túnel e a tampa de concreto têm contornos de um arco de parábola e mesmas dimensões.\nPara determinar o custo da obra, um engenheiro deve calcular a área sob o arco parabólico em questão. Usando o eixo horizontal no nível do chão e o eixo de simetria da parábola como eixo vertical, obteve a seguinte equação para a parábola: y = 9 − x2, sendo x e y medidos em metros.\nSabe-se que a área sob uma parábola como esta é igual a 2 da área do retângulo cujas dimensões são, 3 respectivamente, iguais à base e à altura da entrada do túnel.\nQual é a área da parte frontal da tampa de concreto, em metro quadrado?",
+      "statement": "Um túnel deve ser lacrado com uma tampa de concreto.\nA seção transversal do túnel e a tampa de concreto têm contornos de um arco de parábola e mesmas dimensões.\nPara determinar o custo da obra, um engenheiro deve calcular a área sob o arco parabólico em questão. Usando o eixo horizontal no nível do chão e o eixo de simetria da parábola como eixo vertical, obteve a seguinte equação para a parábola: y = 9 − x², sendo x e y medidos em metros.\nSabe-se que a área sob uma parábola como esta é igual a 2 da área do retângulo cujas dimensões são, 3 respectivamente, iguais à base e à altura da entrada do túnel.\nQual é a área da parte frontal da tampa de concreto, em metro quadrado?",
       "options": [
         {
           "letter": "A",
@@ -3749,13 +3749,13 @@
       "options": [
         {
           "letter": "A",
-          "text": "102 262 .",
+          "text": "10² 26² .",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "102 522 4!",
+          "text": "10² 52² 4!",
           "image_url": null,
           "is_correct": false
         },
@@ -3842,7 +3842,7 @@
       "image_url": [
         "assets/images/enem_2016_cd7_q170-fig1.png"
       ],
-      "statement": "Ao iniciar suas atividades, um ascensorista registra tanto o número de pessoas que entram quanto o número de pessoas que saem do elevador em cada um dos andares do edifício onde ele trabalha. O quadro apresenta os registros do ascensorista durante a primeira subida do térreo, de onde partem ele e mais três pessoas, ao quinto andar do edifício.\nNúmero de pessoas Térreo 1o andar 2o andar 3o andar 4o andar 5o andar que entram no elevador 4 4 1 2 2 2 que saem do elevador 0 3 1 2 0 6 Com base no quadro, qual é a moda do número de pessoas no elevador durante a subida do térreo ao quinto andar?",
+      "statement": "Ao iniciar suas atividades, um ascensorista registra tanto o número de pessoas que entram quanto o número de pessoas que saem do elevador em cada um dos andares do edifício onde ele trabalha. O quadro apresenta os registros do ascensorista durante a primeira subida do térreo, de onde partem ele e mais três pessoas, ao quinto andar do edifício.\nNúmero de pessoas Térreo 1º andar 2º andar 3º andar 4º andar 5º andar que entram no elevador 4 4 1 2 2 2 que saem do elevador 0 3 1 2 0 6 Com base no quadro, qual é a moda do número de pessoas no elevador durante a subida do térreo ao quinto andar?",
       "options": [
         {
           "letter": "A",
@@ -4311,40 +4311,40 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Em 2011, um terremoto de magnitude 9,0 na escala Richter causou um devastador tsunami no Japão, provocando um alerta na usina nuclear de Fukushima.\nEm 2013, outro terremoto, de magnitude 7,0 na mesma escala, sacudiu Sichuan (sudoeste da China), deixando centenas de mortos e milhares de feridos. A magnitude de um terremoto na escala Richter pode ser calculada por ( ) 2 E , M = log 3 E 0 sendo E a energia, em kWh, liberada pelo terremoto e E uma constante real positiva. Considere que E e 0 1 E representam as energias liberadas nos terremotos 2 ocorridos no Japão e na China, respectivamente.",
+          "content": "Em 2011, um terremoto de magnitude 9,0 na escala Richter causou um devastador tsunami no Japão, provocando um alerta na usina nuclear de Fukushima.\nEm 2013, outro terremoto, de magnitude 7,0 na mesma escala, sacudiu Sichuan (sudoeste da China), deixando centenas de mortos e milhares de feridos. A magnitude de um terremoto na escala Richter pode ser calculada por M = (2/3) log(E/E₀), sendo E a energia, em kWh, liberada pelo terremoto e E₀ uma constante real positiva. Considere que E₁ e E₂ representam as energias liberadas nos terremotos ocorridos no Japão e na China, respectivamente.",
           "source": "Disponível em: www.terra.com.br. Acesso em: 15 ago. 2013 (adaptado)."
         }
       ],
       "image_url": null,
-      "statement": "Qual a relação entre E e E ? 1 2",
+      "statement": "Qual a relação entre E₁ e E₂?",
       "options": [
         {
           "letter": "A",
-          "text": "E = E + 2 1 2",
+          "text": "E₁ = E₂ + 2",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "E = 102 . E 1 2",
+          "text": "E₁ = 10² · E₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "E = 103 . E 1 2",
+          "text": "E₁ = 10³ · E₂",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "E = 10 9 7 . E 1 2",
+          "text": "E₁ = 10^(9/7) · E₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "E = 9 . E 1 7",
+          "text": "E₁ = (9/7) · E₂",
           "image_url": null,
           "is_correct": false
         }

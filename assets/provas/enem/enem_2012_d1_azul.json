@@ -2591,7 +2591,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O rótulo de um desodorante aerossol informa ao consumidor que o produto possui em sua composição os gases isobutano, butano e propano, dentre outras substâncias. Além dessa informação, o rótulo traz, ainda, a inscrição “Não contém CFC”. As reações a seguir, que ocorrem na estratosfera, justificam a não utilização de CFC (clorofluorcarbono ou Freon) nesse desodorante:\nI) CF 2 Cℓ 2 UV CF 2 Cℓ • + Cℓ • II) Cℓ • + O 3 O 2 + CℓO • A preocupação com as possíveis ameaças à camada de ozônio (O ) baseia-se na sua principal função: proteger 3 a matéria viva na Terra dos efeitos prejudiciais dos raios solares ultravioleta. A absorção da radiação ultravioleta pelo ozônio estratosférico é intensa o suficiente para eliminar boa parte da fração de ultravioleta que é prejudicial à vida.\nA finalidade da utilização dos gases isobutano, butano e propano neste aerossol é",
+      "statement": "O rótulo de um desodorante aerossol informa ao consumidor que o produto possui em sua composição os gases isobutano, butano e propano, dentre outras substâncias. Além dessa informação, o rótulo traz, ainda, a inscrição “Não contém CFC”. As reações a seguir, que ocorrem na estratosfera, justificam a não utilização de CFC (clorofluorcarbono ou Freon) nesse desodorante:\nI) CF₂Cℓ₂ UV CF 2 Cℓ • + Cℓ • II) Cℓ • + O 3 O 2 + CℓO • A preocupação com as possíveis ameaças à camada de ozônio (O₃) baseia-se na sua principal função: proteger a matéria viva na Terra dos efeitos prejudiciais dos raios solares ultravioleta. A absorção da radiação ultravioleta pelo ozônio estratosférico é intensa o suficiente para eliminar boa parte da fração de ultravioleta que é prejudicial à vida.\nA finalidade da utilização dos gases isobutano, butano e propano neste aerossol é",
       "options": [
         {
           "letter": "A",
@@ -2607,19 +2607,19 @@
         },
         {
           "letter": "C",
-          "text": "reagir com o ar, pois se decompõem espontaneamente em dióxido de carbono (CO ) e água (H O), que não 2 2 atacam o ozônio.",
+          "text": "reagir com o ar, pois se decompõem espontaneamente em dióxido de carbono (CO₂) e água (H₂O), que não atacam o ozônio.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "impedir a destruição do ozônio pelo CFC, pois os hidrocarbonetos gasosos reagem com a radiação UV, liberando hidrogênio (H ), que reage com o oxigênio 2 do ar (O ), formando água (H O). 2 2",
+          "text": "impedir a destruição do ozônio pelo CFC, pois os hidrocarbonetos gasosos reagem com a radiação UV, liberando hidrogênio (H₂), que reage com o oxigênio do ar (O₂), formando água (H₂O).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "destruir o CFC, pois reagem com a radiação UV, liberando carbono (C), que reage com o oxigênio do ar (O ), formando dióxido de carbono (CO ), que é 2 2 inofensivo para a camada de ozônio.",
+          "text": "destruir o CFC, pois reagem com a radiação UV, liberando carbono (C), que reage com o oxigênio do ar (O₂), formando dióxido de carbono (CO₂), que é inofensivo para a camada de ozônio.",
           "image_url": null,
           "is_correct": false
         }
@@ -2729,35 +2729,35 @@
       "image_url": [
         "assets/images/enem_2012_cd1_q56-fig1.png"
       ],
-      "statement": "A figura representa um dos modelos de um sistema de interações entre seres vivos. Ela apresenta duas propriedades, P e P , que interagem em I, para 1 2 afetar uma terceira propriedade, P , quando o sistema 3 é alimentado por uma fonte de energia, E. Essa figura pode simular um sistema de campo em que P 1 representa as plantas verdes; P um animal herbívoro 2 e P , um animal onívoro. 3 ODUM, E. P. Ecologia. Rio de Janeiro: Guanabara Koogan, 1988.\nA função interativa I representa a proporção de",
+      "statement": "A figura representa um dos modelos de um sistema de interações entre seres vivos. Ela apresenta duas propriedades, P₁ e P₂, que interagem em I, para afetar uma terceira propriedade, P₃, quando o sistema é alimentado por uma fonte de energia, E. Essa figura pode simular um sistema de campo em que P₁ representa as plantas verdes; P₂ um animal herbívoro e P₃, um animal onívoro. ODUM, E. P. Ecologia. Rio de Janeiro: Guanabara Koogan, 1988.\nA função interativa I representa a proporção de",
       "options": [
         {
           "letter": "A",
-          "text": "herbivoria entre P e P . 1 2",
+          "text": "herbivoria entre P₁ e P₂.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "polinização entre P e P . 1 2",
+          "text": "polinização entre P₁ e P₂.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "P utilizada na alimentação de P e P . 3 1 2",
+          "text": "P₃ utilizada na alimentação de P₁ e P₂.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "P ou P utilizada na alimentação de P . 1 2 3",
+          "text": "P₁ ou P₂ utilizada na alimentação de P₃.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "energia de P e de P que saem do sistema. 1 2",
+          "text": "energia de P₁ e de P₂ que saem do sistema.",
           "image_url": null,
           "is_correct": false
         }
@@ -2815,7 +2815,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A própolis é um produto natural conhecido por suas propriedades anti-inflamatórias e cicatrizantes. Esse material contém mais de 200 compostos identificados até o momento. Dentre eles, alguns são de estrutura simples, como é o caso do C H CO CH CH , cuja estrutura está 6 5 2 2 3 mostrada a seguir.\nO C O CH CH 2 3 O ácido carboxílico e o álcool capazes de produzir o éster em apreço por meio da reação de esterificação são, respectivamente,",
+      "statement": "A própolis é um produto natural conhecido por suas propriedades anti-inflamatórias e cicatrizantes. Esse material contém mais de 200 compostos identificados até o momento. Dentre eles, alguns são de estrutura simples, como é o caso do C₆H₅CO₂CH₂CH₃, cuja estrutura está mostrada a seguir.\nO C O CH₂CH₃ O ácido carboxílico e o álcool capazes de produzir o éster em apreço por meio da reação de esterificação são, respectivamente,",
       "options": [
         {
           "letter": "A",
@@ -2860,12 +2860,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "No Japão, um movimento nacional para a promoção da luta contra o aquecimento global leva o slogan: 1 pessoa, 1 dia, 1 kg de CO a menos! A ideia é cada pessoa reduzir 2 em 1 kg a quantidade de CO emitida todo dia, por meio de 2 pequenos gestos ecológicos, como diminuir a queima de gás de cozinha.",
+          "content": "No Japão, um movimento nacional para a promoção da luta contra o aquecimento global leva o slogan: 1 pessoa, 1 dia, 1 kg de CO₂ a menos! A ideia é cada pessoa reduzir em 1 kg a quantidade de CO₂ emitida todo dia, por meio de pequenos gestos ecológicos, como diminuir a queima de gás de cozinha.",
           "source": "Um hamburguer ecológico? É pra já! Disponível em: http://lqes.iqm.unicamp.br. Acesso em: 24 fev. 2012 (adaptado)."
         }
       ],
       "image_url": null,
-      "statement": "Considerando um processo de combustão completa de um gás de cozinha composto exclusivamente por butano (C H ), a mínima quantidade desse gás que um japonês 4 10 deve deixar de queimar para atender à meta diária, apenas com esse gesto, é de Dados: CO (44 g/mol); C H (58 g/mol) 2 4 10",
+      "statement": "Considerando um processo de combustão completa de um gás de cozinha composto exclusivamente por butano (C₄H₁₀), a mínima quantidade desse gás que um japonês deve deixar de queimar para atender à meta diária, apenas com esse gesto, é de Dados: CO₂ (44 g/mol); C₄H₁₀ (58 g/mol)",
       "options": [
         {
           "letter": "A",
@@ -3183,7 +3183,7 @@
           "type": "text_block",
           "title": null,
           "content": "O benzeno é um hidrocarboneto aromático presente no petróleo, no carvão e em condensados de gás natural.\nSeus metabólitos são altamente tóxicos e se depositam na medula óssea e nos tecidos gordurosos. O limite de exposição pode causar anemia, câncer (leucemia) e distúrbios do comportamento. Em termos de reatividade química, quando um eletrófilo se liga ao benzeno, ocorre a formação de um intermediário, o carbocátion. Por fim, ocorre a adição ou substituição eletrofílica.",
-          "source": "Disponível em: www.sindipetro.org.br. Acesso em: 1 mar. 2012 (adaptado). e vr Li a gi er n E carbocátion (I) produto (II) produto (III) +Br 2 +catalisador Progresso da Reação Disponível em: www.qmc.ufsc.br. Acesso em: 1 mar. 2012 (adaptado)."
+          "source": "Disponível em: www.sindipetro.org.br. Acesso em: 1 mar. 2012 (adaptado). e vr Li a gi er n E carbocátion (I) produto (II) produto (III) +Br₂ +catalisador Progresso da Reação Disponível em: www.qmc.ufsc.br. Acesso em: 1 mar. 2012 (adaptado)."
         }
       ],
       "image_url": [
@@ -3222,7 +3222,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "options are structural formulas (bromination products) that came out as atom-label text ('+ Br ; ; Br H H Br Br'); needs the option figures"
+        ]
+      }
     },
     {
       "id": "enem_2012_d1_azul_q67",
@@ -3334,7 +3340,7 @@
       "image_url": [
         "assets/images/enem_2012_cd1_q69-fig1.png"
       ],
-      "statement": "Uma dona de casa acidentalmente deixou cair na geladeira a água proveniente do degelo de um peixe, o que deixou um cheiro forte e desagradável dentro do eletrodoméstico. Sabe-se que o odor característico de peixe se deve às aminas e que esses compostos se comportam como bases.\nNa tabela são listadas as concentrações hidrogeniônicas de alguns materiais encontrados na cozinha, que a dona de casa pensa em utilizar na limpeza da geladeira.\nMaterial Concentração de H O+ (mol/L) 3 Suco de limão 10–2 Leite 10–6 Vinagre 10–3 Álcool 10–8 Sabão 10–12 Carbonato de sódio/ 10–12 barrilha Dentre os materiais listados, quais são apropriados para amenizar esse odor?",
+      "statement": "Uma dona de casa acidentalmente deixou cair na geladeira a água proveniente do degelo de um peixe, o que deixou um cheiro forte e desagradável dentro do eletrodoméstico. Sabe-se que o odor característico de peixe se deve às aminas e que esses compostos se comportam como bases.\nNa tabela são listadas as concentrações hidrogeniônicas de alguns materiais encontrados na cozinha, que a dona de casa pensa em utilizar na limpeza da geladeira.\nMaterial Concentração de H₃O⁺ (mol/L) Suco de limão 10⁻² Leite 10⁻⁶ Vinagre 10⁻³ Álcool 10⁻⁸ Sabão 10⁻¹² Carbonato de sódio/ 10–12 barrilha Dentre os materiais listados, quais são apropriados para amenizar esse odor?",
       "options": [
         {
           "letter": "A",
@@ -3690,7 +3696,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um consumidor desconfia que a balança do supermercado não está aferindo corretamente a massa dos produtos. Ao chegar a casa resolve conferir se a balança estava descalibrada. Para isso, utiliza um recipiente provido de escala volumétrica, contendo 1,0 litro d’água.\nEle coloca uma porção dos legumes que comprou dentro do recipiente e observa que a água atinge a marca de 1,5 litro e também que a porção não ficara totalmente submersa, com 1 de seu volume fora d’água. Para 3 concluir o teste, o consumidor, com ajuda da internet, verifica que a densidade dos legumes, em questão, g é a metade da densidade da água, onde, r = 1 . água cm3 No supermercado a balança registrou a massa da porção de legumes igual a 0,500 kg (meio quilograma).\nConsiderando que o método adotado tenha boa precisão, o consumidor concluiu que a balança estava descalibrada e deveria ter registrado a massa da porção de legumes igual a",
+      "statement": "Um consumidor desconfia que a balança do supermercado não está aferindo corretamente a massa dos produtos. Ao chegar a casa resolve conferir se a balança estava descalibrada. Para isso, utiliza um recipiente provido de escala volumétrica, contendo 1,0 litro d’água.\nEle coloca uma porção dos legumes que comprou dentro do recipiente e observa que a água atinge a marca de 1,5 litro e também que a porção não ficara totalmente submersa, com 1 de seu volume fora d’água. Para 3 concluir o teste, o consumidor, com ajuda da internet, verifica que a densidade dos legumes, em questão, g é a metade da densidade da água, onde, r = 1 . água cm³ No supermercado a balança registrou a massa da porção de legumes igual a 0,500 kg (meio quilograma).\nConsiderando que o método adotado tenha boa precisão, o consumidor concluiu que a balança estava descalibrada e deveria ter registrado a massa da porção de legumes igual a",
       "options": [
         {
           "letter": "A",
@@ -3935,7 +3941,7 @@
           "type": "text_block",
           "title": null,
           "content": "O boato de que os lacres das latas de alumínio teriam um alto valor comercial levou muitas pessoas a juntarem esse material na expectativa de ganhar dinheiro com sua venda. As empresas fabricantes de alumínio esclarecem que isso não passa de uma “lenda urbana”, pois ao retirar o anel da lata, dificulta-se a reciclagem do alumínio. Como a liga do qual é feito o anel contém alto teor de magnésio, se ele não estiver junto com a lata, fica mais fácil ocorrer a oxidação do alumínio no forno. A tabela apresenta as semirreações e os valores de potencial padrão de redução de alguns metais:\nPotencial Padrão de Semirreação Redução (V)",
-          "source": "Li+ + e– → Li –3,05 K+ + e– → K –2,93 Mg2+ + 2 e– → Mg –2,36 Al3+ + 3 e– → Al –1,66 Zn2+ + 2 e– → Zn –0,76 Cu2+ + 2 e– → Cu +0,34 Disponível em: www.sucatas.com. Acesso em: 28 fev. 2012 (adaptado)."
+          "source": "Li⁺ + e⁻ → Li –3,05 K⁺ + e⁻ → K –2,93 Mg²⁺ + 2 e⁻ → Mg –2,36 Al³⁺ + 3 e⁻ → Al –1,66 Zn²⁺ + 2 e⁻ → Zn –0,76 Cu²⁺ + 2 e⁻ → Cu +0,34 Disponível em: www.sucatas.com. Acesso em: 28 fev. 2012 (adaptado)."
         }
       ],
       "image_url": [
@@ -4141,13 +4147,13 @@
       "options": [
         {
           "letter": "A",
-          "text": "adsorção de íons Na+ sobre a superfície da célula.",
+          "text": "adsorção de íons Na⁺ sobre a superfície da célula.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "difusão rápida de íons Na+ para o interior da célula.",
+          "text": "difusão rápida de íons Na⁺ para o interior da célula.",
           "image_url": null,
           "is_correct": false
         },
@@ -4159,7 +4165,7 @@
         },
         {
           "letter": "D",
-          "text": "transferência de íons Na+ da célula para a solução.",
+          "text": "transferência de íons Na⁺ da célula para a solução.",
           "image_url": null,
           "is_correct": false
         },
@@ -4329,19 +4335,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "1,3 × 10–4.",
+          "text": "1,3 × 10⁻⁴.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "9,5 × 10–3.",
+          "text": "9,5 × 10⁻³.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "4 × 10–2.",
+          "text": "4 × 10⁻².",
           "image_url": null,
           "is_correct": false
         },

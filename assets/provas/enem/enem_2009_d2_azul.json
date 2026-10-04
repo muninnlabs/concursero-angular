@@ -5,9 +5,7 @@
     "institution": "INEP",
     "year": 2009,
     "day": 2,
-    "booklet_color": "Azul",
-    "status": "incomplete",
-    "status_reason": "extraction unfinished (empty questions, answer key not verified)"
+    "booklet_color": "Azul"
   },
   "questions": [
     {
@@ -15,7 +13,7 @@
       "question_number": 91,
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
-      "foreign_language": "espanhol",
+      "foreign_language": null,
       "context_texts": [
         {
           "type": "text_block",
@@ -24,43 +22,37 @@
           "source": "MORAIS, F. O Brasil na visão do artista: o país e sua cultura. São Paulo: Sudameris, 2003."
         }
       ],
-      "image_url": [
-        "assets/images/enem_2009_cd7_q91-1.png",
-        "assets/images/enem_2009_cd7_q91-2.png",
-        "assets/images/enem_2009_cd7_q91-3.png",
-        "assets/images/enem_2009_cd7_q91-4.png",
-        "assets/images/enem_2009_cd7_q91-5.png"
-      ],
-      "statement": "Considerando a hipótese de Darcy Ribeiro de que há vários Brasis, a opção em que a obra mostrada representa a arte brasileira de origem negro-africana é:\nRubem Valentim. Disponível",
+      "image_url": null,
+      "statement": "Considerando a hipótese de Darcy Ribeiro de que há vários Brasis, a opção em que a obra mostrada representa a arte brasileira de origem negro-africana é:",
       "options": [
         {
           "letter": "A",
-          "text": "em:http://www.ocaixote.com.br.\nAcesso: em 9 jul. 2009.\nAthos Bulcão. Disponível em:",
-          "image_url": null,
+          "text": "Rubem Valentim.",
+          "image_url": "assets/images/enem_2009_cd7_q91-1.png",
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "http://www.irbr.mre.gov.br. Acesso: em 9 jul. 2009.\nRubens Gerchman. Disponível em:",
-          "image_url": null,
+          "text": "Athos Bulcão.",
+          "image_url": "assets/images/enem_2009_cd7_q91-2.png",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "http://www.itaucultural.org.br.\nAcesso em: 6 jul. 2009.\nVictor Vassarely. Disponível em:",
-          "image_url": null,
+          "text": "Rubens Gerchman.",
+          "image_url": "assets/images/enem_2009_cd7_q91-3.png",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "http://www.masterworksfineart.com.\nAcesso em: 5 jul. 2009.\nGougon. Disponível em:",
-          "image_url": null,
+          "text": "Victor Vasarely.",
+          "image_url": "assets/images/enem_2009_cd7_q91-4.png",
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "http://www.ocaixote.com.br. Acesso em: 5 set. 2009.\nLC – 2º dia CADERNO 7 – A GIAS",
-          "image_url": null,
+          "text": "Gougon.",
+          "image_url": "assets/images/enem_2009_cd7_q91-5.png",
           "is_correct": false
         }
       ],
@@ -71,7 +63,7 @@
       "question_number": 92,
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
-      "foreign_language": "espanhol",
+      "foreign_language": null,
       "context_texts": [
         {
           "type": "text_block",
@@ -80,9 +72,7 @@
           "source": "São Paulo: Parábola, 2004 (adaptado)."
         }
       ],
-      "image_url": [
-        "assets/images/enem_2009_cd7_q92.png"
-      ],
+      "image_url": null,
       "statement": "Na representação escrita da conversa telefônica entre a gerente do banco e o cliente, observa-se que a maneira de falar da gerente foi alterada de repente devido",
       "options": [
         {
@@ -123,7 +113,7 @@
       "question_number": 93,
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
-      "foreign_language": "espanhol",
+      "foreign_language": null,
       "context_texts": [
         {
           "type": "text_block",
@@ -175,13 +165,11 @@
       "question_number": 94,
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
-      "foreign_language": "espanhol",
+      "foreign_language": null,
       "context_texts": [],
       "image_url": [
-        "assets/images/enem_2009_cd7_q94-1.png",
-        "assets/images/enem_2009_cd7_q94-2.png",
-        "assets/images/enem_2009_cd7_q94-3.png",
-        "assets/images/enem_2009_cd7_q94-4.png"
+        "assets/images/enem_2009_cd7_q94-fig1.png",
+        "assets/images/enem_2009_cd7_q94-fig2.png"
       ],
       "statement": "A música pode ser definida como a combinação de sons ao longo do tempo. Cada produto final oriundo da infinidade de combinações possíveis será diferente, dependendo da escolha das notas, de suas durações, dos instrumentos utilizados, do estilo de música, da nacionalidade do compositor e do período em que as obras foram compostas. figura 1 figura 2 figura 3 figura 4 Figura 1 - http://images.quebarato.com.br/photos/big/2/D/15A12D_2.jpg.\nFigura 2 - http://ourinhos.prefeituramunicipal.net/dados/fotos/2009/07/07/normal.\nFigura 3 - http://www.edmontonculturalcapital.com/gallery/edjazzfestival/JazzQuartet.jpg.\nFigura 4 - http://www.filmica.com/jacintaescudos/archivos/Led-Zeppelin.jpg.\nDas figuras que apresentam grupos musicais em ação, pode-se concluir que o(os) grupo(s) mostrado(s) na(s) figura(s)",
       "options": [
@@ -223,7 +211,7 @@
       "question_number": 95,
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
-      "foreign_language": "espanhol",
+      "foreign_language": null,
       "context_texts": [
         {
           "type": "text_block",
@@ -261,7 +249,7 @@
         },
         {
           "letter": "E",
-          "text": "uma narrativa com encadeamentos claramente lógicos e lineares.\nAZUL – PÁGINA 3 ENEM 2009 Texto para as questões 96 e 97 BRASIL. Ministério da Saúde, 2009 (adaptado).",
+          "text": "uma narrativa com encadeamentos claramente lógicos e lineares.",
           "image_url": null,
           "is_correct": false
         }
@@ -274,7 +262,14 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "",
+          "source": "BRASIL. Ministério da Saúde, 2009 (adaptado)."
+        }
+      ],
       "image_url": [
         "assets/images/enem_2009_cd7_q96.png"
       ],
@@ -319,8 +314,17 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
-      "image_url": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "",
+          "source": "BRASIL. Ministério da Saúde, 2009 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q97.png"
+      ],
       "statement": "O texto tem o objetivo de solucionar um problema social,",
       "options": [
         {
@@ -349,7 +353,7 @@
         },
         {
           "letter": "E",
-          "text": "convocando toda a população para se submeter a",
+          "text": "convocando toda a população para se submeter a exames de detecção da gripe suína.",
           "image_url": null,
           "is_correct": false
         }
@@ -449,7 +453,7 @@
         },
         {
           "letter": "E",
-          "text": "a liberdade formal da estrutura poética que dispensa a rima e a métrica tradicionais em favor de temas do cotidiano.\nLC – 2º dia CADERNO 7 – A Texto para as questões 100 e 101 XAVIER, C. Quadrinho quadrado. Disponível em: http://www.releituras.com.\nAcesso em: 5 jul. 2009.",
+          "text": "a liberdade formal da estrutura poética que dispensa a rima e a métrica tradicionais em favor de temas do cotidiano.",
           "image_url": null,
           "is_correct": false
         }
@@ -462,7 +466,14 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "",
+          "source": "XAVIER, C. Quadrinho quadrado. Disponível em: http://www.releituras.com. Acesso em: 5 jul. 2009."
+        }
+      ],
       "image_url": [
         "assets/images/enem_2009_cd7_q100.png"
       ],
@@ -507,8 +518,17 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
-      "image_url": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "",
+          "source": "XAVIER, C. Quadrinho quadrado. Disponível em: http://www.releituras.com. Acesso em: 5 jul. 2009."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q101.png"
+      ],
       "statement": "Quanto às variantes linguísticas presentes no texto, a norma padrão da língua portuguesa é rigorosamente obedecida por meio",
       "options": [
         {
@@ -702,9 +722,7 @@
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd7_q105-1.png",
-        "assets/images/enem_2009_cd7_q105-2.png",
-        "assets/images/enem_2009_cd7_q105-3.png"
+        "assets/images/enem_2009_cd7_q105-fig1.png"
       ],
       "statement": "Os quadrinhos exemplificam que as Histórias em Quadrinhos constituem um gênero textual",
       "options": [
@@ -784,7 +802,7 @@
         },
         {
           "letter": "E",
-          "text": "estão em estágio experimental, particularmente na educação, área em que ainda não demonstraram potencial produtivo.\nAZUL – PÁGINA 7 ENEM 2009 Textos para as questões 107 e 108\nTexto I\nÉ praticamente impossível imaginarmos nossas vidas sem o plástico. Ele está presente em embalagens de alimentos, bebidas e remédios, além de eletrodomésticos, automóveis etc. Esse uso ocorre devido à sua atoxicidade e à inércia, isto é: quando em contato com outras substâncias, o plástico não as contamina; ao contrário, protege o produto embalado. Outras duas grandes vantagens garantem o uso dos plásticos em larga escala: são leves, quase não alteram o peso do material embalado, e são 100% recicláveis, fato que, infelizmente, não é aproveitado, visto que, em todo o mundo, a percentagem de plástico reciclado, quando comparado ao total produzido, ainda é irrelevante.\nRevista Mãe Terra. Minuano, ano I, n. 6 (adaptado).\nTexto II\nSacolas plásticas são leves e voam ao vento. Por isso, elas entopem esgotos e bueiros, causando enchentes. São encontradas até no estômago de tartarugas marinhas, baleias, focas e golfinhos, mortos por sufocamento.\nSacolas plásticas descartáveis são gratuitas para os consumidores, mas têm um custo incalculável para o meio ambiente.\nVeja, 8 jul. 2009. Fragmentos de texto publicitário do Instituto Akatu pelo Consumo Consciente.",
+          "text": "estão em estágio experimental, particularmente na educação, área em que ainda não demonstraram potencial produtivo.",
           "image_url": null,
           "is_correct": false
         }
@@ -797,7 +815,20 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "É praticamente impossível imaginarmos nossas vidas sem o plástico. Ele está presente em embalagens de alimentos, bebidas e remédios, além de eletrodomésticos, automóveis etc. Esse uso ocorre devido à sua atoxicidade e à inércia, isto é: quando em contato com outras substâncias, o plástico não as contamina; ao contrário, protege o produto embalado. Outras duas grandes vantagens garantem o uso dos plásticos em larga escala: são leves, quase não alteram o peso do material embalado, e são 100% recicláveis, fato que, infelizmente, não é aproveitado, visto que, em todo o mundo, a percentagem de plástico reciclado, quando comparado ao total produzido, ainda é irrelevante.",
+          "source": "Revista Mãe Terra. Minuano, ano I, n. 6 (adaptado)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Sacolas plásticas são leves e voam ao vento. Por isso, elas entopem esgotos e bueiros, causando enchentes. São encontradas até no estômago de tartarugas marinhas, baleias, focas e golfinhos, mortos por sufocamento.\nSacolas plásticas descartáveis são gratuitas para os consumidores, mas têm um custo incalculável para o meio ambiente.",
+          "source": "Veja, 8 jul. 2009. Fragmentos de texto publicitário do Instituto Akatu pelo Consumo Consciente."
+        }
+      ],
       "image_url": null,
       "statement": "Em contraste com o texto I, no texto II são empregadas, predominantemente, estratégias argumentativas que",
       "options": [
@@ -840,7 +871,20 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "É praticamente impossível imaginarmos nossas vidas sem o plástico. Ele está presente em embalagens de alimentos, bebidas e remédios, além de eletrodomésticos, automóveis etc. Esse uso ocorre devido à sua atoxicidade e à inércia, isto é: quando em contato com outras substâncias, o plástico não as contamina; ao contrário, protege o produto embalado. Outras duas grandes vantagens garantem o uso dos plásticos em larga escala: são leves, quase não alteram o peso do material embalado, e são 100% recicláveis, fato que, infelizmente, não é aproveitado, visto que, em todo o mundo, a percentagem de plástico reciclado, quando comparado ao total produzido, ainda é irrelevante.",
+          "source": "Revista Mãe Terra. Minuano, ano I, n. 6 (adaptado)."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Sacolas plásticas são leves e voam ao vento. Por isso, elas entopem esgotos e bueiros, causando enchentes. São encontradas até no estômago de tartarugas marinhas, baleias, focas e golfinhos, mortos por sufocamento.\nSacolas plásticas descartáveis são gratuitas para os consumidores, mas têm um custo incalculável para o meio ambiente.",
+          "source": "Veja, 8 jul. 2009. Fragmentos de texto publicitário do Instituto Akatu pelo Consumo Consciente."
+        }
+      ],
       "image_url": null,
       "statement": "Na comparação dos textos, observa-se que",
       "options": [
@@ -892,8 +936,7 @@
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd7_q109-1.png",
-        "assets/images/enem_2009_cd7_q109-2.png"
+        "assets/images/enem_2009_cd7_q109-fig1.png"
       ],
       "statement": "A linguagem da tirinha revela",
       "options": [
@@ -1183,10 +1226,48 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A dança é importante para o índio preparar o corpo e a garganta e significa energia para o corpo, que fica robusto. Na aldeia, para preparo físico, dançamos desde cinco horas da manhã até seis horas da tarde, passa-se o dia inteiro dançando quando os padrinhos planejam a dança dos adolescentes. O padrinho é como um professor, um preparador físico dos adolescentes. Por exemplo, o padrinho sonha com um determinado canto e planeja para todos entoarem. Todos os tipos de dança vêm dos primeiros xavantes: Wamarĩdzadadzeiwawẽ, Butséwawẽ, Tseretomodzatsewawẽ, que foram descobrindo através da sabedoria como iria ser a cultura Xavante. Até hoje existe essa cultura, essa celebração.\nQuando o adolescente fura a orelha é obrigatório ele dançar toda a noite, tem de acordar meia-noite para dançar e cantar, é obrigatório, eles vão chamando um ao outro com um grito especial.",
+          "source": "WÉRÉ' É TSI'RÓBÓ, E. A dança e o canto-celebração da existência xavante. VIS-Revista do Programa de Pós-Graduação em Arte da UnB. V. 5, n. 2, dez. 2006."
+        }
+      ],
       "image_url": null,
-      "statement": null,
-      "options": [],
+      "statement": "A partir das informações sobre a dança Xavante, conclui-se que o valor da diversidade artística e da tradição cultural apresentados originam-se da",
+      "options": [
+        {
+          "letter": "A",
+          "text": "iniciativa individual do indígena para a prática da dança e do canto.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "excelente forma física apresentada pelo povo Xavante.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "multiculturalidade presente na sua manifestação cênica.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "inexistência de um planejamento da estética da dança, caracterizada pelo ineditismo.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "preservação de uma identidade entre a gestualidade ancestral e a novidade dos cantos a serem entoados.",
+          "image_url": null,
+          "is_correct": true
+        }
+      ],
       "correct_answer": "E"
     },
     {
@@ -1195,7 +1276,14 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Canção do vento e da minha vida O vento varria as folhas, O vento varria os frutos, O vento varria as flores...\nE a minha vida ficava Cada vez mais cheia De frutos, de flores, de folhas. [...] O vento varria os sonhos E varria as amizades...\nO vento varria as mulheres...\nE a minha vida ficava Cada vez mais cheia De afetos e de mulheres.\nO vento varria os meses E varria os teus sorrisos...\nO vento varria tudo!\nE a minha vida ficava Cada vez mais cheia De tudo.",
+          "source": "BANDEIRA, M. Poesia completa e prosa. Rio de Janeiro: José Aguilar, 1967."
+        }
+      ],
       "image_url": null,
       "statement": "Predomina no texto a função da linguagem",
       "options": [
@@ -1238,7 +1326,14 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Canção do vento e da minha vida O vento varria as folhas, O vento varria os frutos, O vento varria as flores...\nE a minha vida ficava Cada vez mais cheia De frutos, de flores, de folhas. [...] O vento varria os sonhos E varria as amizades...\nO vento varria as mulheres...\nE a minha vida ficava Cada vez mais cheia De afetos e de mulheres.\nO vento varria os meses E varria os teus sorrisos...\nO vento varria tudo!\nE a minha vida ficava Cada vez mais cheia De tudo.",
+          "source": "BANDEIRA, M. Poesia completa e prosa. Rio de Janeiro: José Aguilar, 1967."
+        }
+      ],
       "image_url": null,
       "statement": "Na estruturação do texto, destaca-se",
       "options": [
@@ -1424,7 +1519,7 @@
         },
         {
           "letter": "E",
-          "text": "Érico Veríssimo, Rachel de Queiroz, Simões Lopes Neto e Jorge Amado são romancistas das décadas de 30 e 40 do século XX, cuja obra retrata a problemática do homem urbano em confronto com a modernização do país promovida pelo Estado Novo.\nLC – 2º dia CADERNO 7 – AZ Texto para as questões 121 e 122 Quando eu falo com vocês, procuro usar o código de vocês. A figura do índio no Brasil de hoje não pode ser aquela de 500 anos atrás, do passado, que representa aquele primeiro contato. Da mesma forma que o Brasil de hoje não é o Brasil de ontem, tem 160 milhões de pessoas com diferentes sobrenomes. Vieram para cá asiáticos, europeus, africanos, e todo mundo quer ser brasileiro. A importante pergunta que nós fazemos é: qual é o pedaço de índio que vocês têm? O seu cabelo? São seus olhos?\nOu é o nome da sua rua? O nome da sua praça? Enfim, vocês devem ter um pedaço de índio dentro de vocês.\nPara nós, o importante é que vocês olhem para a gente como seres humanos, como pessoas que nem precisam de paternalismos, nem precisam ser tratadas com privilégios. Nós não queremos tomar o Brasil de vocês, nós queremos compartilhar esse Brasil com vocês.\nTERENA, M. Debate. MORIN, E. Saberes globais e saberes locais.\nRio de Janeiro: Garamond, 2000 (adaptado).",
+          "text": "Érico Veríssimo, Rachel de Queiroz, Simões Lopes Neto e Jorge Amado são romancistas das décadas de 30 e 40 do século XX, cuja obra retrata a problemática do homem urbano em confronto com a modernização do país promovida pelo Estado Novo.",
           "image_url": null,
           "is_correct": false
         }
@@ -1437,7 +1532,14 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Quando eu falo com vocês, procuro usar o código de vocês. A figura do índio no Brasil de hoje não pode ser aquela de 500 anos atrás, do passado, que representa aquele primeiro contato. Da mesma forma que o Brasil de hoje não é o Brasil de ontem, tem 160 milhões de pessoas com diferentes sobrenomes. Vieram para cá asiáticos, europeus, africanos, e todo mundo quer ser brasileiro. A importante pergunta que nós fazemos é: qual é o pedaço de índio que vocês têm? O seu cabelo? São seus olhos?\nOu é o nome da sua rua? O nome da sua praça? Enfim, vocês devem ter um pedaço de índio dentro de vocês.\nPara nós, o importante é que vocês olhem para a gente como seres humanos, como pessoas que nem precisam de paternalismos, nem precisam ser tratadas com privilégios. Nós não queremos tomar o Brasil de vocês, nós queremos compartilhar esse Brasil com vocês.",
+          "source": "TERENA, M. Debate. MORIN, E. Saberes globais e saberes locais. Rio de Janeiro: Garamond, 2000 (adaptado)."
+        }
+      ],
       "image_url": null,
       "statement": "Os procedimentos argumentativos utilizados no texto permitem inferir que o ouvinte/leitor, no qual o emissor foca o seu discurso, pertence",
       "options": [
@@ -1480,7 +1582,14 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Quando eu falo com vocês, procuro usar o código de vocês. A figura do índio no Brasil de hoje não pode ser aquela de 500 anos atrás, do passado, que representa aquele primeiro contato. Da mesma forma que o Brasil de hoje não é o Brasil de ontem, tem 160 milhões de pessoas com diferentes sobrenomes. Vieram para cá asiáticos, europeus, africanos, e todo mundo quer ser brasileiro. A importante pergunta que nós fazemos é: qual é o pedaço de índio que vocês têm? O seu cabelo? São seus olhos?\nOu é o nome da sua rua? O nome da sua praça? Enfim, vocês devem ter um pedaço de índio dentro de vocês.\nPara nós, o importante é que vocês olhem para a gente como seres humanos, como pessoas que nem precisam de paternalismos, nem precisam ser tratadas com privilégios. Nós não queremos tomar o Brasil de vocês, nós queremos compartilhar esse Brasil com vocês.",
+          "source": "TERENA, M. Debate. MORIN, E. Saberes globais e saberes locais. Rio de Janeiro: Garamond, 2000 (adaptado)."
+        }
+      ],
       "image_url": null,
       "statement": "Na situação de comunicação da qual o texto foi retirado, a norma padrão da língua portuguesa é empregada com a finalidade de",
       "options": [
@@ -1575,8 +1684,39 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": null,
-      "options": [],
+      "statement": "Oximoro, ou paradoxismo, é uma figura de retórica em que se combinam palavras de sentido oposto que parecem excluir-se mutuamente, mas que, no contexto, reforçam a expressão.\nDicionário Eletrônico Houaiss da Língua Portuguesa.\nConsiderando a definição apresentada, o fragmento poético da obra Cantares, de Hilda Hilst, publicada em 2004, em que pode ser encontrada a referida figura de retórica é:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "“Dos dois contemplo rigor e fixidez.\nPassado e sentimento me contemplam” (p. 91).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "“De sol e lua De fogo e vento Te enlaço” (p. 101).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "“Areia, vou sorvendo A água do teu rio” (p. 93).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "“Ritualiza a matança de quem só te deu vida.\nE me deixa viver nessa que morre” (p. 62).",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "“O bisturi e o verso.\nDois instrumentos entre as minhas mãos” (p. 95).",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "D"
     },
     {
@@ -1624,7 +1764,7 @@
         },
         {
           "letter": "E",
-          "text": "utilizar recursos mais expressivos e menos desgastados da variedade padrão da língua para se expressar com alguma segurança e sucesso.\nZUL – PÁGINA 14 ENEM 2009 Texto para as questões 126 e 127 BRASIL. Ministério da Saúde. Revista Nordeste, João Pessoa, ano 3, n. 35, maio/jun. 2009.",
+          "text": "utilizar recursos mais expressivos e menos desgastados da variedade padrão da língua para se expressar com alguma segurança e sucesso.",
           "image_url": null,
           "is_correct": false
         }
@@ -1637,10 +1777,16 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "BRASIL. Ministério da Saúde. Revista Nordeste, João Pessoa, ano 3, n. 35, maio/jun. 2009.",
+          "source": null
+        }
+      ],
       "image_url": [
-        "assets/images/enem_2009_cd7_q126-1.png",
-        "assets/images/enem_2009_cd7_q126-2.png"
+        "assets/images/enem_2009_cd7_q126-fig1.png"
       ],
       "statement": "O texto exemplifica um gênero textual híbrido entre carta e publicidade oficial. Em seu conteúdo, é possível perceber aspectos relacionados a gêneros digitais. Considerando-se a função social das informações geradas nos sistemas de comunicação e informação presentes no texto, infere-se que",
       "options": [
@@ -1683,8 +1829,17 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
-      "image_url": null,
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "BRASIL. Ministério da Saúde. Revista Nordeste, João Pessoa, ano 3, n. 35, maio/jun. 2009.",
+          "source": null
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q127-fig1.png"
+      ],
       "statement": "Diante dos recursos argumentativos utilizados, depreende-se que o texto apresentado",
       "options": [
         {
@@ -1780,7 +1935,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Serafim da Silva Neto defendia a tese da unidade da língua portuguesa no Brasil, entrevendo que no Brasil as delimitações dialetais espaciais não eram tão marcadas como as isoglossas1 da România Antiga. Mas Paul Teyssier, na sua História da Língua Portuguesa, reconhece que na diversidade socioletal essa pretensa unidade se desfaz. Diz Teyssier:\n“A realidade, porém, é que as divisões ‘dialetais’ no Brasil são menos geográficas que socioculturais. As diferenças na maneira de falar são maiores, num determinado lugar, entre um homem culto e o vizinho analfabeto que entre dois brasileiros do mesmo nível cultural originários de duas regiões distantes uma da outra.”",
+          "content": "Serafim da Silva Neto defendia a tese da unidade da língua portuguesa no Brasil, entrevendo que no Brasil as delimitações dialetais espaciais não eram tão marcadas como as isoglossas¹ da România Antiga. Mas Paul Teyssier, na sua História da Língua Portuguesa, reconhece que na diversidade socioletal essa pretensa unidade se desfaz. Diz Teyssier:\n“A realidade, porém, é que as divisões ‘dialetais’ no Brasil são menos geográficas que socioculturais. As diferenças na maneira de falar são maiores, num determinado lugar, entre um homem culto e o vizinho analfabeto que entre dois brasileiros do mesmo nível cultural originários de duas regiões distantes uma da outra.”",
           "source": "SILVA, R. V. M. O português brasileiro e o português europeu contemporâneo: alguns aspectos da diferença. Disponível em: www.uniroma.it. Acesso em: 23 jun. 2008. 1 isoglossa – linha imaginária que, em um mapa, une os pontos de ocorrência de traços e fenômenos linguísticos idênticos. FERREIRA, A. B. H. Novo dicionário Aurélio da língua portuguesa. Rio de Janeiro: Nova Fronteira, 1986."
         }
       ],
@@ -1879,6 +2034,12 @@
       "context_texts": [
         {
           "type": "text_block",
+          "title": null,
+          "content": "Compare os textos I e II a seguir, que tratam de aspectos ligados a variedades da língua portuguesa no mundo e no Brasil.",
+          "source": null
+        },
+        {
+          "type": "text_block",
           "title": "TEXTO I",
           "content": "Acompanhando os navegadores, colonizadores e comerciantes portugueses em todas as suas incríveis viagens, a partir do século XV, o português se transformou na língua de um império. Nesse processo, entrou em contato — forçado, o mais das vezes; amigável, em alguns casos — com as mais diversas línguas, passando por processos de variação e de mudança linguística. Assim, contar a história do português do Brasil é mergulhar na sua história colonial e de país independente, já que as línguas não são mecanismos desgarrados dos povos que as utilizam. Nesse cenário, são muitos os aspectos da estrutura linguística que não só expressam a diferença entre Portugal e Brasil como também definem, no Brasil, diferenças regionais e sociais.",
           "source": "PAGOTTO, E. P. Línguas do Brasil. Disponível em: http://cienciaecultura.bvs.br. Acesso em: 5 jul. 2009 (adaptado)."
@@ -1919,7 +2080,7 @@
         },
         {
           "letter": "E",
-          "text": "atitude crítica, que se estende à própria língua portuguesa, por se tratar de sistema que não disporia de elementos necessários para a plena inserção sociocultural de falantes não nativos do português.\nLC – 2º dia CADERNO 7 – AZ Textos para as questões 132 e 133\nTexto I\n[...] já foi o tempo em que via a convivência como viável, só exigindo deste bem comum, piedosamente, o meu quinhão, já foi o tempo em que consentia num contrato, deixando muitas coisas de fora sem ceder contudo no que me era vital, já foi o tempo em que reconhecia a existência escandalosa de imaginados valores, coluna vertebral de toda ‘ordem’; mas não tive sequer o sopro necessário, e, negado o respiro, me foi imposto o sufoco; é esta consciência que me libera, é ela hoje que me empurra, são outras agora minhas preocupações, é hoje outro o meu universo de problemas; num mundo estapafúrdio — definitivamente fora de foco — cedo ou tarde tudo acaba se reduzindo a um ponto de vista, e você que vive paparicando as ciências humanas, nem suspeita que paparica uma piada: impossível ordenar o mundo dos valores, ninguém arruma a casa do capeta; me recuso pois a pensar naquilo em que não mais acredito, seja o amor, a amizade, a família, a igreja, a humanidade; me lixo com tudo isso! me apavora ainda a existência, mas não tenho medo de ficar sozinho, foi conscientemente que escolhi o exílio, me bastando hoje o cinismo dos grandes indiferentes [...].\nNASSAR, R. Um copo de cólera. São Paulo:\nCompanhia das Letras, 1992.\nTexto II\nRaduan Nassar lançou a novela Um Copo de Cólera em 1978, fervilhante narrativa de um confronto verbal entre amantes, em que a fúria das palavras cortantes se estilhaçava no ar. O embate conjugal ecoava o autoritário discurso do poder e da submissão de um Brasil que vivia sob o jugo da ditadura militar.\nCOMODO, R. Um silêncio inquietante. IstoÉ. Disponível em: http://www.terra.com.br. Acesso em: 15 jul. 2009.",
+          "text": "atitude crítica, que se estende à própria língua portuguesa, por se tratar de sistema que não disporia de elementos necessários para a plena inserção sociocultural de falantes não nativos do português.",
           "image_url": null,
           "is_correct": false
         }
@@ -1936,12 +2097,24 @@
         {
           "type": "text_block",
           "title": "TEXTO I",
-          "content": "",
+          "content": "[...] já foi o tempo em que via a convivência como viável, só exigindo deste bem comum, piedosamente, o meu quinhão, já foi o tempo em que consentia num contrato, deixando muitas coisas de fora sem ceder contudo no que me era vital, já foi o tempo em que reconhecia a existência escandalosa de imaginados valores, coluna vertebral de toda ‘ordem’; mas não tive sequer o sopro necessário, e, negado o respiro, me foi imposto o sufoco; é esta consciência que me libera, é ela hoje que me empurra, são outras agora minhas preocupações, é hoje outro o meu universo de problemas; num mundo estapafúrdio — definitivamente fora de foco — cedo ou tarde tudo acaba se reduzindo a um ponto de vista, e você que vive paparicando as ciências humanas, nem suspeita que paparica uma piada: impossível ordenar o mundo dos valores, ninguém arruma a casa do capeta; me recuso pois a pensar naquilo em que não mais acredito, seja o amor, a amizade, a família, a igreja, a humanidade; me lixo com tudo isso! me apavora ainda a existência, mas não tenho medo de ficar sozinho, foi conscientemente que escolhi o exílio, me bastando hoje o cinismo dos grandes indiferentes [...].",
+          "source": "NASSAR, R. Um copo de cólera. São Paulo: Companhia das Letras, 1992."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Raduan Nassar lançou a novela Um Copo de Cólera em 1978, fervilhante narrativa de um confronto verbal entre amantes, em que a fúria das palavras cortantes se estilhaçava no ar. O embate conjugal ecoava o autoritário discurso do poder e da submissão de um Brasil que vivia sob o jugo da ditadura militar.",
+          "source": "COMODO, R. Um silêncio inquietante. IstoÉ. Disponível em: http://www.terra.com.br."
+        },
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Acesso em: 15 jul. 2009.",
           "source": null
         }
       ],
       "image_url": null,
-      "statement": "",
+      "statement": "Na novela Um Copo de Cólera, o autor lança mão de recursos estilísticos e expressivos típicos da literatura produzida na década de 70 do século passado no Brasil, que, nas palavras do crítico Antonio Candido, aliam “vanguarda estética e amargura política”. Com relação à temática abordada e à concepção narrativa da novela, o\ntexto I",
       "options": [
         {
           "letter": "A",
@@ -1969,7 +2142,7 @@
         },
         {
           "letter": "E",
-          "text": "traduz, em linguagem subjetiva e intimista, a partir do ponto de vista interno, os dramas psicológicos da mulher moderna, às voltas com a questão da priorização do trabalho em detrimento da vida familiar",
+          "text": "traduz, em linguagem subjetiva e intimista, a partir do ponto de vista interno, os dramas psicológicos da mulher moderna, às voltas com a questão da priorização do trabalho em detrimento da vida familiar e amorosa.",
           "image_url": null,
           "is_correct": false
         }
@@ -1982,7 +2155,26 @@
       "subject": "Linguagens, Códigos e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": "TEXTO I",
+          "content": "[...] já foi o tempo em que via a convivência como viável, só exigindo deste bem comum, piedosamente, o meu quinhão, já foi o tempo em que consentia num contrato, deixando muitas coisas de fora sem ceder contudo no que me era vital, já foi o tempo em que reconhecia a existência escandalosa de imaginados valores, coluna vertebral de toda ‘ordem’; mas não tive sequer o sopro necessário, e, negado o respiro, me foi imposto o sufoco; é esta consciência que me libera, é ela hoje que me empurra, são outras agora minhas preocupações, é hoje outro o meu universo de problemas; num mundo estapafúrdio — definitivamente fora de foco — cedo ou tarde tudo acaba se reduzindo a um ponto de vista, e você que vive paparicando as ciências humanas, nem suspeita que paparica uma piada: impossível ordenar o mundo dos valores, ninguém arruma a casa do capeta; me recuso pois a pensar naquilo em que não mais acredito, seja o amor, a amizade, a família, a igreja, a humanidade; me lixo com tudo isso! me apavora ainda a existência, mas não tenho medo de ficar sozinho, foi conscientemente que escolhi o exílio, me bastando hoje o cinismo dos grandes indiferentes [...].",
+          "source": "NASSAR, R. Um copo de cólera. São Paulo: Companhia das Letras, 1992."
+        },
+        {
+          "type": "text_block",
+          "title": "TEXTO II",
+          "content": "Raduan Nassar lançou a novela Um Copo de Cólera em 1978, fervilhante narrativa de um confronto verbal entre amantes, em que a fúria das palavras cortantes se estilhaçava no ar. O embate conjugal ecoava o autoritário discurso do poder e da submissão de um Brasil que vivia sob o jugo da ditadura militar.",
+          "source": "COMODO, R. Um silêncio inquietante. IstoÉ. Disponível em: http://www.terra.com.br."
+        },
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Acesso em: 15 jul. 2009.",
+          "source": null
+        }
+      ],
       "image_url": null,
       "statement": "Considerando-se os textos apresentados e o contexto político e social no qual foi produzida a obra Um Copo de Cólera, verifica-se que o narrador, ao dirigir-se à sua parceira, nessa novela, tece um discurso",
       "options": [
@@ -2178,9 +2370,42 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": null,
-      "options": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q137.png"
+      ],
+      "statement": "O mapa ao lado representa um bairro de determinada cidade, no qual as flechas indicam o sentido das mãos do tráfego.\nSabe-se que esse bairro foi planejado e que cada quadra representada na figura é um terreno quadrado, de lado igual a 200 metros.\nDesconsiderando-se a largura das ruas, qual seria o tempo, em minutos, que um ônibus, em velocidade constante e igual a 40 km/h, partindo do ponto X, demoraria para chegar até o ponto Y?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "25 min.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "15 min.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "2,5 min.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1,5 min.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "0,15 min.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "D"
     },
     {
@@ -2189,10 +2414,16 @@
       "subject": "Matemática e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A população mundial está ficando mais velha, os índices de natalidade diminuíram e a expectativa de vida aumentou. No gráfico seguinte, são apresentados dados obtidos por pesquisa realizada pela Organização das Nações Unidas (ONU), a respeito da quantidade de pessoas com 60 anos ou mais em todo o mundo. Os números da coluna da direita representam as faixas percentuais. Por exemplo, em 1950 havia 95 milhões de pessoas com 60 anos ou mais nos países desenvolvidos, número entre 10% e 15% da população total nos países desenvolvidos.",
+          "source": "Disponível em: www.economist.com. Acesso em: 9 jul. 2009 (adaptado)."
+        }
+      ],
       "image_url": [
-        "assets/images/enem_2009_cd7_q138-1.png",
-        "assets/images/enem_2009_cd7_q138-2.png"
+        "assets/images/enem_2009_cd7_q138.png"
       ],
       "statement": "Suponha que o modelo exponencial y = 363e0,03x, em que x = 0 corresponde ao ano 2000, x = 1 corresponde ao ano 2001, e assim sucessivamente, e que y é a população em milhões de habitantes no ano x, seja usado para estimar essa população com 60 anos ou mais de idade nos países em desenvolvimento entre 2010 e 2050. Desse modo, considerando e0,3 = 1,35, estima-se que a população com 60 anos ou mais estará, em 2030, entre",
       "options": [
@@ -2235,37 +2466,46 @@
       "subject": "Matemática e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
-      "image_url": null,
-      "statement": "Em 2050, a probabilidade de se escolher, aleatoriamente, uma pessoa com 60 anos ou mais de idade, na população dos países desenvolvidos, será um número mais próximo de 1",
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A população mundial está ficando mais velha, os índices de natalidade diminuíram e a expectativa de vida aumentou. No gráfico seguinte, são apresentados dados obtidos por pesquisa realizada pela Organização das Nações Unidas (ONU), a respeito da quantidade de pessoas com 60 anos ou mais em todo o mundo. Os números da coluna da direita representam as faixas percentuais. Por exemplo, em 1950 havia 95 milhões de pessoas com 60 anos ou mais nos países desenvolvidos, número entre 10% e 15% da população total nos países desenvolvidos.",
+          "source": "Disponível em: www.economist.com. Acesso em: 9 jul. 2009 (adaptado)."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q139.png"
+      ],
+      "statement": "Em 2050, a probabilidade de se escolher, aleatoriamente, uma pessoa com 60 anos ou mais de idade, na população dos países desenvolvidos, será um número mais próximo de",
       "options": [
         {
           "letter": "A",
-          "text": ". 2 7",
+          "text": "1/2.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": ". 20 8",
+          "text": "7/20.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": ". 25 1",
+          "text": "8/25.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": ". 5 3",
+          "text": "1/5.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": ". 25",
+          "text": "3/25.",
           "image_url": null,
           "is_correct": false
         }
@@ -2279,8 +2519,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": "O governo cedeu terrenos para que famílias construíssem suas residências com a condição de que no mínimo 94% da área do terreno fosse mantida como área de preservação ambiental. Ao receber o terreno retangular BC ABCD, em que AB = , Antônio demarcou uma área 2 quadrada no vértice A, para a construção de sua AB residência, de acordo com o desenho, no qual AE= é 5 lado do quadrado.\nB C A E D Nesse caso, a área definida por Antônio atingiria exatamente o limite determinado pela condição se ele",
+      "image_url": [
+        "assets/images/enem_2009_cd7_q140-fig1.png"
+      ],
+      "statement": "O governo cedeu terrenos para que famílias construíssem suas residências com a condição de que no mínimo 94% da área do terreno fosse mantida como área de preservação ambiental. Ao receber o terreno retangular ABCD, em que AB = BC/2, Antônio demarcou uma área quadrada no vértice A, para a construção de sua residência, de acordo com o desenho, no qual AE = AB/5 é lado do quadrado.\nNesse caso, a área definida por Antônio atingiria exatamente o limite determinado pela condição se ele",
       "options": [
         {
           "letter": "A",
@@ -2380,8 +2622,7 @@
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd7_q142-1.png",
-        "assets/images/enem_2009_cd7_q142-2.png"
+        "assets/images/enem_2009_cd7_q142-fig1.png"
       ],
       "statement": "De acordo com as informações do gráfico,",
       "options": [
@@ -2480,7 +2721,7 @@
       "image_url": [
         "assets/images/enem_2009_cd7_q144.png"
       ],
-      "statement": "A música e a matemática se encontram na representação dos tempos das notas musicais, conforme a figura seguinte.\nUm compasso é uma unidade musical composta por determinada quantidade de notas musicais em que a soma das durações coincide com a fração indicada como fórmula do compasso. Por exemplo, se a fórmula de compasso for 1 , poderia ter um compasso ou com duas semínimas ou 2 uma mínima ou quatro colcheias, sendo possível a combinação de diferentes figuras. 3 Um trecho musical de oito compassos, cuja fórmula é , 4 poderia ser preenchido com",
+      "statement": "A música e a matemática se encontram na representação dos tempos das notas musicais, conforme a figura seguinte.\nUm compasso é uma unidade musical composta por determinada quantidade de notas musicais em que a soma das durações coincide com a fração indicada como fórmula do compasso. Por exemplo, se a fórmula de compasso for 1/2, poderia ter um compasso ou com duas semínimas ou uma mínima ou quatro colcheias, sendo possível a combinação de diferentes figuras.\nUm trecho musical de oito compassos, cuja fórmula é 3/4, poderia ser preenchido com",
       "options": [
         {
           "letter": "A",
@@ -2508,7 +2749,7 @@
         },
         {
           "letter": "E",
-          "text": "16 semínimas e 8 semicolcheias.\nRascunho",
+          "text": "16 semínimas e 8 semicolcheias.",
           "image_url": null,
           "is_correct": false
         }
@@ -2527,19 +2768,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "2 × (0,2%)4.",
+          "text": "2 × (0,2%)⁴.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "4 × (0,2%)2.",
+          "text": "4 × (0,2%)².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "6 × (0,2%)2 × (99,8%)2.",
+          "text": "6 × (0,2%)² × (99,8%)².",
           "image_url": null,
           "is_correct": true
         },
@@ -2565,7 +2806,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2009_cd7_q146-fig1.png"
+      ],
       "statement": "Uma pousada oferece pacotes promocionais para atrair casais a se hospedarem por até oito dias. A hospedagem seria em apartamento de luxo e, nos três primeiros dias, a diária custaria R$ 150,00, preço da diária fora da promoção. Nos três dias seguintes, seria aplicada uma redução no valor da diária, cuja taxa média de variação, a cada dia, seria de R$ 20,00. Nos dois dias restantes, seria mantido o preço do sexto dia. Nessas condições, um modelo para a promoção idealizada é apresentado no gráfico a seguir, no qual o valor da diária é função do tempo medido em número de dias.\nDe acordo com os dados e com o modelo, comparando o preço que um casal pagaria pela hospedagem por sete dias fora da promoção, um casal que adquirir o pacote promocional por oito dias fará uma economia de",
       "options": [
         {
@@ -2612,12 +2855,12 @@
           "type": "text_block",
           "title": null,
           "content": "As figuras a seguir exibem um trecho de um quebra-cabeças que está sendo montado. Observe que as peças são quadradas e há 8 peças no tabuleiro da figura A e 8 peças no tabuleiro da figura B. As peças são retiradas do tabuleiro da figura B e colocadas no tabuleiro da figura A na posição correta, isto é, de modo a completar os desenhos.",
-          "source": "F i g u r a A F i g u r a B Peça 1 Peça 2 Disponível em: http://pt.eternityii.com. Acesso em: 14 jul. 2009."
+          "source": "Disponível em: http://pt.eternityii.com. Acesso em: 14 jul. 2009."
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd7_q147-1.png",
-        "assets/images/enem_2009_cd7_q147-2.png"
+        "assets/images/enem_2009_cd7_q147-fig1.png",
+        "assets/images/enem_2009_cd7_q147-fig2.png"
       ],
       "statement": "É possível preencher corretamente o espaço indicado pela seta no tabuleiro da figura A colocando a peça",
       "options": [
@@ -2664,11 +2907,13 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A tabela mostra alguns dados da emissão de dióxido de carbono de uma fábrica, em função do número de toneladas produzidas.\nProdução Emissão de dióxido de carbono (em toneladas) (em partes por milhão – ppm) 1,1 2,14 1,2 2,30 1,3 2,46 1,4 2,64 1,5 2,83 1,6 3,03 1,7 3,25 1,8 3,48 1,9 3,73 2,0 4,00 Cadernos do Gestar II, Matemática TP3.",
+          "content": "A tabela mostra alguns dados da emissão de dióxido de carbono de uma fábrica, em função do número de toneladas produzidas.",
           "source": "Disponível em: www.mec.gov.br. Acesso em: 14 jul. 2009."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2009_cd7_q148-fig1.png"
+      ],
       "statement": "Os dados na tabela indicam que a taxa média de variação entre a emissão de dióxido de carbono (em ppm) e a produção (em toneladas) é",
       "options": [
         {
@@ -2697,7 +2942,7 @@
         },
         {
           "letter": "E",
-          "text": "superior a 2,80.\nRascunho",
+          "text": "superior a 2,80.",
           "image_url": null,
           "is_correct": false
         }
@@ -2710,10 +2955,50 @@
       "subject": "Matemática e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
-      "image_url": null,
-      "statement": null,
-      "options": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "Em Florença, Itália, na Igreja de Santa Croce, é possível encontrar um portão em que aparecem os anéis de Borromeo. Alguns historiadores acreditavam que os círculos representavam as três artes: escultura, pintura e arquitetura, pois elas eram tão próximas quanto inseparáveis.",
+          "source": "Scientific American, ago. 2008."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q149-1.png"
+      ],
+      "statement": "Qual dos esboços a seguir melhor representa os anéis de Borromeo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd7_q149-2.png",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd7_q149-3.png",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd7_q149-4.png",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd7_q149-5.png",
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "",
+          "image_url": "assets/images/enem_2009_cd7_q149-6.png",
+          "is_correct": true
+        }
+      ],
       "correct_answer": "E"
     },
     {
@@ -2726,12 +3011,14 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Brasil e França têm relações comerciais há mais de 200 anos. Enquanto a França é a 5.ª nação mais rica do planeta, o Brasil é a 10.ª, e ambas se destacam na economia mundial. No entanto, devido a uma série de restrições, o comércio entre esses dois países ainda não é adequadamente explorado, como mostra a tabela seguinte, referente ao período 2003-2007.\nInvestimentos Bilaterais (em milhões de dólares)",
-          "source": "Ano Brasil na França França no Brasil 2003 367 825 2004 357 485 2005 354 1.458 2006 539 744 2007 280 1.214 Disponível em: www.cartacapital.com.br. Acesso em: 7 jul. 2009."
+          "content": "Brasil e França têm relações comerciais há mais de 200 anos. Enquanto a França é a 5.ª nação mais rica do planeta, o Brasil é a 10.ª, e ambas se destacam na economia mundial. No entanto, devido a uma série de restrições, o comércio entre esses dois países ainda não é adequadamente explorado, como mostra a tabela seguinte, referente ao período 2003-2007.",
+          "source": "Disponível em: www.cartacapital.com.br. Acesso em: 7 jul. 2009."
         }
       ],
-      "image_url": null,
-      "statement": "MT – 2º dia CADERNO 7 – AZ Os dados da tabela mostram que, no período considerado, os valores médios dos investimentos da França no Brasil foram maiores que os investimentos do Brasil na França em um valor",
+      "image_url": [
+        "assets/images/enem_2009_cd7_q150-fig1.png"
+      ],
+      "statement": "Os dados da tabela mostram que, no período considerado, os valores médios dos investimentos da França no Brasil foram maiores que os investimentos do Brasil na França em um valor",
       "options": [
         {
           "letter": "A",
@@ -2828,31 +3115,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "1,5 x 102 vezes a capacidade do reservatório novo.",
+          "text": "1,5 x 10² vezes a capacidade do reservatório novo.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1,5 x 103 vezes a capacidade do reservatório novo.",
+          "text": "1,5 x 10³ vezes a capacidade do reservatório novo.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "1,5 x 106 vezes a capacidade do reservatório novo.",
+          "text": "1,5 x 10⁶ vezes a capacidade do reservatório novo.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1,5 x 108 vezes a capacidade do reservatório novo.",
+          "text": "1,5 x 10⁸ vezes a capacidade do reservatório novo.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "1,5 x 109 vezes a capacidade do reservatório novo.",
+          "text": "1,5 x 10⁹ vezes a capacidade do reservatório novo.",
           "image_url": null,
           "is_correct": true
         }
@@ -2874,8 +3161,7 @@
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd7_q153-1.png",
-        "assets/images/enem_2009_cd7_q153-2.png"
+        "assets/images/enem_2009_cd7_q153-fig1.png"
       ],
       "statement": "Imagine um plano paralelo à face α do prisma I, mas que passe pelo ponto P pertencente à aresta do poliedro II, indicado na figura. A interseção desse plano imaginário com a escultura contém",
       "options": [
@@ -2920,8 +3206,39 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": null,
-      "options": [],
+      "statement": "A rampa de um hospital tem na sua parte mais elevada uma altura de 2,2 metros. Um paciente ao caminhar sobre a rampa percebe que se deslocou 3,2 metros e alcançou uma altura de 0,8 metro.\nA distância em metros que o paciente ainda deve caminhar para atingir o ponto mais alto da rampa é",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1,16 metros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "3,0 metros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "5,4 metros.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "5,6 metros.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "7,04 metros.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "D"
     },
     {
@@ -2936,31 +3253,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "V = 10.000 + 50x – x2.",
+          "text": "V = 10.000 + 50x – x².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "V = 10.000 + 50x + x2.",
+          "text": "V = 10.000 + 50x + x².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "V = 15.000 – 50x – x2.",
+          "text": "V = 15.000 – 50x – x².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "V = 15.000 + 50x – x2.",
+          "text": "V = 15.000 + 50x – x².",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "V = 15.000 – 50x + x2.",
+          "text": "V = 15.000 – 50x + x².",
           "image_url": null,
           "is_correct": false
         }
@@ -2975,8 +3292,39 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": null,
-      "options": [],
+      "statement": "Para cada indivíduo, a sua inscrição no Cadastro de Pessoas Físicas (CPF) é composto por um número de 9 algarismos e outro número de 2 algarismos, na forma d₁ d₂, em que os dígitos d₁ e d₂ são denominados dígitos verificadores. Os dígitos verificadores são calculados, a partir da esquerda, da seguinte maneira: os 9 primeiros algarismos são multiplicados pela sequência 10, 9, 8, 7, 6, 5, 4, 3, 2 (o primeiro por 10, o segundo por 9, e assim sucessivamente); em seguida, calcula-se o resto r da divisão da soma dos resultados das multiplicações por 11, e se esse resto r for 0 ou 1, d₁ é zero, caso contrário d₁ = (11 – r). O dígito d₂ é calculado pela mesma regra, na qual os números a serem multiplicados pela sequência dada são contados a partir do segundo algarismo, sendo d₁ o último algarismo, isto é, d₂ é zero se o resto s da divisão por 11 das somas das multiplicações for 0 ou 1, caso contrário, d₂ = (11 – s). Suponha que João tenha perdido seus documentos, inclusive o cartão de CPF e, ao dar queixa da perda na delegacia, não conseguisse lembrar quais eram os dígitos verificadores, recordando-se apenas que os nove primeiros algarismos eram 123.456.789. Neste caso, os dígitos verificadores d₁ e d₂ esquecidos são, respectivamente,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0 e 9.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "1 e 4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1 e 7.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "9 e 1.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "0 e 1.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "A"
     },
     {
@@ -2987,8 +3335,39 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": null,
-      "options": [],
+      "statement": "Uma empresa que fabrica esferas de aço, de 6 cm de raio, utiliza caixas de madeira, na forma de um cubo, para transportá-las.\nSabendo que a capacidade da caixa é de 13.824 cm³, então o número máximo de esferas que podem ser transportadas em uma caixa é igual a",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "8.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "16.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "24.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "32.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "B"
     },
     {
@@ -3046,12 +3425,13 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Um experimento consiste em colocar certa quantidade de bolas de vidro idênticas em um copo com água até certo nível e medir o nível da água, conforme ilustrado na figura a seguir. Como resultado do experimento, concluiu-se que o nível da água é função do número de bolas de vidro que são colocadas dentro do copo.",
-          "source": "O quadro a seguir mostra alguns resultados do experimento realizado. número de bolas (x) nível da água (y) 5 6,35 cm 10 6,70 cm 15 7,05 cm Disponível em: www.penta.ufrgs.br. Acesso em: 13 jan. 2009 (adaptado)."
+          "content": "Um experimento consiste em colocar certa quantidade de bolas de vidro idênticas em um copo com água até certo nível e medir o nível da água, conforme ilustrado na figura a seguir. Como resultado do experimento, concluiu-se que o nível da água é função do número de bolas de vidro que são colocadas dentro do copo.\nO quadro a seguir mostra alguns resultados do experimento realizado.",
+          "source": "Disponível em: www.penta.ufrgs.br. Acesso em: 13 jan. 2009 (adaptado)."
         }
       ],
       "image_url": [
-        "assets/images/enem_2009_cd7_q159-1.png"
+        "assets/images/enem_2009_cd7_q159-fig1.png",
+        "assets/images/enem_2009_cd7_q159-fig2.png"
       ],
       "statement": "Qual a expressão algébrica que permite calcular o nível da água (y) em função do número de bolas (x)?",
       "options": [
@@ -3270,7 +3650,7 @@
       "image_url": [
         "assets/images/enem_2009_cd7_q164.png"
       ],
-      "statement": "Ao morrer, o pai de João, Pedro e José deixou como herança um terreno retangular de 3 km x 2 km que contém uma área de extração de ouro delimitada por um quarto de círculo de raio 1 km a partir do canto inferior esquerdo da propriedade. Dado o maior valor da área de extração de ouro, os irmãos acordaram em repartir a propriedade de modo que cada um ficasse com a terça parte da área de extração, conforme mostra a figura.\nEm relação à partilha proposta, constata-se que a porcentagem da área do terreno que coube a João corresponde, aproximadamente, a 3 (considere =0,58) 3",
+      "statement": "Ao morrer, o pai de João, Pedro e José deixou como herança um terreno retangular de 3 km x 2 km que contém uma área de extração de ouro delimitada por um quarto de círculo de raio 1 km a partir do canto inferior esquerdo da propriedade. Dado o maior valor da área de extração de ouro, os irmãos acordaram em repartir a propriedade de modo que cada um ficasse com a terça parte da área de extração, conforme mostra a figura.\nEm relação à partilha proposta, constata-se que a porcentagem da área do terreno que coube a João corresponde, aproximadamente, a (considere √3/3 = 0,58)",
       "options": [
         {
           "letter": "A",
@@ -3365,7 +3745,7 @@
       "image_url": [
         "assets/images/enem_2009_cd7_q166.png"
       ],
-      "statement": "Suponha que um passageiro de nome Carlos pegou um avião AII, que seguiu a direção que forma um ângulo de 135o graus no sentido horário com a rota Brasília – Belém e pousou em alguma das capitais brasileiras. Ao desembarcar, Carlos fez uma conexão e embarcou em um avião AIII, que seguiu a direção que forma um ângulo reto, no sentido anti-horário, com a direção seguida pelo avião AII ao partir de Brasília-DF. Considerando que a direção seguida por um avião é sempre dada pela semirreta com origem na cidade de partida e que passa pela cidade destino do avião, pela descrição dada, o passageiro Carlos fez uma conexão em",
+      "statement": "Suponha que um passageiro de nome Carlos pegou um avião AII, que seguiu a direção que forma um ângulo de 135º graus no sentido horário com a rota Brasília – Belém e pousou em alguma das capitais brasileiras. Ao desembarcar, Carlos fez uma conexão e embarcou em um avião AIII, que seguiu a direção que forma um ângulo reto, no sentido anti-horário, com a direção seguida pelo avião AII ao partir de Brasília-DF. Considerando que a direção seguida por um avião é sempre dada pela semirreta com origem na cidade de partida e que passa pela cidade destino do avião, pela descrição dada, o passageiro Carlos fez uma conexão em",
       "options": [
         {
           "letter": "A",
@@ -3410,11 +3790,13 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O quadro apresenta informações da área aproximada de cada bioma brasileiro. biomas área área / total continentais aproximada Brasil brasileiros (km2)",
-          "source": "Amazônia 4.196.943 49,29% Cerrado 2.036.448 23,92% Mata Atlântica 1.110.182 13,04% Caatinga 844.453 9,92% Pampa 176.496 2,07% Pantanal 150.355 1,76% Área Total Brasil 8.514.877 Disponível em: www.ibge.gov.br. Acesso em: 10 jul. 2009 (adaptado)."
+          "content": "O quadro apresenta informações da área aproximada de cada bioma brasileiro. biomas área área / total continentais aproximada Brasil brasileiros (km²)",
+          "source": "Disponível em: www.ibge.gov.br. Acesso em: 10 jul. 2009 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2009_cd7_q167-fig1.png"
+      ],
       "statement": "É comum em conversas informais, ou mesmo em noticiários, o uso de múltiplos da área de um campo de futebol (com as medidas de 120 m x 90 m) para auxiliar a visualização de áreas consideradas extensas. Nesse caso, qual é o número de campos de futebol correspondente à área aproximada do bioma Pantanal?",
       "options": [
         {
@@ -3464,8 +3846,10 @@
           "source": null
         }
       ],
-      "image_url": null,
-      "statement": "Mês Cotação Ano Outubro R$ 83,00 2007 Novembro R$ 73,10 2007 Dezembro R$ 81,60 2007 Janeiro R$ 82,00 2008 Fevereiro R$ 85,30 2008 Março R$ 84,00 2008 Abril R$ 84,60 2008 De acordo com esses dados, o valor da mediana das cotações mensais do ovo extra branco nesse período era igual a",
+      "image_url": [
+        "assets/images/enem_2009_cd7_q168-fig1.png"
+      ],
+      "statement": "De acordo com esses dados, o valor da mediana das cotações mensais do ovo extra branco nesse período era igual a",
       "options": [
         {
           "letter": "A",
@@ -3506,10 +3890,50 @@
       "subject": "Matemática e Suas Tecnologias",
       "topic": null,
       "foreign_language": null,
-      "context_texts": [],
-      "image_url": null,
-      "statement": null,
-      "options": [],
+      "context_texts": [
+        {
+          "type": "text_block",
+          "title": null,
+          "content": "A vazão do rio Tietê, em São Paulo, constitui preocupação constante nos períodos chuvosos. Em alguns trechos, são construídas canaletas para controlar o fluxo de água. Uma dessas canaletas, cujo corte vertical determina a forma de um trapézio isósceles, tem as medidas especificadas na figura I. Neste caso, a vazão da água é de 1.050 m³/s. O cálculo da vazão, Q em m³/s, envolve o produto da área A do setor transversal (por onde passa a água), em m², pela velocidade da água no local, v, em m/s, ou seja, Q = Av.\nPlaneja-se uma reforma na canaleta, com as dimensões especificadas na figura II, para evitar a ocorrência de enchentes.",
+          "source": "Disponível em: www2.uel.br."
+        }
+      ],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q169.png"
+      ],
+      "statement": "Na suposição de que a velocidade da água não se alterará, qual a vazão esperada para depois da reforma na canaleta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "90 m³/s.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "750 m³/s.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "1.050 m³/s.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "1.512 m³/s.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "E",
+          "text": "2.009 m³/s.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "D"
     },
     {
@@ -3570,17 +3994,17 @@
         }
       ],
       "image_url": null,
-      "statement": "Considere que uma pessoa decida apostar exatamente R$ 126,00 e que esteja mais interessada em acertar apenas cinco das seis dezenas da mega sena, justamente pela dificuldade desta última. Nesse caso, é melhor que essa pessoa faça 84 apostas de seis dezenas diferentes, que não tenham cinco números em comum, do que uma única aposta com nove dezenas, porque a probabilidade de acertar a quina no segundo caso em relação ao primeiro é, aproximadamente, 1",
+      "statement": "Considere que uma pessoa decida apostar exatamente R$ 126,00 e que esteja mais interessada em acertar apenas cinco das seis dezenas da mega sena, justamente pela dificuldade desta última. Nesse caso, é melhor que essa pessoa faça 84 apostas de seis dezenas diferentes, que não tenham cinco números em comum, do que uma única aposta com nove dezenas, porque a probabilidade de acertar a quina no segundo caso em relação ao primeiro é, aproximadamente,",
       "options": [
         {
           "letter": "A",
-          "text": "1 vez menor. 2 1",
+          "text": "1½ vez menor.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "2 vezes menor. 2",
+          "text": "2½ vezes menor.",
           "image_url": null,
           "is_correct": false
         },
@@ -3615,12 +4039,14 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Nos últimos anos, o volume de petróleo exportado pelo Brasil tem mostrado expressiva tendência de crescimento, ultrapassando as importações em 2008.\nEntretanto, apesar de as importações terem se mantido praticamente no mesmo patamar desde 2001, os recursos gerados com as exportações ainda são inferiores àqueles despendidos com as importações, uma vez que o preço médio por metro cúbico do petróleo importado é superior ao do petróleo nacional. Nos primeiros cinco meses de 2009, foram gastos 2,84 bilhões de dólares com importações e gerada uma receita de 2,24 bilhões de dólares com as exportações. O preço médio por metro cúbico em maio de 2009 foi de 340 dólares para o petróleo importado e de 230 dólares para o petróleo exportado.\nO quadro a seguir mostra os dados consolidados de 2001 a 2008 e dos primeiros cinco meses de 2009.\nComércio exterior de petróleo (milhões de metros cúbicos)\nAno Importação Exportação 2001 24,19 6,43 2002 22,06 13,63 2003 19,96 14,03 2004 26,91 13,39 2005 21,97 15,93 2006 20,91 21,36 2007 25,38 24,45 2008 23,53 25,14 2009* 9,00 11,00 *Valores apurados de janeiro a maio de 2009.",
+          "content": "Nos últimos anos, o volume de petróleo exportado pelo Brasil tem mostrado expressiva tendência de crescimento, ultrapassando as importações em 2008.\nEntretanto, apesar de as importações terem se mantido praticamente no mesmo patamar desde 2001, os recursos gerados com as exportações ainda são inferiores àqueles despendidos com as importações, uma vez que o preço médio por metro cúbico do petróleo importado é superior ao do petróleo nacional. Nos primeiros cinco meses de 2009, foram gastos 2,84 bilhões de dólares com importações e gerada uma receita de 2,24 bilhões de dólares com as exportações. O preço médio por metro cúbico em maio de 2009 foi de 340 dólares para o petróleo importado e de 230 dólares para o petróleo exportado.\nO quadro a seguir mostra os dados consolidados de 2001 a 2008 e dos primeiros cinco meses de 2009.\nComércio exterior de petróleo (milhões de metros cúbicos)\n*Valores apurados de janeiro a maio de 2009.",
           "source": "Disponível em: http://www.anp.gov.br. Acesso em: 15 jul. 2009 (adaptado)."
         }
       ],
-      "image_url": null,
-      "statement": "MT – 2º dia CADERNO 7 – AZ Considere que as importações e exportações de petróleo 7 de junho a dezembro de 2009 sejam iguais a das 5 importações e exportações, respectivamente, ocorridas de janeiro a maio de 2009. Nesse caso, supondo que os preços para importação e exportação não sofram alterações, qual seria o valor mais aproximado da diferença entre os recursos despendidos com as importações e os recursos gerados com as exportações em 2009?",
+      "image_url": [
+        "assets/images/enem_2009_cd7_q172-fig1.png"
+      ],
+      "statement": "Considere que as importações e exportações de petróleo de junho a dezembro de 2009 sejam iguais a 7/5 das importações e exportações, respectivamente, ocorridas de janeiro a maio de 2009. Nesse caso, supondo que os preços para importação e exportação não sofram alterações, qual seria o valor mais aproximado da diferença entre os recursos despendidos com as importações e os recursos gerados com as exportações em 2009?",
       "options": [
         {
           "letter": "A",
@@ -3662,9 +4088,42 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": null,
-      "options": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q173.png"
+      ],
+      "statement": "Uma fábrica produz velas de parafina em forma de pirâmide quadrangular regular com 19 cm de altura e 6 cm de aresta da base. Essas velas são formadas por 4 blocos de mesma altura — 3 troncos de pirâmide de bases paralelas e 1 pirâmide na parte superior —, espaçados de 1 cm entre eles, sendo que a base superior de cada bloco é igual à base inferior do bloco sobreposto, com uma haste de ferro passando pelo centro de cada bloco, unindo-os, conforme a figura.\nSe o dono da fábrica resolver diversificar o modelo, retirando a pirâmide da parte superior, que tem 1,5 cm de aresta na base, mas mantendo o mesmo molde, quanto ele passará a gastar com parafina para fabricar uma vela?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "156 cm³.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "189 cm³.",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "192 cm³.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "216 cm³.",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "540 cm³.",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "B"
     },
     {
@@ -3674,9 +4133,42 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": null,
-      "options": [],
+      "image_url": [
+        "assets/images/enem_2009_cd7_q174-fig1.png"
+      ],
+      "statement": "Considere um ponto P em uma circunferência de raio r no plano cartesiano. Seja Q a projeção ortogonal de P sobre o eixo x, como mostra a figura, e suponha que o ponto P percorra, no sentido anti-horário, uma distância d ≤ r sobre a circunferência.\nEntão, o ponto Q percorrerá, no eixo x, uma distância dada por",
+      "options": [
+        {
+          "letter": "A",
+          "text": "r(1 − sen(d/r)).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "r(1 − cos(d/r)).",
+          "image_url": null,
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "r(1 − tg(d/r)).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "r·sen(r/d).",
+          "image_url": null,
+          "is_correct": false
+        },
+        {
+          "letter": "E",
+          "text": "r·cos(r/d).",
+          "image_url": null,
+          "is_correct": false
+        }
+      ],
       "correct_answer": "B"
     },
     {
@@ -3689,7 +4181,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O Indicador do CadÚnico (ICadÚnico), que compõe o cálculo do Índice de Gestão Descentralizada do Programa Bolsa Família (IGD), é obtido por meio da média aritmética entre a taxa de cobertura qualificada de cadastros (TC) e a taxa de atualização de cadastros (TA), NV NA em que TC = ,TA= , NV é o número de NF NV cadastros domiciliares válidos no perfil do CadÚnico, NF é o número de famílias estimadas como público alvo do CadÚnico e NA é o número de cadastros domiciliares atualizados no perfil do CadÚnico.",
+          "content": "O Indicador do CadÚnico (ICadÚnico), que compõe o cálculo do Índice de Gestão Descentralizada do Programa Bolsa Família (IGD), é obtido por meio da média aritmética entre a taxa de cobertura qualificada de cadastros (TC) e a taxa de atualização de cadastros (TA), em que TC = NV/NF, TA = NA/NV, NV é o número de cadastros domiciliares válidos no perfil do CadÚnico, NF é o número de famílias estimadas como público alvo do CadÚnico e NA é o número de cadastros domiciliares atualizados no perfil do CadÚnico.",
           "source": "Portaria n° 148 de 27 de abril de 2006 (adaptado)."
         }
       ],
@@ -3868,7 +4360,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A cisterna é um recipiente utilizado para armazenar água da chuva. Os principais critérios a serem observados para captação e armazenagem de água da chuva são: a demanda diária de água na propriedade; o índice médio de precipitação (chuva), por região, em cada período do ano; o tempo necessário para armazenagem; e a área de telhado necessária ou disponível para captação.\nPara fazer o cálculo do volume de uma cisterna, deve-se acrescentar um adicional relativo ao coeficiente de evaporação. Na dificuldade em se estabelecer um coeficiente confiável, a Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA) sugere que sejam adicionados 10% ao volume calculado de água.\nDesse modo, o volume, em m3, de uma cisterna é calculado por V = V × N , em que V = volume de c d dia d demanda da água diária (m³), N = número de dias de dia armazenagem, e este resultado deve ser acrescido de 10%.\nPara melhorar a qualidade da água, recomenda-se que a captação seja feita somente nos telhados das edificações.\nConsiderando que a precipitação de chuva de 1 mm sobre uma área de 1 m2 produz 1 litro de água, pode-se calcular a área de um telhado a fim de atender a necessidade de armazenagem da seguinte maneira: área do telhado (em m2) = volume da cisterna (em litros)/precipitação.",
+          "content": "A cisterna é um recipiente utilizado para armazenar água da chuva. Os principais critérios a serem observados para captação e armazenagem de água da chuva são: a demanda diária de água na propriedade; o índice médio de precipitação (chuva), por região, em cada período do ano; o tempo necessário para armazenagem; e a área de telhado necessária ou disponível para captação.\nPara fazer o cálculo do volume de uma cisterna, deve-se acrescentar um adicional relativo ao coeficiente de evaporação. Na dificuldade em se estabelecer um coeficiente confiável, a Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA) sugere que sejam adicionados 10% ao volume calculado de água.\nDesse modo, o volume, em m³, de uma cisterna é calculado por Vc = Vd × Ndia, em que Vd = volume de demanda da água diária (m³), Ndia = número de dias de armazenagem, e este resultado deve ser acrescido de 10%.\nPara melhorar a qualidade da água, recomenda-se que a captação seja feita somente nos telhados das edificações.\nConsiderando que a precipitação de chuva de 1 mm sobre uma área de 1 m² produz 1 litro de água, pode-se calcular a área de um telhado a fim de atender a necessidade de armazenagem da seguinte maneira: área do telhado (em m²) = volume da cisterna (em litros)/precipitação.",
           "source": "Disponível em: www.cnpsa.embrapa.br. Acesso em: 8 jun. 2009 (adaptado)."
         }
       ],
@@ -3877,31 +4369,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "6 metros por 5 metros, pois assim teria uma área de 30 m2.",
+          "text": "6 metros por 5 metros, pois assim teria uma área de 30 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "15 metros por 20 metros, pois assim teria uma área de 300 m2.",
+          "text": "15 metros por 20 metros, pois assim teria uma área de 300 m².",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "50 metros por 60 metros, pois assim teria uma área de 3.000 m2.",
+          "text": "50 metros por 60 metros, pois assim teria uma área de 3.000 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "91 metros por 30 metros, pois assim teria uma área de 2.730 m2.",
+          "text": "91 metros por 30 metros, pois assim teria uma área de 2.730 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "110 metros por 30 metros, pois assim teria uma área de 3.300 m2.",
+          "text": "110 metros por 30 metros, pois assim teria uma área de 3.300 m².",
           "image_url": null,
           "is_correct": false
         }
@@ -3948,7 +4440,7 @@
         },
         {
           "letter": "E",
-          "text": "10 doses.\nMT – 2º dia CADERNO 7 – AZ Rascunho ZUL – PÁGINA 30 ENEM 2009 Transcreva a sua Redaçã 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 RED – 2º dia CADERNO 7 – AZ ão para a Folha de Redação",
+          "text": "10 doses.",
           "image_url": null,
           "is_correct": false
         }

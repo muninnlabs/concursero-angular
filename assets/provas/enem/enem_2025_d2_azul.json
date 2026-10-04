@@ -680,7 +680,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A quantidade de CO2 na atmosfera da Terra aumentou em 50%, e a temperatura está agora cerca de 1,2 °C mais quente em comparação ao século XIX. O ritmo de aumento da temperatura precisa diminuir se quisermos evitar as piores consequências das mudanças climáticas. Cientistas afirmam que o aquecimento global precisa ser mantido em 1,5 °C até o ano 2100. No entanto, a menos que outras ações sejam tomadas, o planeta ainda pode aquecer mais de 2 °C até o final deste século. Na prática, os países precisam enfrentar as mudanças climáticas com ações mitigadoras, que reduzam tanto as emissões quanto os níveis de CO2 na atmosfera.",
+          "content": "A quantidade de CO₂ na atmosfera da Terra aumentou em 50%, e a temperatura está agora cerca de 1,2 °C mais quente em comparação ao século XIX. O ritmo de aumento da temperatura precisa diminuir se quisermos evitar as piores consequências das mudanças climáticas. Cientistas afirmam que o aquecimento global precisa ser mantido em 1,5 °C até o ano 2100. No entanto, a menos que outras ações sejam tomadas, o planeta ainda pode aquecer mais de 2 °C até o final deste século. Na prática, os países precisam enfrentar as mudanças climáticas com ações mitigadoras, que reduzam tanto as emissões quanto os níveis de CO₂ na atmosfera.",
           "source": "Um guia rápido para entender as mudanças climáticas. Disponível em: www.bbc.com. Acesso em: 6 dez. 2021 (adaptado)."
         }
       ],
@@ -782,7 +782,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "No início do século XX, as fórmulas das substâncias eram representadas de modo diferente do atual. A figura apresenta uma fotografia bem antiga (1909) que registra uma aula de química ministrada em um colégio em Santos (SP). Um olhar mais atento permite identificar como os compostos químicos eram representados.\nO nitrogênio era chamado de azoto e representado pelo símbolo Az. Vê-se na lousa a equação representativa da adição do oxigênio atômico (O) ao monóxido de nitrogênio (AzO) com a formação de dióxido de nitrogênio (AzO2). Analogamente, o nitrato de sódio era representado por NaAzO3.",
+          "content": "No início do século XX, as fórmulas das substâncias eram representadas de modo diferente do atual. A figura apresenta uma fotografia bem antiga (1909) que registra uma aula de química ministrada em um colégio em Santos (SP). Um olhar mais atento permite identificar como os compostos químicos eram representados.\nO nitrogênio era chamado de azoto e representado pelo símbolo Az. Vê-se na lousa a equação representativa da adição do oxigênio atômico (O) ao monóxido de nitrogênio (AzO) com a formação de dióxido de nitrogênio (AzO²). Analogamente, o nitrato de sódio era representado por NaAzO³.",
           "source": "Disponível em: www.novomilenio.inf.br. Acesso em: 29 ago. 2014 (adaptado)."
         }
       ],
@@ -793,31 +793,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "HAzO3 e CaCl2",
+          "text": "HAzO³ e CaCl²",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "HAz3O e Ca2Cl",
+          "text": "HAz³O e Ca²Cl",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "H3AzO4 e CaCl",
+          "text": "H³AzO⁴ e CaCl",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "HAz3O e KCl2",
+          "text": "HAz³O e KCl²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "HAzO2 e KCl",
+          "text": "HAzO² e KCl",
           "image_url": null,
           "is_correct": false
         }
@@ -1256,31 +1256,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "C9H16O",
+          "text": "C₉H₁₆O",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "C9H17O",
+          "text": "C₉H₁₇O",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "C10H16O",
+          "text": "C₁₀H₁₆O",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "C10H16O2",
+          "text": "C₁₀H₁₆O₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "C10H18O2",
+          "text": "C₁₀H₁₈O₂",
           "image_url": null,
           "is_correct": false
         }
@@ -1347,12 +1347,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Para a produção de titânio metálico ou dióxido de titânio puros, é necessário fazer a cloração do minério que contém dióxido de titânio, com o objetivo de separar esse óxido de outras substâncias presentes no minério. A principal reação química de cloração é representada por:\nTiO2(s) + 2 Cl2(g) ⇌ TiCl4(g) + O2(g)   ΔH = +175 kJ/mol Depois da cloração, o tetracloreto de titânio é condensado e convertido, novamente, a dióxido de titânio.",
+          "content": "Para a produção de titânio metálico ou dióxido de titânio puros, é necessário fazer a cloração do minério que contém dióxido de titânio, com o objetivo de separar esse óxido de outras substâncias presentes no minério. A principal reação química de cloração é representada por:\nTiO₂(s) + 2 Cl₂(g) ⇌ TiCl₄(g) + O₂(g)   ΔH = +175 kJ/mol Depois da cloração, o tetracloreto de titânio é condensado e convertido, novamente, a dióxido de titânio.",
           "source": null
         }
       ],
       "image_url": null,
-      "statement": "Após o sistema atingir o equilíbrio químico, como a formação do TiCl4 pode ser favorecida?",
+      "statement": "Após o sistema atingir o equilíbrio químico, como a formação do TiCl₄ pode ser favorecida?",
       "options": [
         {
           "letter": "A",
@@ -1368,19 +1368,19 @@
         },
         {
           "letter": "C",
-          "text": "Aumentando a pressão parcial de O2.",
+          "text": "Aumentando a pressão parcial de O₂.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Aumentando a pressão parcial de Cl2.",
+          "text": "Aumentando a pressão parcial de Cl₂.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "Variando a quantidade de TiO2.",
+          "text": "Variando a quantidade de TiO₂.",
           "image_url": null,
           "is_correct": false
         }
@@ -1653,12 +1653,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Plantas e algas realizam fotossíntese oxigênica para síntese de matéria orgânica e, para isso, utilizam trifosfato de adenosina (ATP) e nicotinamida adenina dinucleotídeo fosfato reduzido (NADPH). Já algumas bactérias fotossintetizantes não apresentam cloroplasto e clorofila, mas um pigmento denominado bacterioclorofila. Esses procariotos realizam a fotossíntese anoxigênica, um processo de síntese de matéria orgânica utilizando o gás carbônico (CO2) e o gás sulfídrico (H2S).",
+          "content": "Plantas e algas realizam fotossíntese oxigênica para síntese de matéria orgânica e, para isso, utilizam trifosfato de adenosina (ATP) e nicotinamida adenina dinucleotídeo fosfato reduzido (NADPH). Já algumas bactérias fotossintetizantes não apresentam cloroplasto e clorofila, mas um pigmento denominado bacterioclorofila. Esses procariotos realizam a fotossíntese anoxigênica, um processo de síntese de matéria orgânica utilizando o gás carbônico (CO₂) e o gás sulfídrico (H₂S).",
           "source": null
         }
       ],
       "image_url": null,
-      "statement": "Na fotossíntese oxigênica, qual composto desempenha função análoga à do H2S?",
+      "statement": "Na fotossíntese oxigênica, qual composto desempenha função análoga à do H₂S?",
       "options": [
         {
           "letter": "A",
@@ -1703,7 +1703,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Objetos de prata escurecem em contato com compostos contendo enxofre por causa da formação de uma fina camada de sulfeto de prata. Um método simples para clarear o objeto consiste em forrar um recipiente com papel alumínio, adicionar ao recipiente uma solução aquosa de cloreto de sódio e, enfim, mergulhar o objeto de prata enegrecido. Em cerca de três minutos, a prata volta à coloração original. As seguintes semirreações e os respectivos potenciais-padrão de redução são úteis para a compreensão dos fenômenos ocorridos.\nAg2S(s) + 2e⁻ → 2 Ag(s) + S²⁻(aq)   −0,69 V O2(g) + 4 H⁺(aq) + 4e⁻ → 2 H2O(l)   +1,23 V Al³⁺(aq) + 3e⁻ → Al(s)   −1,68 V",
+          "content": "Objetos de prata escurecem em contato com compostos contendo enxofre por causa da formação de uma fina camada de sulfeto de prata. Um método simples para clarear o objeto consiste em forrar um recipiente com papel alumínio, adicionar ao recipiente uma solução aquosa de cloreto de sódio e, enfim, mergulhar o objeto de prata enegrecido. Em cerca de três minutos, a prata volta à coloração original. As seguintes semirreações e os respectivos potenciais-padrão de redução são úteis para a compreensão dos fenômenos ocorridos.\nAg₂S(s) + 2e⁻ → 2 Ag(s) + S²⁻(aq)   −0,69 V O₂(g) + 4 H⁺(aq) + 4e⁻ → 2 H₂O(l)   +1,23 V Al³⁺(aq) + 3e⁻ → Al(s)   −1,68 V",
           "source": "SARTORI, E. R.; BATISTA, E. F.; FATIBELLO-FILHO, O. Escurecimento e limpeza de objetos de prata: um experimento simples e de fácil execução envolvendo reações de oxidação-redução. Química Nova na Escola, n. 30, 2008 (adaptado)."
         }
       ],
@@ -1753,7 +1753,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Apaixonada por culinária e química, uma chefe de cozinha calculou que, para promover o crescimento adequado da massa durante o cozimento de um bolo a 180 °C (453 K) e 1,00 atm, ela precisaria utilizar uma quantidade de fermento químico suficiente para produzir um volume de gás igual a 4,00 L. Com esse objetivo, ela escolheu utilizar o bicarbonato de amônio, um composto que, sob aquecimento, degrada-se em três gases distintos, que são os responsáveis pelo crescimento da massa. A decomposição do bicarbonato de amônio ocorre conforme a equação química apresentada e, nas condições do cozimento, seu rendimento é de 80%.\nNH4HCO3(s) → NH3(g) + CO2(g) + H2O(g)\nConsidere que a mistura dos gases se comporta como gás ideal nas condições de cozimento utilizadas pela chefe.\nDados: Massa molar do NH4HCO3 = 79 g·mol⁻¹ e R = 0,082 atm·L·mol⁻¹·K⁻¹.",
+          "content": "Apaixonada por culinária e química, uma chefe de cozinha calculou que, para promover o crescimento adequado da massa durante o cozimento de um bolo a 180 °C (453 K) e 1,00 atm, ela precisaria utilizar uma quantidade de fermento químico suficiente para produzir um volume de gás igual a 4,00 L. Com esse objetivo, ela escolheu utilizar o bicarbonato de amônio, um composto que, sob aquecimento, degrada-se em três gases distintos, que são os responsáveis pelo crescimento da massa. A decomposição do bicarbonato de amônio ocorre conforme a equação química apresentada e, nas condições do cozimento, seu rendimento é de 80%.\nNH₄HCO₃(s) → NH₃(g) + CO₂(g) + H₂O(g)\nConsidere que a mistura dos gases se comporta como gás ideal nas condições de cozimento utilizadas pela chefe.\nDados: Massa molar do NH4HCO3 = 79 g·mol⁻¹ e R = 0,082 atm·L·mol⁻¹·K⁻¹.",
           "source": null
         }
       ],
@@ -2059,7 +2059,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O Brasil é o maior produtor mundial de nióbio (massa molar = 93 g/mol), metal utilizado na fabricação de vários tipos de aço: automotivos, estruturais e inoxidáveis. O processo utilizado na produção do nióbio é a redução aluminotérmica de Nb2O5 com excesso de 10% de Al (massa molar = 27 g/mol), em relação à quantidade estequiométrica da reação, representada pela equação química: 3 Nb2O5(s) + 10 Al(s) → 6 Nb(s) + 5 Al2O3(s)\nUma engenheira metalúrgica estimou a massa de alumínio necessária para produzir 9,3 kg de nióbio, nas condições descritas, para a produção de um lote de peças de aço encomendado por uma indústria, considerando um rendimento de 100%.",
+          "content": "O Brasil é o maior produtor mundial de nióbio (massa molar = 93 g/mol), metal utilizado na fabricação de vários tipos de aço: automotivos, estruturais e inoxidáveis. O processo utilizado na produção do nióbio é a redução aluminotérmica de Nb₂O₅ com excesso de 10% de Al (massa molar = 27 g/mol), em relação à quantidade estequiométrica da reação, representada pela equação química: 3 Nb₂O₅(s) + 10 Al(s) → 6 Nb(s) + 5 Al₂O₃(s)\nUma engenheira metalúrgica estimou a massa de alumínio necessária para produzir 9,3 kg de nióbio, nas condições descritas, para a produção de um lote de peças de aço encomendado por uma indústria, considerando um rendimento de 100%.",
           "source": "Disponível em: www.cbmm.com.br. Acesso em: 17 out. 2015 (adaptado)."
         }
       ],
@@ -2159,7 +2159,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O despejo acidental de óleo nos oceanos tem ocasionado incontáveis prejuízos à vida marinha e à economia de regiões costeiras. Métodos tradicionais de tratamento do despejo geram resíduos de difícil descarte e nem sempre são eficazes. Por isso, pesquisadores desenvolveram um filtro capaz de separar óleo e água. O dispositivo é montado sobre uma malha de aço com uma sequência de camadas. A primeira camada é formada por um polímero de carga positiva, a segunda é composta por nanopartículas de sílica (SiO2), a terceira é formada pelo mesmo polímero e a última é um surfactante, conforme apresentado na figura.\nRepresentação esquemática do dispositivo",
+          "content": "O despejo acidental de óleo nos oceanos tem ocasionado incontáveis prejuízos à vida marinha e à economia de regiões costeiras. Métodos tradicionais de tratamento do despejo geram resíduos de difícil descarte e nem sempre são eficazes. Por isso, pesquisadores desenvolveram um filtro capaz de separar óleo e água. O dispositivo é montado sobre uma malha de aço com uma sequência de camadas. A primeira camada é formada por um polímero de carga positiva, a segunda é composta por nanopartículas de sílica (SiO₂), a terceira é formada pelo mesmo polímero e a última é um surfactante, conforme apresentado na figura.\nRepresentação esquemática do dispositivo",
           "source": "BROWN, P. S.; BHUSHAN, B. Mechanically durable, superoleophobic coatings prepared by layer-by-layer technique for anti-smudge and oil-water separation. Scientific Reports, v. 5, mar. 2015 (adaptado)."
         }
       ],
@@ -2313,7 +2313,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma pessoa pretende instalar um kit de gás natural veicular (GNV) em seu carro. Na loja que escolheu para realizar a compra e instalação desse kit, havia cinco modelos de cilindro para armazenamento do gás, cujas capacidades, em metro cúbico, eram, respectivamente: 10, 14, 17, 21 e 25. O preço do cilindro é proporcional à sua capacidade. Esse carro rodará 30 km diariamente, 7 dias por semana, e o consumo do GNV é de 1 m3 a cada 13 km rodados. A pessoa escolherá o modelo de cilindro de menor preço e que garanta apenas um abastecimento semanal.\nNessas condições, qual será a capacidade, em metro cúbico, do cilindro escolhido por essa pessoa?",
+      "statement": "Uma pessoa pretende instalar um kit de gás natural veicular (GNV) em seu carro. Na loja que escolheu para realizar a compra e instalação desse kit, havia cinco modelos de cilindro para armazenamento do gás, cujas capacidades, em metro cúbico, eram, respectivamente: 10, 14, 17, 21 e 25. O preço do cilindro é proporcional à sua capacidade. Esse carro rodará 30 km diariamente, 7 dias por semana, e o consumo do GNV é de 1 m³ a cada 13 km rodados. A pessoa escolherá o modelo de cilindro de menor preço e que garanta apenas um abastecimento semanal.\nNessas condições, qual será a capacidade, em metro cúbico, do cilindro escolhido por essa pessoa?",
       "options": [
         {
           "letter": "A",
@@ -2498,7 +2498,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em um laboratório, um recipiente contém 10 litros de uma solução composta apenas pelas substâncias S1 e S2. Dessa solução, 99,95% é de S1. Uma quantidade de S1 será retirada dessa solução, mantendo a quantidade inicial de S2, de modo que 99,90% da nova solução seja de S1.\nQual é a quantidade de S1, em litro, que será retirada?",
+      "statement": "Em um laboratório, um recipiente contém 10 litros de uma solução composta apenas pelas substâncias S₁ e S₂. Dessa solução, 99,95% é de S₁. Uma quantidade de S₁ será retirada dessa solução, mantendo a quantidade inicial de S₂, de modo que 99,90% da nova solução seja de S₁.\nQual é a quantidade de S₁, em litro, que será retirada?",
       "options": [
         {
           "letter": "A",
@@ -2719,14 +2719,14 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Pesquisas na área de neurobiologia confirmam que a prática meditativa é responsável por diminuir consideravelmente a frequência respiratória para praticantes avançados, que, após iniciarem a meditação, têm suas frequências respiratórias reduzidas até se estabilizarem em um nível mais baixo. O gráfico apresenta a relação da frequência respiratória, em incursões de respirações por minuto (rpm), em relação ao tempo, em minuto, de um praticante avançado, em que (f1) representa a frequência no instante t1, no qual se inicia a prática meditativa; e (f2), a frequência no instante t2, a partir do qual esta se estabiliza durante a meditação.",
+          "content": "Pesquisas na área de neurobiologia confirmam que a prática meditativa é responsável por diminuir consideravelmente a frequência respiratória para praticantes avançados, que, após iniciarem a meditação, têm suas frequências respiratórias reduzidas até se estabilizarem em um nível mais baixo. O gráfico apresenta a relação da frequência respiratória, em incursões de respirações por minuto (rpm), em relação ao tempo, em minuto, de um praticante avançado, em que (f₁) representa a frequência no instante t₁, no qual se inicia a prática meditativa; e (f₂), a frequência no instante t₂, a partir do qual esta se estabiliza durante a meditação.",
           "source": "Disponível em: www.redepsi.com.br. Acesso em: 3 dez. 2018 (adaptado)."
         }
       ],
       "image_url": [
         "assets/images/enem_2025_cd7_q145.png"
       ],
-      "statement": "A partir do instante t1, em que se inicia a prática meditativa, o comportamento da frequência respiratória, em relação ao tempo,",
+      "statement": "A partir do instante t₁, em que se inicia a prática meditativa, o comportamento da frequência respiratória, em relação ao tempo,",
       "options": [
         {
           "letter": "A",
@@ -2748,13 +2748,13 @@
         },
         {
           "letter": "D",
-          "text": "diminui até o instante t2, a partir do qual se torna constante.",
+          "text": "diminui até o instante t₂, a partir do qual se torna constante.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "diminui de forma proporcional ao tempo, tanto entre t1 e t2 quanto após t2.",
+          "text": "diminui de forma proporcional ao tempo, tanto entre t₁ e t₂ quanto após t₂.",
           "image_url": null,
           "is_correct": false
         }
@@ -3355,7 +3355,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O dono de uma sorveteria armazena sorvete em potes de 20 000 cm3. Ele serve o sorvete em taças, em porções de 250 mL. A quantidade de taças que ele consegue servir a partir de um pote cheio de sorvete é",
+      "statement": "O dono de uma sorveteria armazena sorvete em potes de 20 000 cm³. Ele serve o sorvete em taças, em porções de 250 mL. A quantidade de taças que ele consegue servir a partir de um pote cheio de sorvete é",
       "options": [
         {
           "letter": "A",
@@ -3991,25 +3991,25 @@
       "options": [
         {
           "letter": "A",
-          "text": "o 1, pois apresenta área de seção transversal medindo 67,5 m2.",
+          "text": "o 1, pois apresenta área de seção transversal medindo 67,5 m².",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "o 2, pois apresenta área de seção transversal medindo 121,5 m2.",
+          "text": "o 2, pois apresenta área de seção transversal medindo 121,5 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "o 1, pois apresenta área de seção transversal medindo 135 m2.",
+          "text": "o 1, pois apresenta área de seção transversal medindo 135 m².",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "o 2, pois apresenta área de seção transversal medindo 243 m2.",
+          "text": "o 2, pois apresenta área de seção transversal medindo 243 m².",
           "image_url": null,
           "is_correct": false
         },
@@ -4251,13 +4251,13 @@
       "options": [
         {
           "letter": "A",
-          "text": "cd/m2",
+          "text": "cd/m²",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "m2/cd",
+          "text": "m²/cd",
           "image_url": null,
           "is_correct": false
         },
@@ -4275,7 +4275,7 @@
         },
         {
           "letter": "E",
-          "text": "cd2",
+          "text": "cd²",
           "image_url": null,
           "is_correct": false
         }

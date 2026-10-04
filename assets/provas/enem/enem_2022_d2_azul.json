@@ -18,7 +18,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A figura ilustra esquematicamente um processo de remediação de solos contaminados com tricloroeteno (TCE), um agente desengraxante. Em razão de vazamentos de tanques de estocagem ou de manejo inapropriado de resíduos industriais, ele se encontra presente em águas subterrâneas, nas quais forma uma fase líquida densa não aquosa (DNAPL) que se deposita no fundo do aquífero. Essa tecnologia de descontaminação emprega o íon persulfato (S O 2−), que 2 8 é convertido no radical •SO − por minerais que contêm 4 Fe(III). O esquema representa de forma simplificada o mecanismo de ação química sobre o TCE e a formação dos produtos de degradação.",
+          "content": "A figura ilustra esquematicamente um processo de remediação de solos contaminados com tricloroeteno (TCE), um agente desengraxante. Em razão de vazamentos de tanques de estocagem ou de manejo inapropriado de resíduos industriais, ele se encontra presente em águas subterrâneas, nas quais forma uma fase líquida densa não aquosa (DNAPL) que se deposita no fundo do aquífero. Essa tecnologia de descontaminação emprega o íon persulfato (S₂O₈²⁻), que é convertido no radical •SO₄⁻ por minerais que contêm Fe(III). O esquema representa de forma simplificada o mecanismo de ação química sobre o TCE e a formação dos produtos de degradação.",
           "source": "A S O2− MONITORAMENTO A A A 2 8 A SOLO ⋅ SO2 Fe(III) SO 2 8 4 O C TCE H OH Cl O O Cl Cl HO Cl OH OH TCE Cl O DNAPL SOLUBILIZAÇÃO ÁGUA SUBTERRÂNEA BERTAGI, L. T.; BASÍLIO, A. O.; PERALTA-ZAMORA, P. Aplicações ambientais de persulfato: remediação de águas subterrâneas e solos contaminados. Química Nova, n. 9, 2021 (adaptado)."
         }
       ],
@@ -118,7 +118,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, composto por duas usinas (Bom Jesus da Lapa e Lapa) e capaz de gerar cerca de 300 GWh de energia por ano. Considere que cada usina apresente potência igual a 75 MW, com o parque totalizando uma potência instalada de 150 MW. Considere ainda que a W irradiância solar média é de 1 500 e que a eficiência m2 dos painéis é de 20%.",
+          "content": "Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, composto por duas usinas (Bom Jesus da Lapa e Lapa) e capaz de gerar cerca de 300 GWh de energia por ano. Considere que cada usina apresente potência igual a 75 MW, com o parque totalizando uma potência instalada de 150 MW. Considere ainda que a irradiância solar média é de 1 500 W/m² e que a eficiência dos painéis é de 20%.",
           "source": "Parque Solar Lapa entra em operação. Disponível em: www.canalbioenergia.com.br. Acesso em: 9 jun. 2022 (adaptado)."
         }
       ],
@@ -127,31 +127,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "1 000 000 m2",
+          "text": "1 000 000 m²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "500 000 m2",
+          "text": "500 000 m²",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "250 000 m2",
+          "text": "250 000 m²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "100 000 m2",
+          "text": "100 000 m²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "20 000 m2",
+          "text": "20 000 m²",
           "image_url": null,
           "is_correct": false
         }
@@ -476,7 +476,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em um dia de calor intenso, dois colegas estão a brincar com a água da mangueira. Um deles quer saber até que altura o jato de água alcança, a partir da saída de água, quando a mangueira está posicionada totalmente na direção vertical. O outro colega propõe então o seguinte experimento: eles posicionarem a saída de água da mangueira na direção horizontal, a 1 m de altura em relação ao chão, e então medirem a distância horizontal entre a mangueira e o local onde a água atinge o chão. A medida dessa distância foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de água. Considere a aceleração da gravidade de 10 m s-2.\nO resultado que eles obtiveram foi de",
+      "statement": "Em um dia de calor intenso, dois colegas estão a brincar com a água da mangueira. Um deles quer saber até que altura o jato de água alcança, a partir da saída de água, quando a mangueira está posicionada totalmente na direção vertical. O outro colega propõe então o seguinte experimento: eles posicionarem a saída de água da mangueira na direção horizontal, a 1 m de altura em relação ao chão, e então medirem a distância horizontal entre a mangueira e o local onde a água atinge o chão. A medida dessa distância foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de água. Considere a aceleração da gravidade de 10 m s⁻².\nO resultado que eles obtiveram foi de",
       "options": [
         {
           "letter": "A",
@@ -521,7 +521,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana--de-açúcar. Um dos fatores que afeta a produção desse álcool é o grau de deterioração da sacarose, que se inicia após o corte, por causa da ação de microrganismos. Foram analisadas cinco amostras de diferentes tipos de cana-de--açúcar e cada uma recebeu um código de identificação.\nNo quadro são apresentados os dados de concentração de sacarose e de microrganismos presentes nessas amostras.\nAmostra de cana-de-açúcar RB72 RB84 RB92 SP79 SP80 Concentração inicial 13,0 18,0 16,0 14,0 17,0 de sacarose (g L-1)\nConcentração de microrganismos 0,7 0,8 0,6 0,5 0,9 (mg L-1)\nPretende-se escolher o tipo de cana-de-açúcar que conterá o maior teor de sacarose 10 horas após o corte e que, consequentemente, produzirá a maior quantidade de etanol por fermentação. Considere que existe uma redução de aproximadamente 50% da concentração de sacarose nesse tempo, para cada 1,0 mg L-1 de microrganismos presentes na cana-de-açúcar.",
+          "content": "O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana--de-açúcar. Um dos fatores que afeta a produção desse álcool é o grau de deterioração da sacarose, que se inicia após o corte, por causa da ação de microrganismos. Foram analisadas cinco amostras de diferentes tipos de cana-de--açúcar e cada uma recebeu um código de identificação.\nNo quadro são apresentados os dados de concentração de sacarose e de microrganismos presentes nessas amostras.\nAmostra de cana-de-açúcar RB72 RB84 RB92 SP79 SP80 Concentração inicial 13,0 18,0 16,0 14,0 17,0 de sacarose (g L⁻¹)\nConcentração de microrganismos 0,7 0,8 0,6 0,5 0,9 (mg L⁻¹)\nPretende-se escolher o tipo de cana-de-açúcar que conterá o maior teor de sacarose 10 horas após o corte e que, consequentemente, produzirá a maior quantidade de etanol por fermentação. Considere que existe uma redução de aproximadamente 50% da concentração de sacarose nesse tempo, para cada 1,0 mg L⁻¹ de microrganismos presentes na cana-de-açúcar.",
           "source": "Disponível em: www.inovacao.unicamp.br. Acesso em: 11 ago. 2012 (adaptado)."
         }
       ],
@@ -764,40 +764,46 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A penicilamina é um medicamento de uso oral utilizado no tratamento de várias doenças. Esse composto é excretado na urina, cujo pH se situa entre 5 e 7. A penicilamina, cuja fórmula estrutural plana está apresentada, possui três grupos funcionais que podem ser ionizados: • carboxila: —COOH, cujo pK é igual a 1,8; a • amino: —NH , que pode ser convertido em 2 amínio (—NH +, cujo pK é igual a 7,9); 3 a • tiol: —SH, cujo pK é igual a 10,5. a Sabe-se que pK = −log K . a a CH H 3 HS C C COOH CH NH 3 2 Penicilamina Qual estrutura derivada da penicilamina é predominantemente encontrada na urina?\nCH H 3",
+      "statement": "A penicilamina é um medicamento de uso oral utilizado no tratamento de várias doenças. Esse composto é excretado na urina, cujo pH se situa entre 5 e 7. A penicilamina, cuja fórmula estrutural plana está apresentada, possui três grupos funcionais que podem ser ionizados: • carboxila: —COOH, cujo pKₐ é igual a 1,8; • amino: —NH , que pode ser convertido em 2 amínio (—NH +, cujo pK é igual a 7,9); 3 a • tiol: —SH, cujo pKₐ é igual a 10,5. Sabe-se que pKₐ = −log Kₐ. CH H 3 HS C C COOH CH₃ NH₂ Penicilamina Qual estrutura derivada da penicilamina é predominantemente encontrada na urina?\nCH H 3",
       "options": [
         {
           "letter": "A",
-          "text": "− S C C COO − CH NH 3 2 CH H 3",
+          "text": "− S C C COO⁻ CH₃ NH₂ CH₃ H",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "− S C C COOH CH NH 3 2 CH H 3",
+          "text": "− S C C COOH CH₃ NH₂ CH₃ H",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "HS C C COO − + CH NH 3 3 CH H 3",
+          "text": "HS C C COO⁻ CH₃ NH⁺₃ CH₃ H",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "− S C C COOH CH NH + 3 3 CH H 3",
+          "text": "− S C C COOH CH₃ NH₃⁺ CH₃ H",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "HS C C COOH + CH NH 3 3",
+          "text": "HS C C COOH CH₃ NH⁺₃",
           "image_url": null,
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "options are structural formulas that came out as atom-label text ('− S C C COO⁻ CH₃ NH₂ CH₃ H'); needs the option figures"
+        ]
+      }
     },
     {
       "id": "enem_2022_d2_azul_q107",
@@ -816,7 +822,7 @@
       "image_url": [
         "assets/images/enem_2022_cd7_q107-fig1.png"
       ],
-      "statement": "Nessa conversão de polissacarídeos, a função do íon H+ é",
+      "statement": "Nessa conversão de polissacarídeos, a função do íon H⁺ é",
       "options": [
         {
           "letter": "A",
@@ -868,35 +874,35 @@
         "assets/images/enem_2022_cd7_q108-fig1.png",
         "assets/images/enem_2022_cd7_q108-fig2.png"
       ],
-      "statement": "O ácido tartárico é o principal ácido do vinho e está diretamente relacionado com sua qualidade. Na avaliação de um vinho branco em produção, uma analista neutralizou uma alíquota de 25,0 mL do vinho com NaOH a 0,10 mol L−1, consumindo um volume igual a 8,0 mL dessa base. A reação para esse processo de titulação é representada pela equação química:\nO OH O OH OH  2 NaOH ONa  2 H O 2 HO NaO OH O OH O Ácido tartárico (massa molar: 150 g mol 1)\nA concentração de ácido tartárico no vinho analisado é mais próxima de:",
+      "statement": "O ácido tartárico é o principal ácido do vinho e está diretamente relacionado com sua qualidade. Na avaliação de um vinho branco em produção, uma analista neutralizou uma alíquota de 25,0 mL do vinho com NaOH a 0,10 mol L⁻¹, consumindo um volume igual a 8,0 mL dessa base. A reação para esse processo de titulação é representada pela equação química:\nO OH O OH OH  2 NaOH ONa  2 H₂O HO NaO OH O OH O Ácido tartárico (massa molar: 150 g mol 1)\nA concentração de ácido tartárico no vinho analisado é mais próxima de:",
       "options": [
         {
           "letter": "A",
-          "text": "1,8 g L−1",
+          "text": "1,8 g L⁻¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "2,4 g L−1",
+          "text": "2,4 g L⁻¹",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "3,6 g L−1",
+          "text": "3,6 g L⁻¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "4,8 g L−1",
+          "text": "4,8 g L⁻¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "9,6 g L−1",
+          "text": "9,6 g L⁻¹",
           "image_url": null,
           "is_correct": false
         }
@@ -1112,7 +1118,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A nanotecnologia é responsável pelo aprimoramento de diversos materiais, incluindo os que são impactados com a presença de poluentes e da umidade na atmosfera, causadores de corrosão. O processo de corrosão é espontâneo e provoca a deterioração de metais como o ferro, que, em presença de oxigênio e água, sofre oxidação, conforme ilustra a equação química: ⋅ 4 Fe (s) + 2 H O (l) + 3 O (g) → 2 Fe O H O (s) 2 2 2 3 2 Uma forma de garantir a durabilidade da estrutura metálica e a sua resistência à umidade consiste na deposição de filmes finos nanocerâmicos à base de zircônia (ZrO ) e alumina (Al O ) sobre a superfície do 2 2 3 objeto que se deseja proteger.",
+          "content": "A nanotecnologia é responsável pelo aprimoramento de diversos materiais, incluindo os que são impactados com a presença de poluentes e da umidade na atmosfera, causadores de corrosão. O processo de corrosão é espontâneo e provoca a deterioração de metais como o ferro, que, em presença de oxigênio e água, sofre oxidação, conforme ilustra a equação química: ⋅ 4 Fe (s) + 2 H O (l) + 3 O (g) → 2 Fe O H O (s) 2 2 2 3 2 Uma forma de garantir a durabilidade da estrutura metálica e a sua resistência à umidade consiste na deposição de filmes finos nanocerâmicos à base de zircônia (ZrO₂) e alumina (Al₂O₃) sobre a superfície do objeto que se deseja proteger.",
           "source": "CLEMENTE, G. A. B. F. et al. O uso de materiais híbridos ou nanocompósitos como revestimentos anticorrosivos do aço. Química Nova, n. 9, 2021 (adaptado)."
         }
       ],
@@ -1205,7 +1211,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A variação da incidência de radiação solar sobre a superfície da Terra resulta em uma variação de temperatura ao longo de um dia denominada amplitude térmica. Edificações e pavimentações realizadas nas áreas urbanas contribuem para alterar as amplitudes térmicas dessas regiões, em comparação com regiões que mantêm suas características naturais, com presença de vegetação e água, já que o calor específico do concreto é inferior ao da água. Assim, parte da avaliação do impacto ambiental que a presença de concreto proporciona às áreas urbanas consiste em considerar a substituição da área concretada por um mesmo volume de água e comparar as variações de temperatura devido à absorção da radiação solar nas duas situações (concretada e alagada). Desprezando os efeitos da evaporação e considerando que toda a radiação é absorvida, essa avaliação pode ser realizada com os seguintes dados: (cid:31)kg(cid:28) (cid:30) J (cid:27)\nDensidade(cid:29) (cid:26) Calor específi co(cid:28) (cid:25) (cid:30)m3(cid:27) (cid:29)g(cid:31)(cid:31)C(cid:26)\nÁgua 1 000 4,2 Concreto 2 500 0,8 ROMERO, M. A. B. et al. Mudanças climáticas e ilhas de calor urbanas.",
+          "content": "A variação da incidência de radiação solar sobre a superfície da Terra resulta em uma variação de temperatura ao longo de um dia denominada amplitude térmica. Edificações e pavimentações realizadas nas áreas urbanas contribuem para alterar as amplitudes térmicas dessas regiões, em comparação com regiões que mantêm suas características naturais, com presença de vegetação e água, já que o calor específico do concreto é inferior ao da água. Assim, parte da avaliação do impacto ambiental que a presença de concreto proporciona às áreas urbanas consiste em considerar a substituição da área concretada por um mesmo volume de água e comparar as variações de temperatura devido à absorção da radiação solar nas duas situações (concretada e alagada). Desprezando os efeitos da evaporação e considerando que toda a radiação é absorvida, essa avaliação pode ser realizada com os seguintes dados: (cid:31)kg(cid:28) (cid:30) J (cid:27)\nDensidade(cid:29) (cid:26) Calor específico(cid:28) (cid:25) (cid:30)m³(cid:27) (cid:29)g(cid:31)(cid:31)C(cid:26)\nÁgua 1 000 4,2 Concreto 2 500 0,8 ROMERO, M. A. B. et al. Mudanças climáticas e ilhas de calor urbanas.",
           "source": "Brasília: UnB; ETB, 2019 (adaptado)."
         }
       ],
@@ -1312,23 +1318,23 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um grupo de alunos realizou um experimento para observar algumas propriedades dos ácidos, adicionando um pedaço de mármore (CaCO ) a uma solução aquosa 3 de ácido clorídrico (HCl), observando a liberação de um gás e o aumento da temperatura.\nGás Ácido Mármore O gás obtido no experimento é o:",
+      "statement": "Um grupo de alunos realizou um experimento para observar algumas propriedades dos ácidos, adicionando um pedaço de mármore (CaCO₃) a uma solução aquosa de ácido clorídrico (HCl), observando a liberação de um gás e o aumento da temperatura.\nGás Ácido Mármore O gás obtido no experimento é o:",
       "options": [
         {
           "letter": "A",
-          "text": "H 2",
+          "text": "H₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "O 2",
+          "text": "O₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "CO 2",
+          "text": "CO₂",
           "image_url": null,
           "is_correct": true
         },
@@ -1340,7 +1346,7 @@
         },
         {
           "letter": "E",
-          "text": "Cl 2",
+          "text": "Cl₂",
           "image_url": null,
           "is_correct": false
         }
@@ -1465,7 +1471,7 @@
       "image_url": [
         "assets/images/enem_2022_cd7_q120-fig1.png"
       ],
-      "statement": "Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H O ), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro. 2 2 Resultado Ensaio Temperatura (°C) (cid:30)10(cid:31)12mol(cid:27)\nDecomposição de H O (cid:28) (cid:25) 2 2 (cid:29) min (cid:26) 1 10 8,0 2 15 10,5 3 20 9,5 4 25 5,0 5 30 3,6 6 35 3,1 Os diferentes resultados dos ensaios justificam-se pelo(a)",
+      "statement": "Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H₂O₂), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro. Resultado Ensaio Temperatura (°C) (cid:30)10(cid:31)12mol(cid:27)\nDecomposição de H O (cid:28) (cid:25) 2 2 (cid:29) min (cid:26) 1 10 8,0 2 15 10,5 3 20 9,5 4 25 5,0 5 30 3,6 6 35 3,1 Os diferentes resultados dos ensaios justificam-se pelo(a)",
       "options": [
         {
           "letter": "A",
@@ -1902,7 +1908,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O esquema representa o ciclo do nitrogênio:\nPlantas Bactérias Assimilação desnitri-ficantes Bactérias fixa- Nitratos(NO−) doras de N nos Decompositores 3 nódulos de2 raízes (fungos e bactérias de leguminosas aeróbicas e anaeróbicas) Bactérias Amonificação Nitrificação nitrificantes Bactérias fixadoras Nitritos(NO 2 −) de N no solo Bactérias nitrificantes 2 A chuva ácida interfere no ciclo do nitrogênio, principalmente, por proporcionar uma diminuição do pH do solo e da atmosfera, alterando a concentração dos compostos presentes nesse ciclo.",
+          "content": "O esquema representa o ciclo do nitrogênio:\nPlantas Bactérias Assimilação desnitri-ficantes Bactérias fixa- Nitratos(NO−) doras de N nos Decompositores 3 nódulos de2 raízes (fungos e bactérias de leguminosas aeróbicas e anaeróbicas) Bactérias Amonificação Nitrificação nitrificantes Bactérias fixadoras Nitritos(NO₂⁻) de N₂ no solo Bactérias nitrificantes A chuva ácida interfere no ciclo do nitrogênio, principalmente, por proporcionar uma diminuição do pH do solo e da atmosfera, alterando a concentração dos compostos presentes nesse ciclo.",
           "source": "Disponível em: http://scienceprojectideasforkids.com. Acesso em: 6 ago. 2012 (adaptado)."
         }
       ],
@@ -1913,31 +1919,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "N 2",
+          "text": "N₂",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "NH 3",
+          "text": "NH₃",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "NH + 4",
+          "text": "NH₄⁺",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "NO − 2",
+          "text": "NO₂⁻",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "NO − 3",
+          "text": "NO₃⁻",
           "image_url": null,
           "is_correct": false
         }
@@ -1997,7 +2003,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "De modo geral, a palavra “aromático” invoca associações agradáveis, como cheiro de café fresco ou de um pão doce de canela. Associações similares ocorriam no passado da história da química orgânica, quando os compostos ditos “aromáticos” apresentavam um odor agradável e foram isolados de óleos naturais. À medida que as estruturas desses compostos eram elucidadas, foi se descobrindo que vários deles continham uma unidade estrutural específica. Os compostos aromáticos que continham essa unidade estrutural tornaram-se parte de uma grande família, muito mais com base em suas estruturas eletrônicas do que nos seus cheiros, como as substâncias a seguir, encontradas em óleos vegetais.\nO H O CH 3 O CH H C 3 3 OH O Benzaldeído Salicilato de metila Anetol (no óleo de amêndoas) (no óleo de gaultéria) (no óleo de anis)\nO H CH 2 O H HO O O H C 3 OH CH 3 Vanilina Eugenol Cinamaldeído (no óleo de baunilha) (no óleo de cravos) (no óleo de canela)",
+          "content": "De modo geral, a palavra “aromático” invoca associações agradáveis, como cheiro de café fresco ou de um pão doce de canela. Associações similares ocorriam no passado da história da química orgânica, quando os compostos ditos “aromáticos” apresentavam um odor agradável e foram isolados de óleos naturais. À medida que as estruturas desses compostos eram elucidadas, foi se descobrindo que vários deles continham uma unidade estrutural específica. Os compostos aromáticos que continham essa unidade estrutural tornaram-se parte de uma grande família, muito mais com base em suas estruturas eletrônicas do que nos seus cheiros, como as substâncias a seguir, encontradas em óleos vegetais.\nO H O CH 3 O CH₃ H₃C OH O Benzaldeído Salicilato de metila Anetol (no óleo de amêndoas) (no óleo de gaultéria) (no óleo de anis)\nO H CH 2 O H HO O O H C 3 OH CH 3 Vanilina Eugenol Cinamaldeído (no óleo de baunilha) (no óleo de cravos) (no óleo de canela)",
           "source": "SOLOMONS, T. W. G.; FRYHLE, C. B. Química orgânica. Rio de Janeiro: LTC, 2009 (adaptado)."
         }
       ],
@@ -2308,35 +2314,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A World Series é a decisão do campeonato norte-americano de beisebol. Os dois times que chegam a essa fase jogam, entre si, até sete partidas. O primeiro desses times que completar quatro vitórias é declarado campeão.\nConsidere que, em todas as partidas, a probabilidade 1 de qualquer um dos dois times vencer é sempre . 2 Qual é a probabilidade de o time campeão ser aquele que venceu a primeira partida da World Series? 35",
+      "statement": "A World Series é a decisão do campeonato norte-americano de beisebol. Os dois times que chegam a essa fase jogam, entre si, até sete partidas. O primeiro desses times que completar quatro vitórias é declarado campeão.\nConsidere que, em todas as partidas, a probabilidade de qualquer um dos dois times vencer é sempre 1/2.\nQual é a probabilidade de o time campeão ser aquele que venceu a primeira partida da World Series?",
       "options": [
         {
           "letter": "A",
-          "text": "64 40",
+          "text": "35/64",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "64 42",
+          "text": "40/64",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "64 44",
+          "text": "42/64",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "64 52",
+          "text": "44/64",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "64",
+          "text": "52/64",
           "image_url": null,
           "is_correct": false
         }
@@ -2644,12 +2650,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Cada número que identifica uma agência bancária tem quatro dígitos: N , N , N , N mais um dígito verificador N . 1 2 3 4 5 N N N N N 1 2 3 4 5 Todos esses dígitos são números naturais pertencentes ao conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.\nPara a determinação de N , primeiramente multiplica-se 5 ordenadamente os quatro primeiros dígitos do número da agência por 5, 4, 3 e 2, respectivamente, somam-se os resultados e obtém-se S = 5 N + 4 N + 3 N + 2 N . 1 2 3 4 Posteriormente, encontra-se o resto da divisão de S por 11, denotando por R esse resto. Dessa forma, N é 5 a diferença 11 - R.",
+          "content": "Cada número que identifica uma agência bancária tem quatro dígitos: N₁, N₂, N₃, N₄ mais um dígito verificador N₅. N₁ N₂ N₃ N₄ N₅ Todos esses dígitos são números naturais pertencentes ao conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.\nPara a determinação de N₅, primeiramente multiplica-se ordenadamente os quatro primeiros dígitos do número da agência por 5, 4, 3 e 2, respectivamente, somam-se os resultados e obtém-se S = 5 N₁ + 4 N₂ + 3 N₃ + 2 N₄. Posteriormente, encontra-se o resto da divisão de S por 11, denotando por R esse resto. Dessa forma, N₅ é a diferença 11 - R.",
           "source": "Considere o número de uma agência bancária cujos quatro primeiros dígitos são 0100."
         }
       ],
       "image_url": null,
-      "statement": "Qual é o dígito verificador N dessa agência bancária? 5",
+      "statement": "Qual é o dígito verificador N₅ dessa agência bancária?",
       "options": [
         {
           "letter": "A",
@@ -2922,7 +2928,7 @@
       "image_url": [
         "assets/images/enem_2022_cd7_q150.png"
       ],
-      "statement": "Em jogos de voleibol, um saque é invalidado se a bola atingir o teto do ginásio onde ocorre o jogo. Um jogador de uma equipe tem um saque que atinge uma grande altura.\nSeu recorde foi quando a batida do saque se iniciou a uma altura de 1,5 m do piso da quadra, e a trajetória da x2 7x bola foi descrita pela parábola y (cid:31)(cid:30) (cid:30) (cid:29)12, em 6 3 que y representa a altura da bola em relação ao eixo x (das abscissas) que está localizado a 1,5 m do piso da quadra, como representado na figura. Suponha que em todas as partidas algum saque desse jogador atinja a mesma altura do seu recorde. y 1,5 m 1,5 m 1,5 m x A equipe desse jogador participou de um torneio de voleibol no qual jogou cinco partidas, cada uma delas em um ginásio diferente. As alturas dos tetos desses ginásios, em relação aos pisos das quadras, são: • ginásio I: 17 m; • ginásio II: 18 m; • ginásio III: 19 m; • ginásio IV: 21 m; • ginásio V: 40 m.\nO saque desse atleta foi invalidado",
+      "statement": "Em jogos de voleibol, um saque é invalidado se a bola atingir o teto do ginásio onde ocorre o jogo. Um jogador de uma equipe tem um saque que atinge uma grande altura.\nSeu recorde foi quando a batida do saque se iniciou a uma altura de 1,5 m do piso da quadra, e a trajetória da x² 7x bola foi descrita pela parábola y (cid:31)(cid:30) (cid:30) (cid:29)12, em 6 3 que y representa a altura da bola em relação ao eixo x (das abscissas) que está localizado a 1,5 m do piso da quadra, como representado na figura. Suponha que em todas as partidas algum saque desse jogador atinja a mesma altura do seu recorde. y 1,5 m 1,5 m 1,5 m x A equipe desse jogador participou de um torneio de voleibol no qual jogou cinco partidas, cada uma delas em um ginásio diferente. As alturas dos tetos desses ginásios, em relação aos pisos das quadras, são: • ginásio I: 17 m; • ginásio II: 18 m; • ginásio III: 19 m; • ginásio IV: 21 m; • ginásio V: 40 m.\nO saque desse atleta foi invalidado",
       "options": [
         {
           "letter": "A",
@@ -3359,35 +3365,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um atleta iniciou seu treinamento visando as competições de fim de ano. Seu treinamento consiste em cinco tipos diferentes de treinos: treino T, treino T, treino T, treino T e treino T. A sequência dos treinamentos deve seguir esta ordem: 1 2 3 4 5 A letra R significa repouso. Após completar a sequência de treinamentos, o atleta começa novamente a sequência a partir do treino T e segue a ordem descrita. Após 24 semanas completas de treinamento, se dará o início das competições. 1 A sequência de treinamentos que o atleta realizará na 24ª semana de treinos é",
+      "statement": "Um atleta iniciou seu treinamento visando as competições de fim de ano. Seu treinamento consiste em cinco tipos diferentes de treinos: treino T₁, treino T₂, treino T₃, treino T₄ e treino T₅. A sequência dos treinamentos deve seguir esta ordem:\nDia: 1º 2º 3º 4º 5º 6º 7º 8º 9º 10º 11º 12º 13º\nTreino: T₁ R R T₂ R R T₃ R T₄ R R T₅ R\nA letra R significa repouso. Após completar a sequência de treinamentos, o atleta começa novamente a sequência a partir do treino T₁ e segue a ordem descrita. Após 24 semanas completas de treinamento, se dará o início das competições. A sequência de treinamentos que o atleta realizará na 24ª semana de treinos é",
       "options": [
         {
           "letter": "A",
-          "text": "T R T R R T R. 3 4 5",
+          "text": "T₃ R T₄ R R T₅ R.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "R T R T R R T . 3 4 5",
+          "text": "R T₃ R T₄ R R T₅.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "R T R R T R T . 4 5 1",
+          "text": "R T₄ R R T₅ R T₁.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "R R T R T R R. 5 1",
+          "text": "R R T₅ R T₁ R R.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "R T R T R R T . 5 1",
+          "text": "R T₅ R T₁ R R T₂.",
           "image_url": null,
           "is_correct": false
         }

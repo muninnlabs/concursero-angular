@@ -2249,7 +2249,7 @@
         },
         {
           "letter": "E",
-          "text": "definição de áreas prioritárias para a exploração econômica. \nCIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+          "text": "definição de áreas prioritárias para a exploração econômica.",
           "image_url": null,
           "is_correct": false
         }
@@ -2266,8 +2266,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Hipoxia ou mal das alturas consiste na diminuição de oxigênio (O ) no sangue arterial do organismo. Por essa 2 razão, muitos atletas apresentam mal-estar (dores de cabeça, tontura, falta de ar etc.) ao praticarem atividade física em altitudes elevadas. Nessas condições, ocorrerá uma diminuição na concentração de hemoglobina oxigenada (HbO ) em equilíbrio no sangue, conforme a 2 relação:",
-          "source": "Hb (aq) + O (aq) HbO (aq) 2 2 Mal da montanha. Disponível em: www.feng.pucrs.br. Acesso em: 11 fev. 2015 (adaptado)."
+          "content": "Hipoxia ou mal das alturas consiste na diminuição de oxigênio (O₂) no sangue arterial do organismo. Por essa razão, muitos atletas apresentam mal-estar (dores de cabeça, tontura, falta de ar etc.) ao praticarem atividade física em altitudes elevadas. Nessas condições, ocorrerá uma diminuição na concentração de hemoglobina oxigenada (HbO₂) em equilíbrio no sangue, conforme a relação:",
+          "source": "Hb (aq) + O₂ (aq) HbO₂ (aq) Mal da montanha. Disponível em: www.feng.pucrs.br. Acesso em: 11 fev. 2015 (adaptado)."
         }
       ],
       "image_url": null,
@@ -2409,7 +2409,7 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q49.png"
       ],
-      "statement": "Considere uma região plana onde a insolação (energia solar por unidade de tempo e de área que chega à superfície da Terra) seja de 1 000 W/m2, que o carro solar possua massa de 200 kg e seja construído de forma que o painel fotovoltaico em seu topo tenha uma área de 9,0 m2 e rendimento de 30%.\nDesprezando as forças de resistência do ar, o tempo que esse carro solar levaria, a partir do repouso, para atingir a velocidade de 108 km/h é um valor mais próximo de",
+      "statement": "Considere uma região plana onde a insolação (energia solar por unidade de tempo e de área que chega à superfície da Terra) seja de 1 000 W/m², que o carro solar possua massa de 200 kg e seja construído de forma que o painel fotovoltaico em seu topo tenha uma área de 9,0 m² e rendimento de 30%.\nDesprezando as forças de resistência do ar, o tempo que esse carro solar levaria, a partir do repouso, para atingir a velocidade de 108 km/h é um valor mais próximo de",
       "options": [
         {
           "letter": "A",
@@ -2454,7 +2454,7 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q50-fig1.png"
       ],
-      "statement": "A radiação ultravioleta (UV) é dividida, de acordo com três faixas de frequência, em UV-A, UV-B e UV-C, conforme a figura.\nFrequência (s−1) 7,47×1014 9,34×1014 1,03×1015 2,99×1015 UV-A UV-B UV-C Para selecionar um filtro solar que apresente absorção máxima na faixa UV-B, uma pessoa analisou os espectros de absorção da radiação UV de cinco filtros solares: aicnâbrosbA )sairártibra sedadinu( 0,5 0,4 Filtro solar I 0,3 Filtro solar II 0,2 Filtro solar III Filtro solar IV 0,1 Filtro solar V 0,0 240 290 340 390 440 Comprimento de onda (nm)\nConsidere: velocidade da luz = 3,0×108 m/s e 1 nm = 1,0×10-9 m.\nO filtro solar que a pessoa deve selecionar é o",
+      "statement": "A radiação ultravioleta (UV) é dividida, de acordo com três faixas de frequência, em UV-A, UV-B e UV-C, conforme a figura.\nFrequência (s⁻¹) 7,47×10¹⁴ 9,34×10¹⁴ 1,03×10¹⁵ 2,99×10¹⁵ UV-A UV-B UV-C Para selecionar um filtro solar que apresente absorção máxima na faixa UV-B, uma pessoa analisou os espectros de absorção da radiação UV de cinco filtros solares: aicnâbrosbA )sairártibra sedadinu( 0,5 0,4 Filtro solar I 0,3 Filtro solar II 0,2 Filtro solar III Filtro solar IV 0,1 Filtro solar V 0,0 240 290 340 390 440 Comprimento de onda (nm)\nConsidere: velocidade da luz = 3,0×10⁸ m/s e 1 nm = 1,0×10⁻⁹ m.\nO filtro solar que a pessoa deve selecionar é o",
       "options": [
         {
           "letter": "A",
@@ -2599,23 +2599,23 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q53-fig1.png"
       ],
-      "statement": "Expressa em termos do comprimento de onda (λ), a espessura mínima é igual a λ",
+      "statement": "Expressa em termos do comprimento de onda (λ), a espessura mínima é igual a",
       "options": [
         {
           "letter": "A",
-          "text": ". 4 λ",
+          "text": "λ/4.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": ". 2 3λ",
+          "text": "λ/2.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": ". 4",
+          "text": "3λ/4.",
           "image_url": null,
           "is_correct": false
         },
@@ -2692,7 +2692,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A hidroponia pode ser definida como uma técnica de produção de vegetais sem necessariamente a presença de solo. Uma das formas de implementação é manter as plantas com suas raízes suspensas em meio líquido, de onde retiram os nutrientes essenciais.\nSuponha que um produtor de rúcula hidropônica precise ajustar a concentração do íon nitrato (NO −) 3 para 0,009 mol/L em um tanque de 5 000 litros e, para tanto, tem em mãos uma solução comercial nutritiva de nitrato de cálcio 90 g/L. As massas molares dos elementos N, O e Ca são iguais a 14 g/mol, 16 g/mol e 40 g/mol, respectivamente.\nQual o valor mais próximo do volume da solução nutritiva, em litros, que o produtor deve adicionar ao tanque?",
+      "statement": "A hidroponia pode ser definida como uma técnica de produção de vegetais sem necessariamente a presença de solo. Uma das formas de implementação é manter as plantas com suas raízes suspensas em meio líquido, de onde retiram os nutrientes essenciais.\nSuponha que um produtor de rúcula hidropônica precise ajustar a concentração do íon nitrato (NO₃⁻) para 0,009 mol/L em um tanque de 5 000 litros e, para tanto, tem em mãos uma solução comercial nutritiva de nitrato de cálcio 90 g/L. As massas molares dos elementos N, O e Ca são iguais a 14 g/mol, 16 g/mol e 40 g/mol, respectivamente.\nQual o valor mais próximo do volume da solução nutritiva, em litros, que o produtor deve adicionar ao tanque?",
       "options": [
         {
           "letter": "A",
@@ -2880,7 +2880,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Uma forma de organização de um sistema biológico é a presença de sinais diversos utilizados pelos indivíduos para se comunicarem. No caso das abelhas da espécie Apis mellifera, os sinais utilizados podem ser feromônios. Para saírem e voltarem de suas colmeias, usam um feromônio que indica a trilha percorrida por elas (Composto A). Quando pressentem o perigo, expelem um feromônio de alarme (Composto B), que serve de sinal para um combate coletivo. O que diferencia cada um desses sinais utilizados pelas abelhas são as estruturas e funções orgânicas dos feromônios.\nCH OH 2 Composto A CH 3 CH COO(CH )CH 3 2 CH 3 Composto B QUADROS, A. L. Os feromônios e o ensino de química.",
+          "content": "Uma forma de organização de um sistema biológico é a presença de sinais diversos utilizados pelos indivíduos para se comunicarem. No caso das abelhas da espécie Apis mellifera, os sinais utilizados podem ser feromônios. Para saírem e voltarem de suas colmeias, usam um feromônio que indica a trilha percorrida por elas (Composto A). Quando pressentem o perigo, expelem um feromônio de alarme (Composto B), que serve de sinal para um combate coletivo. O que diferencia cada um desses sinais utilizados pelas abelhas são as estruturas e funções orgânicas dos feromônios.\nCH₂OH Composto A CH 3 CH₃COO(CH₂)CH CH 3 Composto B QUADROS, A. L. Os feromônios e o ensino de química.",
           "source": "Química Nova na Escola, n. 7, maio 1998 (adaptado)."
         }
       ],
@@ -2930,7 +2930,7 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q60-fig1.png"
       ],
-      "statement": "O permanganato de potássio (KMnO ) é um agente 4 oxidante forte muito empregado tanto em nível laboratorial quanto industrial. Na oxidação de alcenos de cadeia normal, como o 1-fenil-1-propeno, ilustrado na figura, o KMnO é utilizado para a produção de ácidos carboxílicos. 4 1-fenil-1-propeno Os produtos obtidos na oxidação do alceno representado, em solução aquosa de KMnO , são: 4",
+      "statement": "O permanganato de potássio (KMnO₄) é um agente oxidante forte muito empregado tanto em nível laboratorial quanto industrial. Na oxidação de alcenos de cadeia normal, como o 1-fenil-1-propeno, ilustrado na figura, o KMnO₄ é utilizado para a produção de ácidos carboxílicos. 1-fenil-1-propeno Os produtos obtidos na oxidação do alceno representado, em solução aquosa de KMnO₄, são:",
       "options": [
         {
           "letter": "A",
@@ -2975,7 +2975,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O nitrogênio é essencial para a vida e o maior reservatório global desse elemento, na forma de N , 2 é a atmosfera. Os principais responsáveis por sua incorporação na matéria orgânica são microrganismos fixadores de N , que ocorrem de forma livre ou simbiontes 2 com plantas.",
+          "content": "O nitrogênio é essencial para a vida e o maior reservatório global desse elemento, na forma de N₂, é a atmosfera. Os principais responsáveis por sua incorporação na matéria orgânica são microrganismos fixadores de N₂, que ocorrem de forma livre ou simbiontes com plantas.",
           "source": "ADUAN, R. E. et al. Os grandes ciclos biogeoquímicos do planeta. Planaltina: Embrapa, 2004 (adaptado)."
         }
       ],
@@ -3127,31 +3127,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "5,4×102 J.",
+          "text": "5,4×10² J.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "6,5×103 J.",
+          "text": "6,5×10³ J.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "8,6×103 J.",
+          "text": "8,6×10³ J.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1,3×104 J.",
+          "text": "1,3×10⁴ J.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "3,2×104 J.",
+          "text": "3,2×10⁴ J.",
           "image_url": null,
           "is_correct": false
         }
@@ -3401,17 +3401,17 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um garoto foi à loja comprar um estilingue e encontrou dois modelos: um com borracha mais “dura” e outro com borracha mais “mole”. O garoto concluiu que o mais adequado seria o que proporcionasse maior alcance horizontal, D, para as mesmas condições de arremesso, quando submetidos à mesma força aplicada.\nSabe-se que a constante elástica k (do estilingue mais d “duro”) é o dobro da constante elástica k (do estilingue m mais “mole”).\nD A razão entre os alcances d , referentes aos estilingues D m com borrachas “dura” e “mole”, respectivamente, é igual a 1",
+      "statement": "Um garoto foi à loja comprar um estilingue e encontrou dois modelos: um com borracha mais “dura” e outro com borracha mais “mole”. O garoto concluiu que o mais adequado seria o que proporcionasse maior alcance horizontal, D, para as mesmas condições de arremesso, quando submetidos à mesma força aplicada.\nSabe-se que a constante elástica k_d (do estilingue mais “duro”) é o dobro da constante elástica kₘ (do estilingue mais “mole”).\nA razão entre os alcances D_d/Dₘ, referentes aos estilingues com borrachas “dura” e “mole”, respectivamente, é igual a",
       "options": [
         {
           "letter": "A",
-          "text": ". 4 1",
+          "text": "1/4.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": ". 2",
+          "text": "1/2.",
           "image_url": null,
           "is_correct": true
         },
@@ -3444,35 +3444,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Vários ácidos são utilizados em indústrias que descartam seus efluentes nos corpos d’água, como rios e lagos, podendo afetar o equilíbrio ambiental.\nPara neutralizar a acidez, o sal carbonato de cálcio pode ser adicionado ao efluente, em quantidades apropriadas, pois produz bicarbonato, que neutraliza a água. As equações envolvidas no processo são apresentadas: (I) CaCO (s) + CO (g) + HO (l) Ca2+ (aq) + 2 HCO- (aq) 3 2 2 3 (II) HCO- (aq) H+ (aq) + CO2- (aq) K = 3,0×10-11 3 3 1 (III) CaCO (s) Ca2+ (aq) + CO2- (aq) K = 6,0×10-9 3 3 2 (IV) CO (g) + HO (l) H+ (aq) + HCO- (aq) K = 2,5×10-7 2 2 3 3 Com base nos valores das constantes de equilíbrio das reações II, III e IV a 25 °C, qual é o valor numérico da constante de equilíbrio da reação I?",
+      "statement": "Vários ácidos são utilizados em indústrias que descartam seus efluentes nos corpos d’água, como rios e lagos, podendo afetar o equilíbrio ambiental.\nPara neutralizar a acidez, o sal carbonato de cálcio pode ser adicionado ao efluente, em quantidades apropriadas, pois produz bicarbonato, que neutraliza a água. As equações envolvidas no processo são apresentadas: (I) CaCO₃ (s) + CO₂ (g) + H₂O (l) Ca²⁺ (aq) + 2 HCO₃⁻ (aq) (II) HCO₃⁻ (aq) H⁺ (aq) + CO₃²⁻ (aq) K₁ = 3,0×10⁻¹¹ (III) CaCO₃ (s) Ca²⁺ (aq) + CO₃²⁻ (aq) K₂ = 6,0×10⁻⁹ (IV) CO₂ (g) + H₂O (l) H⁺ (aq) + HCO₃⁻ (aq) K₃ = 2,5×10⁻⁷ Com base nos valores das constantes de equilíbrio das reações II, III e IV a 25 °C, qual é o valor numérico da constante de equilíbrio da reação I?",
       "options": [
         {
           "letter": "A",
-          "text": "4,5×10-26",
+          "text": "4,5×10⁻²⁶",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "5,0×10-5",
+          "text": "5,0×10⁻⁵",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "0,8×10-9",
+          "text": "0,8×10⁻⁹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "0,2×105",
+          "text": "0,2×10⁵",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "2,2×1026",
+          "text": "2,2×10²⁶",
           "image_url": null,
           "is_correct": false
         }
@@ -3680,7 +3680,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Para proteger estruturas de aço da corrosão, a indústria utiliza uma técnica chamada galvanização.\nUm metal bastante utilizado nesse processo é o zinco, que pode ser obtido a partir de um minério denominado esfalerita (ZnS), de pureza 75%. Considere que a conversão do minério em zinco metálico tem rendimento de 80% nesta sequência de equações químicas: 2 ZnS + 3 O → 2 ZnO + 2 SO 2 2 ZnO + CO → Zn + CO 2 Considere as massas molares: ZnS (97 g/mol); O (32 g/mol); 2 ZnO (81 g/mol); SO (64 g/mol); CO (28 g/mol); CO (44 g/mol); 2 2 e Zn (65 g/mol).\nQue valor mais próximo de massa de zinco metálico, em quilogramas, será produzido a partir de 100 kg de esfalerita?",
+      "statement": "Para proteger estruturas de aço da corrosão, a indústria utiliza uma técnica chamada galvanização.\nUm metal bastante utilizado nesse processo é o zinco, que pode ser obtido a partir de um minério denominado esfalerita (ZnS), de pureza 75%. Considere que a conversão do minério em zinco metálico tem rendimento de 80% nesta sequência de equações químicas: 2 ZnS + 3 O₂ → 2 ZnO + 2 SO₂ ZnO + CO → Zn + CO₂ Considere as massas molares: ZnS (97 g/mol); O₂ (32 g/mol); ZnO (81 g/mol); SO₂ (64 g/mol); CO (28 g/mol); CO₂ (44 g/mol); e Zn (65 g/mol).\nQue valor mais próximo de massa de zinco metálico, em quilogramas, será produzido a partir de 100 kg de esfalerita?",
       "options": [
         {
           "letter": "A",
@@ -3911,8 +3911,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A calda bordalesa é uma alternativa empregada no combate a doenças que afetam folhas de plantas.\nSua produção consiste na mistura de uma solução aquosa de sulfato de cobre(II), CuSO , com óxido de 4 cálcio, CaO, e sua aplicação só deve ser realizada se estiver levemente básica. A avaliação rudimentar da basicidade dessa solução é realizada pela adição de três gotas sobre uma faca de ferro limpa. Após três minutos, caso surja uma mancha avermelhada no local da aplicação, afirma-se que a calda bordalesa ainda não está com a basicidade necessária. O quadro apresenta os valores de potenciais padrão de redução (E°) para algumas semirreações de redução.\nSemirreação de redução E° (V)",
-          "source": "Ca2+ + 2 e- → Ca -2,87 Fe3+ + 3 e- → Fe -0,04 Cu2+ + 2 e- → Cu +0,34 Cu+ + e- → Cu +0,52 Fe3+ + e- → Fe2+ +0,77 MOTTA, I. S. Calda bordalesa: utilidades e preparo. Dourados: Embrapa, 2008 (adaptado)."
+          "content": "A calda bordalesa é uma alternativa empregada no combate a doenças que afetam folhas de plantas.\nSua produção consiste na mistura de uma solução aquosa de sulfato de cobre(II), CuSO₄, com óxido de cálcio, CaO, e sua aplicação só deve ser realizada se estiver levemente básica. A avaliação rudimentar da basicidade dessa solução é realizada pela adição de três gotas sobre uma faca de ferro limpa. Após três minutos, caso surja uma mancha avermelhada no local da aplicação, afirma-se que a calda bordalesa ainda não está com a basicidade necessária. O quadro apresenta os valores de potenciais padrão de redução (E°) para algumas semirreações de redução.\nSemirreação de redução E° (V)",
+          "source": "Ca²⁺ + 2 e⁻ → Ca -2,87 Fe³⁺ + 3 e⁻ → Fe -0,04 Cu²⁺ + 2 e⁻ → Cu +0,34 Cu⁺ + e⁻ → Cu +0,52 Fe³⁺ + e⁻ → Fe²⁺ +0,77 MOTTA, I. S. Calda bordalesa: utilidades e preparo. Dourados: Embrapa, 2008 (adaptado)."
         }
       ],
       "image_url": [
@@ -3922,31 +3922,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "Ca2+ (aq) + 2 Cu+ (aq) → Ca (s) + 2 Cu2+ (aq).",
+          "text": "Ca²⁺ (aq) + 2 Cu⁺ (aq) → Ca (s) + 2 Cu²⁺ (aq).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Ca2+ (aq) + 2 Fe2+ (aq) → Ca (s) + 2 Fe3+ (aq).",
+          "text": "Ca²⁺ (aq) + 2 Fe²⁺ (aq) → Ca (s) + 2 Fe³⁺ (aq).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Cu2+ (aq) + 2 Fe2+ (aq) → Cu (s) + 2 Fe3+ (aq).",
+          "text": "Cu²⁺ (aq) + 2 Fe²⁺ (aq) → Cu (s) + 2 Fe³⁺ (aq).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "3 Ca2+ (aq) + 2 Fe (s) → 3 Ca (s) + 2 Fe3+ (aq).",
+          "text": "3 Ca²⁺ (aq) + 2 Fe (s) → 3 Ca (s) + 2 Fe³⁺ (aq).",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "3 Cu2+ (aq) + 2 Fe (s) → 3 Cu (s) + 2 Fe3+ (aq).",
+          "text": "3 Cu²⁺ (aq) + 2 Fe (s) → 3 Cu (s) + 2 Fe³⁺ (aq).",
           "image_url": null,
           "is_correct": true
         }
@@ -4051,7 +4051,7 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q84-fig1.png"
       ],
-      "statement": "O aproveitamento de resíduos florestais vem se tornando cada dia mais atrativo, pois eles são uma fonte renovável de energia. A figura representa a queima de um bio-óleo extraído do resíduo de madeira, sendo ∆H 1 a variação de entalpia devido à queima de 1 g desse bio-óleo, resultando em gás carbônico e água líquida, e ∆H a variação de entalpia envolvida na conversão de 1 g 2 de água no estado gasoso para o estado líquido.\nEnergia Bio-óleo + O (g) 2 H = 18,8 kJ/g 1 CO (g) H O (g) + 2 2 H = 2,4 kJ/g 2 CO (g) + H O (ℓ) 2 2 A variação de entalpia, em kJ, para a queima de 5 g desse bio-óleo resultando em CO (gasoso) e H O (gasoso) é: 2 2",
+      "statement": "O aproveitamento de resíduos florestais vem se tornando cada dia mais atrativo, pois eles são uma fonte renovável de energia. A figura representa a queima de um bio-óleo extraído do resíduo de madeira, sendo ∆H₁ a variação de entalpia devido à queima de 1 g desse bio-óleo, resultando em gás carbônico e água líquida, e ∆H₂ a variação de entalpia envolvida na conversão de 1 g de água no estado gasoso para o estado líquido.\nEnergia Bio-óleo + O (g) 2 H = 18,8 kJ/g 1 CO (g) H O (g) + 2 2 H = 2,4 kJ/g 2 CO (g) + H O (ℓ) 2 2 A variação de entalpia, em kJ, para a queima de 5 g desse bio-óleo resultando em CO₂ (gasoso) e H₂O (gasoso) é:",
       "options": [
         {
           "letter": "A",
@@ -4330,7 +4330,7 @@
           "type": "text_block",
           "title": null,
           "content": "A química verde permite o desenvolvimento tecnológico com danos reduzidos ao meio ambiente, e encontrar rotas limpas tem sido um grande desafio. Considere duas rotas diferentes utilizadas para a obtenção de ácido adípico, um insumo muito importante para a indústria têxtil e de plastificantes.\nRota tradicional (marrom)",
-          "source": "OOH O OH Co Cr(III) + 180 °C lavagem cáustica HNO 60% 3 120 °C V5+, Cu O O + CO + NO 2 2 OH OH Rota verde O NaWO, 4 HO O 2 4 2 2 + 4 HO OH 2 75-90 °C OH LENARDÃO, E. J. et al. Green chemistry – os 12 princípios da química verde e sua inserção nas atividades de ensino e pesquisa. Química Nova, n. 1, 2003 (adaptado)."
+          "source": "OOH O OH Co Cr(III) + 180 °C lavagem cáustica HNO₃ 60% 120 °C V⁵⁺, Cu O O + CO₂ + N₂O OH OH Rota verde O Na₂WO₄, 4 H₂O₂ O + 4 HO OH 2 75-90 °C OH LENARDÃO, E. J. et al. Green chemistry – os 12 princípios da química verde e sua inserção nas atividades de ensino e pesquisa. Química Nova, n. 1, 2003 (adaptado)."
         }
       ],
       "image_url": null,

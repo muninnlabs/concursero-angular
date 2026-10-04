@@ -87,31 +87,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "CH COO− (aq) + O (g) → 2 CO (g) + 3 H+ (aq) 3 2 2",
+          "text": "CH₃COO⁻ (aq) + O₂ (g) → 2 CO₂ (g) + 3 H⁺ (aq)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "CO (g) + O (g) + H+ (aq) → H O (l) + CH COO− (aq) 2 2 2 3",
+          "text": "CO₂ (g) + O₂ (g) + H⁺ (aq) → H₂O (l) + CH₃COO⁻ (aq)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "CHCOO− (aq) + H+ (aq) + 2 O (g) → 2 CO (g) + 2 HO (l) 3 2 2 2",
+          "text": "CH₃COO⁻ (aq) + H⁺ (aq) + 2 O₂ (g) → 2 CO₂ (g) + 2 H₂O (l)",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "CHCOO− (aq) + 6 HO (l) → 2 CO (g) + 2 O (g) + 15 H+ (aq) 3 2 2 2",
+          "text": "CH₃COO⁻ (aq) + 6 H₂O (l) → 2 CO₂ (g) + 2 O₂ (g) + 15 H⁺ (aq)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "2 CO (g) + 11 H+ (aq) + O (g) → CHCOO− (aq) + 4 HO (l) 2 2 3 2",
+          "text": "2 CO₂ (g) + 11 H⁺ (aq) + O₂ (g) → CH₃COO⁻ (aq) + 4 H₂O (l)",
           "image_url": null,
           "is_correct": false
         }
@@ -171,7 +171,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A nimesulida é um fármaco pouco solúvel em água, utilizado como anti-inflamatório, analgésico e antitérmico. Essa substância pode ser convertida em uma espécie eletricamente carregada, de maior solubilidade em água, mediante o tratamento com uma base de Brönsted-Lowry, isto é, uma espécie química capaz de capturar um próton (H+). Na figura são apresentados os grupamentos presentes na estrutura química da nimesulida.\nNimesulida",
+          "content": "A nimesulida é um fármaco pouco solúvel em água, utilizado como anti-inflamatório, analgésico e antitérmico. Essa substância pode ser convertida em uma espécie eletricamente carregada, de maior solubilidade em água, mediante o tratamento com uma base de Brönsted-Lowry, isto é, uma espécie química capaz de capturar um próton (H⁺). Na figura são apresentados os grupamentos presentes na estrutura química da nimesulida.\nNimesulida",
           "source": "GONÇALVES, A. A. et al. Contextualizando reações ácido-base de acordo com a teoria protônica de Brönsted-Lowry usando comprimidos de propranolol e nimesulida. Química Nova, n. 3, 2013 (adaptado)."
         }
       ],
@@ -404,7 +404,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma ambulância em alta velocidade com a sirene ligada desloca-se em direção a um radar operado por uma pessoa.\nO radar emite ondas de rádio com frequência f que são 0 refletidas pela dianteira da ambulância, retornando para o detector com frequência f. A percepção do operador do r radar, em relação ao som emitido pela sirene, é de que este se altera à medida que a ambulância se aproxima ou se afasta.\nDurante a aproximação, como o operador percebe o som da sirene e qual é a relação entre as frequências f e f r 0 medidas pelo radar?",
+      "statement": "Uma ambulância em alta velocidade com a sirene ligada desloca-se em direção a um radar operado por uma pessoa.\nO radar emite ondas de rádio com frequência f₀ que são refletidas pela dianteira da ambulância, retornando para o detector com frequência f. A percepção do operador do r radar, em relação ao som emitido pela sirene, é de que este se altera à medida que a ambulância se aproxima ou se afasta.\nDurante a aproximação, como o operador percebe o som da sirene e qual é a relação entre as frequências f e f r 0 medidas pelo radar?",
       "options": [
         {
           "letter": "A",
@@ -449,7 +449,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Mirascópio 3D: produtor de ilusão instantânea O equipamento ilustrado na figura, de dimensões apresentadas no esquema, é composto por dois espelhos côncavos E1 e E2, apoiados um sobre o outro por suas bordas, de tal forma que o vértice de E1 coincide com o foco de E2 e vice-versa. Na abertura circular de E2, é formada uma imagem tridimensional de um objeto posicionado sobre o vértice de E1. Essa imagem é formada a partir dos raios procedentes do objeto, refletidos por E2 e E1, respectivamente, conforme o esquema. Os observadores julgam visualizar o objeto quando estão, de fato, visualizando sua imagem. O efeito só é possível porque as superfícies de ambos os espelhos são de extrema qualidade.",
+          "content": "Mirascópio 3D: produtor de ilusão instantânea O equipamento ilustrado na figura, de dimensões apresentadas no esquema, é composto por dois espelhos côncavos E₁ e E₂, apoiados um sobre o outro por suas bordas, de tal forma que o vértice de E₁ coincide com o foco de E₂ e vice-versa. Na abertura circular de E₂, é formada uma imagem tridimensional de um objeto posicionado sobre o vértice de E₁. Essa imagem é formada a partir dos raios procedentes do objeto, refletidos por E₂ e E₁, respectivamente, conforme o esquema. Os observadores julgam visualizar o objeto quando estão, de fato, visualizando sua imagem. O efeito só é possível porque as superfícies de ambos os espelhos são de extrema qualidade.",
           "source": "SALZMANN, W. Disponível em: https://wissenstexte.de. Acesso em: 27 jun. 2024 (adaptado)."
         }
       ],
@@ -1140,7 +1140,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Um dos agentes que mais contribui para a poluição do ar é o automóvel a combustão interna. Em áreas urbanas, isso é demonstrado dramaticamente pela fumaça fotoquímica, resultante da interação entre óxidos de nitrogênio, hidrocarbonetos e luz solar, para formar produtos de oxidação, que causam irritação aos olhos, ao aparelho respiratório e danos às plantas. As condições de operação de motores a combustão, como a razão da mistura ar/combustível no cilindro, influenciam na composição dos gases lançados pelo escapamento na atmosfera. O gráfico ilustra a variação nas composições dos principais gases, dióxido de carbono (CO2), hidrocarbonetos (HC), monóxido de carbono (CO), monóxido de nitrogênio (NO) e oxigênio molecular (O2), emitidos por um motor a gasolina, em diferentes razões ar/combustível, em massa.",
+          "content": "Um dos agentes que mais contribui para a poluição do ar é o automóvel a combustão interna. Em áreas urbanas, isso é demonstrado dramaticamente pela fumaça fotoquímica, resultante da interação entre óxidos de nitrogênio, hidrocarbonetos e luz solar, para formar produtos de oxidação, que causam irritação aos olhos, ao aparelho respiratório e danos às plantas. As condições de operação de motores a combustão, como a razão da mistura ar/combustível no cilindro, influenciam na composição dos gases lançados pelo escapamento na atmosfera. O gráfico ilustra a variação nas composições dos principais gases, dióxido de carbono (CO₂), hidrocarbonetos (HC), monóxido de carbono (CO), monóxido de nitrogênio (NO) e oxigênio molecular (O₂), emitidos por um motor a gasolina, em diferentes razões ar/combustível, em massa.",
           "source": "RANGEL, M. C.; CARVALHO, M. F. A. Impacto dos catalisadores automotivos no controle da qualidade do ar. Química Nova, v. 26, 2003 (adaptado)."
         }
       ],
@@ -1151,7 +1151,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "baixa de O e alta de NO. 2",
+          "text": "baixa de O₂ e alta de NO.",
           "image_url": null,
           "is_correct": false
         },
@@ -1163,7 +1163,7 @@
         },
         {
           "letter": "C",
-          "text": "baixa de CO e alta de CO . 2",
+          "text": "baixa de CO e alta de CO₂.",
           "image_url": null,
           "is_correct": true
         },
@@ -1175,7 +1175,7 @@
         },
         {
           "letter": "E",
-          "text": "baixa de CO e alta de HC. 2",
+          "text": "baixa de CO₂ e alta de HC.",
           "image_url": null,
           "is_correct": false
         }
@@ -1242,7 +1242,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O magnésio metálico utilizado em ligas leves é produzido em um processo que envolve várias etapas e utiliza água do mar como matéria-prima. A primeira etapa desse processo consiste na reação entre o íon Mg2+ e hidróxido de cálcio, Ca(OH) , obtendo uma mistura que 2 contém hidróxido de magnésio, pouco solúvel, e íons Ca2+, de acordo com a equação química:\nMg2+ (aq) + Ca(OH) (aq) → Mg(OH) (s) + Ca2+ (aq) 2 2 O método adequado para separar o Mg(OH) dessa 2 mistura é a",
+      "statement": "O magnésio metálico utilizado em ligas leves é produzido em um processo que envolve várias etapas e utiliza água do mar como matéria-prima. A primeira etapa desse processo consiste na reação entre o íon Mg²⁺ e hidróxido de cálcio, Ca(OH)₂, obtendo uma mistura que contém hidróxido de magnésio, pouco solúvel, e íons Ca²⁺, de acordo com a equação química:\nMg²⁺ (aq) + Ca(OH)₂ (aq) → Mg(OH)₂ (s) + Ca²⁺ (aq) O método adequado para separar o Mg(OH)₂ dessa mistura é a",
       "options": [
         {
           "letter": "A",
@@ -1337,7 +1337,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A hidroxiapatita, Ca5(PO4)3OH, é um mineral constituinte do esmalte dos dentes. Entre as diversas reações que ocorrem no meio bucal, encontram-se em equilíbrio as reações de desmineralização e mineralização da hidroxiapatita em meio aquoso, ilustradas a seguir. A desmineralização está associada à fragilização do esmalte do dente e à formação de cáries.\nCa5(PO4)3OH (s) + H+ (aq) ⇌(Desmineralização/Mineralização) 5 Ca2+ (aq) + 3 PO4 3− (aq) + H2O (l)\nO uso de creme dental pode minimizar a perda da hidroxiapatita. O quadro apresenta o agente de polimento e o pH de alguns cremes dentais comerciais.\nCreme dental | Agente de polimento | pH I | Bicarbonato de sódio | 9,5 II | Carbonato de cálcio | 11,0 III | Citrato de potássio | 7,7 IV | Dióxido de silício | 6,9 V | Fosfato de cálcio | 7,3",
+          "content": "A hidroxiapatita, Ca₅(PO₄)₃OH, é um mineral constituinte do esmalte dos dentes. Entre as diversas reações que ocorrem no meio bucal, encontram-se em equilíbrio as reações de desmineralização e mineralização da hidroxiapatita em meio aquoso, ilustradas a seguir. A desmineralização está associada à fragilização do esmalte do dente e à formação de cáries.\nCa₅(PO₄)₃OH (s) + H+ (aq) ⇌(Desmineralização/Mineralização) 5 Ca²⁺ (aq) + 3 PO₄³⁻ (aq) + H₂O (l)\nO uso de creme dental pode minimizar a perda da hidroxiapatita. O quadro apresenta o agente de polimento e o pH de alguns cremes dentais comerciais.\nCreme dental | Agente de polimento | pH I | Bicarbonato de sódio | 9,5 II | Carbonato de cálcio | 11,0 III | Citrato de potássio | 7,7 IV | Dióxido de silício | 6,9 V | Fosfato de cálcio | 7,3",
           "source": "STORGATTO, G. A.; BRAIBANTE, M. E. F.; BRAIBANTE, H. T. S. A química na odontologia. Química Nova na Escola, v. 39, fev. 2017 (adaptado)."
         }
       ],
@@ -1845,7 +1845,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Placas solares comuns dependem de dias ensolarados para gerar energia. Mas podemos gerar eletricidade com a ajuda de gotas de chuva, revestindo placas solares com uma fina camada de grafeno. Os íons dissociados a partir da água da chuva (Am+ e Bn−) tornam a combinação grafeno e água da chuva um par perfeito para geração de energia. O processo requer apenas uma camada de grafeno para que grande quantidade de elétrons (e−) se movimente ao longo da superfície.",
+          "content": "Placas solares comuns dependem de dias ensolarados para gerar energia. Mas podemos gerar eletricidade com a ajuda de gotas de chuva, revestindo placas solares com uma fina camada de grafeno. Os íons dissociados a partir da água da chuva (Aᵐ⁺ e Bⁿ⁻) tornam a combinação grafeno e água da chuva um par perfeito para geração de energia. O processo requer apenas uma camada de grafeno para que grande quantidade de elétrons (e⁻) se movimente ao longo da superfície.",
           "source": "TANG, Q. et al. A Solar Cell that is Triggered by Sun and Rain. Angewandte Chemie International Edition, n. 55, 2016 (adaptado)."
         }
       ],
@@ -2037,7 +2037,7 @@
       "image_url": [
         "assets/images/enem_2024_cd7_q132.png"
       ],
-      "statement": "Uma caixa decorativa utiliza duas pequenas lâmpadas, L (6 V – 9 W) e L (12 V – 18 W), ligadas em série a 1 2 uma bateria de tensão V .Um fio resistivo QR, de QR 48 centímetros, está ligado em paralelo à bateria. Cinco pontos, A, B, C, D e E, dividem o fio QR em seis segmentos de comprimentos iguais. O circuito também tem um amperímetro com dois terminais. Um dos terminais (P) está ligado ao fio entre as duas lâmpadas. O outro terminal (S) está livre e será ligado ao fio QR. Dependendo do ponto em que esse terminal livre for conectado, ocorrerá a mudança na tensão à qual as lâmpadas são submetidas. Os demais fios do circuito têm resistências elétricas desprezíveis.\nA figura ilustra esse circuito.\nEm qual desses pontos o amperímetro deve ser conectado para que as lâmpadas acendam exatamente segundo as especificações de tensão e potência elétricas fornecidas?",
+      "statement": "Uma caixa decorativa utiliza duas pequenas lâmpadas, L₁ (6 V – 9 W) e L₂ (12 V – 18 W), ligadas em série a uma bateria de tensão V .Um fio resistivo QR, de QR 48 centímetros, está ligado em paralelo à bateria. Cinco pontos, A, B, C, D e E, dividem o fio QR em seis segmentos de comprimentos iguais. O circuito também tem um amperímetro com dois terminais. Um dos terminais (P) está ligado ao fio entre as duas lâmpadas. O outro terminal (S) está livre e será ligado ao fio QR. Dependendo do ponto em que esse terminal livre for conectado, ocorrerá a mudança na tensão à qual as lâmpadas são submetidas. Os demais fios do circuito têm resistências elétricas desprezíveis.\nA figura ilustra esse circuito.\nEm qual desses pontos o amperímetro deve ser conectado para que as lâmpadas acendam exatamente segundo as especificações de tensão e potência elétricas fornecidas?",
       "options": [
         {
           "letter": "A",
@@ -2080,7 +2080,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O biogás é uma alternativa energética muito importante, pois, além de reduzir a dependência por combustíveis fósseis, sua obtenção pode ser realizada a partir de resíduos da produção agroindustrial. Considere que o biogás produzido em um empreendimento de suinocultura contém 70% em volume de metano (massa molar 16 g/mol; volume molar 22 L/mol). Ele será utilizado para geração de energia em substituição ao etanol (massa molar 46 g/mol) em um gerador no qual 1 m3 de biogás de origem suína substitui 0,59 L de etanol anidro (densidade 0,78 g/mL).\nNessas condições, a massa de metano necessária para substituir 10 mol de etanol na produção de energia é mais próxima de",
+      "statement": "O biogás é uma alternativa energética muito importante, pois, além de reduzir a dependência por combustíveis fósseis, sua obtenção pode ser realizada a partir de resíduos da produção agroindustrial. Considere que o biogás produzido em um empreendimento de suinocultura contém 70% em volume de metano (massa molar 16 g/mol; volume molar 22 L/mol). Ele será utilizado para geração de energia em substituição ao etanol (massa molar 46 g/mol) em um gerador no qual 1 m³ de biogás de origem suína substitui 0,59 L de etanol anidro (densidade 0,78 g/mL).\nNessas condições, a massa de metano necessária para substituir 10 mol de etanol na produção de energia é mais próxima de",
       "options": [
         {
           "letter": "A",
@@ -2177,7 +2177,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Brasil fecha 2020 entre os maiores recicladores de latas de alumínio A bauxita contém alumina (Al2O3), que é a matéria-prima para produção do alumínio (Al). De forma geral, são necessários 50 kg de bauxita para produzir 10 kg de alumínio. O Brasil fechou 2020 como um dos principais líderes mundiais em reciclagem de latas de alumínio. De acordo com levantamento da Associação Brasileira dos Fabricantes de Latas de Alumínio (Abralatas), o país obteve um índice de reciclagem de 97,4%, de um total de 4,0 × 10^5 toneladas de latas vendidas. Considere que a lata é constituída de alumínio puro.",
+          "content": "Brasil fecha 2020 entre os maiores recicladores de latas de alumínio A bauxita contém alumina (Al₂O₃), que é a matéria-prima para produção do alumínio (Al). De forma geral, são necessários 50 kg de bauxita para produzir 10 kg de alumínio. O Brasil fechou 2020 como um dos principais líderes mundiais em reciclagem de latas de alumínio. De acordo com levantamento da Associação Brasileira dos Fabricantes de Latas de Alumínio (Abralatas), o país obteve um índice de reciclagem de 97,4%, de um total de 4,0 × 10^5 toneladas de latas vendidas. Considere que a lata é constituída de alumínio puro.",
           "source": "Disponível em: https://agenciabrasil.ebc.com.br. Acesso em: 30 nov. 2021 (adaptado)."
         }
       ],
@@ -2227,7 +2227,7 @@
       "image_url": [
         "assets/images/enem_2024_cd7_q136.png"
       ],
-      "statement": "O tamanho mínimo que a visão humana é capaz de visualizar sem o uso de equipamento auxiliar é equivalente a 100 micrômetros (1 micrômetro = 10−3 milímetros). Uma estudante pretende visualizar e analisar hemácias do sangue humano, que medem 0,007 mm de diâmetro. Ela adquiriu um microscópio óptico que tem uma lente ocular que amplia em 10 vezes a imagem do objeto em observação, e um conjunto de lentes objetivas com estas capacidades de ampliação: • lente I: 2 vezes; • lente II: 10 vezes; • lente III: 15 vezes; • lente IV: 1,1 vez; • lente V: 1,4 vez.\nO funcionamento desse microscópio permite o uso da lente ocular sozinha ou a combinação dela com uma de suas lentes objetivas, proporcionando, nesse caso, um aumento de sua capacidade de ampliação final, que é dada pelo produto entre as capacidades de ampliação da ocular e da objetiva. Essa estudante pretende selecionar a lente objetiva de menor capacidade de ampliação que permita, na combinação com a ocular, visualizar hemácias do sangue humano. A lente objetiva a ser selecionada pela estudante é a",
+      "statement": "O tamanho mínimo que a visão humana é capaz de visualizar sem o uso de equipamento auxiliar é equivalente a 100 micrômetros (1 micrômetro = 10⁻³ milímetros). Uma estudante pretende visualizar e analisar hemácias do sangue humano, que medem 0,007 mm de diâmetro. Ela adquiriu um microscópio óptico que tem uma lente ocular que amplia em 10 vezes a imagem do objeto em observação, e um conjunto de lentes objetivas com estas capacidades de ampliação: • lente I: 2 vezes; • lente II: 10 vezes; • lente III: 15 vezes; • lente IV: 1,1 vez; • lente V: 1,4 vez.\nO funcionamento desse microscópio permite o uso da lente ocular sozinha ou a combinação dela com uma de suas lentes objetivas, proporcionando, nesse caso, um aumento de sua capacidade de ampliação final, que é dada pelo produto entre as capacidades de ampliação da ocular e da objetiva. Essa estudante pretende selecionar a lente objetiva de menor capacidade de ampliação que permita, na combinação com a ocular, visualizar hemácias do sangue humano. A lente objetiva a ser selecionada pela estudante é a",
       "options": [
         {
           "letter": "A",
@@ -2496,35 +2496,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma criança, utilizando um aplicativo, escreveu uma mensagem para enviar a um amigo. Essa mensagem foi escrita seguindo estas etapas: Etapas Visor de escrita 1ª etapa: inseriu três fi guras do tipo no visor de escrita da mensagem; 2ª etapa: copiou o que havia inserido anteriormente e colou (inseriu o que havia copiado) ao lado; 3ª etapa: copiou o que tinha no visor na 2ª etapa e colou ao lado. A criança seguiu copiando e colando, em cada etapa, o que tinha no visor na etapa imediatamente anterior, até concluir a 20ª etapa. Em seguida, enviou a mensagem. Qual foi o total de figuras contidas na mensagem enviada?",
+      "statement": "Uma criança, utilizando um aplicativo, escreveu uma mensagem para enviar a um amigo. Essa mensagem foi escrita seguindo estas etapas: Etapas Visor de escrita 1ª etapa: inseriu três figuras do tipo no visor de escrita da mensagem; 2ª etapa: copiou o que havia inserido anteriormente e colou (inseriu o que havia copiado) ao lado; 3ª etapa: copiou o que tinha no visor na 2ª etapa e colou ao lado. A criança seguiu copiando e colando, em cada etapa, o que tinha no visor na etapa imediatamente anterior, até concluir a 20ª etapa. Em seguida, enviou a mensagem. Qual foi o total de figuras contidas na mensagem enviada?",
       "options": [
         {
           "letter": "A",
-          "text": "3 × 219",
+          "text": "3 × 2¹⁹",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "3 × 220",
+          "text": "3 × 2²⁰",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "3 × 221",
+          "text": "3 × 2²¹",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "3 × 220 − 1",
+          "text": "3 × 2²⁰ − 1",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "3 × 220 − 3",
+          "text": "3 × 2²⁰ − 3",
           "image_url": null,
           "is_correct": false
         }
@@ -2773,7 +2773,7 @@
       "image_url": [
         "assets/images/enem_2024_cd7_q148.png"
       ],
-      "statement": "Uma caneca com água fervendo é retirada de um forno de micro-ondas. A temperatura T, em grau Celsius, da caneca, em função do tempo t, em minuto, pode ser modelada pela função T(t) = a + 80 bt, representada no gráfico a seguir. Os valores das constantes a e b são",
+      "statement": "Uma caneca com água fervendo é retirada de um forno de micro-ondas. A temperatura T, em grau Celsius, da caneca, em função do tempo t, em minuto, pode ser modelada pela função T(t) = a + 80 bᵗ, representada no gráfico a seguir. Os valores das constantes a e b são",
       "options": [
         {
           "letter": "A",
@@ -2783,19 +2783,19 @@
         },
         {
           "letter": "B",
-          "text": "a = 100; b = 0,5 1",
+          "text": "a = 100; b = 0,5",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "a=20; b=(0,5)10 1 (40)10",
+          "text": "a = 20; b = (0,5)^(1/10)",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "a=20; b= 80",
+          "text": "a = 20; b = (40)^(1/10)/80",
           "image_url": null,
           "is_correct": false
         },
@@ -2832,19 +2832,19 @@
         },
         {
           "letter": "C",
-          "text": "6 6",
+          "text": "6√6",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "636",
+          "text": "6∛6",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "3312",
+          "text": "3∛12",
           "image_url": null,
           "is_correct": true
         }
@@ -2956,42 +2956,42 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O gráfico apresenta o valor total de exportações e o valor total de importações, ao longo de um período, em bilhão de dólares. O saldo da balança comercial brasileira é dado pelo valor total de exportações menos o valor total de importações num mesmo período.\nValor total de exportações e importações Considere que os saldos da balança comercial brasileira, nos três meses destacados no gráfico, sejam representados por: • S1: saldo em junho de 2009; • S2: saldo em janeiro de 2010; • S3: saldo em junho de 2010.",
+          "content": "O gráfico apresenta o valor total de exportações e o valor total de importações, ao longo de um período, em bilhão de dólares. O saldo da balança comercial brasileira é dado pelo valor total de exportações menos o valor total de importações num mesmo período.\nValor total de exportações e importações Considere que os saldos da balança comercial brasileira, nos três meses destacados no gráfico, sejam representados por: • S₁: saldo em junho de 2009; • S₂: saldo em janeiro de 2010; • S₃: saldo em junho de 2010.",
           "source": "Disponível em: http://blogs.estadao.com.br. Acesso em: 20 fev. 2013 (adaptado)."
         }
       ],
       "image_url": [
         "assets/images/enem_2024_cd7_q152.png"
       ],
-      "statement": "A ordenação dos saldos S1, S2 e S3, do maior para o menor, é",
+      "statement": "A ordenação dos saldos S₁, S₂ e S₃, do maior para o menor, é",
       "options": [
         {
           "letter": "A",
-          "text": "S , S e S . 1 3 2",
+          "text": "S₁, S₃ e S₂.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "S , S e S . 2 1 3",
+          "text": "S₂, S₁ e S₃.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "S , S e S . 2 3 1",
+          "text": "S₂, S₃ e S₁.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "S , S e S . 3 1 2",
+          "text": "S₃, S₁ e S₂.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "S , S e S . 3 2 1",
+          "text": "S₃, S₂ e S₁.",
           "image_url": null,
           "is_correct": false
         }
@@ -3285,31 +3285,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "mL⋅s⋅cm2 mL",
+          "text": "mL · s · cm²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "⋅cm2 s mL",
+          "text": "(mL/s) · cm²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "cm2⋅s cm2⋅s",
+          "text": "mL/(cm² · s)",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "mL cm2",
+          "text": "(cm² · s)/mL",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "mL⋅s",
+          "text": "cm²/(mL · s)",
           "image_url": null,
           "is_correct": false
         }
@@ -3509,7 +3509,7 @@
       "image_url": [
         "assets/images/enem_2024_cd7_q164.png"
       ],
-      "statement": "A prefeitura de uma cidade planeja construir três postos de saúde. Esses postos devem ser construídos em locais equidistantes entre si e de forma que as distâncias desses três postos ao hospital dessa cidade sejam iguais. Foram conseguidos três locais para a construção dos postos de saúde que apresentam as características desejadas, e que distam 10 km entre si, conforme o esquema, no qual o ponto H representa o local onde está construído o hospital; os pontos P , P e P , os postos de saúde; e esses quatro 1 2 3 pontos estão em um mesmo plano. A distância, em quilômetro, entre o hospital e cada um dos postos de saúde, é um valor entre",
+      "statement": "A prefeitura de uma cidade planeja construir três postos de saúde. Esses postos devem ser construídos em locais equidistantes entre si e de forma que as distâncias desses três postos ao hospital dessa cidade sejam iguais. Foram conseguidos três locais para a construção dos postos de saúde que apresentam as características desejadas, e que distam 10 km entre si, conforme o esquema, no qual o ponto H representa o local onde está construído o hospital; os pontos P₁, P₂ e P₃, os postos de saúde; e esses quatro pontos estão em um mesmo plano. A distância, em quilômetro, entre o hospital e cada um dos postos de saúde, é um valor entre",
       "options": [
         {
           "letter": "A",
@@ -3800,12 +3800,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Em uma região com grande incidência de terremotos, observou-se que dois terremotos ocorridos apresentaram magnitudes M1 e M2, medidos segundo a escala Richter, e liberaram energias iguais a E1 e E2, respectivamente. Entre os estudiosos do assunto, é conhecida uma expressão algébrica relacionando esses valores dada por M2 − M1 = (2/3) log(E2 / E1)\nEstudos mais abrangentes observaram que o primeiro terremoto apresentou a magnitude M1 = 6,9 e a energia liberada foi um décimo da observada no segundo terremoto.",
+          "content": "Em uma região com grande incidência de terremotos, observou-se que dois terremotos ocorridos apresentaram magnitudes M₁ e M₂, medidos segundo a escala Richter, e liberaram energias iguais a E₁ e E₂, respectivamente. Entre os estudiosos do assunto, é conhecida uma expressão algébrica relacionando esses valores dada por M2 − M1 = (2/3) log(E2 / E1)\nEstudos mais abrangentes observaram que o primeiro terremoto apresentou a magnitude M₁ = 6,9 e a energia liberada foi um décimo da observada no segundo terremoto.",
           "source": null
         }
       ],
       "image_url": null,
-      "statement": "O valor aproximado da magnitude M2 do segundo terremoto, expresso com uma casa decimal, é igual a",
+      "statement": "O valor aproximado da magnitude M₂ do segundo terremoto, expresso com uma casa decimal, é igual a",
       "options": [
         {
           "letter": "A",
@@ -4053,31 +4053,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "4 000 π",
+          "text": "4000 π",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "2 000 π 4000",
+          "text": "2000 π",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "π 1000",
+          "text": "4000/π",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "π 500",
+          "text": "1000/π",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "π",
+          "text": "500/π",
           "image_url": null,
           "is_correct": false
         }

@@ -2480,7 +2480,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma fábrica de sorvetes utiliza embalagens plásticas no formato de paralelepípedo retangular reto.\nInternamente, a embalagem tem 10 cm de altura e base de 20 cm por 10 cm. No processo de confecção do sorvete, uma mistura é colocada na embalagem no estado líquido e, quando levada ao congelador, tem seu volume aumentado em 25%, ficando com consistência cremosa.\nInicialmente é colocada na embalagem uma mistura sabor chocolate com volume de 1 000 cm3 e, após essa mistura ficar cremosa, será adicionada uma mistura sabor morango, de modo que, ao final do processo de congelamento, a embalagem fique completamente preenchida com sorvete, sem transbordar.\nO volume máximo, em cm³, da mistura sabor morango que deverá ser colocado na embalagem é",
+      "statement": "Uma fábrica de sorvetes utiliza embalagens plásticas no formato de paralelepípedo retangular reto.\nInternamente, a embalagem tem 10 cm de altura e base de 20 cm por 10 cm. No processo de confecção do sorvete, uma mistura é colocada na embalagem no estado líquido e, quando levada ao congelador, tem seu volume aumentado em 25%, ficando com consistência cremosa.\nInicialmente é colocada na embalagem uma mistura sabor chocolate com volume de 1 000 cm³ e, após essa mistura ficar cremosa, será adicionada uma mistura sabor morango, de modo que, ao final do processo de congelamento, a embalagem fique completamente preenchida com sorvete, sem transbordar.\nO volume máximo, em cm³, da mistura sabor morango que deverá ser colocado na embalagem é",
       "options": [
         {
           "letter": "A",
@@ -2523,35 +2523,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Em uma central de atendimento, cem pessoas receberam senhas numeradas de 1 até 100. Uma das senhas é sorteada ao acaso.\nQual é a probabilidade de a senha sorteada ser um número de 1 a 20? 1",
+      "statement": "Em uma central de atendimento, cem pessoas receberam senhas numeradas de 1 até 100. Uma das senhas é sorteada ao acaso.\nQual é a probabilidade de a senha sorteada ser um número de 1 a 20?",
       "options": [
         {
           "letter": "A",
-          "text": "100 19",
+          "text": "1/100",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "100 20",
+          "text": "19/100",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "100 21",
+          "text": "20/100",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "100 80",
+          "text": "21/100",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "100",
+          "text": "80/100",
           "image_url": null,
           "is_correct": false
         }
@@ -2700,7 +2700,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Para resolver o problema de abastecimento de água foi decidida, numa reunião do condomínio, a construção de uma nova cisterna. A cisterna atual tem formato cilíndrico, com 3 m de altura e 2 m de diâmetro, e estimou-se que a nova cisterna deverá comportar 81 m3 de água, mantendo o formato cilíndrico e a altura da atual. Após a inauguração da nova cisterna a antiga será desativada. Utilize 3,0 como aproximação para π.\nQual deve ser o aumento, em metros, no raio da cisterna para atingir o volume desejado?",
+      "statement": "Para resolver o problema de abastecimento de água foi decidida, numa reunião do condomínio, a construção de uma nova cisterna. A cisterna atual tem formato cilíndrico, com 3 m de altura e 2 m de diâmetro, e estimou-se que a nova cisterna deverá comportar 81 m³ de água, mantendo o formato cilíndrico e a altura da atual. Após a inauguração da nova cisterna a antiga será desativada. Utilize 3,0 como aproximação para π.\nQual deve ser o aumento, em metros, no raio da cisterna para atingir o volume desejado?",
       "options": [
         {
           "letter": "A",
@@ -3067,7 +3067,7 @@
       "image_url": [
         "assets/images/enem_2015_cd7_q154-fig1.png"
       ],
-      "statement": "Um engenheiro projetou um automóvel cujos vidros das portas dianteiras foram desenhados de forma que suas bordas superiores fossem representadas pela curva de equação y = log (x), conforme a figura. y(m) y = log(x) 1 h 0 x(m) n A forma do vidro foi concebida de modo que o eixo x sempre divida ao meio a altura h do vidro e a base do vidro seja paralela ao eixo x. Obedecendo a essas condições, o engenheiro determinou uma expressão que fornece a altura h do vidro em função da medida n de sua base, em metros.\nA expressão algébrica que determina a altura do vidro é ( ) ( ) n + √n2 + 4 n − √n2 + 4",
+      "statement": "Um engenheiro projetou um automóvel cujos vidros das portas dianteiras foram desenhados de forma que suas bordas superiores fossem representadas pela curva de equação y = log (x), conforme a figura. y(m) y = log(x) 1 h 0 x(m) n A forma do vidro foi concebida de modo que o eixo x sempre divida ao meio a altura h do vidro e a base do vidro seja paralela ao eixo x. Obedecendo a essas condições, o engenheiro determinou uma expressão que fornece a altura h do vidro em função da medida n de sua base, em metros.\nA expressão algébrica que determina a altura do vidro é ( ) ( ) n + √n² + 4 n − √n² + 4",
       "options": [
         {
           "letter": "A",
@@ -3083,13 +3083,13 @@
         },
         {
           "letter": "C",
-          "text": "log 1+ + log 1− 2 2 ( n + √n2 + 4 )",
+          "text": "log 1+ + log 1− 2 2 ( n + √n² + 4 )",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "log 2 ( n + √n2 + 4 )",
+          "text": "log 2 ( n + √n² + 4 )",
           "image_url": null,
           "is_correct": false
         },
@@ -3209,31 +3209,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "4,129 × 103",
+          "text": "4,129 × 10³",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "4,129 × 106",
+          "text": "4,129 × 10⁶",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "4,129 × 109",
+          "text": "4,129 × 10⁹",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "4,129 × 1012",
+          "text": "4,129 × 10¹²",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "4,129 × 1015",
+          "text": "4,129 × 10¹⁵",
           "image_url": null,
           "is_correct": false
         }
@@ -3398,25 +3398,25 @@
         },
         {
           "letter": "B",
-          "text": "1 11",
+          "text": "1",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "3 4",
+          "text": "11/3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "3 2",
+          "text": "4/3",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "3",
+          "text": "2/3",
           "image_url": null,
           "is_correct": false
         }
@@ -3528,35 +3528,35 @@
       "image_url": [
         "assets/images/enem_2015_cd7_q164-fig1.png"
       ],
-      "statement": "O número de formas distintas de se acomodar a família nesse voo é calculado por 9!",
+      "statement": "O número de formas distintas de se acomodar a família nesse voo é calculado por",
       "options": [
         {
           "letter": "A",
-          "text": "2! 9!",
+          "text": "9!/2!",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "B",
-          "text": "7! × 2!",
+          "text": "9!/(7! × 2!)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "7! 5!",
+          "text": "7!",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "× 4! 2! 5! 4!",
+          "text": "(5!/2!) × 4!",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "× 4! 3!",
+          "text": "(5!/4!) × (4!/3!)",
           "image_url": null,
           "is_correct": false
         }
@@ -3996,7 +3996,7 @@
       "image_url": [
         "assets/images/enem_2015_cd7_q174-fig1.png"
       ],
-      "statement": "Um estudante está pesquisando o desenvolvimento de certo tipo de bactéria. Para essa pesquisa, ele utiliza uma estufa para armazenar as bactérias. A temperatura no interior dessa estufa, em graus Celsius, é dada pela expressão T(h) = − h2 + 22h − 85, em que h representa as horas do dia. Sabe-se que o número de bactérias é o maior possível quando a estufa atinge sua temperatura máxima e, nesse momento, ele deve retirá-las da estufa.\nA tabela associa intervalos de temperatura, em graus Celsius, com as classificações: muito baixa, baixa, média, alta e muito alta.\nIntervalos de Classificação temperatura (°c)\nT < 0 Muito baixa 0 < T < 17 Baixa 17 < T < 30 Média 30 < T < 43 Alta T > 43 Muito alta Quando o estudante obtém o maior número possível de bactérias, a temperatura no interior da estufa está classificada como",
+      "statement": "Um estudante está pesquisando o desenvolvimento de certo tipo de bactéria. Para essa pesquisa, ele utiliza uma estufa para armazenar as bactérias. A temperatura no interior dessa estufa, em graus Celsius, é dada pela expressão T(h) = − h² + 22h − 85, em que h representa as horas do dia. Sabe-se que o número de bactérias é o maior possível quando a estufa atinge sua temperatura máxima e, nesse momento, ele deve retirá-las da estufa.\nA tabela associa intervalos de temperatura, em graus Celsius, com as classificações: muito baixa, baixa, média, alta e muito alta.\nIntervalos de Classificação temperatura (°c)\nT < 0 Muito baixa 0 < T < 17 Baixa 17 < T < 30 Média 30 < T < 43 Alta T > 43 Muito alta Quando o estudante obtém o maior número possível de bactérias, a temperatura no interior da estufa está classificada como",
       "options": [
         {
           "letter": "A",
@@ -4041,23 +4041,23 @@
       "image_url": [
         "assets/images/enem_2015_cd7_q175-fig1.png"
       ],
-      "statement": "A figura representa a vista superior de uma bola de futebol americano, cuja forma é um elipsoide obtido pela rotação de uma elipse em torno do eixo das abscissas. Os valores a e b são, respectivamente, a metade do seu comprimento horizontal e a metade do seu comprimento vertical. Para essa bola, a diferença entre os comprimentos horizontal e vertical é igual à metade do comprimento vertical. y b x − a 0 a − b Considere que o volume aproximado dessa bola é dado por V = 4ab2.\nO volume dessa bola, em função apenas de b, é dado por",
+      "statement": "A figura representa a vista superior de uma bola de futebol americano, cuja forma é um elipsoide obtido pela rotação de uma elipse em torno do eixo das abscissas. Os valores a e b são, respectivamente, a metade do seu comprimento horizontal e a metade do seu comprimento vertical. Para essa bola, a diferença entre os comprimentos horizontal e vertical é igual à metade do comprimento vertical. y b x − a 0 a − b Considere que o volume aproximado dessa bola é dado por V = 4ab².\nO volume dessa bola, em função apenas de b, é dado por",
       "options": [
         {
           "letter": "A",
-          "text": "8b3",
+          "text": "8b³",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "6b3",
+          "text": "6b³",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "5b3",
+          "text": "5b³",
           "image_url": null,
           "is_correct": false
         },
@@ -4178,7 +4178,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Para economizar em suas contas mensais de água, uma família de 10 pessoas deseja construir um reservatório para armazenar a água captada das chuvas, que tenha capacidade suficiente para abastecer a família por 20 dias. Cada pessoa da família consome, diariamente, 0,08 m3 de água.\nPara que os objetivos da família sejam atingidos, a capacidade mínima, em litros, do reservatório a ser construído deve ser",
+      "statement": "Para economizar em suas contas mensais de água, uma família de 10 pessoas deseja construir um reservatório para armazenar a água captada das chuvas, que tenha capacidade suficiente para abastecer a família por 20 dias. Cada pessoa da família consome, diariamente, 0,08 m³ de água.\nPara que os objetivos da família sejam atingidos, a capacidade mínima, em litros, do reservatório a ser construído deve ser",
       "options": [
         {
           "letter": "A",
@@ -4299,7 +4299,7 @@
         },
         {
           "letter": "E",
-          "text": "outubro. 2015",
+          "text": "outubro.",
           "image_url": null,
           "is_correct": false
         }
