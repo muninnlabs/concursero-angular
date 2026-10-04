@@ -29,8 +29,13 @@ export const routes: Routes = [
         data: { topbarTitle: 'Configurações do sistema' },
         loadComponent: () => import('./pages/settings/settings.page').then((m) => m.SettingsPage),
       },
+      {
+        path: 'perfil',
+        title: 'Perfil · BrasilQuiz',
+        data: { topbarTitle: 'Seu perfil de estudante' },
+        loadComponent: () => import('./pages/profile/profile.page').then((m) => m.ProfilePage),
+      },
       ...[
-        { path: 'perfil', title: 'Perfil' },
         { path: 'ajuda', title: 'Ajuda' },
       ].map(({ path, title }) => ({
         path,

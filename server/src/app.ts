@@ -1,7 +1,8 @@
 import { Hono, type MiddlewareHandler } from 'hono';
 import type { AuthUser, TokenVerifier } from './auth/firebase.ts';
 import { isPlayable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
-import type { AnswerRecord, UserStore } from './users/store.ts';
+import { badgesFor, levelFor, longestStreak } from './users/profile.ts';
+import { countStreak, isoDay, type AnswerRecord, type UserStore } from './users/store.ts';
 
 export interface AppDeps {
   exams: ExamSource;
@@ -16,6 +17,10 @@ const MAX_ANSWERS_PER_REQUEST = 200;
 /** Longer than this, the tab was probably left open: the time isn't counted. */
 const MAX_DURATION_MS = 30 * 60_000;
 const ACTIVITY_PERIODS = [7, 30];
+/** Days of history in the profile's activity grid (26 weeks). */
+const HEATMAP_DAYS = 182;
+const MAX_BIO = 280;
+const MAX_LOCATION = 60;
 
 /**
  * The API, independent of where it runs: server/src/node.ts serves it with
@@ -170,14 +175,62 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
   /** "Estatísticas": ?days=7|30&category=OAB&tz=<Date#getTimezoneOffset()> */
   app.get('/me/activity', requireAuth, async (c) => {
     const days = Number(c.req.query('days'));
-    const tz = Number(c.req.query('tz'));
     return c.json(
       await store.getActivity(c.get('user').uid, {
         days: ACTIVITY_PERIODS.includes(days) ? days : 7,
         category: c.req.query('category') || undefined,
-        tzOffsetMinutes: Number.isInteger(tz) && Math.abs(tz) <= 14 * 60 ? tz : 0,
+        tzOffsetMinutes: timezoneOffset(c.req.query('tz')),
       }),
     );
+  });
+
+  /** "Seu perfil de estudante": XP, level, streaks, badges, activity grid and the weekly ranking. ?tz=<Date#getTimezoneOffset()> */
+  app.get('/me/profile', requireAuth, async (c) => {
+    const { uid, name, email } = c.get('user');
+    const tzOffsetMinutes = timezoneOffset(c.req.query('tz'));
+    const user = await store.upsertUser({ id: uid, name, email });
+    const stats = await store.getProfile(uid, { tzOffsetMinutes });
+
+    const localToday = new Date(Date.now() - tzOffsetMinutes * 60_000);
+    const dayList = stats.days.map((d) => d.day);
+    const firstDay = new Date(`${isoDay(localToday)}T00:00:00Z`);
+    firstDay.setUTCDate(firstDay.getUTCDate() - (HEATMAP_DAYS - 1));
+    const streak = { current: countStreak(dayList, localToday), longest: longestStreak(dayList) };
+
+    return c.json({
+      user,
+      xp: stats.xp,
+      level: levelFor(stats.xp),
+      streak: { ...streak, practicedToday: dayList[0] === isoDay(localToday) },
+      today: isoDay(localToday),
+      activity: stats.days.filter((d) => d.day >= isoDay(firstDay)),
+      badges: badgesFor({
+        answered: stats.answered,
+        longestStreak: streak.longest,
+        simulados: stats.simulados,
+        perfectSimulados: stats.perfectSimulados,
+        bySubject: stats.bySubject,
+      }),
+      ranking: { entries: stats.weeklyRanking, users: stats.weeklyUsers },
+    });
+  });
+
+  /** Body: { bio?, location? } (null or "" clears). */
+  app.patch('/me', requireAuth, async (c) => {
+    const body = await c.req.json().catch(() => null);
+    const field = (value: unknown, max: number): string | null | undefined => {
+      if (value === undefined) return undefined;
+      if (value === null) return null;
+      const text = String(value).trim().slice(0, max);
+      return text || null;
+    };
+    const { uid, name, email } = c.get('user');
+    await store.upsertUser({ id: uid, name, email });
+    const user = await store.updateProfile(uid, {
+      bio: field(body?.bio, MAX_BIO),
+      location: field(body?.location, MAX_LOCATION),
+    });
+    return c.json(user);
   });
 
   /** Deletes the profile, answers and simulados. The Firebase account itself is left alone (shared with the mobile app). */
@@ -206,4 +259,10 @@ function validDuration(value: unknown): number | null {
   return typeof value === 'number' && Number.isFinite(value) && value > 0 && value <= MAX_DURATION_MS
     ? Math.round(value)
     : null;
+}
+
+/** Date#getTimezoneOffset() from the browser, e.g. 180 for Brasília; 0 when missing or implausible. */
+function timezoneOffset(value: string | undefined): number {
+  const tz = Number(value);
+  return Number.isInteger(tz) && Math.abs(tz) <= 14 * 60 ? tz : 0;
 }

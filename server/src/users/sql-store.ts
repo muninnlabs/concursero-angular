@@ -2,6 +2,8 @@ import {
   countStreak,
   isoDay,
   RANKING_MIN_ANSWERS,
+  RANKING_TOP,
+  type ProfileStats,
   RANKING_MIN_USERS,
   type ActivityOptions,
   type ActivityStats,
@@ -14,6 +16,7 @@ import {
   type UserStats,
   type UserStore,
 } from './store.ts';
+import { ANSWER_XP_SQL, PERFECT_MIN_QUESTIONS, SIMULADO_XP_SQL, publicName } from './profile.ts';
 
 /** The few operations the store needs; implemented for node:sqlite and Cloudflare D1. */
 export interface SqlDatabase {
@@ -29,6 +32,20 @@ interface UserRow {
   email: string;
   plan: Plan;
   created_at: string;
+  bio: string | null;
+  location: string | null;
+}
+
+function toUser(row: UserRow): User {
+  return {
+    id: row.id,
+    name: row.name,
+    email: row.email,
+    plan: row.plan,
+    createdAt: row.created_at,
+    bio: row.bio ?? null,
+    location: row.location ?? null,
+  };
 }
 
 export class SqlUserStore implements UserStore {
@@ -47,7 +64,82 @@ export class SqlUserStore implements UserStore {
       },
     ]);
     const row = await this.db.first<UserRow>('SELECT * FROM users WHERE id = ?', [profile.id]);
-    return { id: row!.id, name: row!.name, email: row!.email, plan: row!.plan, createdAt: row!.created_at };
+    return toUser(row!);
+  }
+
+  async updateProfile(userId: string, fields: { bio?: string | null; location?: string | null }): Promise<User | undefined> {
+    const sets = Object.entries(fields).filter(([, value]) => value !== undefined);
+    if (sets.length) {
+      await this.db.batch([
+        {
+          sql: `UPDATE users SET ${sets.map(([key]) => `${key} = ?`).join(', ')} WHERE id = ?`,
+          params: [...sets.map(([, value]) => value), userId],
+        },
+      ]);
+    }
+    const row = await this.db.first<UserRow>('SELECT * FROM users WHERE id = ?', [userId]);
+    return row && toUser(row);
+  }
+
+  async getProfile(userId: string, options: { tzOffsetMinutes?: number; now?: Date } = {}): Promise<ProfileStats> {
+    const toLocal = `${-(options.tzOffsetMinutes ?? 0)} minutes`;
+    const now = options.now ?? new Date();
+
+    const answers = await this.db.first<{ answered: number; xp: number }>(
+      `SELECT COUNT(*) AS answered, COALESCE(SUM(${ANSWER_XP_SQL}), 0) AS xp FROM answers WHERE user_id = ?`,
+      [userId],
+    );
+    const simulados = await this.db.first<{ count: number; perfect: number; xp: number }>(
+      `SELECT COUNT(*) AS count,
+              COALESCE(SUM(correct = total AND total >= ${PERFECT_MIN_QUESTIONS}), 0) AS perfect,
+              COALESCE(SUM(${SIMULADO_XP_SQL}), 0) AS xp
+       FROM simulados WHERE user_id = ?`,
+      [userId],
+    );
+    const days = await this.db.all<{ day: string; count: number }>(
+      `SELECT date(answered_at, ?) AS day, COUNT(*) AS count FROM answers WHERE user_id = ?
+       GROUP BY day ORDER BY day DESC`,
+      [toLocal, userId],
+    );
+
+    // Rolling week, the same instant for everyone whatever their time zone.
+    const since = new Date(now.getTime() - 7 * 86_400_000).toISOString();
+    const ranked = `
+      WITH weekly AS (
+        SELECT user_id, ${ANSWER_XP_SQL} AS xp FROM answers WHERE answered_at >= ?
+        UNION ALL
+        SELECT user_id, ${SIMULADO_XP_SQL} AS xp FROM simulados WHERE finished_at >= ?
+      ),
+      ranked AS (
+        SELECT w.user_id AS id, u.name AS name, SUM(w.xp) AS xp,
+               ROW_NUMBER() OVER (ORDER BY SUM(w.xp) DESC, MIN(u.created_at)) AS position
+        FROM weekly w JOIN users u ON u.id = w.user_id
+        GROUP BY w.user_id
+      )`;
+    const rows = await this.db.all<{ id: string; name: string; xp: number; position: number }>(
+      `${ranked}
+       SELECT id, name, xp, position FROM ranked
+       WHERE position <= ? OR ABS(position - COALESCE((SELECT position FROM ranked WHERE id = ?), -99)) <= 1
+       ORDER BY position`,
+      [since, since, RANKING_TOP, userId],
+    );
+    const total = await this.db.first<{ users: number }>(`${ranked} SELECT COUNT(*) AS users FROM ranked`, [since, since]);
+
+    return {
+      xp: (answers?.xp ?? 0) + (simulados?.xp ?? 0),
+      answered: answers?.answered ?? 0,
+      simulados: simulados?.count ?? 0,
+      perfectSimulados: simulados?.perfect ?? 0,
+      days,
+      bySubject: await this.subjectStats('user_id = ?', [userId]),
+      weeklyRanking: rows.map((r) => ({
+        position: r.position,
+        name: r.id === userId ? r.name : publicName(r.name),
+        xp: r.xp,
+        you: r.id === userId,
+      })),
+      weeklyUsers: total?.users ?? 0,
+    };
   }
 
   async recordAnswers(

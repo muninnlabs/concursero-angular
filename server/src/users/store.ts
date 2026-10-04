@@ -12,6 +12,9 @@ export interface User {
   email: string;
   plan: Plan;
   createdAt: string;
+  /** Set by the user on the profile page. */
+  bio: string | null;
+  location: string | null;
 }
 
 export interface AnswerRecord {
@@ -72,6 +75,23 @@ export interface ActivityStats {
   ranking: { topPercent: number; users: number } | null;
 }
 
+/** Raw numbers behind the student profile; rules (levels, badges) live in profile.ts. */
+export interface ProfileStats {
+  xp: number;
+  answered: number;
+  simulados: number;
+  perfectSimulados: number;
+  /** Every local day with answers, newest first. */
+  days: { day: string; count: number }[];
+  /** All time. */
+  bySubject: SubjectStats[];
+  /** XP earned in the last 7 × 24 h: the top 10 plus the user and their neighbours. */
+  weeklyRanking: { position: number; name: string; xp: number; you: boolean }[];
+  weeklyUsers: number;
+}
+
+export const RANKING_TOP = 10;
+
 export const RANKING_MIN_ANSWERS = 10;
 export const RANKING_MIN_USERS = 5;
 
@@ -97,6 +117,8 @@ export interface UserStore {
   getStats(userId: string, options?: { category?: string; today?: Date }): Promise<UserStats>;
   listSimulados(userId: string, options?: { category?: string; limit?: number }): Promise<SimuladoRecord[]>;
   getActivity(userId: string, options: ActivityOptions): Promise<ActivityStats>;
+  getProfile(userId: string, options: { tzOffsetMinutes?: number; now?: Date }): Promise<ProfileStats>;
+  updateProfile(userId: string, fields: { bio?: string | null; location?: string | null }): Promise<User | undefined>;
   /** Removes the profile with all its answers and simulados. */
   deleteUser(userId: string): Promise<void>;
 }

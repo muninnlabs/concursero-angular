@@ -10,6 +10,8 @@ export interface User {
   email: string;
   plan: Plan;
   createdAt: string;
+  bio: string | null;
+  location: string | null;
 }
 
 export interface Catalog {
@@ -100,4 +102,38 @@ export interface ActivityStats {
   previous: PeriodTotals;
   bySubject: SubjectStats[];
   ranking: { topPercent: number; users: number } | null;
+}
+
+export interface Badge {
+  id: string;
+  name: string;
+  description: string;
+  /** An IconName (shared/icon.ts). */
+  icon: string;
+  tone: 'amber' | 'green' | 'blue' | 'purple' | 'rose' | 'indigo';
+  unlocked: boolean;
+  progress: number;
+  target: number;
+  detail?: string;
+}
+
+export interface RankingEntry {
+  position: number;
+  /** Full name for the user, "Ana S." for everyone else. */
+  name: string;
+  xp: number;
+  you: boolean;
+}
+
+export interface StudentProfile {
+  user: User;
+  xp: number;
+  level: { level: number; levelXp: number; nextLevelXp: number };
+  streak: { current: number; longest: number; practicedToday: boolean };
+  /** The user's local today, YYYY-MM-DD. */
+  today: string;
+  /** Days with answers in the last 26 weeks. */
+  activity: { day: string; count: number }[];
+  badges: Badge[];
+  ranking: { entries: RankingEntry[]; users: number };
 }
