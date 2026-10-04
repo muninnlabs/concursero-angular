@@ -1567,7 +1567,7 @@
         },
         {
           "letter": "E",
-          "text": "os aspectos subjetivos da mencionada pesquisa. \nTexto para as questões 122 e 123 Nós adoraríamos dizer que somos perfeitos. Que somos infalíveis. Que não cometemos nem mesmo o menor deslize. E só não falamos isso por um pequeno detalhe: seria uma mentira. Aliás, em vez de usar a palavra “mentira”, como acabamos de fazer, poderíamos optar por um eufemismo. “Meia-verdade”, por exemplo, seria um termo muito menos agressivo. Mas nós não usamos esta palavra simplesmente porque não acreditamos que exista uma “Meia-verdade”. Para o Conar, Conselho Nacional de Autorregulamentação Publicitária, existem a verdade e a mentira. Existem a honestidade e a desonestidade. Absolutamente nada no meio. O Conar nasceu há 29 anos (viu só? não arredondamos para 30) com a missão de zelar pela ética na publicidade. Não fazemos isso porque somos bonzinhos (gostaríamos de dizer isso, mas, mais uma vez, seria mentira). Fazemos isso porque é a única forma da propaganda ter o máximo de credibilidade. E, cá entre nós, para que serviria a propaganda se o consumidor não acreditasse nela?\nQualquer pessoa que se sinta enganada por uma peça publicitária pode fazer uma reclamação ao Conar.\nEle analisa cuidadosamente todas as denúncias e, quando é o caso, aplica a punição.\nAnúncio veiculado na Revista veja. São Paulo: Abril. Ed. 2120, ano 42, nº 27, 8 jul. 2009.",
+          "text": "os aspectos subjetivos da mencionada pesquisa.",
           "image_url": null,
           "is_correct": false
         }
@@ -1582,7 +1582,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": [
-        "assets/images/enem_2011_cd7_q122.png"
+        "assets/images/enem_2011_cd7_q122-ad.png"
       ],
       "statement": "O recurso gráfico utilizado no anúncio publicitário ― de destacar a potencial supressão de trecho do texto ― reforça a eficácia pretendida, revelada na estratégia de",
       "options": [
@@ -1626,7 +1626,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2011_cd7_q122-ad.png"
+      ],
       "statement": "Considerando a autoria e a seleção lexical desse texto, bem como os argumentos nele mobilizados, constata-se que o objetivo do autor do texto é",
       "options": [
         {
@@ -2167,7 +2169,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2011_cd7_q133.png"
+      ],
       "statement": "O argumento presente na charge consiste em uma metáfora relativa à teoria evolucionista e ao desenvolvimento tecnológico. Considerando o contexto apresentado, verifica-se que o impacto tecnológico pode ocasionar",
       "options": [
         {
@@ -2546,7 +2550,7 @@
       "image_url": [
         "assets/images/enem_2011_cd7_q142-fig1.png"
       ],
-      "statement": "Uma equipe de especialistas do centro meteorológico de uma cidade mediu a temperatura do ambiente, sempre no mesmo horário, durante 15 dias intercalados, a partir do primeiro dia de um mês. Esse tipo de procedimento é frequente, uma vez que os dados coletados servem de referência para estudos e verificação de tendências climáticas ao longo dos meses e anos.\nAs medições ocorridas nesse período estão indicadas no quadro:\nDia do mês Temperatura (em °C) (1) 15,5 (3) 14 (5) 13,5 (7) 18 (9) 19,5 (11) 20 (13) 13,5 (15) 13,5 (17) 18 (19) 20 (21) 18,5 (23) 13,5 (25) 21,5 (27) 20 (29) 16 Em relação à temperatura, os valores da média, mediana e moda são, respectivamente, iguais a",
+      "statement": "Uma equipe de especialistas do centro meteorológico de uma cidade mediu a temperatura do ambiente, sempre no mesmo horário, durante 15 dias intercalados, a partir do primeiro dia de um mês. Esse tipo de procedimento é frequente, uma vez que os dados coletados servem de referência para estudos e verificação de tendências climáticas ao longo dos meses e anos.\nAs medições ocorridas nesse período estão indicadas no quadro:\nEm relação à temperatura, os valores da média, mediana e moda são, respectivamente, iguais a",
       "options": [
         {
           "letter": "A",
@@ -2882,7 +2886,7 @@
       "image_url": [
         "assets/images/enem_2011_cd7_q149-fig1.png"
       ],
-      "statement": "Uma jovem com IMC = 20 kg/m², 100 cm de circunferência dos quadris e 60 kg de massa corpórea resolveu averiguar seu IAC. Para se enquadrar aos níveis de normalidade de gordura corporal, a atitude adequada que essa jovem deve ter diante da nova medida é (Use ) √3 � 1,7����1,7�� 1,3",
+      "statement": "Uma jovem com IMC = 20 kg/m², 100 cm de circunferência dos quadris e 60 kg de massa corpórea resolveu averiguar seu IAC. Para se enquadrar aos níveis de normalidade de gordura corporal, a atitude adequada que essa jovem deve ter diante da nova medida é (Use √3 = 1,7 e √1,7 = 1,3)",
       "options": [
         {
           "letter": "A",
@@ -2924,7 +2928,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2011_cd7_q150-fig1.png"
+      ],
       "statement": "Um bairro de uma cidade foi planejado em uma região plana, com ruas paralelas e perpendiculares, delimitando quadras de mesmo tamanho. No plano de coordenadas cartesianas seguinte, esse bairro localiza-se no segundo quadrante, e as distâncias nos eixos são dadas em quilômetros. \nA reta de equação y = x + 4 representa o planejamento do percurso da linha do metrô subterrâneo que atravessará o bairro e outras regiões da cidade.\nNo ponto P = (-5, 5), localiza-se um hospital público. A comunidade solicitou ao comitê de planejamento que fosse prevista uma estação do metrô de modo que sua distância ao hospital, medida em linha reta, não fosse maior que 5 km.\nAtendendo ao pedido da comunidade, o comitê argumentou corretamente que isso seria automaticamente satisfeito, pois já estava prevista a construção de uma estação no ponto",
       "options": [
         {
@@ -3124,7 +3130,7 @@
           "type": "text_block",
           "title": null,
           "content": "A participação dos estudantes na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP) aumenta a cada ano. O quadro indica o percentual de medalhistas de ouro, por região, nas edições da OBMEP de 2005 a 2009:",
-          "source": "Região 2005 2006 2007 2008 2009 Norte 2% 2% 1% 2% 1% Nordeste 18% 19% 21% 15% 19% Centro-Oeste 5% 6% 7% 8% 9% Sudeste 55% 61% 58% 66% 60% Sul 21% 12% 13% 9% 11% Disponível em: http://www.obmep.org.br. Acesso em: abr. 2010 (adaptado)."
+          "source": "Disponível em: http://www.obmep.org.br. Acesso em: abr. 2010 (adaptado)."
         }
       ],
       "image_url": [
@@ -3233,7 +3239,7 @@
         }
       ],
       "image_url": null,
-      "statement": "Suponha que o incremento de trabalhadores no setor varejista seja sempre o mesmo nos seis primeiros meses do ano.\nConsiderando-se que y e x representam, respectivamen-te, as quantidades de trabalhadores no setor varejista e os meses, janeiro sendo o primeiro, fevereiro, o segundo, e assim por diante, a expressão algébrica que relaciona essas quantidades nesses meses é",
+      "statement": "Suponha que o incremento de trabalhadores no setor varejista seja sempre o mesmo nos seis primeiros meses do ano.\nConsiderando-se que y e x representam, respectivamente, as quantidades de trabalhadores no setor varejista e os meses, janeiro sendo o primeiro, fevereiro, o segundo, e assim por diante, a expressão algébrica que relaciona essas quantidades nesses meses é",
       "options": [
         {
           "letter": "A",
@@ -3278,7 +3284,7 @@
       "image_url": [
         "assets/images/enem_2011_cd7_q157-fig1.png"
       ],
-      "statement": "Um jovem investidor precisa escolher qual investimento lhe trará maior retorno financeiro em uma aplicação de R$ 500,00. Para isso, pesquisa o rendimento e o imposto a ser pago em dois investimentos: poupança e CDB (certificado de depósito bancário). As informações obtidas estão resumidas no quadro: \nRendimento IR (imposto de mensal (%) renda)\nPOUPANÇA 0,560 ISENTO CDB 0,876 4% (sobre o ganho)\nPara o jovem investidor, ao final de um mês, a aplicação mais vantajosa é",
+      "statement": "Um jovem investidor precisa escolher qual investimento lhe trará maior retorno financeiro em uma aplicação de R$ 500,00. Para isso, pesquisa o rendimento e o imposto a ser pago em dois investimentos: poupança e CDB (certificado de depósito bancário). As informações obtidas estão resumidas no quadro: \nPara o jovem investidor, ao final de um mês, a aplicação mais vantajosa é",
       "options": [
         {
           "letter": "A",
@@ -4171,7 +4177,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A cor de uma estrela tem relação com a temperatura em sua superfície. Estrelas não muito quentes (cerca de 3 000 K) nos parecem avermelhadas. Já as estrelas amarelas, como o Sol, possuem temperatura em torno dos 6 000 K; as mais quentes são brancas ou azuis porque sua temperatura fica acima dos 10 000 K.\nA tabela apresenta uma classificação espectral e outros dados para as estrelas dessas classes.\nEstrelas da Sequência Principal Classe Temperatura Luminosidade Massa Raio Espectral O5 40 000 5 x 10⁵ 40 18 B0 28 000 2 x 10⁴ 18 7 A0 9 900 80 3 2.5 G2 5 770 1 1 1 M0 3 480 0,06 0,5 0,6 Temperatura em Kelvin.\nLuminosidade, massa e raio, tomando o Sol como unidade.",
+          "content": "A cor de uma estrela tem relação com a temperatura em sua superfície. Estrelas não muito quentes (cerca de 3 000 K) nos parecem avermelhadas. Já as estrelas amarelas, como o Sol, possuem temperatura em torno dos 6 000 K; as mais quentes são brancas ou azuis porque sua temperatura fica acima dos 10 000 K.\nA tabela apresenta uma classificação espectral e outros dados para as estrelas dessas classes.\nLuminosidade, massa e raio, tomando o Sol como unidade.",
           "source": "Disponível em: http://www.zenite.nu. Acesso em: 1 maio 2010 (adaptado)."
         }
       ],
@@ -4223,7 +4229,7 @@
       "image_url": [
         "assets/images/enem_2011_cd7_q177-fig1.png"
       ],
-      "statement": "Considere que uma pessoa decida investir uma determinada quantia e que lhe sejam apresentadas três possibilidades de investimento, com rentabilidades líquidas garantidas pelo período de um ano, conforme descritas:\nInvestimento A: 3% ao mês Investimento B: 36% ao ano Investimento C: 18% ao semestre As rentabilidades, para esses investimentos, incidem sobre o valor do período anterior. O quadro fornece algumas aproximações para a análise das rentabilidades: n 1,03ⁿ 3 1,093 6 1,194 9 1,305 12 1,426 Para escolher o investimento com a maior rentabilidade anual, essa pessoa deverá",
+      "statement": "Considere que uma pessoa decida investir uma determinada quantia e que lhe sejam apresentadas três possibilidades de investimento, com rentabilidades líquidas garantidas pelo período de um ano, conforme descritas:\nInvestimento A: 3% ao mês Investimento B: 36% ao ano Investimento C: 18% ao semestre As rentabilidades, para esses investimentos, incidem sobre o valor do período anterior. O quadro fornece algumas aproximações para a análise das rentabilidades:\nPara escolher o investimento com a maior rentabilidade anual, essa pessoa deverá",
       "options": [
         {
           "letter": "A",

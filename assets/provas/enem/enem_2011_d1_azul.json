@@ -2456,8 +2456,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Um dos problemas dos combustíveis que contêm carbono é que sua queima produz dióxido de carbono.\nPortanto, uma característica importante, ao se escolher um combustível, é analisar seu calor de combustão (∆Hº), definido como a energia liberada na queima c completa de um mol de combustível no estado padrão.",
-          "source": "O quadro seguinte relaciona algumas substâncias que contêm carbono e seu ∆Hº. c Substância Fórmula ∆Hº (kJ/mol) c benzeno C₆H₆ (l) -3 268 etanol C₂H₅OH (l) -1 368 glicose C₆H₁₂O₆ (s) -2 808 metano CH₄ (g) -890 octano C₈H₁₈ (l) -5 471 ATKINS, P. Princípios de Química. Bookman, 2007 (adaptado)."
+          "content": "Um dos problemas dos combustíveis que contêm carbono é que sua queima produz dióxido de carbono.\nPortanto, uma característica importante, ao se escolher um combustível, é analisar seu calor de combustão (∆H_cº), definido como a energia liberada na queima completa de um mol de combustível no estado padrão.",
+          "source": "O quadro seguinte relaciona algumas substâncias que contêm carbono e seu ∆H_cº.\nATKINS, P. Princípios de Química. Bookman, 2007 (adaptado)."
         }
       ],
       "image_url": [
@@ -2651,8 +2651,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Certas ligas estanho-chumbo com composição específica formam um eutético simples, o que significa que uma liga com essas características se comporta como uma substância pura, com um ponto de fusão definido, no caso 183 ºC. Essa é uma temperatura inferior mesmo ao ponto de fusão dos metais que compõem esta liga (o estanho puro funde a 232 ºC e o chumbo puro a 320 ºC), o que justifica sua ampla utilização na soldagem de componentes eletrônicos, em que o excesso de aquecimento deve sempre ser evitado. De acordo com as normas internacionais, os valores mínimo e máximo das densidades para essas ligas são de 8,74 g/mL e 8,82 g/mL, respectivamente.\nAs densidades do estanho e do chumbo são 7,3 g/mL e 11,3 g/mL, respectivamente.\nUm lote contendo 5 amostras de solda estanho-chumbo foi analisado por um técnico, por meio da determinação de sua composição percentual em massa, cujos resultados estão mostrados no quadro a seguir.\nPorcentagem de Porcentagem de Amostra Sn (%) Pb (%)",
-          "source": "I 60 40 II 62 38 III 65 35 IV 63 37 V 59 41 Disponível em: http://www.eletrica.ufpr.br."
+          "content": "Certas ligas estanho-chumbo com composição específica formam um eutético simples, o que significa que uma liga com essas características se comporta como uma substância pura, com um ponto de fusão definido, no caso 183 ºC. Essa é uma temperatura inferior mesmo ao ponto de fusão dos metais que compõem esta liga (o estanho puro funde a 232 ºC e o chumbo puro a 320 ºC), o que justifica sua ampla utilização na soldagem de componentes eletrônicos, em que o excesso de aquecimento deve sempre ser evitado. De acordo com as normas internacionais, os valores mínimo e máximo das densidades para essas ligas são de 8,74 g/mL e 8,82 g/mL, respectivamente.\nAs densidades do estanho e do chumbo são 7,3 g/mL e 11,3 g/mL, respectivamente.\nUm lote contendo 5 amostras de solda estanho-chumbo foi analisado por um técnico, por meio da determinação de sua composição percentual em massa, cujos resultados estão mostrados no quadro a seguir.",
+          "source": "Disponível em: http://www.eletrica.ufpr.br."
         }
       ],
       "image_url": [
@@ -3037,7 +3037,7 @@
       "image_url": [
         "assets/images/enem_2011_cd1_q62.png"
       ],
-      "statement": "A eutrofização é um processo em que rios, lagos e mares adquirem níveis altos de nutrientes, especialmente fosfatos e nitratos, provocando posterior acúmulo de matéria orgânica em decomposição. Os nutrientes são assimilados pelos produtores primários e o crescimento desses é controlado pelo nutriente limítrofe, que é o elemento menos disponível em relação à abundância necessária à sobrevivência dos organismos vivos. O ciclo representado na figura seguinte reflete a dinâmica dos nutrientes em um lago. 3-4 SPIRO, T. G.; STIGLIANI, W. M. Química Ambiental. São Paulo: Pearson Education do Brasil, 2008 (adaptado). A análise da água de um lago que recebe a descarga de águas residuais provenientes de lavouras adubadas revelou as concentrações dos elementos carbono (21,2 mol/L), nitrogênio (1,2 mol/L) e fósforo (0,2 mol/L). Nessas condições, o nutriente limítrofe é o",
+      "statement": "A eutrofização é um processo em que rios, lagos e mares adquirem níveis altos de nutrientes, especialmente fosfatos e nitratos, provocando posterior acúmulo de matéria orgânica em decomposição. Os nutrientes são assimilados pelos produtores primários e o crescimento desses é controlado pelo nutriente limítrofe, que é o elemento menos disponível em relação à abundância necessária à sobrevivência dos organismos vivos. O ciclo representado na figura seguinte reflete a dinâmica dos nutrientes em um lago. SPIRO, T. G.; STIGLIANI, W. M. Química Ambiental. São Paulo: Pearson Education do Brasil, 2008 (adaptado). A análise da água de um lago que recebe a descarga de águas residuais provenientes de lavouras adubadas revelou as concentrações dos elementos carbono (21,2 mol/L), nitrogênio (1,2 mol/L) e fósforo (0,2 mol/L). Nessas condições, o nutriente limítrofe é o",
       "options": [
         {
           "letter": "A",
@@ -3065,7 +3065,7 @@
         },
         {
           "letter": "E",
-          "text": "PO 3-.",
+          "text": "PO₄³⁻.",
           "image_url": null,
           "is_correct": false
         }
@@ -3425,7 +3425,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Um curioso estudante, empolgado com a aula de circuito elétrico que assistiu na escola, resolve desmontar sua lanterna. Utilizando-se da lâmpada e da pilha, retiradas do equipamento, e de um fio com as extremidades descascadas, faz as seguintes ligações com a intenção de acender a lâmpada: 4 1 2 3 5 6 7 GONÇALVES FILHO, A.; BAROLLI, E. Instalação Elétrica: investigando e aprendendo.",
+          "content": "Um curioso estudante, empolgado com a aula de circuito elétrico que assistiu na escola, resolve desmontar sua lanterna. Utilizando-se da lâmpada e da pilha, retiradas do equipamento, e de um fio com as extremidades descascadas, faz as seguintes ligações com a intenção de acender a lâmpada:\nGONÇALVES FILHO, A.; BAROLLI, E. Instalação Elétrica: investigando e aprendendo.",
           "source": "São Paulo: Scipione, 1997 (adaptado)."
         }
       ],
@@ -4103,7 +4103,7 @@
         },
         {
           "letter": "E",
-          "text": "a diminuição da oxigenação do solo, uma vez que o nitrogênio ativo forma espécies químicas do tipo NO , NO -, N O. 2 3",
+          "text": "a diminuição da oxigenação do solo, uma vez que o nitrogênio ativo forma espécies químicas do tipo NO₂, NO₃⁻, N₂O.",
           "image_url": null,
           "is_correct": false
         }

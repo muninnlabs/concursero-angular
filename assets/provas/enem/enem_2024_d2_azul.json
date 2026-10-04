@@ -404,35 +404,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma ambulância em alta velocidade com a sirene ligada desloca-se em direção a um radar operado por uma pessoa.\nO radar emite ondas de rádio com frequência f₀ que são refletidas pela dianteira da ambulância, retornando para o detector com frequência f. A percepção do operador do r radar, em relação ao som emitido pela sirene, é de que este se altera à medida que a ambulância se aproxima ou se afasta.\nDurante a aproximação, como o operador percebe o som da sirene e qual é a relação entre as frequências f e f r 0 medidas pelo radar?",
+      "statement": "Uma ambulância em alta velocidade com a sirene ligada desloca-se em direção a um radar operado por uma pessoa.\nO radar emite ondas de rádio com frequência f₀ que são refletidas pela dianteira da ambulância, retornando para o detector com frequência f_r. A percepção do operador do radar, em relação ao som emitido pela sirene, é de que este se altera à medida que a ambulância se aproxima ou se afasta.\nDurante a aproximação, como o operador percebe o som da sirene e qual é a relação entre as frequências f_r e f₀ medidas pelo radar?",
       "options": [
         {
           "letter": "A",
-          "text": "Mais grave do que o som emitido e f < f . r 0",
+          "text": "Mais grave do que o som emitido e f_r < f₀.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Mais agudo do que o som emitido e f < f . r 0",
+          "text": "Mais agudo do que o som emitido e f_r < f₀.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Mais agudo do que o som emitido e f = f . r 0",
+          "text": "Mais agudo do que o som emitido e f_r = f₀.",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Mais agudo do que o som emitido e f > f . r 0",
+          "text": "Mais agudo do que o som emitido e f_r > f₀.",
           "image_url": null,
           "is_correct": true
         },
         {
           "letter": "E",
-          "text": "Mais grave do que o som emitido e f > f . r 0",
+          "text": "Mais grave do que o som emitido e f_r > f₀.",
           "image_url": null,
           "is_correct": false
         }
@@ -1992,7 +1992,7 @@
       "image_url": [
         "assets/images/enem_2024_cd7_q131-1.png"
       ],
-      "statement": "O LED é um dispositivo eletrônico que conduz corrente elétrica em um único sentido, sendo caracterizado por uma tensão e uma corrente máxima de funcionamento, I . Um LED máx acende apenas se a corrente que o percorre está no sentido permitido e se a diferença de potencial à qual está submetido é igual ou superior à sua tensão de funcionamento. A figura ilustra o símbolo do LED usado na representação de circuitos.\nUm estudante de física analisa as propriedades do LED em um circuito simples de corrente contínua. Ele dispõe dos seguintes materiais: uma bateria ideal de 4,5 V; dois LEDs de tensão 3,0 V e I = 1,0 mA cada; e dois resistores de máx 1,5 kΩ cada.\nO circuito que o estudante pode montar, para que ambos os LEDs fiquem acesos e cada um seja percorrido por I , é máx",
+      "statement": "O LED é um dispositivo eletrônico que conduz corrente elétrica em um único sentido, sendo caracterizado por uma tensão e uma corrente máxima de funcionamento, I_máx. Um LED acende apenas se a corrente que o percorre está no sentido permitido e se a diferença de potencial à qual está submetido é igual ou superior à sua tensão de funcionamento. A figura ilustra o símbolo do LED usado na representação de circuitos.\nUm estudante de física analisa as propriedades do LED em um circuito simples de corrente contínua. Ele dispõe dos seguintes materiais: uma bateria ideal de 4,5 V; dois LEDs de tensão 3,0 V e I_máx = 1,0 mA cada; e dois resistores de 1,5 kΩ cada.\nO circuito que o estudante pode montar, para que ambos os LEDs fiquem acesos e cada um seja percorrido por I_máx, é",
       "options": [
         {
           "letter": "A",
@@ -2037,7 +2037,7 @@
       "image_url": [
         "assets/images/enem_2024_cd7_q132.png"
       ],
-      "statement": "Uma caixa decorativa utiliza duas pequenas lâmpadas, L₁ (6 V – 9 W) e L₂ (12 V – 18 W), ligadas em série a uma bateria de tensão V .Um fio resistivo QR, de QR 48 centímetros, está ligado em paralelo à bateria. Cinco pontos, A, B, C, D e E, dividem o fio QR em seis segmentos de comprimentos iguais. O circuito também tem um amperímetro com dois terminais. Um dos terminais (P) está ligado ao fio entre as duas lâmpadas. O outro terminal (S) está livre e será ligado ao fio QR. Dependendo do ponto em que esse terminal livre for conectado, ocorrerá a mudança na tensão à qual as lâmpadas são submetidas. Os demais fios do circuito têm resistências elétricas desprezíveis.\nA figura ilustra esse circuito.\nEm qual desses pontos o amperímetro deve ser conectado para que as lâmpadas acendam exatamente segundo as especificações de tensão e potência elétricas fornecidas?",
+      "statement": "Uma caixa decorativa utiliza duas pequenas lâmpadas, L₁ (6 V – 9 W) e L₂ (12 V – 18 W), ligadas em série a uma bateria de tensão V_QR. Um fio resistivo QR, de 48 centímetros, está ligado em paralelo à bateria. Cinco pontos, A, B, C, D e E, dividem o fio QR em seis segmentos de comprimentos iguais. O circuito também tem um amperímetro com dois terminais. Um dos terminais (P) está ligado ao fio entre as duas lâmpadas. O outro terminal (S) está livre e será ligado ao fio QR. Dependendo do ponto em que esse terminal livre for conectado, ocorrerá a mudança na tensão à qual as lâmpadas são submetidas. Os demais fios do circuito têm resistências elétricas desprezíveis.\nA figura ilustra esse circuito.\nEm qual desses pontos o amperímetro deve ser conectado para que as lâmpadas acendam exatamente segundo as especificações de tensão e potência elétricas fornecidas?",
       "options": [
         {
           "letter": "A",

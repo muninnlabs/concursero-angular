@@ -326,7 +326,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Taxa de fecundidade total – Brasil – 1940-2010 6,16 6,21 6,28 5,76 4,35 2,85 2,38 1,90 1930 1940 1950 1960 1970 1980 1990 2000 2010 2020 IBGE. Censo demográfico 2010: resultados gerais da amostra.",
+          "content": "Taxa de fecundidade total – Brasil – 1940-2010\nIBGE. Censo demográfico 2010: resultados gerais da amostra.",
           "source": "Disponível em: ftp://ftp.ibge.gov.br. Acesso em: 12 mar. 2013."
         }
       ],
@@ -976,11 +976,13 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "PSD - PTB - UDN PSP - PDC - MTR PTN - PST - PSB PRP - PR - PL - PRT Finados FORTUNA. Correio da Manhã, ano 65, n. 22 264, 2 nov. 1965.",
+          "content": "FORTUNA. Correio da Manhã, ano 65, n. 22 264, 2 nov. 1965.",
           "source": null
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2013_cd1_q20-fig1.png"
+      ],
       "statement": "A imagem foi publicada no jornal Correio da Manhã, no dia de Finados de 1965. Sua relação com os direitos políticos existentes no período revela a",
       "options": [
         {
@@ -1226,7 +1228,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Vida social sem internet?\nVOCÊ ESTÁ EM ATÉ NO TANTOS LUGARES, POR TWITTER? ISSO RARAMENTE TE VEJO NO MUNDO REAL!\nCLARO!",
+          "content": "Vida social sem internet?",
           "source": "Disponível em: http://tv-video-edc.blogspot.com. Acesso em: 30 maio 2010."
         }
       ],
@@ -2090,7 +2092,7 @@
       "image_url": [
         "assets/images/enem_2013_cd1_q42.png"
       ],
-      "statement": "No esquema, o problema atmosférico relacionado ao cic Uma consequência direta desse problema está na",
+      "statement": "Disponível em: http://blig.ig.com.br. Acesso em: 23 ago. 2011 (adaptado).\nNo esquema, o problema atmosférico relacionado ao ciclo da água acentuou-se após as revoluções industriais.\nUma consequência direta desse problema está na",
       "options": [
         {
           "letter": "A",
@@ -2118,7 +2120,7 @@
         },
         {
           "letter": "E",
-          "text": "fragmentação das rochas. 2013 Disponível em: http://blig.ig.com.br. Acesso em: 23 ago. 2011 (adaptado). clo da água acentuou-se após as revoluções industriais.",
+          "text": "fragmentação das rochas.",
           "image_url": null,
           "is_correct": false
         }
@@ -2286,7 +2288,7 @@
           "type": "text_block",
           "title": null,
           "content": "Músculos artificiais são dispositivos feitos com plásticos inteligentes que respondem a uma corrente elétrica com um movimento mecânico. A oxidação e redução de um polímero condutor criam cargas positivas e/ou negativas no material, que são compensadas com a inserção ou expulsão de cátions ou ânions. Por exemplo, na figura os filmes escuros são de polipirrol e o filme branco é de um eletrólito polimérico contendo um sal inorgânico.",
-          "source": "Quando o polipirrol sofre oxidação, há a inserção de ânions para compensar a carga positiva no polímero e o filme se expande. Na outra face do dispositivo o filme de polipirrol sofre redução, expulsando ânions, e o filme se contrai. Pela montagem, em sanduíche, o sistema todo se movimenta de forma harmônica, conforme mostrado na figura. -Corrente elétrica polipirrol + Ar Eletrólito polimérico Sem corrente elétrica polipirrol Ar + Corrente elétrica -DE PAOLI, M. A. Cadernos Temáticos de Química Nova na Escola, São Paulo, maio 2001 (adaptado)."
+          "source": "Quando o polipirrol sofre oxidação, há a inserção de ânions para compensar a carga positiva no polímero e o filme se expande. Na outra face do dispositivo o filme de polipirrol sofre redução, expulsando ânions, e o filme se contrai. Pela montagem, em sanduíche, o sistema todo se movimenta de forma harmônica, conforme mostrado na figura.\n-DE PAOLI, M. A. Cadernos Temáticos de Química Nova na Escola, São Paulo, maio 2001 (adaptado)."
         }
       ],
       "image_url": [
@@ -2430,7 +2432,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Glicose marcada com nuclídeos de carbono-11 é utilizada na medicina para se obter imagens tridimensionais do cérebro, por meio de tomografia de emissão de pósitrons. A desintegração do carbono-11 gera um pósitron, com tempo de meia-vida de 20,4 min, de acordo com a equação da reação nuclear: 11 11 0 e C B + 6 5 1 (pósitron)\nA partir da injeção de glicose marcada com esse nuclídeo, o tempo de aquisição de uma imagem de tomografia é de cinco meias-vidas.\nConsiderando que o medicamento contém 1,00 g do carbono-11, a massa, em miligramas, do nuclídeo restante, após a aquisição da imagem, é mais próxima de",
+      "statement": "Glicose marcada com nuclídeos de carbono-11 é utilizada na medicina para se obter imagens tridimensionais do cérebro, por meio de tomografia de emissão de pósitrons. A desintegração do carbono-11 gera um pósitron, com tempo de meia-vida de 20,4 min, de acordo com a equação da reação nuclear: ¹¹₆C → ¹¹₅B + ⁰₁e (pósitron)\nA partir da injeção de glicose marcada com esse nuclídeo, o tempo de aquisição de uma imagem de tomografia é de cinco meias-vidas.\nConsiderando que o medicamento contém 1,00 g do carbono-11, a massa, em miligramas, do nuclídeo restante, após a aquisição da imagem, é mais próxima de",
       "options": [
         {
           "letter": "A",
@@ -2662,7 +2664,7 @@
           "type": "text_block",
           "title": null,
           "content": "O uso de embalagens plásticas descartáveis vem crescendo em todo o mundo, juntamente com o problema ambiental gerado por seu descarte inapropriado. O politereftalato de etileno (PET), cuja estrutura é mostrada, tem sido muito utilizado na indústria de refrigerantes e pode ser reciclado e reutilizado. Uma das opções possíveis envolve a produção de matérias-primas, como o etilenoglicol (1,2-etanodiol), a partir de objetos compostos de PET pós-consumo.",
-          "source": "O O HO C C O CH₂ CH₂ O H n Disponível em: www.abipet.org.br. Acesso em: 27 fev. 2012 (adaptado)."
+          "source": "Disponível em: www.abipet.org.br. Acesso em: 27 fev. 2012 (adaptado)."
         }
       ],
       "image_url": [
@@ -2873,9 +2875,7 @@
           "source": null
         }
       ],
-      "image_url": [
-        "assets/images/enem_2013_cd1_q58-opts.png"
-      ],
+      "image_url": null,
       "statement": "Para que se consiga atrair um maior número de abelhas para uma determinada região, a molécula que deve estar presente em alta concentração no produto a ser utilizado é:",
       "options": [
         {
@@ -3435,7 +3435,7 @@
       "image_url": [
         "assets/images/enem_2013_cd1_q70-fig1.png"
       ],
-      "statement": "Cinco casais alegavam ser os pais de um bebê.\nA confirmação da paternidade foi obtida pelo exame de DNA. O resultado do teste está esquematizado na figura, em que cada casal apresenta um padrão com duas bandas de DNA (faixas, uma para o suposto pai e outra para a suposta mãe), comparadas à do bebê. 1 2 3 4 5 Bebê Pai Mãe Pai Mãe Pai Mãe Pai Mãe Pai Mãe Que casal pode ser considerado como pais biológicos do bebê?",
+      "statement": "Cinco casais alegavam ser os pais de um bebê.\nA confirmação da paternidade foi obtida pelo exame de DNA. O resultado do teste está esquematizado na figura, em que cada casal apresenta um padrão com duas bandas de DNA (faixas, uma para o suposto pai e outra para a suposta mãe), comparadas à do bebê.\nQue casal pode ser considerado como pais biológicos do bebê?",
       "options": [
         {
           "letter": "A",
@@ -4040,7 +4040,7 @@
       "image_url": [
         "assets/images/enem_2013_cd1_q83-fig1.png"
       ],
-      "statement": "Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (Rₛ) e a dependência da resistência com a temperatura é conhecida. 470 Ω 470 Ω 10 V + Voltímetro R = 100 Ω 120 Ω S Para um valor de temperatura em que R = 100 Ω, a S leitura apresentada pelo voltímetro será de",
+      "statement": "Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (Rₛ) e a dependência da resistência com a temperatura é conhecida.\nPara um valor de temperatura em que R = 100 Ω, a S leitura apresentada pelo voltímetro será de",
       "options": [
         {
           "letter": "A",
@@ -4180,7 +4180,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "As fraldas descartáveis que contêm o polímero poliacrilato de sódio (1) são mais eficientes na retenção de água que as fraldas de pano convencionais, constituídas de fibras de celulose (2).\nOH HO n O O O O⁻ Na⁺ n OH (1) (2)",
+          "content": "As fraldas descartáveis que contêm o polímero poliacrilato de sódio (1) são mais eficientes na retenção de água que as fraldas de pano convencionais, constituídas de fibras de celulose (2).",
           "source": "CURI, D. Química Nova na Escola, São Paulo, n. 23, maio 2006 (adaptado)."
         }
       ],
