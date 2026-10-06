@@ -1317,11 +1317,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Figura 1. Diagrama das regiões de intemperismo para as condições brasileiras (adaptado de Peltier, 1950). 35 30 25 20 15 10 5 0 400 800 1200 1600 2000 2400 2800 Precipitação média anual (mm) ocarF otiuM .1 4. Forte 3. Moderado 2. Fraco )C°( arutarepmeT Figura 2. Mapa das regiões de intemperismo do Brasil, baseado no diagrama da Figura 1.",
+          "content": "Figura 1. Diagrama das regiões de intemperismo para as condições brasileiras (adaptado de Peltier, 1950).\nFigura 2. Mapa das regiões de intemperismo do Brasil, baseado no diagrama da Figura 1.",
           "source": "FONTES, M. P. F. Intemperismo de rochas e minerais. In: KER, J. C. et al. (Org.). Pedologia: fundamentos. Viçosa (MG): SBCS, 2012 (adaptado)."
         }
       ],
       "image_url": [
+        "assets/images/enem_2015_cd1_q27-fig1.png",
         "assets/images/enem_2015_cd1_q27.png"
       ],
       "statement": "De acordo com as figuras, a intensidade de intemperismo de grau muito fraco é característica de qual tipo climático?",
@@ -2357,35 +2358,35 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Muitos estudos de síntese e endereçamento de proteínas utilizam aminoácidos marcados radioativamente para acompanhar as proteínas, desde fases iniciais de sua produção até seu destino final. Esses ensaios foram muito empregados para estudo e caracterização de células secretoras.\nApós esses ensaios de radioatividade, qual gráfico representa a evolução temporal da produção de proteínas e sua localização em uma célula secretora? 100 90 %) 80 a d e ( 7 6 0 0 Retículo Endoplasmático vi d 50 Complexo Golgiense",
+      "statement": "Muitos estudos de síntese e endereçamento de proteínas utilizam aminoácidos marcados radioativamente para acompanhar as proteínas, desde fases iniciais de sua produção até seu destino final. Esses ensaios foram muito empregados para estudo e caracterização de células secretoras.\nApós esses ensaios de radioatividade, qual gráfico representa a evolução temporal da produção de proteínas e sua localização em uma célula secretora?",
       "options": [
         {
           "letter": "A",
-          "text": "ati 40 Vesículas de Secreção di o 30 a 20 R 10 0 5 min 10 min 15 min Tempo 100 90 %) 80 a d e ( 7 6 0 0 Retículo Endoplasmático vi d 50 Complexo Golgiense",
+          "text": "",
           "image_url": "assets/images/enem_2015_cd1_q48-optA.png",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "ati 40 Vesículas de Secreção di o 30 a 20 R 10 0 5 min 10 min 15 min Tempo 100 90 %) 80 a d e ( 7 6 0 0 Retículo Endoplasmático vi d 50 Complexo Golgiense",
+          "text": "",
           "image_url": "assets/images/enem_2015_cd1_q48-optB.png",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "ati 40 Vesículas de Secreção di o 30 a 20 R 10 0 5 min 10 min 15 min Tempo 100 90 %) 80 a d e ( 7 6 0 0 Retículo Endoplasmático vi d 50 Complexo Golgiense",
+          "text": "",
           "image_url": "assets/images/enem_2015_cd1_q48-optC.png",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "ati 40 Vesículas de Secreção di o 30 a 20 R 10 0 5 min 10 min 15 min Tempo 100 90 %) 80 a d e ( 7 6 0 0 Retículo Endoplasmático vi d 50 Complexo Golgiense",
+          "text": "",
           "image_url": "assets/images/enem_2015_cd1_q48-optD.png",
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "ati 40 Vesículas de Secreção di o 30 a 20 R 10 0 5 min 10 min 15 min Tempo",
+          "text": "",
           "image_url": "assets/images/enem_2015_cd1_q48-optE.png",
           "is_correct": false
         }
@@ -3168,7 +3169,7 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q65-fig1.png"
       ],
-      "statement": "Uma garrafa térmica tem como função evitar a troca de calor entre o líquido nela contido e o ambiente, mantendo a temperatura de seu conteúdo constante.\nUma forma de orientar os consumidores na compra de uma garrafa térmica seria criar um selo de qualidade, como se faz atualmente para informar o consumo de energia de eletrodomésticos. O selo identificaria cinco categorias e informaria a variação de temperatura do conteúdo da garrafa, depois de decorridas seis horas de seu fechamento, por meio de uma porcentagem do valor inicial da temperatura de equilíbrio do líquido na garrafa.\nO quadro apresenta as categorias e os intervalos de variação percentual da temperatura.\nTipo de selo Variação de temperatura A menor que 10% B entre 10% e 25% C entre 25% e 40% D entre 40% e 55% E maior que 55% Para atribuir uma categoria a um modelo de garrafa térmica, são preparadas e misturadas, em uma garrafa, duas amostras de água, uma a 10 °C e outra a 40 °C, na proporção de um terço de água fria para dois terços de água quente. A garrafa é fechada. Seis horas depois, abre-se a garrafa e mede-se a temperatura da água, obtendo-se 16 °C.\nQual selo deveria ser posto na garrafa térmica testada?",
+      "statement": "Uma garrafa térmica tem como função evitar a troca de calor entre o líquido nela contido e o ambiente, mantendo a temperatura de seu conteúdo constante.\nUma forma de orientar os consumidores na compra de uma garrafa térmica seria criar um selo de qualidade, como se faz atualmente para informar o consumo de energia de eletrodomésticos. O selo identificaria cinco categorias e informaria a variação de temperatura do conteúdo da garrafa, depois de decorridas seis horas de seu fechamento, por meio de uma porcentagem do valor inicial da temperatura de equilíbrio do líquido na garrafa.\nO quadro apresenta as categorias e os intervalos de variação percentual da temperatura.\nPara atribuir uma categoria a um modelo de garrafa térmica, são preparadas e misturadas, em uma garrafa, duas amostras de água, uma a 10 °C e outra a 40 °C, na proporção de um terço de água fria para dois terços de água quente. A garrafa é fechada. Seis horas depois, abre-se a garrafa e mede-se a temperatura da água, obtendo-se 16 °C.\nQual selo deveria ser posto na garrafa térmica testada?",
       "options": [
         {
           "letter": "A",
@@ -3358,7 +3359,7 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q69-fig1.png"
       ],
-      "statement": "Normalmente, as células do organismo humano realizam a respiração aeróbica, na qual o consumo de uma molécula de glicose gera 38 moléculas de ATP. Contudo, em condições anaeróbicas, o consumo de uma molécula de glicose pelas células é capaz de gerar apenas duas moléculas de ATP. 1 40 2 es ) 3 sa ori cá e gli r bit r 4 o d s a 20 me d ua sd o n ni Cu 5 ( 0 7 14 21 28 35 42 Concentração de oxigênio (unidades arbitrárias)\nQual curva representa o perfil de consumo de glicose, para manutenção da homeostase de uma célula que inicialmente está em uma condição anaeróbica e é submetida a um aumento gradual da concentração de oxigênio?",
+      "statement": "Normalmente, as células do organismo humano realizam a respiração aeróbica, na qual o consumo de uma molécula de glicose gera 38 moléculas de ATP. Contudo, em condições anaeróbicas, o consumo de uma molécula de glicose pelas células é capaz de gerar apenas duas moléculas de ATP.\nQual curva representa o perfil de consumo de glicose, para manutenção da homeostase de uma célula que inicialmente está em uma condição anaeróbica e é submetida a um aumento gradual da concentração de oxigênio?",
       "options": [
         {
           "letter": "A",
@@ -3911,8 +3912,8 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A calda bordalesa é uma alternativa empregada no combate a doenças que afetam folhas de plantas.\nSua produção consiste na mistura de uma solução aquosa de sulfato de cobre(II), CuSO₄, com óxido de cálcio, CaO, e sua aplicação só deve ser realizada se estiver levemente básica. A avaliação rudimentar da basicidade dessa solução é realizada pela adição de três gotas sobre uma faca de ferro limpa. Após três minutos, caso surja uma mancha avermelhada no local da aplicação, afirma-se que a calda bordalesa ainda não está com a basicidade necessária. O quadro apresenta os valores de potenciais padrão de redução (E°) para algumas semirreações de redução.\nSemirreação de redução E° (V)",
-          "source": "Ca²⁺ + 2 e⁻ → Ca -2,87 Fe³⁺ + 3 e⁻ → Fe -0,04 Cu²⁺ + 2 e⁻ → Cu +0,34 Cu⁺ + e⁻ → Cu +0,52 Fe³⁺ + e⁻ → Fe²⁺ +0,77 MOTTA, I. S. Calda bordalesa: utilidades e preparo. Dourados: Embrapa, 2008 (adaptado)."
+          "content": "A calda bordalesa é uma alternativa empregada no combate a doenças que afetam folhas de plantas.\nSua produção consiste na mistura de uma solução aquosa de sulfato de cobre(II), CuSO₄, com óxido de cálcio, CaO, e sua aplicação só deve ser realizada se estiver levemente básica. A avaliação rudimentar da basicidade dessa solução é realizada pela adição de três gotas sobre uma faca de ferro limpa. Após três minutos, caso surja uma mancha avermelhada no local da aplicação, afirma-se que a calda bordalesa ainda não está com a basicidade necessária. O quadro apresenta os valores de potenciais padrão de redução (E°) para algumas semirreações de redução.",
+          "source": "MOTTA, I. S. Calda bordalesa: utilidades e preparo. Dourados: Embrapa, 2008 (adaptado)."
         }
       ],
       "image_url": [
@@ -3963,7 +3964,7 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q82-fig1.png"
       ],
-      "statement": "Em um experimento, um professor levou para a sala de aula um saco de arroz, um pedaço de madeira triangular e uma barra de ferro cilíndrica e homogênea.\nEle propôs que fizessem a medição da massa da barra utilizando esses objetos. Para isso, os alunos fizeram marcações na barra, dividindo-a em oito partes iguais, e em seguida apoiaram-na sobre a base triangular, com o saco de arroz pendurado em uma de suas extremidades, até atingir a situação de equilíbrio.\nArroz 5,00 kg Nessa situação, qual foi a massa da barra obtida pelos alunos?",
+      "statement": "Em um experimento, um professor levou para a sala de aula um saco de arroz, um pedaço de madeira triangular e uma barra de ferro cilíndrica e homogênea.\nEle propôs que fizessem a medição da massa da barra utilizando esses objetos. Para isso, os alunos fizeram marcações na barra, dividindo-a em oito partes iguais, e em seguida apoiaram-na sobre a base triangular, com o saco de arroz pendurado em uma de suas extremidades, até atingir a situação de equilíbrio.\nNessa situação, qual foi a massa da barra obtida pelos alunos?",
       "options": [
         {
           "letter": "A",
@@ -4051,7 +4052,7 @@
       "image_url": [
         "assets/images/enem_2015_cd1_q84-fig1.png"
       ],
-      "statement": "O aproveitamento de resíduos florestais vem se tornando cada dia mais atrativo, pois eles são uma fonte renovável de energia. A figura representa a queima de um bio-óleo extraído do resíduo de madeira, sendo ∆H₁ a variação de entalpia devido à queima de 1 g desse bio-óleo, resultando em gás carbônico e água líquida, e ∆H₂ a variação de entalpia envolvida na conversão de 1 g de água no estado gasoso para o estado líquido.\nEnergia Bio-óleo + O (g) 2 H = 18,8 kJ/g 1 CO (g) H O (g) + 2 2 H = 2,4 kJ/g 2 CO (g) + H O (ℓ) 2 2 A variação de entalpia, em kJ, para a queima de 5 g desse bio-óleo resultando em CO₂ (gasoso) e H₂O (gasoso) é:",
+      "statement": "O aproveitamento de resíduos florestais vem se tornando cada dia mais atrativo, pois eles são uma fonte renovável de energia. A figura representa a queima de um bio-óleo extraído do resíduo de madeira, sendo ∆H₁ a variação de entalpia devido à queima de 1 g desse bio-óleo, resultando em gás carbônico e água líquida, e ∆H₂ a variação de entalpia envolvida na conversão de 1 g de água no estado gasoso para o estado líquido.\nA variação de entalpia, em kJ, para a queima de 5 g desse bio-óleo resultando em CO₂ (gasoso) e H₂O (gasoso) é:",
       "options": [
         {
           "letter": "A",

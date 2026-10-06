@@ -71,7 +71,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q92-fig1.png"
       ],
-      "statement": "O carro flex é uma realidade no Brasil. Estes veículos estão equipados com motor que tem a capacidade de funcionar com mais de um tipo de combustível. No entanto, as pessoas que têm esse tipo de veículo, na hora do abastecimento, têm sempre a dúvida: álcool ou gasolina? Para avaliar o consumo desses combustíveis, realizou-se um percurso com um veículo flex, consumindo 40 litros de gasolina e no percurso de volta utilizou-se etanol.\nFoi considerado o mesmo consumo de energia tanto no percurso de ida quanto no de volta.\nO quadro resume alguns dados aproximados sobre esses combustíveis.\nCombustível Densidade (g mL⁻¹) Calor de combustão (kcal g⁻¹)\nEtanol 0,8 −6 Gasolina 0,7 −10 O volume de etanol combustível, em litro, consumido no percurso de volta é mais próximo de",
+      "statement": "O carro flex é uma realidade no Brasil. Estes veículos estão equipados com motor que tem a capacidade de funcionar com mais de um tipo de combustível. No entanto, as pessoas que têm esse tipo de veículo, na hora do abastecimento, têm sempre a dúvida: álcool ou gasolina? Para avaliar o consumo desses combustíveis, realizou-se um percurso com um veículo flex, consumindo 40 litros de gasolina e no percurso de volta utilizou-se etanol.\nFoi considerado o mesmo consumo de energia tanto no percurso de ida quanto no de volta.\nO quadro resume alguns dados aproximados sobre esses combustíveis.\nO volume de etanol combustível, em litro, consumido no percurso de volta é mais próximo de",
       "options": [
         {
           "letter": "A",
@@ -405,12 +405,12 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A identificação de riscos de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinalização composta por um painel de segurança, de cor alaranjada, e um rótulo de risco. As informações inseridas no painel de segurança e no rótulo de risco, conforme determina a legislação, permitem que se identifique o produto transportado e os perigos a ele associados.\nA sinalização mostrada identifica uma substância que está sendo transportada em um caminhão. 268 GÁS 1005 TÓXICO 2 Os três algarismos da parte superior do painel indicam o “Número de risco”. O número 268 indica tratar-se de um gás (2), tóxico (6) e corrosivo (8). Os quatro dígitos da parte inferior correspondem ao “Número ONU”, que identifica o produto transportado.",
+          "content": "A identificação de riscos de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinalização composta por um painel de segurança, de cor alaranjada, e um rótulo de risco. As informações inseridas no painel de segurança e no rótulo de risco, conforme determina a legislação, permitem que se identifique o produto transportado e os perigos a ele associados.\nA sinalização mostrada identifica uma substância que está sendo transportada em um caminhão.\nOs três algarismos da parte superior do painel indicam o “Número de risco”. O número 268 indica tratar-se de um gás (2), tóxico (6) e corrosivo (8). Os quatro dígitos da parte inferior correspondem ao “Número ONU”, que identifica o produto transportado.",
           "source": "BRASIL. Resolução n. 420, de 12/02/2004, da Agência Nacional de Transportes Terrestres (ANTT)/Ministério dos Transportes (adaptado). ABNT. NBR 7500: identificação para o transporte terrestre, manuseio, movimentação e armazenamento de produtos. Rio de Janeiro, 2004 (adaptado)."
         }
       ],
       "image_url": [
-        "assets/images/enem_2018_cd7_q99.png"
+        "assets/images/enem_2018_cd7_q99-fig1.png"
       ],
       "statement": "Considerando a identificação apresentada no caminhão, o código 1005 corresponde à substância",
       "options": [
@@ -600,7 +600,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres.\nAo passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passe com km velocidade constante igual a 108 sobre um sonorizador h cujas faixas são separadas por uma distância de 8 cm.",
+          "content": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres.\nAo passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passe com velocidade constante igual a 108 km/h sobre um sonorizador cujas faixas são separadas por uma distância de 8 cm.",
           "source": "Disponível em: www.denatran.gov.br. Acesso em: 2 set. 2015 (adaptado)."
         }
       ],
@@ -903,9 +903,10 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": [
-        "assets/images/enem_2018_cd7_q109-fig1.png"
+        "assets/images/enem_2018_cd7_q109-fig1.png",
+        "assets/images/enem_2018_cd7_q109-fig2.png"
       ],
-      "statement": "A hidroxilamina (NH₂OH) é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada.\nO O NH + 2 O O OH O Produto A + NHOH O 2 O O Anidrido acético + OH OH N H Produto B O produto A é favorecido em relação ao B, por um fator de 10⁵. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as móleculas numeradas de 1 a 5.\nHO HO N O N O N HO N NH H 2 H 1 2 3 4 5 Dentre as moléculas testadas, qual delas apresentou menor reatividade?",
+      "statement": "A hidroxilamina (NH₂OH) é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada.\nO produto A é favorecido em relação ao B, por um fator de 10⁵. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as móleculas numeradas de 1 a 5.\nDentre as moléculas testadas, qual delas apresentou menor reatividade?",
       "options": [
         {
           "letter": "A",
@@ -1036,7 +1037,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q112-fig1.png"
       ],
-      "statement": "Muitos smartphones e tablets não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque.\nA imagem é uma simplificação do circuito formado pelas placas, em que A e B representam pontos onde o circuito pode ser fechado por meio do toque. Ωk 4 A Ωk 4 Ωk 4 Ωk 4 ε⁺ -B Qual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto A?",
+      "statement": "Muitos smartphones e tablets não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque.\nA imagem é uma simplificação do circuito formado pelas placas, em que A e B representam pontos onde o circuito pode ser fechado por meio do toque.\nQual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto A?",
       "options": [
         {
           "letter": "A",
@@ -1131,7 +1132,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.\nCH O (s) + 6 O (g) → 6 CO (g) + 6 HO (l) ∆H = −2 800 kJ 6 12 6 2 2 2 c Considere as massas molares (em g mol⁻¹): H = 1;\nC = 12; O = 16.",
+          "content": "Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.\nC₆H₁₂O₆ (s) + 6 O₂ (g) → 6 CO₂ (g) + 6 H₂O (l)   ∆_cH = −2 800 kJ\nConsidere as massas molares (em g mol⁻¹): H = 1; C = 12; O = 16.",
           "source": "LIMA, L. M.; FRAGA, C. A. M.; BARREIRO, E. J. Química na saúde. São Paulo: Sociedade Brasileira de Química, 2010 (adaptado)."
         }
       ],
@@ -1226,7 +1227,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Células solares à base de TiO₂ sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO₂ é responsável por absorver a energia luminosa (hν), e o corante excitado (S*) é capaz de transferir elétrons para o TiO₂. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.\nEletrodo de TiO₂ com corante Corante Eletrodo de Pt e− S* TiO₂ |S + hν → TiO₂ |S* (1) hv Mediador de carga I− TiO₂ |S* → TiO₂ |S⁺ + e⁻ (2) 3 TiO |S+ + 3 I− → TiO |S + 1 I − (3)",
+          "content": "Células solares à base de TiO₂ sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO₂ é responsável por absorver a energia luminosa (hν), e o corante excitado (S*) é capaz de transferir elétrons para o TiO₂. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.\nTiO₂|S + hν → TiO₂|S*   (1)\nTiO₂|S* → TiO₂|S⁺ + e⁻   (2)\nTiO₂|S⁺ + (3/2) I⁻ → TiO₂|S + (1/2) I₃⁻   (3)\n(1/2) I₃⁻ + e⁻ → (3/2) I⁻   (4)",
           "source": "I− 2 2 2 2 3 e− S/S⁺ e− 1 I − + e− → 3 I− (4) 2 3 2 e⁻ e⁻ LONGO, C.; DE PAOLI, M.-A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado)."
         }
       ],
@@ -1757,7 +1758,7 @@
           "type": "text_block",
           "title": null,
           "content": "Considere, em um fragmento ambiental, uma árvore matriz com frutos (M) e outras cinco que produziram flores e são apenas doadoras de pólen (DP1, DP2, DP3, DP4 e DP5). Foi excluída a capacidade de autopolinização das árvores. Os genótipos da matriz, da semente (S1) e das prováveis fontes de pólen foram obtidos pela análise de dois locos (loco A e loco B) de marcadores de DNA, conforme a figura.",
-          "source": "Esquema M S1 DP1 DP2 DP3 DP4 DP5 do Gel 1 alelo 1 loco A alelo 2 alelo 3 alelo 4 Esquema M S1 DP1 DP2 DP3 DP4 DP5 do Gel 2 alelo 1 loco B alelo 2 alelo 3 alelo 4 alelo 5 COLLEVATTI, R. G.; TELLES, M. P.; SOARES, T. N. Dispersão do pólen entre pequizeiros: uma atividade para a genética do ensino superior. Genética na Escola, n. 1, 2013 (adaptado)."
+          "source": "COLLEVATTI, R. G.; TELLES, M. P.; SOARES, T. N. Dispersão do pólen entre pequizeiros: uma atividade para a genética do ensino superior. Genética na Escola, n. 1, 2013 (adaptado)."
         }
       ],
       "image_url": [
@@ -1862,7 +1863,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Muitos primatas, incluindo nós humanos, possuem visão tricromática: têm três pigmentos visuais na retina sensíveis à luz de uma determinada faixa de comprimentos de onda. Informalmente, embora os pigmentos em si não possuam cor, estes são conhecidos como pigmentos “azul”, “verde” e “vermelho” e estão associados à cor que causa grande excitação (ativação). A sensação que temos ao observar um objeto colorido decorre da ativação relativa dos três pigmentos. Ou seja, se estimulássemos a retina com uma luz na faixa de 530 nm (retângulo I no gráfico), não excitaríamos o pigmento “azul”, o pigmento “verde” seria ativado ao máximo e o “vermelho” seria ativado em aproximadamente 75%, e isso nos daria a sensação de ver uma cor amarelada. Já uma luz na faixa de comprimento de onda de 600 nm (retângulo II) estimularia o pigmento “verde” um pouco e o “vermelho” em cerca de 75%, e isso nos daria a sensação de ver laranja-avermelhado. No entanto, há características genéticas presentes em alguns indivíduos, conhecidas coletivamente como Daltonismo, em que um ou mais pigmentos não funcionam perfeitamente. )%( oãçavitA I II “azul” 100 “verde”\n“vermelho” 50 400 450 500 550 600 650 roxo azul verde amarelo laranjavermelho Comprimento de onda (nm)",
+          "content": "Muitos primatas, incluindo nós humanos, possuem visão tricromática: têm três pigmentos visuais na retina sensíveis à luz de uma determinada faixa de comprimentos de onda. Informalmente, embora os pigmentos em si não possuam cor, estes são conhecidos como pigmentos “azul”, “verde” e “vermelho” e estão associados à cor que causa grande excitação (ativação). A sensação que temos ao observar um objeto colorido decorre da ativação relativa dos três pigmentos. Ou seja, se estimulássemos a retina com uma luz na faixa de 530 nm (retângulo I no gráfico), não excitaríamos o pigmento “azul”, o pigmento “verde” seria ativado ao máximo e o “vermelho” seria ativado em aproximadamente 75%, e isso nos daria a sensação de ver uma cor amarelada. Já uma luz na faixa de comprimento de onda de 600 nm (retângulo II) estimularia o pigmento “verde” um pouco e o “vermelho” em cerca de 75%, e isso nos daria a sensação de ver laranja-avermelhado. No entanto, há características genéticas presentes em alguns indivíduos, conhecidas coletivamente como Daltonismo, em que um ou mais pigmentos não funcionam perfeitamente.",
           "source": "Disponível em: www.comprehensivephysiology.com. Acesso em: 3 ago. 2012 (adaptado)."
         }
       ],
@@ -2188,7 +2189,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos.\nUm economista decide analisar os valores enviados por meio de TEDs entre cinco bancos (1, 2, 3, 4 e 5) durante um mês. Para isso, ele dispõe esses valores em uma matriz A = [a ], em que 1 ≤ i ≤ 5 e 1 ≤ j ≤ 5, e o elemento ij a corresponde ao total proveniente das operações feitas ij via TED, em milhão de real, transferidos do banco i para o banco j durante o mês. Observe que os elementos a = 0, uma vez que TED é uma transferência entre bancos ii distintos. Esta é a matriz obtida para essa análise:  0 2 2   0 0 2 1 0   A= 1 2 0 1 1   0 2 2 0 0   3 0 1 1 0 Com base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
+      "statement": "A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos.\nUm economista decide analisar os valores enviados por meio de TEDs entre cinco bancos (1, 2, 3, 4 e 5) durante um mês. Para isso, ele dispõe esses valores em uma matriz A = [a_ij], em que 1 ≤ i ≤ 5 e 1 ≤ j ≤ 5, e o elemento a_ij corresponde ao total proveniente das operações feitas via TED, em milhão de real, transferidos do banco i para o banco j durante o mês. Observe que os elementos a_ii = 0, uma vez que TED é uma transferência entre bancos distintos. Esta é a matriz obtida para essa análise:\nA =\n[0 2 0 2 2]\n[0 0 2 1 0]\n[1 2 0 1 1]\n[0 2 2 0 0]\n[3 0 1 1 0]\nCom base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
       "options": [
         {
           "letter": "A",
@@ -2276,7 +2277,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q138-fig1.png"
       ],
-      "statement": "Um jogo pedagógico utiliza-se de uma interface algébrico-geométrica do seguinte modo: os alunos devem eliminar os pontos do plano cartesiano dando “tiros”, seguindo trajetórias que devem passar pelos pontos escolhidos. Para dar os tiros, o aluno deve escrever em uma janela do programa a equação cartesiana de uma reta ou de uma circunferência que passa pelos pontos e pela origem do sistema de coordenadas. Se o tiro for dado por meio da equação da circunferência, cada ponto diferente da origem que for atingido vale 2 pontos. Se o tiro for dado por meio da equação de uma reta, cada ponto diferente da origem que for atingido vale 1 ponto.\nEm uma situação de jogo, ainda restam os seguintes pontos para serem eliminados: A(0 ; 4), B(4 ; 4), C(4 ; 0), D(2 ; 2) e E(0 ; 2). y 5 A B 4 3 E D 2 1 C x 0 1 2 3 4 5 6 Passando pelo ponto A, qual equação forneceria a maior pontuação?",
+      "statement": "Um jogo pedagógico utiliza-se de uma interface algébrico-geométrica do seguinte modo: os alunos devem eliminar os pontos do plano cartesiano dando “tiros”, seguindo trajetórias que devem passar pelos pontos escolhidos. Para dar os tiros, o aluno deve escrever em uma janela do programa a equação cartesiana de uma reta ou de uma circunferência que passa pelos pontos e pela origem do sistema de coordenadas. Se o tiro for dado por meio da equação da circunferência, cada ponto diferente da origem que for atingido vale 2 pontos. Se o tiro for dado por meio da equação de uma reta, cada ponto diferente da origem que for atingido vale 1 ponto.\nEm uma situação de jogo, ainda restam os seguintes pontos para serem eliminados: A(0 ; 4), B(4 ; 4), C(4 ; 0), D(2 ; 2) e E(0 ; 2).\nPassando pelo ponto A, qual equação forneceria a maior pontuação?",
       "options": [
         {
           "letter": "A",
@@ -2561,7 +2562,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q144-fig1.png"
       ],
-      "statement": "Em um aeroporto, os passageiros devem submeter suas bagagens a uma das cinco máquinas de raio-X disponíveis ao adentrarem a sala de embarque. Num dado instante, o tempo gasto por essas máquinas para escanear a bagagem de cada passageiro e o número de pessoas presentes em cada fila estão apresentados em um painel, como mostrado na figura.\nMáquina 1 Máquina 2 Máquina 3 Máquina 4 Máquina 5 35 segundos 25 segundos 22 segundos 40 segundos 20 segundos 5 pessoas 6 pessoas 7 pessoas 4 pessoas 8 pessoas Um passageiro, ao chegar à sala de embarque desse aeroporto no instante indicado, visando esperar o menor tempo possível, deverá se dirigir à máquina",
+      "statement": "Em um aeroporto, os passageiros devem submeter suas bagagens a uma das cinco máquinas de raio-X disponíveis ao adentrarem a sala de embarque. Num dado instante, o tempo gasto por essas máquinas para escanear a bagagem de cada passageiro e o número de pessoas presentes em cada fila estão apresentados em um painel, como mostrado na figura.\nUm passageiro, ao chegar à sala de embarque desse aeroporto no instante indicado, visando esperar o menor tempo possível, deverá se dirigir à máquina",
       "options": [
         {
           "letter": "A",
@@ -2606,7 +2607,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q145-fig1.png"
       ],
-      "statement": "A Comissão Interna de Prevenção de Acidentes (CIPA) de uma empresa, observando os altos custos com os frequentes acidentes de trabalho ocorridos, fez, a pedido da diretoria, uma pesquisa do número de acidentes sofridos por funcionários. Essa pesquisa, realizada com uma amostra de 100 funcionários, norteará as ações da empresa na política de segurança no trabalho.\nOs resultados obtidos estão no quadro.\nNúmero de Número de acidentes sofridos trabalhadores 0 50 1 17 2 15 3 10 4 6 5 2 A média do número de acidentes por funcionário na amostra que a CIPA apresentará à diretoria da empresa é",
+      "statement": "A Comissão Interna de Prevenção de Acidentes (CIPA) de uma empresa, observando os altos custos com os frequentes acidentes de trabalho ocorridos, fez, a pedido da diretoria, uma pesquisa do número de acidentes sofridos por funcionários. Essa pesquisa, realizada com uma amostra de 100 funcionários, norteará as ações da empresa na política de segurança no trabalho.\nOs resultados obtidos estão no quadro.\nA média do número de acidentes por funcionário na amostra que a CIPA apresentará à diretoria da empresa é",
       "options": [
         {
           "letter": "A",
@@ -2695,7 +2696,7 @@
           "type": "text_block",
           "title": null,
           "content": "O colesterol total de uma pessoa é obtido pela soma da taxa do seu “colesterol bom” com a taxa do seu “colesterol ruim”. Os exames periódicos, realizados em um paciente adulto, apresentaram taxa normal de “colesterol bom”, porém, taxa do “colesterol ruim” (também chamado LDL) de 280 mg/dL.\nO quadro apresenta uma classificação de acordo com as taxas de LDL em adultos.\nTaxa de LDL (mg/dL)",
-          "source": "Ótima Menor do que 100 Próxima de ótima De 100 a 129 Limite De 130 a 159 Alta De 160 a 189 Muito alta 190 ou mais Disponível em: www.minhavida.com.br. Acesso em: 15 out. 2015 (adaptado)."
+          "source": "Disponível em: www.minhavida.com.br. Acesso em: 15 out. 2015 (adaptado)."
         }
       ],
       "image_url": [
@@ -2789,7 +2790,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q149-fig1.png"
       ],
-      "statement": "A inclinação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se x centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de x%, como no exemplo da figura: 20 cm Inclinação = 20% 1 m A figura apresenta um projeto de uma rampa de acesso a uma garagem residencial cuja base, situada 2 metros abaixo do nível da rua, tem 8 metros de comprimento.\nPortão Nível da rua Garagem 2 m Rampa Nível da base 8 m da garagem Depois de projetada a rampa, o responsável pela obra foi informado de que as normas técnicas do município onde ela está localizada exigem que a inclinação máxima de uma rampa de acesso a uma garagem residencial seja de 20%.\nSe a rampa projetada tiver inclinação superior a 20%, o nível da garagem deverá ser alterado para diminuir o percentual de inclinação, mantendo o comprimento da base da rampa.\nPara atender às normas técnicas do município, o nível da garagem deverá ser",
+      "statement": "A inclinação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se x centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de x%, como no exemplo da figura: 20 cm Inclinação = 20% 1 m A figura apresenta um projeto de uma rampa de acesso a uma garagem residencial cuja base, situada 2 metros abaixo do nível da rua, tem 8 metros de comprimento.\nDepois de projetada a rampa, o responsável pela obra foi informado de que as normas técnicas do município onde ela está localizada exigem que a inclinação máxima de uma rampa de acesso a uma garagem residencial seja de 20%.\nSe a rampa projetada tiver inclinação superior a 20%, o nível da garagem deverá ser alterado para diminuir o percentual de inclinação, mantendo o comprimento da base da rampa.\nPara atender às normas técnicas do município, o nível da garagem deverá ser",
       "options": [
         {
           "letter": "A",
@@ -2929,7 +2930,7 @@
       "image_url": [
         "assets/images/enem_2018_cd7_q152-fig1.png"
       ],
-      "statement": "Para criar um logotipo, um profissional da área de design gráfico deseja construí-lo utilizando o conjunto de pontos do plano na forma de um triângulo, exatamente como mostra a imagem. y 15 10 5 x −15 −10 −5 0 5 10 15 −5 −10 −15 Para construir tal imagem utilizando uma ferramenta gráfica, será necessário escrever algebricamente o conjunto que representa os pontos desse gráfico.\nEsse conjunto é dado pelos pares ordenados (x ; y) ∈  × , tais que",
+      "statement": "Para criar um logotipo, um profissional da área de design gráfico deseja construí-lo utilizando o conjunto de pontos do plano na forma de um triângulo, exatamente como mostra a imagem.\nPara construir tal imagem utilizando uma ferramenta gráfica, será necessário escrever algebricamente o conjunto que representa os pontos desse gráfico.\nEsse conjunto é dado pelos pares ordenados (x ; y) ∈ ℕ × ℕ, tais que",
       "options": [
         {
           "letter": "A",
@@ -3673,8 +3674,10 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": "A raiva é uma doença viral e infecciosa, transmitida por mamíferos. A campanha nacional de vacinação antirrábica tem o objetivo de controlar a circulação do vírus da raiva canina e felina, prevenindo a raiva humana. O gráfico mostra a cobertura (porcentagem de vacinados) da campanha, em cães, nos anos de 2013, 2015 e 2017, no município de Belo Horizonte, em Minas Gerais. Os valores das coberturas dos anos de 2014 e 2016 não estão informados no gráfico e deseja-se estimá-los. Para tal, levou-se em consideração que a variação na cobertura de vacinação da campanha antirrábica, nos períodos de 2013 a 2015 e de 2015 a 2017, deu-se de forma linear. 67% 61% 59% 2013 2014 2015 2016 2017 Disponível em: http://pni.datasus.gov.br. Acesso em: 5 nov. 2017. Qual teria sido a cobertura dessa campanha no ano de 2014?",
+      "image_url": [
+        "assets/images/enem_2018_cd7_q168-fig1.png"
+      ],
+      "statement": "A raiva é uma doença viral e infecciosa, transmitida por mamíferos. A campanha nacional de vacinação antirrábica tem o objetivo de controlar a circulação do vírus da raiva canina e felina, prevenindo a raiva humana. O gráfico mostra a cobertura (porcentagem de vacinados) da campanha, em cães, nos anos de 2013, 2015 e 2017, no município de Belo Horizonte, em Minas Gerais. Os valores das coberturas dos anos de 2014 e 2016 não estão informados no gráfico e deseja-se estimá-los. Para tal, levou-se em consideração que a variação na cobertura de vacinação da campanha antirrábica, nos períodos de 2013 a 2015 e de 2015 a 2017, deu-se de forma linear.\nDisponível em: http://pni.datasus.gov.br. Acesso em: 5 nov. 2017.\nQual teria sido a cobertura dessa campanha no ano de 2014?",
       "options": [
         {
           "letter": "A",
@@ -3763,14 +3766,14 @@
           "type": "text_block",
           "title": null,
           "content": "Em 2014 foi inaugurada a maior roda-gigante do mundo, a High Roller, situada em Las Vegas. A figura representa um esboço dessa roda-gigante, no qual o ponto A representa uma de suas cadeiras:",
-          "source": "O A Solo Solo Disponível em: http://en.wikipedia.org. Acesso em: 22 abr. 2014 (adaptado)."
+          "source": "Disponível em: http://en.wikipedia.org. Acesso em: 22 abr. 2014 (adaptado)."
         }
       ],
       "image_url": [
         "assets/images/enem_2018_cd7_q170-fig1.png",
         "assets/images/enem_2018_cd7_q170-fig2.png"
       ],
-      "statement": "A partir da posição indicada, em que o segmento OA se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto O.\nSejam t o ângulo determinado pelo segmento OA em relação à sua posição inicial, e f a função que descreve a altura do ponto A, em relação ao solo, em função de t.\nApós duas voltas completas, f tem o seguinte gráfico: f(metro) 168 88 0 π/2 2π 4π t (radiano)\nA expressão da função altura é dada por",
+      "statement": "A partir da posição indicada, em que o segmento OA se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto O.\nSejam t o ângulo determinado pelo segmento OA em relação à sua posição inicial, e f a função que descreve a altura do ponto A, em relação ao solo, em função de t.\nApós duas voltas completas, f tem o seguinte gráfico:\nA expressão da função altura é dada por",
       "options": [
         {
           "letter": "A",
@@ -3861,7 +3864,7 @@
         "assets/images/enem_2018_cd7_q172-fig1.png",
         "assets/images/enem_2018_cd7_q172-fig2.png"
       ],
-      "statement": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes.\nEm uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking.\nRanking Colocação I II III IV 1º Ana Dani Bia Edu 2º Bia Caio Ana Ana 3º Caio Edu Caio Dani 4º Dani Ana Edu Bia 5º Edu Bia Dani Caio Ranking Frequência I 4 II 9 III 7 IV 5 A poesia vencedora foi a de",
+      "statement": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes.\nEm uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking.\nA poesia vencedora foi a de",
       "options": [
         {
           "letter": "A",
@@ -4058,7 +4061,7 @@
         "assets/images/enem_2018_cd7_q176-fig1.png",
         "assets/images/enem_2018_cd7_q176-fig2.png"
       ],
-      "statement": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (o grau de dificuldade de cada salto).\nFica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas.\nO atleta 10 irá realizar o último salto da final.\nEle observa no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento.\nQuadro 1 Classificação Atleta 6º Salto Total 1º 3 135,0 829,0 2º 4 140,0 825,2 3º 8 140,4 824,2 6º 10 687,5 Ele precisa decidir com seu treinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2.\nQuadro 2 Tipo Nota Estimativa da Probabilidade de de soma das notas de obter a salto partida dos juízes nota T1 2,2 57 89,76% T2 2,4 58 93,74% T3 2,6 55 91,88% T4 2,8 50 95,38% T5 3,0 53 87,34% O atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar.\nConsiderando essas condições, o salto que o atleta deverá escolher é o de tipo",
+      "statement": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (o grau de dificuldade de cada salto).\nFica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas.\nO atleta 10 irá realizar o último salto da final.\nEle observa no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento.\nEle precisa decidir com seu treinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2.\nO atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar.\nConsiderando essas condições, o salto que o atleta deverá escolher é o de tipo",
       "options": [
         {
           "letter": "A",
@@ -4104,7 +4107,7 @@
           "type": "text_block",
           "title": null,
           "content": "Devido ao não cumprimento das metas definidas para a campanha de vacinação contra a gripe comum e o vírus H1N1 em um ano, o Ministério da Saúde anunciou a prorrogação da campanha por mais uma semana. A tabela apresenta as quantidades de pessoas vacinadas dentre os cinco grupos de risco até a data de início da prorrogação da campanha.\nBalanço parcial nacional da vacinação contra a gripe População já População vacinada Grupo de risco (milhão) (milhão) (%)",
-          "source": "Crianças 4,5 0,9 20 Profissionais de saúde 2,0 1,0 50 Gestantes 2,5 1,5 60 Indígenas 0,5 0,4 80 Idosos 20,5 8,2 40 Disponível em: http://portalsaude.saude.gov.br. Acesso em: 16 ago. 2012."
+          "source": "Disponível em: http://portalsaude.saude.gov.br. Acesso em: 16 ago. 2012."
         }
       ],
       "image_url": [
@@ -4195,7 +4198,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2018_cd7_q179-fig1.png"
+      ],
       "statement": "Um quebra-cabeça consiste em recobrir um quadrado com triângulos retângulos isósceles, como ilustra a figura.\nUma artesã confecciona um quebra-cabeça como o descrito, de tal modo que a menor das peças é um triângulo retângulo isósceles cujos catetos medem 2 cm.\nO quebra-cabeça, quando montado, resultará em um quadrado cuja medida do lado, em centímetro, é",
       "options": [
         {

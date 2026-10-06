@@ -1174,7 +1174,7 @@
         "assets/images/enem_2012_cd1_q24-fig1.png",
         "assets/images/enem_2012_cd1_q24-fig2.png"
       ],
-      "statement": "Composição da população residente urbana por sexo, segundo os grupos de idade - Brasil - 1991/2010 100 95 Homens Mulheres 90 85 80 75 70 65 60 55 50 45 40 45 30 25 20 15 10 5 0 % 8,0 6,0 4,0 2,0 0,0 2,0 4,0 6,0 8,0 1991 2010 Fonte: IBGE, Censo Demográfico 1991/2010 Composição da população residente rural por sexo, segundo os grupos de idade - Brasil - 1991/2010 100 Homens Mulheres 95 90 85 80 75 70 65 60 55 50 45 40 45 30 25 20 15 10 5 0 % 8,0 6,0 4,0 2,0 0,0 2,0 4,0 6,0 8,0 1991 2010 Fonte: IBGE, Censo Demográfico 1991/2010 BRASIL. IBGE. Censo demográfico 1991-2010. Rio de Janeiro, 2011.\nA interpretação e a correlação das figuras sobre a dinâmica demográfica brasileira demonstram um(a)",
+      "statement": "Figura 1: Composição da população residente urbana por sexo, segundo os grupos de idade - Brasil - 1991/2010.\nFigura 2: Composição da população residente rural por sexo, segundo os grupos de idade - Brasil - 1991/2010.\nFonte: IBGE, Censo Demográfico 1991/2010.\nBRASIL. IBGE. Censo demográfico 1991-2010. Rio de Janeiro, 2011.\nA interpretação e a correlação das figuras sobre a dinâmica demográfica brasileira demonstram um(a)",
       "options": [
         {
           "letter": "A",
@@ -2591,7 +2591,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O rótulo de um desodorante aerossol informa ao consumidor que o produto possui em sua composição os gases isobutano, butano e propano, dentre outras substâncias. Além dessa informação, o rótulo traz, ainda, a inscrição “Não contém CFC”. As reações a seguir, que ocorrem na estratosfera, justificam a não utilização de CFC (clorofluorcarbono ou Freon) nesse desodorante:\nI) CF₂Cℓ₂ UV CF 2 Cℓ • + Cℓ • II) Cℓ • + O 3 O 2 + CℓO • A preocupação com as possíveis ameaças à camada de ozônio (O₃) baseia-se na sua principal função: proteger a matéria viva na Terra dos efeitos prejudiciais dos raios solares ultravioleta. A absorção da radiação ultravioleta pelo ozônio estratosférico é intensa o suficiente para eliminar boa parte da fração de ultravioleta que é prejudicial à vida.\nA finalidade da utilização dos gases isobutano, butano e propano neste aerossol é",
+      "statement": "O rótulo de um desodorante aerossol informa ao consumidor que o produto possui em sua composição os gases isobutano, butano e propano, dentre outras substâncias. Além dessa informação, o rótulo traz, ainda, a inscrição “Não contém CFC”. As reações a seguir, que ocorrem na estratosfera, justificam a não utilização de CFC (clorofluorcarbono ou Freon) nesse desodorante:\nI) CF₂Cℓ₂ →(UV) CF₂Cℓ• + Cℓ•\nII) Cℓ• + O₃ → O₂ + CℓO•\nA preocupação com as possíveis ameaças à camada de ozônio (O₃) baseia-se na sua principal função: proteger a matéria viva na Terra dos efeitos prejudiciais dos raios solares ultravioleta. A absorção da radiação ultravioleta pelo ozônio estratosférico é intensa o suficiente para eliminar boa parte da fração de ultravioleta que é prejudicial à vida.\nA finalidade da utilização dos gases isobutano, butano e propano neste aerossol é",
       "options": [
         {
           "letter": "A",
@@ -2941,7 +2941,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "statement interleaved with the neighbouring column (full-width text cut at the midline); the five option graphs are missing (options are only axis labels)"
+        ]
+      }
     },
     {
       "id": "enem_2012_d1_azul_q61",
@@ -3340,7 +3346,7 @@
       "image_url": [
         "assets/images/enem_2012_cd1_q69-fig1.png"
       ],
-      "statement": "Uma dona de casa acidentalmente deixou cair na geladeira a água proveniente do degelo de um peixe, o que deixou um cheiro forte e desagradável dentro do eletrodoméstico. Sabe-se que o odor característico de peixe se deve às aminas e que esses compostos se comportam como bases.\nNa tabela são listadas as concentrações hidrogeniônicas de alguns materiais encontrados na cozinha, que a dona de casa pensa em utilizar na limpeza da geladeira.\nMaterial Concentração de H₃O⁺ (mol/L) Suco de limão 10⁻² Leite 10⁻⁶ Vinagre 10⁻³ Álcool 10⁻⁸ Sabão 10⁻¹² Carbonato de sódio/ 10–12 barrilha Dentre os materiais listados, quais são apropriados para amenizar esse odor?",
+      "statement": "Uma dona de casa acidentalmente deixou cair na geladeira a água proveniente do degelo de um peixe, o que deixou um cheiro forte e desagradável dentro do eletrodoméstico. Sabe-se que o odor característico de peixe se deve às aminas e que esses compostos se comportam como bases.\nNa tabela são listadas as concentrações hidrogeniônicas de alguns materiais encontrados na cozinha, que a dona de casa pensa em utilizar na limpeza da geladeira.\nDentre os materiais listados, quais são apropriados para amenizar esse odor?",
       "options": [
         {
           "letter": "A",
@@ -3561,7 +3567,7 @@
           "type": "text_block",
           "title": null,
           "content": "A característica que permite identificar um planeta no céu é o seu movimento relativo às estrelas fixas.",
-          "source": "Se observarmos a posição de um planeta por vários dias, verificaremos que sua posição em relação às estrelas fixas se modifica regularmente. A figura destaca o movimento de Marte observado em intervalos de 10 dias, registrado da Terra. 155º 150º 145º 140º 135º 130º +20 MARTE +10 Projecto Física. Lisboa: Fundação Calouste Gulbenkian, 1980 (adaptado)."
+          "source": "Se observarmos a posição de um planeta por vários dias, verificaremos que sua posição em relação às estrelas fixas se modifica regularmente. A figura destaca o movimento de Marte observado em intervalos de 10 dias, registrado da Terra.\nProjecto Física. Lisboa: Fundação Calouste Gulbenkian, 1980 (adaptado)."
         }
       ],
       "image_url": [
@@ -3880,7 +3886,7 @@
         },
         {
           "letter": "E",
-          "text": "fenilcetonúria. mo apresenta grande dependência de sua solubilidade. das na dieta diária, enquanto vitaminas lipossolúveis são ças causadas pela sua carência. A seguir são apresentadas organismo.\nIII V ecessita de maior suplementação diária é DAVIS, J. Garfield está de dieta. Porto Alegre: L&PM, 2006. é um fator de risco que pode desencadear doenças como",
+          "text": "fenilcetonúria.",
           "image_url": null,
           "is_correct": false
         }
@@ -3941,7 +3947,7 @@
           "type": "text_block",
           "title": null,
           "content": "O boato de que os lacres das latas de alumínio teriam um alto valor comercial levou muitas pessoas a juntarem esse material na expectativa de ganhar dinheiro com sua venda. As empresas fabricantes de alumínio esclarecem que isso não passa de uma “lenda urbana”, pois ao retirar o anel da lata, dificulta-se a reciclagem do alumínio. Como a liga do qual é feito o anel contém alto teor de magnésio, se ele não estiver junto com a lata, fica mais fácil ocorrer a oxidação do alumínio no forno. A tabela apresenta as semirreações e os valores de potencial padrão de redução de alguns metais:\nPotencial Padrão de Semirreação Redução (V)",
-          "source": "Li⁺ + e⁻ → Li –3,05 K⁺ + e⁻ → K –2,93 Mg²⁺ + 2 e⁻ → Mg –2,36 Al³⁺ + 3 e⁻ → Al –1,66 Zn²⁺ + 2 e⁻ → Zn –0,76 Cu²⁺ + 2 e⁻ → Cu +0,34 Disponível em: www.sucatas.com. Acesso em: 28 fev. 2012 (adaptado)."
+          "source": "Disponível em: www.sucatas.com. Acesso em: 28 fev. 2012 (adaptado)."
         }
       ],
       "image_url": [

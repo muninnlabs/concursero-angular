@@ -19,7 +19,7 @@
           "type": "text_block",
           "title": null,
           "content": "No cultivo por hidroponia, são utilizadas soluções nutritivas contendo macronutrientes e micronutrientes essenciais. Além dos nutrientes, o pH é um parâmetro de extrema importância, uma vez que ele afeta a preparação da solução nutritiva e a absorção dos nutrientes pelas plantas. Para o cultivo de alface, valores de pH entre 5,5 e 6,5 são ideais para o seu desenvolvimento. As correções de pH são feitas pela adição de compostos ácidos ou básicos, mas não devem introduzir elementos nocivos às plantas. Na tabela, são apresentados alguns dados da composição da solução nutritiva de referência para esse cultivo. Também é apresentada a composição de uma solução preparada por um produtor de cultivo hidropônico.\nConcentração, mmol/L Composição Solução nutritiva Espécies químicas de referência preparada (5,5 < pH < 6,5) (pH = 4,3)",
-          "source": "N (NH₄⁺) 1,0 0,8 P (H₂PO₄⁻) 1,0 1,0 Macronutrientes K⁺ 6,0 3,5 Ca²⁺ 4,0 3,0 SO₄²⁻ 2,0 1,0 Fe²⁺ 90 × 10⁻³ 70 × 10⁻³ Micronutrientes Cl⁻ - 4,5 × 10⁻³ LENZI, E.; FAVERO, L. O. B.; LUCHESE, E. B. Introdução à química da água: ciência, vida e sobrevivência. Rio de Janeiro: LTC, 2012 (adaptado)."
+          "source": "LENZI, E.; FAVERO, L. O. B.; LUCHESE, E. B. Introdução à química da água: ciência, vida e sobrevivência. Rio de Janeiro: LTC, 2012 (adaptado)."
         }
       ],
       "image_url": [
@@ -791,7 +791,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q107-fig1.png"
       ],
-      "statement": "Analisando a ficha técnica de um automóvel popular, verificam-se algumas características em relação ao seu desempenho. Considerando o mesmo automóvel em duas versões, uma delas funcionando a álcool e outra, a gasolina, tem-se os dados apresentados no quadro, em relação ao desempenho de cada motor. Parâmetro Motor a gasolina Motor a álcool Aceleração de 0 a 100 km/h em 13,4 s de 0 a 100 km/h em 12,9 s Velocidade máxima 165 km/h 163 km/h Considerando desprezível a resistência do ar, qual versão apresenta a maior potência?",
+      "statement": "Analisando a ficha técnica de um automóvel popular, verificam-se algumas características em relação ao seu desempenho. Considerando o mesmo automóvel em duas versões, uma delas funcionando a álcool e outra, a gasolina, tem-se os dados apresentados no quadro, em relação ao desempenho de cada motor.\nConsiderando desprezível a resistência do ar, qual versão apresenta a maior potência?",
       "options": [
         {
           "letter": "A",
@@ -843,7 +843,7 @@
           "type": "text_block",
           "title": "TEXTO II",
           "content": "",
-          "source": "Distâncias médias dos planetas ao Sol e suas densidades médias Distância média Densidade Planetas ao Sol (u.a.) relativa média *Mercúrio 0,39 5,6 *Vênus 0,72 5,2 *Terra 1,0 5,5 *Marte 1,5 4,0 **Ceres 2,8 2,1 *Júpiter 5,2 1,3 *Saturno 9,6 0,7 *Urano 19 1,2 *Netuno 30 1,7 **Plutão 40 2,0 **Éris 68 2,5 u.a. = 149 600 000 km, é a unidade astronômica, *Planeta clássico, **Planeta-anão Características dos planetas. Disponível em: www.astronoo.com. Acesso em: 8 nov. 2019 (adaptado)."
+          "source": "Distâncias médias dos planetas ao Sol e suas densidades médias\nu.a. = 149 600 000 km, é a unidade astronômica; *Planeta clássico; **Planeta-anão\nCaracterísticas dos planetas. Disponível em: www.astronoo.com. Acesso em: 8 nov. 2019 (adaptado)."
         }
       ],
       "image_url": [
@@ -993,7 +993,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma escola iniciou o processo educativo para implantação da coleta seletiva e destino de materiais recicláveis Para atingir seus objetivos, a instituição planejou: 1) s ensibilizar a comunidade escolar, desenvolvendo atividades em sala e extraclasse de maneira contínua; 2) capacitar o pessoal responsável pela limpeza da escola quanto aos novos procedimentos adotados com a coleta seletiva; e 3) d istribuir coletores de materiais recicláveis específicos nas salas, pátio e outros ambientes para acondicionamento dos resíduos.\nPara completar a ação proposta no ambiente escolar, o que falta ser inserido no planejamento?",
+      "statement": "Uma escola iniciou o processo educativo para implantação da coleta seletiva e destino de materiais recicláveis Para atingir seus objetivos, a instituição planejou: 1) sensibilizar a comunidade escolar, desenvolvendo atividades em sala e extraclasse de maneira contínua; 2) capacitar o pessoal responsável pela limpeza da escola quanto aos novos procedimentos adotados com a coleta seletiva; e 3) distribuir coletores de materiais recicláveis específicos nas salas, pátio e outros ambientes para acondicionamento dos resíduos.\nPara completar a ação proposta no ambiente escolar, o que falta ser inserido no planejamento?",
       "options": [
         {
           "letter": "A",
@@ -1129,7 +1129,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um dos exames clínicos mais tradicionais para medir a capacidade reflexa dos indivíduos é o exame do reflexo patelar Esse exame consiste na estimulação da patela, um pequeno osso localizado na parte anterior da articulação do joelho, com um pequeno martelo. A resposta reflexa ao estímulo é caracterizada pelo levantamento da perna em que o estímulo foi aplicado.\nQual região específica do sistema nervoso coordena essa resposta?",
+      "statement": "Um dos exames clínicos mais tradicionais para medir a capacidade reflexa dos indivíduos é o exame do reflexo patelar. Esse exame consiste na estimulação da patela, um pequeno osso localizado na parte anterior da articulação do joelho, com um pequeno martelo. A resposta reflexa ao estímulo é caracterizada pelo levantamento da perna em que o estímulo foi aplicado.\nQual região específica do sistema nervoso coordena essa resposta?",
       "options": [
         {
           "letter": "A",
@@ -1223,7 +1223,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q116-fig1.png"
       ],
-      "statement": "As águas subterrâneas têm sido contaminadas pelo uso de pesticidas na agricultura. Entre as várias substâncias usualmente encontradas, algumas são apresentadas na figura. A distinção dessas substâncias pode ser feita por meio de uma análise química qualitativa, ou seja, determinando sua presença mediante a adição de um reagente específico. O hidróxido de sódio é capaz de identificar a presença de um desses pesticidas pela reação ácido-base de Brönsted-Lowry. OH OH H N H - CI CI CI N N O N + N N CI O O CICI CI N CI CI I II III O O I Si S F O I O IV V O teste positivo será observado com o pesticida",
+      "statement": "As águas subterrâneas têm sido contaminadas pelo uso de pesticidas na agricultura. Entre as várias substâncias usualmente encontradas, algumas são apresentadas na figura. A distinção dessas substâncias pode ser feita por meio de uma análise química qualitativa, ou seja, determinando sua presença mediante a adição de um reagente específico. O hidróxido de sódio é capaz de identificar a presença de um desses pesticidas pela reação ácido-base de Brönsted-Lowry.\nO teste positivo será observado com o pesticida",
       "options": [
         {
           "letter": "A",
@@ -1601,7 +1601,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O emprego de células de combustível a hidrogênio pode ser uma tecnologia adequada ao transporte automotivo.\nO quadro apresenta características de cinco tecnologias mais proeminentes de células de combustível.\nTipo de célula de Temperatura Eletrólito Semirreações nos eletrodos combustível operacional (°C)\nH + 2 OH_→ 2 H O + 2 e_ 2 2 AFC 90 - 100 Hidróxido de potássio aquoso _1_ O + H O + 2 e_ → 2 OH_ 2 2 2 H + CO 2_→ H O + CO +2 e_ Carbonatos de lítio, sódio 2 3 2 2 MSFC 600 - 1000 e/ou potássio fundidos _1_ O + CO + 2 e_ → CO 2_ 2 2 2 3 Ácido PEM 60 - 100 poliperfluorossulfônico sólido H →2 H+ + 2 e_ 2 PAFC 175 - 200 Ácido fosfórico líquido _1_ O + 2 H+ + 2 e_ → H O 2 2 2 SOFC 600 - 1000 Óxido de zircônio(IV) sólido Testes operacionais com esses tipos de células têm indicado que as melhores alternativas para veículos são as que operam em baixos níveis de energia térmica, são formadas por membranas de eletrólitos poliméricos e ocorrem em meio ácido.",
+          "content": "O emprego de células de combustível a hidrogênio pode ser uma tecnologia adequada ao transporte automotivo.\nO quadro apresenta características de cinco tecnologias mais proeminentes de células de combustível.\nTestes operacionais com esses tipos de células têm indicado que as melhores alternativas para veículos são as que operam em baixos níveis de energia térmica, são formadas por membranas de eletrólitos poliméricos e ocorrem em meio ácido.",
           "source": "THOMAS, S; ZALBOWITZ, M. Full cells:green power. Los Alamos National Laboratory. Los Alamos, NM, 1999 (adaptado)"
         }
       ],
@@ -1886,7 +1886,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q130-fig1.png"
       ],
-      "statement": "Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. Em geral, essas substâncias são ésteres, como as apresentadas no quadro.\nNome Fórmula Aroma Benzoato de C H CO CH Kiwi metila 6 5 2 3 Acetato de CH CO (CH ) CH(CH ) Banana isoamila 3 2 2 2 3 2 Acetato de CH CO CH C H Pêssego benzila 3 2 2 6 5 Propanoato de CH CH CO CH CH(CH ) Rum isobutila 3 2 2 2 3 2 Antranilato de C H NH CO CH Uva metila 6 4 2 2 3 O aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de",
+      "statement": "Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. Em geral, essas substâncias são ésteres, como as apresentadas no quadro.\nO aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de",
       "options": [
         {
           "letter": "A",
@@ -2186,7 +2186,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q136-fig1.png"
       ],
-      "statement": "Um segmento de reta está dividido em duas partes na proporção áurea quando o todo está para uma das partes na mesma razão em que essa parte está para a outra. Essa constante de proporcionalidade é comumente representada pela letra grega Φ, e seu valor é dado pela solução positiva da equação Φ² = Φ + 1. Assim como a potência Φ², as potências superiores de Φ podem ser expressas da forma aΦ + b, em que a e b são inteiros positivos, como apresentado no quadro.\nΦ² Φ³ Φ⁴ Φ⁵ Φ⁶ Φ⁷ Φ + 1 2Φ + 1 3Φ + 2 5Φ + 3 8Φ + 5 … A potência Φ⁷, escrita na forma aΦ + b (a e b são inteiros positivos), é",
+      "statement": "Um segmento de reta está dividido em duas partes na proporção áurea quando o todo está para uma das partes na mesma razão em que essa parte está para a outra. Essa constante de proporcionalidade é comumente representada pela letra grega Φ, e seu valor é dado pela solução positiva da equação Φ² = Φ + 1. Assim como a potência Φ², as potências superiores de Φ podem ser expressas da forma aΦ + b, em que a e b são inteiros positivos, como apresentado no quadro.\nA potência Φ⁷, escrita na forma aΦ + b (a e b são inteiros positivos), é",
       "options": [
         {
           "letter": "A",
@@ -2288,41 +2288,37 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": [
-        "assets/images/enem_2021_cd7_q138-fig1.png",
-        "assets/images/enem_2021_cd7_q138-fig2.png",
-        "assets/images/enem_2021_cd7_q138-fig3.png",
-        "assets/images/enem_2021_cd7_q138-fig4.png",
-        "assets/images/enem_2021_cd7_q138-fig5.png"
+        "assets/images/enem_2021_cd7_q138-fig1.png"
       ],
-      "statement": "A Copa do Brasil teve, até a edição de 2018, 15 times diferentes como campeões da competição, conforme apresentado na imagem Suponha que, como homenagem aos times campeões, a Confederação Brasileira de Futebol (CBF) pretenda colocar um painel na sua sede. Esse painel teria 6 linhas e, em cada uma delas, 5 placas, referentes a cada edição da competição, com o nome do time vencedor, o brasão e o ano do título. O painel deve ser fabricado de modo que a primeira linha só tenha clubes gaúchos (Internacional, Grêmio e Juventude); a segunda, apenas times cariocas (Flamengo, Vasco e Fluminense); a terceira, somente times mineiros (Cruzeiro e Atlético Mineiro); a quarta, exclusivamente clubes paulistas (Corinthians, Palmeiras, Santos, Paulista FC, Santo André), e as duas últimas sem nenhuma restrição. __________ __________ __________ __________ __________ Cruzeiro Grêmio Corinthians Flamengo Palmeiras (Minas Gerais) (Rio Grande do Sul) (São Paulo) (Rio de Janeiro) (São Paulo) 06 Títulos 05 Títulos 03 Títulos 03 Títulos 03 Títulos _ ___________ ________________ ___________ __________ ___________ Internacional Criciúma Vasco da Gama Atlético Mineiro Santos (Rio Grande do Sul) (Santa Catarina) (Rio de Janeiro) (Minas Gerais) (São Paulo) 01 Título 01 Título 01 Título 01 Título 01 Título __________ __________ ___________ ___________ ___________ Fluminense Sport Paulista FC Santo André Juventude (Rio de Janeiro) (Pernambuco) (São Paulo) (São Paulo) (Rio Grande do Sul) 01 Título 01 Título 01 Título 01 Título 01 Título Disponível em: http://campeoesdofutebol.com.br. Acesso em: 1 nov. 2018 (adaptado). Qual expressão determina a quantidade de painéis diferentes que a CBF poderá montar? 7! 5! 7! 9!",
+      "statement": "A Copa do Brasil teve, até a edição de 2018, 15 times diferentes como campeões da competição, conforme apresentado na imagem. Suponha que, como homenagem aos times campeões, a Confederação Brasileira de Futebol (CBF) pretenda colocar um painel na sua sede. Esse painel teria 6 linhas e, em cada uma delas, 5 placas, referentes a cada edição da competição, com o nome do time vencedor, o brasão e o ano do título. O painel deve ser fabricado de modo que a primeira linha só tenha clubes gaúchos (Internacional, Grêmio e Juventude); a segunda, apenas times cariocas (Flamengo, Vasco e Fluminense); a terceira, somente times mineiros (Cruzeiro e Atlético Mineiro); a quarta, exclusivamente clubes paulistas (Corinthians, Palmeiras, Santos, Paulista FC, Santo André), e as duas últimas sem nenhuma restrição.\nDisponível em: http://campeoesdofutebol.com.br. Acesso em: 1 nov. 2018 (adaptado). Qual expressão determina a quantidade de painéis diferentes que a CBF poderá montar?",
       "options": [
         {
           "letter": "A",
-          "text": "10! 5! 3! 6! 3! 3!",
+          "text": "7!/5! · 5!/3! · 7!/6! · 9!/(3! · 3!) · 10!",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "7! 5! 7! 9! 10!",
+          "text": "7! · 5! · 7! · 9! · 10!",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "30! 7! 7! 9!",
+          "text": "30!",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "5! 5! 5! 2! 5! 4! 9! 7! 9!",
+          "text": "7!/(5! · 5!) · 7!/(5! · 2!) · 9!/(5! · 4!)",
           "image_url": null,
           "is_correct": false
         },
         {
           "letter": "E",
-          "text": "5! 10! 3! 2! 4!",
+          "text": "9!/3! · 5! · 7!/2! · 9!/4! · 10!",
           "image_url": null,
           "is_correct": false
         }
@@ -2339,7 +2335,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q139-fig1.png"
       ],
-      "statement": "Uma rede de hamburgueria tem três franquias em cidades distintas. Visando incluir um novo tipo de lanche no cardápio, o gerente de marketing da rede sugeriu que fossem colocados à venda cinco novos tipos de lanche, em edições especiais. Os lanches foram oferecidos pelo mesmo período de tempo em todos os franqueados.\nO tipo que apresentasse a maior média por franquia seria incluído definitivamente no cardápio. Terminado o período de experiência, a gerência recebeu um relatório descrevendo as quantidades vendidas, em unidade, de cada um dos cinco tipos de lanche nas três franquias.\nLanche Lanche Lanche Lanche Lanche I II III IV V Franquia I 415 395 425 430 435 Franquia II 415 445 370 370 425 Franquia III 415 390 425 433 420 Com base nessas informações, a gerência decidiu incluir no cardápio o lanche de tipo",
+      "statement": "Uma rede de hamburgueria tem três franquias em cidades distintas. Visando incluir um novo tipo de lanche no cardápio, o gerente de marketing da rede sugeriu que fossem colocados à venda cinco novos tipos de lanche, em edições especiais. Os lanches foram oferecidos pelo mesmo período de tempo em todos os franqueados.\nO tipo que apresentasse a maior média por franquia seria incluído definitivamente no cardápio. Terminado o período de experiência, a gerência recebeu um relatório descrevendo as quantidades vendidas, em unidade, de cada um dos cinco tipos de lanche nas três franquias.\nCom base nessas informações, a gerência decidiu incluir no cardápio o lanche de tipo",
       "options": [
         {
           "letter": "A",
@@ -2484,7 +2480,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "O organizador de uma competição de lançamento de dardos pretende tornar o campeonato mais competitivo.\nPelas regras atuais da competição, numa rodada, o jogador lança 3 dardos e pontua caso acerte pelo menos um deles no alvo. O organizador considera que, em 1 média, os jogadores têm, em cada lançamento, de 2 probabilidade de acertar um dardo no alvo.\nA fim de tornar o jogo mais atrativo, planeja modificar as regras de modo que a probabilidade de um jogador 9 pontuar em uma rodada seja igual ou superior a . Para 10 isso, decide aumentar a quantidade de dardos a serem lançados em cada rodada.\nCom base nos valores considerados pelo organizador da competição, a quantidade mínima de dardos que devem ser disponibilizados em uma rodada para tornar o jogo mais atrativo é",
+      "statement": "O organizador de uma competição de lançamento de dardos pretende tornar o campeonato mais competitivo.\nPelas regras atuais da competição, numa rodada, o jogador lança 3 dardos e pontua caso acerte pelo menos um deles no alvo. O organizador considera que, em média, os jogadores têm, em cada lançamento, 1/2 de probabilidade de acertar um dardo no alvo.\nA fim de tornar o jogo mais atrativo, planeja modificar as regras de modo que a probabilidade de um jogador pontuar em uma rodada seja igual ou superior a 9/10. Para isso, decide aumentar a quantidade de dardos a serem lançados em cada rodada.\nCom base nos valores considerados pelo organizador da competição, a quantidade mínima de dardos que devem ser disponibilizados em uma rodada para tornar o jogo mais atrativo é",
       "options": [
         {
           "letter": "A",
@@ -2636,7 +2632,7 @@
           "type": "text_block",
           "title": null,
           "content": "Em um estudo realizado pelo IBGE em quatro estados e no Distrito Federal, com mais de 5 mil pessoas com 10 anos ou mais, observou-se que a leitura ocupa, em média, apenas seis minutos do dia de cada pessoa.\nNa faixa de idade de 10 a 24 anos, a média diária é de três minutos. No entanto, no grupo de idades entre 24 e 60 anos, o tempo médio diário dedicado à leitura é de 5 minutos. Entre os mais velhos, com 60 anos ou mais, a média é de 12 minutos.\nA quantidade de pessoas entrevistadas de cada faixa de idade seguiu a distribuição percentual descrita no quadro.",
-          "source": "Faixa etária Percentual de entrevistados De 10 a 24 anos x Entre 24 e 60 anos y A partir de 60 anos x Disponível em: www.oglobo.globo.com. Acesso em: 16 ago. 2013 (adaptado)."
+          "source": "Disponível em: www.oglobo.globo.com. Acesso em: 16 ago. 2013 (adaptado)."
         }
       ],
       "image_url": [
@@ -2796,7 +2792,7 @@
           "type": "text_block",
           "title": null,
           "content": "O quadro apresenta o número de terremotos de magnitude maior ou igual a 7, na escala Richter, ocorridos em nosso planeta nos anos de 2000 a 2011.",
-          "source": "Ano 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 Terremotos 15 16 13 15 16 11 11 18 12 17 24 20 Disponível em: https://earthquake.usgs.gov/earthquakes/browse/m7-world.php. Acesso em: 13 ago. 2012 (adaptado)"
+          "source": "Disponível em: https://earthquake.usgs.gov/earthquakes/browse/m7-world.php. Acesso em: 13 ago. 2012 (adaptado)"
         }
       ],
       "image_url": [
@@ -2847,7 +2843,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q149-fig1.png"
       ],
-      "statement": "A receita R de uma empresa ao final de um mês é o dinheiro captado com a venda de mercadorias ou com a prestação de serviços nesse mês, e a despesa D é todo o dinheiro utilizado para pagamento de salários, contas de água e luz, impostos, entre outros. O lucro mensal obtido ao final do mês é a diferença entre a receita e a despesa registradas no mês. O gráfico apresenta as receitas e despesas, em milhão de real, de uma empresa ao final dos cinco primeiros meses de um dado ano.\nReceitas e despesas 28 25 20 15 10 5 0 Mês janeiro fevereiro março abril maio Receita Despesa A previsão para os próximos meses é que o lucro mensal não seja inferior ao maior lucro obtido até o mês de maio. Nessas condições, o lucro mensal para os próximos meses deve ser maior ou igual ao do mês de",
+      "statement": "A receita R de uma empresa ao final de um mês é o dinheiro captado com a venda de mercadorias ou com a prestação de serviços nesse mês, e a despesa D é todo o dinheiro utilizado para pagamento de salários, contas de água e luz, impostos, entre outros. O lucro mensal obtido ao final do mês é a diferença entre a receita e a despesa registradas no mês. O gráfico apresenta as receitas e despesas, em milhão de real, de uma empresa ao final dos cinco primeiros meses de um dado ano.\nA previsão para os próximos meses é que o lucro mensal não seja inferior ao maior lucro obtido até o mês de maio. Nessas condições, o lucro mensal para os próximos meses deve ser maior ou igual ao do mês de",
       "options": [
         {
           "letter": "A",
@@ -2893,7 +2889,7 @@
           "type": "text_block",
           "title": null,
           "content": "A depressão caracteriza-se por um desequilíbrio na química cerebral. Os neurônios de um deprimido não respondem bem aos estímulos dos neurotransmissores.",
-          "source": "Os remédios que combatem a depressão têm o objetivo de restabelecer a química cerebral. Com o aumento gradativo de casos de depressão, a venda desses medicamentos está em crescente evolução, conforme ilustra o gráfico 600 o ) 519,2 ã h 500 465 mil 370 m 400 e 294 ( a s 300 236 d n e 200 v e d 100 e m 0 u ol 2005 2006 2007 2008 2009 V Ano Veja, 10 fev. 2010 (adaptado)."
+          "source": "Os remédios que combatem a depressão têm o objetivo de restabelecer a química cerebral. Com o aumento gradativo de casos de depressão, a venda desses medicamentos está em crescente evolução, conforme ilustra o gráfico.\nVeja, 10 fev. 2010 (adaptado)."
         }
       ],
       "image_url": [
@@ -2944,7 +2940,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q151-fig1.png"
       ],
-      "statement": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados.\nO gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por ]300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1 300]. A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais.\nNo entanto, o casal achou que essa última informação não era compatível com o gráfico obtido. Distribuição dos preços 0 2 ei s1 5 v ó m e i o d 1 0 er m ú N 5 0 300 400 500 600 700 800 9001 0001 1001 200 1 300 Preço (em mil reais)\nCom base no gráfico obtido, o menor preço, p (em mil reais), para o qual pelo menos 50% dos apartamentos apresenta preço inferior a p é",
+      "statement": "Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados.\nO gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por ]300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1 300]. A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais.\nNo entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.\nCom base no gráfico obtido, o menor preço, p (em mil reais), para o qual pelo menos 50% dos apartamentos apresenta preço inferior a p é",
       "options": [
         {
           "letter": "A",
@@ -3083,7 +3079,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A demografia médica é o estudo da população de médicos no Brasil nos aspectos quantitativo e qualitativo, sendo um dos seus objetivos fazer projeções sobre a necessidade da formação de novos médicos. Um desses estudos gerou um conjunto de dados que aborda a evolução do número de médicos e da população brasileira por várias décadas. O quadro apresenta parte desses dados.\nAno Médicos População brasileira (em milhar) 1990 219 000 147 000 2000 292 000 170 000 2010 365 000 191 000 Segundo uma projeção estatística, a variação do número de médicos e o da população brasileira de 2010 para 2020 será a média entre a variação de 1990 para 2000 e a de 2000 para 2010. Com o resultado dessa projeção, determina-se o número de médicos por mil habitantes no ano de 2020.",
+          "content": "A demografia médica é o estudo da população de médicos no Brasil nos aspectos quantitativo e qualitativo, sendo um dos seus objetivos fazer projeções sobre a necessidade da formação de novos médicos. Um desses estudos gerou um conjunto de dados que aborda a evolução do número de médicos e da população brasileira por várias décadas. O quadro apresenta parte desses dados.\nSegundo uma projeção estatística, a variação do número de médicos e o da população brasileira de 2010 para 2020 será a média entre a variação de 1990 para 2000 e a de 2000 para 2010. Com o resultado dessa projeção, determina-se o número de médicos por mil habitantes no ano de 2020.",
           "source": "Disponível em: www.cremesp.org.br. Acesso em: 24 jun. 2015 (adaptado)."
         }
       ],
@@ -3135,7 +3131,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q155-fig1.png"
       ],
-      "statement": "Um atleta produz sua própria refeição com custo fixo de R$ 10,00. Ela é composta por 400 g de frango, 600 g de batata-doce e uma hortaliça. Atualmente, os preços dos produtos para essa refeição são:\nFrango (kg) Batata-doce (kg) Hortaliças (unidade)\nRefeição R$ 12,50 R$ 5,00 R$ 2,00 Em relação a esses preços, haverá um aumento de 50% no preço do quilograma de batata-doce, e os outros preços não serão alterados. O atleta deseja manter o custo da refeição, a quantidade de batata-doce e a hortaliça. Portanto, terá que reduzir a quantidade de frango.\nQual deve ser a redução percentual da quantidade de frango para que o atleta alcance seu objetivo?",
+      "statement": "Um atleta produz sua própria refeição com custo fixo de R$ 10,00. Ela é composta por 400 g de frango, 600 g de batata-doce e uma hortaliça. Atualmente, os preços dos produtos para essa refeição são:\nEm relação a esses preços, haverá um aumento de 50% no preço do quilograma de batata-doce, e os outros preços não serão alterados. O atleta deseja manter o custo da refeição, a quantidade de batata-doce e a hortaliça. Portanto, terá que reduzir a quantidade de frango.\nQual deve ser a redução percentual da quantidade de frango para que o atleta alcance seu objetivo?",
       "options": [
         {
           "letter": "A",
@@ -3553,7 +3549,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q164-fig1.png"
       ],
-      "statement": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg.\nEm duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens:\nViagem Camisetas Calças Sapatos I 12 4 3 II 18 3 2 Para ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.\nQual a quantidade máxima de camisetas que essa pessoa poderá levar?",
+      "statement": "Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg.\nEm duas viagens que realizou, essa pessoa utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações de itens:\nPara ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.\nQual a quantidade máxima de camisetas que essa pessoa poderá levar?",
       "options": [
         {
           "letter": "A",
@@ -3734,7 +3730,7 @@
         "assets/images/enem_2021_cd7_q168-fig1.png",
         "assets/images/enem_2021_cd7_q168-fig2.png"
       ],
-      "statement": "Num octaedro regular, duas faces são consideradas opostas quando não têm nem arestas, nem vértices em comum. Na figura, observa-se um octaedro regular e uma de suas planificações, na qual há uma face colorida na cor cinza escuro e outras quatro faces numeradas. 1 3 2 4 Qual(is) face(s) ficará(ão) oposta(s) à face de cor cinza escuro, quando o octaedro for reconstruído a partir da planificação dada?",
+      "statement": "Num octaedro regular, duas faces são consideradas opostas quando não têm nem arestas, nem vértices em comum. Na figura, observa-se um octaedro regular e uma de suas planificações, na qual há uma face colorida na cor cinza escuro e outras quatro faces numeradas.\nQual(is) face(s) ficará(ão) oposta(s) à face de cor cinza escuro, quando o octaedro for reconstruído a partir da planificação dada?",
       "options": [
         {
           "letter": "A",
@@ -3930,7 +3926,7 @@
       "image_url": [
         "assets/images/enem_2021_cd7_q172-fig1.png"
       ],
-      "statement": "Um ciclista amador de 61 anos de idade utilizou um monitor cardíaco para medir suas frequências cardíacas em quatro diferentes tipos de trechos do percurso. Os resultados das frequências cardíacas máximas alcançadas nesses trechos foram:\nFrequências cardíacas Trechos do percurso máximas (bpm)\nLeve no plano 90 Forte no plano 120 Subida moderada 130 Subida forte 140 Sabe-se que a faixa aeróbica ideal para o ganho de condicionamento físico é entre 65% e 85% da frequência cardíaca máxima (Fc máx.), que, por sua vez, é determinada pela fórmula:\nFc máx. = 220 − idade, em que a idade é dada em ano e Fc máx. é dada em bpm (batimento por minuto).\nOs trechos do percurso nos quais esse ciclista se mantém dentro de sua faixa aeróbica ideal, para o ganho de condicionamento físico, são",
+      "statement": "Um ciclista amador de 61 anos de idade utilizou um monitor cardíaco para medir suas frequências cardíacas em quatro diferentes tipos de trechos do percurso. Os resultados das frequências cardíacas máximas alcançadas nesses trechos foram:\nSabe-se que a faixa aeróbica ideal para o ganho de condicionamento físico é entre 65% e 85% da frequência cardíaca máxima (Fc máx.), que, por sua vez, é determinada pela fórmula:\nFc máx. = 220 − idade, em que a idade é dada em ano e Fc máx. é dada em bpm (batimento por minuto).\nOs trechos do percurso nos quais esse ciclista se mantém dentro de sua faixa aeróbica ideal, para o ganho de condicionamento físico, são",
       "options": [
         {
           "letter": "A",

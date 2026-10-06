@@ -1522,7 +1522,7 @@
       "image_url": [
         "assets/images/enem_2022_cd7_q121-fig1.png"
       ],
-      "statement": "Antimicrobianos são substâncias naturais ou sintéticas que têm capacidade de matar ou inibir o crescimento de microrganismos. A tabela apresenta uma lista de antimicrobianos hipotéticos, bem como suas ações e efeitos sobre o metabolismo microbiano.\nAntimicrobiano Ação Efeito 1 Une-se aos ribossomos Impede a síntese proteica 2 Une-se aos microtúbulos Impede a segregação das cromátides 3 Une-se aos fosfolipídeos da membrana plasmática Reduz a permeabilidade da membrana plasmática 4 Interfere na síntese de timina Inibe a síntese de DNA 5 Interfere na síntese de uracila Impede a síntese de RNA Qual dos antimicrobianos deve ser utilizado para curar uma infecção causada por um fungo sem afetar as bactérias da microbiota normal do organismo?",
+      "statement": "Antimicrobianos são substâncias naturais ou sintéticas que têm capacidade de matar ou inibir o crescimento de microrganismos. A tabela apresenta uma lista de antimicrobianos hipotéticos, bem como suas ações e efeitos sobre o metabolismo microbiano.\nAntimicrobiano — Ação — Efeito\n1 — Une-se aos ribossomos — Impede a síntese proteica\n2 — Une-se aos microtúbulos — Impede a segregação das cromátides\n3 — Une-se aos fosfolipídeos da membrana plasmática — Reduz a permeabilidade da membrana plasmática\n4 — Interfere na síntese de timina — Inibe a síntese de DNA\n5 — Interfere na síntese de uracila — Impede a síntese de RNA\nQual dos antimicrobianos deve ser utilizado para curar uma infecção causada por um fungo sem afetar as bactérias da microbiota normal do organismo?",
       "options": [
         {
           "letter": "A",
@@ -1717,7 +1717,7 @@
       "image_url": [
         "assets/images/enem_2022_cd7_q125-fig1.png"
       ],
-      "statement": "Na figura está representado o mosaicismo em função da inativação aleatória de um dos cromossomos X, que ocorre em todas as mulheres sem alterações patológicas.\nGameta Amostras de células corporais masculino (22+X)\nZigoto (44+XX)\nGameta feminino (22+X)\nBlástula (44+XX)\nCélulas com cromossomo X paterno inativado Células com cromossomo X materno inativado Entre mulheres heterozigotas para doenças determinadas por genes recessivos ligados ao sexo, essa inativação tem como consequência a ocorrência de",
+      "statement": "Na figura está representado o mosaicismo em função da inativação aleatória de um dos cromossomos X, que ocorre em todas as mulheres sem alterações patológicas.\nGameta Amostras de células corporais masculino (22+X)\nEntre mulheres heterozigotas para doenças determinadas por genes recessivos ligados ao sexo, essa inativação tem como consequência a ocorrência de",
       "options": [
         {
           "letter": "A",
@@ -1908,7 +1908,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "O esquema representa o ciclo do nitrogênio:\nPlantas Bactérias Assimilação desnitri-ficantes Bactérias fixa- Nitratos(NO−) doras de N nos Decompositores 3 nódulos de2 raízes (fungos e bactérias de leguminosas aeróbicas e anaeróbicas) Bactérias Amonificação Nitrificação nitrificantes Bactérias fixadoras Nitritos(NO₂⁻) de N₂ no solo Bactérias nitrificantes A chuva ácida interfere no ciclo do nitrogênio, principalmente, por proporcionar uma diminuição do pH do solo e da atmosfera, alterando a concentração dos compostos presentes nesse ciclo.",
+          "content": "O esquema representa o ciclo do nitrogênio:\nA chuva ácida interfere no ciclo do nitrogênio, principalmente, por proporcionar uma diminuição do pH do solo e da atmosfera, alterando a concentração dos compostos presentes nesse ciclo.",
           "source": "Disponível em: http://scienceprojectideasforkids.com. Acesso em: 6 ago. 2012 (adaptado)."
         }
       ],
@@ -3074,7 +3074,7 @@
       "image_url": [
         "assets/images/enem_2022_cd7_q153-fig1.png"
       ],
-      "statement": "Uma empresa produz e vende um tipo de chocolate, maciço, em formato de cone circular reto com as medidas do diâmetro da base e da altura iguais a 8 cm e 10 cm, respectivamente, como apresenta a figura. 8 cm 10 cm Devido a um aumento de preço dos ingredientes utilizados na produção desse chocolate, a empresa decide produzir esse mesmo tipo de chocolate com um volume 19% menor, no mesmo formato de cone circular reto com altura de 10 cm.\nPara isso, a empresa produzirá esses novos chocolates com medida do raio da base, em centímetro, igual a",
+      "statement": "Uma empresa produz e vende um tipo de chocolate, maciço, em formato de cone circular reto com as medidas do diâmetro da base e da altura iguais a 8 cm e 10 cm, respectivamente, como apresenta a figura.\nDevido a um aumento de preço dos ingredientes utilizados na produção desse chocolate, a empresa decide produzir esse mesmo tipo de chocolate com um volume 19% menor, no mesmo formato de cone circular reto com altura de 10 cm.\nPara isso, a empresa produzirá esses novos chocolates com medida do raio da base, em centímetro, igual a",
       "options": [
         {
           "letter": "A",
@@ -3510,8 +3510,10 @@
       "topic": "Interpretação de gráfico de vendas acumuladas",
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
-      "statement": "Uma loja de roupas fixou uma meta de vendas de 77 000 reais para um determinado mês de 30 dias.\nO gráfico mostra o volume de vendas dessa loja, em real, nos dez primeiros dias do mês e entre o dia dez e o dia vinte desse mês, nos seus dois únicos setores (infantil e adulto). Suponha que a variação no volume de vendas, para o período registrado, tenha se dado de forma linear, como mostrado no gráfico, e que essa tendência se mantenha a mesma para os próximos dez dias. 18 000 Adulto 15 000 8 000 7 000 Infantil 10 20 30 Dias Ao final do trigésimo dia, quanto faltará no volume de vendas, em real, para que a meta fixada para o mês seja alcançada?",
+      "image_url": [
+        "assets/images/enem_2022_cd7_q162-fig1.png"
+      ],
+      "statement": "Uma loja de roupas fixou uma meta de vendas de 77 000 reais para um determinado mês de 30 dias.\nO gráfico mostra o volume de vendas dessa loja, em real, nos dez primeiros dias do mês e entre o dia dez e o dia vinte desse mês, nos seus dois únicos setores (infantil e adulto). Suponha que a variação no volume de vendas, para o período registrado, tenha se dado de forma linear, como mostrado no gráfico, e que essa tendência se mantenha a mesma para os próximos dez dias.\nAo final do trigésimo dia, quanto faltará no volume de vendas, em real, para que a meta fixada para o mês seja alcançada?",
       "options": [
         {
           "letter": "A",
@@ -3832,7 +3834,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Uma loja comercializa cinco modelos de caixas-d’água (I, II, III, IV e V), todos em formato de cilindro reto de base circular. Os modelos II, III, IV e V têm as especificações de suas dimensões dadas em relação às dimensões do modelo I, cuja profundidade é P e área da base é A , como segue: b • modelo II: o dobro da profundidade e a metade da área da base do modelo I; • modelo III: o dobro da profundidade e a metade do raio da base do modelo I; • modelo IV: a metade da profundidade e o dobro da área da base do modelo I; • modelo V: a metade da profundidade e o dobro do raio da base do modelo I.\nUma pessoa pretende comprar nessa loja o modelo de caixa-d’água que ofereça a maior capacidade volumétrica.\nO modelo escolhido deve ser o",
+      "statement": "Uma loja comercializa cinco modelos de caixas-d’água (I, II, III, IV e V), todos em formato de cilindro reto de base circular. Os modelos II, III, IV e V têm as especificações de suas dimensões dadas em relação às dimensões do modelo I, cuja profundidade é P e área da base é A_b, como segue: • modelo II: o dobro da profundidade e a metade da área da base do modelo I; • modelo III: o dobro da profundidade e a metade do raio da base do modelo I; • modelo IV: a metade da profundidade e o dobro da área da base do modelo I; • modelo V: a metade da profundidade e o dobro do raio da base do modelo I.\nUma pessoa pretende comprar nessa loja o modelo de caixa-d’água que ofereça a maior capacidade volumétrica.\nO modelo escolhido deve ser o",
       "options": [
         {
           "letter": "A",
@@ -4297,7 +4299,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "A esperança de vida ao nascer é o número médio de anos que um indivíduo tende a viver a partir de seu nascimento, considerando dados da população. No Brasil, esse número vem aumentando consideravelmente, como mostra o gráfico.\nEsperança de vida ao nascer 75 74,23 74 73,95 73,67 73,4 73,09 73 72,78 72 2008 2009 2010 2011 2012 2013 Disponível em: http://cod.ibge.gov.br. Acesso em: 6 mar. 2014 (adaptado).",
+          "content": "A esperança de vida ao nascer é o número médio de anos que um indivíduo tende a viver a partir de seu nascimento, considerando dados da população. No Brasil, esse número vem aumentando consideravelmente, como mostra o gráfico.\nDisponível em: http://cod.ibge.gov.br. Acesso em: 6 mar. 2014 (adaptado).",
           "source": "Pode-se observar que a esperança de vida ao nascer em 2012 foi exatamente a média das registradas nos anos de 2011 e 2013. Suponha que esse fato também ocorreu com a esperança de vida ao nascer em 2013, em relação às esperanças de vida de 2012 e de 2014."
         }
       ],

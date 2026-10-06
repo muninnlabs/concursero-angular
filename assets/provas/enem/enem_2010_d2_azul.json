@@ -83,7 +83,7 @@
         },
         {
           "letter": "B",
-          "text": "O ensino médio no Paraguai, sem o guarani, des-mereceria todo o trabalho realizado e as esperanças acumuladas.",
+          "text": "O ensino médio no Paraguai, sem o guarani, desmereceria todo o trabalho realizado e as esperanças acumuladas.",
           "image_url": null,
           "is_correct": false
         },
@@ -1847,7 +1847,7 @@
         {
           "type": "text_block",
           "title": null,
-          "content": "Capítulo III Um criado trouxe o café. Rubião pegou na xícara e, enquanto lhe deitava açúcar, ia disfarçadamente mirando a bandeja, que era de prata lavrada. Prata, ouro, eram os metais que amava de coração; não gostava de bronze, mas o amigo Palha disse-lhe que era matéria de preço, e assim se explica este par de figuras que aqui está na sala: um Mefi stófeles e um Fausto. Tivesse, porém, de escolher, escolheria a bandeja, – primor de argentaria, execução fi na e acabada.\nO criado esperava teso e sério. Era espanhol; e não foi sem resistência que Rubião o aceitou das mãos de Cristiano; por mais que lhe dissesse que estava acostumado aos seus crioulos de Minas, e não queria línguas estrangeiras em casa, o amigo Palha insistiu, demonstrando-lhe a necessidade de ter criados brancos. Rubião cedeu com pena. O seu bom pajem, que ele queria pôr na sala, como um pedaço da província, nem o pôde deixar na cozinha, onde reinava um francês, Jean; foi degradado a outros serviços.",
+          "content": "Capítulo III Um criado trouxe o café. Rubião pegou na xícara e, enquanto lhe deitava açúcar, ia disfarçadamente mirando a bandeja, que era de prata lavrada. Prata, ouro, eram os metais que amava de coração; não gostava de bronze, mas o amigo Palha disse-lhe que era matéria de preço, e assim se explica este par de figuras que aqui está na sala: um Mefi stófeles e um Fausto. Tivesse, porém, de escolher, escolheria a bandeja, – primor de argentaria, execução fina e acabada.\nO criado esperava teso e sério. Era espanhol; e não foi sem resistência que Rubião o aceitou das mãos de Cristiano; por mais que lhe dissesse que estava acostumado aos seus crioulos de Minas, e não queria línguas estrangeiras em casa, o amigo Palha insistiu, demonstrando-lhe a necessidade de ter criados brancos. Rubião cedeu com pena. O seu bom pajem, que ele queria pôr na sala, como um pedaço da província, nem o pôde deixar na cozinha, onde reinava um francês, Jean; foi degradado a outros serviços.",
           "source": "ASSIS, M. Quincas Borba. In: Obra completa. V.1. Rio de Janeiro: Nova Aguilar, 1993 (fragmento)."
         }
       ],
@@ -2017,7 +2017,7 @@
         },
         {
           "letter": "D",
-          "text": "mantiveram de forma fi el a realidade nas figuras retratadas, defendendo uma liberdade artística ligada à tradição acadêmica.",
+          "text": "mantiveram de forma fiel a realidade nas figuras retratadas, defendendo uma liberdade artística ligada à tradição acadêmica.",
           "image_url": null,
           "is_correct": false
         },
@@ -3014,7 +3014,7 @@
       "foreign_language": null,
       "context_texts": [],
       "image_url": null,
-      "statement": "Um satélite de telecomunicações, t minutos após ter atingido sua órbita, está a r quilômetros de distância do centro da Terra. Quando r assume seus valores máximo e mínimo, diz-se que o satélite atingiu o apogeu e o perigeu, respectivamente. Suponha que, para esse satélite, o valor de r em função de t seja dado por 5 865 r(t) = 1+0,15cos(0,06t)\nUm cientista monitora o movimento desse satélite para controlar o seu afastamento do centro da Terra. Para isso, ele precisa calcular a soma dos valores de r, no apogeu e no perigeu, representada por S.\nO cientista deveria concluir que, periodicamente, S atinge o valor de",
+      "statement": "Um satélite de telecomunicações, t minutos após ter atingido sua órbita, está a r quilômetros de distância do centro da Terra. Quando r assume seus valores máximo e mínimo, diz-se que o satélite atingiu o apogeu e o perigeu, respectivamente. Suponha que, para esse satélite, o valor de r em função de t seja dado por r(t) = 5 865 / (1 + 0,15 × cos(0,06t))\nUm cientista monitora o movimento desse satélite para controlar o seu afastamento do centro da Terra. Para isso, ele precisa calcular a soma dos valores de r, no apogeu e no perigeu, representada por S.\nO cientista deveria concluir que, periodicamente, S atinge o valor de",
       "options": [
         {
           "letter": "A",
@@ -3565,7 +3565,9 @@
       "topic": null,
       "foreign_language": null,
       "context_texts": [],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2010_cd7_q164-fig1.png"
+      ],
       "statement": "Uma metalúrgica recebeu uma encomenda para fabricar, em grande quantidade, uma peça com o formato de um prisma reto com base triangular, cujas dimensões da base são 6 cm, 8 cm e 10 cm e cuja altura é 10 cm. Tal peça deve ser vazada de tal maneira que a perfuração na forma de um cilindro circular reto seja tangente às suas faces laterais, conforme mostra a figura.\nO raio da perfuração da peça é igual a",
       "options": [
         {
@@ -3660,7 +3662,9 @@
           "source": "Favela Tem Memória. Época. Nº 621, 12 abr. 2010 (adaptado)."
         }
       ],
-      "image_url": null,
+      "image_url": [
+        "assets/images/enem_2010_cd7_q166-fig1.png"
+      ],
       "statement": "Se o padrão na variação do período 2004/2010 se mantiver nos próximos 6 anos, e sabendo que o número de favelas em 2010 é 968, então o número de favelas em 2016 será",
       "options": [
         {
