@@ -13,6 +13,8 @@ export interface ExamMetadata {
   year: number;
   day: number;
   booklet_color: string;
+  /** Readable name for exams whose id examLabel() can't decode (concursos), e.g. "ANP 2022 · Conhecimentos gerais". */
+  label?: string;
   /** Set by the data pipeline when the whole exam must not be served ("incomplete", "superseded"). */
   status?: string;
 }

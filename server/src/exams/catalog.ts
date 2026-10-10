@@ -4,6 +4,7 @@ import type { ExamFile, ExamSummary, PublicQuestion, Question } from './types.ts
 export const CATEGORY_BY_FOLDER: Record<string, string> = {
   oab: 'OAB',
   enem: 'ENEM',
+  concursos: 'CONCURSOS',
 };
 
 const VALID_ANSWER = /^[A-E]$/;
@@ -61,13 +62,13 @@ export function examLabel(examId: string): string {
   return examId;
 }
 
-export function toPublicQuestion(question: Question, examId: string): PublicQuestion {
+export function toPublicQuestion(question: Question, examId: string, label = examLabel(examId)): PublicQuestion {
   const { correct_answer: _answer, options, image_url, ...rest } = question;
   return {
     ...rest,
     image_urls: imageList(image_url),
     examId,
-    examLabel: examLabel(examId),
+    examLabel: label,
     options: options.map(({ is_correct: _correct, ...option }) => option),
   };
 }
@@ -84,7 +85,7 @@ export function summarize(category: string, relativePath: string, data: ExamFile
     id: meta.exam_id,
     category,
     name: meta.exam_name,
-    label: examLabel(meta.exam_id),
+    label: meta.label ?? examLabel(meta.exam_id),
     institution: meta.institution,
     year: meta.year,
     day: meta.day,

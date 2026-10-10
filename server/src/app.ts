@@ -64,7 +64,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
   app.get('/exams/:examId', async (c) => {
     const exam = await exams.get(c.req.param('examId'));
     if (!exam) return c.json({ error: 'Prova não encontrada' }, 404);
-    return c.json({ exam: exam.summary, questions: exam.questions.map((q) => toPublicQuestion(q, exam.summary.id)) });
+    return c.json({ exam: exam.summary, questions: exam.questions.map((q) => toPublicQuestion(q, exam.summary.id, exam.summary.label)) });
   });
 
   /** Subjects with their practisable question counts, most questions first ("Assuntos"). */
@@ -91,7 +91,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
       category: c.req.query('category') || undefined,
       subject: c.req.query('subject') || undefined,
     });
-    return c.json(picked.map(({ question, exam }) => toPublicQuestion(question, exam.id)));
+    return c.json(picked.map(({ question, exam }) => toPublicQuestion(question, exam.id, exam.label)));
   });
 
   // --- Signed-in user -----------------------------------------------------

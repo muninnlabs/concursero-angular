@@ -17,6 +17,7 @@ interface StatCard {
 const CATEGORY_STYLE: Record<string, { icon: IconName; tone: StatCard['tone'] }> = {
   ENEM: { icon: 'book-open', tone: 'indigo' },
   OAB: { icon: 'gavel', tone: 'amber' },
+  CONCURSOS: { icon: 'landmark', tone: 'green' },
 };
 
 @Component({
