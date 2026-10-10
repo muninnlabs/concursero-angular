@@ -19,11 +19,13 @@ export interface Catalog {
   categories: { category: string; examCount: number; questionCount: number }[];
 }
 
-export type ConcursoLevel = 'federal' | 'estadual' | 'municipal';
+/** Concursos: federal / estadual / municipal. Vestibulares: federal / estadual / privada. */
+export type ConcursoLevel = 'federal' | 'estadual' | 'municipal' | 'privada';
 
-/** A concurso (one edital) with practisable questions, from GET /api/concursos. */
+/** A concurso (one edital) or vestibular (one edition) with practisable questions, from GET /api/concursos. */
 export interface ConcursoInfo {
   id: string;
+  category: string;
   /** e.g. "PRF 2021" */
   name: string;
   institution: string;
@@ -35,11 +37,13 @@ export interface ConcursoInfo {
   questionCount: number;
 }
 
-/** Narrows Concursos practice; every field is optional. */
+/** Narrows Concursos / Vestibulares practice; every field is optional. */
 export interface ConcursoFilter {
   level?: ConcursoLevel;
   uf?: string;
   municipio?: string;
+  /** The órgão or university. */
+  institution?: string;
   concurso?: string;
 }
 

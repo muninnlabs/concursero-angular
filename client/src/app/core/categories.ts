@@ -11,7 +11,7 @@ export const CATEGORIES: CategoryOption[] = [
   { id: 'ENEM', label: 'ENEM', available: true },
   { id: 'OAB', label: 'OAB', available: true },
   { id: 'CONCURSOS', label: 'Concursos', available: true },
-  { id: 'VESTIBULARES', label: 'Vestibulares', available: false },
+  { id: 'VESTIBULARES', label: 'Vestibulares', available: true },
 ];
 
 const STORAGE_KEY = 'brasilquiz.category';
