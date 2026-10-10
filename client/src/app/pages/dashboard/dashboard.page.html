@@ -20,8 +20,8 @@
   }
 </div>
 
-@if (isConcursos()) {
-  <app-concurso-filter />
+@if (hasFilter()) {
+  <app-concurso-filter [category]="categoryState.selected()" />
 }
 
 <section class="stats" aria-label="Seu desempenho">

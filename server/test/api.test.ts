@@ -331,6 +331,32 @@ describe('concursos filters', () => {
     assert.deepEqual(await examIds('concurso=prf_21'), ['prf_basicos', 'prf_especificos']);
     assert.deepEqual(await examIds('level=estadual&uf=SP'), []);
   });
+
+  test('vestibulares: privada level, university filter and per-category concurso lists', async () => {
+    const vest = new MemoryExamSource();
+    const v = (id: string, level: 'federal' | 'estadual' | 'privada', uf: string, institution: string) => {
+      const file = concursoExam(id, level as 'federal', uf, null, `${id}_ed`);
+      return { ...file, exam_metadata: { ...file.exam_metadata, institution } };
+    };
+    vest.add('VESTIBULARES', 'v1.json', v('fuvest_2024', 'estadual', 'SP', 'USP'));
+    vest.add('VESTIBULARES', 'v2.json', v('unb_2024', 'federal', 'DF', 'UnB'));
+    vest.add('VESTIBULARES', 'v3.json', v('mackenzie_2024', 'privada', 'SP', 'Mackenzie'));
+    vest.add('CONCURSOS', 'c1.json', concursoExam('pcrj', 'estadual', 'RJ', null, 'pcrj_21'));
+    const vestApp = createApp({ exams: vest, store: createSqliteStore(':memory:'), verifyToken });
+    const list = (await (await vestApp.request('/api/concursos?category=VESTIBULARES')).json()) as { id: string; category: string }[];
+    assert.deepEqual(list.map((c) => [c.id, c.category]), [
+      ['fuvest_2024_ed', 'VESTIBULARES'],
+      ['mackenzie_2024_ed', 'VESTIBULARES'],
+      ['unb_2024_ed', 'VESTIBULARES'],
+    ]);
+    const ids = async (query: string) => {
+      const res = await vestApp.request(`/api/practice/questions?count=50&category=VESTIBULARES&${query}`);
+      return [...new Set(((await res.json()) as { examId: string }[]).map((q) => q.examId))].sort();
+    };
+    assert.deepEqual(await ids('level=privada'), ['mackenzie_2024']);
+    assert.deepEqual(await ids('uf=SP'), ['fuvest_2024', 'mackenzie_2024']);
+    assert.deepEqual(await ids('institution=UnB'), ['unb_2024']);
+  });
 });
 
 describe('countStreak', () => {

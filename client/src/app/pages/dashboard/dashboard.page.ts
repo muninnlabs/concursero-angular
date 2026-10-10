@@ -20,6 +20,7 @@ const CATEGORY_STYLE: Record<string, { icon: IconName; tone: StatCard['tone'] }>
   ENEM: { icon: 'book-open', tone: 'indigo' },
   OAB: { icon: 'gavel', tone: 'amber' },
   CONCURSOS: { icon: 'landmark', tone: 'green' },
+  VESTIBULARES: { icon: 'graduation-cap', tone: 'rose' },
 };
 
 @Component({
@@ -36,9 +37,11 @@ export class DashboardPage {
   protected readonly categories = CATEGORIES;
   private readonly concursoFilter = inject(ConcursoFilterState);
 
-  /** The Concursos filter applies only while Concursos is the selected category. */
-  protected readonly isConcursos = computed(() => this.categoryState.selected() === 'CONCURSOS');
-  protected readonly practiceFilter = computed(() => (this.isConcursos() ? filterParams(this.concursoFilter.filter()) : {}));
+  /** Concursos and Vestibulares have a level / state / ... filter; it applies to that category's practice only. */
+  protected readonly hasFilter = computed(() => ['CONCURSOS', 'VESTIBULARES'].includes(this.categoryState.selected()));
+  protected readonly practiceFilter = computed(() =>
+    this.hasFilter() ? filterParams(this.concursoFilter.filter(this.categoryState.selected())) : {},
+  );
 
   private readonly stats = rxResource({
     params: () => this.categoryState.selected(),

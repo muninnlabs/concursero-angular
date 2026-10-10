@@ -68,12 +68,13 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     return c.json({ exam: exam.summary, questions: exam.questions.map((q) => toPublicQuestion(q, exam.summary.id, exam.summary.label)) });
   });
 
-  /** Every concurso with practisable questions, for the level / state / município / concurso filters. */
+  /** Every concurso / vestibular with practisable questions, for the filters (?category=CONCURSOS|VESTIBULARES). */
   app.get('/concursos', async (c) => {
-    const byId = new Map<string, ConcursoInfo & { examCount: number; questionCount: number }>();
+    const category = c.req.query('category');
+    const byId = new Map<string, ConcursoInfo & { category: string; examCount: number; questionCount: number }>();
     for (const exam of await exams.list()) {
-      if (!exam.concurso || exam.gradableCount === 0) continue;
-      const entry = byId.get(exam.concurso.id) ?? { ...exam.concurso, examCount: 0, questionCount: 0 };
+      if (!exam.concurso || exam.gradableCount === 0 || (category && exam.category !== category)) continue;
+      const entry = byId.get(exam.concurso.id) ?? { ...exam.concurso, category: exam.category, examCount: 0, questionCount: 0 };
       entry.examCount++;
       entry.questionCount += exam.gradableCount;
       byId.set(exam.concurso.id, entry);
@@ -107,6 +108,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
       level: c.req.query('level') || undefined,
       uf: c.req.query('uf') || undefined,
       municipio: c.req.query('municipio') || undefined,
+      institution: c.req.query('institution') || undefined,
       concurso: c.req.query('concurso') || undefined,
     });
     return c.json(picked.map(({ question, exam }) => toPublicQuestion(question, exam.id, exam.label)));

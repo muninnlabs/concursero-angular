@@ -24,9 +24,10 @@ export interface ExamMetadata {
   status?: string;
 }
 
-export type ConcursoLevel = 'federal' | 'estadual' | 'municipal';
+/** Concursos: federal / estadual / municipal. Vestibulares: federal / estadual / privada (the university). */
+export type ConcursoLevel = 'federal' | 'estadual' | 'municipal' | 'privada';
 
-/** A concurso (one edital) and where it belongs, for the Concursos filters. */
+/** A concurso (one edital) or vestibular (one edition) and where it belongs, for the Concursos/Vestibulares filters. */
 export interface ConcursoInfo {
   id: string;
   /** e.g. "PRF 2021", "TCE RJ 2022 Procurador" */
@@ -45,6 +46,8 @@ export interface QuestionFilter {
   level?: string;
   uf?: string;
   municipio?: string;
+  /** The órgão or university (exam_metadata.institution). */
+  institution?: string;
   concurso?: string;
 }
 

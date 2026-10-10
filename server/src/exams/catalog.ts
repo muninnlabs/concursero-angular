@@ -5,6 +5,7 @@ export const CATEGORY_BY_FOLDER: Record<string, string> = {
   oab: 'OAB',
   enem: 'ENEM',
   concursos: 'CONCURSOS',
+  vestibulares: 'VESTIBULARES',
 };
 
 const VALID_ANSWER = /^[A-E]$/;
@@ -111,15 +112,19 @@ export function summarize(category: string, relativePath: string, data: ExamFile
   };
 }
 
-/** Whether an exam matches the level / state / município / concurso filters (exams outside Concursos never do). */
+/**
+ * Whether an exam matches the level / state / município / institution / concurso filters (exams without concurso
+ * info, i.e. ENEM and OAB, never do).
+ */
 export function matchesConcurso(exam: ExamSummary, filter: QuestionFilter): boolean {
-  if (!filter.level && !filter.uf && !filter.municipio && !filter.concurso) return true;
+  if (!filter.level && !filter.uf && !filter.municipio && !filter.institution && !filter.concurso) return true;
   const c: ConcursoInfo | undefined = exam.concurso;
   return (
     !!c &&
     (!filter.level || c.level === filter.level) &&
     (!filter.uf || c.uf === filter.uf) &&
     (!filter.municipio || c.municipio === filter.municipio) &&
+    (!filter.institution || c.institution === filter.institution) &&
     (!filter.concurso || c.id === filter.concurso)
   );
 }

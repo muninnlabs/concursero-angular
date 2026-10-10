@@ -35,10 +35,11 @@ export class PracticePage {
   readonly modo = input<string>();
   readonly categoria = input<string>();
   readonly materia = input<string>();
-  // Concursos filters (?level=estadual&uf=RJ&municipio=...&concurso=...), set by the dashboard.
+  // Concursos / Vestibulares filters (?level=estadual&uf=RJ&municipio=...&institution=...&concurso=...).
   readonly level = input<ConcursoLevel>();
   readonly uf = input<string>();
   readonly municipio = input<string>();
+  readonly institution = input<string>();
   readonly concurso = input<string>();
 
   protected readonly mode = computed<Mode>(() => (this.modo() === 'relampago' ? 'relampago' : 'mini'));
@@ -54,6 +55,7 @@ export class PracticePage {
       level: this.level() || undefined,
       uf: this.uf() || undefined,
       municipio: this.municipio() || undefined,
+      institution: this.institution() || undefined,
       concurso: this.concurso() || undefined,
     }),
     stream: ({ params }) => this.api.practiceQuestions(params),

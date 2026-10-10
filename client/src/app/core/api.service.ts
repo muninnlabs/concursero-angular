@@ -17,8 +17,8 @@ export class ApiService {
     return this.http.get<Question[]>('api/practice/questions', { params });
   }
 
-  concursos(): Observable<ConcursoInfo[]> {
-    return this.http.get<ConcursoInfo[]>('api/concursos');
+  concursos(category: string): Observable<ConcursoInfo[]> {
+    return this.http.get<ConcursoInfo[]>('api/concursos', { params: { category } });
   }
 
   subjects(category?: string): Observable<SubjectInfo[]> {
