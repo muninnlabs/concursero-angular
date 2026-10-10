@@ -3,7 +3,8 @@ import { ChangeDetectionStrategy, Component, DestroyRef, computed, effect, injec
 import { rxResource } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { ApiService, assetUrl } from '../../core/api.service';
-import type { GradedAnswer } from '../../core/models';
+import { CATEGORIES } from '../../core/categories';
+import type { ConcursoLevel, GradedAnswer } from '../../core/models';
 import { PreferencesService } from '../../core/preferences';
 import { Icon } from '../../shared/icon';
 
@@ -34,13 +35,27 @@ export class PracticePage {
   readonly modo = input<string>();
   readonly categoria = input<string>();
   readonly materia = input<string>();
+  // Concursos filters (?level=estadual&uf=RJ&municipio=...&concurso=...), set by the dashboard.
+  readonly level = input<ConcursoLevel>();
+  readonly uf = input<string>();
+  readonly municipio = input<string>();
+  readonly concurso = input<string>();
 
   protected readonly mode = computed<Mode>(() => (this.modo() === 'relampago' ? 'relampago' : 'mini'));
   protected readonly config = computed(() => MODES[this.mode()]);
   protected readonly category = computed(() => this.categoria() || 'ENEM');
+  protected readonly categoryLabel = computed(() => CATEGORIES.find((c) => c.id === this.category())?.label ?? this.category());
 
   protected readonly questions = rxResource({
-    params: () => ({ category: this.category(), count: this.config().count, subject: this.materia() || undefined }),
+    params: () => ({
+      category: this.category(),
+      count: this.config().count,
+      subject: this.materia() || undefined,
+      level: this.level() || undefined,
+      uf: this.uf() || undefined,
+      municipio: this.municipio() || undefined,
+      concurso: this.concurso() || undefined,
+    }),
     stream: ({ params }) => this.api.practiceQuestions(params),
   });
 

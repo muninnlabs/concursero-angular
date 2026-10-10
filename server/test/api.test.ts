@@ -290,6 +290,49 @@ describe('examLabel', () => {
   });
 });
 
+describe('concursos filters', () => {
+  function concursoExam(id: string, level: 'federal' | 'estadual' | 'municipal', uf: string | null, municipio: string | null, concurso: string): ExamFile {
+    const base = exam(id, 2021, [question(`${id}_q1`, 'C'), question(`${id}_q2`, 'E'), question(`${id}_q3`, null)]);
+    return {
+      ...base,
+      exam_metadata: { ...base.exam_metadata, level, uf, municipio, concurso: { id: concurso, name: concurso.toUpperCase() } },
+    };
+  }
+  const source = new MemoryExamSource();
+  source.add('CONCURSOS', 'a.json', concursoExam('prf_basicos', 'federal', null, null, 'prf_21'));
+  source.add('CONCURSOS', 'b.json', concursoExam('prf_especificos', 'federal', null, null, 'prf_21'));
+  source.add('CONCURSOS', 'c.json', concursoExam('pcrj', 'estadual', 'RJ', null, 'pcrj_21'));
+  source.add('CONCURSOS', 'd.json', concursoExam('pgm_recife', 'municipal', 'PE', 'Recife', 'pgm_recife_22'));
+  source.add('OAB', 'e.json', exam('oab_2025_44_tipo1', 2025, [question('oab_2025_44_tipo1_q1', 'A')]));
+  const concursosApp = createApp({ exams: source, store: createSqliteStore(':memory:'), verifyToken });
+
+  async function examIds(query: string) {
+    const res = await concursosApp.request(`/api/practice/questions?count=50&category=CONCURSOS&${query}`);
+    return [...new Set(((await res.json()) as { examId: string }[]).map((q) => q.examId))].sort();
+  }
+
+  test('lists each concurso once with its playable question count', async () => {
+    const res = await concursosApp.request('/api/concursos');
+    const body = (await res.json()) as { id: string; level: string; uf: string | null; examCount: number; questionCount: number }[];
+    assert.deepEqual(
+      body.map((c) => [c.id, c.level, c.uf, c.examCount, c.questionCount]),
+      [
+        ['pcrj_21', 'estadual', 'RJ', 1, 2],
+        ['pgm_recife_22', 'municipal', 'PE', 1, 2],
+        ['prf_21', 'federal', null, 2, 4],
+      ],
+    );
+  });
+
+  test('narrows practice questions by level, state, município and concurso', async () => {
+    assert.deepEqual(await examIds('level=federal'), ['prf_basicos', 'prf_especificos']);
+    assert.deepEqual(await examIds('level=estadual&uf=RJ'), ['pcrj']);
+    assert.deepEqual(await examIds('level=municipal&uf=PE&municipio=Recife'), ['pgm_recife']);
+    assert.deepEqual(await examIds('concurso=prf_21'), ['prf_basicos', 'prf_especificos']);
+    assert.deepEqual(await examIds('level=estadual&uf=SP'), []);
+  });
+});
+
 describe('countStreak', () => {
   const today = new Date('2026-09-26T15:00:00Z');
 

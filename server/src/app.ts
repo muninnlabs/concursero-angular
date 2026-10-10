@@ -1,6 +1,7 @@
 import { Hono, type MiddlewareHandler } from 'hono';
 import type { AuthUser, TokenVerifier } from './auth/firebase.ts';
 import { isPlayable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
+import type { ConcursoInfo } from './exams/types.ts';
 import { badgesFor, levelFor, longestStreak } from './users/profile.ts';
 import { countStreak, isoDay, type AnswerRecord, type UserStore } from './users/store.ts';
 
@@ -67,6 +68,19 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     return c.json({ exam: exam.summary, questions: exam.questions.map((q) => toPublicQuestion(q, exam.summary.id, exam.summary.label)) });
   });
 
+  /** Every concurso with practisable questions, for the level / state / município / concurso filters. */
+  app.get('/concursos', async (c) => {
+    const byId = new Map<string, ConcursoInfo & { examCount: number; questionCount: number }>();
+    for (const exam of await exams.list()) {
+      if (!exam.concurso || exam.gradableCount === 0) continue;
+      const entry = byId.get(exam.concurso.id) ?? { ...exam.concurso, examCount: 0, questionCount: 0 };
+      entry.examCount++;
+      entry.questionCount += exam.gradableCount;
+      byId.set(exam.concurso.id, entry);
+    }
+    return c.json([...byId.values()].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR')));
+  });
+
   /** Subjects with their practisable question counts, most questions first ("Assuntos"). */
   app.get('/subjects', async (c) => {
     const category = c.req.query('category');
@@ -90,6 +104,10 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     const picked = await randomQuestions(exams, count, {
       category: c.req.query('category') || undefined,
       subject: c.req.query('subject') || undefined,
+      level: c.req.query('level') || undefined,
+      uf: c.req.query('uf') || undefined,
+      municipio: c.req.query('municipio') || undefined,
+      concurso: c.req.query('concurso') || undefined,
     });
     return c.json(picked.map(({ question, exam }) => toPublicQuestion(question, exam.id, exam.label)));
   });

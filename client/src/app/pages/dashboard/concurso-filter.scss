@@ -1,0 +1,98 @@
+:host {
+  display: block;
+}
+
+.filter {
+  margin-top: 20px;
+  padding: 20px 22px;
+}
+
+.filter__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  h2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+}
+
+.filter__clear {
+  padding: 4px 8px;
+  border: 0;
+  color: var(--primary);
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.level {
+  min-height: 36px;
+  padding: 0 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  background: var(--surface);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.level--active {
+  color: var(--primary);
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+
+.selects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+
+  label {
+    display: grid;
+    gap: 6px;
+    min-width: 0;
+  }
+  span {
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+  }
+  select {
+    width: 100%;
+    min-height: 42px;
+    padding: 0 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    background: var(--surface);
+    font: inherit;
+    font-size: 14px;
+  }
+}
+.selects__concurso {
+  grid-column: 1 / -1;
+}
+
+.filter__note {
+  margin-top: 12px;
+  color: var(--text-muted);
+  font-size: 14px;
+
+  strong {
+    color: var(--text);
+  }
+}

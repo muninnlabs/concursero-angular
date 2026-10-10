@@ -1,0 +1,73 @@
+<section class="card filter" aria-labelledby="concurso-filter-title">
+  <div class="filter__head">
+    <h2 id="concurso-filter-title"><app-icon name="filter" [size]="18" /> Filtrar concursos</h2>
+    @if (hasFilter()) {
+      <button type="button" class="filter__clear" (click)="state.setLevel(undefined)">Limpar</button>
+    }
+  </div>
+
+  <div class="levels" role="radiogroup" aria-label="Nível">
+    @for (level of levels; track level.label) {
+      <button
+        type="button"
+        role="radio"
+        class="level"
+        [class.level--active]="filter().level === level.id"
+        [attr.aria-checked]="filter().level === level.id"
+        (click)="state.setLevel(level.id)"
+      >
+        {{ level.label }}
+      </button>
+    }
+  </div>
+
+  @if (failed()) {
+    <p class="filter__note">Não foi possível carregar a lista de concursos.</p>
+  } @else {
+    <div class="selects">
+      @if (showState()) {
+        <label>
+          <span>Estado</span>
+          <select [value]="filter().uf ?? ''" (change)="state.setUf(value($event))" [disabled]="loading()">
+            <option value="">Todos os estados</option>
+            @for (s of states(); track s.uf) {
+              <option [value]="s.uf" [selected]="filter().uf === s.uf">{{ s.name }}</option>
+            }
+          </select>
+        </label>
+      }
+
+      @if (showMunicipio()) {
+        <label>
+          <span>Município</span>
+          <select [value]="filter().municipio ?? ''" (change)="state.setMunicipio(value($event))">
+            <option value="">Todos os municípios</option>
+            @for (m of municipios(); track m) {
+              <option [value]="m" [selected]="filter().municipio === m">{{ m }}</option>
+            }
+          </select>
+        </label>
+      }
+
+      <label class="selects__concurso">
+        <span>Concurso</span>
+        <select [value]="filter().concurso ?? ''" (change)="state.setConcurso(value($event))" [disabled]="loading()">
+          <option value="">Todos os concursos ({{ options().length }})</option>
+          @for (c of options(); track c.id) {
+            <option [value]="c.id" [selected]="filter().concurso === c.id">
+              {{ c.name }}{{ c.municipio ? ' · ' + c.municipio : c.uf ? ' · ' + c.uf : '' }} — {{ number(c.questionCount) }} questões
+            </option>
+          }
+        </select>
+      </label>
+    </div>
+
+    <p class="filter__note">
+      @if (loading()) {
+        Carregando concursos…
+      } @else {
+        <strong>{{ number(questionCount()) }}</strong> questões disponíveis com este filtro.
+      }
+    </p>
+  }
+</section>

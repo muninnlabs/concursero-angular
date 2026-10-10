@@ -15,8 +15,37 @@ export interface ExamMetadata {
   booklet_color: string;
   /** Readable name for exams whose id examLabel() can't decode (concursos), e.g. "ANP 2022 · Conhecimentos gerais". */
   label?: string;
+  /** Concursos only: where the exam belongs and which concurso (edital) it is part of. */
+  level?: ConcursoLevel;
+  uf?: string | null;
+  municipio?: string | null;
+  concurso?: { id: string; name: string };
   /** Set by the data pipeline when the whole exam must not be served ("incomplete", "superseded"). */
   status?: string;
+}
+
+export type ConcursoLevel = 'federal' | 'estadual' | 'municipal';
+
+/** A concurso (one edital) and where it belongs, for the Concursos filters. */
+export interface ConcursoInfo {
+  id: string;
+  /** e.g. "PRF 2021", "TCE RJ 2022 Procurador" */
+  name: string;
+  institution: string;
+  level: ConcursoLevel;
+  uf: string | null;
+  municipio: string | null;
+  year: number;
+}
+
+/** Filters for practice questions; every field is optional. */
+export interface QuestionFilter {
+  category?: string;
+  subject?: string;
+  level?: string;
+  uf?: string;
+  municipio?: string;
+  concurso?: string;
 }
 
 export interface Question {
@@ -81,4 +110,6 @@ export interface ExamSummary {
   subjects: string[];
   /** Practisable questions per subject (questions without a subject aren't counted). */
   subjectCounts: Record<string, number>;
+  /** Concursos only. */
+  concurso?: ConcursoInfo;
 }

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import type { Observable } from 'rxjs';
-import type { ActivityStats, Catalog, GradedAnswer, Question, Simulado, StudentProfile, SubjectInfo, User, UserStats } from './models';
+import type { ActivityStats, Catalog, ConcursoFilter, ConcursoInfo, GradedAnswer, Question, Simulado, StudentProfile, SubjectInfo, User, UserStats } from './models';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
@@ -11,10 +11,14 @@ export class ApiService {
     return this.http.get<Catalog>('api/catalog');
   }
 
-  practiceQuestions(options: { category: string; count: number; subject?: string }): Observable<Question[]> {
-    const params: Record<string, string | number> = { category: options.category, count: options.count };
-    if (options.subject) params['subject'] = options.subject;
+  practiceQuestions(options: { category: string; count: number; subject?: string } & ConcursoFilter): Observable<Question[]> {
+    const params: Record<string, string | number> = {};
+    for (const [key, value] of Object.entries(options)) if (value !== undefined && value !== '') params[key] = value;
     return this.http.get<Question[]>('api/practice/questions', { params });
+  }
+
+  concursos(): Observable<ConcursoInfo[]> {
+    return this.http.get<ConcursoInfo[]>('api/concursos');
   }
 
   subjects(category?: string): Observable<SubjectInfo[]> {
