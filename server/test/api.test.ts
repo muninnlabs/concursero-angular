@@ -267,6 +267,27 @@ describe('examLabel', () => {
     const { body } = await api('GET', '/api/practice/questions?count=1&category=OAB');
     assert.equal(body[0].examLabel, 'OAB · 44º Exame (2025) · Tipo 1');
   });
+
+  test('prefers exam_metadata.label (concursos) and grades Certo/Errado items', async () => {
+    const id = 'cebraspe_2022_anp_22_conhecimentos_gerais';
+    const item = {
+      ...question(`${id}_q1`, 'E'),
+      options: [
+        { letter: 'C', text: 'Certo', is_correct: false },
+        { letter: 'E', text: 'Errado', is_correct: true },
+      ],
+    };
+    const source = new MemoryExamSource();
+    source.add('CONCURSOS', `assets/provas/concursos/${id}.json`, {
+      exam_metadata: { ...exam(id, 2022, []).exam_metadata, label: 'ANP 2022 · Conhecimentos gerais' },
+      questions: [item],
+    });
+    const [summary] = await source.list();
+    assert.equal(summary.label, 'ANP 2022 · Conhecimentos gerais');
+    assert.equal(summary.gradableCount, 1);
+    const picked = await randomQuestions(source, 1, { category: 'CONCURSOS' });
+    assert.equal(toPublicQuestion(picked[0].question, id, summary.label).examLabel, 'ANP 2022 · Conhecimentos gerais');
+  });
 });
 
 describe('countStreak', () => {
