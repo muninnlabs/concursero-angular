@@ -19,6 +19,30 @@ export interface Catalog {
   categories: { category: string; examCount: number; questionCount: number }[];
 }
 
+export type ConcursoLevel = 'federal' | 'estadual' | 'municipal';
+
+/** A concurso (one edital) with practisable questions, from GET /api/concursos. */
+export interface ConcursoInfo {
+  id: string;
+  /** e.g. "PRF 2021" */
+  name: string;
+  institution: string;
+  level: ConcursoLevel;
+  uf: string | null;
+  municipio: string | null;
+  year: number;
+  examCount: number;
+  questionCount: number;
+}
+
+/** Narrows Concursos practice; every field is optional. */
+export interface ConcursoFilter {
+  level?: ConcursoLevel;
+  uf?: string;
+  municipio?: string;
+  concurso?: string;
+}
+
 export interface ContextText {
   type: string;
   title?: string | null;

@@ -3,7 +3,7 @@
 <header class="head">
   <div>
     <h1>{{ config().title }}</h1>
-    <p>{{ category() }}@if (materia()) { · {{ materia() }} }</p>
+    <p>{{ categoryLabel() }}@if (materia()) { · {{ materia() }} }</p>
   </div>
   @if (!results()) {
     <span class="clock" [class.clock--over]="remaining() === 0"><app-icon name="timer" [size]="16" /> {{ clock() }}</span>
@@ -38,7 +38,7 @@
 
   <article class="card question">
     <p class="question__meta">
-      Questão {{ question.question_number }} · {{ question.subject }}
+      Questão {{ question.question_number }}@if (question.subject) { · {{ question.subject }} }
       <span class="question__exam">{{ question.examLabel }}</span>
     </p>
 

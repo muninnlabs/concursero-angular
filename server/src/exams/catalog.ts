@@ -1,4 +1,4 @@
-import type { ExamFile, ExamSummary, PublicQuestion, Question } from './types.ts';
+import type { ConcursoInfo, ExamFile, ExamSummary, PublicQuestion, Question, QuestionFilter } from './types.ts';
 
 /** Folder name under assets/provas → category shown in the app. */
 export const CATEGORY_BY_FOLDER: Record<string, string> = {
@@ -95,7 +95,33 @@ export function summarize(category: string, relativePath: string, data: ExamFile
     gradableCount: data.questions.filter(isPlayable).length,
     subjects: [...new Set(data.questions.map((q) => q.subject).filter((s) => s != null))],
     subjectCounts: countSubjects(data.questions.filter(isPlayable)),
+    ...(meta.concurso && meta.level
+      ? {
+          concurso: {
+            id: meta.concurso.id,
+            name: meta.concurso.name,
+            institution: meta.institution,
+            level: meta.level,
+            uf: meta.uf ?? null,
+            municipio: meta.municipio ?? null,
+            year: meta.year,
+          },
+        }
+      : {}),
   };
+}
+
+/** Whether an exam matches the level / state / município / concurso filters (exams outside Concursos never do). */
+export function matchesConcurso(exam: ExamSummary, filter: QuestionFilter): boolean {
+  if (!filter.level && !filter.uf && !filter.municipio && !filter.concurso) return true;
+  const c: ConcursoInfo | undefined = exam.concurso;
+  return (
+    !!c &&
+    (!filter.level || c.level === filter.level) &&
+    (!filter.uf || c.uf === filter.uf) &&
+    (!filter.municipio || c.municipio === filter.municipio) &&
+    (!filter.concurso || c.id === filter.concurso)
+  );
 }
 
 export interface LoadedExam {
@@ -158,14 +184,15 @@ function shuffle<T>(items: T[]): T[] {
 export async function randomQuestions(
   source: ExamSource,
   count: number,
-  filter: { category?: string; subject?: string } = {},
+  filter: QuestionFilter = {},
 ): Promise<PickedQuestion[]> {
   const exams = shuffle(
     (await source.list()).filter(
       (e) =>
         e.gradableCount > 0 &&
         (!filter.category || e.category === filter.category) &&
-        (!filter.subject || e.subjects.includes(filter.subject)),
+        (!filter.subject || e.subjects.includes(filter.subject)) &&
+        matchesConcurso(e, filter),
     ),
   );
 

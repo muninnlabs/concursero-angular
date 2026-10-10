@@ -20,6 +20,10 @@
   }
 </div>
 
+@if (isConcursos()) {
+  <app-concurso-filter />
+}
+
 <section class="stats" aria-label="Seu desempenho">
   @for (card of statCards(); track card.label) {
     <article class="card stat">
@@ -42,12 +46,12 @@
     <p>Responda uma questão aleatória em menos de 30 segundos.</p>
     <div class="next-subject">
       <small>Próxima matéria</small>
-      <strong>{{ nextSubject() ?? 'Carregando…' }}</strong>
+      <strong>{{ nextQuestionLoading() ? 'Carregando…' : (nextSubject() ?? 'Matérias variadas') }}</strong>
     </div>
     <a
       class="btn btn--dark"
       routerLink="/app/praticar"
-      [queryParams]="{ modo: 'relampago', categoria: categoryState.selected(), materia: nextSubject() }"
+      [queryParams]="{ modo: 'relampago', categoria: categoryState.selected(), materia: nextSubject(), ...practiceFilter() }"
       >Começar agora</a
     >
   </article>
@@ -62,7 +66,7 @@
         <span class="meta__xp"><app-icon name="star" [size]="14" [filled]="true" /> até +170 XP</span>
       </p>
     </div>
-    <a class="btn btn--primary" routerLink="/app/praticar" [queryParams]="{ modo: 'mini', categoria: categoryState.selected() }"
+    <a class="btn btn--primary" routerLink="/app/praticar" [queryParams]="{ modo: 'mini', categoria: categoryState.selected(), ...practiceFilter() }"
       >Iniciar simulado</a
     >
   </article>
