@@ -3,6 +3,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { catchError, of } from 'rxjs';
 import { ApiService } from '../../core/api.service';
+import { LEGAL } from '../../core/legal';
 import { AuthService } from '../../core/auth.service';
 import { Icon, type IconName } from '../../shared/icon';
 import { Logo } from '../../shared/logo';
@@ -29,6 +30,7 @@ interface PricingPlan {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LandingPage {
+  protected readonly legal = LEGAL;
   private readonly auth = inject(AuthService);
   private readonly catalog = toSignal(inject(ApiService).catalog().pipe(catchError(() => of(null))));
 

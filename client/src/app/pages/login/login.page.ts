@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject, input, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../core/auth.service';
+import { LEGAL } from '../../core/legal';
 import { Logo } from '../../shared/logo';
 
 @Component({
@@ -17,10 +18,14 @@ export class LoginPage {
   /** ?redirect= is where to go after signing in. */
   readonly redirect = input<string>();
 
+  protected readonly legal = LEGAL;
+  /** The user must accept the terms and the privacy policy before signing in. */
+  protected readonly accepted = signal(false);
   protected readonly submitting = signal(false);
   protected readonly error = signal<string | null>(null);
 
   protected async signIn() {
+    if (!this.accepted()) return;
     this.submitting.set(true);
     this.error.set(null);
     try {
