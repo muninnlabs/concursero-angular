@@ -7,7 +7,7 @@
   </div>
 
   <div class="levels" role="radiogroup" aria-label="Nível">
-    @for (level of config().levels; track level.label) {
+    @for (level of levels(); track level.label) {
       <button
         type="button"
         role="radio"
