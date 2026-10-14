@@ -6,6 +6,7 @@ import { AuthService } from '../../core/auth.service';
 import { CATEGORIES, CategoryState } from '../../core/categories';
 import { ConcursoFilterState, filterParams } from '../../core/concurso-filter';
 import type { Simulado } from '../../core/models';
+import { AdSlot } from '../../shared/ad-slot';
 import { Icon, type IconName } from '../../shared/icon';
 import { ConcursoFilterCard } from './concurso-filter';
 
@@ -25,7 +26,7 @@ const CATEGORY_STYLE: Record<string, { icon: IconName; tone: StatCard['tone'] }>
 
 @Component({
   selector: 'app-dashboard-page',
-  imports: [RouterLink, Icon, ConcursoFilterCard],
+  imports: [RouterLink, AdSlot, Icon, ConcursoFilterCard],
   templateUrl: './dashboard.page.html',
   styleUrl: './dashboard.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
