@@ -1,16 +1,21 @@
 /**
- * Ad placements. For now every slot renders a placeholder box of the right
- * size. AdMob only serves native mobile apps; on the web the same Google
- * account uses AdSense: once it's approved, fill in `client` (ca-pub-…) and
- * each placement's `slot` ID, and AdSlot can render the real unit instead.
+ * Ad placements (Google AdSense, publisher ca-pub-8126535492816869; the same
+ * account as the apps' AdMob). A placement without a `slot` ID renders a
+ * placeholder box of the right size; once the site is approved, create one ad
+ * unit per placement in AdSense and paste its slot ID here — AdSlot then loads
+ * adsbygoogle.js and renders the real unit.
  */
 export const ADS = {
   /** Premium users never see ads. */
   enabled: true,
-  client: null as string | null,
+  client: 'ca-pub-8126535492816869' as string | null,
   placements: {
+    'dashboard-top': { format: 'leaderboard', slot: null as string | null },
     'stats-inline': { format: 'leaderboard', slot: null as string | null },
     'subjects-grid': { format: 'rectangle', slot: null as string | null },
+    'profile-side': { format: 'card', slot: null as string | null },
+    'settings-inline': { format: 'inline', slot: null as string | null },
+    'landing-top': { format: 'leaderboard', slot: null as string | null },
   },
 } as const;
 

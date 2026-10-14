@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, ElementRef, computed, inject, signa
 import { ApiService } from '../../core/api.service';
 import { AuthService } from '../../core/auth.service';
 import { PreferencesService, type Preferences } from '../../core/preferences';
+import { AdSlot } from '../../shared/ad-slot';
 import { Icon, type IconName } from '../../shared/icon';
 
 interface SecurityLink {
@@ -25,7 +26,7 @@ const SECURITY_LINKS: SecurityLink[] = [
 
 @Component({
   selector: 'app-settings-page',
-  imports: [Icon],
+  imports: [AdSlot, Icon],
   templateUrl: './settings.page.html',
   styleUrl: './settings.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

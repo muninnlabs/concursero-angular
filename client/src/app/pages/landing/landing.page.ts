@@ -5,6 +5,7 @@ import { catchError, of } from 'rxjs';
 import { ApiService } from '../../core/api.service';
 import { LEGAL } from '../../core/legal';
 import { AuthService } from '../../core/auth.service';
+import { AdSlot } from '../../shared/ad-slot';
 import { Icon, type IconName } from '../../shared/icon';
 import { Logo } from '../../shared/logo';
 
@@ -24,7 +25,7 @@ interface PricingPlan {
 
 @Component({
   selector: 'app-landing-page',
-  imports: [RouterLink, Icon, Logo],
+  imports: [RouterLink, AdSlot, Icon, Logo],
   templateUrl: './landing.page.html',
   styleUrl: './landing.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -5,6 +5,7 @@ import { RouterLink } from '@angular/router';
 import { ApiService } from '../../core/api.service';
 import { AuthService } from '../../core/auth.service';
 import type { Badge, RankingEntry, Simulado, StudentProfile } from '../../core/models';
+import { AdSlot } from '../../shared/ad-slot';
 import { Icon, type IconName } from '../../shared/icon';
 
 interface HeatCell {
@@ -20,7 +21,7 @@ const MONTHS = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', '
 
 @Component({
   selector: 'app-profile-page',
-  imports: [RouterLink, Icon],
+  imports: [RouterLink, AdSlot, Icon],
   templateUrl: './profile.page.html',
   styleUrl: './profile.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
