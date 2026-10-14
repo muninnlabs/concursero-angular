@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject, input } from '@angular/core';
 import { rxResource } from '@angular/core/rxjs-interop';
 import { ApiService } from '../../core/api.service';
 import { ConcursoFilterState } from '../../core/concurso-filter';
@@ -84,6 +84,22 @@ export class ConcursoFilterCard {
 
   private readonly all = computed<ConcursoInfo[]>(() => this.concursos.value() ?? []);
   protected readonly filter = computed(() => this.state.filter(this.category()));
+
+  /** Only levels that have questions (e.g. no "Privada" while no private university is in the data). */
+  protected readonly levels = computed(() => {
+    const present = new Set(this.all().map((c) => c.level));
+    return this.config().levels.filter((l) => !l.id || present.has(l.id));
+  });
+
+  constructor() {
+    // A remembered level that no longer has questions would leave the filter empty: fall back to "Todos".
+    effect(() => {
+      const level = this.filter().level;
+      if (level && this.concursos.hasValue() && !this.all().some((c) => c.level === level)) {
+        this.state.setLevel(this.category(), undefined);
+      }
+    });
+  }
 
   private readonly inLevel = computed(() => {
     const { level } = this.filter();
