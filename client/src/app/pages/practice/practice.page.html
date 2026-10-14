@@ -47,7 +47,16 @@
         @if (context.title) {
           <strong>{{ context.title }}</strong>
         }
-        @if (context.content) {
+        @if (context.lines?.length) {
+          <ol class="context__lines" aria-label="Texto com linhas numeradas">
+            @for (line of context.lines; track $index) {
+              <li>
+                <span class="context__n">{{ line.n }}</span>
+                <span>{{ line.text }}</span>
+              </li>
+            }
+          </ol>
+        } @else if (context.content) {
           <p>{{ dewrap(context.content) }}</p>
         }
         @if (assetUrl(context.image_url); as src) {

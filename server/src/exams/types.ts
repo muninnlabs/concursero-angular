@@ -75,6 +75,8 @@ export interface ContextText {
   content?: string | null;
   source?: string | null;
   image_url?: string | null;
+  /** A passage printed with line numbers: its lines as printed, `n` where the margin shows a number. */
+  lines?: { n: number | null; text: string }[] | null;
 }
 
 export interface QuestionOption {

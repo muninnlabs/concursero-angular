@@ -136,6 +136,26 @@
     margin-top: 12px;
   }
 }
+/* Line numbers as printed in the prova, so items citing "(linha 12)" can be checked. */
+.context__lines {
+  margin-top: 6px;
+  padding: 0;
+  list-style: none;
+  li {
+    display: grid;
+    grid-template-columns: 2.4em minmax(0, 1fr);
+    gap: 10px;
+    min-height: 1.65em;
+  }
+}
+.context__n {
+  color: var(--text-subtle);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  user-select: none;
+  padding-top: 0.2em;
+}
 .question__image {
   margin-top: 20px;
   border-radius: 8px;

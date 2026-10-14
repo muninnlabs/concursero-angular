@@ -219,6 +219,13 @@ describe('question content', () => {
     assert.ok(!('image_url' in single));
   });
 
+  test('a passage printed with line numbers keeps its numbered lines', () => {
+    const lines = [{ n: 1, text: 'Tom Zé, o Último Tropicalista (Edições Sesc), do italiano' }, { n: null, text: 'Pietro Scaramuzzo' }];
+    const passage = { type: 'numbered', title: null, content: lines.map((l) => l.text).join('\n'), source: null, lines };
+    const sent = toPublicQuestion({ ...question('x_q1', 'A'), context_texts: [passage] }, 'x');
+    assert.deepEqual(sent.context_texts[0].lines, lines);
+  });
+
   test('questions with empty options or no body are not usable', () => {
     assert.equal(isUsable(question('x_q1', 'A')), true);
     const emptyOptions = { ...question('x_q2', 'A'), options: ['A', 'B', 'C', 'D'].map((letter) => ({ letter, text: '', is_correct: false })) };
