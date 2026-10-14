@@ -359,6 +359,27 @@ describe('concursos filters', () => {
   });
 });
 
+describe('explanations', () => {
+  const id = 'acafe_2024_1_prova_objetiva';
+  const source = new MemoryExamSource();
+  source.add('VESTIBULARES', 'acafe.json', exam(id, 2024, [{ ...question(`${id}_q1`, 'B'), explanation: 'B, porque sim.' }]));
+  const explApp = createApp({ exams: source, store: createSqliteStore(':memory:'), verifyToken });
+
+  test('are not sent with the question, only with the graded answer', async () => {
+    const practice = await explApp.request('/api/practice/questions?count=1');
+    const [q] = (await practice.json()) as Record<string, unknown>[];
+    assert.equal('explanation' in q, false);
+    const graded = await explApp.request('/api/answers', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', authorization: 'Bearer valid:expl' },
+      body: JSON.stringify({ answers: [{ questionId: `${id}_q1`, examId: id, selected: 'A' }] }),
+    });
+    const body = (await graded.json()) as { results: { isCorrect: boolean; explanation?: string }[] };
+    assert.equal(body.results[0].isCorrect, false);
+    assert.equal(body.results[0].explanation, 'B, porque sim.');
+  });
+});
+
 describe('countStreak', () => {
   const today = new Date('2026-09-26T15:00:00Z');
 

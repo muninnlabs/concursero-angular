@@ -139,7 +139,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     }
 
     const user = c.get('user');
-    const records: (AnswerRecord & { correctAnswer: string })[] = [];
+    const records: (AnswerRecord & { correctAnswer: string; explanation: string | null })[] = [];
     for (const answer of submitted) {
       const exam = await exams.get(String(answer?.examId));
       const question = exam?.questions.find((q) => q.id === String(answer?.questionId));
@@ -156,6 +156,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
         isCorrect: selected === question.correct_answer,
         durationMs: validDuration(answer?.durationMs),
         correctAnswer: question.correct_answer!,
+        explanation: question.explanation ?? null,
       });
     }
 
@@ -171,7 +172,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     await store.upsertUser({ id: user.uid, name: user.name, email: user.email });
     const saved = await store.recordAnswers(
       user.uid,
-      records.map(({ correctAnswer: _key, ...record }) => record),
+      records.map(({ correctAnswer: _key, explanation: _explanation, ...record }) => record),
       simulado,
     );
     return c.json(
@@ -181,6 +182,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
           selected: r.selected,
           isCorrect: r.isCorrect,
           correctAnswer: r.correctAnswer,
+          ...(r.explanation ? { explanation: r.explanation } : {}),
         })),
         simulado: saved,
       },

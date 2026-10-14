@@ -91,6 +91,13 @@
         </button>
       }
     </div>
+
+    @if (resultFor().get(question.id)?.explanation; as explanation) {
+      <section class="explanation" aria-label="Explicação">
+        <strong>Explicação</strong>
+        <p>{{ dewrap(explanation) }}</p>
+      </section>
+    }
   </article>
 
   @if (error(); as message) {
