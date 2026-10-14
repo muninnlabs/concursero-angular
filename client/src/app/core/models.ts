@@ -83,6 +83,8 @@ export interface GradedAnswer {
   selected: string;
   isCorrect: boolean;
   correctAnswer: string;
+  /** Why the correct alternative is correct, when the banca published it. */
+  explanation?: string;
 }
 
 export interface Simulado {

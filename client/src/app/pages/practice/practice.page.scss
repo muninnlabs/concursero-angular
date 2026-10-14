@@ -222,3 +222,24 @@
   gap: 12px;
   margin-top: 20px;
 }
+
+.explanation {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-left: 3px solid var(--success);
+  border-radius: 10px;
+  background: var(--success-soft);
+
+  strong {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--success);
+    font-size: 14px;
+  }
+  p {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: pre-line;
+  }
+}

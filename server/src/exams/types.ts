@@ -65,6 +65,8 @@ export interface Question {
   correct_answer: string | null;
   /** Set by the data pipeline when a figure/option couldn't be recovered; hidden until fixed. */
   review?: { status: string; reasons: string[] };
+  /** Why the correct alternative is correct (published by some bancas, e.g. ACAFE); only sent after grading. */
+  explanation?: string | null;
 }
 
 export interface ContextText {
@@ -86,7 +88,7 @@ export interface QuestionOption {
  * A question as sent to the browser: the answer key stays on the server and
  * image_url is normalized to image_urls (always a list).
  */
-export type PublicQuestion = Omit<Question, 'correct_answer' | 'options' | 'image_url'> & {
+export type PublicQuestion = Omit<Question, 'correct_answer' | 'options' | 'image_url' | 'explanation'> & {
   image_urls: string[];
   examId: string;
   /** e.g. "ENEM 2013 · Dia 1 · Caderno Azul" */

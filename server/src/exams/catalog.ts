@@ -64,7 +64,8 @@ export function examLabel(examId: string): string {
 }
 
 export function toPublicQuestion(question: Question, examId: string, label = examLabel(examId)): PublicQuestion {
-  const { correct_answer: _answer, options, image_url, ...rest } = question;
+  // The answer key and its explanation stay on the server until the answer is graded.
+  const { correct_answer: _answer, explanation: _explanation, options, image_url, ...rest } = question;
   return {
     ...rest,
     image_urls: imageList(image_url),
