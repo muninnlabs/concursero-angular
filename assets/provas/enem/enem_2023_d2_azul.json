@@ -885,7 +885,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "fractions lost in the PDF text"
+        ]
+      }
     },
     {
       "id": "enem_2023_d2_azul_q110",

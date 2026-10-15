@@ -3141,7 +3141,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "options are pictures that were not captured"
+        ]
+      }
     },
     {
       "id": "enem_2016_d2_azul_q155",
