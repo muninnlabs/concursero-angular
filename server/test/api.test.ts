@@ -41,8 +41,15 @@ exams.add('OAB', `assets/provas/oab/${EXAM}.json`, exam(EXAM, 2025, [
 ]));
 
 // Tokens look like "valid:<uid>" in tests instead of real Firebase JWTs.
+// "valid:premium-…" signs in with an account on the Premium list (store.ts).
 const verifyToken: TokenVerifier = async (token) =>
-  token.startsWith('valid:') ? { uid: token.slice(6), name: 'Carlos Silva', email: 'Carlos@Example.com' } : undefined;
+  token.startsWith('valid:')
+    ? {
+        uid: token.slice(6),
+        name: 'Carlos Silva',
+        email: token.startsWith('valid:premium-') ? 'AlexandreArteDesigner@gmail.com' : 'Carlos@Example.com',
+      }
+    : undefined;
 
 const app = createApp({ exams, store: createSqliteStore(':memory:'), verifyToken });
 
@@ -190,6 +197,38 @@ describe('signed-in user', () => {
     assert.equal(res.status, 204);
     assert.equal((await api('GET', '/api/me/stats', undefined, uid)).body.answered, 0);
     assert.deepEqual((await api('GET', '/api/me/simulados', undefined, uid)).body, []);
+  });
+
+  test('insights are Premium only', async () => {
+    const { status } = await api('GET', '/api/me/insights', undefined, token);
+    assert.equal(status, 403);
+  });
+
+  test('insights: weakest subjects, timing and accuracy by year, institution and part of day', async () => {
+    const premium = 'valid:premium-1';
+    assert.equal((await api('GET', '/api/auth/me', undefined, premium)).body.plan, 'premium');
+    const answers = [
+      ...Array.from({ length: 5 }, () => ({ questionId: `${EXAM}_q2`, examId: EXAM, selected: 'B', durationMs: 40_000 })),
+      ...Array.from({ length: 4 }, () => ({ questionId: `${EXAM}_q1`, examId: EXAM, selected: 'C', durationMs: 20_000 })),
+      { questionId: `${EXAM}_q1`, examId: EXAM, selected: 'A', durationMs: 40_000 },
+    ];
+    await api('POST', '/api/answers', { answers }, premium);
+
+    const { status, body } = await api('GET', '/api/me/insights?days=0&category=OAB&tz=180', undefined, premium);
+    assert.equal(status, 200);
+    assert.equal(body.days, null);
+    assert.deepEqual(body.totals, { answered: 10, correct: 4, avgSeconds: 32 });
+    assert.deepEqual(body.timing, { correct: 20, wrong: 40 });
+    // Direito Civil 0/5 first; Direito Penal 4/5 too, but it's still above the 5-answer floor.
+    assert.deepEqual(
+      body.weakest.map((s: { subject: string; answered: number; correct: number }) => [s.subject, s.answered, s.correct]),
+      [['Direito Civil', 5, 0], ['Direito Penal', 5, 4]],
+    );
+    assert.deepEqual(body.byYear, [{ year: 2025, answered: 10, correct: 4 }]);
+    assert.deepEqual(body.byInstitution, [{ institution: 'OAB', answered: 10, correct: 4 }]);
+    assert.equal(body.byDayPart.reduce((n: number, p: { answered: number }) => n + p.answered, 0), 10);
+    assert.equal(body.weekly.length, 12);
+    assert.deepEqual([body.weekly.at(-1).answered, body.weekly.at(-1).correct], [10, 4]);
   });
 });
 
