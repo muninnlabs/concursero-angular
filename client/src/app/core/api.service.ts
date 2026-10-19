@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import type { Observable } from 'rxjs';
-import type { ActivityStats, Catalog, ConcursoFilter, ConcursoInfo, GradedAnswer, Question, Simulado, StudentProfile, SubjectInfo, User, UserStats } from './models';
+import type { ActivityStats, Catalog, ConcursoFilter, ConcursoInfo, GradedAnswer, Insights, Question, Simulado, StudentProfile, SubjectInfo, User, UserStats } from './models';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
@@ -32,6 +32,11 @@ export class ApiService {
     return this.http.post<{ results: GradedAnswer[]; simulado?: Simulado }>('api/answers', { answers, simulado });
   }
 
+  /** "Reportar erro": flags the question for review. */
+  reportQuestion(report: { examId: string; questionId: string; reason: string; comment?: string }): Observable<{ ok: true }> {
+    return this.http.post<{ ok: true }>('api/questions/reports', report);
+  }
+
   stats(category?: string): Observable<UserStats> {
     return this.http.get<UserStats>('api/me/stats', { params: category ? { category } : {} });
   }
@@ -40,6 +45,12 @@ export class ApiService {
   activity(days: number, category?: string): Observable<ActivityStats> {
     const params = { days, tz: new Date().getTimezoneOffset(), ...(category ? { category } : {}) };
     return this.http.get<ActivityStats>('api/me/activity', { params });
+  }
+
+  /** Premium only (403 otherwise). `days` 30, 90 or 0 for all time. */
+  insights(days: number, category?: string): Observable<Insights> {
+    const params = { days, tz: new Date().getTimezoneOffset(), ...(category ? { category } : {}) };
+    return this.http.get<Insights>('api/me/insights', { params });
   }
 
   profile(): Observable<StudentProfile> {

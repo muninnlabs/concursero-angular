@@ -5,6 +5,13 @@
 
 export type Plan = 'free' | 'premium';
 
+/** Accounts treated as Premium whatever their stored plan, until payments exist. */
+const PREMIUM_EMAILS = new Set(['alexandreartedesigner@gmail.com']);
+
+export function planFor(email: string, stored: Plan): Plan {
+  return PREMIUM_EMAILS.has(email.toLowerCase()) ? 'premium' : stored;
+}
+
 /** Identity comes from Firebase Authentication (Google sign-in); `id` is the Firebase uid. */
 export interface User {
   id: string;
@@ -26,6 +33,25 @@ export interface AnswerRecord {
   isCorrect: boolean;
   /** Time spent on the question, when the client measured it. */
   durationMs?: number | null;
+}
+
+/** Why a student flags a question; the labels live in the client's report dialog. */
+export const REPORT_REASONS = [
+  'wrong_answer',
+  'missing_image',
+  'missing_text',
+  'wrong_text',
+  'wrong_options',
+  'wrong_subject',
+  'other',
+] as const;
+export type ReportReason = (typeof REPORT_REASONS)[number];
+
+export interface QuestionReport {
+  questionId: string;
+  examId: string;
+  reason: ReportReason;
+  comment: string | null;
 }
 
 export interface SimuladoRecord {
@@ -90,6 +116,29 @@ export interface ProfileStats {
   weeklyUsers: number;
 }
 
+/** Raw numbers behind "Análise Avançada" (Premium); grouping by exam year, institution and part of day happens in app.ts. */
+export interface InsightStats {
+  totals: PeriodTotals;
+  /** Mean seconds on questions answered right / wrong; null without timed answers. */
+  timing: { correct: number | null; wrong: number | null };
+  bySubject: { subject: string; answered: number; correct: number; avgSeconds: number | null }[];
+  byExam: { examId: string; answered: number; correct: number }[];
+  /** Local hour 0–23. */
+  byHour: { hour: number; answered: number; correct: number }[];
+  /** The last INSIGHT_WEEKS weeks (whatever the period), oldest first; `start` is the local Monday. */
+  weekly: { start: string; answered: number; correct: number }[];
+}
+
+export const INSIGHT_WEEKS = 12;
+
+export interface InsightOptions {
+  /** Last `days` local days; null for all time. */
+  days: number | null;
+  category?: string;
+  tzOffsetMinutes?: number;
+  today?: Date;
+}
+
 export const RANKING_TOP = 10;
 
 export const RANKING_MIN_ANSWERS = 10;
@@ -117,9 +166,12 @@ export interface UserStore {
   getStats(userId: string, options?: { category?: string; today?: Date }): Promise<UserStats>;
   listSimulados(userId: string, options?: { category?: string; limit?: number }): Promise<SimuladoRecord[]>;
   getActivity(userId: string, options: ActivityOptions): Promise<ActivityStats>;
+  getInsights(userId: string, options: InsightOptions): Promise<InsightStats>;
   getProfile(userId: string, options: { tzOffsetMinutes?: number; now?: Date }): Promise<ProfileStats>;
   updateProfile(userId: string, fields: { bio?: string | null; location?: string | null }): Promise<User | undefined>;
-  /** Removes the profile with all its answers and simulados. */
+  /** Flags a question for review; the same user, question and reason only refreshes the comment. */
+  reportQuestion(userId: string, report: QuestionReport): Promise<void>;
+  /** Removes the profile with all its answers, simulados and reports. */
   deleteUser(userId: string): Promise<void>;
 }
 

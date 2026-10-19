@@ -1,12 +1,17 @@
 import {
   countStreak,
+  INSIGHT_WEEKS,
   isoDay,
+  planFor,
   RANKING_MIN_ANSWERS,
   RANKING_TOP,
   type ProfileStats,
+  type QuestionReport,
   RANKING_MIN_USERS,
   type ActivityOptions,
   type ActivityStats,
+  type InsightOptions,
+  type InsightStats,
   type PeriodTotals,
   type SubjectStats,
   type AnswerRecord,
@@ -41,7 +46,7 @@ function toUser(row: UserRow): User {
     id: row.id,
     name: row.name,
     email: row.email,
-    plan: row.plan,
+    plan: planFor(row.email, row.plan),
     createdAt: row.created_at,
     bio: row.bio ?? null,
     location: row.location ?? null,
@@ -301,10 +306,93 @@ export class SqlUserStore implements UserStore {
     };
   }
 
+  async getInsights(userId: string, options: InsightOptions): Promise<InsightStats> {
+    const offset = options.tzOffsetMinutes ?? 0;
+    const toLocal = `${-offset} minutes`;
+    const localToday = new Date((options.today ?? new Date()).getTime() - offset * 60_000);
+    const daysBefore = (n: number) => {
+      const d = new Date(`${isoDay(localToday)}T00:00:00Z`);
+      d.setUTCDate(d.getUTCDate() - n);
+      return d;
+    };
+
+    const categoryFilter = options.category ? ' AND category = ?' : '';
+    const categoryParams = options.category ? [options.category] : [];
+    const periodFilter = options.days ? ' AND date(answered_at, ?) >= ?' : '';
+    const periodParams = options.days ? [toLocal, isoDay(daysBefore(options.days - 1))] : [];
+    const where = `user_id = ?${periodFilter}${categoryFilter}`;
+    const params = [userId, ...periodParams, ...categoryParams];
+    const seconds = (ms: number | null) => (ms == null ? null : Math.round(ms / 1000));
+
+    const totals = await this.db.first<{ answered: number; correct: number; avgMs: number | null; rightMs: number | null; wrongMs: number | null }>(
+      `SELECT COUNT(*) AS answered, COALESCE(SUM(is_correct), 0) AS correct, AVG(duration_ms) AS avgMs,
+              AVG(CASE WHEN is_correct = 1 THEN duration_ms END) AS rightMs,
+              AVG(CASE WHEN is_correct = 0 THEN duration_ms END) AS wrongMs
+       FROM answers WHERE ${where}`,
+      params,
+    );
+    const bySubject = await this.db.all<{ subject: string; answered: number; correct: number; avgMs: number | null }>(
+      `SELECT subject, COUNT(*) AS answered, SUM(is_correct) AS correct, AVG(duration_ms) AS avgMs
+       FROM answers WHERE ${where} AND subject IS NOT NULL GROUP BY subject ORDER BY answered DESC`,
+      params,
+    );
+    const byExam = await this.db.all<{ examId: string; answered: number; correct: number }>(
+      `SELECT exam_id AS examId, COUNT(*) AS answered, SUM(is_correct) AS correct FROM answers WHERE ${where} GROUP BY exam_id`,
+      params,
+    );
+    const byHour = await this.db.all<{ hour: number; answered: number; correct: number }>(
+      `SELECT CAST(strftime('%H', answered_at, ?) AS INTEGER) AS hour, COUNT(*) AS answered, SUM(is_correct) AS correct
+       FROM answers WHERE ${where} GROUP BY hour`,
+      [toLocal, ...params],
+    );
+
+    // Weeks start on Monday; the current week is the last one.
+    const thisMonday = daysBefore((localToday.getUTCDay() + 6) % 7);
+    const firstMonday = new Date(thisMonday);
+    firstMonday.setUTCDate(firstMonday.getUTCDate() - 7 * (INSIGHT_WEEKS - 1));
+    const daily = await this.db.all<{ day: string; answered: number; correct: number }>(
+      `SELECT date(answered_at, ?) AS day, COUNT(*) AS answered, SUM(is_correct) AS correct
+       FROM answers WHERE user_id = ? AND date(answered_at, ?) >= ?${categoryFilter} GROUP BY day`,
+      [toLocal, userId, toLocal, isoDay(firstMonday), ...categoryParams],
+    );
+    const weekly = Array.from({ length: INSIGHT_WEEKS }, (_, i) => {
+      const start = new Date(firstMonday);
+      start.setUTCDate(start.getUTCDate() + 7 * i);
+      return { start: isoDay(start), answered: 0, correct: 0 };
+    });
+    for (const d of daily) {
+      const week = Math.floor((Date.parse(`${d.day}T00:00:00Z`) - firstMonday.getTime()) / (7 * 86_400_000));
+      if (weekly[week]) {
+        weekly[week].answered += d.answered;
+        weekly[week].correct += d.correct;
+      }
+    }
+
+    return {
+      totals: { answered: totals?.answered ?? 0, correct: totals?.correct ?? 0, avgSeconds: seconds(totals?.avgMs ?? null) },
+      timing: { correct: seconds(totals?.rightMs ?? null), wrong: seconds(totals?.wrongMs ?? null) },
+      bySubject: bySubject.map(({ avgMs, ...s }) => ({ ...s, avgSeconds: seconds(avgMs) })),
+      byExam,
+      byHour,
+      weekly,
+    };
+  }
+
+  async reportQuestion(userId: string, report: QuestionReport): Promise<void> {
+    await this.db.batch([
+      {
+        sql: `INSERT INTO question_reports (user_id, question_id, exam_id, reason, comment, created_at) VALUES (?, ?, ?, ?, ?, ?)
+              ON CONFLICT(user_id, question_id, reason) DO UPDATE
+              SET comment = excluded.comment, created_at = excluded.created_at, status = 'open'`,
+        params: [userId, report.questionId, report.examId, report.reason, report.comment, new Date().toISOString()],
+      },
+    ]);
+  }
+
   async deleteUser(userId: string): Promise<void> {
     // Explicit deletes rather than relying on ON DELETE CASCADE being enabled.
     await this.db.batch(
-      ['DELETE FROM answers WHERE user_id = ?', 'DELETE FROM simulados WHERE user_id = ?', 'DELETE FROM users WHERE id = ?'].map(
+      ['DELETE FROM question_reports WHERE user_id = ?', 'DELETE FROM answers WHERE user_id = ?', 'DELETE FROM simulados WHERE user_id = ?', 'DELETE FROM users WHERE id = ?'].map(
         (sql) => ({ sql, params: [userId] }),
       ),
     );

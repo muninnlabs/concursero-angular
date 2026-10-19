@@ -136,6 +136,23 @@ export interface ActivityStats {
   ranking: { topPercent: number; users: number } | null;
 }
 
+/** "Análise Avançada" (Premium), GET /api/me/insights. Accuracy is derived from answered/correct. */
+export interface Insights {
+  /** Null for all time. */
+  days: number | null;
+  totals: PeriodTotals;
+  /** Mean seconds on questions answered right / wrong. */
+  timing: { correct: number | null; wrong: number | null };
+  bySubject: { subject: string; answered: number; correct: number; avgSeconds: number | null }[];
+  /** Up to 5 subjects with at least 5 answers, lowest accuracy first. */
+  weakest: { subject: string; answered: number; correct: number; avgSeconds: number | null }[];
+  byYear: { year: number; answered: number; correct: number }[];
+  byInstitution: { institution: string; answered: number; correct: number }[];
+  byDayPart: { part: 'madrugada' | 'manha' | 'tarde' | 'noite'; answered: number; correct: number }[];
+  /** The last 12 weeks, oldest first; `start` is the Monday (YYYY-MM-DD). */
+  weekly: { start: string; answered: number; correct: number }[];
+}
+
 export interface Badge {
   id: string;
   name: string;
