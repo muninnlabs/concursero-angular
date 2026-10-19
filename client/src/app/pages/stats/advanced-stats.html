@@ -1,0 +1,150 @@
+<header class="head">
+  <div>
+    <h2>
+      Análise Avançada
+      <span class="premium-tag"><app-icon name="crown" [size]="14" [filled]="true" />Premium</span>
+    </h2>
+    <p>Onde você erra, quanto tempo leva e quando rende mais, {{ periodText() }}.</p>
+  </div>
+  @if (auth.isPremium()) {
+    <div class="segmented" role="radiogroup" aria-label="Período da análise">
+      @for (period of periods; track period.days) {
+        <button
+          type="button"
+          role="radio"
+          [attr.aria-checked]="days() === period.days"
+          [class.active]="days() === period.days"
+          (click)="days.set(period.days)"
+        >
+          {{ period.label }}
+        </button>
+      }
+    </div>
+  }
+</header>
+
+@if (auth.isPremium() && insights.error()) {
+  <p class="card state">
+    Não foi possível carregar a análise.
+    <button class="link" type="button" (click)="insights.reload()">Tentar de novo</button>
+  </p>
+} @else if (!data()) {
+  <p class="card state">Carregando…</p>
+} @else {
+  <div class="wrap" [class.wrap--locked]="!auth.isPremium()">
+    <div class="grid" [attr.aria-hidden]="!auth.isPremium() || null" [attr.inert]="!auth.isPremium() || null">
+      <section class="card panel">
+        <h3><app-icon name="target" [size]="18" />Pontos a melhorar</h3>
+        @for (s of weakest(); track s.subject) {
+          <div class="weak">
+            <div class="weak__info">
+              <span>{{ s.label }}</span>
+              <small>{{ s.answered }} respostas · <strong class="text--{{ s.tone }}">{{ s.value }}%</strong></small>
+            </div>
+            <a
+              class="btn btn--soft weak__btn"
+              routerLink="/app/praticar"
+              [queryParams]="{ modo: 'mini', categoria: categoryState.selected(), materia: s.subject }"
+              >Praticar</a
+            >
+          </div>
+        } @empty {
+          <p class="empty">Responda pelo menos 5 questões de uma matéria para ela aparecer aqui.</p>
+        }
+      </section>
+
+      <section class="card panel">
+        <h3><app-icon name="timer" [size]="18" />Tempo de resposta</h3>
+        @if (timing(); as t) {
+          <div class="timing">
+            <div><strong class="text--good">{{ t.correct }}</strong><small>nas que acerta</small></div>
+            <div><strong class="text--bad">{{ t.wrong }}</strong><small>nas que erra</small></div>
+          </div>
+          <p class="note">{{ t.note }}</p>
+          @if (slowest().length) {
+            <h4>Matérias mais demoradas</h4>
+            <ul class="slow">
+              @for (s of slowest(); track s.subject) {
+                <li><span>{{ s.subject }}</span><strong>{{ s.time }}</strong></li>
+              }
+            </ul>
+          }
+        } @else {
+          <p class="empty">Ainda não há tempo medido neste período.</p>
+        }
+      </section>
+
+      <section class="card panel panel--wide">
+        <h3><app-icon name="chart" [size]="18" />Evolução semanal da precisão</h3>
+        <p class="sub">Últimas 12 semanas, independente do período escolhido.</p>
+        @if (trend().empty) {
+          <p class="empty">Nenhuma questão respondida nas últimas 12 semanas.</p>
+        } @else {
+          <app-line-chart
+            [labels]="trend().labels"
+            [fullLabels]="trend().fullLabels"
+            [series]="trend().series"
+            description="Precisão por semana nas últimas 12 semanas"
+          />
+        }
+      </section>
+
+      <section class="card panel">
+        <h3><app-icon name="clock" [size]="18" />Por ano da prova</h3>
+        @for (r of byYear(); track r.label) {
+          <ng-container *ngTemplateOutlet="bar; context: { $implicit: r }" />
+        } @empty {
+          <p class="empty">Sem respostas neste período.</p>
+        }
+      </section>
+
+      <section class="card panel">
+        <h3><app-icon name="landmark" [size]="18" />Por banca / instituição</h3>
+        @for (r of byInstitution(); track r.label) {
+          <ng-container *ngTemplateOutlet="bar; context: { $implicit: r }" />
+        } @empty {
+          <p class="empty">Sem respostas neste período.</p>
+        }
+      </section>
+
+      <section class="card panel panel--wide">
+        <h3><app-icon name="zap" [size]="18" />Melhor horário</h3>
+        <p class="sub">
+          @if (dayParts().best; as best) {
+            Você acerta mais de <strong>{{ best }}</strong>. Deixe as matérias difíceis para esse horário.
+          } @else {
+            Responda mais questões em horários diferentes para descobrir quando rende mais.
+          }
+        </p>
+        <div class="parts">
+          @for (r of dayParts().parts; track r.label) {
+            <ng-container *ngTemplateOutlet="bar; context: { $implicit: r }" />
+          }
+        </div>
+      </section>
+    </div>
+
+    @if (!auth.isPremium()) {
+      <div class="lock">
+        <div class="card lock__card">
+          <span class="lock__icon"><app-icon name="crown" [size]="26" [filled]="true" /></span>
+          <h3>Recurso Premium</h3>
+          <p>Veja suas matérias mais fracas, seu tempo por questão, sua evolução semanal e o horário em que você mais acerta.</p>
+          <a class="btn btn--primary" routerLink="/" fragment="planos">Assinar Premium</a>
+        </div>
+      </div>
+    }
+  </div>
+}
+
+<ng-template #bar let-r>
+  <div class="row">
+    <div class="row__label">
+      <span>{{ r.label }}</span>
+      <strong class="text--{{ r.tone }}" [title]="r.answered + ' respostas'">{{ r.answered ? r.value + '%' : '—' }}</strong>
+    </div>
+    <div class="bar" role="img" [attr.aria-label]="r.label + ': ' + r.value + '% de acerto em ' + r.answered + ' respostas'">
+      <span class="bar--{{ r.tone }}" [style.width.%]="r.value"></span>
+    </div>
+  </div>
+</ng-template>

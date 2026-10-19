@@ -5,6 +5,13 @@
 
 export type Plan = 'free' | 'premium';
 
+/** Accounts treated as Premium whatever their stored plan, until payments exist. */
+const PREMIUM_EMAILS = new Set(['alexandreartedesigner@gmail.com']);
+
+export function planFor(email: string, stored: Plan): Plan {
+  return PREMIUM_EMAILS.has(email.toLowerCase()) ? 'premium' : stored;
+}
+
 /** Identity comes from Firebase Authentication (Google sign-in); `id` is the Firebase uid. */
 export interface User {
   id: string;
@@ -90,6 +97,29 @@ export interface ProfileStats {
   weeklyUsers: number;
 }
 
+/** Raw numbers behind "Análise Avançada" (Premium); grouping by exam year, institution and part of day happens in app.ts. */
+export interface InsightStats {
+  totals: PeriodTotals;
+  /** Mean seconds on questions answered right / wrong; null without timed answers. */
+  timing: { correct: number | null; wrong: number | null };
+  bySubject: { subject: string; answered: number; correct: number; avgSeconds: number | null }[];
+  byExam: { examId: string; answered: number; correct: number }[];
+  /** Local hour 0–23. */
+  byHour: { hour: number; answered: number; correct: number }[];
+  /** The last INSIGHT_WEEKS weeks (whatever the period), oldest first; `start` is the local Monday. */
+  weekly: { start: string; answered: number; correct: number }[];
+}
+
+export const INSIGHT_WEEKS = 12;
+
+export interface InsightOptions {
+  /** Last `days` local days; null for all time. */
+  days: number | null;
+  category?: string;
+  tzOffsetMinutes?: number;
+  today?: Date;
+}
+
 export const RANKING_TOP = 10;
 
 export const RANKING_MIN_ANSWERS = 10;
@@ -117,6 +147,7 @@ export interface UserStore {
   getStats(userId: string, options?: { category?: string; today?: Date }): Promise<UserStats>;
   listSimulados(userId: string, options?: { category?: string; limit?: number }): Promise<SimuladoRecord[]>;
   getActivity(userId: string, options: ActivityOptions): Promise<ActivityStats>;
+  getInsights(userId: string, options: InsightOptions): Promise<InsightStats>;
   getProfile(userId: string, options: { tzOffsetMinutes?: number; now?: Date }): Promise<ProfileStats>;
   updateProfile(userId: string, fields: { bio?: string | null; location?: string | null }): Promise<User | undefined>;
   /** Removes the profile with all its answers and simulados. */

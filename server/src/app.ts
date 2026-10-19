@@ -18,6 +18,18 @@ const MAX_ANSWERS_PER_REQUEST = 200;
 /** Longer than this, the tab was probably left open: the time isn't counted. */
 const MAX_DURATION_MS = 30 * 60_000;
 const ACTIVITY_PERIODS = [7, 30];
+/** "Análise Avançada": 0 means all time. */
+const INSIGHT_PERIODS = [30, 90, 0];
+/** Fewer answers than this in a subject say little about it ("Pontos a melhorar"). */
+const MIN_ANSWERS_WEAK_SUBJECT = 5;
+const WEAKEST_SUBJECTS = 5;
+/** Local hours [from, to) for "Melhor horário". */
+const DAY_PARTS = [
+  { id: 'madrugada', from: 0, to: 6 },
+  { id: 'manha', from: 6, to: 12 },
+  { id: 'tarde', from: 12, to: 18 },
+  { id: 'noite', from: 18, to: 24 },
+] as const;
 /** Days of history in the profile's activity grid (26 weeks). */
 const HEATMAP_DAYS = 182;
 const MAX_BIO = 280;
@@ -204,6 +216,60 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
         tzOffsetMinutes: timezoneOffset(c.req.query('tz')),
       }),
     );
+  });
+
+  /**
+   * "Análise Avançada" on Estatísticas, Premium only: weakest subjects, time per answer, a 12-week trend
+   * and accuracy by exam year, institution and part of the day. ?days=30|90|0&category=OAB&tz=<offset>
+   */
+  app.get('/me/insights', requireAuth, async (c) => {
+    const { uid, name, email } = c.get('user');
+    const user = await store.upsertUser({ id: uid, name, email });
+    if (user.plan !== 'premium') return c.json({ error: 'Recurso Premium' }, 403);
+
+    const days = Number(c.req.query('days') ?? 90);
+    const period = INSIGHT_PERIODS.includes(days) ? days : 90;
+    const stats = await store.getInsights(uid, {
+      days: period || null,
+      category: c.req.query('category') || undefined,
+      tzOffsetMinutes: timezoneOffset(c.req.query('tz')),
+    });
+
+    const summaries = new Map((await exams.list()).map((e) => [e.id, e]));
+    const group = <K extends string | number>(key: (examId: string) => K | undefined) => {
+      const totals = new Map<K, { answered: number; correct: number }>();
+      for (const row of stats.byExam) {
+        const k = key(row.examId);
+        if (k === undefined) continue;
+        const entry = totals.get(k) ?? { answered: 0, correct: 0 };
+        entry.answered += row.answered;
+        entry.correct += row.correct;
+        totals.set(k, entry);
+      }
+      return [...totals].map(([k, t]) => ({ key: k, ...t }));
+    };
+
+    return c.json({
+      days: period || null,
+      totals: stats.totals,
+      timing: stats.timing,
+      bySubject: stats.bySubject,
+      weakest: stats.bySubject
+        .filter((s) => s.answered >= MIN_ANSWERS_WEAK_SUBJECT)
+        .sort((a, b) => a.correct / a.answered - b.correct / b.answered || b.answered - a.answered)
+        .slice(0, WEAKEST_SUBJECTS),
+      byYear: group((id) => summaries.get(id)?.year)
+        .map(({ key, ...t }) => ({ year: key, ...t }))
+        .sort((a, b) => b.year - a.year),
+      byInstitution: group((id) => summaries.get(id)?.institution)
+        .map(({ key, ...t }) => ({ institution: key, ...t }))
+        .sort((a, b) => b.answered - a.answered),
+      byDayPart: DAY_PARTS.map(({ id, from, to }) => {
+        const hours = stats.byHour.filter((h) => h.hour >= from && h.hour < to);
+        return { part: id, answered: hours.reduce((n, h) => n + h.answered, 0), correct: hours.reduce((n, h) => n + h.correct, 0) };
+      }),
+      weekly: stats.weekly,
+    });
   });
 
   /** "Seu perfil de estudante": XP, level, streaks, badges, activity grid and the weekly ranking. ?tz=<Date#getTimezoneOffset()> */

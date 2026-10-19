@@ -8,6 +8,7 @@ import { SearchState, matchesSearch } from '../../core/search';
 import { AdSlot } from '../../shared/ad-slot';
 import { Icon, type IconName } from '../../shared/icon';
 import { LineChart, type ChartSeries } from '../../shared/line-chart';
+import { AdvancedStats } from './advanced-stats';
 
 interface Kpi {
   icon: IconName;
@@ -30,7 +31,7 @@ const WEEKDAYS = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
 
 @Component({
   selector: 'app-stats-page',
-  imports: [RouterLink, AdSlot, Icon, LineChart],
+  imports: [RouterLink, AdSlot, AdvancedStats, Icon, LineChart],
   templateUrl: './stats.page.html',
   styleUrl: './stats.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
