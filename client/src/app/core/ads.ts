@@ -11,6 +11,7 @@ export const ADS = {
   client: 'ca-pub-8126535492816869' as string | null,
   placements: {
     'dashboard-top': { format: 'leaderboard', slot: null as string | null },
+    'stats-top': { format: 'leaderboard', slot: null as string | null },
     'stats-inline': { format: 'leaderboard', slot: null as string | null },
     'subjects-grid': { format: 'rectangle', slot: null as string | null },
     'profile-side': { format: 'card', slot: null as string | null },
