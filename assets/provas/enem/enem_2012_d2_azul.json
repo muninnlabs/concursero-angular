@@ -3036,7 +3036,13 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "formula lost in the PDF text (square root)"
+        ]
+      }
     },
     {
       "id": "enem_2012_d2_azul_q153",
