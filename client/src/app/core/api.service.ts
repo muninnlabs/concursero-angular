@@ -27,7 +27,7 @@ export class ApiService {
 
   submitAnswers(
     answers: { questionId: string; examId: string; selected: string; durationMs?: number }[],
-    simulado?: { title: string },
+    simulado?: { title: string; subject?: string },
   ): Observable<{ results: GradedAnswer[]; simulado?: Simulado }> {
     return this.http.post<{ results: GradedAnswer[]; simulado?: Simulado }>('api/answers', { answers, simulado });
   }

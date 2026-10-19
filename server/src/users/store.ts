@@ -58,6 +58,8 @@ export interface SimuladoRecord {
   id: string;
   category: string;
   title: string;
+  /** Set when every question was from this subject (retry asks for the same one). */
+  subject: string | null;
   total: number;
   correct: number;
   finishedAt: string;
@@ -160,7 +162,7 @@ export interface UserStore {
   recordAnswers(
     userId: string,
     answers: AnswerRecord[],
-    simulado?: { category: string; title: string },
+    simulado?: { category: string; title: string; subject?: string | null },
   ): Promise<SimuladoRecord | undefined>;
 
   getStats(userId: string, options?: { category?: string; today?: Date }): Promise<UserStats>;
