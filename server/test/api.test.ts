@@ -118,7 +118,7 @@ describe('signed-in user', () => {
           { questionId: `${EXAM}_q2`, examId: EXAM, selected: 'B' },
           { questionId: 'legacy_q4', examId: EXAM, selected: 'B' },
         ],
-        simulado: { title: 'OAB — Direito Penal' },
+        simulado: { title: 'OAB — Direito Penal', subject: 'Direito Penal' },
       },
       token,
     );
@@ -134,6 +134,8 @@ describe('signed-in user', () => {
 
     const simulados = await api('GET', '/api/me/simulados', undefined, token);
     assert.equal(simulados.body[0].title, 'OAB — Direito Penal');
+    // q2 is Direito Civil: a mixed simulado isn't tied to a subject.
+    assert.equal(simulados.body[0].subject, null);
   });
 
   test("users don't see each other's stats", async () => {
@@ -190,7 +192,13 @@ describe('signed-in user', () => {
 
   test('deleting the account removes the profile and its history', async () => {
     const uid = 'valid:to-delete';
-    await api('POST', '/api/answers', { answers: [{ questionId: `${EXAM}_q1`, examId: EXAM, selected: 'C' }], simulado: {} }, uid);
+    const saved = await api(
+      'POST',
+      '/api/answers',
+      { answers: [{ questionId: `${EXAM}_q1`, examId: EXAM, selected: 'C' }], simulado: { subject: 'Direito Penal' } },
+      uid,
+    );
+    assert.equal(saved.body.simulado.subject, 'Direito Penal');
     assert.equal((await api('GET', '/api/me/stats', undefined, uid)).body.answered, 1);
 
     const res = await app.request('/api/me', { method: 'DELETE', headers: { authorization: `Bearer ${uid}` } });

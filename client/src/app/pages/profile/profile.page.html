@@ -164,8 +164,8 @@
               <a
                 class="result__retry"
                 routerLink="/app/praticar"
-                [queryParams]="{ modo: 'mini', categoria: simulado.category }"
-                [attr.aria-label]="'Fazer outro simulado de ' + simulado.category"
+                [queryParams]="{ modo: 'mini', categoria: simulado.category, materia: simulado.subject || undefined }"
+                [attr.aria-label]="'Fazer outro simulado de ' + (simulado.subject || simulado.category)"
                 ><app-icon name="refresh" [size]="16"
               /></a>
             </div>

@@ -150,7 +150,7 @@ export class SqlUserStore implements UserStore {
   async recordAnswers(
     userId: string,
     answers: AnswerRecord[],
-    simulado?: { category: string; title: string },
+    simulado?: { category: string; title: string; subject?: string | null },
   ): Promise<SimuladoRecord | undefined> {
     const now = new Date().toISOString();
     const statements: { sql: string; params: unknown[] }[] = [];
@@ -161,13 +161,14 @@ export class SqlUserStore implements UserStore {
         id: crypto.randomUUID(),
         category: simulado.category,
         title: simulado.title,
+        subject: simulado.subject ?? null,
         total: answers.length,
         correct: answers.filter((a) => a.isCorrect).length,
         finishedAt: now,
       };
       statements.push({
-        sql: 'INSERT INTO simulados (id, user_id, category, title, total, correct, finished_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
-        params: [record.id, userId, record.category, record.title, record.total, record.correct, now],
+        sql: 'INSERT INTO simulados (id, user_id, category, title, subject, total, correct, finished_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+        params: [record.id, userId, record.category, record.title, record.subject, record.total, record.correct, now],
       });
     }
     for (const a of answers) {
@@ -225,7 +226,7 @@ export class SqlUserStore implements UserStore {
     const where = options.category ? 'user_id = ? AND category = ?' : 'user_id = ?';
     const params = options.category ? [userId, options.category] : [userId];
     return this.db.all<SimuladoRecord>(
-      `SELECT id, category, title, total, correct, finished_at AS finishedAt FROM simulados
+      `SELECT id, category, title, subject, total, correct, finished_at AS finishedAt FROM simulados
        WHERE ${where} ORDER BY finished_at DESC LIMIT ?`,
       [...params, options.limit ?? 10],
     );

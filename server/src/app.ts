@@ -137,7 +137,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
 
   /**
    * Grades answers against the answer key and records them.
-   * Body: { answers: [{ questionId, examId, selected }], simulado?: { title } }
+   * Body: { answers: [{ questionId, examId, selected }], simulado?: { title, subject? } }
    * With `simulado`, the answers are saved as one attempt (shown in "Últimos Simulados").
    */
   app.post('/answers', requireAuth, async (c) => {
@@ -178,7 +178,9 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
       const categories = new Set(records.map((r) => r.category));
       const category = categories.size === 1 ? records[0].category : 'Misto';
       const title = String(body.simulado.title ?? '').trim() || `Simulado ${category}`;
-      simulado = { category, title: title.slice(0, 120) };
+      // Kept only if every question really is from that subject.
+      const subject = typeof body.simulado.subject === 'string' ? body.simulado.subject : null;
+      simulado = { category, title: title.slice(0, 120), subject: subject && records.every((r) => r.subject === subject) ? subject : null };
     }
 
     // Answers only count once the profile exists (first request may come before /auth/me).

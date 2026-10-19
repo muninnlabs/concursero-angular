@@ -150,7 +150,9 @@ export class PracticePage {
     this.submitting.set(true);
     this.error.set(null);
     const simulado =
-      this.mode() === 'mini' ? { title: `${this.config().title} — ${this.materia() || this.category()}` } : undefined;
+      this.mode() === 'mini'
+        ? { title: `${this.config().title} — ${this.materia() || this.category()}`, subject: this.materia() || undefined }
+        : undefined;
 
     this.api.submitAnswers(answers, simulado).subscribe({
       next: ({ results }) => {

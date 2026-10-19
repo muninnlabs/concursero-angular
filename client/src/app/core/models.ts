@@ -93,6 +93,8 @@ export interface Simulado {
   id: string;
   category: string;
   title: string;
+  /** Set for a subject-focused simulado; retry asks for the same subject. */
+  subject?: string | null;
   total: number;
   correct: number;
   finishedAt: string;
