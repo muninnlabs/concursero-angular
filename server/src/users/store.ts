@@ -35,6 +35,25 @@ export interface AnswerRecord {
   durationMs?: number | null;
 }
 
+/** Why a student flags a question; the labels live in the client's report dialog. */
+export const REPORT_REASONS = [
+  'wrong_answer',
+  'missing_image',
+  'missing_text',
+  'wrong_text',
+  'wrong_options',
+  'wrong_subject',
+  'other',
+] as const;
+export type ReportReason = (typeof REPORT_REASONS)[number];
+
+export interface QuestionReport {
+  questionId: string;
+  examId: string;
+  reason: ReportReason;
+  comment: string | null;
+}
+
 export interface SimuladoRecord {
   id: string;
   category: string;
@@ -150,7 +169,9 @@ export interface UserStore {
   getInsights(userId: string, options: InsightOptions): Promise<InsightStats>;
   getProfile(userId: string, options: { tzOffsetMinutes?: number; now?: Date }): Promise<ProfileStats>;
   updateProfile(userId: string, fields: { bio?: string | null; location?: string | null }): Promise<User | undefined>;
-  /** Removes the profile with all its answers and simulados. */
+  /** Flags a question for review; the same user, question and reason only refreshes the comment. */
+  reportQuestion(userId: string, report: QuestionReport): Promise<void>;
+  /** Removes the profile with all its answers, simulados and reports. */
   deleteUser(userId: string): Promise<void>;
 }
 

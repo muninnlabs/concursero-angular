@@ -69,6 +69,20 @@ npx wrangler d1 migrations apply concursero-angular --local
 npx wrangler dev              # http://127.0.0.1:8787/concursero-angular/
 ```
 
+### Reported questions
+
+"Reportar erro" on each question saves a row in `question_reports` (reason, optional comment,
+`status` open / fixed / dismissed). The `flagged_questions` view lists the open ones, most reported first:
+
+```bash
+npx wrangler d1 execute concursero-angular --remote --command "SELECT * FROM flagged_questions LIMIT 50"
+npx wrangler d1 execute concursero-angular --remote --command \
+  "SELECT reason, comment, created_at FROM question_reports WHERE question_id = '<id>'"
+# after fixing the JSON:
+npx wrangler d1 execute concursero-angular --remote --command \
+  "UPDATE question_reports SET status = 'fixed' WHERE question_id = '<id>'"
+```
+
 ## API
 
 | Method | Path | Auth | |

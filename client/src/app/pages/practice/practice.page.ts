@@ -7,6 +7,7 @@ import { CATEGORIES } from '../../core/categories';
 import type { ConcursoLevel, GradedAnswer } from '../../core/models';
 import { PreferencesService } from '../../core/preferences';
 import { Icon } from '../../shared/icon';
+import { ReportDialog } from '../../shared/report-dialog';
 
 const MODES = {
   relampago: { title: 'Questão Relâmpago', count: 1, seconds: 30 },
@@ -22,7 +23,7 @@ export function dewrap(text: string | null | undefined): string {
 
 @Component({
   selector: 'app-practice-page',
-  imports: [RouterLink, Icon],
+  imports: [RouterLink, Icon, ReportDialog],
   templateUrl: './practice.page.html',
   styleUrl: './practice.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -66,6 +67,8 @@ export class PracticePage {
   protected readonly results = signal<GradedAnswer[] | null>(null);
   protected readonly submitting = signal(false);
   protected readonly error = signal<string | null>(null);
+  /** Questions reported in this session ("Reportar erro"). */
+  protected readonly reported = signal<ReadonlySet<string>>(new Set());
 
   protected readonly current = computed(() => this.questions.value()?.[this.index()]);
   protected readonly total = computed(() => this.questions.value()?.length ?? 0);
@@ -162,6 +165,10 @@ export class PracticePage {
         this.error.set((err instanceof HttpErrorResponse && err.error?.error) || 'Não foi possível enviar suas respostas.');
       },
     });
+  }
+
+  protected markReported(questionId: string) {
+    this.reported.update((ids) => new Set(ids).add(questionId));
   }
 
   protected optionState(questionId: string, letter: string): 'correct' | 'wrong' | 'selected' | null {

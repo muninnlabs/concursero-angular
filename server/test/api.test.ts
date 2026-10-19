@@ -232,6 +232,24 @@ describe('signed-in user', () => {
   });
 });
 
+describe('question reports', () => {
+  const token = 'valid:reporter';
+  const report = (body: unknown) => api('POST', '/api/questions/reports', body, token);
+
+  test('need a known question, a listed reason and a comment for "other"', async () => {
+    assert.equal((await api('POST', '/api/questions/reports', { examId: EXAM, questionId: `${EXAM}_q1`, reason: 'wrong_answer' })).status, 401);
+    assert.equal((await report({ examId: EXAM, questionId: 'nope', reason: 'wrong_answer' })).status, 404);
+    assert.equal((await report({ examId: EXAM, questionId: `${EXAM}_q1`, reason: 'boring' })).status, 400);
+    assert.equal((await report({ examId: EXAM, questionId: `${EXAM}_q1`, reason: 'other', comment: '  ' })).status, 400);
+  });
+
+  test('reporting the same reason again is accepted (it refreshes the comment); annulled questions can be reported too', async () => {
+    assert.equal((await report({ examId: EXAM, questionId: `${EXAM}_q1`, reason: 'wrong_answer', comment: 'Seria B' })).status, 201);
+    assert.equal((await report({ examId: EXAM, questionId: `${EXAM}_q1`, reason: 'wrong_answer', comment: 'Seria D' })).status, 201);
+    assert.equal((await report({ examId: EXAM, questionId: `${EXAM}_q3`, reason: 'missing_image' })).status, 201);
+  });
+});
+
 describe('randomQuestions', () => {
   test('fills the requested count from a few exams, honouring the subject filter', async () => {
     const many = new MemoryExamSource();
