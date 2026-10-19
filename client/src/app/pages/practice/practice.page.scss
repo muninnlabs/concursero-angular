@@ -106,15 +106,44 @@
 .question__meta {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 8px;
+  align-items: center;
+  gap: 8px 12px;
   color: var(--text-muted);
   font-size: 13px;
   font-weight: 600;
 }
 .question__exam {
+  margin-left: auto;
   color: var(--text-subtle);
   font-weight: 500;
+}
+.report {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  background: none;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--warning);
+    border-color: currentColor;
+  }
+}
+.report--done {
+  color: var(--success);
+  cursor: default;
+
+  &:hover {
+    color: var(--success);
+    border-color: var(--border);
+  }
 }
 .context {
   margin-top: 20px;

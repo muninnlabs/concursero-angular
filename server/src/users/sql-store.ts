@@ -4,6 +4,7 @@ import {
   RANKING_MIN_ANSWERS,
   RANKING_TOP,
   type ProfileStats,
+  type QuestionReport,
   RANKING_MIN_USERS,
   type ActivityOptions,
   type ActivityStats,
@@ -301,10 +302,21 @@ export class SqlUserStore implements UserStore {
     };
   }
 
+  async reportQuestion(userId: string, report: QuestionReport): Promise<void> {
+    await this.db.batch([
+      {
+        sql: `INSERT INTO question_reports (user_id, question_id, exam_id, reason, comment, created_at) VALUES (?, ?, ?, ?, ?, ?)
+              ON CONFLICT(user_id, question_id, reason) DO UPDATE
+              SET comment = excluded.comment, created_at = excluded.created_at, status = 'open'`,
+        params: [userId, report.questionId, report.examId, report.reason, report.comment, new Date().toISOString()],
+      },
+    ]);
+  }
+
   async deleteUser(userId: string): Promise<void> {
     // Explicit deletes rather than relying on ON DELETE CASCADE being enabled.
     await this.db.batch(
-      ['DELETE FROM answers WHERE user_id = ?', 'DELETE FROM simulados WHERE user_id = ?', 'DELETE FROM users WHERE id = ?'].map(
+      ['DELETE FROM question_reports WHERE user_id = ?', 'DELETE FROM answers WHERE user_id = ?', 'DELETE FROM simulados WHERE user_id = ?', 'DELETE FROM users WHERE id = ?'].map(
         (sql) => ({ sql, params: [userId] }),
       ),
     );

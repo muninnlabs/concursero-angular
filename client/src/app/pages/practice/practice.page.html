@@ -37,10 +37,22 @@
   </nav>
 
   <article class="card question">
-    <p class="question__meta">
-      Questão {{ question.question_number }}@if (question.subject) { · {{ question.subject }} }
+    <div class="question__meta">
+      <span>Questão {{ question.question_number }}@if (question.subject) { · {{ question.subject }} }</span>
       <span class="question__exam">{{ question.examLabel }}</span>
-    </p>
+      @if (reported().has(question.id)) {
+        <span class="report report--done"><app-icon name="check" [size]="14" /> Reportada</span>
+      } @else {
+        <button
+          type="button"
+          class="report"
+          title="Reportar erro nesta questão"
+          (click)="reportDialog.open({ id: question.id, examId: question.examId, label: 'Questão ' + question.question_number + ' · ' + question.examLabel })"
+        >
+          <app-icon name="flag" [size]="14" /> Reportar erro
+        </button>
+      }
+    </div>
 
     @for (context of question.context_texts; track $index) {
       <div class="context">
@@ -127,3 +139,5 @@
     }
   </footer>
 }
+
+<app-report-dialog #reportDialog (reported)="markReported($event)" />

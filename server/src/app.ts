@@ -3,7 +3,7 @@ import type { AuthUser, TokenVerifier } from './auth/firebase.ts';
 import { isPlayable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
 import type { ConcursoInfo } from './exams/types.ts';
 import { badgesFor, levelFor, longestStreak } from './users/profile.ts';
-import { countStreak, isoDay, type AnswerRecord, type UserStore } from './users/store.ts';
+import { countStreak, isoDay, REPORT_REASONS, type AnswerRecord, type ReportReason, type UserStore } from './users/store.ts';
 
 export interface AppDeps {
   exams: ExamSource;
@@ -22,6 +22,7 @@ const ACTIVITY_PERIODS = [7, 30];
 const HEATMAP_DAYS = 182;
 const MAX_BIO = 280;
 const MAX_LOCATION = 60;
+const MAX_REPORT_COMMENT = 500;
 
 /**
  * The API, independent of where it runs: server/src/node.ts serves it with
@@ -188,6 +189,27 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
       },
       201,
     );
+  });
+
+  /**
+   * "Reportar erro": flags a question for review (question_reports, flagged_questions view).
+   * Body: { examId, questionId, reason, comment? }; reason "other" needs a comment.
+   */
+  app.post('/questions/reports', requireAuth, async (c) => {
+    const body = await c.req.json().catch(() => null);
+    const exam = await exams.get(String(body?.examId));
+    const question = exam?.questions.find((q) => q.id === String(body?.questionId));
+    if (!exam || !question) return c.json({ error: 'Questão não encontrada' }, 404);
+
+    const reason = String(body?.reason) as ReportReason;
+    if (!REPORT_REASONS.includes(reason)) return c.json({ error: 'Escolha um motivo.' }, 400);
+    const comment = String(body?.comment ?? '').trim().slice(0, MAX_REPORT_COMMENT) || null;
+    if (reason === 'other' && !comment) return c.json({ error: 'Descreva o problema.' }, 400);
+
+    const { uid, name, email } = c.get('user');
+    await store.upsertUser({ id: uid, name, email });
+    await store.reportQuestion(uid, { questionId: question.id, examId: exam.summary.id, reason, comment });
+    return c.json({ ok: true }, 201);
   });
 
   app.get('/me/stats', requireAuth, async (c) => {

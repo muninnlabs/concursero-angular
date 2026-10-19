@@ -32,6 +32,11 @@ export class ApiService {
     return this.http.post<{ results: GradedAnswer[]; simulado?: Simulado }>('api/answers', { answers, simulado });
   }
 
+  /** "Reportar erro": flags the question for review. */
+  reportQuestion(report: { examId: string; questionId: string; reason: string; comment?: string }): Observable<{ ok: true }> {
+    return this.http.post<{ ok: true }>('api/questions/reports', report);
+  }
+
   stats(category?: string): Observable<UserStats> {
     return this.http.get<UserStats>('api/me/stats', { params: category ? { category } : {} });
   }
