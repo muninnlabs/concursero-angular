@@ -1,0 +1,30 @@
+<article class="doc">
+  <h1>Contato</h1>
+  <p class="doc__lead">Dúvidas, sugestões ou parcerias? Escreva para a gente.</p>
+
+  <h2>E-mail</h2>
+  <p>
+    <a [href]="'mailto:' + company.contactEmail">{{ company.contactEmail }}</a>
+  </p>
+  <p>Para agilizar, conte qual exame você estuda e, se for um problema, o que aconteceu e em qual página.</p>
+
+  <h2>Antes de escrever</h2>
+  <ul>
+    <li><strong>Dúvidas de uso:</strong> a <a routerLink="/ajuda">Central de Ajuda</a> responde as perguntas mais comuns.</li>
+    <li>
+      <strong>Erro numa questão:</strong> use o botão <strong>Reportar erro</strong> na própria questão. O relato chega para nós já com a
+      questão identificada.
+    </li>
+    <li>
+      <strong>Privacidade e seus dados:</strong> escreva para
+      <a [href]="'mailto:' + company.privacyEmail">{{ company.privacyEmail }}</a>, de preferência a partir do e-mail da sua conta Google.
+    </li>
+    <li><strong>Excluir sua conta:</strong> você mesmo pode fazer isso em Configurações, a qualquer momento.</li>
+  </ul>
+
+  <h2>Empresa</h2>
+  <p>
+    {{ company.name }} (NIPC {{ company.nipc }})<br />
+    {{ company.address }}
+  </p>
+</article>

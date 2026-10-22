@@ -54,7 +54,7 @@ export class ShellLayout {
 
   protected readonly generalNav: NavItem[] = [
     { label: 'Configurações', icon: 'settings', link: '/app/configuracoes' },
-    { label: 'Ajuda', icon: 'help', link: '/app/ajuda' },
+    { label: 'Ajuda', icon: 'help', link: '/ajuda' },
   ];
 
   constructor() {

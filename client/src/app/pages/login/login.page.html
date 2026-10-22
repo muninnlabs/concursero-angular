@@ -8,8 +8,8 @@
     <label class="consent">
       <input type="checkbox" [checked]="accepted()" (change)="accepted.set($any($event.target).checked)" />
       <span>
-        Li e aceito os <a [href]="legal.terms" target="_blank" rel="noopener">Termos de Uso</a> e a
-        <a [href]="legal.privacy" target="_blank" rel="noopener">Política de Privacidade</a>.
+        Li e aceito os <a routerLink="/termos" target="_blank">Termos de Uso</a> e a
+        <a routerLink="/privacidade" target="_blank">Política de Privacidade</a>.
       </span>
     </label>
 
