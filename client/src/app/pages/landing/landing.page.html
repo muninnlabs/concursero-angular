@@ -70,19 +70,25 @@
     </div>
   </section>
 
-  <section class="mobile">
-    <div class="container mobile__inner">
-      <div class="card mobile__media">
-        <img src="images/mobile-app.webp" alt="Aplicativo Concursero ENEM aberto no celular" width="582" height="582" loading="lazy" />
+  <section class="devices">
+    <div class="container">
+      <div class="card devices__media">
+        <img
+          src="images/devices.webp"
+          alt="Concursero aberto num notebook, num tablet e num celular"
+          width="1140"
+          height="560"
+          loading="lazy"
+        />
       </div>
-      <div class="mobile__copy">
+      <div class="devices__copy">
         <h2>Estude onde e quando quiser</h2>
         <p>
-          Leve sua preparação no bolso. A interface responsiva funciona perfeitamente no celular, tablet e computador,
-          sincronizando todo o seu progresso automaticamente.
+          O Concursero se adapta à tela do celular, do tablet e do computador. Entre com sua conta Google e continue de onde
+          parou, em qualquer dispositivo.
         </p>
         <ul class="checklist">
-          @for (perk of mobilePerks; track perk) {
+          @for (perk of devicePerks; track perk) {
             <li><span class="checklist__dot"><app-icon name="check" [size]="12" [strokeWidth]="3" /></span>{{ perk }}</li>
           }
         </ul>
