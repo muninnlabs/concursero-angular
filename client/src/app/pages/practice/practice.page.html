@@ -131,7 +131,7 @@
       <button class="btn btn--outline" type="button" (click)="go(1)">Próxima</button>
     }
     @if (!results()) {
-      <button class="btn btn--primary" type="button" [disabled]="answeredCount() === 0 || submitting()" (click)="submit()">
+      <button class="btn btn--primary" type="button" [disabled]="answeredCount() === 0 || submitting()" (click)="confirmFinish()">
         {{ submitting() ? 'Enviando…' : 'Finalizar (' + answeredCount() + '/' + total() + ')' }}
       </button>
     } @else {
@@ -141,3 +141,18 @@
 }
 
 <app-report-dialog #reportDialog (reported)="markReported($event)" />
+
+<dialog #finishDialog class="card dialog" aria-labelledby="finish-title">
+  <span class="icon-badge tone--amber"><app-icon name="alert" [size]="20" /></span>
+  <h2 id="finish-title">Finalizar o simulado?</h2>
+  <p>Depois de finalizar, o simulado termina e você não poderá mais alterar suas respostas.</p>
+  @if (answeredCount() < total()) {
+    <p class="dialog__warning">
+      Você respondeu {{ answeredCount() }} de {{ total() }} questões. As questões sem resposta não serão corrigidas.
+    </p>
+  }
+  <div class="dialog__actions">
+    <button class="btn btn--soft" type="button" (click)="finishDialog.close()">Continuar respondendo</button>
+    <button class="btn btn--primary" type="button" (click)="finishDialog.close(); submit()">Finalizar</button>
+  </div>
+</dialog>

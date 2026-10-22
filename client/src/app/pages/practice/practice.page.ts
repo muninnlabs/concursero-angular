@@ -1,5 +1,5 @@
 import { HttpErrorResponse } from '@angular/common/http';
-import { ChangeDetectionStrategy, Component, DestroyRef, computed, effect, inject, input, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, DestroyRef, ElementRef, computed, effect, inject, input, signal, viewChild } from '@angular/core';
 import { rxResource } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { ApiService, assetUrl } from '../../core/api.service';
@@ -134,6 +134,13 @@ export class PracticePage {
     const id = this.current()?.id;
     if (id && !this.results()) this.timeSpent.set(id, (this.timeSpent.get(id) ?? 0) + now - this.viewingSince);
     this.viewingSince = now;
+  }
+
+  private readonly finishDialog = viewChild.required<ElementRef<HTMLDialogElement>>('finishDialog');
+
+  /** "Finalizar" asks first: once submitted, the answers can't be changed. */
+  protected confirmFinish() {
+    this.finishDialog().nativeElement.showModal();
   }
 
   protected submit() {
