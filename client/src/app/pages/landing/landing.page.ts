@@ -63,10 +63,10 @@ export class LandingPage {
     },
   ];
 
-  protected readonly mobilePerks = [
-    'Modo offline para estudar sem internet',
-    'Sincronização automática entre dispositivos',
-    'Notificações inteligentes de revisão',
+  protected readonly devicePerks = [
+    'Funciona no navegador, sem instalar nada',
+    'Progresso salvo na sua conta Google',
+    'Continue de onde parou em qualquer dispositivo',
   ];
 
   protected readonly plans: PricingPlan[] = [
