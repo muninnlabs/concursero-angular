@@ -292,3 +292,34 @@
     white-space: pre-line;
   }
 }
+
+.dialog {
+  max-width: 460px;
+  padding: 32px;
+  color: var(--text);
+  border-radius: 20px;
+
+  &::backdrop {
+    background: rgb(15 23 42 / 0.5);
+  }
+  h2 {
+    margin-top: 18px;
+    font-size: 20px;
+  }
+  p {
+    margin-top: 10px;
+    color: var(--text-muted);
+    line-height: 1.55;
+  }
+}
+.dialog__warning {
+  color: var(--text) !important;
+  font-weight: 600;
+}
+.dialog__actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
