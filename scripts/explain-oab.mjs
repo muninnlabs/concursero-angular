@@ -4,6 +4,7 @@
 //
 //   node --env-file=<file with ANTHROPIC_API_KEY> scripts/explain-oab.mjs <command>
 //     try <question-id>      one synchronous request, printed (for prompt tuning)
+//     run --sample 50        like submit, but now, with direct requests (full price, no queue)
 //     submit --sample 50     a batch with N questions spread across subjects and years
 //     submit --all           a batch with every question that has no explanation yet
 //     status                 progress of the submitted batches
@@ -15,8 +16,9 @@ import path from 'node:path';
 const MODEL = 'claude-opus-5-5';
 const EFFORT = 'high';
 const MAX_TOKENS = 16000;
-// Batch prices (USD per million tokens), for the cost line printed by collect.
+// Batch prices (USD per million tokens), for the cost line printed by collect; direct requests cost double.
 const PRICE = { input: 2, output: 10 };
+const CONCURRENCY = 5;
 
 const root = path.resolve(import.meta.dirname, '..');
 const examDir = path.join(root, 'assets', 'provas', 'oab');
@@ -40,7 +42,7 @@ O comentário deve:
 - citar os dispositivos legais, súmulas e entendimentos dos tribunais superiores com precisão. Se não tiver certeza do número de um artigo, cite a lei sem o número; nunca invente artigos, súmulas ou julgados;
 - explicar em seguida, de forma breve, por que cada uma das outras alternativas está errada;
 - ter entre 120 e 300 palavras, em parágrafos curtos separados por uma linha em branco, sem markdown, títulos ou listas;
-- não mencionar que foi escrito por IA nem repetir o enunciado.
+- não mencionar que foi escrito por IA, não repetir o enunciado e não comentar a disciplina em que a questão foi classificada.
 
 A prova foi aplicada no ano informado. Se a legislação ou a jurisprudência mudou depois disso de um modo que mudaria a resposta ou o fundamento (por exemplo, o CPC de 2015, a Reforma Trabalhista de 2017, o Pacote Anticrime, a Lei 14.133/2021, a EC 103/2019), explique a questão segundo o direito da época e descreva a mudança em "update_note".
 
@@ -159,12 +161,35 @@ if (command === 'try') {
   console.log(promptFor(q), '\n---');
   const message = await (await api('POST', '/messages', requestFor(q))).json();
   console.log(parseMessage(message), message.usage);
-} else if (command === 'submit') {
+} else if (command === 'run' || command === 'submit') {
   const pending = (await loadQuestions()).filter((q) => !done[q.id] && !batches.some((b) => !b.collected && b.ids.includes(q.id)));
   const chosen = args[0] === '--all' ? pending : args[0] === '--sample' ? sample(pending, Number(args[1])) : null;
-  if (!chosen) throw new Error('submit needs --sample N or --all');
+  if (!chosen) throw new Error(`${command} needs --sample N or --all`);
   if (!chosen.length) {
-    console.log('Nothing to submit.');
+    console.log('Nothing to do.');
+  } else if (command === 'run') {
+    const usage = { input: 0, output: 0 };
+    const failed = [];
+    const queue = [...chosen];
+    const worker = async () => {
+      for (let q; (q = queue.shift()); ) {
+        try {
+          const message = await (await api('POST', '/messages', requestFor(q))).json();
+          usage.input += message.usage.input_tokens;
+          usage.output += message.usage.output_tokens;
+          done[q.id] = { ...parseMessage(message), model: MODEL, generated_at: new Date().toISOString().slice(0, 10) };
+          process.stdout.write('.');
+        } catch (error) {
+          failed.push(`${q.id} (${error.message.slice(0, 200)})`);
+          process.stdout.write('x');
+        }
+      }
+    };
+    await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+    await writeJson(outFile, Object.fromEntries(Object.entries(done).sort(([a], [b]) => a.localeCompare(b))));
+    const cost = (2 * (usage.input * PRICE.input + usage.output * PRICE.output)) / 1e6;
+    console.log(`\n${chosen.length - failed.length} saved, ${failed.length} failed, ${usage.input} in / ${usage.output} out tokens ≈ $${cost.toFixed(2)}`);
+    if (failed.length) console.log('  failed:', failed.join(', '));
   } else {
     const requests = chosen.map((q) => ({ custom_id: q.id, params: requestFor(q) }));
     const batch = await (await api('POST', '/messages/batches', { requests })).json();
@@ -209,6 +234,6 @@ if (command === 'try') {
   await writeJson(outFile, Object.fromEntries(Object.entries(done).sort(([a], [b]) => a.localeCompare(b))));
   await writeJson(batchFile, batches);
 } else {
-  console.error('Commands: try <id> | submit --sample N | submit --all | status | collect');
+  console.error('Commands: try <id> | run|submit --sample N | run|submit --all | status | collect');
   process.exit(1);
 }
