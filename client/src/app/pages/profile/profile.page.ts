@@ -188,11 +188,11 @@ export class ProfilePage {
   protected async share() {
     const p = this.profile.value();
     if (!p) return;
-    const text = `Estou no nível ${p.level.level} do BrasilQuiz, com ${p.streak.current} ${p.streak.current === 1 ? 'dia' : 'dias'} de ofensiva e ${p.xp.toLocaleString('pt-BR')} XP. Bora estudar também?`;
+    const text = `Estou no nível ${p.level.level} do Concursero, com ${p.streak.current} ${p.streak.current === 1 ? 'dia' : 'dias'} de ofensiva e ${p.xp.toLocaleString('pt-BR')} XP. Bora estudar também?`;
     const url = document.baseURI;
     try {
       if (navigator.share) {
-        await navigator.share({ title: 'BrasilQuiz', text, url });
+        await navigator.share({ title: 'Concursero', text, url });
         return;
       }
       await navigator.clipboard.writeText(`${text} ${url}`);
