@@ -8,6 +8,7 @@ import { execSync } from 'node:child_process';
 import { cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { CATEGORY_BY_FOLDER, summarize } from '../server/src/exams/catalog.ts';
+import { withExplanations } from '../server/src/exams/explanations.ts';
 
 const BASE = 'concursero-angular';
 const root = path.resolve(import.meta.dirname, '..');
@@ -27,12 +28,16 @@ await cp(path.join(root, 'client', 'dist', 'client', 'browser'), out, { recursiv
 const catalog = [];
 for (const [folder, category] of Object.entries(CATEGORY_BY_FOLDER)) {
   const dir = path.join(root, 'assets', 'provas', folder);
+  // Generated explanations are merged into the served copy of each exam.
+  const explanations = await readFile(path.join(root, 'assets', 'explanations', `${folder}.json`), 'utf8')
+    .then(JSON.parse)
+    .catch(() => ({}));
   await mkdir(path.join(out, 'assets', 'provas', folder), { recursive: true });
   for (const file of (await readdir(dir)).filter((f) => f.endsWith('.json')).sort()) {
     const relative = `assets/provas/${folder}/${file}`;
     const data = JSON.parse(await readFile(path.join(dir, file), 'utf8'));
     if (data.exam_metadata.status) continue; // incomplete / superseded exams aren't served
-    await cp(path.join(dir, file), path.join(out, relative));
+    await writeFile(path.join(out, relative), JSON.stringify(withExplanations(data, explanations)));
     catalog.push(summarize(category, relative, data));
   }
 }

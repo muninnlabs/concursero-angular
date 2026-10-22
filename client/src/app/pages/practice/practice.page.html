@@ -88,6 +88,29 @@
 
     <p class="question__statement">{{ dewrap(question.statement) }}</p>
 
+    @if (resultFor().get(question.id); as result) {
+      @if (result.explanation) {
+        <section class="explanation" aria-label="Comentário">
+          <div class="explanation__head">
+            <strong>Comentário · resposta {{ result.correctAnswer }}</strong>
+            @if (result.explanationAi) {
+              <span class="explanation__ai" title="Comentário escrito por inteligência artificial a partir do gabarito oficial">Gerado por IA</span>
+            }
+          </div>
+          <p>{{ dewrap(result.explanation) }}</p>
+          @if (result.explanationNote; as note) {
+            <div class="explanation__note">
+              <strong><app-icon name="alert" [size]="14" /> Atualização da lei</strong>
+              <p>{{ dewrap(note) }}</p>
+            </div>
+          }
+          @if (result.explanationAi) {
+            <small>Encontrou um erro no comentário? Use “Reportar erro” acima.</small>
+          }
+        </section>
+      }
+    }
+
     <div class="options" role="radiogroup">
       @for (option of question.options; track option.letter) {
         @let state = optionState(question.id, option.letter);
@@ -113,12 +136,6 @@
       }
     </div>
 
-    @if (resultFor().get(question.id)?.explanation; as explanation) {
-      <section class="explanation" aria-label="Explicação">
-        <strong>Explicação</strong>
-        <p>{{ dewrap(explanation) }}</p>
-      </section>
-    }
   </article>
 
   @if (error(); as message) {

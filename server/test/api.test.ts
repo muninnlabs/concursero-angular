@@ -3,6 +3,7 @@ import { describe, test } from 'node:test';
 import { createApp } from '../src/app.ts';
 import type { TokenVerifier } from '../src/auth/firebase.ts';
 import { MemoryExamSource, examLabel, isUsable, randomQuestions, toPublicQuestion } from '../src/exams/catalog.ts';
+import { withExplanations } from '../src/exams/explanations.ts';
 import type { ExamFile, Question } from '../src/exams/types.ts';
 import { createSqliteStore } from '../src/users/sqlite-store.ts';
 import { badgesFor, levelFor, longestStreak, publicName } from '../src/users/profile.ts';
@@ -449,6 +450,41 @@ describe('explanations', () => {
     const body = (await graded.json()) as { results: { isCorrect: boolean; explanation?: string }[] };
     assert.equal(body.results[0].isCorrect, false);
     assert.equal(body.results[0].explanation, 'B, porque sim.');
+  });
+
+  test('generated ones are merged in, flagged as AI, and held back when they dispute the key', async () => {
+    const oab = 'oab_2010_1_tipo1';
+    const generated = (explanation: string, agrees = true) => ({
+      explanation,
+      update_note: agrees ? 'Hoje vale o CPC/2015.' : null,
+      agrees_with_key: agrees,
+      confidence: 'alta',
+      model: 'test',
+      generated_at: '2026-10-22',
+    });
+    const data = withExplanations(exam(oab, 2010, [question(`${oab}_q1`, 'C'), question(`${oab}_q2`, 'A')]), {
+      [`${oab}_q1`]: generated('C, pelo art. 295.'),
+      [`${oab}_q2`]: generated('O gabarito parece errado.', false),
+    });
+    const oabSource = new MemoryExamSource();
+    oabSource.add('OAB', 'oab.json', data);
+    const oabApp = createApp({ exams: oabSource, store: createSqliteStore(':memory:'), verifyToken });
+    const graded = await oabApp.request('/api/answers', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', authorization: 'Bearer valid:oab' },
+      body: JSON.stringify({
+        answers: [
+          { questionId: `${oab}_q1`, examId: oab, selected: 'C' },
+          { questionId: `${oab}_q2`, examId: oab, selected: 'A' },
+        ],
+      }),
+    });
+    const { results } = (await graded.json()) as { results: Record<string, unknown>[] };
+    assert.deepEqual(
+      { explanation: results[0].explanation, note: results[0].explanationNote, ai: results[0].explanationAi },
+      { explanation: 'C, pelo art. 295.', note: 'Hoje vale o CPC/2015.', ai: true },
+    );
+    assert.equal('explanation' in results[1], false);
   });
 });
 
