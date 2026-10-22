@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AuthService } from '../../core/auth.service';
@@ -47,4 +48,9 @@ import { SiteFooter } from '../../shared/site-footer';
 })
 export class InfoLayout {
   protected readonly signedIn = inject(AuthService).signedIn;
+
+  constructor() {
+    // Keep #section jumps (Privacidade's index) clear of the sticky header.
+    inject(ViewportScroller).setOffset([0, 80]);
+  }
 }
