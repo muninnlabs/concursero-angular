@@ -3,11 +3,11 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { catchError, of } from 'rxjs';
 import { ApiService } from '../../core/api.service';
-import { LEGAL } from '../../core/legal';
 import { AuthService } from '../../core/auth.service';
 import { AdSlot } from '../../shared/ad-slot';
 import { Icon, type IconName } from '../../shared/icon';
 import { Logo } from '../../shared/logo';
+import { SiteFooter } from '../../shared/site-footer';
 
 interface Feature {
   icon: IconName;
@@ -25,13 +25,12 @@ interface PricingPlan {
 
 @Component({
   selector: 'app-landing-page',
-  imports: [RouterLink, AdSlot, Icon, Logo],
+  imports: [RouterLink, AdSlot, Icon, Logo, SiteFooter],
   templateUrl: './landing.page.html',
   styleUrl: './landing.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LandingPage {
-  protected readonly legal = LEGAL;
   private readonly auth = inject(AuthService);
   private readonly catalog = toSignal(inject(ApiService).catalog().pipe(catchError(() => of(null))));
 
@@ -45,8 +44,6 @@ export class LandingPage {
     const rounded = total >= 1000 ? Math.floor(total / 1000) * 1000 : total;
     return `${rounded.toLocaleString('pt-BR')}+`;
   });
-
-  protected readonly year = new Date().getFullYear();
 
   protected readonly features: Feature[] = [
     {

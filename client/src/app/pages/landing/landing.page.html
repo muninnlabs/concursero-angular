@@ -123,32 +123,4 @@
   </section>
 </main>
 
-<footer class="footer">
-  <div class="container footer__grid">
-    <div>
-      <app-logo [size]="26" [light]="true" />
-      <p class="footer__about">Plataforma líder em preparação para exames públicos e privados no Brasil.</p>
-    </div>
-    <div>
-      <h4>Produto</h4>
-      <a routerLink="/entrar">ENEM</a>
-      <a routerLink="/entrar">OAB</a>
-      <a routerLink="/entrar">Concursos</a>
-    </div>
-    <div>
-      <h4>Empresa</h4>
-      <a href="#">Sobre nós</a>
-      <a href="#">Contato</a>
-      <a [href]="legal.privacy" target="_blank" rel="noopener">Privacidade</a>
-      <a [href]="legal.terms" target="_blank" rel="noopener">Termos de Uso</a>
-    </div>
-    <div>
-      <h4>Social</h4>
-      <div class="footer__social">
-        <a href="#" aria-label="Instagram"><app-icon name="instagram" [size]="16" /></a>
-        <a href="#" aria-label="X (Twitter)"><app-icon name="x-logo" [size]="14" /></a>
-      </div>
-    </div>
-  </div>
-  <p class="container footer__copy">© {{ year }} Concursero. Todos os direitos reservados.</p>
-</footer>
+<app-site-footer />

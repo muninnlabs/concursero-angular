@@ -1,0 +1,238 @@
+<article class="doc">
+  <h1>Política de Privacidade</h1>
+  <p class="doc__lead">
+    Esta política explica quais dados pessoais o site Concursero trata, por quê, com quem são compartilhados e como você controla seus dados.
+  </p>
+  <p class="doc__meta">Última atualização: {{ updatedAt }}</p>
+
+  <nav class="doc__toc" aria-label="Nesta página">
+    <ol>
+      <li><a routerLink="." fragment="responsavel">Quem é o responsável</a></li>
+      <li><a routerLink="." fragment="dados">Quais dados tratamos e por quê</a></li>
+      <li><a routerLink="." fragment="armazenamento">Armazenamento no navegador</a></li>
+      <li><a routerLink="." fragment="compartilhamento">Com quem compartilhamos</a></li>
+      <li><a routerLink="." fragment="transferencia">Transferência internacional</a></li>
+      <li><a routerLink="." fragment="prazo">Por quanto tempo guardamos</a></li>
+      <li><a routerLink="." fragment="direitos">Seus direitos</a></li>
+      <li><a routerLink="." fragment="apagar">Como apagar seus dados</a></li>
+      <li><a routerLink="." fragment="menores">Crianças e adolescentes</a></li>
+      <li><a routerLink="." fragment="seguranca">Segurança</a></li>
+      <li><a routerLink="." fragment="alteracoes">Alterações</a></li>
+      <li><a routerLink="." fragment="contato">Contato</a></li>
+    </ol>
+  </nav>
+
+  <h2>Resumo</h2>
+  <ul>
+    <li>Para praticar, você entra com sua conta Google. Guardamos seu nome, e-mail e o histórico das suas respostas para calcular estatísticas e progresso.</li>
+    <li>No Ranking Semanal, outros estudantes veem só seu primeiro nome com a inicial do sobrenome e seu XP.</li>
+    <li>O site pode exibir anúncios do Google AdSense; quando a lei exige, pedimos seu consentimento antes de usar cookies de publicidade.</li>
+    <li>Não vendemos seus dados e não usamos ferramentas de análise de uso (analytics).</li>
+    <li>Você pode excluir sua conta e todos os seus dados a qualquer momento em Configurações.</li>
+  </ul>
+
+  <h2 id="responsavel">1. Quem é o responsável</h2>
+  <p>
+    O responsável pelo tratamento dos seus dados (“controlador”, nos termos do Regulamento Geral sobre a Proteção de Dados da União Europeia
+    — RGPD — e da Lei Geral de Proteção de Dados do Brasil — LGPD) é {{ company.name }} (NIPC {{ company.nipc }}), com sede em
+    {{ company.address }}, que desenvolve o Concursero sob a marca {{ company.brand }}.
+  </p>
+  <p>
+    Para qualquer assunto sobre privacidade, escreva para
+    <a [href]="'mailto:' + company.privacyEmail">{{ company.privacyEmail }}</a>.
+  </p>
+
+  <h2 id="dados">2. Quais dados tratamos e por quê</h2>
+
+  <h3>2.1 Conta (login com Google)</h3>
+  <p>Ao entrar com sua conta Google, recebemos do Google, por meio do Firebase Authentication:</p>
+  <ul>
+    <li>nome;</li>
+    <li>endereço de e-mail;</li>
+    <li>um identificador único da conta, gerado pelo Firebase.</li>
+  </ul>
+  <p>
+    Guardamos esses dados nos nossos servidores e os atualizamos a cada acesso, conforme estão na sua conta Google. Sua foto de perfil é
+    carregada diretamente do Google no seu navegador e não é guardada por nós.
+  </p>
+  <p>
+    <strong>Para quê:</strong> identificar você, guardar seu progresso e mostrar seu nome no site.
+    <strong>Base legal:</strong> execução do contrato de prestação do serviço que você solicitou (art. 6.º, n.º 1, alínea b, do RGPD;
+    art. 7.º, V, da LGPD).
+  </p>
+  <p>
+    A mesma conta de login é usada pelos apps de celular do Concursero. Excluir sua conta no site apaga os dados do site, mas não o login
+    em si (veja a seção 8).
+  </p>
+
+  <h3>2.2 Respostas e simulados</h3>
+  <p>
+    Para cada questão que você responde, guardamos: a questão e a prova, a matéria, a alternativa escolhida, se a resposta estava certa, a
+    data e hora e o tempo gasto na questão. Para cada simulado concluído, guardamos o título, a matéria, o número de questões e de acertos e
+    a data.
+  </p>
+  <p>
+    Para calcular estatísticas por dia no seu fuso horário, o navegador envia o fuso horário junto com o pedido; ele é usado no cálculo e
+    não é guardado.
+  </p>
+  <p>
+    <strong>Para quê:</strong> corrigir as respostas, calcular estatísticas, XP, níveis, conquistas e sequência de estudos, e permitir
+    refazer simulados. <strong>Base legal:</strong> execução do contrato (RGPD art. 6.º, n.º 1, b; LGPD art. 7.º, V).
+  </p>
+
+  <h3>2.3 Perfil</h3>
+  <p>
+    Se quiser, você pode escrever uma bio (até 280 caracteres) e uma localização (até 60 caracteres) na página Perfil. Esses campos são
+    opcionais e aparecem apenas para você.
+  </p>
+  <p><strong>Base legal:</strong> execução do contrato (RGPD art. 6.º, n.º 1, b; LGPD art. 7.º, V).</p>
+
+  <h3>2.4 Ranking e comparações</h3>
+  <p>
+    O Ranking Semanal, na página Perfil, mostra aos outros estudantes seu primeiro nome com a inicial do sobrenome (por exemplo, “Ana S.”),
+    suas iniciais como avatar e o XP que você ganhou nos últimos 7 dias. Seu e-mail, sua foto, sua bio e sua localização não são exibidos.
+  </p>
+  <p>
+    Na página Estatísticas, mostramos sua posição percentual entre os estudantes (por exemplo, “top 10%”), calculada de forma agregada, sem
+    identificar ninguém.
+  </p>
+  <p>
+    <strong>Para quê:</strong> oferecer a comparação de desempenho como parte do serviço. <strong>Base legal:</strong> nosso interesse
+    legítimo (RGPD art. 6.º, n.º 1, f; LGPD art. 7.º, IX). Se preferir não aparecer no ranking, escreva para nós.
+  </p>
+
+  <h3>2.5 Relatos de erro em questões</h3>
+  <p>
+    Quando você usa “Reportar erro”, guardamos a questão, o motivo escolhido, o comentário que você escrever (opcional, até 500 caracteres),
+    a data e a sua conta, para revisar e corrigir a questão. <strong>Base legal:</strong> nosso interesse legítimo em manter o conteúdo
+    correto (RGPD art. 6.º, n.º 1, f; LGPD art. 7.º, IX).
+  </p>
+
+  <h3>2.6 Anúncios (Google AdSense)</h3>
+  <p>
+    Para manter o serviço gratuito, o site pode exibir anúncios do Google AdSense. Para exibir, medir e, quando permitido, personalizar
+    anúncios, o Google usa cookies e coleta dados do navegador, como endereço IP, identificadores de cookies, informações do navegador e
+    interações com os anúncios. O Google trata esses dados como controlador independente, conforme a
+    <a href="https://policies.google.com/privacy?hl=pt-BR" target="_blank" rel="noopener">Política de Privacidade do Google</a> e a página
+    <a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR" target="_blank" rel="noopener">Como o Google usa informações de sites ou apps que usam os serviços do Google</a>.
+  </p>
+  <p>
+    Quando a lei exige — por exemplo, para visitantes no Espaço Econômico Europeu e no Reino Unido — pedimos seu consentimento antes de
+    usar cookies de publicidade, e você pode mudar sua escolha a qualquer momento. Você também pode desativar anúncios personalizados em
+    <a href="https://adssettings.google.com" target="_blank" rel="noopener">Minha Central de Anúncios</a>.
+  </p>
+  <p>
+    <strong>Base legal:</strong> seu consentimento, quando exigido (RGPD art. 6.º, n.º 1, a), e, nos demais casos, nosso interesse
+    legítimo em financiar o serviço gratuito (RGPD art. 6.º, n.º 1, f; LGPD art. 7.º, IX).
+  </p>
+
+  <h3>2.7 Dados técnicos</h3>
+  <p>
+    Para funcionar, nossos provedores de infraestrutura (Cloudflare e Google) processam dados técnicos da conexão, como endereço IP e
+    informações do navegador. A fonte do site é carregada do Google Fonts, que recebe seu endereço IP. Não registramos endereços IP nos
+    nossos sistemas e não usamos ferramentas de análise de uso nem de rastreamento próprias.
+  </p>
+
+  <h2 id="armazenamento">3. Armazenamento no navegador</h2>
+  <p>O site guarda no seu navegador apenas o necessário para funcionar:</p>
+  <table>
+    <tr><th>O quê</th><th>Para quê</th></tr>
+    <tr><td>Sessão de login (Firebase Authentication)</td><td>Manter você conectado.</td></tr>
+    <tr><td>Categoria escolhida e filtros de concurso</td><td>Abrir o site onde você parou.</td></tr>
+    <tr><td>Preferências (modo escuro, sons)</td><td>Lembrar suas configurações.</td></tr>
+    <tr><td>Cookies do Google AdSense, quando houver anúncios</td><td>Exibir e medir anúncios (seção 2.6).</td></tr>
+  </table>
+  <p>Você pode apagar esses dados a qualquer momento nas configurações do seu navegador.</p>
+
+  <h2 id="compartilhamento">4. Com quem compartilhamos</h2>
+  <ul>
+    <li><strong>Cloudflare:</strong> hospeda o site e o banco de dados com sua conta, suas respostas e seus simulados, como operador que trata os dados apenas conforme nossas instruções.</li>
+    <li><strong>Google (Firebase Authentication):</strong> faz o login com sua conta Google, como operador.</li>
+    <li><strong>Google (AdSense):</strong> fornece os anúncios, como controlador independente (seção 2.6).</li>
+    <li><strong>Outros estudantes:</strong> veem apenas as informações do ranking (seção 2.4).</li>
+    <li><strong>Autoridades:</strong> somente quando exigido por lei ou ordem judicial.</li>
+  </ul>
+  <p>Não vendemos nem alugamos seus dados pessoais.</p>
+
+  <h2 id="transferencia">5. Transferência internacional</h2>
+  <p>
+    Os servidores da Cloudflare e do Google podem estar localizados fora do Brasil e fora do Espaço Econômico Europeu, incluindo os Estados
+    Unidos. Nesses casos, a transferência é protegida pelas cláusulas contratuais-padrão aprovadas pela Comissão Europeia e adotadas por
+    esses provedores, e pelas demais garantias previstas no art. 33 da LGPD.
+  </p>
+
+  <h2 id="prazo">6. Por quanto tempo guardamos</h2>
+  <ul>
+    <li><strong>Conta, respostas, simulados, perfil e relatos de erro:</strong> enquanto sua conta existir. Ao excluir a conta, apagamos tudo imediatamente dos nossos sistemas ativos.</li>
+    <li><strong>Dados no navegador:</strong> até você sair da conta ou limpar os dados do navegador.</li>
+    <li><strong>Dados de anúncios:</strong> pelo prazo definido pelo Google em sua política.</li>
+    <li><strong>E-mails que você nos envia:</strong> pelo tempo necessário para atender ao pedido e, depois, pelo prazo exigido para comprovar que o atendemos.</li>
+  </ul>
+
+  <h2 id="direitos">7. Seus direitos</h2>
+  <p>Você pode, a qualquer momento e sem custo:</p>
+  <ul>
+    <li>confirmar se tratamos seus dados e acessá-los;</li>
+    <li>corrigir dados incompletos ou incorretos;</li>
+    <li>pedir a exclusão dos seus dados;</li>
+    <li>receber seus dados em formato estruturado (portabilidade);</li>
+    <li>opor-se ao tratamento baseado em interesse legítimo, como o ranking;</li>
+    <li>retirar o consentimento para anúncios personalizados;</li>
+    <li>pedir a limitação do tratamento, nos casos previstos no RGPD;</li>
+    <li>obter informações sobre com quem compartilhamos seus dados.</li>
+  </ul>
+  <p>
+    Para exercer esses direitos, use as opções do site (seção 8) ou escreva para
+    <a [href]="'mailto:' + company.privacyEmail">{{ company.privacyEmail }}</a>. Respondemos em até 15 dias e, no máximo, dentro do prazo
+    de um mês previsto no RGPD.
+  </p>
+  <p>
+    Você também pode apresentar reclamação à autoridade de proteção de dados: em Portugal, a Comissão Nacional de Proteção de Dados (CNPD);
+    no Brasil, a Autoridade Nacional de Proteção de Dados (ANPD); ou a autoridade do país da União Europeia onde você vive.
+  </p>
+
+  <h2 id="apagar">8. Como apagar seus dados</h2>
+  <ul>
+    <li>
+      <strong>Excluir Minha Conta</strong> (Configurações › Zona de Perigo): apaga imediatamente seu perfil, suas respostas, seus simulados,
+      seus relatos de erro e sua entrada no ranking.
+    </li>
+    <li>
+      <strong>Login do Google:</strong> como o mesmo login é usado pelos apps de celular do Concursero, ele não é apagado junto. Para
+      apagá-lo também, use “Excluir Conta” no app de celular ou escreva para
+      <a [href]="'mailto:' + company.privacyEmail">{{ company.privacyEmail }}</a> a partir do e-mail da sua conta.
+    </li>
+    <li>
+      <strong>Acesso do Concursero à sua conta Google:</strong> pode ser revogado a qualquer momento em
+      <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener">Sua Conta do Google › Apps e serviços de terceiros</a>.
+    </li>
+  </ul>
+
+  <h2 id="menores">9. Crianças e adolescentes</h2>
+  <p>
+    O Concursero é destinado a estudantes que se preparam para exames como o ENEM, o Exame da OAB, vestibulares e concursos públicos, e não
+    se dirige a crianças. Não coletamos intencionalmente dados de menores de 13 anos. Se você tem entre 13 e 18 anos, use o site com o
+    conhecimento dos seus pais ou responsáveis. Se você é responsável e acredita que uma criança nos forneceu dados, escreva para nós e os
+    apagaremos.
+  </p>
+
+  <h2 id="seguranca">10. Segurança</h2>
+  <p>
+    Os dados são transmitidos com criptografia (HTTPS/TLS). Cada pedido ao nosso servidor é autenticado com um token do Google verificado
+    no servidor, e cada pessoa só tem acesso aos próprios dados. Nenhum sistema é totalmente imune a falhas; se ocorrer um incidente que
+    possa afetar você, avisaremos você e as autoridades competentes, conforme a lei.
+  </p>
+
+  <h2 id="alteracoes">11. Alterações desta política</h2>
+  <p>
+    Podemos atualizar esta política, por exemplo quando o site ganhar novas funções. A data no topo indica a versão atual. Se a mudança for
+    relevante, avisaremos no site antes de ela entrar em vigor.
+  </p>
+
+  <h2 id="contato">12. Contato</h2>
+  <p>
+    {{ company.name }} · {{ company.address }}<br />
+    E-mail: <a [href]="'mailto:' + company.privacyEmail">{{ company.privacyEmail }}</a>
+  </p>
+  <p>Veja também os <a routerLink="/termos">Termos de Uso</a>.</p>
+</article>

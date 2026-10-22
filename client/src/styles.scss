@@ -300,3 +300,103 @@ input {
     background: rgb(192 132 252 / 0.12);
   }
 }
+
+// Long-form text pages (Ajuda, Sobre, Contato, Privacidade, Termos).
+.doc {
+  max-width: 760px;
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.7;
+
+  h1 {
+    font-size: clamp(1.9rem, 4vw, 2.5rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+  h2 {
+    margin-top: 40px;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    scroll-margin-top: 80px;
+  }
+  h3 {
+    margin-top: 24px;
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+  p,
+  ul,
+  ol,
+  table,
+  details {
+    margin-top: 12px;
+  }
+  ul,
+  ol {
+    padding-left: 22px;
+  }
+  li + li {
+    margin-top: 6px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  th,
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+}
+.doc__lead {
+  margin-top: 12px;
+  color: var(--text-muted);
+  font-size: 18px;
+}
+.doc__meta {
+  margin-top: 8px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+.doc__toc {
+  margin-top: 28px;
+  padding: 20px 24px;
+  border-radius: var(--radius);
+  background: var(--hover);
+  font-size: 15px;
+}
+.doc__toc ol {
+  margin: 0;
+  columns: 2;
+  column-gap: 32px;
+}
+@media (max-width: 600px) {
+  .doc__toc ol {
+    columns: 1;
+  }
+}
+.doc__faq {
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+
+  summary {
+    font-weight: 600;
+    cursor: pointer;
+  }
+  &[open] summary {
+    margin-bottom: 8px;
+  }
+}
+.doc__faq + .doc__faq {
+  margin-top: 10px;
+}

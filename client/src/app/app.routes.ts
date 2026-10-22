@@ -4,6 +4,7 @@ import { authGuard, guestGuard } from './core/auth.guard';
 export const routes: Routes = [
   { path: '', pathMatch: 'full', loadComponent: () => import('./pages/landing/landing.page').then((m) => m.LandingPage) },
   { path: 'entrar', canActivate: [guestGuard], loadComponent: () => import('./pages/login/login.page').then((m) => m.LoginPage) },
+  { path: 'app/ajuda', redirectTo: 'ajuda' },
   {
     path: 'app',
     canActivate: [authGuard],
@@ -35,14 +36,21 @@ export const routes: Routes = [
         data: { topbarTitle: 'Seu perfil de estudante' },
         loadComponent: () => import('./pages/profile/profile.page').then((m) => m.ProfilePage),
       },
-      ...[
-        { path: 'ajuda', title: 'Ajuda' },
-      ].map(({ path, title }) => ({
-        path,
-        title: `${title} · Concursero`,
-        data: { heading: title },
-        loadComponent: () => import('./pages/placeholder/placeholder.page').then((m) => m.PlaceholderPage),
-      })),
+    ],
+  },
+  {
+    path: '',
+    loadComponent: () => import('./pages/info/info.layout').then((m) => m.InfoLayout),
+    children: [
+      { path: 'ajuda', title: 'Ajuda · Concursero', loadComponent: () => import('./pages/info/ajuda.page').then((m) => m.AjudaPage) },
+      { path: 'sobre', title: 'Sobre nós · Concursero', loadComponent: () => import('./pages/info/sobre.page').then((m) => m.SobrePage) },
+      { path: 'contato', title: 'Contato · Concursero', loadComponent: () => import('./pages/info/contato.page').then((m) => m.ContatoPage) },
+      {
+        path: 'privacidade',
+        title: 'Política de Privacidade · Concursero',
+        loadComponent: () => import('./pages/info/privacidade.page').then((m) => m.PrivacidadePage),
+      },
+      { path: 'termos', title: 'Termos de Uso · Concursero', loadComponent: () => import('./pages/info/termos.page').then((m) => m.TermosPage) },
     ],
   },
   { path: '**', redirectTo: '' },
