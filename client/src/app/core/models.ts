@@ -85,8 +85,11 @@ export interface GradedAnswer {
   selected: string;
   isCorrect: boolean;
   correctAnswer: string;
-  /** Why the correct alternative is correct, when the banca published it. */
+  /** Why the correct alternative is correct: published by the banca, or written by AI (explanationAi). */
   explanation?: string;
+  /** How the law changed since the exam, when it did. */
+  explanationNote?: string;
+  explanationAi?: boolean;
 }
 
 export interface Simulado {

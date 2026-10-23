@@ -67,6 +67,10 @@ export interface Question {
   review?: { status: string; reasons: string[] };
   /** Why the correct alternative is correct (published by some bancas, e.g. ACAFE); only sent after grading. */
   explanation?: string | null;
+  /** For a generated explanation: how the law changed since the exam, if it did. */
+  explanation_note?: string | null;
+  /** The explanation was written by AI (scripts/explain-oab.mjs), not by the banca. */
+  explanation_ai?: boolean;
 }
 
 export interface ContextText {
@@ -90,7 +94,7 @@ export interface QuestionOption {
  * A question as sent to the browser: the answer key stays on the server and
  * image_url is normalized to image_urls (always a list).
  */
-export type PublicQuestion = Omit<Question, 'correct_answer' | 'options' | 'image_url' | 'explanation'> & {
+export type PublicQuestion = Omit<Question, 'correct_answer' | 'options' | 'image_url' | 'explanation' | 'explanation_note' | 'explanation_ai'> & {
   image_urls: string[];
   examId: string;
   /** e.g. "ENEM 2013 · Dia 1 · Caderno Azul" */
