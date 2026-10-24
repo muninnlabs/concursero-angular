@@ -1,14 +1,14 @@
 /**
- * Ad placements (Google AdSense, publisher ca-pub-8126535492816869; the same
- * account as the apps' AdMob). A placement without a `slot` ID renders a
- * placeholder box of the right size; once the site is approved, create one ad
- * unit per placement in AdSense and paste its slot ID here — AdSlot then loads
- * adsbygoogle.js and renders the real unit.
+ * Ad placements (Google AdSense, publisher ca-pub-4635716355371884). A
+ * placement without a `slot` ID renders a placeholder box of the right size;
+ * once the site is approved, create one ad unit per placement in AdSense and
+ * paste its slot ID here — AdSlot then loads adsbygoogle.js and renders the
+ * real unit.
  */
 export const ADS = {
   /** Premium users never see ads. */
   enabled: true,
-  client: 'ca-pub-8126535492816869' as string | null,
+  client: 'ca-pub-4635716355371884' as string | null,
   placements: {
     'dashboard-top': { format: 'leaderboard', slot: null as string | null },
     'stats-top': { format: 'leaderboard', slot: null as string | null },
