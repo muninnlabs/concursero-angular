@@ -1,3 +1,8 @@
+import { HttpClient } from '@angular/common/http';
+import { Injectable, inject } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { catchError, of } from 'rxjs';
+
 /**
  * Ad placements (Google AdSense, publisher ca-pub-4635716355371884). A
  * placement without a `slot` ID renders a placeholder box of the right size;
@@ -21,3 +26,18 @@ export const ADS = {
 } as const;
 
 export type AdPlacement = keyof typeof ADS.placements;
+
+/** What a placement shows, set in the admin panel (GET api/ads). */
+export type PlacementSetting =
+  | { source: 'google' | 'off' }
+  | { source: 'partner'; ad: { id: string; advertiser: string; title: string; imageUrl: string; href: string } };
+
+/** The admin panel's choice per placement, loaded once per visit. Undefined while loading; Google for all if it fails. */
+@Injectable({ providedIn: 'root' })
+export class AdSettings {
+  readonly placements = toSignal(
+    inject(HttpClient)
+      .get<Record<string, PlacementSetting>>('api/ads')
+      .pipe(catchError(() => of({} as Record<string, PlacementSetting>))),
+  );
+}

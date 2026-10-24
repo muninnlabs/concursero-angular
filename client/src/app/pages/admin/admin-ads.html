@@ -1,0 +1,96 @@
+@if (error(); as e) {
+  <p class="error" role="alert">{{ e }}</p>
+}
+
+<section class="card panel">
+  <h2><app-icon name="layers" [size]="18" /> Espaços de anúncio</h2>
+  <p class="muted">
+    Escolha o que cada espaço mostra. Um anúncio de parceiro fora das datas ou pausado volta automaticamente para o Google. Usuários Premium
+    não veem anúncios.
+  </p>
+  <div class="table-wrap">
+    <table class="placements">
+      <thead><tr><th>Espaço</th><th>Mostra</th><th>Anúncio do parceiro</th></tr></thead>
+      <tbody>
+        @for (p of placements(); track p.placement) {
+          <tr>
+            <td>
+              <strong>{{ p.label }}</strong>
+              <small>{{ p.placement }}</small>
+            </td>
+            <td>
+              <div class="segmented segmented--sm" role="group" [attr.aria-label]="'Origem de ' + p.label">
+                <button type="button" [class.active]="p.source === 'google'" [disabled]="saving()" (click)="setSource(p, 'google')">Google</button>
+                <button type="button" [class.active]="p.source === 'partner'" [disabled]="saving()" (click)="setSource(p, 'partner')">Parceiro</button>
+                <button type="button" [class.active]="p.source === 'off'" [disabled]="saving()" (click)="setSource(p, 'off')">Desligado</button>
+              </div>
+            </td>
+            <td>
+              @if (p.source === 'partner') {
+                <select [attr.aria-label]="'Anúncio em ' + p.label" [disabled]="saving()" (change)="setSource(p, 'partner', $any($event.target).value)">
+                  @for (ad of partnerAds(); track ad.id) {
+                    <option [value]="ad.id" [selected]="ad.id === p.partnerAdId">{{ ad.advertiser }} · {{ ad.title }}</option>
+                  }
+                </select>
+              } @else {
+                <span class="muted">—</span>
+              }
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="card panel">
+  <div class="panel__head">
+    <h2><app-icon name="briefcase" [size]="18" /> Anúncios de parceiros</h2>
+    <button class="btn btn--primary" type="button" (click)="formOpen.set(!formOpen())">{{ formOpen() ? 'Fechar' : 'Novo anúncio' }}</button>
+  </div>
+
+  @if (formOpen()) {
+    <form class="form" (submit)="create($event)">
+      <label>Anunciante <input name="advertiser" required maxlength="80" placeholder="Universidade X" /></label>
+      <label>Título <input name="title" required maxlength="120" placeholder="Vestibular 2027: inscrições abertas" /></label>
+      <label class="form__wide">Link <input name="linkUrl" required type="url" placeholder="https://…" /></label>
+      <label>Início <input name="startsOn" type="date" /></label>
+      <label>Fim <input name="endsOn" type="date" /></label>
+      <label class="form__wide">
+        Imagem (PNG, JPG, WebP ou GIF, até 500 KB)
+        <input type="file" accept="image/png,image/jpeg,image/webp,image/gif" (change)="pickImage($event)" />
+        <small>Sugestão: 1456 × 180 para os banners largos e 600 × 500 para os quadrados.</small>
+      </label>
+      @if (image(); as src) {
+        <img class="form__preview" [src]="src" alt="Prévia do anúncio" />
+      }
+      <div class="form__wide">
+        <button class="btn btn--primary" type="submit" [disabled]="saving()">{{ saving() ? 'Salvando…' : 'Salvar anúncio' }}</button>
+      </div>
+    </form>
+  }
+
+  @if (partnerAds().length) {
+    <ul class="ads">
+      @for (ad of partnerAds(); track ad.id) {
+        @let s = status(ad);
+        @let st = adStats().get(ad.id);
+        <li class="ad">
+          <img [src]="'api/ads/image/' + ad.id" [alt]="ad.title" loading="lazy" />
+          <div class="ad__info">
+            <strong>{{ ad.advertiser }} · {{ ad.title }}</strong>
+            <a [href]="ad.linkUrl" target="_blank" rel="noopener">{{ ad.linkUrl }}</a>
+            <small>{{ period(ad) }} · 30 dias: {{ st?.views ?? 0 }} visualizações, {{ st?.clicks ?? 0 }} cliques</small>
+          </div>
+          <span class="tag tag--{{ s.tone }}">{{ s.label }}</span>
+          <div class="ad__actions">
+            <button class="btn btn--soft" type="button" [disabled]="saving()" (click)="toggle(ad)">{{ ad.active ? 'Pausar' : 'Retomar' }}</button>
+            <button class="btn btn--ghost" type="button" [disabled]="saving()" (click)="remove(ad)"><app-icon name="trash" [size]="16" /><span class="sr-only">Excluir</span></button>
+          </div>
+        </li>
+      }
+    </ul>
+  } @else if (!formOpen()) {
+    <p class="muted">Nenhum anúncio de parceiro ainda.</p>
+  }
+</section>

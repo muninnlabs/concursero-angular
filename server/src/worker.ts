@@ -6,7 +6,9 @@ import { createApp } from './app.ts';
 import { firebaseVerifier } from './auth/firebase.ts';
 import { StripeBilling } from './billing/stripe.ts';
 import { AssetsExamSource } from './exams/assets-source.ts';
-import { createD1Store } from './users/d1-store.ts';
+import { SiteStore } from './site/site-store.ts';
+import { d1Database } from './users/d1-store.ts';
+import { SqlUserStore } from './users/sql-store.ts';
 
 interface Env {
   ASSETS: Fetcher;
@@ -32,9 +34,11 @@ export default {
     if (!url.pathname.startsWith(BASE)) return new Response('Not found', { status: 404 });
 
     if (url.pathname.startsWith(`${BASE}api/`)) {
+      const db = d1Database(env.DB);
       api ??= createApp({
         exams: new AssetsExamSource(env.ASSETS, BASE),
-        store: createD1Store(env.DB),
+        store: new SqlUserStore(db),
+        site: new SiteStore(db),
         verifyToken: firebaseVerifier(env.FIREBASE_PROJECT_ID),
         billing:
           env.STRIPE_SECRET_KEY && env.STRIPE_WEBHOOK_SECRET && env.STRIPE_PRICE_ID

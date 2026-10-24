@@ -23,12 +23,17 @@ export class AuthService {
   readonly signedIn = computed(() => this.firebaseUser() !== null);
   readonly firstName = computed(() => this.user()?.name.split(' ')[0] ?? '');
   readonly isPremium = computed(() => this.user()?.plan === 'premium');
+  /** Opens the admin panel; from /api/auth/me only (other endpoints return the profile without it). */
+  readonly isAdmin = signal(false);
   readonly photoUrl = computed(() => this.firebaseUser()?.photoURL ?? null);
 
   constructor() {
     onAuthStateChanged(firebaseAuth, (user) => {
       this.firebaseUser.set(user);
-      if (!user) this.user.set(null);
+      if (!user) {
+        this.user.set(null);
+        this.isAdmin.set(false);
+      }
     });
   }
 
@@ -51,8 +56,9 @@ export class AuthService {
     if (!firebaseAuth.currentUser) return null;
     if (this.user()) return this.user();
     try {
-      const user = await firstValueFrom(this.http.get<User>('api/auth/me'));
+      const user = await firstValueFrom(this.http.get<User & { admin?: boolean }>('api/auth/me'));
       this.user.set(user);
+      this.isAdmin.set(user.admin === true);
       return user;
     } catch {
       return null;
@@ -62,6 +68,7 @@ export class AuthService {
   async logout() {
     await signOut(firebaseAuth);
     this.user.set(null);
+    this.isAdmin.set(false);
     this.router.navigateByUrl('/');
   }
 }

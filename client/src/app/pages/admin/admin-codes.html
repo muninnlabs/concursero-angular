@@ -1,0 +1,62 @@
+<section class="card panel">
+  <h2><app-icon name="key" [size]="18" /> Gerar códigos Premium</h2>
+  <p class="muted">Cada código dá Premium pelo número de dias escolhido. Cada conta usa um código uma vez só.</p>
+  <form class="form" (submit)="create($event)">
+    <label>Quantidade <input name="count" type="number" min="1" max="500" value="10" required /></label>
+    <label>Dias de Premium <input name="days" type="number" min="0" value="30" required /><small>0 = sem data de término</small></label>
+    <label>Usos por código <input name="maxUses" type="number" min="1" value="1" required /><small>Mais de 1 para um código de campanha</small></label>
+    <label>Resgatar até <input name="expiresOn" type="date" /><small>Opcional</small></label>
+    <label class="form__wide">Nota <input name="note" maxlength="120" placeholder="Ex.: Parceria Cursinho Y, feira de profissões" /></label>
+    <div class="form__wide">
+      <button class="btn btn--primary" type="submit" [disabled]="saving()">{{ saving() ? 'Gerando…' : 'Gerar códigos' }}</button>
+    </div>
+  </form>
+  @if (error(); as e) {
+    <p class="error" role="alert">{{ e }}</p>
+  }
+  @if (created().length) {
+    <div class="created">
+      <div class="panel__head">
+        <strong>{{ created().length }} código(s) criado(s)</strong>
+        <button class="btn btn--soft" type="button" (click)="copy()">{{ copied() ? 'Copiados!' : 'Copiar todos' }}</button>
+      </div>
+      <pre>{{ created().join('\n') }}</pre>
+    </div>
+  }
+</section>
+
+<section class="card panel">
+  <h2><app-icon name="list-checks" [size]="18" /> Códigos criados</h2>
+  @if (codes.value(); as list) {
+    @if (list.length) {
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Código</th><th>Dias</th><th>Usos</th><th>Resgatar até</th><th>Nota</th><th>Criado</th><th></th></tr></thead>
+          <tbody>
+            @for (c of list; track c.code) {
+              @let s = state(c);
+              <tr>
+                <td><code>{{ c.code }}</code></td>
+                <td>{{ c.days ?? 'Sem fim' }}</td>
+                <td>{{ c.uses }} / {{ c.maxUses }}</td>
+                <td>{{ date(c.expiresAt) }}</td>
+                <td>{{ c.note ?? '' }}</td>
+                <td>{{ date(c.createdAt) }}</td>
+                <td>
+                  <span class="tag tag--{{ s.tone }}">{{ s.label }}</span>
+                  @if (s.tone === 'ok') {
+                    <button class="link-button" type="button" (click)="expire(c)">Encerrar</button>
+                  }
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    } @else {
+      <p class="muted">Nenhum código ainda.</p>
+    }
+  } @else {
+    <p class="muted">Carregando…</p>
+  }
+</section>

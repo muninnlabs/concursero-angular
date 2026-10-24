@@ -1,0 +1,89 @@
+<div class="toolbar">
+  <div class="segmented" role="group" aria-label="Período">
+    @for (p of periods; track p.days) {
+      <button type="button" [class.active]="days() === p.days" [attr.aria-pressed]="days() === p.days" (click)="days.set(p.days)">{{ p.label }}</button>
+    }
+  </div>
+  <button class="btn btn--soft" type="button" (click)="copySummary()" [disabled]="!report.value()">
+    <app-icon name="file-text" [size]="16" /> {{ copied() ? 'Resumo copiado!' : 'Copiar resumo para anunciantes' }}
+  </button>
+</div>
+
+@if (report.error()) {
+  <p class="error" role="alert">Não foi possível carregar os números agora.</p>
+} @else if (!report.value()) {
+  <p class="muted">Carregando…</p>
+} @else {
+  <div class="kpis">
+    @for (k of kpis(); track k.label) {
+      <div class="card kpi">
+        <span class="icon-badge tone--{{ k.tone }}"><app-icon [name]="k.icon" [size]="18" /></span>
+        <strong>{{ k.value }}</strong>
+        <span>{{ k.label }}</span>
+        @if (k.hint) {
+          <small class="hint">{{ k.hint }}</small>
+        }
+        @if (k.delta !== undefined && k.delta !== null) {
+          <small [class.up]="k.delta >= 0" [class.down]="k.delta < 0">{{ k.delta >= 0 ? '+' : '' }}{{ k.delta }}% vs. período anterior</small>
+        }
+      </div>
+    }
+  </div>
+
+  @if (chart(); as c) {
+    <section class="card panel">
+      <h2>Acessos por dia</h2>
+      <app-line-chart [labels]="c.labels" [fullLabels]="c.fullLabels" [series]="c.series" description="Visitantes e páginas vistas por dia" />
+    </section>
+  }
+
+  <div class="grid">
+    @for (t of tables(); track t.title) {
+      <section class="card panel ranking">
+        <h2><app-icon [name]="t.icon" [size]="18" /> {{ t.title }}</h2>
+        @if (t.rows.length) {
+          <ol>
+            @for (row of t.rows; track $index) {
+              <li>
+                <div class="ranking__text">
+                  <span>{{ row.label }}</span>
+                  @if (row.detail) {
+                    <small>{{ row.detail }}</small>
+                  }
+                </div>
+                <div class="ranking__value">
+                  <strong>{{ number(row.value) }}</strong>
+                  @if (row.extra) {
+                    <small>{{ row.extra }}</small>
+                  }
+                </div>
+                <span class="ranking__bar" [style.width.%]="(row.value / t.max) * 100"></span>
+              </li>
+            }
+          </ol>
+        } @else {
+          <p class="muted">Nada no período.</p>
+        }
+      </section>
+    }
+  </div>
+
+  <section class="card panel">
+    <h2><app-icon name="chart" [size]="18" /> Anúncios por espaço</h2>
+    @if (ads().length) {
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Espaço</th><th>Origem</th><th>Visualizações</th><th>Cliques</th><th>CTR</th></tr></thead>
+          <tbody>
+            @for (a of ads(); track $index) {
+              <tr><td>{{ a.label }}</td><td>{{ a.source }}</td><td>{{ a.views }}</td><td>{{ a.clicks }}</td><td>{{ a.ctr }}</td></tr>
+            }
+          </tbody>
+        </table>
+      </div>
+      <p class="muted">Cliques em anúncios do Google ficam no painel do AdSense.</p>
+    } @else {
+      <p class="muted">Nenhum anúncio visto no período.</p>
+    }
+  </section>
+}
