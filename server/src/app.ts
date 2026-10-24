@@ -1,5 +1,6 @@
 import { Hono, type MiddlewareHandler } from 'hono';
 import type { AuthUser, TokenVerifier } from './auth/firebase.ts';
+import { LIVE_STATUSES, type Billing } from './billing/stripe.ts';
 import { isPlayable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
 import type { ConcursoInfo } from './exams/types.ts';
 import { badgesFor, levelFor, longestStreak } from './users/profile.ts';
@@ -9,6 +10,10 @@ export interface AppDeps {
   exams: ExamSource;
   store: UserStore;
   verifyToken: TokenVerifier;
+  /** Stripe; without it the payment routes answer 503. */
+  billing?: Billing;
+  /** Public address of the app (Stripe sends the user back there), e.g. https://munninlabs.com/concursero-angular */
+  appUrl?: string;
 }
 
 type Env = { Variables: { user: AuthUser } };
@@ -47,7 +52,7 @@ const REDEEM_ERRORS = {
  * Node (local development), server/src/worker.ts on Cloudflare Workers.
  * All routes live under /api.
  */
-export function createApp({ exams, store, verifyToken }: AppDeps) {
+export function createApp({ exams, store, verifyToken, billing, appUrl = 'http://localhost:4200' }: AppDeps) {
   const app = new Hono<Env>().basePath('/api');
 
   const requireAuth: MiddlewareHandler<Env> = async (c, next) => {
@@ -370,8 +375,68 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     return result.ok ? c.json(result.user) : c.json({ error: REDEEM_ERRORS[result.reason] }, result.reason === 'invalid' ? 404 : 409);
   });
 
-  /** Deletes the profile, answers and simulados. The Firebase account itself is left alone (shared with the mobile app). */
+  // --- Premium subscription (Stripe) ----------------------------------------
+
+  const settingsUrl = (query: string) => `${appUrl}/app/configuracoes?${query}#premium`;
+
+  /** Starts a Stripe Checkout for the monthly Premium; returns { url } to redirect to. */
+  app.post('/billing/checkout', requireAuth, async (c) => {
+    if (!billing) return c.json({ error: 'Pagamentos indisponíveis no momento.' }, 503);
+    const { uid, name, email } = c.get('user');
+    const user = await store.upsertUser({ id: uid, name, email });
+    if (user.subscription && LIVE_STATUSES.includes(user.subscription.status)) {
+      return c.json({ error: 'Você já tem uma assinatura ativa.' }, 409);
+    }
+    let customerId = await store.billingCustomer(uid);
+    if (!customerId) {
+      customerId = await billing.createCustomer({ id: uid, email: user.email, name: user.name });
+      await store.setBillingCustomer(uid, customerId);
+    }
+    const url = await billing.checkoutUrl({
+      customerId,
+      userId: uid,
+      successUrl: settingsUrl('assinatura=sucesso'),
+      cancelUrl: settingsUrl('assinatura=cancelada'),
+    });
+    return c.json({ url });
+  });
+
+  /** Stripe's customer portal (cancel, change card, invoices); returns { url }. */
+  app.post('/billing/portal', requireAuth, async (c) => {
+    if (!billing) return c.json({ error: 'Pagamentos indisponíveis no momento.' }, 503);
+    const customerId = await store.billingCustomer(c.get('user').uid);
+    if (!customerId) return c.json({ error: 'Você ainda não tem uma assinatura.' }, 404);
+    return c.json({ url: await billing.portalUrl({ customerId, returnUrl: settingsUrl('assinatura=gerenciada') }) });
+  });
+
+  /** Reads the subscription from Stripe right away (back from Checkout, before the webhook arrives); returns the profile. */
+  app.post('/billing/sync', requireAuth, async (c) => {
+    const { uid, name, email } = c.get('user');
+    const customerId = billing && (await store.billingCustomer(uid));
+    if (!customerId) return c.json(await store.upsertUser({ id: uid, name, email }));
+    return c.json(await store.updateSubscription(customerId, await billing!.subscription(customerId)));
+  });
+
+  /**
+   * Stripe webhooks (checkout.session.completed, customer.subscription.*, invoice.paid / payment_failed):
+   * whatever the event, the customer's subscription is read again from Stripe, so order and retries don't matter.
+   */
+  app.post('/billing/webhook', async (c) => {
+    if (!billing) return c.json({ error: 'Pagamentos indisponíveis' }, 503);
+    const result = await billing.webhookCustomer(await c.req.text(), c.req.header('stripe-signature'));
+    if (result === 'invalid') return c.json({ error: 'Assinatura inválida' }, 400);
+    if (result.customerId) await store.updateSubscription(result.customerId, await billing.subscription(result.customerId));
+    return c.json({ received: true });
+  });
+
+  /**
+   * Deletes the profile, answers and simulados, cancelling a running subscription first.
+   * The Firebase account itself is left alone (shared with the mobile app).
+   */
   app.delete('/me', requireAuth, async (c) => {
+    const customerId = await store.billingCustomer(c.get('user').uid);
+    if (customerId && !billing) return c.json({ error: 'Não foi possível cancelar sua assinatura agora. Tente mais tarde.' }, 503);
+    if (customerId) await billing!.cancelAll(customerId);
     await store.deleteUser(c.get('user').uid);
     return c.body(null, 204);
   });

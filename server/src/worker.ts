@@ -4,6 +4,7 @@
 //                                falling back to index.html for Angular routes
 import { createApp } from './app.ts';
 import { firebaseVerifier } from './auth/firebase.ts';
+import { StripeBilling } from './billing/stripe.ts';
 import { AssetsExamSource } from './exams/assets-source.ts';
 import { createD1Store } from './users/d1-store.ts';
 
@@ -11,6 +12,12 @@ interface Env {
   ASSETS: Fetcher;
   DB: D1Database;
   FIREBASE_PROJECT_ID: string;
+  APP_URL: string;
+  STRIPE_PRICE_ID?: string;
+  STRIPE_PORTAL_CONFIG?: string;
+  /** Secrets: `wrangler secret put STRIPE_SECRET_KEY` / `STRIPE_WEBHOOK_SECRET`. */
+  STRIPE_SECRET_KEY?: string;
+  STRIPE_WEBHOOK_SECRET?: string;
 }
 
 const BASE = '/concursero-angular/';
@@ -29,6 +36,11 @@ export default {
         exams: new AssetsExamSource(env.ASSETS, BASE),
         store: createD1Store(env.DB),
         verifyToken: firebaseVerifier(env.FIREBASE_PROJECT_ID),
+        billing:
+          env.STRIPE_SECRET_KEY && env.STRIPE_WEBHOOK_SECRET && env.STRIPE_PRICE_ID
+            ? new StripeBilling({ secretKey: env.STRIPE_SECRET_KEY, webhookSecret: env.STRIPE_WEBHOOK_SECRET, priceId: env.STRIPE_PRICE_ID, portalConfig: env.STRIPE_PORTAL_CONFIG || undefined })
+            : undefined,
+        appUrl: env.APP_URL,
       });
       // The API's routes start at /api; drop the public prefix.
       const inner = new URL(url);

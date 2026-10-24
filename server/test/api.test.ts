@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
 import { createApp } from '../src/app.ts';
+import { formEncode, verifySignature, type Billing, type SubscriptionState } from '../src/billing/stripe.ts';
 import type { TokenVerifier } from '../src/auth/firebase.ts';
 import { MemoryExamSource, examLabel, isPlayable, isUsable, randomQuestions, toPublicQuestion } from '../src/exams/catalog.ts';
 import { withExplanations } from '../src/exams/explanations.ts';
@@ -554,6 +555,102 @@ describe('redeem codes', () => {
     assert.equal(planFor('a@example.com', 'premium', '2026-10-25T00:00:00.000Z', now), 'free');
     assert.equal(planFor('a@example.com', 'premium', null, now), 'premium');
     assert.equal(planFor('a@example.com', 'free', null, now), 'free');
+  });
+});
+
+describe('Stripe subscription', () => {
+  // A fake Stripe: one customer per user, the subscription set by the test.
+  const subscriptions = new Map<string, SubscriptionState | null>();
+  const cancelled: string[] = [];
+  let pendingEvent: string | null = null;
+  const billing: Billing = {
+    createCustomer: async (user) => `cus_${user.id}`,
+    checkoutUrl: async ({ customerId, successUrl }) => `https://checkout.test/${customerId}?next=${encodeURIComponent(successUrl)}`,
+    portalUrl: async ({ customerId }) => `https://portal.test/${customerId}`,
+    subscription: async (customerId) => subscriptions.get(customerId) ?? null,
+    cancelAll: async (customerId) => {
+      cancelled.push(customerId);
+    },
+    webhookCustomer: async (_payload, signature) => (signature === 'ok' ? { customerId: pendingEvent } : 'invalid'),
+  };
+  const store = createSqliteStore(':memory:');
+  const payApp = createApp({ exams, store, verifyToken, billing, appUrl: 'https://site.test/app-base' });
+  const call = async (method: string, url: string, token?: string, headers: Record<string, string> = {}, body?: string) => {
+    const res = await payApp.request(url, { method, headers: { ...(token ? { authorization: `Bearer ${token}` } : {}), ...headers }, body });
+    const text = await res.text();
+    return { status: res.status, body: (text ? JSON.parse(text) : null) as any };
+  };
+  const inDays = (days: number) => new Date(Date.now() + days * 86_400_000).toISOString();
+
+  test('checkout creates the customer once and returns to Configurações', async () => {
+    const first = await call('POST', '/api/billing/checkout', 'valid:payer');
+    assert.equal(first.status, 200);
+    assert.equal(
+      first.body.url,
+      `https://checkout.test/cus_payer?next=${encodeURIComponent('https://site.test/app-base/app/configuracoes?assinatura=sucesso#premium')}`,
+    );
+    assert.equal(await store.billingCustomer('payer'), 'cus_payer');
+    assert.equal((await call('POST', '/api/billing/portal', 'valid:payer')).body.url, 'https://portal.test/cus_payer');
+    assert.equal((await call('POST', '/api/billing/portal', 'valid:nobody')).status, 404);
+  });
+
+  test('the webhook and sync read the subscription from Stripe', async () => {
+    subscriptions.set('cus_payer', { status: 'active', periodEnd: inDays(30), renews: true });
+    pendingEvent = 'cus_payer';
+    assert.equal((await call('POST', '/api/billing/webhook', undefined, { 'stripe-signature': 'forged' }, '{}')).status, 400);
+    assert.equal((await call('POST', '/api/billing/webhook', undefined, { 'stripe-signature': 'ok' }, '{}')).status, 200);
+    const me = (await call('GET', '/api/auth/me', 'valid:payer')).body;
+    assert.deepEqual([me.plan, me.subscription.renews], ['premium', true]);
+    assert.equal((await call('POST', '/api/billing/checkout', 'valid:payer')).status, 409);
+
+    // Cancelled: Premium until the end of the paid period, then free.
+    subscriptions.set('cus_payer', { status: 'active', periodEnd: inDays(10), renews: false });
+    assert.deepEqual(
+      [(await call('POST', '/api/billing/sync', 'valid:payer')).body.plan, (await call('GET', '/api/auth/me', 'valid:payer')).body.subscription.renews],
+      ['premium', false],
+    );
+    subscriptions.set('cus_payer', { status: 'canceled', periodEnd: inDays(-1), renews: false });
+    assert.equal((await call('POST', '/api/billing/sync', 'valid:payer')).body.plan, 'free');
+  });
+
+  test('a past period still counts for two days, while a renewal is on its way', () => {
+    const now = new Date('2026-10-25T12:00:00Z');
+    const live = (periodEnd: string) => planFor('a@example.com', 'free', null, now, { status: 'active', periodEnd });
+    assert.equal(live('2026-10-24T12:00:00.000Z'), 'premium');
+    assert.equal(live('2026-10-23T11:00:00.000Z'), 'free');
+    assert.equal(planFor('a@example.com', 'free', null, now, { status: 'unpaid', periodEnd: '2026-11-01T00:00:00.000Z' }), 'free');
+  });
+
+  test('deleting the account cancels the subscription', async () => {
+    assert.equal((await call('DELETE', '/api/me', 'valid:payer')).status, 204);
+    assert.deepEqual(cancelled, ['cus_payer']);
+  });
+
+  test('without Stripe the payment routes answer 503', async () => {
+    assert.equal((await api('POST', '/api/billing/checkout', undefined, 'valid:x')).status, 503);
+  });
+});
+
+describe('Stripe helpers', () => {
+  test('form encoding nests like Stripe expects', () => {
+    assert.equal(
+      decodeURIComponent(formEncode({ mode: 'subscription', line_items: [{ price: 'p', quantity: 1 }], metadata: { uid: 'u' }, skip: undefined })),
+      'mode=subscription&line_items[0][price]=p&line_items[0][quantity]=1&metadata[uid]=u',
+    );
+  });
+
+  test('webhook signatures: HMAC of "t.payload", recent only', async () => {
+    const secret = 'whsec_test';
+    const payload = '{"id":"evt_1"}';
+    const t = 1_800_000_000;
+    const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
+    const mac = Buffer.from(await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(`${t}.${payload}`))).toString('hex');
+    const header = `t=${t},v1=${mac}`;
+    assert.equal(await verifySignature(payload, header, secret, t * 1000), true);
+    assert.equal(await verifySignature(payload + ' ', header, secret, t * 1000), false);
+    assert.equal(await verifySignature(payload, header, 'whsec_other', t * 1000), false);
+    assert.equal(await verifySignature(payload, header, secret, (t + 600) * 1000), false);
+    assert.equal(await verifySignature(payload, undefined, secret), false);
   });
 });
 

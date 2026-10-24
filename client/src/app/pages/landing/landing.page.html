@@ -115,7 +115,8 @@
             }
           </ul>
           <a
-            [routerLink]="startLink()"
+            [routerLink]="plan.link?.path ?? startLink()"
+            [fragment]="plan.link?.fragment"
             class="btn"
             [class.btn--primary]="plan.highlighted"
             [class.btn--outline]="!plan.highlighted"

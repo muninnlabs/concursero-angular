@@ -9,11 +9,22 @@ export interface User {
   name: string;
   email: string;
   plan: Plan;
-  /** When Premium ends (ISO); null when it doesn't or on the free plan. */
+  /** When Premium from a redeem code ends (ISO); null when it doesn't or there is none. */
   premiumUntil: string | null;
+  /** The Stripe subscription, live or past; null when the user never subscribed. */
+  subscription: Subscription | null;
   createdAt: string;
   bio: string | null;
   location: string | null;
+}
+
+export interface Subscription {
+  /** Stripe's status: active, trialing, past_due (card being retried), canceled… */
+  status: string;
+  /** End of the paid period (ISO). */
+  periodEnd: string;
+  /** False once cancelled: Premium ends at periodEnd. */
+  renews: boolean;
 }
 
 export interface Catalog {

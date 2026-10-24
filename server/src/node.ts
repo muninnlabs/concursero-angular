@@ -6,6 +6,7 @@ import { serveStatic } from '@hono/node-server/serve-static';
 import { Hono } from 'hono';
 import { createApp } from './app.ts';
 import { firebaseVerifier } from './auth/firebase.ts';
+import { StripeBilling } from './billing/stripe.ts';
 import { loadExamsFromDisk } from './exams/fs-source.ts';
 import { createSqliteStore } from './users/sqlite-store.ts';
 
@@ -17,7 +18,19 @@ const projectId = process.env.FIREBASE_PROJECT_ID ?? 'concursero-8cc5b';
 
 const exams = await loadExamsFromDisk(assetsDir);
 const examCount = (await exams.list()).length;
-const api = createApp({ exams, store: createSqliteStore(dbPath), verifyToken: firebaseVerifier(projectId) });
+// Payments are off unless server/.env has the Stripe test keys (see README).
+const { STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, STRIPE_PRICE_ID } = process.env;
+const billing =
+  STRIPE_SECRET_KEY && STRIPE_WEBHOOK_SECRET && STRIPE_PRICE_ID
+    ? new StripeBilling({ secretKey: STRIPE_SECRET_KEY, webhookSecret: STRIPE_WEBHOOK_SECRET, priceId: STRIPE_PRICE_ID, portalConfig: process.env.STRIPE_PORTAL_CONFIG || undefined })
+    : undefined;
+const api = createApp({
+  exams,
+  store: createSqliteStore(dbPath),
+  verifyToken: firebaseVerifier(projectId),
+  billing,
+  appUrl: process.env.APP_URL ?? 'http://localhost:4200',
+});
 
 const app = new Hono();
 // Question images keep the Flutter paths ("assets/images/x.png"), so the

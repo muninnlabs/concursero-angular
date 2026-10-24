@@ -365,3 +365,74 @@
 .redeem__message--error {
   color: var(--danger);
 }
+
+.premium {
+  h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text);
+
+    app-icon {
+      color: var(--yellow);
+    }
+  }
+}
+.premium__price {
+  font-size: 24px;
+  font-weight: 800;
+
+  small {
+    color: var(--text-muted);
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.premium__status {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.premium__warning {
+  color: var(--danger);
+}
+.premium__perks {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+  }
+  app-icon {
+    color: var(--success);
+  }
+}
+.premium__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 24px;
+
+  small {
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+}
+.link-button {
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  color: var(--text-muted);
+  background: none;
+  font: inherit;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}

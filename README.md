@@ -83,6 +83,27 @@ npx wrangler d1 execute concursero-angular --remote --command \
   "UPDATE question_reports SET status = 'fixed' WHERE question_id = '<id>'"
 ```
 
+### Premium: Stripe and redeem codes
+
+Premium is a monthly Stripe subscription (Checkout + customer portal, `server/src/billing/stripe.ts`) or a
+redeem code. AI explanations (OAB), "Análise Avançada" and no ads are Premium.
+
+```bash
+# Stripe objects (product/price, Concursero's portal, webhook); safe to re-run
+STRIPE_SECRET_KEY=sk_… node scripts/stripe-setup.mjs \
+  --webhook https://munninlabs.com/concursero-angular/api/billing/webhook --env-out stripe.env
+# STRIPE_PRICE_ID / STRIPE_PORTAL_CONFIG go in wrangler.toml [vars]; the keys are secrets:
+npx wrangler secret put STRIPE_SECRET_KEY
+npx wrangler secret put STRIPE_WEBHOOK_SECRET
+
+# redeem codes (Configurações → Resgatar código)
+node scripts/redeem-codes.mjs --count 10 --days 30 --note "Lançamento"
+npx wrangler d1 execute concursero-angular --remote --file redeem-codes.sql
+```
+
+Locally, the same `STRIPE_*` variables in `server/.env` turn payments on (test keys only); without
+them the payment routes answer 503.
+
 ## API
 
 | Method | Path | Auth | |
@@ -95,6 +116,11 @@ npx wrangler d1 execute concursero-angular --remote --command \
 | POST | `/api/answers` | ✓ | `{ answers: [{ questionId, examId, selected }], simulado?: { title } }` → graded results |
 | GET | `/api/me/stats?category=` | ✓ | Answered, correct, accuracy, streak, per subject |
 | GET | `/api/me/simulados?limit=` | ✓ | Recent simulados |
+| POST | `/api/me/redeem` | ✓ | `{ code }` → profile, now Premium |
+| POST | `/api/billing/checkout` | ✓ | → `{ url }` of Stripe Checkout |
+| POST | `/api/billing/portal` | ✓ | → `{ url }` of the Stripe customer portal |
+| POST | `/api/billing/sync` | ✓ | Re-reads the subscription from Stripe → profile |
+| POST | `/api/billing/webhook` | Stripe signature | Subscription changes |
 
 On Cloudflare every path is prefixed with `/concursero-angular`.
 
@@ -113,5 +139,4 @@ of practice and can't be graded.
 
 - Estatísticas, Assuntos, Perfil, Configurações and Ajuda are placeholder pages; search and notifications aren't wired up.
 - Web stats are separate from the phone's (the mobile app keeps its history on the device).
-- Premium / payments: the plan is stored per user but nothing sets it.
 - The landing page's "10.000+ simulados" and "95% de aprovação" are the mock's placeholder numbers.

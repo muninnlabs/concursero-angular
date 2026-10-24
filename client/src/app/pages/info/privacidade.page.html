@@ -126,7 +126,20 @@
     legítimo em financiar o serviço gratuito (RGPD art. 6.º, n.º 1, f; LGPD art. 7.º, IX).
   </p>
 
-  <h3>2.7 Dados técnicos</h3>
+  <h3>2.7 Assinatura Premium (Stripe)</h3>
+  <p>
+    Se você assinar o Premium, o pagamento é feito pelo Stripe. Os dados do cartão são informados diretamente na página do Stripe; nós não
+    os recebemos. Enviamos ao Stripe seu nome, e-mail e o identificador da sua conta, e guardamos o identificador de cliente do Stripe e a
+    situação da assinatura (ativa ou cancelada e até quando está paga). O Stripe trata os dados de pagamento também para prevenir fraudes e
+    cumprir obrigações legais, conforme a
+    <a href="https://stripe.com/br/privacy" target="_blank" rel="noopener">Política de Privacidade do Stripe</a>.
+  </p>
+  <p>
+    <strong>Para quê:</strong> cobrar a assinatura e liberar o Premium. <strong>Base legal:</strong> execução do contrato (RGPD art. 6.º,
+    n.º 1, b; LGPD art. 7.º, V) e cumprimento de obrigações legais fiscais (RGPD art. 6.º, n.º 1, c; LGPD art. 7.º, II).
+  </p>
+
+  <h3>2.8 Dados técnicos</h3>
   <p>
     Para funcionar, nossos provedores de infraestrutura (Cloudflare e Google) processam dados técnicos da conexão, como endereço IP e
     informações do navegador. A fonte do site é carregada do Google Fonts, que recebe seu endereço IP. Não registramos endereços IP nos
@@ -149,6 +162,7 @@
     <li><strong>Cloudflare:</strong> hospeda o site e o banco de dados com sua conta, suas respostas e seus simulados, como operador que trata os dados apenas conforme nossas instruções.</li>
     <li><strong>Google (Firebase Authentication):</strong> faz o login com sua conta Google, como operador.</li>
     <li><strong>Google (AdSense):</strong> fornece os anúncios, como controlador independente (seção 2.6).</li>
+    <li><strong>Stripe:</strong> processa os pagamentos da assinatura Premium (seção 2.7).</li>
     <li><strong>Outros estudantes:</strong> veem apenas as informações do ranking (seção 2.4).</li>
     <li><strong>Autoridades:</strong> somente quando exigido por lei ou ordem judicial.</li>
   </ul>
@@ -156,7 +170,7 @@
 
   <h2 id="transferencia">5. Transferência internacional</h2>
   <p>
-    Os servidores da Cloudflare e do Google podem estar localizados fora do Brasil e fora do Espaço Econômico Europeu, incluindo os Estados
+    Os servidores da Cloudflare, do Google e do Stripe podem estar localizados fora do Brasil e fora do Espaço Econômico Europeu, incluindo os Estados
     Unidos. Nesses casos, a transferência é protegida pelas cláusulas contratuais-padrão aprovadas pela Comissão Europeia e adotadas por
     esses provedores, e pelas demais garantias previstas no art. 33 da LGPD.
   </p>
@@ -164,6 +178,7 @@
   <h2 id="prazo">6. Por quanto tempo guardamos</h2>
   <ul>
     <li><strong>Conta, respostas, simulados, perfil e relatos de erro:</strong> enquanto sua conta existir. Ao excluir a conta, apagamos tudo imediatamente dos nossos sistemas ativos.</li>
+    <li><strong>Pagamentos:</strong> ao excluir a conta, cancelamos a assinatura e apagamos a situação dela dos nossos sistemas; as faturas ficam guardadas no Stripe pelo prazo exigido pela legislação fiscal.</li>
     <li><strong>Dados no navegador:</strong> até você sair da conta ou limpar os dados do navegador.</li>
     <li><strong>Dados de anúncios:</strong> pelo prazo definido pelo Google em sua política.</li>
     <li><strong>E-mails que você nos envia:</strong> pelo tempo necessário para atender ao pedido e, depois, pelo prazo exigido para comprovar que o atendemos.</li>

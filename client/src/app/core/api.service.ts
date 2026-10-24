@@ -66,6 +66,21 @@ export class ApiService {
     return this.http.post<User>('api/me/redeem', { code });
   }
 
+  /** Stripe Checkout for the monthly Premium: redirect to `url`. */
+  startCheckout(): Observable<{ url: string }> {
+    return this.http.post<{ url: string }>('api/billing/checkout', {});
+  }
+
+  /** Stripe's customer portal (cancel, card, invoices): redirect to `url`. */
+  billingPortal(): Observable<{ url: string }> {
+    return this.http.post<{ url: string }>('api/billing/portal', {});
+  }
+
+  /** Re-reads the subscription from Stripe; returns the profile. */
+  syncBilling(): Observable<User> {
+    return this.http.post<User>('api/billing/sync', {});
+  }
+
   deleteAccount(): Observable<void> {
     return this.http.delete<void>('api/me');
   }

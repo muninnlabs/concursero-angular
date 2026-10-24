@@ -19,6 +19,7 @@ import {
   type AnswerRecord,
   type Plan,
   type SimuladoRecord,
+  type Subscription,
   type User,
   type UserStats,
   type UserStore,
@@ -39,19 +40,28 @@ interface UserRow {
   email: string;
   plan: Plan;
   premium_until: string | null;
+  subscription_status: string | null;
+  subscription_period_end: string | null;
+  subscription_renews: number;
   created_at: string;
   bio: string | null;
   location: string | null;
 }
 
 function toUser(row: UserRow): User {
-  const plan = planFor(row.email, row.plan, row.premium_until);
+  const subscription =
+    row.subscription_status && row.subscription_period_end
+      ? { status: row.subscription_status, periodEnd: row.subscription_period_end, renews: !!row.subscription_renews }
+      : null;
+  const plan = planFor(row.email, row.plan, row.premium_until, new Date(), subscription);
+  const codeActive = row.plan === 'premium' && (!row.premium_until || row.premium_until > new Date().toISOString());
   return {
     id: row.id,
     name: row.name,
     email: row.email,
     plan,
-    premiumUntil: plan === 'premium' ? (row.premium_until ?? null) : null,
+    premiumUntil: codeActive ? (row.premium_until ?? null) : null,
+    subscription,
     createdAt: row.created_at,
     bio: row.bio ?? null,
     location: row.location ?? null,
@@ -418,7 +428,8 @@ export class SqlUserStore implements UserStore {
     }
     const row = await this.db.first<UserRow>('SELECT * FROM users WHERE id = ?', [userId]);
     const user = toUser(row!);
-    if (user.plan === 'premium' && !user.premiumUntil) return { ok: false, reason: 'lifetime' };
+    const lifetime = row!.plan === 'premium' && !row!.premium_until;
+    if (lifetime || (user.plan === 'premium' && !user.premiumUntil && !user.subscription)) return { ok: false, reason: 'lifetime' };
 
     // Days add up: they start when the current Premium ends.
     let until: string | null = null;
@@ -448,6 +459,26 @@ export class SqlUserStore implements UserStore {
     ]);
     if (!claimed) return { ok: false, reason: 'exhausted' };
     return { ok: true, user: toUser((await this.db.first<UserRow>('SELECT * FROM users WHERE id = ?', [userId]))!) };
+  }
+
+  async billingCustomer(userId: string): Promise<string | null> {
+    const row = await this.db.first<{ stripe_customer_id: string | null }>('SELECT stripe_customer_id FROM users WHERE id = ?', [userId]);
+    return row?.stripe_customer_id ?? null;
+  }
+
+  async setBillingCustomer(userId: string, customerId: string): Promise<void> {
+    await this.db.batch([{ sql: 'UPDATE users SET stripe_customer_id = ? WHERE id = ?', params: [customerId, userId] }]);
+  }
+
+  async updateSubscription(customerId: string, subscription: Subscription | null): Promise<User | undefined> {
+    await this.db.batch([
+      {
+        sql: 'UPDATE users SET subscription_status = ?, subscription_period_end = ?, subscription_renews = ? WHERE stripe_customer_id = ?',
+        params: [subscription?.status ?? null, subscription?.periodEnd ?? null, subscription?.renews ? 1 : 0, customerId],
+      },
+    ]);
+    const row = await this.db.first<UserRow>('SELECT * FROM users WHERE stripe_customer_id = ?', [customerId]);
+    return row && toUser(row);
   }
 
   async deleteUser(userId: string): Promise<void> {
