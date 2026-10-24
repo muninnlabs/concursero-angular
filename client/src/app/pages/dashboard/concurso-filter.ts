@@ -10,8 +10,10 @@ interface FilterConfig {
   levels: { id: ConcursoLevel | undefined; label: string }[];
   /** Levels that ask for a state. */
   stateLevels: ConcursoLevel[];
-  /** Concursos: município (municipal level). Vestibulares: university (every level). */
+  /** Concursos: município (municipal level). Vestibulares / Residência: university or hospital (every level). */
   second: 'municipio' | 'institution';
+  institutionLabel?: string;
+  allInstitutions?: string;
   editionLabel: string;
   allEditions: string;
 }
@@ -43,6 +45,21 @@ const CONFIGS: Record<string, FilterConfig> = {
     editionLabel: 'Vestibular',
     allEditions: 'Todos os vestibulares',
   },
+  RESIDENCIA: {
+    title: 'Filtrar provas de residência',
+    levels: [
+      { id: undefined, label: 'Todas' },
+      { id: 'federal', label: 'Federal' },
+      { id: 'estadual', label: 'Estadual' },
+      { id: 'privada', label: 'Privada' },
+    ],
+    stateLevels: ['federal', 'estadual', 'privada'],
+    second: 'institution',
+    institutionLabel: 'Instituição',
+    allInstitutions: 'Todas as instituições',
+    editionLabel: 'Prova',
+    allEditions: 'Todas as provas',
+  },
 };
 
 const STATES: Record<string, string> = {
@@ -56,8 +73,8 @@ const STATES: Record<string, string> = {
 const sortPt = (a: string, b: string) => a.localeCompare(b, 'pt-BR');
 
 /**
- * Narrows Concursos / Vestibulares practice: level, then state, then município (concursos) or university
- * (vestibulares), then the concurso / vestibular edition. Options only list what has questions, so no
+ * Narrows Concursos / Vestibulares / Residência practice: level, then state, then município (concursos) or university /
+ * hospital (vestibulares, residência), then the concurso / vestibular edition. Options only list what has questions, so no
  * combination ends up empty.
  */
 @Component({

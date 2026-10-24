@@ -67,6 +67,7 @@ import {
   X,
   Zap,
   type IconNode,
+  Stethoscope,
 } from 'lucide';
 
 // Brand marks were removed from Lucide, so these two are drawn by hand.
@@ -128,6 +129,7 @@ const ICONS = {
   refresh: RotateCw,
   scale: Scale,
   search: Search,
+  stethoscope: Stethoscope,
   settings: Settings,
   share: Share2,
   shield: Shield,

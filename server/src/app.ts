@@ -81,7 +81,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     return c.json({ exam: exam.summary, questions: exam.questions.map((q) => toPublicQuestion(q, exam.summary.id, exam.summary.label)) });
   });
 
-  /** Every concurso / vestibular with practisable questions, for the filters (?category=CONCURSOS|VESTIBULARES). */
+  /** Every concurso / vestibular with practisable questions, for the filters (?category=CONCURSOS|VESTIBULARES|RESIDENCIA). */
   app.get('/concursos', async (c) => {
     const category = c.req.query('category');
     const byId = new Map<string, ConcursoInfo & { category: string; examCount: number; questionCount: number }>();

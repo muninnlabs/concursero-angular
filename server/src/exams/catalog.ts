@@ -6,6 +6,7 @@ export const CATEGORY_BY_FOLDER: Record<string, string> = {
   enem: 'ENEM',
   concursos: 'CONCURSOS',
   vestibulares: 'VESTIBULARES',
+  residencia: 'RESIDENCIA',
 };
 
 const VALID_ANSWER = /^[A-E]$/;
@@ -115,7 +116,7 @@ export function summarize(category: string, relativePath: string, data: ExamFile
 
 /**
  * Whether an exam matches the level / state / município / institution / concurso filters (exams without concurso
- * info, i.e. ENEM and OAB, never do).
+ * info, i.e. ENEM and OAB, never do). Residência médica exams carry concurso info too (one per exam).
  */
 export function matchesConcurso(exam: ExamSummary, filter: QuestionFilter): boolean {
   if (!filter.level && !filter.uf && !filter.municipio && !filter.institution && !filter.concurso) return true;

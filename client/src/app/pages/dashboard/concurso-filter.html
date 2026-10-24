@@ -51,9 +51,9 @@
 
       @if (showInstitution()) {
         <label class="selects__wide">
-          <span>Universidade</span>
+          <span>{{ config().institutionLabel ?? 'Universidade' }}</span>
           <select [value]="filter().institution ?? ''" (change)="setInstitution($event)" [disabled]="loading()">
-            <option value="">Todas as universidades</option>
+            <option value="">{{ config().allInstitutions ?? 'Todas as universidades' }}</option>
             @for (i of institutions(); track i) {
               <option [value]="i" [selected]="filter().institution === i">{{ i }}</option>
             }
