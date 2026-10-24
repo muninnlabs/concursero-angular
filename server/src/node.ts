@@ -8,7 +8,9 @@ import { createApp } from './app.ts';
 import { firebaseVerifier } from './auth/firebase.ts';
 import { StripeBilling } from './billing/stripe.ts';
 import { loadExamsFromDisk } from './exams/fs-source.ts';
-import { createSqliteStore } from './users/sqlite-store.ts';
+import { SiteStore } from './site/site-store.ts';
+import { SqlUserStore } from './users/sql-store.ts';
+import { sqliteDatabase } from './users/sqlite-store.ts';
 
 const serverDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const port = Number(process.env.PORT ?? 3000);
@@ -24,9 +26,11 @@ const billing =
   STRIPE_SECRET_KEY && STRIPE_WEBHOOK_SECRET && STRIPE_PRICE_ID
     ? new StripeBilling({ secretKey: STRIPE_SECRET_KEY, webhookSecret: STRIPE_WEBHOOK_SECRET, priceId: STRIPE_PRICE_ID, portalConfig: process.env.STRIPE_PORTAL_CONFIG || undefined })
     : undefined;
+const db = sqliteDatabase(dbPath);
 const api = createApp({
   exams,
-  store: createSqliteStore(dbPath),
+  store: new SqlUserStore(db),
+  site: new SiteStore(db),
   verifyToken: firebaseVerifier(projectId),
   billing,
   appUrl: process.env.APP_URL ?? 'http://localhost:4200',

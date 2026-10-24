@@ -104,6 +104,12 @@ npx wrangler d1 execute concursero-angular --remote --file redeem-codes.sql
 Locally, the same `STRIPE_*` variables in `server/.env` turn payments on (test keys only); without
 them the payment routes answer 503.
 
+### Admin panel
+
+`/app/admin`, for the accounts in `ADMIN_EMAILS` (server/src/app.ts): visits (cookieless, no IPs
+stored; `page_views`), most viewed content, location, sources and devices; what each ad space shows
+(Google, a partner ad, or nothing) and partner ads with their views and clicks; redeem codes.
+
 ## API
 
 | Method | Path | Auth | |

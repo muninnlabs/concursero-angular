@@ -2,6 +2,9 @@ import { Hono, type MiddlewareHandler } from 'hono';
 import type { AuthUser, TokenVerifier } from './auth/firebase.ts';
 import { LIVE_STATUSES, type Billing } from './billing/stripe.ts';
 import { isPlayable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
+import { AD_PLACEMENTS, addDays, brasiliaDay, type AdPlacementId, type SiteStore } from './site/site-store.ts';
+import { deviceOf, geoOf, isBot, referrerHost, text } from './site/visitor.ts';
+import { generateCode } from './users/codes.ts';
 import type { ConcursoInfo } from './exams/types.ts';
 import { badgesFor, levelFor, longestStreak } from './users/profile.ts';
 import { countStreak, isoDay, REPORT_REASONS, normalizeCode, type AnswerRecord, type ReportReason, type UserStore } from './users/store.ts';
@@ -12,11 +15,20 @@ export interface AppDeps {
   verifyToken: TokenVerifier;
   /** Stripe; without it the payment routes answer 503. */
   billing?: Billing;
+  /** Page views, ads and the admin panel; without it tracking is skipped and /admin answers 503. */
+  site?: SiteStore;
   /** Public address of the app (Stripe sends the user back there), e.g. https://munninlabs.com/concursero-angular */
   appUrl?: string;
 }
 
 type Env = { Variables: { user: AuthUser } };
+
+/** Google accounts that open the admin panel (/app/admin). */
+const ADMIN_EMAILS = new Set(['alex.munninlabs@gmail.com', 'alexandreartedesigner@gmail.com']);
+const REPORT_PERIODS = [7, 30, 90, 365];
+const MAX_AD_IMAGE_BYTES = 500_000;
+const AD_IMAGE_TYPES = ['image/png', 'image/jpeg', 'image/webp', 'image/gif'];
+const MAX_CODES_PER_REQUEST = 500;
 
 const MAX_PRACTICE_QUESTIONS = 50;
 const MAX_ANSWERS_PER_REQUEST = 200;
@@ -52,7 +64,7 @@ const REDEEM_ERRORS = {
  * Node (local development), server/src/worker.ts on Cloudflare Workers.
  * All routes live under /api.
  */
-export function createApp({ exams, store, verifyToken, billing, appUrl = 'http://localhost:4200' }: AppDeps) {
+export function createApp({ exams, store, verifyToken, billing, site, appUrl = 'http://localhost:4200' }: AppDeps) {
   const app = new Hono<Env>().basePath('/api');
 
   const requireAuth: MiddlewareHandler<Env> = async (c, next) => {
@@ -63,7 +75,107 @@ export function createApp({ exams, store, verifyToken, billing, appUrl = 'http:/
     await next();
   };
 
+  const isAdmin = (user: AuthUser) => ADMIN_EMAILS.has(user.email.toLowerCase()) && user.emailVerified !== false;
+
+  const requireAdmin: MiddlewareHandler<Env> = async (c, next) => {
+    if (!isAdmin(c.get('user'))) return c.json({ error: 'Acesso restrito' }, 403);
+    if (!site) return c.json({ error: 'Painel indisponível' }, 503);
+    await next();
+  };
+
   app.get('/health', (c) => c.json({ ok: true }));
+
+  // --- Visits and ads (public) ------------------------------------------------
+
+  /**
+   * One page view, sent by the app on every navigation (navigator.sendBeacon, so text/plain).
+   * Body: { path, content?, referrer?, utmSource?, utmCampaign?, signedIn? }
+   */
+  app.post('/track', async (c) => {
+    const userAgent = c.req.header('user-agent') ?? '';
+    if (!site || isBot(userAgent)) return c.body(null, 204);
+    const body = await c.req.text().then((t) => JSON.parse(t), () => null).catch(() => null);
+    const path = text(body?.path, 200)?.split(/[?#]/)[0];
+    if (!path?.startsWith('/')) return c.body(null, 204);
+    await site.recordView({
+      path,
+      content: text(body?.content, 120),
+      referrer: referrerHost(body?.referrer, new URL(appUrl).hostname),
+      utmSource: text(body?.utmSource, 60)?.toLowerCase() ?? null,
+      utmCampaign: text(body?.utmCampaign, 80),
+      ...geoOf(c.req.raw),
+      device: deviceOf(userAgent),
+      signedIn: body?.signedIn === true,
+      fingerprint: `${c.req.header('cf-connecting-ip') ?? c.req.header('x-forwarded-for') ?? ''}|${userAgent}`,
+    });
+    return c.body(null, 204);
+  });
+
+  /** What each ad space shows: { [placement]: { source: 'google' | 'off' } | { source: 'partner', ad } }. */
+  app.get('/ads', async (c) => {
+    c.header('cache-control', 'public, max-age=60');
+    if (!site) return c.json({});
+    const placements = await site.resolvedPlacements();
+    return c.json(
+      Object.fromEntries(
+        Object.entries(placements).map(([placement, p]) => [
+          placement,
+          p.source === 'partner'
+            ? { ...p, ad: { ...p.ad, imageUrl: `api/ads/image/${p.ad.id}`, href: `api/ads/click/${p.ad.id}?p=${placement}` } }
+            : p,
+        ]),
+      ),
+    );
+  });
+
+  app.get('/ads/image/:id', async (c) => {
+    const image = await site?.partnerImage(c.req.param('id'));
+    if (!image) return c.json({ error: 'Not found' }, 404);
+    const bytes = Uint8Array.from(atob(image.data), (ch) => ch.charCodeAt(0));
+    return c.body(bytes, 200, { 'content-type': image.type, 'cache-control': 'public, max-age=3600' });
+  });
+
+  /** A click on a partner ad: counted, then on to the advertiser. */
+  app.get('/ads/click/:id', async (c) => {
+    const ad = await site?.partnerAd(c.req.param('id'));
+    if (!site || !ad) return c.redirect(appUrl, 302);
+    const placement = c.req.query('p') ?? '';
+    const userAgent = c.req.header('user-agent') ?? '';
+    if (placement in AD_PLACEMENTS && !isBot(userAgent)) {
+      const { country, region } = geoOf(c.req.raw);
+      await site.recordAdEvent({
+        placement: placement as AdPlacementId,
+        source: 'partner',
+        partnerAdId: ad.id,
+        kind: 'click',
+        country,
+        region,
+        device: deviceOf(userAgent),
+      });
+    }
+    return c.redirect(ad.linkUrl, 302);
+  });
+
+  /** An ad space came into view. Body: { placement, source: 'google' | 'partner', partnerAdId? } (sendBeacon). */
+  app.post('/ads/view', async (c) => {
+    const userAgent = c.req.header('user-agent') ?? '';
+    if (!site || isBot(userAgent)) return c.body(null, 204);
+    const body = await c.req.text().then((t) => JSON.parse(t), () => null).catch(() => null);
+    const placement = String(body?.placement ?? '');
+    const source = body?.source === 'partner' ? 'partner' : 'google';
+    if (!(placement in AD_PLACEMENTS)) return c.body(null, 204);
+    const { country, region } = geoOf(c.req.raw);
+    await site.recordAdEvent({
+      placement: placement as AdPlacementId,
+      source,
+      partnerAdId: source === 'partner' ? text(body?.partnerAdId, 64) : null,
+      kind: 'view',
+      country,
+      region,
+      device: deviceOf(userAgent),
+    });
+    return c.body(null, 204);
+  });
 
   // --- Exams (public) -----------------------------------------------------
 
@@ -143,7 +255,8 @@ export function createApp({ exams, store, verifyToken, billing, appUrl = 'http:/
   /** Creates the profile on first sign-in and returns it. */
   app.get('/auth/me', requireAuth, async (c) => {
     const { uid, name, email } = c.get('user');
-    return c.json(await store.upsertUser({ id: uid, name, email }));
+    const user = await store.upsertUser({ id: uid, name, email });
+    return c.json(isAdmin(c.get('user')) ? { ...user, admin: true } : user);
   });
 
   /**
@@ -375,6 +488,108 @@ export function createApp({ exams, store, verifyToken, billing, appUrl = 'http:/
     return result.ok ? c.json(result.user) : c.json({ error: REDEEM_ERRORS[result.reason] }, result.reason === 'invalid' ? 404 : 409);
   });
 
+  // --- Admin panel -------------------------------------------------------------
+
+  /** ?days=7|30|90|365, the last days up to today (Brasília). */
+  app.get('/admin/report', requireAuth, requireAdmin, async (c) => {
+    const days = Number(c.req.query('days'));
+    const period = REPORT_PERIODS.includes(days) ? days : 30;
+    const to = brasiliaDay();
+    const report = await site!.report(addDays(to, -(period - 1)), to);
+    const labels = new Map((await exams.list()).map((e) => [e.id, { label: e.label, category: e.category }]));
+    return c.json({
+      ...report,
+      days: period,
+      exams: report.exams.map((e) => ({ ...e, ...(labels.get(e.examId) ?? { label: e.examId, category: null }) })),
+    });
+  });
+
+  app.get('/admin/ads', requireAuth, requireAdmin, async (c) => {
+    return c.json({ placements: await site!.placementSettings(), partnerAds: await site!.partnerAds() });
+  });
+
+  /** Body: { advertiser, title, linkUrl, image: data URL, startsOn?, endsOn?, active? } */
+  app.post('/admin/ads', requireAuth, requireAdmin, async (c) => {
+    const body = await c.req.json().catch(() => null);
+    const fields = partnerAdFields(body);
+    if (typeof fields === 'string') return c.json({ error: fields }, 400);
+    const image = adImage(body?.image);
+    if (typeof image === 'string') return c.json({ error: image }, 400);
+    if (!fields.advertiser || !fields.title || !fields.linkUrl) return c.json({ error: 'Preencha anunciante, título e link.' }, 400);
+    return c.json(
+      await site!.createPartnerAd({
+        advertiser: fields.advertiser,
+        title: fields.title,
+        linkUrl: fields.linkUrl,
+        startsOn: fields.startsOn ?? null,
+        endsOn: fields.endsOn ?? null,
+        active: fields.active ?? true,
+        ...image,
+      }),
+      201,
+    );
+  });
+
+  /** Same fields as POST, all optional. */
+  app.patch('/admin/ads/:id', requireAuth, requireAdmin, async (c) => {
+    const body = await c.req.json().catch(() => null);
+    const fields = partnerAdFields(body);
+    if (typeof fields === 'string') return c.json({ error: fields }, 400);
+    const image = body?.image === undefined ? {} : adImage(body.image);
+    if (typeof image === 'string') return c.json({ error: image }, 400);
+    const ad = await site!.updatePartnerAd(c.req.param('id'), { ...fields, ...image });
+    return ad ? c.json(ad) : c.json({ error: 'Anúncio não encontrado' }, 404);
+  });
+
+  app.delete('/admin/ads/:id', requireAuth, requireAdmin, async (c) => {
+    await site!.deletePartnerAd(c.req.param('id'));
+    return c.body(null, 204);
+  });
+
+  /** Body: { source: 'google' | 'partner' | 'off', partnerAdId? } */
+  app.put('/admin/placements/:placement', requireAuth, requireAdmin, async (c) => {
+    const placement = c.req.param('placement');
+    const body = await c.req.json().catch(() => null);
+    const source = body?.source;
+    if (!(placement in AD_PLACEMENTS) || !['google', 'partner', 'off'].includes(source)) return c.json({ error: 'Espaço ou origem inválida' }, 400);
+    const partnerAdId = source === 'partner' ? String(body?.partnerAdId ?? '') : null;
+    if (source === 'partner' && !(await site!.partnerAd(partnerAdId!))) return c.json({ error: 'Escolha um anúncio de parceiro.' }, 400);
+    await site!.setPlacement(placement as AdPlacementId, source, partnerAdId);
+    return c.json(await site!.placementSettings());
+  });
+
+  app.get('/admin/codes', requireAuth, requireAdmin, async (c) => c.json(await site!.redeemCodes()));
+
+  /** Body: { count, days (0 = no end), maxUses?, expiresOn? (YYYY-MM-DD, Brasília), note? } → { codes } */
+  app.post('/admin/codes', requireAuth, requireAdmin, async (c) => {
+    const body = await c.req.json().catch(() => null);
+    const count = Number(body?.count);
+    const days = Number(body?.days);
+    const maxUses = Number(body?.maxUses ?? 1);
+    if (![count, days, maxUses].every(Number.isInteger) || count < 1 || count > MAX_CODES_PER_REQUEST || days < 0 || maxUses < 1) {
+      return c.json({ error: `Quantidade de 1 a ${MAX_CODES_PER_REQUEST}, dias 0 ou mais e usos 1 ou mais.` }, 400);
+    }
+    const expiresOn = text(body?.expiresOn, 10);
+    if (expiresOn && !/^\d{4}-\d{2}-\d{2}$/.test(expiresOn)) return c.json({ error: 'Data de validade inválida' }, 400);
+    const codes = Array.from({ length: count }, generateCode);
+    await store.createRedeemCodes(
+      codes.map((code) => ({
+        code,
+        days: days || null,
+        maxUses,
+        // The end of that day in Brasília.
+        expiresAt: expiresOn ? new Date(`${expiresOn}T23:59:59.999-03:00`).toISOString() : null,
+        note: text(body?.note, 120),
+      })),
+    );
+    return c.json({ codes }, 201);
+  });
+
+  app.post('/admin/codes/:code/expire', requireAuth, requireAdmin, async (c) => {
+    await site!.expireCode(c.req.param('code'));
+    return c.json({ ok: true });
+  });
+
   // --- Premium subscription (Stripe) ----------------------------------------
 
   const settingsUrl = (query: string) => `${appUrl}/app/configuracoes?${query}#premium`;
@@ -467,4 +682,34 @@ function validDuration(value: unknown): number | null {
 function timezoneOffset(value: string | undefined): number {
   const tz = Number(value);
   return Number.isInteger(tz) && Math.abs(tz) <= 14 * 60 ? tz : 0;
+}
+
+type PartnerAdFields = { advertiser?: string; title?: string; linkUrl?: string; startsOn?: string | null; endsOn?: string | null; active?: boolean };
+
+/** The editable fields of a partner ad from a request body, or an error message. */
+function partnerAdFields(body: Record<string, unknown> | null): PartnerAdFields | string {
+  const fields: PartnerAdFields = {};
+  if (body?.advertiser !== undefined) fields.advertiser = text(body.advertiser, 80) ?? '';
+  if (body?.title !== undefined) fields.title = text(body.title, 120) ?? '';
+  if (body?.linkUrl !== undefined) {
+    const link = text(body.linkUrl, 500) ?? '';
+    if (!/^https?:\/\/[^\s]+$/i.test(link)) return 'O link precisa começar com https://';
+    fields.linkUrl = link;
+  }
+  for (const key of ['startsOn', 'endsOn'] as const) {
+    if (body?.[key] === undefined) continue;
+    const day = text(body[key], 10);
+    if (day && !/^\d{4}-\d{2}-\d{2}$/.test(day)) return 'Datas no formato AAAA-MM-DD';
+    fields[key] = day;
+  }
+  if (body?.active !== undefined) fields.active = body.active === true;
+  return fields;
+}
+
+/** A data URL (data:image/png;base64,…) → stored base64 and type, or an error message. */
+function adImage(value: unknown): { image: string; imageType: string } | string {
+  const match = typeof value === 'string' ? /^data:(image\/[a-z+]+);base64,([A-Za-z0-9+/=]+)$/.exec(value) : null;
+  if (!match || !AD_IMAGE_TYPES.includes(match[1])) return 'Envie uma imagem PNG, JPG, WebP ou GIF.';
+  if ((match[2].length * 3) / 4 > MAX_AD_IMAGE_BYTES) return 'A imagem deve ter até 500 KB.';
+  return { image: match[2], imageType: match[1] };
 }

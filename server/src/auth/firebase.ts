@@ -4,6 +4,8 @@ export interface AuthUser {
   uid: string;
   name: string;
   email: string;
+  /** Google confirmed the e-mail; admin access requires it. */
+  emailVerified?: boolean;
 }
 
 /** Turns a bearer token into a user, or undefined when it isn't valid. */
@@ -29,7 +31,7 @@ export function firebaseVerifier(projectId: string): TokenVerifier {
       if (!payload.sub) return undefined;
       const email = typeof payload.email === 'string' ? payload.email : '';
       const name = typeof payload.name === 'string' && payload.name ? payload.name : email.split('@')[0] || 'Estudante';
-      return { uid: payload.sub, name, email };
+      return { uid: payload.sub, name, email, emailVerified: payload.email_verified === true };
     } catch {
       return undefined;
     }

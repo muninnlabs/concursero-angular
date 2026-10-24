@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { authGuard, guestGuard } from './core/auth.guard';
+import { adminGuard, authGuard, guestGuard } from './core/auth.guard';
 
 export const routes: Routes = [
   { path: '', pathMatch: 'full', loadComponent: () => import('./pages/landing/landing.page').then((m) => m.LandingPage) },
@@ -29,6 +29,13 @@ export const routes: Routes = [
         title: 'Configurações · Concursero',
         data: { topbarTitle: 'Configurações do sistema' },
         loadComponent: () => import('./pages/settings/settings.page').then((m) => m.SettingsPage),
+      },
+      {
+        path: 'admin',
+        title: 'Painel · Concursero',
+        canActivate: [adminGuard],
+        data: { topbarTitle: 'Painel administrativo' },
+        loadComponent: () => import('./pages/admin/admin.page').then((m) => m.AdminPage),
       },
       {
         path: 'perfil',

@@ -7,7 +7,10 @@ import { MemoryExamSource, examLabel, isPlayable, isUsable, randomQuestions, toP
 import { withExplanations } from '../src/exams/explanations.ts';
 import { loadExamsFromDisk } from '../src/exams/fs-source.ts';
 import type { ExamFile, Question } from '../src/exams/types.ts';
-import { createSqliteStore } from '../src/users/sqlite-store.ts';
+import { createSqliteStore, sqliteDatabase } from '../src/users/sqlite-store.ts';
+import { SiteStore, brasiliaDay } from '../src/site/site-store.ts';
+import { deviceOf, isBot, referrerHost } from '../src/site/visitor.ts';
+import { SqlUserStore } from '../src/users/sql-store.ts';
 import { badgesFor, levelFor, longestStreak, publicName } from '../src/users/profile.ts';
 import { countStreak, planFor } from '../src/users/store.ts';
 
@@ -651,6 +654,123 @@ describe('Stripe helpers', () => {
     assert.equal(await verifySignature(payload, header, 'whsec_other', t * 1000), false);
     assert.equal(await verifySignature(payload, header, secret, (t + 600) * 1000), false);
     assert.equal(await verifySignature(payload, undefined, secret), false);
+  });
+});
+
+describe('admin panel, visits and ads', () => {
+  const db = sqliteDatabase(':memory:');
+  const site = new SiteStore(db);
+  const adminApp = createApp({ exams, store: new SqlUserStore(db), site, verifyToken, appUrl: 'https://munninlabs.com/concursero-angular' });
+  const CHROME = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36';
+  const PHONE = 'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Mobile Safari/537.36';
+  const ADMIN = 'valid:premium-admin';
+
+  // Like Cloudflare: request.cf carries the location, cf-connecting-ip the address.
+  async function send(method: string, url: string, { body, token, ua = CHROME, ip = '203.0.113.1', cf = { country: 'BR', region: 'São Paulo', city: 'Campinas' } }: {
+    body?: unknown; token?: string; ua?: string; ip?: string; cf?: object;
+  } = {}) {
+    const request = new Request(`http://x${url}`, {
+      method,
+      headers: { 'user-agent': ua, 'cf-connecting-ip': ip, ...(token ? { authorization: `Bearer ${token}` } : {}), 'content-type': 'text/plain' },
+      body: body === undefined ? undefined : JSON.stringify(body),
+      redirect: 'manual',
+    });
+    Object.defineProperty(request, 'cf', { value: cf });
+    const res = await adminApp.request(request);
+    const raw = await res.text();
+    let json: any = null;
+    try { json = raw ? JSON.parse(raw) : null; } catch { json = raw; }
+    return { status: res.status, body: json, location: res.headers.get('location') };
+  }
+
+  test('visits: one visitor per browser and day, bots and own referrers left out', async () => {
+    await send('POST', '/api/track', { body: { path: '/', referrer: 'https://www.google.com/search?q=oab', utmSource: 'Instagram', utmCampaign: 'lancamento' } });
+    await send('POST', '/api/track', { body: { path: '/app/praticar?modo=mini', content: 'OAB · Direito Penal', referrer: 'https://munninlabs.com/concursero-angular/', signedIn: true } });
+    await send('POST', '/api/track', { body: { path: '/app' }, ua: PHONE, ip: '198.51.100.7', cf: { country: 'BR', region: 'Bahia', city: 'Salvador' } });
+    await send('POST', '/api/track', { body: { path: '/' }, ua: 'Googlebot/2.1 (+http://www.google.com/bot.html)' });
+    await send('POST', '/api/track', { body: { path: 'not-a-path' } });
+
+    const { status, body: report } = await send('GET', '/api/admin/report?days=7', { token: ADMIN });
+    assert.equal(status, 200);
+    assert.deepEqual([report.totals.views, report.totals.visitors, report.totals.signedInViews], [3, 2, 1]);
+    assert.deepEqual(report.daily, [{ day: brasiliaDay(), views: 3, visitors: 2 }]);
+    assert.deepEqual(report.pages.map((p: any) => p.path).sort(), ['/', '/app', '/app/praticar']);
+    assert.deepEqual(report.content, [{ content: 'OAB · Direito Penal', views: 1, visitors: 1 }]);
+    // Same visitors: more views first.
+    assert.deepEqual(report.regions.map((r: any) => [r.region, r.views]), [['São Paulo', 2], ['Bahia', 1]]);
+    assert.deepEqual(report.referrers.find((r: any) => r.referrer === 'google.com')?.visitors, 1);
+    assert.deepEqual(report.campaigns, [{ source: 'instagram', campaign: 'lancamento', views: 1, visitors: 1 }]);
+    assert.deepEqual(report.devices.map((d: any) => d.device).sort(), ['desktop', 'mobile']);
+    // No address is stored, only the salted hash.
+    const row = await db.first<Record<string, unknown>>('SELECT * FROM page_views LIMIT 1');
+    assert.ok(!JSON.stringify(row).includes('203.0.113.1'));
+  });
+
+  test('only the admin accounts open the panel', async () => {
+    assert.equal((await send('GET', '/api/admin/report', { token: 'valid:someone' })).status, 403);
+    assert.equal((await send('GET', '/api/admin/report')).status, 401);
+    assert.equal((await send('GET', '/api/auth/me', { token: ADMIN })).body.admin, true);
+    assert.equal((await send('GET', '/api/auth/me', { token: 'valid:someone' })).body.admin, undefined);
+    const unverified = createApp({ exams, store: new SqlUserStore(db), site, verifyToken: async () => ({ uid: 'u', name: 'X', email: 'alex.munninlabs@gmail.com', emailVerified: false }) });
+    const res = await unverified.request('/api/admin/codes', { headers: { authorization: 'Bearer t' } });
+    assert.equal(res.status, 403);
+  });
+
+  test('partner ads: placement switch, dates fall back to Google, views and clicks counted', async () => {
+    assert.deepEqual((await send('GET', '/api/ads')).body['dashboard-top'], { source: 'google' });
+    const png = `data:image/png;base64,${Buffer.from('fake-png').toString('base64')}`;
+    assert.equal((await send('POST', '/api/admin/ads', { token: ADMIN, body: { advertiser: 'Uni X', title: 'Vestibular', linkUrl: 'javascript:alert(1)', image: png } })).status, 400);
+    const created = await send('POST', '/api/admin/ads', {
+      token: ADMIN,
+      body: { advertiser: 'Uni X', title: 'Vestibular 2027', linkUrl: 'https://unix.edu.br/vestibular', image: png },
+    });
+    assert.equal(created.status, 201);
+    const id = created.body.id;
+    await send('PUT', '/api/admin/placements/dashboard-top', { token: ADMIN, body: { source: 'partner', partnerAdId: id } });
+    await send('PUT', '/api/admin/placements/stats-top', { token: ADMIN, body: { source: 'off' } });
+    const ads = (await send('GET', '/api/ads')).body;
+    assert.deepEqual(ads['dashboard-top'].ad, { id, advertiser: 'Uni X', title: 'Vestibular 2027', imageUrl: `api/ads/image/${id}`, href: `api/ads/click/${id}?p=dashboard-top` });
+    assert.equal(ads['stats-top'].source, 'off');
+
+    const image = await adminApp.request(`/api/ads/image/${id}`);
+    assert.deepEqual([image.headers.get('content-type'), await image.text()], ['image/png', 'fake-png']);
+
+    await send('POST', '/api/ads/view', { body: { placement: 'dashboard-top', source: 'partner', partnerAdId: id } });
+    await send('POST', '/api/ads/view', { body: { placement: 'landing-top', source: 'google' } });
+    const click = await send('GET', `/api/ads/click/${id}?p=dashboard-top`);
+    assert.deepEqual([click.status, click.location], [302, 'https://unix.edu.br/vestibular']);
+    const report = (await send('GET', '/api/admin/report?days=30', { token: ADMIN })).body;
+    assert.deepEqual(report.partnerAds, [{ partnerAdId: id, views: 1, clicks: 1 }]);
+    assert.deepEqual(report.ads.find((a: any) => a.placement === 'landing-top'), { placement: 'landing-top', source: 'google', views: 1, clicks: 0 });
+
+    // Ended yesterday: Google again, without touching the placement.
+    await send('PATCH', `/api/admin/ads/${id}`, { token: ADMIN, body: { endsOn: '2020-01-01' } });
+    assert.deepEqual((await send('GET', '/api/ads')).body['dashboard-top'], { source: 'google' });
+    assert.equal((await send('DELETE', `/api/admin/ads/${id}`, { token: ADMIN })).status, 204);
+    assert.equal((await send('GET', '/api/admin/ads', { token: ADMIN })).body.placements.find((p: any) => p.placement === 'dashboard-top').source, 'google');
+  });
+
+  test('redeem codes are generated from the panel and can be stopped', async () => {
+    const made = await send('POST', '/api/admin/codes', { token: ADMIN, body: { count: 3, days: 30, maxUses: 2, note: 'Feira' } });
+    assert.equal(made.status, 201);
+    assert.equal(made.body.codes.length, 3);
+    assert.match(made.body.codes[0], /^[A-HJ-NP-Z2-9]{4}-[A-HJ-NP-Z2-9]{4}-[A-HJ-NP-Z2-9]{4}$/);
+    const code = made.body.codes[0];
+    assert.equal((await send('POST', '/api/me/redeem', { token: 'valid:student', body: { code } })).status, 200);
+    let listed = (await send('GET', '/api/admin/codes', { token: ADMIN })).body.find((c: any) => c.code === code);
+    assert.deepEqual([listed.uses, listed.maxUses, listed.days, listed.note], [1, 2, 30, 'Feira']);
+    await send('POST', `/api/admin/codes/${code}/expire`, { token: ADMIN });
+    assert.equal((await send('POST', '/api/me/redeem', { token: 'valid:student2', body: { code } })).status, 404);
+    assert.equal((await send('POST', '/api/admin/codes', { token: ADMIN, body: { count: 0, days: 30 } })).status, 400);
+  });
+
+  test('visitor helpers', () => {
+    assert.equal(isBot('WhatsApp/2.23'), true);
+    assert.equal(isBot(CHROME), false);
+    assert.deepEqual([deviceOf(CHROME), deviceOf(PHONE), deviceOf('Mozilla/5.0 (iPad; CPU OS 17_0)')], ['desktop', 'mobile', 'tablet']);
+    assert.equal(referrerHost('https://www.instagram.com/x', 'munninlabs.com'), 'instagram.com');
+    assert.equal(referrerHost('https://munninlabs.com/a', 'munninlabs.com'), null);
+    assert.equal(referrerHost('garbage', 'munninlabs.com'), null);
   });
 });
 

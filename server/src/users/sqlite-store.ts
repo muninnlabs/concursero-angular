@@ -26,6 +26,11 @@ function migrate(db: DatabaseSync) {
 
 /** node:sqlite adapter for local development and tests. Pass ':memory:' for tests. */
 export function createSqliteStore(dbPath: string): SqlUserStore {
+  return new SqlUserStore(sqliteDatabase(dbPath));
+}
+
+/** The migrated database behind the stores (SqlUserStore, SiteStore). */
+export function sqliteDatabase(dbPath: string): SqlDatabase {
   if (dbPath !== ':memory:') mkdirSync(path.dirname(dbPath), { recursive: true });
   const db = new DatabaseSync(dbPath);
   db.exec('PRAGMA foreign_keys = ON; PRAGMA journal_mode = WAL;');
@@ -49,5 +54,5 @@ export function createSqliteStore(dbPath: string): SqlUserStore {
       }
     },
   };
-  return new SqlUserStore(adapter);
+  return adapter;
 }

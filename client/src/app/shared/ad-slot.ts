@@ -1,5 +1,5 @@
-import { afterNextRender, ChangeDetectionStrategy, Component, computed, DOCUMENT, inject, input } from '@angular/core';
-import { ADS, type AdPlacement } from '../core/ads';
+import { afterNextRender, ChangeDetectionStrategy, Component, computed, DestroyRef, DOCUMENT, effect, ElementRef, inject, input } from '@angular/core';
+import { ADS, AdSettings, type AdPlacement } from '../core/ads';
 import { AuthService } from '../core/auth.service';
 
 const SIZES = {
@@ -9,7 +9,12 @@ const SIZES = {
   inline: '320 × 50',
 } as const;
 
-/** An ad space (see core/ads.ts). Hidden for Premium users. */
+/**
+ * An ad space (see core/ads.ts). The admin panel picks what it shows: Google
+ * AdSense (default), a partner's ad, or nothing. Hidden for Premium users.
+ * Each time it first comes into view it's counted (api/ads/view): the
+ * numbers shown to advertisers.
+ */
 @Component({
   selector: 'app-ad-slot',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -20,12 +25,16 @@ const SIZES = {
     '[class.ad--rectangle]': "format() === 'rectangle'",
     '[class.ad--card]': "format() === 'card'",
     '[class.ad--inline]': "format() === 'inline'",
-    '[class.ad--live]': 'live()',
+    '[class.ad--live]': 'live() || !!partner()',
     '[hidden]': '!visible()',
   },
   template: `
     <span class="ad__label">Publicidade</span>
-    @if (live()) {
+    @if (partner(); as ad) {
+      <a class="ad__partner" [href]="ad.href" target="_blank" rel="sponsored noopener" [title]="ad.advertiser + ' · ' + ad.title">
+        <img [src]="ad.imageUrl" [alt]="ad.advertiser + ': ' + ad.title" />
+      </a>
+    } @else if (live()) {
       <ins
         class="adsbygoogle"
         style="display: block; width: 100%"
@@ -77,6 +86,18 @@ const SIZES = {
       padding-top: 22px;
       border: 0;
       background: none;
+    }
+    .ad__partner {
+      display: block;
+      overflow: hidden;
+      border-radius: 14px;
+    }
+    .ad__partner img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 280px;
+      object-fit: contain;
     }
     :host(.ad--leaderboard) {
       min-height: 90px;
@@ -151,6 +172,7 @@ const SIZES = {
 })
 export class AdSlot {
   private readonly auth = inject(AuthService);
+  private readonly settings = inject(AdSettings);
 
   readonly placement = input.required<AdPlacement>();
   /** Placeholder wording, e.g. the landing page's "Anuncie aqui…". */
@@ -158,20 +180,50 @@ export class AdSlot {
 
   protected readonly format = computed(() => ADS.placements[this.placement()].format);
   protected readonly size = computed(() => SIZES[this.format()]);
-  protected readonly visible = computed(() => ADS.enabled && !this.auth.isPremium());
+  /** The admin panel's choice; undefined while it loads. */
+  private readonly setting = computed(() => this.settings.placements()?.[this.placement()]);
+  protected readonly partner = computed(() => {
+    const setting = this.setting();
+    return setting?.source === 'partner' ? setting.ad : null;
+  });
+  protected readonly visible = computed(() => ADS.enabled && !this.auth.isPremium() && this.setting()?.source !== 'off');
   protected readonly client = ADS.client;
   protected readonly slot = computed(() => ADS.placements[this.placement()].slot);
-  /** A real AdSense unit (publisher and slot configured), not the placeholder. */
-  protected readonly live = computed(() => !!ADS.client && !!this.slot());
+  /** A real AdSense unit (publisher and slot configured, Google chosen), not the placeholder. */
+  protected readonly live = computed(() => !!ADS.client && !!this.slot() && this.setting()?.source === 'google');
 
   constructor() {
     const doc = inject(DOCUMENT);
-    afterNextRender(() => {
-      if (!this.live() || !this.visible()) return;
+    const host = inject<ElementRef<HTMLElement>>(ElementRef).nativeElement;
+    let pushed = false;
+    // Once the setting is known, Google renders its unit; partner ads are plain links.
+    effect(() => {
+      if (pushed || !this.live() || !this.visible()) return;
+      pushed = true;
       loadAdSense(doc, ADS.client!);
-      const w = doc.defaultView as (Window & { adsbygoogle?: unknown[] }) | null;
-      if (w) (w.adsbygoogle ??= []).push({});
+      queueMicrotask(() => {
+        const w = doc.defaultView as (Window & { adsbygoogle?: unknown[] }) | null;
+        if (w) (w.adsbygoogle ??= []).push({});
+      });
     });
+
+    // Counted once, when at least half of it is on screen with its setting known.
+    let observer: IntersectionObserver | undefined;
+    afterNextRender(() => {
+      if (typeof IntersectionObserver === 'undefined') return;
+      observer = new IntersectionObserver(
+        ([entry]) => {
+          const setting = this.setting();
+          if (!entry?.isIntersecting || !setting || !this.visible()) return;
+          observer?.disconnect();
+          const view = { placement: this.placement(), source: setting.source, partnerAdId: this.partner()?.id };
+          navigator.sendBeacon?.('api/ads/view', JSON.stringify(view));
+        },
+        { threshold: 0.5 },
+      );
+      observer.observe(host);
+    });
+    inject(DestroyRef).onDestroy(() => observer?.disconnect());
   }
 }
 
