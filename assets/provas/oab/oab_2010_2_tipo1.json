@@ -43,6 +43,12 @@
     },
     {
       "id": "oab_2010_2_tipo1_q2",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "page header/footer and the other column mixed into the text"
+        ]
+      },
       "question_number": 2,
       "subject": "Direito da Criança e do Adolescente (ECA)",
       "topic": null,
@@ -365,7 +371,7 @@
         },
         {
           "letter": "D",
-          "text": "o poder hierárquico é inerente à ideia de verticalização administrativa, e revela as possibilidades de controlar atividades, delegar competência, avocar competências delegáveis e invalidar atos, dentre outros.\n3 – Caderno de Prova 01",
+          "text": "o poder hierárquico é inerente à ideia de verticalização administrativa, e revela as possibilidades de controlar atividades, delegar competência, avocar competências delegáveis e invalidar atos, dentre outros.",
           "is_correct": true
         }
       ],
@@ -695,7 +701,7 @@
         },
         {
           "letter": "D",
-          "text": "a prescrição é exceção que deve ser alegada pela parte a quem beneficia, enquanto a decadência pode ser declarada de ofício pelo juiz.\n5 – Caderno de Prova 01",
+          "text": "a prescrição é exceção que deve ser alegada pela parte a quem beneficia, enquanto a decadência pode ser declarada de ofício pelo juiz.",
           "is_correct": false
         }
       ],
@@ -1571,7 +1577,7 @@
         },
         {
           "letter": "D",
-          "text": "Joana não fará jus à estabilidade gestacional, pois o contrato de três meses é automaticamente considerado de experiência para o Direito do Trabalho e pode ser rescindido ao atingir o seu termo final.\n9 – Caderno de Prova 01",
+          "text": "Joana não fará jus à estabilidade gestacional, pois o contrato de três meses é automaticamente considerado de experiência para o Direito do Trabalho e pode ser rescindido ao atingir o seu termo final.",
           "is_correct": false
         }
       ],
@@ -1645,6 +1651,12 @@
     },
     {
       "id": "oab_2010_2_tipo1_q50",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "page header/footer and the other column mixed into the text"
+        ]
+      },
       "question_number": 50,
       "subject": "Direito Processual do Trabalho",
       "topic": null,
@@ -1949,6 +1961,12 @@
     },
     {
       "id": "oab_2010_2_tipo1_q59",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "page header/footer and the other column mixed into the text"
+        ]
+      },
       "question_number": 59,
       "subject": "Direito Processual Penal",
       "topic": null,
@@ -2048,6 +2066,12 @@
     },
     {
       "id": "oab_2010_2_tipo1_q62",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "page header/footer and the other column mixed into the text"
+        ]
+      },
       "question_number": 62,
       "subject": "Direito Empresarial",
       "topic": null,
@@ -2304,7 +2328,7 @@
         },
         {
           "letter": "D",
-          "text": "absolver o acusado.\n13 – Caderno de Prova 01",
+          "text": "absolver o acusado.",
           "is_correct": true
         }
       ],
@@ -2733,7 +2757,7 @@
         },
         {
           "letter": "D",
-          "text": "programas televisivos são franqueados aos advogados, inclusive para realizar propaganda dos seus escritórios.\n15 – Caderno de Prova 01",
+          "text": "programas televisivos são franqueados aos advogados, inclusive para realizar propaganda dos seus escritórios.",
           "is_correct": false
         }
       ],
@@ -2807,6 +2831,12 @@
     },
     {
       "id": "oab_2010_2_tipo1_q85",
+      "review": {
+        "status": "needs_review",
+        "reasons": [
+          "page header/footer and the other column mixed into the text"
+        ]
+      },
       "question_number": 85,
       "subject": "Direito Processual Penal",
       "topic": null,
@@ -3136,7 +3166,7 @@
         },
         {
           "letter": "D",
-          "text": "deferir o pedido, em razão da competência concorrente da justiça brasileira.\n17 – Caderno de Prova 01",
+          "text": "deferir o pedido, em razão da competência concorrente da justiça brasileira.",
           "is_correct": false
         }
       ],
