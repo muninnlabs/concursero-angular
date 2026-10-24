@@ -22,6 +22,7 @@ const CATEGORY_STYLE: Record<string, { icon: IconName; tone: StatCard['tone'] }>
   OAB: { icon: 'gavel', tone: 'amber' },
   CONCURSOS: { icon: 'landmark', tone: 'green' },
   VESTIBULARES: { icon: 'graduation-cap', tone: 'rose' },
+  RESIDENCIA: { icon: 'stethoscope', tone: 'green' },
 };
 
 @Component({
@@ -38,8 +39,10 @@ export class DashboardPage {
   protected readonly categories = CATEGORIES;
   private readonly concursoFilter = inject(ConcursoFilterState);
 
-  /** Concursos and Vestibulares have a level / state / ... filter; it applies to that category's practice only. */
-  protected readonly hasFilter = computed(() => ['CONCURSOS', 'VESTIBULARES'].includes(this.categoryState.selected()));
+  /** Concursos, Vestibulares and Residência have a level / state / ... filter; it applies to that category's practice only. */
+  protected readonly hasFilter = computed(() =>
+    ['CONCURSOS', 'VESTIBULARES', 'RESIDENCIA'].includes(this.categoryState.selected()),
+  );
   protected readonly practiceFilter = computed(() =>
     this.hasFilter() ? filterParams(this.concursoFilter.filter(this.categoryState.selected())) : {},
   );

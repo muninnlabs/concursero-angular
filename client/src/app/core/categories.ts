@@ -12,6 +12,7 @@ export const CATEGORIES: CategoryOption[] = [
   { id: 'OAB', label: 'OAB', available: true },
   { id: 'CONCURSOS', label: 'Concursos', available: true },
   { id: 'VESTIBULARES', label: 'Vestibulares', available: true },
+  { id: 'RESIDENCIA', label: 'Residência Médica', available: true },
 ];
 
 const STORAGE_KEY = 'brasilquiz.category';

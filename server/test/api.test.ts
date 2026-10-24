@@ -2,8 +2,9 @@ import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
 import { createApp } from '../src/app.ts';
 import type { TokenVerifier } from '../src/auth/firebase.ts';
-import { MemoryExamSource, examLabel, isUsable, randomQuestions, toPublicQuestion } from '../src/exams/catalog.ts';
+import { MemoryExamSource, examLabel, isPlayable, isUsable, randomQuestions, toPublicQuestion } from '../src/exams/catalog.ts';
 import { withExplanations } from '../src/exams/explanations.ts';
+import { loadExamsFromDisk } from '../src/exams/fs-source.ts';
 import type { ExamFile, Question } from '../src/exams/types.ts';
 import { createSqliteStore } from '../src/users/sqlite-store.ts';
 import { badgesFor, levelFor, longestStreak, publicName } from '../src/users/profile.ts';
@@ -429,6 +430,23 @@ describe('concursos filters', () => {
     assert.deepEqual(await ids('level=privada'), ['mackenzie_2024']);
     assert.deepEqual(await ids('uf=SP'), ['fuvest_2024', 'mackenzie_2024']);
     assert.deepEqual(await ids('institution=UnB'), ['unb_2024']);
+  });
+});
+
+describe('residência médica data', () => {
+  test('every exam is listed under RESIDENCIA with its institution, and every playable answer is one of its options', async () => {
+    const source = await loadExamsFromDisk(new URL('../../assets', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
+    const residencia = (await source.list()).filter((e) => e.category === 'RESIDENCIA');
+    assert.ok(residencia.length >= 30, `${residencia.length} exams`);
+    for (const summary of residencia) {
+      assert.ok(summary.concurso?.institution && summary.concurso.level, summary.id);
+      const exam = await source.get(summary.id);
+      const playable = exam!.questions.filter(isPlayable);
+      assert.ok(playable.length >= 0.3 * exam!.questions.length, `${summary.id}: ${playable.length} playable`);
+      for (const q of playable) {
+        assert.ok(q.options.some((o) => o.letter === q.correct_answer), q.id);
+      }
+    }
   });
 });
 
