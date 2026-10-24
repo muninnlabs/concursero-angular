@@ -32,6 +32,9 @@
         <dd>
           {{ auth.isPremium() ? 'Premium' : 'Gratuito' }}
           <span class="plan-tag" [class.plan-tag--premium]="auth.isPremium()">{{ auth.isPremium() ? 'Completo' : 'Básico' }}</span>
+          @if (premiumUntil(); as until) {
+            <small class="plan-until">até {{ until }}</small>
+          }
         </dd>
       </div>
       <div>
@@ -41,6 +44,30 @@
     </dl>
   </div>
   <p class="profile__note">Nome, e-mail e foto vêm da sua Conta Google.</p>
+</section>
+
+<section id="codigo" class="card panel redeem">
+  <h2>Resgatar código</h2>
+  <p class="panel__hint">Recebeu um código promocional? Digite-o aqui para ativar o Premium na sua conta.</p>
+  <form class="redeem__form" (submit)="redeem($event)">
+    <label for="redeem-code" class="sr-only">Código</label>
+    <input
+      id="redeem-code"
+      #codeInput
+      name="code"
+      placeholder="XXXX-XXXX-XXXX"
+      autocomplete="off"
+      autocapitalize="characters"
+      spellcheck="false"
+      maxlength="20"
+      [disabled]="redeeming()"
+      (input)="redeemMessage.set(null)"
+    />
+    <button class="btn btn--primary" type="submit" [disabled]="redeeming()">{{ redeeming() ? 'Validando…' : 'Resgatar' }}</button>
+  </form>
+  @if (redeemMessage(); as message) {
+    <p class="redeem__message" [class.redeem__message--error]="!message.ok" role="status">{{ message.text }}</p>
+  }
 </section>
 
 <div class="columns">

@@ -108,6 +108,15 @@
             <small>Encontrou um erro no comentário? Use “Reportar erro” acima.</small>
           }
         </section>
+      } @else if (result.explanationLocked) {
+        <section class="explanation explanation--locked" aria-label="Comentário Premium">
+          <strong><app-icon name="crown" [size]="14" [filled]="true" /> Comentário · resposta {{ result.correctAnswer }}</strong>
+          <p>Entenda por que a alternativa {{ result.correctAnswer }} é a correta: os comentários das questões da OAB são exclusivos do Premium.</p>
+          <div class="explanation__actions">
+            <a class="btn btn--primary" routerLink="/" fragment="planos">Assinar Premium</a>
+            <a class="btn btn--soft" routerLink="/app/configuracoes" fragment="codigo">Tenho um código</a>
+          </div>
+        </section>
       }
     }
 

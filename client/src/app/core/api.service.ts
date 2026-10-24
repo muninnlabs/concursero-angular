@@ -61,6 +61,11 @@ export class ApiService {
     return this.http.patch<User>('api/me', fields);
   }
 
+  /** "Resgatar código": returns the profile, now Premium. Errors carry a message in `error.error`. */
+  redeemCode(code: string): Observable<User> {
+    return this.http.post<User>('api/me/redeem', { code });
+  }
+
   deleteAccount(): Observable<void> {
     return this.http.delete<void>('api/me');
   }

@@ -329,3 +329,39 @@
 .settings-ad {
   margin-top: 16px;
 }
+
+.plan-until {
+  display: block;
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.redeem__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+
+  input {
+    flex: 1 1 220px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    background: var(--background);
+    font: inherit;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+}
+.redeem__message {
+  margin-top: 12px;
+  color: var(--success);
+  font-size: 14px;
+  font-weight: 600;
+}
+.redeem__message--error {
+  color: var(--danger);
+}

@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { ActivatedRouteSnapshot, NavigationEnd, Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { filter } from 'rxjs';
@@ -58,6 +59,8 @@ export class ShellLayout {
   ];
 
   constructor() {
+    // Keep #section jumps ("Tenho um código" → Configurações#codigo) clear of the sticky top bar.
+    inject(ViewportScroller).setOffset([0, 96]);
     const router = inject(Router);
     const readTopbar = () => {
       let route: ActivatedRouteSnapshot = router.routerState.snapshot.root;

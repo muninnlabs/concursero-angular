@@ -1,3 +1,4 @@
+import { HttpErrorResponse } from '@angular/common/http';
 import { ChangeDetectionStrategy, Component, ElementRef, computed, inject, signal, viewChild } from '@angular/core';
 import { ApiService } from '../../core/api.service';
 import { AuthService } from '../../core/auth.service';
@@ -38,6 +39,9 @@ export class SettingsPage {
   protected readonly securityLinks = SECURITY_LINKS;
 
   private readonly deleteDialog = viewChild.required<ElementRef<HTMLDialogElement>>('deleteDialog');
+  private readonly codeInput = viewChild.required<ElementRef<HTMLInputElement>>('codeInput');
+  protected readonly redeeming = signal(false);
+  protected readonly redeemMessage = signal<{ ok: boolean; text: string } | null>(null);
   protected readonly deleting = signal(false);
   protected readonly deleteError = signal<string | null>(null);
 
@@ -57,6 +61,33 @@ export class SettingsPage {
     const text = new Date(createdAt).toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' });
     return text.charAt(0).toUpperCase() + text.slice(1);
   });
+
+  /** "25 de novembro de 2026" when Premium has an end date. */
+  protected readonly premiumUntil = computed(() => {
+    const until = this.auth.user()?.premiumUntil;
+    return until ? new Date(until).toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }) : null;
+  });
+
+  protected redeem(event: Event) {
+    event.preventDefault();
+    const input = this.codeInput().nativeElement;
+    if (!input.value.trim()) return;
+    this.redeeming.set(true);
+    this.redeemMessage.set(null);
+    this.api.redeemCode(input.value).subscribe({
+      next: (user) => {
+        this.auth.user.set(user);
+        this.redeeming.set(false);
+        input.value = '';
+        const until = this.premiumUntil();
+        this.redeemMessage.set({ ok: true, text: until ? `Premium ativado até ${until}.` : 'Premium ativado.' });
+      },
+      error: (error: HttpErrorResponse) => {
+        this.redeeming.set(false);
+        this.redeemMessage.set({ ok: false, text: error.error?.error ?? 'Não foi possível validar o código agora. Tente novamente.' });
+      },
+    });
+  }
 
   protected toggle(key: keyof Preferences) {
     const next = !this.preferences.value()[key];

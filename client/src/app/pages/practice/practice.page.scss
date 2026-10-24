@@ -297,6 +297,24 @@
     font-size: 12px;
   }
 }
+.explanation--locked {
+  border-left-color: var(--warning);
+  background: var(--warning-soft);
+
+  strong {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+    color: var(--warning);
+  }
+}
+.explanation__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
 .explanation__head {
   display: flex;
   align-items: center;

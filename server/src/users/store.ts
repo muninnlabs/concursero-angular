@@ -8,9 +8,21 @@ export type Plan = 'free' | 'premium';
 /** Accounts treated as Premium whatever their stored plan, until payments exist. */
 const PREMIUM_EMAILS = new Set(['alexandreartedesigner@gmail.com']);
 
-export function planFor(email: string, stored: Plan): Plan {
-  return PREMIUM_EMAILS.has(email.toLowerCase()) ? 'premium' : stored;
+/** Stored Premium lasts until `premiumUntil` (ISO), or for good when it's null. */
+export function planFor(email: string, stored: Plan, premiumUntil: string | null = null, now = new Date()): Plan {
+  if (PREMIUM_EMAILS.has(email.toLowerCase())) return 'premium';
+  return stored === 'premium' && (!premiumUntil || premiumUntil > now.toISOString()) ? 'premium' : 'free';
 }
+
+/** Codes are shown as XXXX-XXXX-XXXX; case, spaces and dashes don't matter when typed. */
+export function normalizeCode(input: string): string {
+  const plain = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  return plain.match(/.{1,4}/g)?.join('-') ?? '';
+}
+
+export type RedeemResult =
+  | { ok: true; user: User }
+  | { ok: false; reason: 'invalid' | 'used' | 'exhausted' | 'lifetime' };
 
 /** Identity comes from Firebase Authentication (Google sign-in); `id` is the Firebase uid. */
 export interface User {
@@ -18,6 +30,8 @@ export interface User {
   name: string;
   email: string;
   plan: Plan;
+  /** When Premium ends (ISO); null when it doesn't or the user is on the free plan. */
+  premiumUntil: string | null;
   createdAt: string;
   /** Set by the user on the profile page. */
   bio: string | null;
@@ -173,6 +187,10 @@ export interface UserStore {
   updateProfile(userId: string, fields: { bio?: string | null; location?: string | null }): Promise<User | undefined>;
   /** Flags a question for review; the same user, question and reason only refreshes the comment. */
   reportQuestion(userId: string, report: QuestionReport): Promise<void>;
+  /** Adds codes (scripts/redeem-codes.mjs writes the same INSERT for D1). */
+  createRedeemCodes(codes: { code: string; days: number | null; maxUses?: number; expiresAt?: string | null; note?: string | null }[]): Promise<void>;
+  /** Gives the Premium days of a redeem code (see migrations/0006_redeem_codes.sql). */
+  redeemCode(userId: string, code: string, now?: Date): Promise<RedeemResult>;
   /** Removes the profile with all its answers, simulados and reports. */
   deleteUser(userId: string): Promise<void>;
 }

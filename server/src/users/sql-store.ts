@@ -2,11 +2,13 @@ import {
   countStreak,
   INSIGHT_WEEKS,
   isoDay,
+  normalizeCode,
   planFor,
   RANKING_MIN_ANSWERS,
   RANKING_TOP,
   type ProfileStats,
   type QuestionReport,
+  type RedeemResult,
   RANKING_MIN_USERS,
   type ActivityOptions,
   type ActivityStats,
@@ -36,17 +38,20 @@ interface UserRow {
   name: string;
   email: string;
   plan: Plan;
+  premium_until: string | null;
   created_at: string;
   bio: string | null;
   location: string | null;
 }
 
 function toUser(row: UserRow): User {
+  const plan = planFor(row.email, row.plan, row.premium_until);
   return {
     id: row.id,
     name: row.name,
     email: row.email,
-    plan: planFor(row.email, row.plan),
+    plan,
+    premiumUntil: plan === 'premium' ? (row.premium_until ?? null) : null,
     createdAt: row.created_at,
     bio: row.bio ?? null,
     location: row.location ?? null,
@@ -390,10 +395,65 @@ export class SqlUserStore implements UserStore {
     ]);
   }
 
+  async createRedeemCodes(
+    codes: { code: string; days: number | null; maxUses?: number; expiresAt?: string | null; note?: string | null }[],
+  ): Promise<void> {
+    const createdAt = new Date().toISOString();
+    await this.db.batch(
+      codes.map((c) => ({
+        sql: 'INSERT INTO redeem_codes (code, days, max_uses, expires_at, note, created_at) VALUES (?, ?, ?, ?, ?, ?)',
+        params: [normalizeCode(c.code), c.days, c.maxUses ?? 1, c.expiresAt ?? null, c.note ?? null, createdAt],
+      })),
+    );
+  }
+
+  async redeemCode(userId: string, input: string, now = new Date()): Promise<RedeemResult> {
+    const code = await this.db.first<{ code: string; days: number | null; max_uses: number; expires_at: string | null }>(
+      'SELECT * FROM redeem_codes WHERE code = ?',
+      [normalizeCode(input)],
+    );
+    if (!code || (code.expires_at && code.expires_at <= now.toISOString())) return { ok: false, reason: 'invalid' };
+    if (await this.db.first('SELECT 1 FROM code_redemptions WHERE code = ? AND user_id = ?', [code.code, userId])) {
+      return { ok: false, reason: 'used' };
+    }
+    const row = await this.db.first<UserRow>('SELECT * FROM users WHERE id = ?', [userId]);
+    const user = toUser(row!);
+    if (user.plan === 'premium' && !user.premiumUntil) return { ok: false, reason: 'lifetime' };
+
+    // Days add up: they start when the current Premium ends.
+    let until: string | null = null;
+    if (code.days !== null) {
+      const start = new Date(Math.max(now.getTime(), user.premiumUntil ? Date.parse(user.premiumUntil) : 0));
+      until = new Date(start.getTime() + code.days * 86_400_000).toISOString();
+    }
+    const redeemedAt = now.toISOString();
+    // Counting and claiming happen in one statement, so two people can't take a code's last use.
+    await this.db.batch([
+      {
+        sql: `INSERT OR IGNORE INTO code_redemptions (code, user_id, redeemed_at)
+              SELECT code, ?, ? FROM redeem_codes c
+              WHERE code = ? AND (SELECT COUNT(*) FROM code_redemptions r WHERE r.code = c.code) < c.max_uses`,
+        params: [userId, redeemedAt, code.code],
+      },
+      {
+        sql: `UPDATE users SET plan = 'premium', premium_until = ?
+              WHERE id = ? AND EXISTS (SELECT 1 FROM code_redemptions WHERE code = ? AND user_id = ? AND redeemed_at = ?)`,
+        params: [until, userId, code.code, userId, redeemedAt],
+      },
+    ]);
+    const claimed = await this.db.first('SELECT 1 FROM code_redemptions WHERE code = ? AND user_id = ? AND redeemed_at = ?', [
+      code.code,
+      userId,
+      redeemedAt,
+    ]);
+    if (!claimed) return { ok: false, reason: 'exhausted' };
+    return { ok: true, user: toUser((await this.db.first<UserRow>('SELECT * FROM users WHERE id = ?', [userId]))!) };
+  }
+
   async deleteUser(userId: string): Promise<void> {
     // Explicit deletes rather than relying on ON DELETE CASCADE being enabled.
     await this.db.batch(
-      ['DELETE FROM question_reports WHERE user_id = ?', 'DELETE FROM answers WHERE user_id = ?', 'DELETE FROM simulados WHERE user_id = ?', 'DELETE FROM users WHERE id = ?'].map(
+      ['DELETE FROM question_reports WHERE user_id = ?', 'DELETE FROM code_redemptions WHERE user_id = ?', 'DELETE FROM answers WHERE user_id = ?', 'DELETE FROM simulados WHERE user_id = ?', 'DELETE FROM users WHERE id = ?'].map(
         (sql) => ({ sql, params: [userId] }),
       ),
     );

@@ -3,7 +3,7 @@ import type { AuthUser, TokenVerifier } from './auth/firebase.ts';
 import { isPlayable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
 import type { ConcursoInfo } from './exams/types.ts';
 import { badgesFor, levelFor, longestStreak } from './users/profile.ts';
-import { countStreak, isoDay, REPORT_REASONS, type AnswerRecord, type ReportReason, type UserStore } from './users/store.ts';
+import { countStreak, isoDay, REPORT_REASONS, normalizeCode, type AnswerRecord, type ReportReason, type UserStore } from './users/store.ts';
 
 export interface AppDeps {
   exams: ExamSource;
@@ -35,6 +35,12 @@ const HEATMAP_DAYS = 182;
 const MAX_BIO = 280;
 const MAX_LOCATION = 60;
 const MAX_REPORT_COMMENT = 500;
+const REDEEM_ERRORS = {
+  invalid: 'Código inválido ou expirado.',
+  used: 'Você já usou este código.',
+  exhausted: 'Este código já foi usado.',
+  lifetime: 'Sua conta já é Premium sem data de término.',
+} as const;
 
 /**
  * The API, independent of where it runs: server/src/node.ts serves it with
@@ -187,7 +193,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     }
 
     // Answers only count once the profile exists (first request may come before /auth/me).
-    await store.upsertUser({ id: user.uid, name: user.name, email: user.email });
+    const { plan } = await store.upsertUser({ id: user.uid, name: user.name, email: user.email });
     const saved = await store.recordAnswers(
       user.uid,
       records.map(({ correctAnswer: _key, explanation: _explanation, explanationNote: _note, explanationAi: _ai, ...record }) => record),
@@ -195,15 +201,18 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     );
     return c.json(
       {
-        results: records.map((r) => ({
-          questionId: r.questionId,
-          selected: r.selected,
-          isCorrect: r.isCorrect,
-          correctAnswer: r.correctAnswer,
-          ...(r.explanation ? { explanation: r.explanation } : {}),
-          ...(r.explanation && r.explanationNote ? { explanationNote: r.explanationNote } : {}),
-          ...(r.explanation && r.explanationAi ? { explanationAi: true } : {}),
-        })),
+        results: records.map((r) => {
+          const graded = { questionId: r.questionId, selected: r.selected, isCorrect: r.isCorrect, correctAnswer: r.correctAnswer };
+          if (!r.explanation) return graded;
+          // AI-written explanations (the OAB ones) are Premium; the ones the banca published are for everyone.
+          if (r.explanationAi && plan !== 'premium') return { ...graded, explanationLocked: true };
+          return {
+            ...graded,
+            explanation: r.explanation,
+            ...(r.explanationNote ? { explanationNote: r.explanationNote } : {}),
+            ...(r.explanationAi ? { explanationAi: true } : {}),
+          };
+        }),
         simulado: saved,
       },
       201,
@@ -348,6 +357,17 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
       location: field(body?.location, MAX_LOCATION),
     });
     return c.json(user);
+  });
+
+  /** "Resgatar código" on Configurações. Body: { code }; returns the updated profile. */
+  app.post('/me/redeem', requireAuth, async (c) => {
+    const body = await c.req.json().catch(() => null);
+    const code = normalizeCode(String(body?.code ?? ''));
+    if (!code) return c.json({ error: 'Digite o código.' }, 400);
+    const { uid, name, email } = c.get('user');
+    await store.upsertUser({ id: uid, name, email });
+    const result = await store.redeemCode(uid, code);
+    return result.ok ? c.json(result.user) : c.json({ error: REDEEM_ERRORS[result.reason] }, result.reason === 'invalid' ? 404 : 409);
   });
 
   /** Deletes the profile, answers and simulados. The Firebase account itself is left alone (shared with the mobile app). */

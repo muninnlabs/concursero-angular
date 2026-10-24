@@ -9,6 +9,8 @@ export interface User {
   name: string;
   email: string;
   plan: Plan;
+  /** When Premium ends (ISO); null when it doesn't or on the free plan. */
+  premiumUntil: string | null;
   createdAt: string;
   bio: string | null;
   location: string | null;
@@ -90,6 +92,8 @@ export interface GradedAnswer {
   /** How the law changed since the exam, when it did. */
   explanationNote?: string;
   explanationAi?: boolean;
+  /** There is an AI explanation, but it's Premium and the user is on the free plan. */
+  explanationLocked?: boolean;
 }
 
 export interface Simulado {

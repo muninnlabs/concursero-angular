@@ -73,15 +73,15 @@ export class LandingPage {
     {
       name: 'Gratuito',
       price: 0,
-      perks: ['Todas as questões comentadas', 'Simulados ilimitados', 'Estatísticas básicas'],
+      perks: ['Todas as questões com gabarito', 'Simulados ilimitados', 'Estatísticas básicas'],
       cta: 'Começar Agora',
       highlighted: false,
     },
     {
-      name: 'Sem Anúncios',
+      name: 'Premium',
       price: 19,
-      perks: ['Tudo do plano Gratuito', 'Experiência sem anúncios', 'Estatísticas avançadas'],
-      cta: 'Remover Anúncios',
+      perks: ['Tudo do plano Gratuito', 'Comentários das questões da OAB', 'Experiência sem anúncios', 'Estatísticas avançadas'],
+      cta: 'Assinar Premium',
       highlighted: true,
     },
   ];

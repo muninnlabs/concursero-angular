@@ -8,7 +8,7 @@ import { loadExamsFromDisk } from '../src/exams/fs-source.ts';
 import type { ExamFile, Question } from '../src/exams/types.ts';
 import { createSqliteStore } from '../src/users/sqlite-store.ts';
 import { badgesFor, levelFor, longestStreak, publicName } from '../src/users/profile.ts';
-import { countStreak } from '../src/users/store.ts';
+import { countStreak, planFor } from '../src/users/store.ts';
 
 function question(id: string, correct: string | null, subject = 'Direito Penal'): Question {
   return {
@@ -487,22 +487,73 @@ describe('explanations', () => {
     const oabSource = new MemoryExamSource();
     oabSource.add('OAB', 'oab.json', data);
     const oabApp = createApp({ exams: oabSource, store: createSqliteStore(':memory:'), verifyToken });
-    const graded = await oabApp.request('/api/answers', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json', authorization: 'Bearer valid:oab' },
-      body: JSON.stringify({
-        answers: [
-          { questionId: `${oab}_q1`, examId: oab, selected: 'C' },
-          { questionId: `${oab}_q2`, examId: oab, selected: 'A' },
-        ],
-      }),
-    });
-    const { results } = (await graded.json()) as { results: Record<string, unknown>[] };
+    const grade = async (token: string) => {
+      const graded = await oabApp.request('/api/answers', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          answers: [
+            { questionId: `${oab}_q1`, examId: oab, selected: 'C' },
+            { questionId: `${oab}_q2`, examId: oab, selected: 'A' },
+          ],
+        }),
+      });
+      return ((await graded.json()) as { results: Record<string, unknown>[] }).results;
+    };
+    // AI explanations are Premium: free accounts only learn that there is one.
+    const free = await grade('valid:oab');
+    assert.deepEqual([free[0].explanationLocked, 'explanation' in free[0], 'explanationLocked' in free[1]], [true, false, false]);
+
+    const results = await grade('valid:premium-oab');
     assert.deepEqual(
       { explanation: results[0].explanation, note: results[0].explanationNote, ai: results[0].explanationAi },
       { explanation: 'C, pelo art. 295.', note: 'Hoje vale o CPC/2015.', ai: true },
     );
     assert.equal('explanation' in results[1], false);
+  });
+});
+
+describe('redeem codes', () => {
+  const store = createSqliteStore(':memory:');
+  const codeApp = createApp({ exams, store, verifyToken });
+  const redeem = async (token: string, code: string) => {
+    const res = await codeApp.request('/api/me/redeem', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', authorization: `Bearer ${token}` },
+      body: JSON.stringify({ code }),
+    });
+    return { status: res.status, body: (await res.json()) as any };
+  };
+
+  test('give Premium days that add up, once per account and up to max_uses accounts', async () => {
+    await store.createRedeemCodes([
+      { code: 'AAAA-BBBB-CCCC', days: 30, maxUses: 2 },
+      { code: 'DDDD-EEEE-FFFF', days: 10 },
+      { code: 'OLD0-OLD0-OLD0', days: 30, expiresAt: '2020-01-01T00:00:00.000Z' },
+    ]);
+    assert.equal((await redeem('valid:r1', 'nope')).status, 404);
+    assert.equal((await redeem('valid:r1', 'OLD0OLD0OLD0')).status, 404);
+
+    const first = await redeem('valid:r1', ' aaaa bbbb cccc ');
+    assert.equal(first.status, 200);
+    assert.equal(first.body.plan, 'premium');
+    const days = (iso: string) => Math.round((Date.parse(iso) - Date.now()) / 86_400_000);
+    assert.equal(days(first.body.premiumUntil), 30);
+    assert.equal((await redeem('valid:r1', 'AAAA-BBBB-CCCC')).body.error, 'Você já usou este código.');
+
+    const stacked = await redeem('valid:r1', 'DDDD-EEEE-FFFF');
+    assert.equal(days(stacked.body.premiumUntil), 40);
+
+    assert.equal((await redeem('valid:r2', 'AAAA-BBBB-CCCC')).status, 200);
+    assert.equal((await redeem('valid:r3', 'AAAA-BBBB-CCCC')).body.error, 'Este código já foi usado.');
+  });
+
+  test('Premium ends with premium_until', () => {
+    const now = new Date('2026-10-25T12:00:00Z');
+    assert.equal(planFor('a@example.com', 'premium', '2026-10-26T00:00:00.000Z', now), 'premium');
+    assert.equal(planFor('a@example.com', 'premium', '2026-10-25T00:00:00.000Z', now), 'free');
+    assert.equal(planFor('a@example.com', 'premium', null, now), 'premium');
+    assert.equal(planFor('a@example.com', 'free', null, now), 'free');
   });
 });
 
