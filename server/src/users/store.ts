@@ -8,9 +8,46 @@ export type Plan = 'free' | 'premium';
 /** Accounts treated as Premium whatever their stored plan, until payments exist. */
 const PREMIUM_EMAILS = new Set(['alexandreartedesigner@gmail.com']);
 
-export function planFor(email: string, stored: Plan): Plan {
-  return PREMIUM_EMAILS.has(email.toLowerCase()) ? 'premium' : stored;
+/** Statuses that still give Premium (past_due: Stripe is retrying the card). */
+const LIVE_SUBSCRIPTION = ['active', 'trialing', 'past_due'];
+/** A renewal's webhook can lag the end of the period a little. */
+const SUBSCRIPTION_GRACE_MS = 2 * 86_400_000;
+
+/**
+ * Premium comes from a redeem code (stored plan, until `premiumUntil` or for good
+ * when it's null) or from a live Stripe subscription.
+ */
+export function planFor(
+  email: string,
+  stored: Plan,
+  premiumUntil: string | null = null,
+  now = new Date(),
+  subscription: { status: string; periodEnd: string } | null = null,
+): Plan {
+  if (PREMIUM_EMAILS.has(email.toLowerCase())) return 'premium';
+  if (stored === 'premium' && (!premiumUntil || premiumUntil > now.toISOString())) return 'premium';
+  const live = subscription && LIVE_SUBSCRIPTION.includes(subscription.status);
+  return live && Date.parse(subscription.periodEnd) + SUBSCRIPTION_GRACE_MS > now.getTime() ? 'premium' : 'free';
 }
+
+/** Mirrors the Stripe subscription (see billing/stripe.ts). */
+export interface Subscription {
+  status: string;
+  /** End of the paid period (ISO). */
+  periodEnd: string;
+  /** False once cancelled: it ends at periodEnd. */
+  renews: boolean;
+}
+
+/** Codes are shown as XXXX-XXXX-XXXX; case, spaces and dashes don't matter when typed. */
+export function normalizeCode(input: string): string {
+  const plain = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  return plain.match(/.{1,4}/g)?.join('-') ?? '';
+}
+
+export type RedeemResult =
+  | { ok: true; user: User }
+  | { ok: false; reason: 'invalid' | 'used' | 'exhausted' | 'lifetime' };
 
 /** Identity comes from Firebase Authentication (Google sign-in); `id` is the Firebase uid. */
 export interface User {
@@ -18,6 +55,10 @@ export interface User {
   name: string;
   email: string;
   plan: Plan;
+  /** When Premium from a redeem code ends (ISO); null when it doesn't or there is none. */
+  premiumUntil: string | null;
+  /** The Stripe subscription, live or past; null when the user never subscribed. */
+  subscription: Subscription | null;
   createdAt: string;
   /** Set by the user on the profile page. */
   bio: string | null;
@@ -173,6 +214,15 @@ export interface UserStore {
   updateProfile(userId: string, fields: { bio?: string | null; location?: string | null }): Promise<User | undefined>;
   /** Flags a question for review; the same user, question and reason only refreshes the comment. */
   reportQuestion(userId: string, report: QuestionReport): Promise<void>;
+  /** Adds codes (scripts/redeem-codes.mjs writes the same INSERT for D1). */
+  createRedeemCodes(codes: { code: string; days: number | null; maxUses?: number; expiresAt?: string | null; note?: string | null }[]): Promise<void>;
+  /** Gives the Premium days of a redeem code (see migrations/0006_redeem_codes.sql). */
+  redeemCode(userId: string, code: string, now?: Date): Promise<RedeemResult>;
+  /** The user's Stripe customer, once they've started a checkout. */
+  billingCustomer(userId: string): Promise<string | null>;
+  setBillingCustomer(userId: string, customerId: string): Promise<void>;
+  /** Stores what Stripe says about the customer's subscription; undefined when no user has that customer. */
+  updateSubscription(customerId: string, subscription: Subscription | null): Promise<User | undefined>;
   /** Removes the profile with all its answers, simulados and reports. */
   deleteUser(userId: string): Promise<void>;
 }

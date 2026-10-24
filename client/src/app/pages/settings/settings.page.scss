@@ -329,3 +329,110 @@
 .settings-ad {
   margin-top: 16px;
 }
+
+.plan-until {
+  display: block;
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.redeem__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+
+  input {
+    flex: 1 1 220px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    background: var(--background);
+    font: inherit;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+}
+.redeem__message {
+  margin-top: 12px;
+  color: var(--success);
+  font-size: 14px;
+  font-weight: 600;
+}
+.redeem__message--error {
+  color: var(--danger);
+}
+
+.premium {
+  h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text);
+
+    app-icon {
+      color: var(--yellow);
+    }
+  }
+}
+.premium__price {
+  font-size: 24px;
+  font-weight: 800;
+
+  small {
+    color: var(--text-muted);
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.premium__status {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.premium__warning {
+  color: var(--danger);
+}
+.premium__perks {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+  }
+  app-icon {
+    color: var(--success);
+  }
+}
+.premium__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 24px;
+
+  small {
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+}
+.link-button {
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  color: var(--text-muted);
+  background: none;
+  font: inherit;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}

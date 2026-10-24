@@ -17,6 +17,12 @@ run_worker_first = true
 
 [vars]
 FIREBASE_PROJECT_ID = "concursero-8cc5b"
+APP_URL = "https://munninlabs.com/concursero-angular"
+# Stripe (scripts/stripe-setup.mjs prints these). Sandbox IDs for now: switch to the live
+# ones together with the keys, which are secrets:
+#   npx wrangler secret put STRIPE_SECRET_KEY   /   npx wrangler secret put STRIPE_WEBHOOK_SECRET
+STRIPE_PRICE_ID = "price_1UUDbTQVPLzWCMbDu8tVh36s"
+STRIPE_PORTAL_CONFIG = "bpc_1UUDbpQVPLzWCMbDccm3TYpP"
 
 [[d1_databases]]
 binding = "DB"

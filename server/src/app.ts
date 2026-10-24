@@ -1,14 +1,19 @@
 import { Hono, type MiddlewareHandler } from 'hono';
 import type { AuthUser, TokenVerifier } from './auth/firebase.ts';
+import { LIVE_STATUSES, type Billing } from './billing/stripe.ts';
 import { isPlayable, randomQuestions, toPublicQuestion, type ExamSource } from './exams/catalog.ts';
 import type { ConcursoInfo } from './exams/types.ts';
 import { badgesFor, levelFor, longestStreak } from './users/profile.ts';
-import { countStreak, isoDay, REPORT_REASONS, type AnswerRecord, type ReportReason, type UserStore } from './users/store.ts';
+import { countStreak, isoDay, REPORT_REASONS, normalizeCode, type AnswerRecord, type ReportReason, type UserStore } from './users/store.ts';
 
 export interface AppDeps {
   exams: ExamSource;
   store: UserStore;
   verifyToken: TokenVerifier;
+  /** Stripe; without it the payment routes answer 503. */
+  billing?: Billing;
+  /** Public address of the app (Stripe sends the user back there), e.g. https://munninlabs.com/concursero-angular */
+  appUrl?: string;
 }
 
 type Env = { Variables: { user: AuthUser } };
@@ -35,13 +40,19 @@ const HEATMAP_DAYS = 182;
 const MAX_BIO = 280;
 const MAX_LOCATION = 60;
 const MAX_REPORT_COMMENT = 500;
+const REDEEM_ERRORS = {
+  invalid: 'Código inválido ou expirado.',
+  used: 'Você já usou este código.',
+  exhausted: 'Este código já foi usado.',
+  lifetime: 'Sua conta já é Premium sem data de término.',
+} as const;
 
 /**
  * The API, independent of where it runs: server/src/node.ts serves it with
  * Node (local development), server/src/worker.ts on Cloudflare Workers.
  * All routes live under /api.
  */
-export function createApp({ exams, store, verifyToken }: AppDeps) {
+export function createApp({ exams, store, verifyToken, billing, appUrl = 'http://localhost:4200' }: AppDeps) {
   const app = new Hono<Env>().basePath('/api');
 
   const requireAuth: MiddlewareHandler<Env> = async (c, next) => {
@@ -187,7 +198,7 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     }
 
     // Answers only count once the profile exists (first request may come before /auth/me).
-    await store.upsertUser({ id: user.uid, name: user.name, email: user.email });
+    const { plan } = await store.upsertUser({ id: user.uid, name: user.name, email: user.email });
     const saved = await store.recordAnswers(
       user.uid,
       records.map(({ correctAnswer: _key, explanation: _explanation, explanationNote: _note, explanationAi: _ai, ...record }) => record),
@@ -195,15 +206,18 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     );
     return c.json(
       {
-        results: records.map((r) => ({
-          questionId: r.questionId,
-          selected: r.selected,
-          isCorrect: r.isCorrect,
-          correctAnswer: r.correctAnswer,
-          ...(r.explanation ? { explanation: r.explanation } : {}),
-          ...(r.explanation && r.explanationNote ? { explanationNote: r.explanationNote } : {}),
-          ...(r.explanation && r.explanationAi ? { explanationAi: true } : {}),
-        })),
+        results: records.map((r) => {
+          const graded = { questionId: r.questionId, selected: r.selected, isCorrect: r.isCorrect, correctAnswer: r.correctAnswer };
+          if (!r.explanation) return graded;
+          // AI-written explanations (the OAB ones) are Premium; the ones the banca published are for everyone.
+          if (r.explanationAi && plan !== 'premium') return { ...graded, explanationLocked: true };
+          return {
+            ...graded,
+            explanation: r.explanation,
+            ...(r.explanationNote ? { explanationNote: r.explanationNote } : {}),
+            ...(r.explanationAi ? { explanationAi: true } : {}),
+          };
+        }),
         simulado: saved,
       },
       201,
@@ -350,8 +364,79 @@ export function createApp({ exams, store, verifyToken }: AppDeps) {
     return c.json(user);
   });
 
-  /** Deletes the profile, answers and simulados. The Firebase account itself is left alone (shared with the mobile app). */
+  /** "Resgatar código" on Configurações. Body: { code }; returns the updated profile. */
+  app.post('/me/redeem', requireAuth, async (c) => {
+    const body = await c.req.json().catch(() => null);
+    const code = normalizeCode(String(body?.code ?? ''));
+    if (!code) return c.json({ error: 'Digite o código.' }, 400);
+    const { uid, name, email } = c.get('user');
+    await store.upsertUser({ id: uid, name, email });
+    const result = await store.redeemCode(uid, code);
+    return result.ok ? c.json(result.user) : c.json({ error: REDEEM_ERRORS[result.reason] }, result.reason === 'invalid' ? 404 : 409);
+  });
+
+  // --- Premium subscription (Stripe) ----------------------------------------
+
+  const settingsUrl = (query: string) => `${appUrl}/app/configuracoes?${query}#premium`;
+
+  /** Starts a Stripe Checkout for the monthly Premium; returns { url } to redirect to. */
+  app.post('/billing/checkout', requireAuth, async (c) => {
+    if (!billing) return c.json({ error: 'Pagamentos indisponíveis no momento.' }, 503);
+    const { uid, name, email } = c.get('user');
+    const user = await store.upsertUser({ id: uid, name, email });
+    if (user.subscription && LIVE_STATUSES.includes(user.subscription.status)) {
+      return c.json({ error: 'Você já tem uma assinatura ativa.' }, 409);
+    }
+    let customerId = await store.billingCustomer(uid);
+    if (!customerId) {
+      customerId = await billing.createCustomer({ id: uid, email: user.email, name: user.name });
+      await store.setBillingCustomer(uid, customerId);
+    }
+    const url = await billing.checkoutUrl({
+      customerId,
+      userId: uid,
+      successUrl: settingsUrl('assinatura=sucesso'),
+      cancelUrl: settingsUrl('assinatura=cancelada'),
+    });
+    return c.json({ url });
+  });
+
+  /** Stripe's customer portal (cancel, change card, invoices); returns { url }. */
+  app.post('/billing/portal', requireAuth, async (c) => {
+    if (!billing) return c.json({ error: 'Pagamentos indisponíveis no momento.' }, 503);
+    const customerId = await store.billingCustomer(c.get('user').uid);
+    if (!customerId) return c.json({ error: 'Você ainda não tem uma assinatura.' }, 404);
+    return c.json({ url: await billing.portalUrl({ customerId, returnUrl: settingsUrl('assinatura=gerenciada') }) });
+  });
+
+  /** Reads the subscription from Stripe right away (back from Checkout, before the webhook arrives); returns the profile. */
+  app.post('/billing/sync', requireAuth, async (c) => {
+    const { uid, name, email } = c.get('user');
+    const customerId = billing && (await store.billingCustomer(uid));
+    if (!customerId) return c.json(await store.upsertUser({ id: uid, name, email }));
+    return c.json(await store.updateSubscription(customerId, await billing!.subscription(customerId)));
+  });
+
+  /**
+   * Stripe webhooks (checkout.session.completed, customer.subscription.*, invoice.paid / payment_failed):
+   * whatever the event, the customer's subscription is read again from Stripe, so order and retries don't matter.
+   */
+  app.post('/billing/webhook', async (c) => {
+    if (!billing) return c.json({ error: 'Pagamentos indisponíveis' }, 503);
+    const result = await billing.webhookCustomer(await c.req.text(), c.req.header('stripe-signature'));
+    if (result === 'invalid') return c.json({ error: 'Assinatura inválida' }, 400);
+    if (result.customerId) await store.updateSubscription(result.customerId, await billing.subscription(result.customerId));
+    return c.json({ received: true });
+  });
+
+  /**
+   * Deletes the profile, answers and simulados, cancelling a running subscription first.
+   * The Firebase account itself is left alone (shared with the mobile app).
+   */
   app.delete('/me', requireAuth, async (c) => {
+    const customerId = await store.billingCustomer(c.get('user').uid);
+    if (customerId && !billing) return c.json({ error: 'Não foi possível cancelar sua assinatura agora. Tente mais tarde.' }, 503);
+    if (customerId) await billing!.cancelAll(customerId);
     await store.deleteUser(c.get('user').uid);
     return c.body(null, 204);
   });

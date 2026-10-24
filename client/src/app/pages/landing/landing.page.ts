@@ -4,6 +4,7 @@ import { RouterLink } from '@angular/router';
 import { catchError, of } from 'rxjs';
 import { ApiService } from '../../core/api.service';
 import { AuthService } from '../../core/auth.service';
+import { PREMIUM, PREMIUM_LINK } from '../../core/premium';
 import { AdSlot } from '../../shared/ad-slot';
 import { Icon, type IconName } from '../../shared/icon';
 import { Logo } from '../../shared/logo';
@@ -20,6 +21,8 @@ interface PricingPlan {
   price: number;
   perks: string[];
   cta: string;
+  /** Default: start practising (or sign in). */
+  link?: { path: string; fragment: string };
   highlighted: boolean;
 }
 
@@ -73,15 +76,16 @@ export class LandingPage {
     {
       name: 'Gratuito',
       price: 0,
-      perks: ['Todas as questões comentadas', 'Simulados ilimitados', 'Estatísticas básicas'],
+      perks: ['Todas as questões com gabarito', 'Simulados ilimitados', 'Estatísticas básicas'],
       cta: 'Começar Agora',
       highlighted: false,
     },
     {
-      name: 'Sem Anúncios',
-      price: 19,
-      perks: ['Tudo do plano Gratuito', 'Experiência sem anúncios', 'Estatísticas avançadas'],
-      cta: 'Remover Anúncios',
+      name: 'Premium',
+      price: PREMIUM.price,
+      perks: ['Tudo do plano Gratuito', ...PREMIUM.perks],
+      cta: 'Assinar Premium',
+      link: PREMIUM_LINK,
       highlighted: true,
     },
   ];

@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
 import { createApp } from '../src/app.ts';
+import { formEncode, verifySignature, type Billing, type SubscriptionState } from '../src/billing/stripe.ts';
 import type { TokenVerifier } from '../src/auth/firebase.ts';
 import { MemoryExamSource, examLabel, isPlayable, isUsable, randomQuestions, toPublicQuestion } from '../src/exams/catalog.ts';
 import { withExplanations } from '../src/exams/explanations.ts';
@@ -8,7 +9,7 @@ import { loadExamsFromDisk } from '../src/exams/fs-source.ts';
 import type { ExamFile, Question } from '../src/exams/types.ts';
 import { createSqliteStore } from '../src/users/sqlite-store.ts';
 import { badgesFor, levelFor, longestStreak, publicName } from '../src/users/profile.ts';
-import { countStreak } from '../src/users/store.ts';
+import { countStreak, planFor } from '../src/users/store.ts';
 
 function question(id: string, correct: string | null, subject = 'Direito Penal'): Question {
   return {
@@ -487,22 +488,169 @@ describe('explanations', () => {
     const oabSource = new MemoryExamSource();
     oabSource.add('OAB', 'oab.json', data);
     const oabApp = createApp({ exams: oabSource, store: createSqliteStore(':memory:'), verifyToken });
-    const graded = await oabApp.request('/api/answers', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json', authorization: 'Bearer valid:oab' },
-      body: JSON.stringify({
-        answers: [
-          { questionId: `${oab}_q1`, examId: oab, selected: 'C' },
-          { questionId: `${oab}_q2`, examId: oab, selected: 'A' },
-        ],
-      }),
-    });
-    const { results } = (await graded.json()) as { results: Record<string, unknown>[] };
+    const grade = async (token: string) => {
+      const graded = await oabApp.request('/api/answers', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          answers: [
+            { questionId: `${oab}_q1`, examId: oab, selected: 'C' },
+            { questionId: `${oab}_q2`, examId: oab, selected: 'A' },
+          ],
+        }),
+      });
+      return ((await graded.json()) as { results: Record<string, unknown>[] }).results;
+    };
+    // AI explanations are Premium: free accounts only learn that there is one.
+    const free = await grade('valid:oab');
+    assert.deepEqual([free[0].explanationLocked, 'explanation' in free[0], 'explanationLocked' in free[1]], [true, false, false]);
+
+    const results = await grade('valid:premium-oab');
     assert.deepEqual(
       { explanation: results[0].explanation, note: results[0].explanationNote, ai: results[0].explanationAi },
       { explanation: 'C, pelo art. 295.', note: 'Hoje vale o CPC/2015.', ai: true },
     );
     assert.equal('explanation' in results[1], false);
+  });
+});
+
+describe('redeem codes', () => {
+  const store = createSqliteStore(':memory:');
+  const codeApp = createApp({ exams, store, verifyToken });
+  const redeem = async (token: string, code: string) => {
+    const res = await codeApp.request('/api/me/redeem', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', authorization: `Bearer ${token}` },
+      body: JSON.stringify({ code }),
+    });
+    return { status: res.status, body: (await res.json()) as any };
+  };
+
+  test('give Premium days that add up, once per account and up to max_uses accounts', async () => {
+    await store.createRedeemCodes([
+      { code: 'AAAA-BBBB-CCCC', days: 30, maxUses: 2 },
+      { code: 'DDDD-EEEE-FFFF', days: 10 },
+      { code: 'OLD0-OLD0-OLD0', days: 30, expiresAt: '2020-01-01T00:00:00.000Z' },
+    ]);
+    assert.equal((await redeem('valid:r1', 'nope')).status, 404);
+    assert.equal((await redeem('valid:r1', 'OLD0OLD0OLD0')).status, 404);
+
+    const first = await redeem('valid:r1', ' aaaa bbbb cccc ');
+    assert.equal(first.status, 200);
+    assert.equal(first.body.plan, 'premium');
+    const days = (iso: string) => Math.round((Date.parse(iso) - Date.now()) / 86_400_000);
+    assert.equal(days(first.body.premiumUntil), 30);
+    assert.equal((await redeem('valid:r1', 'AAAA-BBBB-CCCC')).body.error, 'Você já usou este código.');
+
+    const stacked = await redeem('valid:r1', 'DDDD-EEEE-FFFF');
+    assert.equal(days(stacked.body.premiumUntil), 40);
+
+    assert.equal((await redeem('valid:r2', 'AAAA-BBBB-CCCC')).status, 200);
+    assert.equal((await redeem('valid:r3', 'AAAA-BBBB-CCCC')).body.error, 'Este código já foi usado.');
+  });
+
+  test('Premium ends with premium_until', () => {
+    const now = new Date('2026-10-25T12:00:00Z');
+    assert.equal(planFor('a@example.com', 'premium', '2026-10-26T00:00:00.000Z', now), 'premium');
+    assert.equal(planFor('a@example.com', 'premium', '2026-10-25T00:00:00.000Z', now), 'free');
+    assert.equal(planFor('a@example.com', 'premium', null, now), 'premium');
+    assert.equal(planFor('a@example.com', 'free', null, now), 'free');
+  });
+});
+
+describe('Stripe subscription', () => {
+  // A fake Stripe: one customer per user, the subscription set by the test.
+  const subscriptions = new Map<string, SubscriptionState | null>();
+  const cancelled: string[] = [];
+  let pendingEvent: string | null = null;
+  const billing: Billing = {
+    createCustomer: async (user) => `cus_${user.id}`,
+    checkoutUrl: async ({ customerId, successUrl }) => `https://checkout.test/${customerId}?next=${encodeURIComponent(successUrl)}`,
+    portalUrl: async ({ customerId }) => `https://portal.test/${customerId}`,
+    subscription: async (customerId) => subscriptions.get(customerId) ?? null,
+    cancelAll: async (customerId) => {
+      cancelled.push(customerId);
+    },
+    webhookCustomer: async (_payload, signature) => (signature === 'ok' ? { customerId: pendingEvent } : 'invalid'),
+  };
+  const store = createSqliteStore(':memory:');
+  const payApp = createApp({ exams, store, verifyToken, billing, appUrl: 'https://site.test/app-base' });
+  const call = async (method: string, url: string, token?: string, headers: Record<string, string> = {}, body?: string) => {
+    const res = await payApp.request(url, { method, headers: { ...(token ? { authorization: `Bearer ${token}` } : {}), ...headers }, body });
+    const text = await res.text();
+    return { status: res.status, body: (text ? JSON.parse(text) : null) as any };
+  };
+  const inDays = (days: number) => new Date(Date.now() + days * 86_400_000).toISOString();
+
+  test('checkout creates the customer once and returns to Configurações', async () => {
+    const first = await call('POST', '/api/billing/checkout', 'valid:payer');
+    assert.equal(first.status, 200);
+    assert.equal(
+      first.body.url,
+      `https://checkout.test/cus_payer?next=${encodeURIComponent('https://site.test/app-base/app/configuracoes?assinatura=sucesso#premium')}`,
+    );
+    assert.equal(await store.billingCustomer('payer'), 'cus_payer');
+    assert.equal((await call('POST', '/api/billing/portal', 'valid:payer')).body.url, 'https://portal.test/cus_payer');
+    assert.equal((await call('POST', '/api/billing/portal', 'valid:nobody')).status, 404);
+  });
+
+  test('the webhook and sync read the subscription from Stripe', async () => {
+    subscriptions.set('cus_payer', { status: 'active', periodEnd: inDays(30), renews: true });
+    pendingEvent = 'cus_payer';
+    assert.equal((await call('POST', '/api/billing/webhook', undefined, { 'stripe-signature': 'forged' }, '{}')).status, 400);
+    assert.equal((await call('POST', '/api/billing/webhook', undefined, { 'stripe-signature': 'ok' }, '{}')).status, 200);
+    const me = (await call('GET', '/api/auth/me', 'valid:payer')).body;
+    assert.deepEqual([me.plan, me.subscription.renews], ['premium', true]);
+    assert.equal((await call('POST', '/api/billing/checkout', 'valid:payer')).status, 409);
+
+    // Cancelled: Premium until the end of the paid period, then free.
+    subscriptions.set('cus_payer', { status: 'active', periodEnd: inDays(10), renews: false });
+    assert.deepEqual(
+      [(await call('POST', '/api/billing/sync', 'valid:payer')).body.plan, (await call('GET', '/api/auth/me', 'valid:payer')).body.subscription.renews],
+      ['premium', false],
+    );
+    subscriptions.set('cus_payer', { status: 'canceled', periodEnd: inDays(-1), renews: false });
+    assert.equal((await call('POST', '/api/billing/sync', 'valid:payer')).body.plan, 'free');
+  });
+
+  test('a past period still counts for two days, while a renewal is on its way', () => {
+    const now = new Date('2026-10-25T12:00:00Z');
+    const live = (periodEnd: string) => planFor('a@example.com', 'free', null, now, { status: 'active', periodEnd });
+    assert.equal(live('2026-10-24T12:00:00.000Z'), 'premium');
+    assert.equal(live('2026-10-23T11:00:00.000Z'), 'free');
+    assert.equal(planFor('a@example.com', 'free', null, now, { status: 'unpaid', periodEnd: '2026-11-01T00:00:00.000Z' }), 'free');
+  });
+
+  test('deleting the account cancels the subscription', async () => {
+    assert.equal((await call('DELETE', '/api/me', 'valid:payer')).status, 204);
+    assert.deepEqual(cancelled, ['cus_payer']);
+  });
+
+  test('without Stripe the payment routes answer 503', async () => {
+    assert.equal((await api('POST', '/api/billing/checkout', undefined, 'valid:x')).status, 503);
+  });
+});
+
+describe('Stripe helpers', () => {
+  test('form encoding nests like Stripe expects', () => {
+    assert.equal(
+      decodeURIComponent(formEncode({ mode: 'subscription', line_items: [{ price: 'p', quantity: 1 }], metadata: { uid: 'u' }, skip: undefined })),
+      'mode=subscription&line_items[0][price]=p&line_items[0][quantity]=1&metadata[uid]=u',
+    );
+  });
+
+  test('webhook signatures: HMAC of "t.payload", recent only', async () => {
+    const secret = 'whsec_test';
+    const payload = '{"id":"evt_1"}';
+    const t = 1_800_000_000;
+    const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
+    const mac = Buffer.from(await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(`${t}.${payload}`))).toString('hex');
+    const header = `t=${t},v1=${mac}`;
+    assert.equal(await verifySignature(payload, header, secret, t * 1000), true);
+    assert.equal(await verifySignature(payload + ' ', header, secret, t * 1000), false);
+    assert.equal(await verifySignature(payload, header, 'whsec_other', t * 1000), false);
+    assert.equal(await verifySignature(payload, header, secret, (t + 600) * 1000), false);
+    assert.equal(await verifySignature(payload, undefined, secret), false);
   });
 });
 

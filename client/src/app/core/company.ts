@@ -10,4 +10,4 @@ export const COMPANY = {
 } as const;
 
 /** Date shown on the Privacidade and Termos pages; bump it whenever their text changes. */
-export const LEGAL_UPDATED_AT = '22 de outubro de 2026';
+export const LEGAL_UPDATED_AT = '25 de outubro de 2026';

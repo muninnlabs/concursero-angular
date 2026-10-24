@@ -1,7 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import { AuthService } from '../../core/auth.service';
-import { LEGAL } from '../../core/legal';
 import { LoginPage } from './login.page';
 
 describe('LoginPage', () => {
@@ -35,6 +34,6 @@ describe('LoginPage', () => {
     const fixture = TestBed.createComponent(LoginPage);
     fixture.detectChanges();
     const hrefs = [...(fixture.nativeElement as HTMLElement).querySelectorAll('.consent a')].map((a) => a.getAttribute('href'));
-    expect(hrefs).toEqual([LEGAL.terms, LEGAL.privacy]);
+    expect(hrefs).toEqual(['/termos', '/privacidade']);
   });
 });
