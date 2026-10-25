@@ -29,7 +29,7 @@
         <a [routerLink]="startLink()" class="btn btn--yellow btn--lg">Começar a Praticar</a>
         <a href="#funcionalidades" class="btn btn--ghost btn--lg">Como funciona</a>
       </div>
-      <p class="hero__note"><app-icon name="check-circle" [size]="16" /> Acesso gratuito • Sem cartão de crédito</p>
+      <p class="hero__note"><app-icon name="check-circle" [size]="16" /> Acesso gratuito • 7 dias de Premium grátis • Sem cartão de crédito</p>
     </div>
     <div class="hero__media">
       <img src="images/hero-laptop.webp" alt="Notebook com o painel do Concursero aberto" width="582" height="582" />
@@ -99,7 +99,7 @@
   <section id="planos" class="section container">
     <div class="section__header">
       <h2>Comece hoje mesmo, totalmente grátis</h2>
-      <p>Sem limites de questões, sem período de teste. Seu sucesso é a nossa única meta.</p>
+      <p>Sem limites de questões no plano Gratuito. E toda conta nova ganha {{ trialDays }} dias de Premium para experimentar, sem cartão.</p>
     </div>
     <div class="plans">
       @for (plan of plans; track plan.name) {
@@ -109,6 +109,9 @@
           }
           <h3>{{ plan.name }}</h3>
           <p class="plan__price">R$ {{ plan.price }}<span>/mês</span></p>
+          @if (plan.note) {
+            <p class="plan__note">{{ plan.note }}</p>
+          }
           <ul class="checklist checklist--plain">
             @for (perk of plan.perks; track perk) {
               <li><app-icon name="check" [size]="16" />{{ perk }}</li>

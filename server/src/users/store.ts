@@ -8,6 +8,9 @@ export type Plan = 'free' | 'premium';
 /** Accounts treated as Premium whatever their stored plan, until payments exist. */
 const PREMIUM_EMAILS = new Set(['alexandreartedesigner@gmail.com']);
 
+/** Days of Premium every new account starts with. */
+export const TRIAL_DAYS = 7;
+
 /** Statuses that still give Premium (past_due: Stripe is retrying the card). */
 const LIVE_SUBSCRIPTION = ['active', 'trialing', 'past_due'];
 /** A renewal's webhook can lag the end of the period a little. */

@@ -57,7 +57,9 @@ const verifyToken: TokenVerifier = async (token) =>
       }
     : undefined;
 
-const app = createApp({ exams, store: createSqliteStore(':memory:'), verifyToken });
+// Most tests want plain free accounts; the trial has its own test below.
+const NO_TRIAL = { trialDays: 0 };
+const app = createApp({ exams, store: createSqliteStore(':memory:', NO_TRIAL), verifyToken });
 
 async function api(method: string, url: string, body?: unknown, token?: string) {
   const res = await app.request(url, {
@@ -382,7 +384,7 @@ describe('concursos filters', () => {
   source.add('CONCURSOS', 'c.json', concursoExam('pcrj', 'estadual', 'RJ', null, 'pcrj_21'));
   source.add('CONCURSOS', 'd.json', concursoExam('pgm_recife', 'municipal', 'PE', 'Recife', 'pgm_recife_22'));
   source.add('OAB', 'e.json', exam('oab_2025_44_tipo1', 2025, [question('oab_2025_44_tipo1_q1', 'A')]));
-  const concursosApp = createApp({ exams: source, store: createSqliteStore(':memory:'), verifyToken });
+  const concursosApp = createApp({ exams: source, store: createSqliteStore(':memory:', NO_TRIAL), verifyToken });
 
   async function examIds(query: string) {
     const res = await concursosApp.request(`/api/practice/questions?count=50&category=CONCURSOS&${query}`);
@@ -420,7 +422,7 @@ describe('concursos filters', () => {
     vest.add('VESTIBULARES', 'v2.json', v('unb_2024', 'federal', 'DF', 'UnB'));
     vest.add('VESTIBULARES', 'v3.json', v('mackenzie_2024', 'privada', 'SP', 'Mackenzie'));
     vest.add('CONCURSOS', 'c1.json', concursoExam('pcrj', 'estadual', 'RJ', null, 'pcrj_21'));
-    const vestApp = createApp({ exams: vest, store: createSqliteStore(':memory:'), verifyToken });
+    const vestApp = createApp({ exams: vest, store: createSqliteStore(':memory:', NO_TRIAL), verifyToken });
     const list = (await (await vestApp.request('/api/concursos?category=VESTIBULARES')).json()) as { id: string; category: string }[];
     assert.deepEqual(list.map((c) => [c.id, c.category]), [
       ['fuvest_2024_ed', 'VESTIBULARES'],
@@ -458,7 +460,7 @@ describe('explanations', () => {
   const id = 'acafe_2024_1_prova_objetiva';
   const source = new MemoryExamSource();
   source.add('VESTIBULARES', 'acafe.json', exam(id, 2024, [{ ...question(`${id}_q1`, 'B'), explanation: 'B, porque sim.' }]));
-  const explApp = createApp({ exams: source, store: createSqliteStore(':memory:'), verifyToken });
+  const explApp = createApp({ exams: source, store: createSqliteStore(':memory:', NO_TRIAL), verifyToken });
 
   test('are not sent with the question, only with the graded answer', async () => {
     const practice = await explApp.request('/api/practice/questions?count=1');
@@ -490,7 +492,7 @@ describe('explanations', () => {
     });
     const oabSource = new MemoryExamSource();
     oabSource.add('OAB', 'oab.json', data);
-    const oabApp = createApp({ exams: oabSource, store: createSqliteStore(':memory:'), verifyToken });
+    const oabApp = createApp({ exams: oabSource, store: createSqliteStore(':memory:', NO_TRIAL), verifyToken });
     const grade = async (token: string) => {
       const graded = await oabApp.request('/api/answers', {
         method: 'POST',
@@ -518,7 +520,7 @@ describe('explanations', () => {
 });
 
 describe('redeem codes', () => {
-  const store = createSqliteStore(':memory:');
+  const store = createSqliteStore(':memory:', NO_TRIAL);
   const codeApp = createApp({ exams, store, verifyToken });
   const redeem = async (token: string, code: string) => {
     const res = await codeApp.request('/api/me/redeem', {
@@ -576,7 +578,7 @@ describe('Stripe subscription', () => {
     },
     webhookCustomer: async (_payload, signature) => (signature === 'ok' ? { customerId: pendingEvent } : 'invalid'),
   };
-  const store = createSqliteStore(':memory:');
+  const store = createSqliteStore(':memory:', NO_TRIAL);
   const payApp = createApp({ exams, store, verifyToken, billing, appUrl: 'https://site.test/app-base' });
   const call = async (method: string, url: string, token?: string, headers: Record<string, string> = {}, body?: string) => {
     const res = await payApp.request(url, { method, headers: { ...(token ? { authorization: `Bearer ${token}` } : {}), ...headers }, body });
@@ -812,5 +814,23 @@ describe('profile rules', () => {
 
   test('other students appear as first name and initial', () => {
     assert.deepEqual(['Ana Paula Souza', 'Ana', '  '].map(publicName), ['Ana S.', 'Ana', 'Estudante']);
+  });
+});
+
+describe('Premium trial', () => {
+  const trialApp = createApp({ exams, store: createSqliteStore(':memory:'), verifyToken });
+  const me = async (token: string) => (await (await trialApp.request('/api/auth/me', { headers: { authorization: `Bearer ${token}` } })).json()) as any;
+  const del = (token: string) => trialApp.request('/api/me', { method: 'DELETE', headers: { authorization: `Bearer ${token}` } });
+
+  test('new accounts get 7 days of Premium, once per e-mail even after deleting the account', async () => {
+    const first = await me('valid:trial-1');
+    assert.equal(first.plan, 'premium');
+    assert.equal(Math.round((Date.parse(first.premiumUntil) - Date.now()) / 86_400_000), 7);
+    // Signing in again doesn't extend it.
+    assert.equal((await me('valid:trial-1')).premiumUntil, first.premiumUntil);
+
+    assert.equal((await del('valid:trial-1')).status, 204);
+    const again = await me('valid:trial-1');
+    assert.deepEqual([again.plan, again.premiumUntil], ['free', null]);
   });
 });

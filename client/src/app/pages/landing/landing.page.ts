@@ -20,6 +20,8 @@ interface PricingPlan {
   name: string;
   price: number;
   perks: string[];
+  /** Shown under the price. */
+  note?: string;
   cta: string;
   /** Default: start practising (or sign in). */
   link?: { path: string; fragment: string };
@@ -72,6 +74,8 @@ export class LandingPage {
     'Continue de onde parou em qualquer dispositivo',
   ];
 
+  protected readonly trialDays = PREMIUM.trialDays;
+
   protected readonly plans: PricingPlan[] = [
     {
       name: 'Gratuito',
@@ -84,6 +88,7 @@ export class LandingPage {
       name: 'Premium',
       price: PREMIUM.price,
       perks: ['Tudo do plano Gratuito', ...PREMIUM.perks],
+      note: `${PREMIUM.trialDays} dias grátis ao criar sua conta`,
       cta: 'Assinar Premium',
       link: PREMIUM_LINK,
       highlighted: true,

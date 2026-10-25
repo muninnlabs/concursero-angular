@@ -282,6 +282,12 @@
     font-weight: 500;
   }
 }
+.plan__note {
+  margin-top: 4px;
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+}
 
 // Responsive
 @media (max-width: 900px) {

@@ -5,6 +5,7 @@ import {
   normalizeCode,
   planFor,
   RANKING_MIN_ANSWERS,
+  TRIAL_DAYS,
   RANKING_TOP,
   type ProfileStats,
   type QuestionReport,
@@ -68,21 +69,44 @@ function toUser(row: UserRow): User {
   };
 }
 
+async function sha256(text: string): Promise<string> {
+  const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
 export class SqlUserStore implements UserStore {
   private readonly db: SqlDatabase;
+  private readonly trialDays: number;
 
-  constructor(db: SqlDatabase) {
+  constructor(db: SqlDatabase, options: { trialDays?: number } = {}) {
     this.db = db;
+    this.trialDays = options.trialDays ?? TRIAL_DAYS;
   }
 
+  /**
+   * New accounts start with a Premium trial (`trialDays`, ending like a redeem code's),
+   * once per e-mail: trial_claims outlives deleted accounts. Existing accounts keep their plan.
+   */
   async upsertUser(profile: { id: string; name: string; email: string }): Promise<User> {
-    await this.db.batch([
-      {
-        sql: `INSERT INTO users (id, name, email, plan, created_at) VALUES (?, ?, ?, 'free', ?)
-              ON CONFLICT(id) DO UPDATE SET name = excluded.name, email = excluded.email`,
-        params: [profile.id, profile.name, profile.email.toLowerCase(), new Date().toISOString()],
-      },
-    ]);
+    const now = new Date();
+    const email = profile.email.toLowerCase();
+    const exists = await this.db.first<{ id: string }>('SELECT id FROM users WHERE id = ?', [profile.id]);
+    let trialEnd: string | null = null;
+    const statements: { sql: string; params: unknown[] }[] = [];
+    if (!exists && this.trialDays > 0) {
+      const emailHash = await sha256(email);
+      const claimed = await this.db.first<{ email_hash: string }>('SELECT email_hash FROM trial_claims WHERE email_hash = ?', [emailHash]);
+      if (!claimed) {
+        trialEnd = new Date(now.getTime() + this.trialDays * 86_400_000).toISOString();
+        statements.push({ sql: 'INSERT OR IGNORE INTO trial_claims (email_hash, claimed_at) VALUES (?, ?)', params: [emailHash, now.toISOString()] });
+      }
+    }
+    statements.unshift({
+      sql: `INSERT INTO users (id, name, email, plan, premium_until, created_at) VALUES (?, ?, ?, ?, ?, ?)
+            ON CONFLICT(id) DO UPDATE SET name = excluded.name, email = excluded.email`,
+      params: [profile.id, profile.name, email, trialEnd ? 'premium' : 'free', trialEnd, now.toISOString()],
+    });
+    await this.db.batch(statements);
     const row = await this.db.first<UserRow>('SELECT * FROM users WHERE id = ?', [profile.id]);
     return toUser(row!);
   }

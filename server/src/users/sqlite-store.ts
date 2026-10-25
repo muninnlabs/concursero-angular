@@ -25,8 +25,8 @@ function migrate(db: DatabaseSync) {
 }
 
 /** node:sqlite adapter for local development and tests. Pass ':memory:' for tests. */
-export function createSqliteStore(dbPath: string): SqlUserStore {
-  return new SqlUserStore(sqliteDatabase(dbPath));
+export function createSqliteStore(dbPath: string, options: { trialDays?: number } = {}): SqlUserStore {
+  return new SqlUserStore(sqliteDatabase(dbPath), options);
 }
 
 /** The migrated database behind the stores (SqlUserStore, SiteStore). */
