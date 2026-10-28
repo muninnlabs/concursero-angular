@@ -49,17 +49,15 @@
 
     @if (topbar().title; as title) {
       <p class="topbar__title">{{ title }}</p>
-    } @else {
+    } @else if (topbar().search; as placeholder) {
+      <!-- Pages that filter their own list declare a search in their route data; elsewhere it finds concursos. -->
       <label class="search">
         <app-icon name="search" [size]="17" />
         <span class="sr-only">Buscar</span>
-        @if (topbar().search; as placeholder) {
-          <input type="search" [placeholder]="placeholder" [value]="search.query()" (input)="search.query.set($any($event.target).value)" />
-        } @else {
-          <!-- Pages without a search declare none in their route data. -->
-          <input type="search" placeholder="Buscar questões..." disabled title="Em breve" />
-        }
+        <input type="search" [placeholder]="placeholder" [value]="search.query()" (input)="search.query.set($any($event.target).value)" />
       </label>
+    } @else {
+      <app-concurso-search />
     }
 
     <div class="topbar__right">

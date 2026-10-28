@@ -77,7 +77,7 @@ export class PracticePage {
   protected readonly resultFor = computed(() => new Map(this.results()?.map((r) => [r.questionId, r])));
 
   // Countdown: informative only for now (nothing happens at zero besides the colour).
-  private readonly startedAt = Date.now();
+  private startedAt = Date.now();
   private readonly now = signal(Date.now());
   protected readonly remaining = computed(() =>
     Math.max(0, this.config().seconds - Math.floor((this.now() - this.startedAt) / 1000)),
@@ -100,8 +100,15 @@ export class PracticePage {
     }, 1000);
     inject(DestroyRef).onDestroy(() => clearInterval(timer));
     // The clock for the first question starts once it's on screen, not while loading.
+    // A new set (e.g. another concurso picked in the top bar's search) starts a fresh round.
     effect(() => {
-      if (this.questions.value()) this.viewingSince = Date.now();
+      if (!this.questions.value()) return;
+      this.viewingSince = this.startedAt = Date.now();
+      this.timeSpent.clear();
+      this.index.set(0);
+      this.selected.set({});
+      this.results.set(null);
+      this.error.set(null);
     });
   }
 

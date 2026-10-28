@@ -49,7 +49,9 @@
 <section id="premium" class="card panel premium">
   <div class="panel__head">
     <h2><app-icon name="crown" [size]="20" [filled]="true" /> Premium</h2>
-    <span class="premium__price">R$ {{ premium.price }}<small>/mês</small></span>
+    @if (!premiumWithoutPayment()) {
+      <span class="premium__price">R$ {{ premium.price }}<small>/mês</small></span>
+    }
   </div>
 
   @if (liveSubscription(); as sub) {
@@ -68,7 +70,22 @@
       </button>
       <small>Cancele, troque o cartão ou veja suas faturas.</small>
     </div>
+  } @else if (premiumWithoutPayment(); as source) {
+    <p class="premium__status">
+      @if (source === 'staff') {
+        Sua conta é <strong>Premium</strong>, sem data de término.
+      } @else if (premiumUntil(); as until) {
+        Premium ativado por código até <strong>{{ until }}</strong>. Depois dessa data, você pode assinar aqui para continuar.
+      } @else {
+        Premium ativado por código, sem data de término.
+      }
+    </p>
   } @else {
+    @if (auth.user()?.premiumSource === 'trial' && premiumUntil(); as until) {
+      <p class="premium__status">
+        Você está no <strong>teste grátis</strong> do Premium até <strong>{{ until }}</strong>. Assine para continuar depois dessa data.
+      </p>
+    }
     <ul class="premium__perks">
       @for (perk of premium.perks; track perk) {
         <li><app-icon name="check" [size]="16" />{{ perk }}</li>

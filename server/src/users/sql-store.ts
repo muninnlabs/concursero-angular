@@ -3,6 +3,7 @@ import {
   INSIGHT_WEEKS,
   isoDay,
   normalizeCode,
+  isStaff,
   planFor,
   RANKING_MIN_ANSWERS,
   TRIAL_DAYS,
@@ -41,12 +42,21 @@ interface UserRow {
   email: string;
   plan: Plan;
   premium_until: string | null;
+  premium_source: 'trial' | 'code' | null;
   subscription_status: string | null;
   subscription_period_end: string | null;
   subscription_renews: number;
   created_at: string;
   bio: string | null;
   location: string | null;
+}
+
+/** What gives the user Premium right now; null on the free plan. */
+function premiumSource(row: UserRow, plan: Plan, codeActive: boolean, subscription: Subscription | null): User['premiumSource'] {
+  if (plan !== 'premium') return null;
+  if (isStaff(row.email)) return 'staff';
+  if (codeActive) return row.premium_source ?? 'code';
+  return subscription ? 'subscription' : null;
 }
 
 function toUser(row: UserRow): User {
@@ -62,6 +72,7 @@ function toUser(row: UserRow): User {
     email: row.email,
     plan,
     premiumUntil: codeActive ? (row.premium_until ?? null) : null,
+    premiumSource: premiumSource(row, plan, codeActive, subscription),
     subscription,
     createdAt: row.created_at,
     bio: row.bio ?? null,
@@ -102,9 +113,9 @@ export class SqlUserStore implements UserStore {
       }
     }
     statements.unshift({
-      sql: `INSERT INTO users (id, name, email, plan, premium_until, created_at) VALUES (?, ?, ?, ?, ?, ?)
+      sql: `INSERT INTO users (id, name, email, plan, premium_until, premium_source, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(id) DO UPDATE SET name = excluded.name, email = excluded.email`,
-      params: [profile.id, profile.name, email, trialEnd ? 'premium' : 'free', trialEnd, now.toISOString()],
+      params: [profile.id, profile.name, email, trialEnd ? 'premium' : 'free', trialEnd, trialEnd ? 'trial' : null, now.toISOString()],
     });
     await this.db.batch(statements);
     const row = await this.db.first<UserRow>('SELECT * FROM users WHERE id = ?', [profile.id]);
@@ -471,7 +482,7 @@ export class SqlUserStore implements UserStore {
         params: [userId, redeemedAt, code.code],
       },
       {
-        sql: `UPDATE users SET plan = 'premium', premium_until = ?
+        sql: `UPDATE users SET plan = 'premium', premium_until = ?, premium_source = 'code'
               WHERE id = ? AND EXISTS (SELECT 1 FROM code_redemptions WHERE code = ? AND user_id = ? AND redeemed_at = ?)`,
         params: [until, userId, code.code, userId, redeemedAt],
       },

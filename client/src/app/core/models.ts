@@ -11,6 +11,8 @@ export interface User {
   plan: Plan;
   /** When Premium from a redeem code ends (ISO); null when it doesn't or there is none. */
   premiumUntil: string | null;
+  /** What gives Premium now: the new-account trial, a redeem code, a subscription or a staff account; null on the free plan. */
+  premiumSource: 'trial' | 'code' | 'subscription' | 'staff' | null;
   /** The Stripe subscription, live or past; null when the user never subscribed. */
   subscription: Subscription | null;
   createdAt: string;

@@ -6,6 +6,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { AuthService } from '../../core/auth.service';
 import { PreferencesService } from '../../core/preferences';
 import { SearchState } from '../../core/search';
+import { ConcursoSearch } from '../../shared/concurso-search';
 import { Icon, type IconName } from '../../shared/icon';
 import { Logo } from '../../shared/logo';
 
@@ -17,7 +18,7 @@ interface NavItem {
 
 @Component({
   selector: 'app-shell',
-  imports: [RouterOutlet, RouterLink, RouterLinkActive, Icon, Logo],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, ConcursoSearch, Icon, Logo],
   templateUrl: './shell.layout.html',
   styleUrl: './shell.layout.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

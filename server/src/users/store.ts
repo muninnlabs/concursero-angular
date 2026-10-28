@@ -8,6 +8,8 @@ export type Plan = 'free' | 'premium';
 /** Accounts treated as Premium whatever their stored plan, until payments exist. */
 const PREMIUM_EMAILS = new Set(['alexandreartedesigner@gmail.com']);
 
+export const isStaff = (email: string) => PREMIUM_EMAILS.has(email.toLowerCase());
+
 /** Days of Premium every new account starts with. */
 export const TRIAL_DAYS = 7;
 
@@ -27,7 +29,7 @@ export function planFor(
   now = new Date(),
   subscription: { status: string; periodEnd: string } | null = null,
 ): Plan {
-  if (PREMIUM_EMAILS.has(email.toLowerCase())) return 'premium';
+  if (isStaff(email)) return 'premium';
   if (stored === 'premium' && (!premiumUntil || premiumUntil > now.toISOString())) return 'premium';
   const live = subscription && LIVE_SUBSCRIPTION.includes(subscription.status);
   return live && Date.parse(subscription.periodEnd) + SUBSCRIPTION_GRACE_MS > now.getTime() ? 'premium' : 'free';
@@ -60,6 +62,8 @@ export interface User {
   plan: Plan;
   /** When Premium from a redeem code ends (ISO); null when it doesn't or there is none. */
   premiumUntil: string | null;
+  /** What gives Premium now: the new-account trial, a redeem code, a subscription or a staff account; null on the free plan. */
+  premiumSource: 'trial' | 'code' | 'subscription' | 'staff' | null;
   /** The Stripe subscription, live or past; null when the user never subscribed. */
   subscription: Subscription | null;
   createdAt: string;
