@@ -545,6 +545,7 @@ describe('redeem codes', () => {
     assert.equal(first.body.plan, 'premium');
     const days = (iso: string) => Math.round((Date.parse(iso) - Date.now()) / 86_400_000);
     assert.equal(days(first.body.premiumUntil), 30);
+    assert.equal(first.body.premiumSource, 'code');
     assert.equal((await redeem('valid:r1', 'AAAA-BBBB-CCCC')).body.error, 'Você já usou este código.');
 
     const stacked = await redeem('valid:r1', 'DDDD-EEEE-FFFF');
@@ -825,12 +826,13 @@ describe('Premium trial', () => {
   test('new accounts get 7 days of Premium, once per e-mail even after deleting the account', async () => {
     const first = await me('valid:trial-1');
     assert.equal(first.plan, 'premium');
+    assert.equal(first.premiumSource, 'trial');
     assert.equal(Math.round((Date.parse(first.premiumUntil) - Date.now()) / 86_400_000), 7);
     // Signing in again doesn't extend it.
     assert.equal((await me('valid:trial-1')).premiumUntil, first.premiumUntil);
 
     assert.equal((await del('valid:trial-1')).status, 204);
     const again = await me('valid:trial-1');
-    assert.deepEqual([again.plan, again.premiumUntil], ['free', null]);
+    assert.deepEqual([again.plan, again.premiumUntil, again.premiumSource], ['free', null, null]);
   });
 });

@@ -302,6 +302,7 @@ $sidebar-width: 260px;
 
 @media (max-width: 600px) {
   .search,
+  app-concurso-search,
   .topbar__divider,
   .user__info {
     display: none;

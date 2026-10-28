@@ -52,6 +52,12 @@ export class SettingsPage {
     return sub && ['active', 'trialing', 'past_due'].includes(sub.status) ? sub : null;
   });
 
+  /** Premium from a redeem code or a staff account: nothing to buy while it lasts. */
+  protected readonly premiumWithoutPayment = computed(() => {
+    const source = this.auth.user()?.premiumSource;
+    return !this.liveSubscription() && (source === 'code' || source === 'staff') ? source : null;
+  });
+
   private readonly deleteDialog = viewChild.required<ElementRef<HTMLDialogElement>>('deleteDialog');
   private readonly codeInput = viewChild.required<ElementRef<HTMLInputElement>>('codeInput');
   protected readonly redeeming = signal(false);
@@ -136,7 +142,8 @@ export class SettingsPage {
 
   /** "25 de novembro de 2026" when Premium has an end date. */
   protected readonly premiumUntil = computed(() => {
-    const until = this.auth.user()?.premiumUntil;
+    const user = this.auth.user();
+    const until = user?.premiumSource === 'staff' ? null : user?.premiumUntil;
     return until ? new Date(until).toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }) : null;
   });
 
