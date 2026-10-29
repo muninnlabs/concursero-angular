@@ -4,21 +4,26 @@
 //   dist-cf/concursero-angular/assets/images/   question images (from `npm run sync-assets`)
 //
 //   node scripts/build-cloudflare.mjs     (then: npx wrangler deploy)
+//   node scripts/build-cloudflare.mjs --base / --out dist-cf-staging   (staging.concursero.com, at the root:
+//                                                                       npx wrangler deploy --env staging)
 import { execSync } from 'node:child_process';
+import { parseArgs } from 'node:util';
 import { cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { CATEGORY_BY_FOLDER, summarize } from '../server/src/exams/catalog.ts';
 import { withExplanations } from '../server/src/exams/explanations.ts';
 
-const BASE = 'concursero-angular';
+const { values } = parseArgs({ options: { base: { type: 'string', default: '/concursero-angular/' }, out: { type: 'string', default: 'dist-cf' } } });
+/** The public path, without slashes ('' at the root of the domain). Must match BASE_PATH in wrangler.toml. */
+const BASE = values.base.replace(/^\/+|\/+$/g, '');
 const root = path.resolve(import.meta.dirname, '..');
-const out = path.join(root, 'dist-cf', BASE);
+const distCf = path.join(root, values.out);
+const out = path.join(distCf, BASE);
 
-execSync(`npm --prefix client run build -- --base-href /${BASE}/`, { cwd: root, stdio: 'inherit' });
+execSync(`npm --prefix client run build -- --base-href ${BASE ? `/${BASE}/` : '/'}`, { cwd: root, stdio: 'inherit' });
 
 // Empty dist-cf rather than deleting it: on Windows the folder itself stays
 // locked (EBUSY) while an Explorer or editor window has it open.
-const distCf = path.join(root, 'dist-cf');
 await mkdir(distCf, { recursive: true });
 for (const entry of await readdir(distCf)) {
   await rm(path.join(distCf, entry), { recursive: true, force: true, maxRetries: 5, retryDelay: 300 });
