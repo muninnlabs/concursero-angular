@@ -1,6 +1,6 @@
 // Creates what the Premium subscription needs in Stripe; safe to run again.
 //
-//   STRIPE_SECRET_KEY=sk_test_… node scripts/stripe-setup.mjs [--webhook https://munninlabs.com/concursero-angular/api/billing/webhook] [--env-out path]
+//   STRIPE_SECRET_KEY=sk_live_… node scripts/stripe-setup.mjs [--webhook https://concursero.com/api/billing/webhook] [--env-out path]
 //
 // 1. Product "Concursero Premium" with a monthly BRL price (lookup key concursero_premium_monthly).
 // 2. Concursero's own customer portal (cancel at period end, change card, invoices), since the
@@ -12,8 +12,8 @@ import { appendFileSync } from 'node:fs';
 import { parseArgs } from 'node:util';
 
 const LOOKUP_KEY = 'concursero_premium_monthly';
-const PRICE_CENTS = 1900;
-const SITE = 'https://munninlabs.com/concursero-angular';
+const PRICE_CENTS = 4999; // R$ 49,99/mês; keep in sync with PREMIUM.price (client/src/app/core/premium.ts)
+const SITE = 'https://concursero.com';
 const EVENTS = [
   'checkout.session.completed',
   'customer.subscription.created',
@@ -54,9 +54,24 @@ async function stripe(method, path, params = {}) {
 
 const output = [];
 
+const brl = (cents) => `R$ ${(cents / 100).toFixed(2).replace('.', ',')}`;
 let [price] = (await stripe('GET', '/prices', { lookup_keys: [LOOKUP_KEY], active: true })).data;
-if (price) {
-  console.log(`Price exists: ${price.id} (${price.unit_amount / 100} ${price.currency.toUpperCase()}/${price.recurring.interval})`);
+if (price && price.unit_amount !== PRICE_CENTS) {
+  // Prices can't change: add the new amount to the same product and move the lookup key to it.
+  // Existing subscribers stay on their old price until it's changed in Stripe.
+  const old = price;
+  price = await stripe('POST', '/prices', {
+    product: old.product,
+    currency: 'brl',
+    unit_amount: PRICE_CENTS,
+    recurring: { interval: 'month' },
+    lookup_key: LOOKUP_KEY,
+    transfer_lookup_key: true,
+    nickname: 'Premium mensal',
+  });
+  console.log(`Created price ${price.id} (${brl(PRICE_CENTS)}/mês), replacing ${old.id} (${brl(old.unit_amount)})`);
+} else if (price) {
+  console.log(`Price exists: ${price.id} (${brl(price.unit_amount)}/${price.recurring.interval})`);
 } else {
   const product = await stripe('POST', '/products', {
     name: 'Concursero Premium',
@@ -72,7 +87,7 @@ if (price) {
     lookup_key: LOOKUP_KEY,
     nickname: 'Premium mensal',
   });
-  console.log(`Created price ${price.id} (R$ ${PRICE_CENTS / 100}/mês)`);
+  console.log(`Created price ${price.id} (${brl(PRICE_CENTS)}/mês)`);
 }
 output.push(`STRIPE_PRICE_ID=${price.id}`);
 

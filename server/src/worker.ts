@@ -1,9 +1,10 @@
 // Cloudflare Worker entry: serves the whole app under BASE_PATH (wrangler.toml), e.g.
-// munninlabs.com/concursero-angular/ or staging.concursero.com/.
+// concursero.com/ or staging.concursero.com/ (or a sub-path such as /concursero-angular/).
 //   <base>api/*  → the API (app.ts), exams from static assets, users in D1
 //   <base>*      → static files (Angular build, exam JSON, question images),
 //                  falling back to index.html for Angular routes
 import { createApp } from './app.ts';
+import { redirectToCanonical } from './canonical.ts';
 import { firebaseVerifier } from './auth/firebase.ts';
 import { StripeBilling } from './billing/stripe.ts';
 import { AssetsExamSource } from './exams/assets-source.ts';
@@ -20,6 +21,8 @@ interface Env {
   BASE_PATH?: string;
   /** "1" on staging: search engines shouldn't index it. */
   NOINDEX?: string;
+  /** Production's own host (concursero.com): other hosts routed here (www, the old munninlabs.com path) redirect to it. */
+  CANONICAL_HOST?: string;
   STRIPE_PRICE_ID?: string;
   STRIPE_PORTAL_CONFIG?: string;
   /** Secrets: `wrangler secret put STRIPE_SECRET_KEY` / `STRIPE_WEBHOOK_SECRET`. */
@@ -31,6 +34,8 @@ let api: ReturnType<typeof createApp> | undefined;
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
+    const moved = redirectToCanonical(new URL(request.url), env.CANONICAL_HOST);
+    if (moved) return Response.redirect(moved, 301);
     const response = await handle(request, env);
     if (env.NOINDEX !== '1') return response;
     const tagged = new Response(response.body, response);
@@ -41,7 +46,7 @@ export default {
 
 async function handle(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
-  const BASE = env.BASE_PATH ?? '/concursero-angular/';
+  const BASE = env.BASE_PATH ?? '/';
 
   if (BASE !== '/' && url.pathname === BASE.slice(0, -1))
     return Response.redirect(`${url.origin}${BASE}${url.search}`, 301);

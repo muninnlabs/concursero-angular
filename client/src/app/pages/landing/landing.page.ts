@@ -18,7 +18,8 @@ interface Feature {
 
 interface PricingPlan {
   name: string;
-  price: number;
+  /** R$ per month, as shown ("49,99"). */
+  price: string;
   perks: string[];
   /** Shown under the price. */
   note?: string;
@@ -81,7 +82,7 @@ export class LandingPage {
   protected readonly plans: PricingPlan[] = [
     {
       name: 'Gratuito',
-      price: 0,
+      price: '0',
       perks: ['Todas as questões com gabarito', 'Simulados ilimitados', 'Estatísticas básicas'],
       cta: 'Começar Agora',
       highlighted: false,

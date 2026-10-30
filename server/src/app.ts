@@ -17,7 +17,7 @@ export interface AppDeps {
   billing?: Billing;
   /** Page views, ads and the admin panel; without it tracking is skipped and /admin answers 503. */
   site?: SiteStore;
-  /** Public address of the app (Stripe sends the user back there), e.g. https://munninlabs.com/concursero-angular */
+  /** Public address of the app (Stripe sends the user back there), e.g. https://concursero.com */
   appUrl?: string;
 }
 
