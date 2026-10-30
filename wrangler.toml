@@ -57,7 +57,7 @@ FIREBASE_PROJECT_ID = "concursero-8cc5b"
 APP_URL = "https://staging.concursero.com"
 BASE_PATH = "/"
 NOINDEX = "1"
-STRIPE_PRICE_ID = "price_1UUDbTQVPLzWCMbDu8tVh36s"
+STRIPE_PRICE_ID = "price_1UWC0ZQVPLzWCMbDTsgfrAOk"
 STRIPE_PORTAL_CONFIG = "bpc_1UUDbpQVPLzWCMbDccm3TYpP"
 
 [[env.staging.d1_databases]]
