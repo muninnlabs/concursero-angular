@@ -1,14 +1,19 @@
-# Cloudflare Worker for the test deployment at https://munninlabs.com/concursero-angular/
-#   node scripts/build-cloudflare.mjs && npx wrangler deploy
+# Cloudflare Worker for production at https://concursero.com/ (the app at the root of the domain):
+#   npm run deploy   (= node scripts/build-cloudflare.mjs && migrations && wrangler deploy)
 # Local run of the same Worker (local D1, no login needed):
 #   npx wrangler d1 migrations apply concursero-angular --local && npx wrangler dev
 name = "concursero-angular"
 main = "server/src/worker.ts"
 compatibility_date = "2026-09-01"
 workers_dev = false
-# A route (not a custom domain): it runs before the munninlabs-site Worker,
+# concursero.com serves the app; www and the old test address munninlabs.com/concursero-angular
+# redirect there (CANONICAL_HOST in worker.ts). That route runs before the munninlabs-site Worker,
 # which owns the rest of munninlabs.com.
-routes = [{ pattern = "munninlabs.com/concursero-angular*", zone_name = "munninlabs.com" }]
+routes = [
+  { pattern = "concursero.com", custom_domain = true },
+  { pattern = "www.concursero.com", custom_domain = true },
+  { pattern = "munninlabs.com/concursero-angular*", zone_name = "munninlabs.com" },
+]
 
 [assets]
 directory = "./dist-cf"
@@ -17,12 +22,14 @@ run_worker_first = true
 
 [vars]
 FIREBASE_PROJECT_ID = "concursero-8cc5b"
-APP_URL = "https://munninlabs.com/concursero-angular"
-# Stripe (scripts/stripe-setup.mjs prints these). Sandbox IDs for now: switch to the live
-# ones together with the keys, which are secrets:
+APP_URL = "https://concursero.com"
+BASE_PATH = "/"
+CANONICAL_HOST = "concursero.com"
+# Stripe (scripts/stripe-setup.mjs prints these): the LIVE price and portal configuration,
+# with the live keys as secrets:
 #   npx wrangler secret put STRIPE_SECRET_KEY   /   npx wrangler secret put STRIPE_WEBHOOK_SECRET
-STRIPE_PRICE_ID = "price_1UUDbTQVPLzWCMbDu8tVh36s"
-STRIPE_PORTAL_CONFIG = "bpc_1UUDbpQVPLzWCMbDccm3TYpP"
+STRIPE_PRICE_ID = "price_LIVE_TODO"
+STRIPE_PORTAL_CONFIG = "bpc_LIVE_TODO"
 
 [[d1_databases]]
 binding = "DB"
@@ -31,7 +38,7 @@ database_id = "83a493d3-b186-47bf-ad15-59b746091929"
 migrations_dir = "server/migrations"
 
 # Staging at https://staging.concursero.com/ (app at the root of the domain), its own D1 copy:
-#   node scripts/build-cloudflare.mjs --base / --out dist-cf-staging
+#   node scripts/build-cloudflare.mjs --out dist-cf-staging
 #   npx wrangler d1 migrations apply concursero-staging --remote --env staging && npx wrangler deploy --env staging
 # Secrets are per environment: npx wrangler secret put STRIPE_SECRET_KEY --env staging (and STRIPE_WEBHOOK_SECRET).
 # Vars, D1 and assets aren't inherited from the top level, so they're repeated here.

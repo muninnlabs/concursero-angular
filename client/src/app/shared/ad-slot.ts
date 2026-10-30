@@ -227,7 +227,7 @@ export class AdSlot {
   }
 }
 
-/** Adds adsbygoogle.js once per page load. */
+/** Adds adsbygoogle.js once per page load (index.html already has it, with the same id). */
 function loadAdSense(doc: Document, client: string): void {
   if (doc.getElementById('adsbygoogle-js')) return;
   const script = doc.createElement('script');

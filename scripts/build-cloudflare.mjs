@@ -1,11 +1,12 @@
-// Builds dist-cf/, the static files for the Cloudflare Worker (wrangler.toml):
-//   dist-cf/concursero-angular/                 Angular app built for that base path
-//   dist-cf/concursero-angular/assets/provas/   exam JSON + catalog.json (the Worker's exam index)
-//   dist-cf/concursero-angular/assets/images/   question images (from `npm run sync-assets`)
+// Builds dist-cf/, the static files for the Cloudflare Worker (wrangler.toml), for the app at
+// the root of the domain (BASE_PATH "/"):
+//   dist-cf/                 Angular app
+//   dist-cf/assets/provas/   exam JSON + catalog.json (the Worker's exam index)
+//   dist-cf/assets/images/   question images (from `npm run sync-assets`)
 //
-//   node scripts/build-cloudflare.mjs     (then: npx wrangler deploy)
-//   node scripts/build-cloudflare.mjs --base / --out dist-cf-staging   (staging.concursero.com, at the root:
-//                                                                       npx wrangler deploy --env staging)
+//   node scripts/build-cloudflare.mjs                           (production, then: npx wrangler deploy)
+//   node scripts/build-cloudflare.mjs --out dist-cf-staging     (then: npx wrangler deploy --env staging)
+//   --base /some-path/ builds for a sub-path instead (must match BASE_PATH).
 import { execSync } from 'node:child_process';
 import { parseArgs } from 'node:util';
 import { cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
@@ -13,7 +14,7 @@ import path from 'node:path';
 import { CATEGORY_BY_FOLDER, summarize } from '../server/src/exams/catalog.ts';
 import { withExplanations } from '../server/src/exams/explanations.ts';
 
-const { values } = parseArgs({ options: { base: { type: 'string', default: '/concursero-angular/' }, out: { type: 'string', default: 'dist-cf' } } });
+const { values } = parseArgs({ options: { base: { type: 'string', default: '/' }, out: { type: 'string', default: 'dist-cf' } } });
 /** The public path, without slashes ('' at the root of the domain). Must match BASE_PATH in wrangler.toml. */
 const BASE = values.base.replace(/^\/+|\/+$/g, '');
 const root = path.resolve(import.meta.dirname, '..');

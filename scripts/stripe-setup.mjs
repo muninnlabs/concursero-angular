@@ -1,6 +1,6 @@
 // Creates what the Premium subscription needs in Stripe; safe to run again.
 //
-//   STRIPE_SECRET_KEY=sk_test_… node scripts/stripe-setup.mjs [--webhook https://munninlabs.com/concursero-angular/api/billing/webhook] [--env-out path]
+//   STRIPE_SECRET_KEY=sk_live_… node scripts/stripe-setup.mjs [--webhook https://concursero.com/api/billing/webhook] [--env-out path]
 //
 // 1. Product "Concursero Premium" with a monthly BRL price (lookup key concursero_premium_monthly).
 // 2. Concursero's own customer portal (cancel at period end, change card, invoices), since the
@@ -13,7 +13,7 @@ import { parseArgs } from 'node:util';
 
 const LOOKUP_KEY = 'concursero_premium_monthly';
 const PRICE_CENTS = 1900;
-const SITE = 'https://munninlabs.com/concursero-angular';
+const SITE = 'https://concursero.com';
 const EVENTS = [
   'checkout.session.completed',
   'customer.subscription.created',
