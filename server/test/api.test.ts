@@ -79,6 +79,14 @@ describe('exams', () => {
     assert.equal(body[0].gradableCount, 3);
   });
 
+  test('catalog totals: questions with a key, exams and concursos', async () => {
+    const { body } = await api('GET', '/api/catalog');
+    const exams = body.categories.reduce((sum: number, c: { examCount: number }) => sum + c.examCount, 0);
+    assert.equal(body.examCount, exams);
+    assert.ok(body.gradableQuestions > 0 && body.gradableQuestions <= body.totalQuestions);
+    assert.ok(body.concursoCount > 0 && body.concursoCount <= exams);
+  });
+
   test('never sends the answer key to the browser', async () => {
     const json = JSON.stringify((await api('GET', `/api/exams/${EXAM}`)).body);
     assert.ok(!json.includes('correct_answer'));

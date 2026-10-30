@@ -42,24 +42,26 @@ export class LandingPage {
   /** Where the "start" buttons go: straight to the dashboard when already logged in. */
   protected readonly startLink = computed(() => (this.auth.signedIn() ? '/app' : '/entrar'));
 
-  /** Real question count, rounded down to the thousand ("7.000+"). */
-  protected readonly questionCount = computed(() => {
-    const total = this.catalog()?.totalQuestions;
-    if (!total) return '—';
-    const rounded = total >= 1000 ? Math.floor(total / 1000) * 1000 : total;
-    return `${rounded.toLocaleString('pt-BR')}+`;
+  /** The real numbers from the catalog, rounded down ("79.000+", "1.500+", "300+"). */
+  protected readonly numbers = computed(() => {
+    const catalog = this.catalog();
+    return {
+      questions: roundedDown(catalog?.gradableQuestions),
+      exams: roundedDown(catalog?.examCount),
+      concursos: roundedDown(catalog?.concursoCount),
+    };
   });
 
   protected readonly features: Feature[] = [
     {
       icon: 'list-checks',
-      title: 'Correções Detalhadas',
-      text: 'Cada questão vem com explicação completa e referência legal para você entender o "porquê" da resposta correta.',
+      title: 'Gabarito na Hora',
+      text: 'Veja o gabarito oficial logo depois de responder. As questões da OAB têm comentário com a base legal no Premium.',
     },
     {
       icon: 'chart',
       title: 'Simulados por Assunto',
-      text: 'Monte seu próprio simulado filtrando por banca, ano ou matéria. Foque exatamente no que precisa melhorar.',
+      text: 'Pratique por matéria, instituição ou concurso. Foque exatamente no que precisa melhorar.',
     },
     {
       icon: 'trophy',
@@ -94,4 +96,11 @@ export class LandingPage {
       highlighted: true,
     },
   ];
+}
+
+/** 79.206 → "79.000+", 1.546 → "1.500+", 324 → "300+"; "—" while loading. */
+function roundedDown(total: number | undefined): string {
+  if (!total) return '—';
+  const step = total >= 10_000 ? 1000 : total >= 100 ? 100 : 10;
+  return `${(total >= step ? Math.floor(total / step) * step : total).toLocaleString('pt-BR')}+`;
 }
