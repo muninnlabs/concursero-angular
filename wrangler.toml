@@ -28,8 +28,10 @@ CANONICAL_HOST = "concursero.com"
 # Stripe (scripts/stripe-setup.mjs prints these): the LIVE price and portal configuration,
 # with the live keys as secrets:
 #   npx wrangler secret put STRIPE_SECRET_KEY   /   npx wrangler secret put STRIPE_WEBHOOK_SECRET
-STRIPE_PRICE_ID = "price_LIVE_TODO"
-STRIPE_PORTAL_CONFIG = "bpc_LIVE_TODO"
+# Empty until the live account is approved: without a price ID payments are off (worker.ts) and
+# the payment routes answer 503, whatever secrets the Worker still holds.
+STRIPE_PRICE_ID = ""
+STRIPE_PORTAL_CONFIG = ""
 
 [[d1_databases]]
 binding = "DB"
