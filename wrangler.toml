@@ -29,3 +29,32 @@ binding = "DB"
 database_name = "concursero-angular"
 database_id = "83a493d3-b186-47bf-ad15-59b746091929"
 migrations_dir = "server/migrations"
+
+# Staging at https://staging.concursero.com/ (app at the root of the domain), its own D1 copy:
+#   node scripts/build-cloudflare.mjs --base / --out dist-cf-staging
+#   npx wrangler d1 migrations apply concursero-staging --remote --env staging && npx wrangler deploy --env staging
+# Secrets are per environment: npx wrangler secret put STRIPE_SECRET_KEY --env staging (and STRIPE_WEBHOOK_SECRET).
+# Vars, D1 and assets aren't inherited from the top level, so they're repeated here.
+[env.staging]
+name = "concursero-staging"
+workers_dev = false
+routes = [{ pattern = "staging.concursero.com", custom_domain = true }]
+
+[env.staging.assets]
+directory = "./dist-cf-staging"
+binding = "ASSETS"
+run_worker_first = true
+
+[env.staging.vars]
+FIREBASE_PROJECT_ID = "concursero-8cc5b"
+APP_URL = "https://staging.concursero.com"
+BASE_PATH = "/"
+NOINDEX = "1"
+STRIPE_PRICE_ID = "price_1UUDbTQVPLzWCMbDu8tVh36s"
+STRIPE_PORTAL_CONFIG = "bpc_1UUDbpQVPLzWCMbDccm3TYpP"
+
+[[env.staging.d1_databases]]
+binding = "DB"
+database_name = "concursero-staging"
+database_id = "cf5c40b7-8497-4d92-a12c-a5ef87713c5d"
+migrations_dir = "server/migrations"

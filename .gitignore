@@ -37,5 +37,6 @@ server/.env
 
 # Cloudflare build output and local Wrangler state
 /dist-cf/
+/dist-cf-staging/
 .wrangler/
 redeem-codes*.sql

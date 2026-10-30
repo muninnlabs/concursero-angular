@@ -190,7 +190,18 @@ export function createApp({ exams, store, verifyToken, billing, site, appUrl = '
         questionCount: inCategory.reduce((sum, e) => sum + e.questionCount, 0),
       };
     });
-    return c.json({ totalQuestions: list.reduce((sum, e) => sum + e.questionCount, 0), categories });
+    // The landing page's numbers: questions with an answer key, exams, and concursos (a concurso,
+    // vestibular or residência program; each OAB edition and each ENEM year counts once).
+    const concursos = new Set(
+      list.map((e) => e.concurso?.id ?? (e.category === 'ENEM' ? `ENEM ${e.year}` : e.label.replace(/ · Tipo \d+$/, ''))),
+    );
+    return c.json({
+      totalQuestions: list.reduce((sum, e) => sum + e.questionCount, 0),
+      gradableQuestions: list.reduce((sum, e) => sum + e.gradableCount, 0),
+      examCount: list.length,
+      concursoCount: concursos.size,
+      categories,
+    });
   });
 
   app.get('/exams', async (c) => {

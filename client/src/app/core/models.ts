@@ -31,6 +31,11 @@ export interface Subscription {
 
 export interface Catalog {
   totalQuestions: number;
+  /** Questions with an answer key (what can be practised). */
+  gradableQuestions: number;
+  examCount: number;
+  /** Concursos, vestibulares and residência programs, OAB editions and ENEM years. */
+  concursoCount: number;
   categories: { category: string; examCount: number; questionCount: number }[];
 }
 
