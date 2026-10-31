@@ -29,6 +29,10 @@ export class AdminAds {
   protected readonly saving = signal(false);
   protected readonly image = signal<string | null>(null);
   protected readonly formOpen = signal(false);
+  /** The ad being edited in the form; null = creating a new one. */
+  protected readonly editing = signal<PartnerAd | null>(null);
+  /** Bumped after a save so replaced images aren't served from the browser cache. */
+  private readonly imageVersion = signal(Date.now());
 
   protected readonly today = new Date(Date.now() - 3 * 3_600_000).toISOString().slice(0, 10);
 
@@ -80,30 +84,55 @@ export class AdminAds {
     reader.readAsDataURL(file);
   }
 
-  protected create(event: Event) {
+  protected imageUrl(ad: PartnerAd) {
+    return `api/ads/image/${ad.id}?v=${this.imageVersion()}`;
+  }
+
+  protected openForm(ad: PartnerAd | null) {
+    // Close first so the form's inputs are re-created with the new values.
+    this.formOpen.set(false);
+    this.editing.set(ad);
+    this.image.set(null);
+    this.error.set(null);
+    queueMicrotask(() => this.formOpen.set(true));
+  }
+
+  protected closeForm() {
+    this.formOpen.set(false);
+    this.editing.set(null);
+    this.image.set(null);
+  }
+
+  protected save(event: Event) {
     event.preventDefault();
     const form = event.target as HTMLFormElement;
     const data = new FormData(form);
     const value = (name: string) => String(data.get(name) ?? '').trim() || null;
+    const fields = {
+      advertiser: value('advertiser') ?? '',
+      title: value('title') ?? '',
+      linkUrl: value('linkUrl') ?? '',
+      startsOn: value('startsOn'),
+      endsOn: value('endsOn'),
+    };
+    if (fields.startsOn && fields.endsOn && fields.endsOn < fields.startsOn) {
+      this.error.set('A data de fim deve ser depois do início.');
+      return;
+    }
+    const done = () => {
+      this.imageVersion.set(Date.now());
+      this.closeForm();
+    };
+    const editing = this.editing();
+    if (editing) {
+      this.run(this.api.updateAd(editing.id, { ...fields, ...(this.image() ? { image: this.image()! } : {}) }), done);
+      return;
+    }
     if (!this.image()) {
       this.error.set('Escolha a imagem do anúncio.');
       return;
     }
-    this.run(
-      this.api.createAd({
-        advertiser: value('advertiser') ?? '',
-        title: value('title') ?? '',
-        linkUrl: value('linkUrl') ?? '',
-        startsOn: value('startsOn'),
-        endsOn: value('endsOn'),
-        image: this.image()!,
-      }),
-      () => {
-        form.reset();
-        this.image.set(null);
-        this.formOpen.set(false);
-      },
-    );
+    this.run(this.api.createAd({ ...fields, image: this.image()! }), done);
   }
 
   private run(request: { subscribe: (o: { next: () => void; error: (e: HttpErrorResponse) => void }) => unknown }, done?: () => void) {

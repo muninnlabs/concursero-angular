@@ -46,26 +46,35 @@
 <section class="card panel">
   <div class="panel__head">
     <h2><app-icon name="briefcase" [size]="18" /> Anúncios de parceiros</h2>
-    <button class="btn btn--primary" type="button" (click)="formOpen.set(!formOpen())">{{ formOpen() ? 'Fechar' : 'Novo anúncio' }}</button>
+    <button class="btn btn--primary" type="button" (click)="formOpen() ? closeForm() : openForm(null)">{{ formOpen() ? 'Fechar' : 'Novo anúncio' }}</button>
   </div>
 
   @if (formOpen()) {
-    <form class="form" (submit)="create($event)">
-      <label>Anunciante <input name="advertiser" required maxlength="80" placeholder="Universidade X" /></label>
-      <label>Título <input name="title" required maxlength="120" placeholder="Vestibular 2027: inscrições abertas" /></label>
-      <label class="form__wide">Link <input name="linkUrl" required type="url" placeholder="https://…" /></label>
-      <label>Início <input name="startsOn" type="date" /></label>
-      <label>Fim <input name="endsOn" type="date" /></label>
+    @let ed = editing();
+    <form class="form" (submit)="save($event)">
+      @if (ed) {
+        <p class="form__wide"><strong>Editando:</strong> {{ ed.advertiser }} · {{ ed.title }}</p>
+      }
+      <label>Anunciante <input name="advertiser" required maxlength="80" placeholder="Universidade X" [value]="ed?.advertiser ?? ''" /></label>
+      <label>Título <input name="title" required maxlength="120" placeholder="Vestibular 2027: inscrições abertas" [value]="ed?.title ?? ''" /></label>
+      <label class="form__wide">Link <input name="linkUrl" required type="url" placeholder="https://…" [value]="ed?.linkUrl ?? ''" /></label>
+      <label>Início <input name="startsOn" type="date" [value]="ed?.startsOn ?? ''" /></label>
+      <label>Fim <input name="endsOn" type="date" [value]="ed?.endsOn ?? ''" /></label>
       <label class="form__wide">
-        Imagem (PNG, JPG, WebP ou GIF, até 500 KB)
+        {{ ed ? 'Nova imagem (opcional — deixe vazio para manter a atual)' : 'Imagem' }} (PNG, JPG, WebP ou GIF, até 500 KB)
         <input type="file" accept="image/png,image/jpeg,image/webp,image/gif" (change)="pickImage($event)" />
         <small>Sugestão: 1456 × 180 para os banners largos e 600 × 500 para os quadrados.</small>
       </label>
       @if (image(); as src) {
         <img class="form__preview" [src]="src" alt="Prévia do anúncio" />
+      } @else if (ed) {
+        <img class="form__preview" [src]="imageUrl(ed)" alt="Imagem atual do anúncio" />
       }
       <div class="form__wide">
-        <button class="btn btn--primary" type="submit" [disabled]="saving()">{{ saving() ? 'Salvando…' : 'Salvar anúncio' }}</button>
+        <button class="btn btn--primary" type="submit" [disabled]="saving()">{{ saving() ? 'Salvando…' : ed ? 'Salvar alterações' : 'Salvar anúncio' }}</button>
+        @if (ed) {
+          <button class="btn btn--ghost" type="button" [disabled]="saving()" (click)="closeForm()">Cancelar</button>
+        }
       </div>
     </form>
   }
@@ -76,7 +85,7 @@
         @let s = status(ad);
         @let st = adStats().get(ad.id);
         <li class="ad">
-          <img [src]="'api/ads/image/' + ad.id" [alt]="ad.title" loading="lazy" />
+          <img [src]="imageUrl(ad)" [alt]="ad.title" loading="lazy" />
           <div class="ad__info">
             <strong>{{ ad.advertiser }} · {{ ad.title }}</strong>
             <a [href]="ad.linkUrl" target="_blank" rel="noopener">{{ ad.linkUrl }}</a>
@@ -84,6 +93,7 @@
           </div>
           <span class="tag tag--{{ s.tone }}">{{ s.label }}</span>
           <div class="ad__actions">
+            <button class="btn btn--soft" type="button" [disabled]="saving()" (click)="openForm(ad)">Editar</button>
             <button class="btn btn--soft" type="button" [disabled]="saving()" (click)="toggle(ad)">{{ ad.active ? 'Pausar' : 'Retomar' }}</button>
             <button class="btn btn--ghost" type="button" [disabled]="saving()" (click)="remove(ad)"><app-icon name="trash" [size]="16" /><span class="sr-only">Excluir</span></button>
           </div>
