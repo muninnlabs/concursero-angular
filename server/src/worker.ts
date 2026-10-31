@@ -32,10 +32,16 @@ interface Env {
 
 let api: ReturnType<typeof createApp> | undefined;
 
+/** Firebase Auth's sign-in pages, served from our own domain (see client core/firebase.ts). */
+const FIREBASE_AUTH_ORIGIN = 'https://concursero-8cc5b.firebaseapp.com';
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const moved = redirectToCanonical(new URL(request.url), env.CANONICAL_HOST);
     if (moved) return Response.redirect(moved, 301);
+    const url = new URL(request.url);
+    if (url.pathname.startsWith('/__/auth/') || url.pathname.startsWith('/__/firebase/'))
+      return fetch(new Request(FIREBASE_AUTH_ORIGIN + url.pathname + url.search, request));
     const response = await handle(request, env);
     if (env.NOINDEX !== '1') return response;
     const tagged = new Response(response.body, response);
