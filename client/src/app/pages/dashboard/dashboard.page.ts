@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject, input } from '@angular/core';
 import { rxResource } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { ApiService } from '../../core/api.service';
@@ -38,6 +38,16 @@ export class DashboardPage {
   protected readonly categoryState = inject(CategoryState);
   protected readonly categories = CATEGORIES;
   private readonly concursoFilter = inject(ConcursoFilterState);
+
+  /** ?categoria=OAB (links from the site footer): open the dashboard on that exam type. */
+  readonly categoria = input<string>();
+
+  constructor() {
+    effect(() => {
+      const id = this.categoria()?.toUpperCase();
+      if (id && this.isAvailable(id) && id !== this.categoryState.selected()) this.categoryState.select(id);
+    });
+  }
 
   /** Concursos, Vestibulares and Residência have a level / state / ... filter; it applies to that category's practice only. */
   protected readonly hasFilter = computed(() =>
