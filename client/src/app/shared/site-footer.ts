@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { CATEGORIES } from '../core/categories';
 import { Icon } from './icon';
 import { Logo } from './logo';
 
@@ -17,9 +18,9 @@ import { Logo } from './logo';
         </div>
         <div>
           <h4>Produto</h4>
-          <a routerLink="/entrar">ENEM</a>
-          <a routerLink="/entrar">OAB</a>
-          <a routerLink="/entrar">Concursos</a>
+          @for (c of categories; track c.id) {
+            <a routerLink="/app" [queryParams]="{ categoria: c.id }">{{ c.label }}</a>
+          }
           <a routerLink="/ajuda">Ajuda</a>
         </div>
         <div>
@@ -63,4 +64,6 @@ import { Logo } from './logo';
 })
 export class SiteFooter {
   protected readonly year = new Date().getFullYear();
+  /** ENEM, OAB, Concursos, Vestibulares, Residência Médica: each opens the dashboard on that exam type (after sign-in). */
+  protected readonly categories = CATEGORIES.filter((c) => c.available);
 }
