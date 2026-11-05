@@ -69,7 +69,7 @@ export interface Question {
   explanation?: string | null;
   /** For a generated explanation: how the law changed since the exam, if it did. */
   explanation_note?: string | null;
-  /** The explanation was written by AI (scripts/explain-oab.mjs), not by the banca. */
+  /** The explanation was written by AI (scripts/explain.mjs), not by the banca. */
   explanation_ai?: boolean;
 }
 

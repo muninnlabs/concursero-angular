@@ -1,6 +1,6 @@
 import type { ExamFile } from './types.ts';
 
-/** A comment written by scripts/explain-oab.mjs, kept in assets/explanations/<folder>.json by question id. */
+/** A comment written by scripts/explain.mjs, kept in assets/explanations/<folder>.json by question id. */
 export interface GeneratedExplanation {
   explanation: string;
   /** What changed in the law since the exam, if anything. */
