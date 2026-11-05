@@ -1,8 +1,8 @@
-// Writes an explanation ("comentário") for each OAB question with Claude, through
-// the Message Batches API. Results go to assets/explanations/oab.json, keyed by
+// Writes an explanation ("comentário") for each question of an exam folder (oab, residencia) with
+// Claude, through the Message Batches API. Results go to assets/explanations/<folder>.json, keyed by
 // question id, rather than into the exam files: sync-assets overwrites those.
 //
-//   node --env-file=<file with ANTHROPIC_API_KEY> scripts/explain-oab.mjs <command>
+//   node --env-file=<file with ANTHROPIC_API_KEY> scripts/explain.mjs <folder> <command>
 //     try <question-id>      one synchronous request, printed (for prompt tuning)
 //     run --sample 50        like submit, but now, with direct requests (full price, no queue)
 //     submit --sample 50     a batch with N questions spread across subjects and years
@@ -21,19 +21,25 @@ const PRICE = { input: 2, output: 10 };
 const CONCURRENCY = 5;
 
 const root = path.resolve(import.meta.dirname, '..');
-const examDir = path.join(root, 'assets', 'provas', 'oab');
-const outDir = path.join(root, 'assets', 'explanations');
-const outFile = path.join(outDir, 'oab.json');
-const batchFile = path.join(outDir, 'oab.batches.json');
 
-const API = 'https://api.anthropic.com/v1';
-const apiKey = process.env.ANTHROPIC_API_KEY;
-if (!apiKey) {
-  console.error('ANTHROPIC_API_KEY is not set (use node --env-file=<file>).');
-  process.exit(1);
-}
+const SCHEMA = {
+  type: 'object',
+  properties: {
+    explanation: { type: 'string', description: 'O comentário, em português.' },
+    update_note: {
+      type: ['string', 'null'],
+      description: 'Se a regra mudou desde a prova (lei, jurisprudência, diretriz), o que mudou e como fica a resposta hoje; senão null.',
+    },
+    agrees_with_key: { type: 'boolean', description: 'false se o gabarito oficial parece errado.' },
+    confidence: { type: 'string', enum: ['alta', 'media', 'baixa'] },
+  },
+  required: ['explanation', 'update_note', 'agrees_with_key', 'confidence'],
+  additionalProperties: false,
+};
 
-const SYSTEM = `Você é professor de um cursinho preparatório para o Exame de Ordem (OAB) e escreve o comentário de questões objetivas da 1ª fase para os alunos.
+const PROFILES = {
+  oab: {
+    SYSTEM: `Você é professor de um cursinho preparatório para o Exame de Ordem (OAB) e escreve o comentário de questões objetivas da 1ª fase para os alunos.
 
 Recebe a questão, as alternativas e o gabarito oficial da FGV. O gabarito oficial é a referência: explique por que a alternativa indicada está correta.
 
@@ -46,22 +52,46 @@ O comentário deve:
 
 A prova foi aplicada no ano informado. Se a legislação ou a jurisprudência mudou depois disso de um modo que mudaria a resposta ou o fundamento (por exemplo, o CPC de 2015, a Reforma Trabalhista de 2017, o Pacote Anticrime, a Lei 14.133/2021, a EC 103/2019), explique a questão segundo o direito da época e descreva a mudança em "update_note".
 
-Se você concluir que o gabarito oficial está errado ou que a questão não tem resposta correta, explique mesmo assim o raciocínio da banca e marque "agrees_with_key" como false.`;
-
-const SCHEMA = {
-  type: 'object',
-  properties: {
-    explanation: { type: 'string', description: 'O comentário, em português.' },
-    update_note: {
-      type: ['string', 'null'],
-      description: 'Se a lei ou a jurisprudência mudou desde a prova, o que mudou e como fica a resposta hoje; senão null.',
-    },
-    agrees_with_key: { type: 'boolean', description: 'false se o gabarito oficial parece errado.' },
-    confidence: { type: 'string', enum: ['alta', 'media', 'baixa'] },
+Se você concluir que o gabarito oficial está errado ou que a questão não tem resposta correta, explique mesmo assim o raciocínio da banca e marque "agrees_with_key" como false.`,
   },
-  required: ['explanation', 'update_note', 'agrees_with_key', 'confidence'],
-  additionalProperties: false,
+  residencia: {
+    SYSTEM: `Você é professor de um cursinho preparatório para provas de residência médica e escreve o comentário de questões objetivas para os alunos.
+
+Recebe a questão, as alternativas e o gabarito oficial da instituição. O gabarito oficial é a referência: explique por que a alternativa indicada está correta.
+
+O comentário deve:
+- começar dizendo qual é a alternativa correta e o raciocínio clínico principal (diagnóstico, fisiopatologia, conduta), em linguagem clara;
+- apoiar a resposta nas diretrizes, consensos e protocolos aceitos (Ministério da Saúde, sociedades brasileiras de especialidade, OMS e diretrizes internacionais de referência), citando-os pelo nome e ano quando tiver certeza; nunca invente diretrizes, estudos, números de portarias ou valores de referência;
+- explicar em seguida, de forma breve, por que cada uma das outras alternativas está errada;
+- ter entre 120 e 300 palavras, em parágrafos curtos separados por uma linha em branco, sem markdown, títulos ou listas;
+- não mencionar que foi escrito por IA, não repetir o enunciado e não comentar a especialidade em que a questão foi classificada.
+
+A prova foi aplicada no ano informado. Se uma diretriz, protocolo, calendário vacinal, critério diagnóstico ou norma do SUS mudou depois disso de um modo que mudaria a resposta ou a conduta, explique a questão segundo o que valia na época e descreva a mudança em "update_note".
+
+Se o texto de apoio trouxer outro caso clínico que não é o desta questão, ignore-o. Se a questão depender de uma imagem que não foi fornecida, explique o que for possível e marque "confidence" como "baixa".
+
+Se você concluir que o gabarito oficial está errado ou que a questão não tem resposta correta, explique mesmo assim o raciocínio da banca e marque "agrees_with_key" como false.`,
+  },
 };
+
+const [folder, command, ...args] = process.argv.slice(2);
+const profile = PROFILES[folder];
+if (!profile) {
+  console.error(`Usage: scripts/explain.mjs <${Object.keys(PROFILES).join('|')}> <command>`);
+  process.exit(1);
+}
+const { SYSTEM } = profile;
+const examDir = path.join(root, 'assets', 'provas', folder);
+const outDir = path.join(root, 'assets', 'explanations');
+const outFile = path.join(outDir, `${folder}.json`);
+const batchFile = path.join(outDir, `${folder}.batches.json`);
+
+const API = 'https://api.anthropic.com/v1';
+const apiKey = process.env.ANTHROPIC_API_KEY;
+if (!apiKey) {
+  console.error('ANTHROPIC_API_KEY is not set (use node --env-file=<file>).');
+  process.exit(1);
+}
 
 async function api(method, url, body) {
   const res = await fetch(url.startsWith('http') ? url : API + url, {
@@ -105,7 +135,7 @@ async function loadQuestions() {
 }
 
 function promptFor(q) {
-  const lines = [`Exame: ${q.exam.exam_name.trim()} (${q.exam.year})`, `Disciplina: ${q.subject ?? 'não informada'}`, ''];
+  const lines = [`Exame: ${q.exam.exam_name.trim()} (${q.exam.year})`, `${folder === 'residencia' ? 'Especialidade' : 'Disciplina'}: ${q.subject ?? 'não informada'}`, ''];
   for (const t of q.context_texts ?? []) {
     lines.push([t.title, t.content, t.source].filter(Boolean).join('\n'), '');
   }
@@ -151,7 +181,6 @@ function sample(questions, n) {
   return picked;
 }
 
-const [command, ...args] = process.argv.slice(2);
 const done = await readJson(outFile, {});
 const batches = await readJson(batchFile, []);
 
@@ -234,6 +263,6 @@ if (command === 'try') {
   await writeJson(outFile, Object.fromEntries(Object.entries(done).sort(([a], [b]) => a.localeCompare(b))));
   await writeJson(batchFile, batches);
 } else {
-  console.error('Commands: try <id> | run|submit --sample N | run|submit --all | status | collect');
+  console.error('Commands: <folder> try <id> | run|submit --sample N | run|submit --all | status | collect');
   process.exit(1);
 }
